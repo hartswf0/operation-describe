@@ -83,6 +83,7 @@ This is the world where the human-machine interface is the **prompt** — a ling
 - [[concept-viscosity]] — the craft of prompting is the skill of modulating the latent space's viscosity: knowing when to grip and when to yield
 - [[world-oral-formulaic-generation]] — the Homeric singer's formulaic repertoire is the ancestor of prompt craft: metrically fitted patterns deployed in real-time composition
 - [[world-embodied-description]] — body prompting extends prompt craft from the keyboard to the whole body
+- [[world-latent-interaction-design]] — the operating rules that lie beyond craft. Craft names the turn; LID writes the sixteen rules of disciplined trial.
 
 ---
 

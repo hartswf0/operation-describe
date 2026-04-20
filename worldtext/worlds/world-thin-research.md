@@ -227,6 +227,7 @@ ETHICS:       Moral high ground (distance)     Mud literacy (contact)
 - [[concept-platform-realism]] — the hydrologic reality: navigation, not command.
 - [[distinction-thick-thin]] — applied reflexively to the research enterprise itself
 - [[place-latent-space]] — the terrain. The sediment. The mangrove. The ocean.
+- [[world-latent-interaction-design]] — the operating manual. This world diagnoses; Latent Wrestling prescribes; LID writes the rules of engagement.
 
 ---
 

@@ -53,6 +53,7 @@
 | [[world-latent-wrestling]] | The latent space as Arena; deep play, mud literacy, Songline navigation | latent-wrestling-world | galaxy-of-generative-ai-worlds ↔ galaxy-of-thick-description-worlds | 2026-04-17 |
 | [[world-thin-research]] | Diagnosis: HCI invokes thickness but delivers only thin extraction | thin-research-world | system-thick-description | 2026-04-17 |
 | [[world-operative-ethnography]] | Where configured observation selects from latent potential, stages encounter, renders worldtext, and recirculates | operative-ethnography-world | system-thick-description ↔ system-operative-ekphrasis | 2026-04-20 |
+| [[world-latent-interaction-design]] | Operating manual: 16 rules for studying prompting as embodied relational steering through volatile latent fields | latent-interaction-design-world | system-prompt-engineering ↔ system-thick-description | 2026-04-20 |
 
 ## 🏛️ PLACES
 
@@ -205,7 +206,9 @@ See [[worldtext/taxonomies/world-types.md]] for full taxonomy.
 | [[question-operative-observer]] | What is the difference between participant observation and operative observation, and when does the latter become necessary? | 2026-04-20 |
 | [[question-synthetic-place]] | Is latent space a place? If so, what kind of place — and what ontology does it require? | 2026-04-20 |
 | [[question-worldtext-viscosity]] | Does a persistent worldtext develop its own viscosity, its own platform mean, its own twelve lighthouses? | 2026-04-20 |
+| [[question-encounter-trace]] | Can the encounter trace — prompt, output, correction, comparison, outcome — replace the interview as HCI's unit of analysis for generative systems? | 2026-04-20 |
+| [[question-water-literacy]] | What curriculum produces water literacy — the embodied competence of repeated crossings — instead of map literacy? | 2026-04-20 |
 
 ---
 
-*Atlas last compiled: 2026-04-20 (operative ethnography ingest). Next scheduled lint: on next ingest.*
+*Atlas last compiled: 2026-04-20 (latent interaction design ingest). Next scheduled lint: on next ingest.*

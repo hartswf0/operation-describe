@@ -261,6 +261,7 @@ POLITICS:     Usability janitor for ML         Citizen of the generative epoch
 - [[place-balinese-cockfight]] — the Arena's ancestor. Deep play. The stakes that make the game real.
 - [[world-latent-space]] — elevated here from vector manifold to wild culture, from technical abstraction to sedimentary medium.
 - [[atmosphere-prompt-anxiety]] — the anxiety the Arena does not eliminate but transforms into productive tension.
+- [[world-latent-interaction-design]] — the operating manual. This world builds the Arena; LID writes the sixteen rules of engagement and formalizes the encounter trace.
 
 ---
 
