@@ -1,0 +1,424 @@
+# A Word is Worth a Thousand Pictures: Prompts as {AI
+# Source: 2303.html
+# BibTeX key: kulkarni_word_2023
+# Zotero dir: 3341
+# Extracted chars: 3803
+# Format: HTML
+============================================================
+
+Skip to main content
+ 
+ 
+ 
+ 
+ 
+
+ We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors.
+ Donate
+ 
+
+ 
+
+ 
+
+ 
+ > cs > arXiv:2303.12647v1
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Help | Advanced Search
+
+ 
+
+ 
+ 
+ 
+ All fields
+ Title
+ Author
+ Abstract
+ Comments
+ Journal reference
+ ACM classification
+ MSC classification
+ Report number
+ arXiv identifier
+ DOI
+ ORCID
+ arXiv author ID
+ Help pages
+ Full text
+ 
+ 
+
+ 
+
+ 
+ Search
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ Computer Science > Human-Computer Interaction
+
+ 
+
+ 
+ (cs)
+ 
+
+ 
+ 
+ [Submitted on 22 Mar 2023]
+
+ Title:A Word is Worth a Thousand Pictures: Prompts as AI Design Material
+
+ Authors:Chinmay Kulkarni, Stefania Druga, Minsuk Chang, Alex Fiannaca, Carrie Cai, Michael Terry
+ View a PDF of the paper titled A Word is Worth a Thousand Pictures: Prompts as AI Design Material, by Chinmay Kulkarni and 4 other authors
+
+ View PDF
+ 
+ Abstract:Recent advances in Machine-Learning have led to the development of models that generate images based on a text this http URL large prompt-based text to image models (TTIs), trained on a considerable amount of data, allow the creation of high-quality images by users with no graphics or design training. This paper examines the role such TTI models can playin collaborative, goal-oriented design. Through a within-subjects study with 14 non-professional designers, we find that such models can help participants explore a design space rapidly and allow for fluid collaboration. We also find that text inputs to such models ("prompts") act as reflective design material, facilitating exploration, iteration, and reflection in pair design. This work contributes to the future of collaborative design supported by generative AI by providing an account of how text-to-image models influence the design process and the social dynamics around design and suggesting implications for tool design
+ 
+ 
+ 
+ 
+ Comments:
+ 22 pages, 5 figures
+ 
+
+ Subjects:
+ 
+ Human-Computer Interaction (cs.HC)
+ 
+ Cite as:
+ arXiv:2303.12647 [cs.HC]
+ 
+
+ 
+  
+ (or 
+ arXiv:2303.12647v1 [cs.HC] for this version)
+ 
+ 
+
+ 
+  
+ https://doi.org/10.48550/arXiv.2303.12647
+ 
+ 
+ Focus to learn more
+ 
+ 
+ 
+ arXiv-issued DOI via DataCite
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ Submission history
+ From: Minsuk Chang [view email] [v1]
+ Wed, 22 Mar 2023 15:28:37 UTC (22,571 KB)
+
+ 
+
+ 
+ 
+ 
+ Full-text links:
+ Access Paper:
+
+ 
+ 
+View a PDF of the paper titled A Word is Worth a Thousand Pictures: Prompts as AI Design Material, by Chinmay Kulkarni and 4 other authors
+View PDFTeX Source
+ 
+ 
+ 
+ view license
+ 
+
+ 
+
+ 
+ Current browse context: cs.HC
+
+ 
+
+ < prev
+ 
+   |   
+ next >
+ 
+ 
+
+ new
+ | 
+ recent
+ | 2023-03
+ 
+
+ Change to browse by:
+ 
+ cs
+ 
+
+ 
+
+ 
+
+ 
+ References & Citations
+
+ 
+ NASA ADSGoogle Scholar
+
+ Semantic Scholar
+
+ 
+ 
+
+ 
+
+ export BibTeX citation
+ Loading...
+
+ 
+
+ Bookmark
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ Bibliographic Tools
+ 
+ Bibliographic and Citation Tools
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Bibliographic Explorer Toggle
+ 
+ 
+
+ 
+ Bibliographic Explorer (What is the Explorer?)
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Connected Papers Toggle
+ 
+ 
+
+ 
+ Connected Papers (What is Connected Papers?)
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ Litmaps Toggle
+ 
+ 
+
+ 
+ Litmaps (What is Litmaps?)
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ scite.ai Toggle
+ 
+ 
+
+ 
+ scite Smart Citations (What are Smart Citations?)
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ Code, Data, Media
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Demos
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Related Papers
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ About arXivLabs
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ Which authors of this paper are endorsers? |
+ Disable MathJax (What is MathJax?)
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About
+
+ Help
+
+ 
+ 
+
+ 
+ 
+ 
+ contact arXivClick here to contact arXiv
+ Contact
+ 
+
+ 
+ subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Copyright
+
+ Privacy Policy
+
+ 
+ 
+
+ 
+ 
+ Web Accessibility Assistance
+
+ 
+ 
+ arXiv Operational Status

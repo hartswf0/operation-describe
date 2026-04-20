@@ -1,0 +1,510 @@
+# Ekphrasis as Misrepresentation
+# Source: Kafalenos - 2018 - Ekphrasis as Misrepresentation.pdf
+# BibTeX key: kafalenos_ekphrasis_2018
+# Zotero dir: 3120
+# Extracted chars: 33275
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Ekphrasis as Misrepresentation:
+From Balzac’s Sarrasine to Corta´zar’s “Grafﬁti”
+Emma Kafalenos
+Washington University in St. Louis
+Abstract
+The proliferation of (copies of ) images in recent decades facilitates viewing
+the image to which an ekphrastic text responds. Typically, I have argued previously
+(Poetics Today 33, no. 1: 27 – 57), whenever readers of an ekphrasis view the visual artwork
+to which the ekphrasis is a response, they become aware that the ekphrasis they would
+have written would be different from the one they are reading. I do not think that this
+response to an ekphrasis and the image it re-represents is new. But in addition to the
+increasing availability of images, something else occurred during recent decades. The-
+orists in several fields investigated the complex cognitive process of looking at a visual
+artwork and responding to it verbally. The resultant findings about visual represen-
+tation and cognitive responses to visual representation are new. We now know, I argue
+here, that ekphrasis unavoidably misrepresents the image to which it responds —
+largely as a result of the polysemy of the image, the dissimilarity of images and words,
+and the perspectival montage in ekphrasis. With this knowledge, we read ekphrases
+with a new sophistication. And once readers understand that ekphrasis misrepresents,
+writers, in response, can institute new effects.
+Keywords
+ekphrasis, epistemology, image, polysemy, quotation
+The proliferation of (copies of) images in recent decades facilitates viewing
+the image to which an ekphrastic text responds. Typically, I have claimed
+previously (Kafalenos 2012), whenever readers of an ekphrasis view the visual
+artwork to which the ekphrasis is a response, they become aware that the
+ekphrasis they would have written would be different from the one they are
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324456
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+reading. I do not think that this response to an ekphrasis and the image it
+re-represents is new. But in addition to the increasing availability of images,
+something else occurred during recent decades. Theorists in several fields
+investigated the complex cognitive process of looking at a visual artwork and
+responding to it verbally. The resultant findings about visual representation
+and cognitive responses to visual representation are new. We now know,
+I argue, that ekphrasis unavoidably misrepresents the image to which it
+responds, and we can distinguish aspects of the cognitive process that make
+the misrepresentation inevitable. With this knowledge, we read ekphrases
+with a new sophistication. Instead of reading an ekphrasis we would not have
+written and wondering how the writer could possibly have seen that, we can
+now read an ekphrasis we would not have written and be aware of the
+sequence of cognitive steps, in any one of which other viewers’ experiences
+are apt to differ from our own.
+This new knowledge, I argue, now informs writers,’ as well as readers,’
+ideas about ekphrasis. I begin this essay by looking at Honore´ de Balzac’s
+Sarrasine (initially published in French in 1830), which, well before the age of
+cognitive studies, draws attention to a painting that we know received at least
+two interpretations: the painter’s and Balzac’s. Next—and as what I see as the
+primary focus of my essay—I categorize and describe what seem to me the
+most pertinent findings for understanding why, and how, ekphrasis mis-
+represents. Finally, I consider Julio Corta´zar’s “Graffiti” (initially published
+in French in 1979 and in Corta´zar’s native Spanish in 1981) as an example of
+the effects available to a writer familiar with the new knowledge about the
+cognitive process that produces ekphrasis.
+In Sarrasine, the portrait that is described by a female character as “too
+beautiful for a man” (Balzac 1974 [1830]: 232) is identified by the story’s
+narrator as the model for “Girodet’s Endymion” (ibid.: 253). The French
+painter Anne-Louis Girodet’s The Sleep of Endymion (painted in 1791, shown
+in Paris in the Salons of 1793 and 1814, and acquired by the Louvre in 1818)
+depicts a sleeping male figure lying on his back, largely in shadows but with
+his upper body illuminated by moonlight. According to (the most pertinent
+version of ) the Greek myth, Endymion is a mortal shepherd who sleeps by the
+grace of Zeus to retain his beauty. He is beloved by Selene, goddess of the
+moon, who makes nightly visits in the form of moonlight: the couple is said to
+have produced fifty daughters. A title that names an element in a painting is
+itself a mini-ekphrasis. By titling the painting as he did, Girodet expresses his
+interpretation that the depicted figure is Endymion: a virile male, the chosen
+lover of a goddess.
+We know that Balzac, when he saw the painting (he lived in Paris from
+1814, when he moved there with his family), interpreted it differently. His
+288
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+novella Sarrasine can be read as an ekphrastic response to Girodet’s painting,
+as can the story Sarrasine’s narrator tells the female character who thought the
+model for the Endymion “too beautiful for a man.” In the story, the young and
+naı¨ve French sculptor Sarrasine goes to Rome, where, at the opera, the prima
+donna, whom he sees and hears sing, seems to him “the ideal beauty he had
+hitherto sought in life,” the epitome of “woman herself ” (ibid.: 237–38, 248).
+What Sarrasine does not know is that in Italy at the time, female roles in
+operas were typically sung by castrati. The reclining figure that Girodet
+paints to represent ideal male beauty is interpreted by Balzac as a castrato.
+Among the initial readers of Sarrasine who lived in Paris, surely a number
+were already familiar with the Endymion or, if they were not, visited the Louvre
+to see the painting after reading the novella. Even in 1830, readers of Sarrasine
+who had seen Girodet’s Endymion must have recognized that the story Bal-
+zac’s narrator tells about the fictional painting that in the novella is the model
+for the real Endymion was a different story from the one that the title of the
+Endymion denotes. Some who read the novella and saw the painting must
+surely have wondered how Balzac had interpreted the depicted masculine
+recumbent figure as a castrato. But recognizing differences is one thing; no
+one in 1830 is responding to the differences between the two stories by devel-
+oping theories about visual perception.
+Arguably the first to do that is Roland Barthes, who, as early as 1964,
+announced the polysemy of the image (Barthes 1977 [1964]) and, in S/Z: An
+Essay, the book in which he demonstrates how to read a classic text in order
+“to appreciate what plural constitutes it” (1974 [1970]: 5), takes Sarrasine as his
+example. In S/Z, referring to the Endymion, Barthes draws attention to “what
+must be seen, inspected: the sexual member, shadowed in the Girodet, as it
+is in La Zambinella [the name of the castrato in Sarrasine], mutilated by
+castration” (ibid.: 70). Barthes’s description of the painting explains the visual
+polysemy that enables the two interpretations: the shadowed lower torso that
+can be seen both as covering Endymion’s maleness and as hiding the castra-
+to’s lack.
+Ekphrasis, as I use the term, is a verbal re-representation of a visual rep-
+resentation. In what follows I look at aspects of ekphrasis that seem to me to
+make inevitable that the verbal re-representation will misrepresent the visual
+representation to which it responds. I organize these aspects into three cat-
+egories: the polysemy of the image, the dissimilarity of images and words, and
+the perspectival montage in ekphrasis. This organization and selection is a
+personal distillation of decades of reading and thinking about inter-art rela-
+tions. I offer it as my understanding of the epistemological status of ekphrasis.
+Kafalenos
+† Ekphrasis as Misrepresentation
+289
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+1. The Polysemy of the Image
+In “Rhetoric of the Image,” published in 1964, Barthes tells us that “all
+images are polysemous; they imply, underlying their signifiers, a ‘floating
+chain’ of signifieds, the reader able to choose some and ignore others” (1977
+[1964]: 39). In this statement, Barthes recognizes the correlation between the
+polysemy of the object being read and the availability of multiple readings.
+In the essay, he moves on to explore specific aspects of the viewed object to
+which viewers’ responses can vary.1 In this early analysis he distinguishes
+three types of messages an image sends and explains, for each of the three,
+the knowledge an individual must have to receive the message. The three
+types are a coded iconic message, a noncoded iconic message, and (where
+there is one, for instance as title or caption) a linguistic message (ibid.: 36).
+The linguistic message is received only by those who know the language in
+which it is written. The two iconic messages are sent by the same image and
+perceived simultaneously but may be read differently. The noncoded iconic
+message, Barthes specifies, requires only knowing what an image is and what
+the depicted objects are, whereas the coded iconic message requires the per-
+ceivertodrawuponprevious cultural experiences.Becauseindividuals’ knowl-
+edge and experience vary, the message they receive will also vary.
+A. Kibe´di Varga concludes his analysis of image/text relations by consid-
+ering the effects of polysemy. Distinguishing according to sequence what he
+calls “secondary word-and-image relations,” he writes: “If the word precedes
+the image, we speak of illustration. . . . If the image precedes the word, the term
+used is ekphrasis” (1989: 43). In secondary relations, he writes, “What comes
+first is necessarily unique; what comes after can be multiplied. One image can
+be the source of many texts and one text can inspire many painters.” To
+explain the multiplication that he recognizes, he tells us that each interpreter
+selects and decides what to include: “illustrations and ekphrasis . . . are just
+different modes of interpretation. The interpreter is never an exact translator;
+he selects and judges. And this, precisely, happens whenever a poet speaks of
+a painting or a painter illustrates a poem” (ibid.: 44).
+Citing and expanding Kibe´di Varga’s analysis of one-to-many relations,
+Tamar Yacobi distinguishes four relations between visual source and
+ekphrastic response: (1) one to one, (2) one to many, (3) many to one, and
+1. “Rhetoric of the Image” was published in 1964, four years before “The Death of the
+Author,” the essay in which Barthes declares that the birth of the reader comes at the cost of
+the death of the author: in other words, the reader acquires the power to determine meaning by
+taking it from the author. We might surmise that Barthes was inspired by the polysemy of the
+image and the resultant multiple interpretations it permits to read literature as similarly poly-
+semous and nearly as open to more than one interpretation — and thus that the polysemy of the
+image may have engendered the whole poststructuralist enterprise.
+290
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+(4) many to many (1995: 602). One image can be the source of one (one to one)
+or multiple (one to many) ekphrases. But so too can what she calls pictorial
+models be the source of one (many to one) or multiple (many to many) ekphra-
+ses. A pictorial model is an imagined image, often a composite; it is a more
+common subject of ekphrasis than anyone recognized until Yacobi named
+it. Her examples include “a Madonna with child” or “a Turner seascape”
+(ibid.: 599). When the object to which an ekphrasis responds is a pictorial
+model, the specific composite exists only for the writer and only as a mental
+image, which may not be detailed, and probably fluctuates over time. For
+these reasons, the pictorial model has polysemous attributes that exceed those
+of the individual image.
+To create a pictorial model, the writer of an ekphrasis adds image to
+image. To narrativize a visual object, the writer of an ekphrasis adds scenes
+from other times, either prior or subsequent to the one depicted, or both.
+When more than one person or narrator or character narrativizes a given
+image, the things that happen in one narrativizer’s account may be different
+from the things that happen in another narrativizer’s account. In Girodet’s
+Endymion, as we have seen, the portrayed figure is presented by the painter as
+the beloved of Selene, with whom she engenders multiple children. The same
+figure is read by Balzac and his narrator as the castrato whose beauty and
+beautiful singing make Sarrasine fall in love with the woman she seems to him
+to be. In earlier work I have claimed that what a narrativizer chooses to add
+can be interpreted like a Rorschach test and that ekphrastic narrativization,
+when created by characters, is an effective strategy for conveying aspects of
+characters’ personality, including changes in their mental state over time
+(Kafalenos 2012: 35). Narrativized accounts that differ are strong demon-
+strations of the polysemy of the image.
+2. The Dissimilarity of Images and Words
+The polysemy of the image enables multiple ekphrastic responses, thus any
+given response is at best an incomplete re-representation of the image. But
+the polysemy of the image is not the only reason that ekphrasis misrepresents
+the visual object to which it responds. Michel Foucault, who writes page after
+page describing Vela´zquez’s Las meninas (The Maids of Honor) in The Order of
+Things, ultimately recognizes that readers of his text who have not seen the
+painting cannot envision what it looks like. In his words, “the relation of
+language to painting is an infinite relation. It is not that words are imperfect,
+or that, when confronted by the visible, they prove insuperably inadequate.
+Neither can be reduced to the other’s terms: it is in vain that we say what
+we see; what we see never resides in what we say” (Foucault 1973 [1966]: 9).
+Kafalenos
+† Ekphrasis as Misrepresentation
+291
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+This would seem the core truth of the relation between image and language:
+that as much as one can say about a visual representation, one cannot con-
+vey in words what one sees. The powers of the two media are different. While
+both are expressive, they express different things in different ways.
+The psychoanalyst Donald P. Spence, responding to the passage by Fou-
+cault that I cite, concurs with Foucault that “words . . . will invariably mis-
+represent the image” but makes the further claim that “the very attempt to
+translate the image will destroy it because . . . the translation, no matter how
+approximate, will tend to replace the original” (1982: 56). In explanation,
+Spence argues that “any descriptive term will place an image into a category
+to which it only partly belongs.” Then, “once a particular term is chosen . . .
+this term will arouse its own network of associations and these, if they are
+sufficiently compelling, will tend to supplant the image” (ibid.: 57). The loss of
+the image is crucial in psychoanalysis, Spence points out, because in psycho-
+analysis the patient translates into language images from an often preverbal
+past and from typically nonverbal dreams. For the analyst, the images are
+never available for comparison to the descriptions, and, for the patient,
+Spence argues, “once [the images] are ‘swallowed up’ by a particular descrip-
+tion, they are probably lost forever” (ibid.).
+Spence is influenced by Roland Barthes, who argues that language is a
+technique to “fix” the meaning of an image (to “fix” in the French sense, to
+make immobile, to control the polysemy) (1977 [1964]: 39). In “The Photo-
+graphic Message” Barthes describes the photograph “as absolutely analogi-
+cal, which is to say continuous, outside of any recourse to a code” (1977 [1961]:
+20). Spence notes that “patients’ memories, if true, tend to resemble photo-
+graphs” (Spence 1982: 57). In doing so he is expanding Barthes’s idea of the
+absolutely analogical status of the photograph to scenes or visual memories of
+scenes in our world, which are similarly continuous. Developing the idea of
+the photograph or viewed segments of our world as continuous, I suggest that
+we consider the units from which art forms are composed. The smallest
+meaningful unit in language is the word. In comparison, at least one meaning
+of Barthes’s term continuous becomes clear. In photography as Barthes knew
+it there is no smallest unit. Even the pixel in digital photography is not a
+meaningful unit. Nor does the brush stroke in painting nor the line in drawing
+carry a precise denotation. In visual representation there is no smallest mean-
+ingful unit equivalent to the word in language.
+Moreover, since Ferdinand de Saussure we have known that perfect trans-
+lation from one language to another is never possible because words in one
+language never cover exactly the same range of meaning (they differ in value,
+in Saussure’s terminology) as in another language (1966 [1916]: 114–17).
+But we are able to compare words in one language to words in another
+292
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+language and show that their value differs because the word is the basic unit in
+all languages. In translating from visual representation to language, or the
+reverse, because there are no equivalent units in the two media, there is
+nothing to compare to show how the two messages differ. This is perhaps the
+most forceful way to demonstrate that neither medium, verbal or visual, has
+the power to re-represent the other.
+3. The Perspectival Montage in Ekphrasis
+In addition to the misrepresentation to which ekphrasis is subject through the
+shift from medium to dissimilar medium, ekphrasis also doubles perspective
+and recontextualizes. Marie-Laure Ryan, as part of her analysis of the struc-
+ture of stories within stories, studies boundaries. Boundaries, she perceives,
+sometimes offer “gates to get across [and sometimes merely] windows to look
+through” (1990: 873). Ryan distinguishes four types of boundaries: ontologi-
+cal gates and windows and illocutionary gates and windows. In the present
+context our interest is in illocutionary boundaries, which, when the medium
+is language, are readily differentiated. Gates, like direct discourse, are indi-
+cated by quotation marks; readers can see at least a segment of a transcription
+of a quotee’s speech act. In the case of windows, in contrast, according to
+Ryan, “the speech act of the character is presented through the speech act
+of the narrator, as in indirect discourse. We are informed of the storytelling
+act of the character, but we are denied access to his actual discourse” (ibid.).
+Ekphrasis is a window. Ekphrasis informs us that an image exists but does
+not let us see it. An image re-represented visually, in contrast, for instance
+within a novel, is a gate. Ryan’s metaphor draws attention to the difference
+between the two forms of visual quotation while reminding us that both are
+quotations.
+In “Proteus in Quotation-Land,” Meir Sternberg analyzes the attributes
+of all quotations, whether direct, indirect, or free indirect. He specifies four
+“universals” that together define quotation. First, the quoted discourse is
+subjective—someone’s speech or thought—not an objective piece of reality.
+Second, the quoting discourse “transplant[s] and frame[s]” the quoted dis-
+course “in a new environment.” Third, this “tearing a piece of discourse
+from its original habitat and recontextualizing it within a new network of
+relations cannot but interfere with its effect” (1982: 108). And fourth, quo-
+tation involves a “perspectival montage between the original subject and the
+quoting subject who cites and manipulates his discourse within its new
+frame.” Sternberg continues: “Only with effort and luck, if at all, can
+we . . . decompose the perspectival montage into its elements, and distribute
+them among the various ‘contributing’ participants. The [quoted discourse]
+Kafalenos
+† Ekphrasis as Misrepresentation
+293
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+is essentially ambiguous” (ibid.: 109). The ambiguity is the result of the
+montage, which at least partially erases the line between the quoted writer’s
+speech act and the quoting writer’s speech act.
+Ekphrasis is a quotation. Like other quotations, ekphrasis transfers the
+quoted material—the image—to a new context, thereby altering its effect.
+Like other quotations, ekphrasis exhibits a perspectival montage in which the
+writer’s perspective is superimposed on the image-maker’s perspective. And
+as is the case with other quotations, the two perspectives—the image-maker’s
+and the writer’s—cannot finally be separated. Moreover, I suggest that the
+ambiguity of perspectival montage that Sternberg sees, which is inherent
+when language is quoted in language, is strengthened when image is quoted
+in language because of the intermedial differences that make impossible the
+re-representation of an image in language. The resultant perspectival ambi-
+guity is yet another reason that ekphrasis unavoidably misrepresents the
+visual representation to which it responds.
+Analyzing ekphrasis in narratives, Tamar Yacobi draws attention to two
+further sources of ambiguity. Recognizing that creating an ekphrasis is a two-
+stage process—first viewing, then verbalizing—she discerns (1) that some-
+times the verbalizing takes place long enough after the viewing that the image
+is no longer present to the perceiver, and (2) that sometimes in fiction the two
+perspectives that create the perspectival montage (image-maker and writer)
+expand to include a third perspective: image-maker, viewer, and verbalizer.
+In her words, “Within the mind, the perceiver may or may not translate
+images and impressions into words; whereas the teller must translate in
+reporting them to readers” (2007: 167). In the latter case the ekphrasis is a
+montage of three minds: the image-maker’s, the character’s, and the nar-
+rator’s. Adding to the ambiguity, sometimes it is difficult to discern whether
+the language in which a character’s response to an image is described is the
+character’s or the narrator’s. (Free indirect discourse and narratorial sum-
+mary can be difficult to distinguish in any situation, including this one.) What
+to reveal, and when, and in whose words, are among the decisions writers
+make that shape readers’ experience. As Yacobi recognizes, “these decisions
+become powerful interpretive tools for the reader. From the selection, com-
+bination, and transmission of the fictive agents’ secret life, we hypothesize the
+communicator’s goals” (ibid.: 168).
+On first reading Corta´zar’s “Graffiti” we understand that the narrator is an
+unidentified first person, and we decide that the man who occasionally makes
+chalk marks on walls in public places is the focalizer (the character whose
+perceptions and resultant thoughts readers are given). The setting is generally
+assumed to be Argentina, during the period when people were “disap-
+294
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+peared.” Writing on walls is prohibited; cleaning trucks patrol the city to find
+and remove anything anyone draws. One day the man finds another sketch
+next to his. This is the first of four sketches reported in the story that are by
+someone else and that the man perceives and interprets. The man’s percep-
+tions and interpretations are reported by the narrator. Whether the man or
+the narrator translates the contents of the man’s mind to words we do not
+have the information to determine. Thus we cannot be sure whether we are
+being given a perspectival montage of two minds (the image-maker and the
+man) or three minds (the image-maker, the man, and the narrator).
+In the first of the four sketches the man sees “a trace, a predilection for
+warm colors, an aura” (Corta´zar 1984 [1979, 1981]: 34), which he interprets
+as indicating that the person who drew the graffito is a woman. Her second
+sketch that is reported is “in red and blue chalk on a garage door, taking
+advantage of the worm-eaten wood and the nail heads.” The man sees “the
+design, the colors . . . as more than ever she” and also reads the sketch “as an
+appeal or question, a way of calling [him].” He responds by sketching “a
+quick seascape with sails and breakwaters,” recognizing that it could be read
+as “random lines, but she would know how to look at it” (ibid.: 35).
+Next the man draws “a white triangle surrounded by splotches like oak
+leaves” (ibid.: 36) and waits, hoping to see the woman when she responds to
+his sketch. She does respond, and he is there when the police arrest her and
+drag her off screaming. He catches a glimpse of black hair and blue slacks.
+The sketch that she had begun includes “an outline in blue, the traces of that
+orange color that was like her name or her mouth”; the man “understand[s]
+that she had tried to answer [his] triangle with another figure, a circle or
+maybe a spiral, a form full and beautiful, something like a yes or an always
+or a now” (ibid.). Finally, a month later, the man sketches “a green shout, a
+red flame of recognition and love . . . wrapped in an oval that was also [his]
+mouth and hers and hope” (ibid.: 37). The next morning he sees her
+response—so small, he thinks, that only he could distinguish it: “the orange
+oval and violet splotches where a swollen face seemed to leap out, a hanging
+eye, a mouth smashed with fists” (ibid.: 38).
+For each graffito we are given information about the colors and lines the
+man perceives and then the man’s interpretation of those lines. His interpre-
+tations become increasingly detailed from graffito to graffito. The first one
+the man reads as made by a woman; the second confirms that interpretation
+but also seems to him a request from her. The third, a curved form in blue and
+the orange he identifies with her, he reads as confirming the permanence of
+their connection. Finally, in “the orange oval and violet splotches” she draws,
+he sees a badly damaged swollen face. Moreover, twice he sends the woman
+a message that he apparently expects her to interpret as successfully as he
+Kafalenos
+† Ekphrasis as Misrepresentation
+295
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+interprets her graffiti. In response to her second sketch he draws what he
+admits everyone else will read as random lines but that she would see is a
+“seascape with sails and breakwaters.” His sketch that elicits her last sketch
+offers an oval that is her mouth and his; perhaps he is sending her a kiss.
+Corta´zar’s story illustrates (and by exaggerating, emphasizes) all three
+aspects of ekphrasis that I am claiming make verbal re-representation inevi-
+tably misrepresent the visual representation to which it responds. First,
+because of the perspectival montage of ekphrasis we cannot know to what
+degree to ascribe the ekphrases we read to the image-maker’s hand, the man’s
+perceptions, or (possibly) the narrator’s verbalization of the man’s percep-
+tions. Second, because ekphrasis requires the transfer from one medium to
+a dissimilar medium, what we can know about the sketches is only what the
+man or the narrator can put into words—and these sketches, if we choose to
+trust the descriptions, do not seem to convey the kind of meaning that words
+convey. Third, the polysemy of the image is demonstrated in several ekphra-
+ses but perhaps most strongly by the sketch that one person will know is a
+seascape with sails and others will see as random lines.
+Most contemporary readers, I am arguing, have at least a layman’s under-
+standing of the complex cognitive process that produces ekphrasis. That
+understanding, I am also arguing, is sufficient for readers to recognize that
+two people who have never met cannot communicate as much as the man
+thinks that he can read and that he can expect the woman to read from the
+colored chalk sketches that are described. And in fact, at the end of the story
+the first-person narrator identifies herself as the woman with whom the man
+was exchanging graffiti. In the story’s last sentence she admits that she had
+imagined the man who read her chalk marks as messages and came to love
+her. Given this new information, we understand that the communication has
+happened in the one place it could happen: within her mind alone. There is
+no perspectival montage because there is only the one perspective: hers.
+There is no intermedial translation because there are no images to translate
+(nothing suggests that visual representations of graffiti exist anywhere, not
+even as images in the woman’s mind). There is no polysemy because there are
+no images to interpret. In sum, there is no ekphrasis.
+But the semblance of ekphrasis that readers perceive on first reading is an
+example of the effects available to writers whose readers know that ekphrastic
+responses to visual representations cannot be trusted. In my reading, the
+impossibility that communication through chalk marks is happening, in con-
+junction with the man’s developing love for the woman, leaves me wishing
+that the incipient romance could progress while recognizing that it cannot.
+The foreboding created by the man’s incredible faith in the power of chalk
+marks to convey messages creates sympathy from me for both the man and
+296
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+the woman. Thus, when I reach the final paragraph and learn that the man
+who loves her exists only in the woman’s imagination, my sympathy for her is
+strengthened, becoming empathy, and that empathy extends to all men and
+women in circumstances similar to hers. The story sends a strong political
+message, and does so largely by relying on readers’ awareness of how readily
+ekphrasis misrepresents the image to which it responds.
+References
+Balzac, Honore´ de
+1974 [1830] Sarrasine, translated by Richard Miller, in Barthes 1974 [1970]: 221 – 54.
+Barthes, Roland
+1974 [1970] S/Z: An Essay, translated by Richard Miller (New York: Hill and Wang).
+1977 Image — Music — Text, translated by Stephen Heath (New York: Hill and Wang).
+1977 [1961] “The Photographic Message,” in Barthes 1977: 15 – 31.
+1977 [1964] “Rhetoric of the Image,” in Barthes 1977: 32 – 51.
+1977 [1968] “The Death of the Author,” in Barthes 1977: 142 – 148.
+Corta´zar, Julio
+1984 [1979, 1981] “Graffiti.” In We Love Glenda So Much and A Change of Light, translated by
+Gregory Rabassa, 33 – 38 (New York: Vintage).
+Foucault, Michel
+1973 [1966] The Order of Things: An Archaeology of the Human Sciences (New York: Random/
+Vintage).
+Kafalenos, Emma
+2012 “The Polysemy of Looking: Reading Ekphrasis Alongside Images in Calvino’s Castle of
+Crossed Destinies and Vargas Llosa’s In Praise of the Stepmother,” Poetics Today 33: 27 – 57.
+Kibe´di Varga, A.
+1989 “Criteria for Describing Word-and-Image Relations,” Poetics Today 10: 31 – 53.
+Ryan, Marie-Laure
+1990 “Stacks, Frames, and Boundaries, or Narrative as Computer Language,” Poetics Today
+11: 873 – 99.
+Saussure, Ferdinand de
+1966 [1916] Course in General Linguistics, edited by Charles Bally and Albert Sechehaye with
+Albert Riedlinger, translated by Wade Baskin (New York: McGraw-Hill).
+Spence, Donald P.
+1982 Narrative Truth and Historical Truth: Meaning and Interpretation in Psychoanalysis (New York:
+Norton).
+Sternberg, Meir
+1982 “Proteus in Quotation-Land: Mimesis and the Forms of Reported Discourse,” Poetics
+Today 3: 107 – 56.
+Yacobi, Tamar
+1995 “Pictorial Models and Narrative Ekphrasis,” Poetics Today 16: 599 – 649.
+2007 “Intermedial Narrative: Ekphrasis and Perspectival Montage, or Sorting Out the Gaze
+of Narrative Agents.” In Seeing Perception, edited by Silke Horstkotte and Karin Leonhard,
+166 – 96 (Newcastle, UK: Cambridge Scholars Publishing).
+Kafalenos
+† Ekphrasis as Misrepresentation
+297
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/287/528876/0390287.pdf by Georgia Tech Library user on 26 December 2025

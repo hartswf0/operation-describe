@@ -1,0 +1,1035 @@
+# How to Do More with Words. Two Views of (Musical) Ekphrasis
+# Source: Goehr - 2010 - How to Do More with Words. Two Views of (Musical) Ekphrasis.pdf
+# BibTeX key: goehr_how_2010
+# Zotero dir: 3119
+# Extracted chars: 79727
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+British Journal of Aesthetics Vol. 50 | Number 4 | October 2010 | pp. 389–410 DOI:10.1093/aesthj/ayq036
+© British Society of Aesthetics 2010. Published by Oxford University Press on behalf of the British Society of Aesthetics.
+All rights reserved. For Permissions, please email: journals.permissions@oxfordjournals.org
+How to Do More with Words. Two 
+Views of (Musical) Ekphrasis
+Lydia Goehr
+This essay is about ekphrasis and the possibility of musical ekphrasis in particular. It shows how 
+ekphrasis came to be bound up with the contest of the arts. By juxtaposing an ancient, description-
+based view of ekphrasis with a modern work-to-work view, we are led to see the many productive ways 
+in which ekphrasis has engaged the arts, including music, without assuming hard and fast distinctions 
+of medium between the different arts.
+Introduction
+This essay is about ekphrasis and the possibility of musical ekphrasis in particular. Com­
+monly conceived, ekphrasis produces images for the mind’s eye by means of words whereas 
+music communicates by neither word nor image. Hence, music and ekphrasis do not nat­
+urally join hands. To join them, one must either discard their common conceptions or, 
+much better, revise and expand them.
+One way in which music and ekphrasis join hands is when a piece of descriptive speech 
+or writing brings an image or scene of music before the imagination (the ‘mind’s eye’). 
+Here, attention is paid to the musical subject matter or point of the text or to the rhythm 
+and tunefulness of its delivery. This way, the less familiar of the two ways I consider in this 
+essay, accords with an ancient view of ekphrasis drawn from Roman theories of rhetoric 
+and associated practices of oratory. It persuades us to expand our concept of music be­
+yond its modern medium restriction to the pure art of tone to accommodate music’s 
+principles, practices, persons, and instruments. From Philostratus the Elder to Thomas 
+Mann, and far beyond, examples of this verbal musical ekphrasis are numerous and wide 
+ranging.
+Another way in which music and ekphrasis join hands is through a work-to-work relation, 
+when, say, a musical work re-presents a poem, painting, or sculpture. This much more fa­
+miliar way gives priority to music conceived of in terms of its works and its tonal (wordless 
+and imageless) medium. It accords with a modern view of things captured by what Oscar 
+Paul Kristeller termed ‘the modern system of the arts’. It persuades us to count more 
+artworks than verbal ones as ekphrastic by challenging the assumption that ekphrasis is 
+performed only through the medium of words. Examples are equally in abundance, from 
+Mussorgsky’s Pictures at an Exhibition to Gunther Schuller’s Seven Studies on Themes of Paul 
+Klee.
+The present essay juxtaposes the two views of musical ekphrasis, which, for conveni­
+ence, I refer to as the ancient and the modern. Their juxtaposition shows what is at stake in 
+awarding or denying to music an ekphrastic capability. It turns out, however, that on 
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 2 ──
+390 | LYDIA GOEHR
+neither view is there anything unique about music when it comes to ekphrasis, despite any 
+medium specificity or ontological difference music has as an art. This means that to inves­
+tigate ‘musical ekphrasis’, one needs to investigate how ekphrasis became attached not 
+only to music but to all and, indeed, to any of the arts. This attachment is not so obvious, 
+since, before it became attached rather too exclusively to the ‘arts’, ekphrasis was part of 
+a much broader range of political, legal, and pedagogical exercises.
+Overall, my aim is to reintroduce aspects of the ancient view into the modern view in 
+order to expand the scope and interpretative possibilities of ‘musical ekphrasis’. I do this 
+to throw down a double gauntlet: to the theorists of ekphrasis who overly devote their 
+attention to questions of medium and workhood, and to those who persist in treating music 
+as standing apart from the other arts.
+Agony and Agon
+From Antiquity on, countless musical examples have entered philosophical arguments and 
+works of art, especially when those arguments or artworks have staged contests. These 
+examples reveal a concept of music as embracing more than music’s medium of ‘tonally 
+moving forms’. The expansion of music’s concept beyond both its medium and its works, 
+which is to say also beyond what is heard by the ear, allows us to think about music as a 
+performance art for sight, touch, and even perhaps for taste, as when, in brutal moments 
+that are sadly too common, one laps up the blood that flows from the body of he who has 
+been flayed. I draw my image here from Titian’s famed painting in which a dog laps up the 
+blood of Marsyas who hangs upside down from a tree. Hanging upside down has a certain 
+irony given that ‘upside down’ is the common, though not easily intelligible, description 
+used to explain how Apollo won his contest with Marsyas. Whereas Apollo could play his 
+kithara upside down, Marsyas could not play his aulos.1
+Expanding music beyond the modern formalist commitment to ‘tonally moving forms’ 
+is to take a stand against both a restrictive formalism and a censorious brutality, but not 
+against form. To take a stand is what those who have employed the ekphrastic technique 
+have sometimes done very well when they have wanted to turn matters upside down or, 
+better perhaps, inside out, by playing with the two tensions that make up the four strings 
+of the ekphrastic lyre: between seeing and hearing, presence and absence.
+An Example
+The following description written by Philostratus the Younger (the grandson of the Elder) 
+counts as an example of musical ekphrasis even though it is performed in words. The melody 
+and rhythm of its poetic prose takes on music and musicality as its subject matter. The 
+1    The present essay is motivated by my current book project which investigates the place of music in the age-old contest 
+of the arts. The book focuses on one of the earliest contests staged, between Apollo and Marsyas. In the book, I make 
+much of the fact that what is ostensibly a musical contest was taken up over the centuries remarkably rarely by the art 
+of music yet very often by painting, sculpture, poetry, and philosophy.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 3 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 391
+description, about Apollo and Marsyas, offers us a scene as if it had already been presented 
+before—as a painting—and as if it were being viewed by the writer at the very moment of 
+its being written. To bring the past into the immediacy of the present is how the writer 
+passes on the image to his readers as though they were looking at the painting too. The tem­
+porality of the ekphrastic description is further underscored given the decision to depict 
+the scene that follows the crime committed, leaving the scene of the crime to be imagined 
+in the light of the punishment that follows. In the translation I replace the word ‘flute’ by 
+‘pipe’ and italicize those moments that explicitly bring attention to the act of looking. For 
+the aim of this ekphrasis is to show and indeed celebrate all that we can see by listening.
+The Phrygian [Marsyas] has been overcome; at any rate his glance is that of a man 
+already perished, since he knows what he is to suffer, and he realizes that he has played 
+the pipe for the last time, inasmuch as inopportunely he acted with effrontery toward 
+the son of Leto [Apollo]. His pipe has been thrown away, condemned never to be 
+played again, since just now it has been convicted of playing out of tune. And he stands 
+near the pine tree from which he knows he will be suspended, he himself having 
+named this penalty for himself—to be skinned for a wine-bottle. He glances furtively 
+at the barbarian yonder who is whetting the edge of the knife to be applied to him; for 
+you see, I am sure, that the man’s hands are on the whetstone and the iron, but that he 
+looks up at Marsyas with glaring eyes, his wild and squalid hair all bristling. The red on 
+his cheek betokens, I think, a man thirsty for blood, and his eyebrow overhangs the 
+eye, all contracted as it faces the light and giving a certain stamp to his anger; nay, 
+he grins, too, a savage grin in anticipation of what he is about to do—I am not sure 
+whether because he is glad or because his mind swells in pride as he looks forward to 
+the slaughter. But Apollo is painted as resting upon a rock; the lyre which lies on his left 
+arm is still being struck by his left hand in gentle fashion, as though playing a tune. You 
+see the relaxed form of the god and the smile lighting up his face; his right hand rests 
+on his lap, gently grasping the plectrum, relaxed because of his joy in the victory. Here 
+also is the river which is to change its name to that of Marsyas. And look, please, at the 
+band of Satyrs, how they are represented as bewailing Marsyas, but as displaying, along 
+with their grief, their playful spirit and their disposition to leap about.2
+The description tells us what we can see with corporeal vision but also what we can see 
+beyond, of the mood of the figures involved. It speculates about mood to remind us that, 
+however convincing a melody might be, if it contravenes the divine laws of harmony, its 
+player will be punished. Yet, though we are told that Apollo is satisfied with his musical-
+moral victory, we are told also that, once they have mourned for Marsyas, his brother sa­
+tyrs will take his music over as their own.
+Descriptions such as these, as ekphrasis in general, may be read as part of a history of 
+iconoclasm, censorship, contest, and punishment. Endorsing the Apollonian principle of 
+harmony—and thus appearing as compliant with Apollo’s verdict—the descriptions may 
+2    Philostratus the Younger, Imagines, with Philostratus the Elder, Imagines and Callistratus, Descriptions, trans. Arthur 
+Fairbanks (Cambridge MA: Harvard University Press, 1931), bk. 1, no. 2 (pp. 295–296).
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 4 ──
+392 | LYDIA GOEHR
+nevertheless subvert or resist the verdict through sharp-witted technique. Often through 
+Pygmalion-like technique, descriptions give life, voice, and living breath back to that which 
+Apollo has silenced. Even if ‘mere words’ cannot bring actual life back, they can place 
+what has been silenced into imagination and memory and, by this means, give it meaning 
+and value for the future. Moreover, descriptions that aim, as this one, to rescue an art that 
+is being punished, aim also to rescue themselves qua another art for fear of their being 
+punished on the same grounds. If a musician is flayed, how soon a poet? A recent commen­
+tator writes of the ‘narcissism’ of ekphrasis, of its ‘recursive self-reflexivity that is also a 
+self-reflectivity, a mode in and by which literary language gazes at the visual as a lens upon 
+the beauty of its own performance.’3 But there is one beauty that pleases the eye or the ear 
+and another, more painful, that speaks to the survival of an art, be it music, poetry, or paint­
+ing. What this commentator describes as ‘narcissism’, I prefer to describe as a caring but also 
+self-caring attitude typical of an agonistic practice in which one art comes to another’s 
+aid in order to aid itself.
+Many regard ekphrastic descriptions as effecting intermedial and energetic move­
+ments of form and sensorial experience, in which words speak poetically or musically 
+through painting in order, like sculpture, theatre, and dance, to recorporealize and remate­
+rialize that which is or has been made absent. Many also note that what ekphrasis aims to 
+do, it cannot actually or literally do. It can neither bring all corporeal senses into action 
+nor render present or existent that which is absent or non-existent. Generally, by paying 
+attention to what ekphrasis can and cannot achieve in ontological or sensorial-aesthetic 
+terms, one comes to understand why, historically, the non-verbal arts joined with the verbal 
+art to expand the ekphrastic capability. But moving beyond ontology and aesthetic experience, 
+one also comes to understand how, as in the above description, words may be used to put 
+a listener’s eye on a painting to make the ear pay attention to the sufferings of the musical 
+art, to make the listener-spectator understand the potential suffering of every art.
+Differently put, there can be no enquiry into ekphrasis without recall of Plato’s censorious 
+views in The Republic or what he writes in his Phaedrus about saying and showing, concealing 
+and revealing, speaking and remaining mute. Nor can the enquiry be separated from what 
+later are offered as Judaeo-Christian laws and regulations that aim to protect persons both 
+from immoral or unmusical melodies and texts produced in the wrong modes on the wrong 
+instruments and from visual images that falsely represent the sacred and unrepresentable 
+through profane or banal forms of representation. Amidst this censoriousness, indirect tech­
+niques were developed (some say they even flourished) for saying or singing what could not 
+be shown and for showing what could be neither said nor sung. In my view, ekphrasis was one 
+such technique even if, as we shall see, it was not always put to so strategic or subtle a use.
+Description
+Description was once what ekphrasis was all about, when it was used evocatively to 
+produce an image for the mind’s eye. Over time, however, the tasks both of ekphrasis 
+3    Bruce Holsinger, ‘Lollard Ekphrasis: Situated Aesthetics and Literary History’, Journal of Medieval and Early Modern 
+Studies, 35 (2005), pp. 67–90 (see p. 75).
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 5 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 393
+and of description changed. Given the changes, their once inextricable relation was 
+severed.
+In many modern approaches, description is taken to constitute the core of the philo­
+sophical enterprise. ‘We must do away with all explanation [Erklärung]’, Wittgenstein 
+wrote, ‘and description [Beschreibung] alone must take its place.’4 Nevertheless, for all the 
+attention modern philosophers have paid to description, they have rarely connected 
+description to the theory and practice of ekphrasis.5 This contrasts significantly with art, 
+theatre, classical, and literary theorists and historians who have contested the terms of 
+ekphrasis vigorously. In the Anglo-American literature on aesthetics, and the BJA and JAAC 
+are representative, there are very few articles, less than ten in either journal, on the sub­
+ject. And there would be even fewer had David Carrier not taken the matter up almost 
+single-handedly in his reflections on how one writes art’s history and its criticism.6 There 
+is a similar lack in musicology, though here, too, a single theorist, Siglind Bruhn, has 
+devoted most of her life’s work to describing the terms of ‘musical ekphrasis’.7 By contrast, 
+Laura Sager could introduce her edited volume Writing and Filming the Painting. Ekphrasis in 
+Literature and Film of 2008 by noting the 468 items found in the MLA, of which 177 were 
+produced in the five years before the publication of her volume. There are certainly as 
+many, and likely many more, items in the journals of classical studies.8
+Why the lack of attention paid to ekphrasis in the philosophical and musicological litera­
+ture? The most pertinent explanation focuses on the change in understanding of ekphrasis 
+when it was severed from the vivid act of describing and was turned into a relation of 
+re-presentation, connecting one work of fine art to another. Whether the re-presentation still 
+involved description or something like description became only part of a more general 
+enquiry of the manifold relations possible between different works of fine art in modern 
+times.
+The more ekphrasis moved away from description, the more it severed itself from the 
+task it once had as a listening and temporal art to render present through words what was 
+absent to the eye. In modern treatments of ekphrasis, the play between absence and presence 
+has often been overshadowed by the focus on what one work of art achieves in re-presenting 
+another work of art. This focus raises interesting issues of redundancy: if a poem has 
+already done the work, why make a painting do the same work; or is it that the painting 
+does more work, offering itself therefore as an advance on the former, thereby rendering 
+the poem redundant?
+A complete genealogical argument would track ekphrasis through antiquity, the middle 
+ages, the Renaissance paragone, the rise of art-historical description and criticism in the 
+4    Quoted in Heather J. Gert, ‘Wittgenstein on Description’, Philosophical Studies, 88 (1997), pp. 221–243.
+5    One exception is Roland Barthes: see his ‘The Reality Effect’ (1968), in The Rustle of Language, trans. Richard Howard 
+(California, University of California Press, 1989), pp. 141–147. Another is Jacques Rancière who addresses many 
+issues pertaining to ekphrasis in his The Future of the Image, trans. Gregory Elliott (London: Verso, 2007).
+6    David Carrier, ‘Ekphrasis and Interpretation: Two Modes of Art History Writing’, BJA, 27 (1987), pp. 20–31.
+7    Cf. Siglind Bruhn, Musical Ekphrasis: Composers Responding to Poetry and Painting (Hillsdale, NY: Pendragon, 2000).
+8    Cf. the opening statements of Simon Goldhill’s ‘What Is Ekphrasis For?’ Classical Philology, 102 (2007), pp. 1–19.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 6 ──
+394 | LYDIA GOEHR
+eighteenth century, romanticism and idealism, synaesthetic and transmedial experimenta­
+tion, finally to a postmodernism conceived as a condition of modernity that is nevertheless 
+meant to propel modernity past all modernist restrictions. I offer here only key moments of 
+this history, after which I offer examples of musical ekphrasis given an expanded conception 
+of both music and ekphrasis. Throughout, I draw on an extensive literature but most of all 
+on a recent book by the classicist Ruth Webb.9 Although she describes what ekphrasis once 
+was in contrast to what it later became, her primary aim is to describe what ekphrasis once 
+was. She does not join ekphrasis to music, even though, as I show consistently with her 
+account, music did enter ancient exercises of oratory even if it was not the primary 
+medium of the performance.
+Evocative versus Plain Description
+A familiar positivistic trajectory suggests that the more disciplines have been drawn to 
+scientific or analytic method, the more description has been reduced to a reliable accounting 
+of the ‘mere’ or ‘plain’ facts. This way, description—denotative, referential, etc.—has 
+been separated from the less ‘exact’ tasks of interpretation, evocation, evaluation, and jus­
+tification. So separated, it has lost, because it has willingly dispensed with, the honorific 
+task it once had, when, as part of Greek and Roman exercises, it brought to life, memory, 
+and often to esteem that which it presented to the imagination. Originally performed or 
+delivered as speech or writing, an evocative description brought to imaginative presence a 
+corporeally absent subject. Either the subject no longer existed, had never existed, or was 
+not presently in view. Sometimes a description depended on a pure imagining because the 
+subject did not exist or, because it did exist, the description only brought it (back) to 
+imaginary presence. Often, it claimed to do the latter when really it was doing the former. 
+Regardless, by bringing something under a description, the subject was given new or 
+renewed presence in the present.
+To render absent things as if both present and real served purposes broader than that of 
+‘mere’ classification: to legitimize the present state of things by bringing the past state of 
+things back, as it were, to life; to generate material, literary, and mythological histories and 
+traditions; to sustain canons rooted deeply in an often idealized Antiquity; and to memor­
+ialize and monumentalize heroes. To regard ekphrastic description as motivated by goals of 
+remembrance suggests that its theory well informs a philosophy of history that is willing to 
+confront both the logic and epistemology of what we can say and know of what is past or 
+absent and the moral and social implications of our descriptive sentences.
+In the first explicit theoretical statements, offered in the exercise books on the training 
+of orators, ekphrasis was treated as one among many exercises of speech and composition: 
+fable, narrative, topos, encomiom, etc. In this classification, life-and-death matters of morality 
+and honour were not always given to ekphrasis. Aelius Theon of the 1st century c.e. specified 
+9    Ruth Webb, Ekphrasis. Imagination and Persuasion in Ancient Rhetorical Theory and Practice (Farnham: Ashgate, 2009). In 
+the book chapter from which this essay is drawn, I provide full bibliographical references; here, I provide only the 
+most essential.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 7 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 395
+that ekphrasis ‘is about lifeless things and those without choice’. The ‘plain descriptions’ it 
+thus offered were of absent things that were also common things. By the ninth century, 
+however, John of Sardis had no doubt declaring the Eikones of the Elder Philostratus as con­
+taining ‘nothing but’ ekphrasis, where, however, the distinction between common objects 
+that did and did not have life (regardless of choice) was now strategically blurred.10 
+Accordingly, in one description, Philostratus the Elder depicted the stringed musical 
+instrument of Amphion to show how the instrument, in having been made out of the horn 
+of the leaping goat and the shell of the tortoise, acted as much from good nature or divine 
+harmony as from human art, to bring life to the stones which, seemingly of their own 
+accord, moved together to become the city walls of Thebes.11
+Much about ancient ekphrasis—and about listening—was agonistic. This was because 
+it was performed in situations in which speakers had to prove their cases or arguments in 
+debating and competitive rituals (agones) exercised in schoolrooms, law courts, public 
+assemblies and forums, and in what remained of the ancient, cultic Apollonian and Dionysian 
+festivals. Tied to notions of evidentia and enargeia, an ekphrasis could bring a subject back 
+to the present and to presence to explain an event, to win an argument or case, to create 
+astonishment or wonder, to move listeners towards indignation or shock, or to render an 
+argument or image vivid, clear, perspicuous, illuminating, and persuasive.
+‘Ekphrazein’ was often defined by reference to ‘ex-pression’, meaning the pressing out 
+of a ‘complete description’. Either the point of the ‘completeness’ was, as ideally in courts 
+of law, to give an exhaustive description of the facts and intentions, which meant every­
+thing known about the matter at hand. Or its point was, and this is what makes the legal 
+trial necessarily agonistic, to give enough of a description so that an image of someone’s 
+either innocence or guilt did in fact come before the mind’s eye of the jury. For many reasons 
+pertaining to persuasion, poetry, and agon, the second idea of completeness as ‘enough’ or 
+‘just the right amount’ dominated.
+With broad civic application, ekphrasis focused on the impact of speech acts. Its aim was 
+to train listeners in the compelling art of emotive-cognitive response such that they would 
+become seers (perhaps in every sense) and knowers. By ‘the mind’s eye’ was meant visual 
+imagination, fantasia, or the realm or storehouse of ideas, images, beliefs, and memories.12 
+When early theorists spoke of transforming hearers into seers, they did not, however, re­
+quire a sensorial displacement because nothing was actually seen by the eye. Everything 
+given was heard. Hence, the many references to the act of almost seeing or all but actually 
+seeing. Through hearing, the mind was transformed and expanded in an as if total 
+synaesthetic-syncognitive sense.
+Bringing an image before the mind’s eye with words was inseparable from the essen­
+tially compelling means by which teachers educated pupils. The pedagogical aim was to turn 
+10    George A. Kennedy (trans.), Greek Textbooks of Prose Composition and Rhetoric (Atlanta: Society of Biblical Literature, 
+2003), pp. 46 and 218.
+11    Philostratus the Elder, Imagines (see n. 2): bk. 1. no. 10 (p. 45).
+12    Cf. here Fritz Graf, ‘Ekphrasis. Die Entstehung der Gattung in der Antike’, in Gottfried Boehm and Helmut 
+Pfotenhauer (eds), Beschreibungskunst, Kunstbeschreibung: Ekphrasis von der Antike bis zur Gegenwart (Munich: 
+Fink, 1995), pp. 145–155.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 8 ──
+396 | LYDIA GOEHR
+pupils (mostly male) into teachers and wise men. Teaching pupils by ekphrastic example 
+meant showing them empathetically how one learns to stand in another’s shoes or (as Webb 
+records) to live in another’s skin. Providing an ekphrasis was little different in purpose from 
+giving a choice example or telling a fable or parable; hence, the description of a master 
+rhetor who taught by example and as example. Sometimes the rhetor was described as a 
+travel guide, leading persons by descriptive hand through foreign places, past times, and 
+absent worlds; sometimes as an actor, who made it seem as though the part he played were 
+no part at all, but real life.
+Speaking in Tune
+Ekphrasis had everything to do with delivering an example well and the right example as 
+the argument required it. Although it was not required in general civic exercises that the 
+description be accompanied by either instrument or song, it was required that one speak 
+both literally and metaphorically in tune. Hence, say, Quintilian’s instruction that orators 
+pay attention to their voice. Suffice it, he wrote, to mention our leading orator, Gaius Gracchus, 
+who ‘during his speeches had a musician standing behind him with a pitch pipe, whose duty 
+it was to give him the tones.’ And then: ‘Such was the attention which [Gracchus] paid to 
+this point even in the midst of his most turbulent speeches, when he was terrifying the 
+patrician party.’ Having delivered his example, Quintilian noted that the power of a speech 
+lay in its effective delivery and, because of this, the orator required knowledge of music. 
+Herein, he explained, was the value of music that the Greeks had both assumed and theo­
+rized under the name ‘eurythmics’ but which, nowadays, he remarked, was no longer 
+being recognized by those who were incorrectly conceiving of music as a ‘less important 
+art’. By looking back at what music allegedly once was, Quintilian saw music as having 
+fallen into disrepute the more ‘emasculated’ and ‘lascivious’ it had become. Yet, while others 
+were happy to let music fall, Quintilian was not. That the Athenians had awarded music so 
+important a place in civic life was enough for him to maintain that music as an accompanying 
+art of pitch and tuning was worth saving.13
+In his instruction, Quintilian attended to the musicality of civic speech acts. Neverthe­
+less, he knew of the dominant moral assessment of the musical art that had seen, in the 
+history of ancient writing and image production, one musician after another being flayed, 
+disembodied, beheaded, and even blinded. Although, as suggested above, I find it significant 
+that so many of the early descriptions took as their subject matter the bacchanalian, erotic, 
+and hubristic character of the instrumental musician’s performance, I do not find it sur­
+prising. After all, the same subject matter is found everywhere in the objects and images of 
+Antiquity: in the first histories and philosophies of Herodotus, Plato, and Aristotle and in 
+the literary-poetic tradition of Homer, Hesiod, and later Ovid, that so often inspired the 
+most artful of the ekphrastic descriptions produced.
+The idea that music qua tempo and pitch is essential to good speech-giving is quite 
+familiar to us today. It is defamiliarized only when, in contemporary discussion, it is asked 
+13    Quintilian, Institutio Oratoria, trans. H. E. Butler (Cambridge, MA: Harvard University Press, 1980), bk. 1, ch. 10 
+(pp. 163–175).
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 9 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 397
+whether one can perform an ekphrasis by means of tempo and pitch alone—that is, when 
+there are no accompanying words. If music as an art of pitch and tone cannot be ekphrastic, 
+this is taken, in the modern contest of the arts, to show a limitation of the musical art. 
+However, this perceived limitation derives from a restricted view of music as medium, 
+according to which ‘tonally moving forms’ are denied the descriptive powers of poetry and 
+the representational powers of painting. For many, of course, it is precisely these denials 
+that are celebrated, given their appeal in helping to unshackle the musical art, enabling it, 
+so it is said, to realize its true ‘essence’ as a pure and absolute art of tone.14
+A Matter of Domain
+The contest of the arts has long turned on how music can be pictorial and poetic, poetry 
+imagistic and musical, painting musical and poetic. Countless theses have either joined or 
+separated the different arts according to principles of musicality, pictoriality, and poesis or 
+to modes of expression, representation, and description. The correspondences have rarely 
+been straightforward: if, following Horace, poesis is as pictura is, is this because one art 
+dictates the terms of the other or because both share in approximating a higher condition, 
+say, of musicality? The complexity of these questions has only increased as sculpture, dance, 
+and architecture qua arts and lyricism, plasticity, and corporeality qua principles and modes 
+have entered the fold. Overall, the contest has involved a constant contestation of terms, 
+especially when the contest has been staged as though the arts were essentially fixed 
+through ontological differentiation or born into sisterhood by divine intervention or 
+nature.
+Whereas modern ekphrasis, especially from the late nineteenth century on, focuses on 
+artworks and their mediums, ancient ekphrasis focused on speech and written acts per­
+formed within a wide range of practices necessary for the education of citizens. Modern 
+ekphrasis focuses on works that bring other works to aesthetic presence; ancient ekphrasis 
+focused on speech acts that brought objects, scenes, or events to imaginary presence. I 
+refer to aesthetic presence when ekphrasis remains within the domain of the arts, and to im­
+aginative presence when it extends beyond this domain. This distinction helps to differentiate 
+the ancient and modern views according either to their restriction or lack thereof to a do­
+main. Both views draw on relations established between word and image. Whereas, how­
+ever, modern and, even more, postmodern ekphrasis eventually expands the meanings of 
+‘word’ and ‘image’ to grant ekphrastic capability to every contemporary medium of art, 
+ancient ekphrasis focused on what spoken and written words could achieve in arenas far 
+extending the systematized world(s) of the fine arts.
+In the ancient exercise, very little was excluded by way of subject matter. A speech 
+act—be it pedagogical, political, juridical, artistic, or theatrical—brought a subject—be it 
+an event, object, action, person, aspect, place, or time—before the mind’s eye. The subject 
+was almost (as Webb shows) unlimited, informing listeners of the who, what, when, where, 
+and sometimes even the how and why of animals and plants, individuals and groups, 
+14    Cf. Peter Kivy, Antithetical Arts: On the Ancient Quarrel between Literature and Music (OUP, 2009).
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 10 ──
+398 | LYDIA GOEHR
+paintings and statues, wedding chests and funerary monuments, vases and shields. In the 
+modern conception, contrarily, though less and less restriction is placed on the medium of 
+delivery, a restriction is increasingly placed on the subject matter or, better now, on the 
+object of the ekphrasis. Whereas words were once spoken or written to conjure up almost 
+any subject, the modern focus is given to what the arts can achieve through their mediums 
+and works.
+Both ancient and modern views ask how the verbal medium of words can perform and 
+communicate as a pictorial-visual-image-making medium. Yet, the more ekphrasis is linked 
+to the emerging fine arts, the more this question is overshadowed by another: whether one 
+artwork, whatever its medium, can bring another to aesthetic presence. At first the ques­
+tion is: can words, such as we find in an epic poem or description, bring an image, such as 
+we find in a painting, to the mind’s eye. Then it becomes: can a poem do what a painting 
+does? Finally, it becomes: can any artwork achieve what another artwork has already 
+achieved? The more the focus turns to connecting artworks, the less it accommodates 
+medium specificity. If a poem can bring a painting to presence, why not a painting a poem, 
+or a musical work a painting, a poem, or a sculpture?
+The Twist in the Tale
+Many early ekphrastic descriptions were about arts and crafts, their producers and their 
+instruments. Exemplary are those attributed to the Elder and to the Younger Philostratus, 
+to Callistratus, Pliny, Lucian, and Pausanias. Yet these descriptions did not constitute the core 
+of the civic practice that was dominated by the exercise manuals and treatises of, say, 
+Theon, Quintilian, Cicero, and Nicolaus the Sophist.
+Nevertheless, as the moderns developed their view, many chose as their primary examples 
+of ekphrasis the descriptions that had focused on matters pertaining to the emerging fine 
+arts. Separated from broader civic practices, ekphrasis was increasingly regarded as a tech­
+nique illustrative of the autonomous, aesthetic power and capability of works of fine art to 
+produce relations to other works of fine art. In this development, the uncountable noun 
+‘ekphrasis’ designating a general civic practice of persuasive speech-act performance was 
+overshadowed by a countable noun of artistic work-production: one ekphrastic work, two 
+ekphrastic works.
+When the moderns sought an ur-example of ekphrasis, they often followed the ancients 
+in selecting Homer’s epic description of Achilles’ shield. But their selection assumed a 
+different focus. The ancients focused on the actions and events represented by the shield 
+and on how those actions and events are brought through description dynamically to 
+imaginary presence for listeners. The moderns tended to focus on what it means for the 
+shield to be a fixed, painterly representation and on how a painterly representation can be 
+re-presented by a work that is not a painting.15
+15    Cf. chap. 18 esp. of Lessing’s, Laokoon; Andrew Sprague Becker, The Shield of Achilles and the Poetics of Ekphrasis 
+(Lanham, MD: Rowman & Littlefield, 1995) and James A. Francis, ‘Metal Maidens, Achilles’ Shield, and Pandora: 
+The Beginnings of “Ekphrasis”’ American Journal of Philology, 130 (2009), pp. 1–23.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 11 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 399
+For the moderns, ekphrasis joins an ekphrastic work to a non-ekphrastic work despite 
+their both giving off an ‘image’. Inspired by Lessing-like considerations of what each artistic 
+medium can achieve, an ekphrastic poem, in the medium of words, relates to a painting 
+this way: whereas the ekphrastic poem gives off a second-order, artificial, or imagined 
+image of the painting, the non-ekphrastic painting gives off an image that is first-order, 
+immediate, natural to its medium, and present to the corporeal eye.16 In the early stages, 
+it is assumed that poetry has to engage the ekphrastic technique because it cannot produce 
+(visual) images as painting can by nature. Put like this, painting can claim to be the superior 
+image-producing art even if it cannot, because it does not need to, claim that it is thereby 
+the superior ekphrastic art. In matters of ekphrasis, the poem alone excels. However, the 
+more the paragone confuses the demands and tasks of ekphrasis with the aesthetic demands 
+and competitive tasks of the emerging fine arts, the more confused the arguments become.
+One argument awards poetry first place in the contest, not because it is ekphrastic but 
+because it is a ‘descriptive’ or ‘spoken’ art. Whereas a ‘speaking’ poem can describe both 
+the form and content of a painting, a ‘mute’ painting cannot do the same for a poem, even, 
+if like a musical work, it can somehow express or represent it. Everything turns on how 
+broadly, vaguely, or indeterminately the terms ‘description’, ‘representation’, and 
+‘expression’ are applied. The broader the application, the more painting and later music 
+are encouraged to claim themselves capable of ekphrasis.
+A pertinent question is why all the arts wanted to assume the task of ekphrasis. One 
+answer returns us to the paragone: that what the arts do by ‘nature’ is one side of art’s 
+coin, and what ‘artificially’ as ‘art’, its other. The language of artificiality—whereby the 
+nature of art is revealed through its artifice—is then quickly absorbed into a generalizing 
+language of sign and symbol of which all the arts eventually partake. Increasingly, it is 
+claimed that as much as a given art strives to be true to its own medium, this should not 
+prevent it from aspiring also to the condition or medium-capability of another art, in this 
+way surpassing its material limitations in the name of a singular, general, and universal con­
+cept of ‘art’. Once a given art has proved that it can do what another does, it begins to 
+claim (after Irving Berlin’s song) that anything the other can do, it can do better. The extra, 
+unnatural or artificial act demonstrates the greater creativity and resourcefulness of art. 
+Du Fresnoy summarized the competitive impulse early on: ‘Let poetry be like painting; 
+and let painting resemble poetry; let them compete with each other and exchange their 
+tasks.’17
+Walter Pater’s famed principle of 1873 says that ‘all art constantly aspires towards the 
+condition of music.’ This statement captures the aspiration of ‘all art’, but especially 
+painting, to ‘partially alienate’ itself from the ‘limitations’ of the medium to embody the 
+Apollonian principle of musicality, harmony, and proportion. Partially alienating itself, 
+painting will show all that it can achieve musically as painting, that is, by staying true to its 
+medium. Pater wanted to describe what musicality in Renaissance painting had meant 
+16    Cf. Murray Krieger, Ekphrasis: The Illusion of the Natural Sign (Baltimore, MD: Johns Hopkins University Press, 1992).
+17    Quoted in Henryk Markiewicz and Uliana Gabara in ‘Ut Pictura Poesis. A History of the Topos and the Problem’ 
+New Literary History, 18 (1987), pp. 535–558 (see p. 537).
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 12 ──
+400 | LYDIA GOEHR
+particularly for Giorgione.18 Yet for painting to be musical as painting is not by itself an 
+achievement of ekphrasis in the either ancient or modern sense, even though it is largely 
+through synthesizing and synaesthetic notions of musicality, lyricism, and poesie that the 
+modern concept of ekphrasis first comes to include all the arts, including music, under its 
+purview.19
+Indeed, Pater’s statement is often reversed to say something not about painting but 
+about music as an art. It is reversed by those who, having ‘proved’ music to be the most 
+absolute and true to principles of musicality, aim to show that music can do what the other 
+arts can do: namely, represent, describe, or depict, if not in determinate then in indeter­
+minate ways, say, through analogy or symbol. If this can be shown, it is only a small step to 
+showing that music can be ekphrastic as any art can now be ekphrastic.
+All that is needed now is for one work to re-present another in some significant way. 
+Somehow, ‘in some significant way’ becomes the key phrase for the entry of the modern 
+into the postmodern view. This view increasingly promotes an open and deliberately inde­
+terminate relation between art’s different sorts of works. A poem can re-present a sculp­
+ture, a sculpture a painting, a painting a musical work by title, allusion, or ‘significant 
+form’. Although many celebrate the intermedial movement that now can transpire 
+between the sister arts, others anxiously worry that the relation has become too open. As 
+terms such as ‘word’, ‘image’, ‘description’, and ‘representation’ are expanded or incor­
+porated into a general language of signifiers and significant form, less and less is excluded 
+from the ekphrastic domain, except, critics sardonically suggest, ekphrasis itself. With 
+modernist flourishes of synaesthesia and ‘transpositions de l’art’ and with later postmodern 
+encouragements of medium migration, inter- or trans-mediality, the less distinctive 
+purpose an ekphrastic act seems now to have.
+Ancient ekphrasis admitted any and all sorts of images into its terrain because all the 
+world was, if not yet a stage, then an arena for argument and persuasion. As modernity 
+moved toward and into its postmodern condition, medium considerations re-entered the 
+work-based view to show that there was no restriction on what artworks could now achieve 
+when it came to ekphrasis. Increasingly, it was claimed either that any medium can achieve 
+what words achieve because every medium is ‘text’ or that any sort of work can stand in 
+ekphrastic relation to any other because all art production is symbol, simulacrum, and ap­
+pearance. If all is either text or image, the message of either or both combined is now the 
+entirely malleable and unrestricted medium. As W. J. T. Mitchell puts it, when words are 
+transposed into images or images into text, there is nothing left to distinguish one art 
+essentially from another.20 With this, ekphrasis becomes possible anywhere, anytime, 
+anyhow—in the terrain of the arts. But, after this, as the walls of the artworld come 
+18   Walter Pater, ‘The School of Giorgione’, in The Renaissance: Studies in Art and Literature (OUP, 1986), pp. 85–86.
+19    Cf. David Wellbery, ‘Aesthetic Media’, in John Bender and Michael Marrinan (eds), Regimes of Description in the 
+Archive of the Eighteenth Century (Stanford, CA: Stanford University Press, 2005), pp. 199–211. Pater contributed 
+more directly to the practice of ekphrasis in his Imaginary Portraits of 1887. On this type of ekphrasis, see section 
+‘Novel Cases’ below.
+20   W. J. T. Mitchell: ‘Ekphrasis and the Other’, in Picture Theory: Essays on Verbal and Visual Representation (Chicago: 
+University Press of Chicago, 1994), ch. 5.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 13 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 401
+tumbling down to let all the world back in, the ekphrastic medium becomes once more all 
+the world’s messages. Whether this counts as recapturing something of ancient ekphrasis 
+or as marking only a departure from specific limitations imposed by a restricted modern 
+view is the Janus-faced question that has motivated many in recent years to explore the 
+contemporary potential of ekphrasis.21
+This is where the debate currently stands, asking whether ekphrasis ought to be 
+restricted or opened up according to the medium capabilities of the different arts, and 
+whether the provision of evocative description ought similarly be restricted or opened up. 
+One might complain that whereas the postmodern view focuses more on the medium than 
+on the message, the ancients were more preoccupied with the message, but this would be 
+wrong in both cases. Or one might argue that what once was a genuinely contested concept 
+has been replaced by an equalization, indeterminacy, openness, and pluralism that has left 
+the concept, as so many, drained of meaning. Hence, if ekphrasis is to regain any meaning, 
+it should return to what it once was when, attached to acts of description, it showed that 
+there was something at stake in the acts. This view is well met with the rejoinder that the 
+nostalgia for the substantiality of things past prevents critics of the postmodern from seeing 
+the social and aesthetic advantages of opening up our concepts.
+There are two aspects of the story I have left out. They are both such as to more synthe­
+size than separate the ancient and modern views. Both are needed, however, for what I 
+want finally to say about musical ekphrasis. The first pertains to art history; the second to 
+the history of theatre.
+Bildbeschreibung
+Many moderns took from the ancient practice of evoking images by verbal means the idea 
+specifically of providing a description of a painting or sculpture. The Germans termed this 
+Bildbeschreibung and generally have used this term in place of ‘ekphrasis’. They used the 
+idea to align ekphrasis to the emerging art-history and criticism of the eighteenth century 
+(Addison, Diderot, Winckelmann, and Lessing). Most influential in the development, Goethe 
+translated the title given to the descriptions of the Elder Philostratus—in Greek Eikones 
+and in Latin Imagines—as Gemälde.22 His translation encouraged a restriction of ekphrasis 
+to art-historical descriptions of paintings of the sort that hang in a museum. Although 
+Philostratus did write his descriptions about such paintings, others around him did not, 
+even though they were also in the business of evoking images by verbal means.
+For classificatory purposes tied to modern practices of collecting and connoisseurship, 
+descriptions of artworks were often reduced to list-like catalogue entries, where what 
+counted was more the information about the works than their evocation in the mind’s eye. 
+21    See Peter Wagner (ed.), Icons-Texts-Iconotexts: Essays on Ekphrasis and Intermediality (Berlin: de Gruyter, 1996) and Hans 
+Lund and Erik Hedling (eds), Interart Poetics. Essays on the Interrelations of the Arts and Media (Amsterdam: Rodopi, 
+1997).
+22    J. W. Goethe, ‘Philostrats Gemälde’, in Über Kunst und Alterthum, 2 (Stuttgart: Cotta, 1818), pp. 244–250; also Ernst 
+Osterkamp, Im Buchstabenbilde. Studien zum Verfahren Goethescher Bildbeschreibungen (Stuttgart: Meztler, 1991).
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 14 ──
+402 | LYDIA GOEHR
+For other purposes, the descriptions retained their poetic power to bring to presence 
+paintings, sculptures, and other artworks that were either not in view or perhaps no longer 
+viewable. Goethe worried about empirical reduction despite his knowing the necessity to 
+produce catalogues. But he also worried about poetical descriptions for fear that they 
+would substitute for the direct, perceptual experience (Anschauung) of the paintings 
+themselves. He feared that the paintings would be rendered redundant given the formation 
+of new artworks of words in their place.23 As the opening lines of his essay on Philostratus 
+made clear, the practice of producing descriptions was now inseparable from the contest of 
+the arts. Set into an agonistic context, two works, one ekphrastic and the other not, were 
+seen to compete on the assumption that they could be equally satisfying or, worse, that the 
+ekphrastic work would prove more satisfying. Everything depended on whether one treat­
+ed the secondary, ekphrastic work as one would a ‘mere’ copy of the original or as an 
+advance on the original given its ability to present itself as an new aesthetic object in its 
+own right while also re-presenting the prior existing work.
+Goethe’s worry was provoked by the fact that so many works described by eighteenth-
+century theorists were temporarily or permanently absent from view. Much has been written 
+about the development of an art history given the absence of works in the museums being 
+built eventually (and where possible) to house them. Many of the first histories were written 
+not through first-hand perceptual experience but on the basis of sketches and descriptions. 
+From this we see just how tied up questions of absence and presence are with conditions of 
+material culture, conditions that in turn shape expectations for what the imagination can 
+achieve as a form of knowledge. Crudely put, when all is available for view, the achieve­
+ment of ekphrasis cannot be what once it was when very little was available to view. Or, 
+given an ancient pedagogical setting in which teachers were present to students but did 
+not, as today, have unlimited access to all or even many kinds of materials, their speech acts 
+were all-important.
+Momentary Ekphrasis
+The second modern development reminds us that the history of ekphrasis is not exhausted 
+by the paragonal contests that took place in Italy, France, and Germany between painting 
+and poetry, painting and sculpture, or painting, poetry, and music. For there is the history— 
+a British one—of theatre too, in which contests have been staged as a matter both of 
+theory and of drama. In his work on ekphrasis and paragone, Leonard Barkan articulates 
+this view most elegantly. He shows how Renaissance theatre continued ancient practices of 
+oratory more than it departed from them; how given less attention to painting in England, 
+theatre became the arena through which ekphrasis productively developed; how theatre 
+continued a practice revealing a description’s ability to step back and reflect upon its own 
+capability while engaging simultaneously in the play of absence and presence; and, 
+23    Leonard Barkan makes much of the ekphrastic paradox that a verbal ekphrasis erases the visual object it brings to 
+presence the moment it brings attention to itself. Above, I referred to another commentator’s remarks on the 
+narcissism of ekphrasis. Rancière similarly writes about the necessary ‘dissemblance’ between text and image.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 15 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 403
+finally, that an ekphrasis, as in ancient practice, might take a shorter or longer time to com­
+plete, depending on whether it was offered as a decisive dramatic moment or as spread out 
+over the whole work.24
+It serves us well to introduce now the new idea of momentary ekphrasis and to distin­
+guish it from work-to-work ekphrasis. Much more attention has been paid to the latter 
+than to the former. I believe this to be an error given the limitation of possibilities it incurs. 
+Others, for good reason, have spoken not of momentary but of fragmentary or epigram­
+matic ekphrasis.25 Drawing on Winckelmann’s descriptions of parts of sculptured human 
+figures, Alex Potts encourages a fragmentary conception, so that one may see ‘in the very 
+fabric of an extended description’ how ‘a vivid scene of individual parts’ relates to ‘what 
+made the whole so significant and alive’.26
+Shakespeare’s plays are full of direct and indirect references to what the different arts 
+separately and together can achieve. Yet, by ‘the arts’ is meant not only the mediums but 
+also the principles, persons, practices, and instruments. Barkan draws on a moment in 
+Hamlet when Hamlet compares the portraits of his father and uncle to show how the play 
+as a whole tests language and visuality ‘to make the imaginary real’. In my view, another 
+ekphrastic moment—a musical one—occurs just prior to the ‘play within the play’ and 
+which explains indirectly why the indirect play is needed. This is when Hamlet reprimands 
+Rosencrantz and Guildenstern for treating him as though a pipe on which to be played. 
+Turning himself through words into an instrument or tool, Hamlet articulates his failure 
+‘to control the air’,27 that is, the failure of his spoken words to have made the truth or, better, 
+the lie of his family’s situation explicit to others. To play a pipe stops one from speaking, as 
+we learn from Marsyas’s contest with Apollo and later from Oscar Wilde. Playing a pipe, 
+Hamlet quips, is as ‘easy as lying’ and all that exists around him is a lie. A play of lies 
+and concealment, Hamlet is a search for a truthful medium—be it a ghost, musical instru­
+ment, or indirect play—that will ‘open up’ what the direct medium of the spoken word 
+hides. Following the Marsyan moment in Plato’s Symposium, ‘opening up’, as turning ‘upside 
+down’ or ‘inside out’, is how ekphrasis is sometimes defined. This musical moment shows 
+Hamlet to be a play not only about existential crises and internal states (such as Goethe 
+demonstrates by nesting Hamlet inside Wilhelm Meister) but also about the successes and 
+failures of different sorts of mediums and tools to transform not knowing into knowing, lies 
+into truth, absence into presence, and vice versa. The ontological failure that attends poetry 
+24    L. Barkan, ‘Making Pictures Speak: Renaissance Art, Elizabethan Literature, Modern Scholarship’, Renaissance 
+Quarterly, 48 (1995), pp. 326–351 and ‘Shakespeare and the Theater as a Visual Art’ (unpublished).
+25    See Simon Goldhill, ‘The Naive and Knowing Eye: Ecphrasis and the Culture of Viewing in the Hellenistic World’, 
+in Simon Goldhill and Robin Osborne (eds), Art and Text in Ancient Greek Culture (CUP, 1994), pp. 197–223; also his 
+‘Literary History without Literature: Reading Practices in the Ancient World’, SubStance, 28 (1999), pp. 57–89. 
+Here, Goldhill notes the suppression of a certain oratorical tradition of ekphrasis the more ‘literature’ attained the 
+status of a fine art in the early nineteenth century.
+26    Alex Potts, ‘Disparities between Part and Whole in the Description of Works of Art’, in Regimes of Description (n. 19), 
+pp. 135–150 (see p. 137).
+27    Cf. Cara Mazzio, ‘The History of Air: Hamlet and the Trouble with Instruments’, South Central Review, 26 (2009), pp. 
+153–196.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 16 ──
+404 | LYDIA GOEHR
+when it tries to do what painting does is also the very condition of its transformative 
+power to turn a play within a play into a play also about (a) play.
+Musical Ekphrasis
+Siglind Bruhn has explored the possibility of ‘musical ekphrasis’ more than anyone else. 
+Given music’s development as a purely instrumental art, she draws her examples mostly 
+from the nineteenth and twentieth centuries. She has an abundance of examples to choose 
+from. Yet, despite her careful articulation of conditions, critics challenge her to prove that 
+ekphrastic musical works are different from works of so-called programme music. She 
+replies that, though admittedly related historically and as genre, they are not identical. For 
+a work to be ekphrastic, it must not only represent or express but also explicitly re-present or 
+re-express another work. However, an additional answer would be to rethink the claims of pro­
+gramme music in terms of ‘ekphrastic description’ every time tonally moving forms conjure 
+up an almost cinematographic spectrum of images before the mind’s eye. Indeed, another 
+study of musical ekphrasis would take programme music and then film music as its objects.28
+Bruhn mostly selects works that relate to works that actually exist and are known. This 
+allows her to produce formal comparisons between the works, but comparisons that 
+show how one work, through a dynamic process of transmedialization, succeeds in 
+re-presenting a work of another medium. Her approach stands in tension with the ancient 
+view. The modern fact that the works re-presented by other works are independently 
+known and accessible undermines the material need that drove ancient ekphrasis, to bring 
+something absent to presence by foreign means because otherwise it would not have been 
+brought to presence. To be sure, there were ancient cases when present objects were 
+described, say, when a rhetor wanted to bring attention to something which, without the 
+verbal act, would have remained unnoticed. But these cases are (sometimes) exceptions 
+that prove the rule.
+For the moderns, ekphrasis is not necessary on material grounds. Whether or not the 
+object is present, the ekphrastic achievement is to present a work again in a different work. 
+Consider looking at a painting and then hearing a musical work composed by reference to 
+it. Given Goethe’s worry, would we say that the painting’s presence renders the musical 
+work redundant? Not if our interest was in how the musical work changes our understanding 
+of the painting. But what if we deemed the musical work better than the painting? Would 
+this render the painting no longer necessary to look at? No, because to judge the ekphrasis 
+of the musical work, we still need to know the painting.
+The matter of redundancy arose acutely in the sixteenth century with modern trans­
+lations of Philostratus, when it was asked whether visual illustrations should accompany 
+the descriptions.29 The impulse to provide images for the eye, because one could now do 
+28    Cf. Thomas S. Grey, ‘Tableaux vivants: Landscape, History Painting, and the Visual Imagination in Mendelssohn’s 
+Orchestral Music’, 19th-Century Music, 21 (1997), pp. 38–76.
+29    Tatiana Smoliarova discusses this matter in ‘The Bronze Horseman and the Tradition of Ekphrasis’, in Robert Reid 
+and Joe Andrew (eds), Two Hundred Years of Pushkin. Alexander Pushkin: Myth and Monument, Studies in Slavic Literature and 
+Poetics, 39/2 (2003), pp. 103–116.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 17 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 405
+this, suppressed the impulse to leave the descriptions for the ear and imagination alone. 
+On the other hand, it was thought that knowing and then seeing the artworks could 
+amplify the understanding of the descriptions. More evidence is better than less. How­
+ever, the most exciting examples of ekphrasis, ancient and modern, show us that some­
+times additional evidence proves more a distraction than an advantage. Given the absence 
+of something to look at, listeners listen more carefully to the content and rhythm of 
+speech and to how much can be done with words. Whereas some fear that description 
+will replace visual experience, others fear that visual experience will gradually replace 
+all other forms of experience.
+Evidence by Example
+So what, finally, is musical ekphrasis? One answer returns us to the complex agonism 
+illustrated in ancient descriptions of the destruction of musicians. Another focuses on 
+modern and contemporary examples often, but not always, produced through the medium 
+of tones. Developing the second answer, I shall run through a range of examples which, 
+when interpreted, benefit from having the modern concept of work-to-work ekphrasis 
+supplemented by aspects of the ancient concept. For each example of ‘musical ekphrasis’, 
+one must ask what is musical and what ekphrastic about it. Given the movement and agonism 
+between the different arts, a painting might prove a marvelous example of musical ekphrasis 
+as a musical work might prove a good example of poetic ekphrasis, which suggests that 
+ekphrasis should not be solely or too rigidly qualified by hard medium distinctions between 
+the arts. This conclusion accords with the postmodern view. But more importantly, it 
+opens up a space to assess ekphrastic acts not solely with respect to their being ‘works’ but 
+also given how far they engage a critical and strategic play between presence and absence, 
+concealing and revealing. Not every such play counts as an ekphrasis but some do and the 
+interesting task is to determine when one does. This case-by-case approach is consistent 
+with treating ekphrasis and music as constantly contested concepts.
+Gunther Schuller’s Seven Studies on Themes of Paul Klee of 1959 and Morton Feld­
+man’s Rothko Chapel of 1971 effect transmedial, temporal, and spatial movements of 
+painting and architecture into music. Another example is Arvo Pärt’s 2002 Lamentate 
+(lament at Tate Modern), which pays homage to Anish Kapoor’s sculpture Marsyas by turning 
+a blood red musical instrument into a man who ‘died for all’, not, however, ‘upside down’ 
+but in an upright crucifixion on the cross. Mark-Anthony Turnage’s Three Screaming Popes of 
+1988–89 effects something less sacred but highlights an interest in what one might, after 
+Harold Bloom and David Rosand, describe as an agonistic and anxious chain of influence 
+extending from a musical work back to paintings of Francis Bacon, first, and Velasquez, 
+second. ‘The history of Western art’, tracking the traditions of ekphrasis, may be seen, 
+Rosand writes, ‘as a cycle of . . . exchange, the intercalation of texts and pictures through the 
+helix of time—image begetting image’.30
+30    David Rosand, ‘Ekphrasis and the Generation of Images’, Arion, 1 (1990), pp. 61–105 (see p. 61), and the very 
+recent Jas´ Elsner, ‘Art History as Ekphrasis’, Art History, 33 (2010), pp. 10–27.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 18 ──
+406 | LYDIA GOEHR
+These examples all differ from Luciano Berio’s Ekphrasis of 1996: whereas they relate 
+themselves to works produced in a non-musical medium, Berio’s serves as a commentary on 
+one of his earlier musical works: Continuo for orchestra of 1990—hence its subtitle Continuo II. 
+Berio’s gesture is rather Wagnerian but true to many artists who make one work lead into 
+another and then another, as though their aim were to produce the total work of their life—in 
+‘late style’—as a commentary on all their previous works. One reviewer remarks that 
+Berio’s Ekphrasis is ekphrastic because ‘the piece seems ... to stand beside its predecessor, 
+observing.’ And then: ‘Ekphrasis (Greek for “expression”) is yet the more introverted piece; 
+ideas from Continuo are reflected there as though dimly. The prevailing sonorities are string-
+based, in contrast with Continuo [II]’s relatively aggressive and active forces of wind instru­
+ments.’31 The musical description of the antagonism between strings and winds is relevant to 
+anyone interested in the Apollo–Marsyas contest. What, however, is questionable is the wa­
+tered-down translation of ‘ekphrasis’ as expression. If expression is all ekphrasis is, every 
+work is entitled to be titled Ekphrasis. Even if ekphrasis does mean expression (as it does in 
+modern Greek), it is still required, given the modern concept, that the expression in one 
+work be a re-expression or re-presentation of another. Berio’s Ekphrasis meets this condition. 
+But whereas it meets the condition of bringing another work to presence, it does not engage 
+in a play between different mediums. It offers itself as a pure work-to-work ekphrasis without 
+medium interference, comparison, or contest. More even, it offers itself as a doubly 
+self-reflexive/reflective example: it is ekphrastic, about ekphrasis, and ultimately produces a 
+picture of Berio’s compositional life as a whole. Although, in this example, the concept of 
+music remains restricted to the tonal medium, the concept of ekphrasis begins to be broad­
+ened beyond the work-to-work relation to become a testament also to a musical life lived.
+Pictures at an Exhibition
+Musorgsky’s Pictures at an Exhibition is a testament to a life but a life lived by a painter. 
+Allied to poems such as Yeats’s ‘The Municipal Gallery Revisited’ or Andrew Marvell’s 
+‘The Gallery’, and to the final moment in Hegel’s Phenomenology of Spirit, it captures the 
+pace, rhythm, and experience of walking or promenading through a gallery, as though one 
+were looking at each painting in turn, giving each its due. Scored first for piano and later 
+orchestrated, it is ekphrastic, first, because it re-presents paintings by Viktor Hartmann, 
+and second, because, interpreted as an ode, it remembers a friend who died too young.32
+For the first listeners, Hartmann’s paintings were not there to view. For a long time, it 
+was believed that the paintings were lost, and later, when they were (allegedly) found, it 
+remained uncertain whether they were exactly the images that Musorgsky had had in 
+mind. Given a typical scholarly quest for certainty, it seemed as if identifying the paintings 
+mattered most to the scholars, that in the absence of this knowledge the work’s 
+understanding would remain incomplete. But the more they looked for the paintings, the 
+more they forgot the death of the painter. When they (allegedly) found the paintings, they 
+31    Robert Kirzinger, All Music Guide, http://www.answers.com/topic/ekphrasis-for-orchestra-continuo-ii.
+32    Cf. Leo Spitzer’s classic ‘The “Ode on a Grecian Urn”, or Content vs. Metagrammar’, Comparative Literature, 7/3 
+(1955), pp. 203–225.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 19 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 407
+were disappointed. Musorgsky was clearly a better composer than Hartmann was a painter. 
+Keeping the paintings absent would have prevented the disappointment. Yet, suppose the 
+paintings had proved better than the music: we would have been disappointed too. Refusing 
+to compare the works would have prevented disappointment either way. It might also have 
+brought our attention back to the person honoured by Musorgsky’s ekphrastic act.
+Novel Cases
+Musical ekphrasis is achieved when a musical work follows another work whatever the lat­
+ter’s medium. But it is also achieved by some artworks inspired by musical works or, as in 
+literature, by moments when music is brought to aesthetic presence through imaginary 
+performance or through the sheer power of description.
+E. M. Forster’s Howard’s End, epigraphed by the phrase ‘only connect’, describes a con­
+cert in London’s Queen’s Hall during which Helen mentally travels through programmatic 
+correspondences and discordances between the architecture of the hall, its ceiling painting, 
+Beethoven’s music, and thoughts about marriage. The scene is described in an associational 
+and intermedial way and finally distances Helen from the music. Forster’s description 
+brings Beethoven’s symphony to presence—goblins and all—but its presence is constantly 
+overshadowed by how Helen engages disconcertedly with far more mediums than the mu­
+sical one. Might one read Forster’s description as a critique of ‘unserious’ listening prac­
+tices in the concert hall?
+In Doctor Faustus, Thomas Mann’s Adorno-inspired descriptions of works and perform­
+ances are more concentrated and less distracted. They connect works by establishing corre­
+spondences of style, idea, and compositional method. Like Turnage’s Three Screaming Popes and 
+Berio’s Ekphrasis, Mann’s novel produces an ekphrastic chain but where, now, the works, 
+writers, composers, and philosophers connected are not all ‘real’. As is well documented, the 
+fact that Mann connected notional or projected works—Leverkühn’s The Lamentation of Dr 
+Faustus—to actually existing works by Krˇenek, Busoni, Beethoven, Pfitzner, and Schoenberg 
+annoyed Schoenberg enormously. What was imagined was all too real.33
+But never mind, because by this means Mann illustrated the ancient exercise of ekphra­
+sis. He reinforced the view that whether or not the works really exist, the point is to see all 
+that can be done with words, through literary description. In several places, he engaged 
+ekphrasis to lead readers through what more than one scholar of ekphrasis has termed an 
+‘imaginary museum’.34 He drew on Hermann Kretschmar’s 1880 Guide through the Concert 
+33    The distinction between ‘notional’ and ‘actual’ ekphrasis is developed by John Hollander in The Gazer’s Spirit: Poems 
+Speaking to Silent Works of Art (Chicago: University Press of Chicago, 1995) after which W. J. T. Mitchell responds that, 
+in a certain sense, all ekphrasis is notional.
+34    James Heffernan: Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery (Chicago: University Press of Chicago, 
+1993); Bruhn, Das tönende Museum: Musik interpretiert Werke bildender Kunst (Waldkirch: Gorz, 2004); Norman Bryson, 
+‘Philostratus and the Imaginary Museum’, in Art and Text in Ancient Greek Culture, n. 25 above, pp. 255–283; Diana 
+Shaffer, ‘Ekphrasis and the Rhetoric of Viewing in Philostratus’s Imaginary Museum’, Philosophy & Rhetoric, 31 (1998), 
+pp. 303–316. The chapter from which I have drawn this essay is titled The Imaginary Museum of Musical Words. It continues 
+the aim of my The Imaginary Museum of Musical Works to situate the work-concept historically to show that the modern 
+organization of the arts was not always how the arts were exercised and organized.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 20 ──
+408 | LYDIA GOEHR
+Hall but more explicitly on Adorno’s descriptions of music to produce a devastating cri­
+tique not only of music’s most modern works but also of a world in which such works were 
+produced.
+Notational Ekphrasis
+Consider next what might be called notational ekphrasis. This occurs when by means of 
+signs or score alone, a musical work is brought to imaginative but not fully to aesthetic 
+presence. More than one highly educated musician has noted the pleasures of reading 
+scores separate from hearing performances. In this case, reading scores is arguably ekphrastic 
+in the ancient sense, given the absent or unperformed works it makes imaginatively 
+present. But it does not yet meet the modern condition of referring to a work that is 
+other to itself. Nevertheless, the modern condition might be met if the score became or 
+was produced as a work of visual or graphic art in its own right. Here, the visual music 
+work would re-present the musical work to the eye separate from the score that was used 
+as a guide for a performance for the ear. Notational ekphrasis asks us to consider music 
+under the terms of its being heard, read, or seen. Whether the exact same mind’s image is 
+produced if heard, read, or seen is unlikely, but does the variation matter if what it leads to 
+is an expansion of our minds in diverse musical and ekphrastic ways?
+Momentary Musical Ekphrasis
+Consider, finally, momentary ekphrasis, which occurs not between works but within works 
+without necessarily exhausting them, though they may be of such import as to explain the 
+whole. Such examples are abundant in all arts, from the object arts to the performance arts 
+of theatre, opera, and film.
+There are numerous operatic moments when statues come to life, in ghostly form at the 
+end of Mozart’s Don Giovanni, in angelic form at the end of Puccini’s Suor Angelica, or as a 
+wicked ancestor in more than one of Gilbert and Sullivan’s operas. As in Woody Allen’s Purple 
+Rose of Cairo, the wicked ancestor steps out of a frame to enter the (life’s) drama. Several com­
+mentators have written of how stepping out of a picture is exactly what the auratic descrip­
+tions of the Elder Philostratus achieved when he turned (or as if turned) what was stationary 
+or still in the absent painting into something mobile, temporal, breathing, and living.35
+There are very few operas that re-present paintings but many that offer dramatic moments 
+when pictures or paintings are invoked. From Mozart to Meyerbeer and Wagner, to Verdi and 
+Puccini: seeing a picture is often what begins a love story or what begins a comedy or tragedy 
+in which there is an essential confusion of identity.36 Though there are literally hundreds of 
+operas ‘based’ on Shakespeare’s plays, not all are ekphrastic as wholes even if some contain 
+35    Cf. Stephen M. Beall, ‘Word-Painting in the “Imagines” of the Elder Philostratus’, Hermes, 121 (1993), pp. 350–363 
+and Richard Meek, ‘Ekphrasis in The Rape of Lucrece and The Winter’s Tale, Studies in English Literature 1500-1900, 46 
+(2006), pp. 389–414.
+36    Cf. my ‘“—wie ihn uns Meister Dürer gemalt!” On Prophets, Painters, Musicians, and Mastersingers’ (submitted to 
+JAMS).
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 21 ──
+HOW TO DO MORE WITH WORDS. TWO VIEWS OF (MUSICAL) EKPHRASIS | 409
+ekphrastic moments as parts. There are also many operas that refer to prior operas or operas 
+that bring to life real and fictional artists (say, by Berlioz, Pfitzner, Hindemith, Richard Strauss, 
+and Puccini). Each of these examples requires careful interpretation to show what sort of 
+ekphrasis, if any, is at work and whether it has any interesting bearing on music.
+In 2007, John Musto and Mark Campbell created a one-act opera of five scenes. Titled 
+Later the Same Evening, it was inspired by five paintings of Edward Hopper: hence its nickname 
+Hoppera. According to various reviews, the set projected the paintings in a row, highlighting 
+each one when it was its turn to be brought to life.37 For each, the singers appeared in exact 
+dress and gesture and when the scene was over, the singers stepped back as it were into the 
+painting. The dramaturgical ‘addition’ apparently did more than illuminate each painting as a 
+separate work; it produced an overarching drama about New York City in 1932 of ‘loneliness 
+and discord’. In this sense, the ekphrasis effected a transformation of painting into sung the­
+atre. I am not sure if Musto and Campbell explicitly declared their opera ekphrastic, but it 
+meets the modern condition. Given the ancient condition, however, one may ask what differ­
+ence it would have made had Hopper’s paintings not actually been projected on the stage.
+I pose this question to raise the issue of redundancy for the last time. Consider Puccini’s 
+Tosca, which begins with the famed singer expressing jealousy of a painting that she believes 
+is modelled on another woman, whereupon her lover, the painter Cavaradossi, defends 
+himself, a little like Zeuxis with his many models, by claiming that the Madonna he paints 
+surpasses any single model. Tosca remains unconvinced: why, she persists, does he paint his 
+Madonna with one choice of hair and eye colour rather than with another, the other of 
+course matching her own appearance? The painter can only divert Tosca from her question 
+by declaring more fidelity to his love than to his art.
+In the libretto, no instruction is given that a painting be shown to the audience. Usually, 
+however, a painting is shown. A recent Met production in New York showed an androgyn­
+ous Caravaggio-like painting, perhaps to remind us of the trouble Caravaggio also got into 
+with his choice of models. An older production from Los Angeles showed the Madonna 
+with her eyes lowered, perhaps to tell us that Tosca’s jealously would have been just as in­
+tense whatever her lover had painted. Would Cavaradossi have won more favour by paint­
+ing Tosca herself? Not if, following Zeuxis, his painting was still an improvement on the 
+original! To be sure, showing a painting on the stage may serve as a directorial critique of 
+the opera, but sometimes the presence of such undercuts what is achieved or achievable by 
+the mediums that are made by the composer and librettist to constitute the work. Looking 
+with our eyes, we may forget to listen with our ears to what is (already) achieved ekphras­
+tically when the lovers sing their agonistic and agonized duet. Sometimes less is more or, 
+with respect to ekphrasis, enough.
+A Last Note
+Expanding ekphrasis beyond its work-to-work conception tells us about the contest of the 
+arts. It also tells us about how the different arts engage ekphrastic techniques for all sorts 
+37    See e.g. http://www.scene4.com/karrenlalondealenier/2007/06/birth_of_an_ekphrastic_opera_i_1.html
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018
+
+
+── PAGE 22 ──
+410 | LYDIA GOEHR
+of reasons, sometimes to illuminate another artwork but sometimes to produce virtual and 
+dynamic dramatic spaces in which all the tensions between saying and showing, concealing 
+and revealing, are put into play. Sometimes these tensions are playful and sometimes most 
+serious when, say, a musician is put to death. Taking ekphrasis seriously in the arts, we are 
+finally led back to consider the impact that description has for a philosophical theory that 
+does more than mention an artwork to exemplify a premise but actually describes it to re­
+veal a truth that lies beyond what is directly seen, sung, or said. Descriptions of artworks 
+by many modern philosophers constitute the blood-red thread of their philosophies. 
+Such descriptions are often criticized as being disrespectful to the artworks. Reading the 
+descriptions through the lens of ekphrasis—ancient and modern—allows us to read the 
+disrespect as sometimes deliberate for the sake of both philosophy and art. Description in 
+philosophy, as in the arts, is, at its best and most subtle, hardly ever plain, mere, or, indeed, 
+faithful.38
+Lydia Goehr
+Columbia University 
+lg131@columbia.edu
+38    I develop this point further in my ‘“Other pictures we look at—his we read.” Arthur Danto on Depiction and 
+Description’, in preparation for Mark Rollins (ed.), Danto and his Critics, revised edition (Blackwell). I am most 
+grateful for comments from Leonard Barkan, Guy Dammann, Michal Gal, Klaus Krüger, Marlies de Munck, Tatiana 
+Smoliarova, Gabriella Szalay, and Ruth Webb.
+Downloaded from https://academic.oup.com/bjaesthetics/article-abstract/50/4/389/73990
+by Universitetsbiblioteket i Bergen user
+on 23 January 2018

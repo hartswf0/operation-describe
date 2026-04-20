@@ -1,0 +1,3844 @@
+# Media Borders, Multimodality and Intermediality
+# Source: 2010 Elleström.pdf
+# BibTeX key: ellestrom_media_2010
+# Zotero dir: 3127
+# Extracted chars: 169270
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+PROOF
+Contents
+List of Figures
+xii
+Acknowledgements
+xiii
+Notes on Contributors
+xiv
+Introduction
+1
+Lars Elleström
+Part I
+Media, Modalities and Modes
+1
+The Modalities of Media: A Model for Understanding
+Intermedial Relations
+11
+Lars Elleström
+Part II
+Media Borders of Qualiﬁed Media
+2
+Border Talks: The Problematic Status of Media Borders in the
+Current Debate about Intermediality
+51
+Irina O. Rajewsky
+3
+Intermedial Topography and Metaphorical Interaction
+69
+Axel Englund
+4
+Intermedial Strategies in Multimedia Art
+81
+Christina Ljungberg
+Part III
+Combinations and Integrations of Media
+5
+‘Media’ before ‘Media’ were Invented: The Medieval Ballad
+and the Romanesque Church
+99
+Sigurd Kværndrup
+6
+The Intermediality of Field Guides: Notes Towards a Theory
+111
+Håkan Sandgren
+7
+Media on the Edge of Nothingness: Visual Apostrophes in
+Lettrism
+124
+Sami Sjöberg
+v
+
+
+── PAGE 2 ──
+PROOF
+vi
+Contents
+Part IV
+Mediations and Transformations of Media
+8
+Penrose, ‘Seeing is Believing’: Intentionality, Mediation and
+Comprehension in the Arts
+137
+Siglind Bruhn
+9
+Beyond Deﬁnition: A Pragmatic Approach to Intermediality
+150
+Valerie Robillard
+10
+Translating Sounds: Intermedial Exchanges in Amy Lowell’s
+‘Stravinsky’s Three Pieces “Grotesques”, for String Quartet’
+163
+Regina Schober
+11
+‘Transgenic Art’: The Biopoetry of Eduardo Kac
+175
+Claus Clüver
+12
+Photo/graphic Traces in Dubravka Ugreši´c’s The Museum of
+Unconditional Surrender
+187
+Katalin Sándor
+13
+The Dance of Intermediality: Attempt at a Semiotic Approach
+of Medium Speciﬁcity and Intermediality in Film
+199
+Hajnal Király
+14
+Media in the Cinematic Imagination: Ekphrasis and the
+Poetics of the In-Between in Jean-Luc Godard’s Cinema
+211
+Ágnes Peth˝o
+Part V
+The Borders of Media Borders
+15
+Heteromediality
+225
+Jørgen Bruhn
+16
+Intermediality Revisited: Some Reﬂections about Basic
+Principles of this Axe de pertinence
+237
+Jürgen E. Müller
+Index
+253
+
+
+── PAGE 3 ──
+PROOF
+1
+The Modalities of Media: A Model for
+Understanding Intermedial Relations
+Lars Elleström
+What is the problem?
+Scholars have been debating the interrelations of the arts for centuries. Now,
+in the age of electronic and digital media, the focus of the argumentation
+has somewhat shifted to the intermedial relations between various arts and
+media. One important move has been to acknowledge fully the materiality of
+the arts: like other media, they are dependent on mediating substances. For
+this reason, there is a point in not isolating the arts as something ethereal but
+rather in seeing them as aesthetically developed forms of media. Still, most of
+the issues discussed within the interart paradigm are also highly relevant to
+intermedial studies. One such classical locus of the interart debate concerns
+the relation between the arts of time (music, literature, ﬁlm) and the arts of
+space (the visual arts). In the eighteenth century, Gotthold Ephraim Lessing
+argued famously in Laocoön that there are, or rather should be, clear differ-
+ences between poetry and painting,1 but for the moment there is a tendency
+rather to deconstruct the dissimilarities of various arts and media. W. J. T.
+Mitchell is perhaps the most inﬂuential contemporary critic of attempts
+to ﬁnd clear boundaries between arts and media. Many important distinc-
+tions have thus been made, and then successfully erased; much taxonomy
+has been construed, and then torn down, and this process has led to many
+valuable insights – Is that not enough? What is the problem?
+The problem is that intermediality has tended to be discussed without
+clariﬁcation of what a medium actually is. Without a more precise under-
+standing of what a medium is, one cannot expect to comprehend what
+intermediality is. This is not only a terminological problem. On the con-
+trary, the understanding of what a medium is and what intermedial relations
+actually consist of has vital implications for each and every inquiry in old
+and new ﬁelds of study concerning the arts and media: ekphrasis, cinema,
+illustration, visual poetry, remediation, adaptation, multimedia and so on.
+I ﬁnd it as unsatisfying to continue talking about ‘writing’, ‘ﬁlm’, ‘perfor-
+mance’, ‘music’ and ‘television’ as if they were like different persons that
+11
+
+
+── PAGE 4 ──
+PROOF
+12
+Media, Modalities and Modes
+can be married and divorced2 as to ﬁnd repose in a belief that all media are
+always fundamentally blended in a hermaphroditical way. The crucial ‘inter’
+of intermediality is a bridge, but what does it bridge over? If all media were
+fundamentally different, it would be hard to ﬁnd any interrelations at all;
+if they were fundamentally similar, it would be equally hard to ﬁnd some-
+thing that is not already interrelated. Media, however, are both different and
+similar, and intermediality must be understood as a bridge between medial
+differences that is founded on medial similarities.
+The most important aim of this essay is to present a theoretical frame-
+work that explains and describes how media are related to each other: what
+they have in common, in what ways they differ and how these differences
+are bridged over by intermediality. In order to accomplish this, it must be
+understood that the concept of medium generally includes several types or
+levels of mediality that have to be correlated with each other. ‘Medium’,
+of course, is a term widely employed and it would be pointless to try to
+ﬁnd a straightforward deﬁnition that covers all the various notions that
+lurk behind the different uses of the word. Dissimilar notions of medium
+and mediality are at work within different ﬁelds of research and there is
+no reason to interfere with these notions as long as they fulﬁl their speciﬁc
+tasks. Instead, I will circumscribe a concept that is applicable to the issue
+of intermediality. Since intermediality will be understood as a general con-
+dition for understanding communicative and aesthetic mechanisms, events
+and devices, rather than a peripheral exception to ‘regular’ mediality, such a
+concept must actually include most of the media notions circulating in the
+academic world. Hence, I will not produce a two-line deﬁnition of ‘medium’.
+I ﬁnd such deﬁnitions counterproductive when it comes to complex con-
+cepts and any clear-cut deﬁnition of medium can only capture fragments of
+the whole conceptual web. Instead, I will try to form a model that preserves
+the term medium and yet qualiﬁes its use in relation to the different aspects
+of the conceptual web of mediality. As a term, ‘medium’ should thus be
+divided into subcategories to cover the many interrelated aspects of the mul-
+tifaceted concept of medium and mediality. As my arguments unfold, I will
+distinguish between ‘basic media’, ‘qualiﬁed media’ and ‘technical media’.
+Basic and qualiﬁed media are abstract categories that help us understand
+how media types are formed by very different sorts of qualities, whereas
+technical media are the very tangible devices needed to materialize instances
+of media types. Consequently, when talking about a medium without spec-
+iﬁcations, the term can refer to both a media category and a speciﬁc media
+realization.
+Evidently, it is important to note that qualiﬁed, basic and technical media
+are not three separate types of media. Instead, they are three complementary,
+theoretical aspects of what constitutes media and mediality. The wide con-
+cept of medium that will be presented here thus comprises several intimately
+related yet divergent notions that will be terminologically distinguished.
+
+
+── PAGE 5 ──
+PROOF
+Lars Elleström
+13
+I believe that intermediality cannot fully be understood without grasping
+the fundamental conditions of every single medium and these conditions
+constitute a complex network of both tangible qualities of media and various
+perceptual and interpretive operations performed by the recipients of media.
+For my purpose, media deﬁnitions that deal only with the physical aspects
+of mediality are too narrow, as are media deﬁnitions that strongly emphasize
+the social construction of media conceptions. Instead, I will emphasize the
+critical meeting of the material, the perceptual and the social. Media of pro-
+duction and storage are not really relevant for the forthcoming discussion
+and although I recognize the relevance of the aspect of communication in
+its widest sense, my aim is not to discuss intermediality within the frame-
+work of communication models. Instead, I want to treat mediality from a
+hermeneutical point of view. I bracket much of the conditions of media
+production and focus on the perception, conception and interpretation of
+media as material interfaces situated in social, historical, communicative and
+aesthetic circumstances.
+The material of my theoretical framework consists of the notions of
+modality and mode. Intermedial studies have their historical roots in aes-
+thetics, philosophy, semiotics, comparative literature, media studies and, of
+course, interart studies.3 During the last few decades, however, the notion of
+multimodality has also gained ground, while the roots of this new plant have
+grown in different soils; social semiotics, education, medicine and language
+and communication studies. There are seldom cross-references between the
+two research ﬁelds of intermedial and multimodal studies and the notions
+of intermediality and multimodality are surprisingly seldom related to each
+other.4 Also, in qualiﬁed texts of recent date, it is far from clear how ‘inter-
+medial’, ‘multimodal’, ‘intermodal’ and ‘multimedial’ are related.5 Since it is
+a waste of intellectual energy to develop two closely related research ﬁelds
+separately, it is a matter of priority to straighten things out as far as core
+concepts and basic terminology are concerned.
+What is a medium?
+Medium means ‘middle’, ‘interval’, ‘interspace’ and so on. The standard
+deﬁnition found in dictionaries stresses that a medium is a channel for
+the mediation of information and entertainment. Art might be seen as a
+complex blend of information and entertainment (Horace’s utile dulci) so
+it should be fully possible to include the art forms among other media. As
+we know, however, the term ‘medium’ is used in many related but different
+ways and it is also applied in contexts that are not relevant here. According
+to Marshall McLuhan’s inﬂuential ideas, media are the ‘extensions of man’
+and he suggestively argues that not only the spoken word, the photograph,
+comics, the typewriter and television are media, but also are money, wheels
+and axes.6 Within the framework of McLuhan’s own sociological theory, this
+
+
+── PAGE 6 ──
+PROOF
+14
+Media, Modalities and Modes
+notion works rather well, but in order to take the step from ‘medium’ to
+‘intermediality’, more accuracy is needed.
+The term ‘modality’ is related to ‘mode’ and these terms are also widely
+used in different ﬁelds. A ‘mode’ is a way to be or to do things. In the con-
+text of media studies and linguistics, ‘multimodality’ sometimes refers to the
+combination of, say, text, image and sound, and sometimes to the combi-
+nation of sense faculties; the auditory, the visual, the tactile and so forth.7
+In the work of Gunther Kress and Theo van Leeuwen, a mode is understood
+as any semiotic resource, in a very broad sense, that produces meaning in
+a social context; the verbal, the visual, language, image, music, sound, ges-
+ture, narrative, colour, taste, speech, touch, plastic and so on. This approach
+to multimodality has its pragmatic advantages but it produces a rather indis-
+tinct set of modes that are very hard to compare since they overlap in many
+ways that are in dire need of further theoretical discussion.8
+It is no wonder, then, that the discourses on media and modalities tend to
+be either separated or mixed up. Why bother to combine, or to keep apart,
+notions that seem to be fuzzy in rather similar ways? A medium is a channel,
+one might say, and of course there are many media, that is, modes of medi-
+ating information and entertainment. In ordinary situations, this language
+use is rather unproblematic. If one wants to understand the complexity of
+individual media in a more precise way, however, I think it is wise to dif-
+ferentiate between medium/intermediality and mode/multimodality. As far
+as I can tell, there is nothing in the etymology of the words ‘medium’ and
+‘mode’, or in the established conceptual uses of them, that clearly deter-
+mines how they should be related to each other, so here I will see it as my
+task to raise a theoretical construction and propose how to use the central
+terms in relation to each other.
+Earlier efforts to describe the relations between different media and art
+forms as a rule start off with conceptual units such as image, music, text,
+ﬁlm, verbal media or visual media, presuming that it is appropriate to com-
+pare these entities. The complexity resulting from such comparisons is often
+slightly confusing, I would say, because of two limitations. The ﬁrst problem
+is that the units compared are often treated as fundamentally different media
+with little or nothing in common. Thus, every intermedial relation seems
+to be more or less an anomaly where the supposedly essentially different
+characteristics of allegedly separate media are presumed to be more or less
+transformed, combined or blended in a unique way. Mitchell has success-
+fully criticized this way of thinking by pointing to the way various important
+traits are in fact shared by art forms that are generally seen as opposites, yet
+Mitchell’s discourse is also paradoxically but profoundly trapped in the tra-
+dition of treating art forms as separate entities. In spite of the efforts to erase
+most of the differences between poetry and painting, he anthropomorphizes
+the two art forms and emphasizes the ‘struggle’ between them, which makes
+it difﬁcult to grasp the exact nature of the similarities of media as conceived
+
+
+── PAGE 7 ──
+PROOF
+Lars Elleström
+15
+by Mitchell.9 Media are both similar and different and one cannot compare
+media without clarifying which aspects are relevant to the comparison and
+exactly how these aspects are related to each other.10
+The second problem with many comparisons between conceptual units
+such as ‘dance’ and ‘literature’ is that the materiality of media is generally not
+distinguished from the perception of media. This is understandable since it is,
+in practice, impossible to separate the two. For human beings, nothing exists
+outside perception. Nevertheless, it is crucial to discriminate theoretically
+between the material and the perception of the material if one wants to
+understand how media can be related to each other. One must be able to
+determine to what extent certain qualities belong to the material aspects
+of a medium and to what extent they are part of the perception. This is a
+slippery business, no doubt, but one must acknowledge that, for instance,
+the quality of ‘time’ in a movie is not the same as the ‘time’ that is necessary
+to contemplate a still photograph, and that ‘time’ can be said to be present
+in many forms in one and the same medium. If one avoids taking notice of
+this intricacy, one is left with a featureless mass of only seemingly identical
+media that cannot be compared properly.
+I therefore consider it a matter of urgency to put forward a model that
+starts at the other end, so to speak: not with the units of established media
+forms, or with efforts to distinguish between speciﬁc types of intermedial
+relations between these recognized media, but with the basic categories of
+features, qualities and aspects of all media. My point of departure will be
+what I call the modalities of media. The modalities are the essential cor-
+nerstones of all media without which mediality cannot be comprehended
+and together they build a medial complex integrating materiality, percep-
+tion and cognition. Separately, these modalities constitute complex ﬁelds of
+research and they are not related to the established media types in any def-
+inite or deﬁnitive way; however, I believe that they are indispensable in all
+efforts to describe the character of every single medial expression. They are
+all very familiar although their interrelations have not been systematically
+accounted for. I call them the material modality, the sensorial modality, the
+spatiotemporal modality and the semiotic modality, and they are to be found
+on a scale ranging from the tangible to the perceptual and the conceptual.
+Media and art forms are constantly being described and deﬁned on the
+basis of one or more of these modalities.11 The categories of materiality, time
+and space, the visual and the auditory, and natural and conventional signs,
+have been reshaped over and over again, but they tend to be mixed up in
+fundamental ways. Hence, in insightful essays, such as Jiˇrí Veltruský’s ‘Com-
+parative Semiotics of Art’, it remains unclear what the ‘material’ of an art
+form is.12 According to Veltruský, materials can be divided into the ‘audi-
+tory and visual’; the material of music is said to be ‘tones’ and the material
+of literature is said to be ‘language’. Furthermore, the material of literature
+is supposed to oscillate ‘between materiality and immateriality’.13 Although
+
+
+── PAGE 8 ──
+PROOF
+16
+Media, Modalities and Modes
+this categorization is fairly representative, it is not at all illuminating. The
+category of ‘material’ is fundamentally untenable since it includes aspects of
+the arts that cannot be treated as equals; tones, language and even the imma-
+terial. ‘Tones’ must be seen as related primarily to the sensorial modality
+whereas ‘language’ must be understood in semiotic terms; however, language
+actually also consists of some sorts of ‘tones’. What the ‘immaterial’ material
+is, I do not know. Perhaps the most common mistake in intermedial com-
+parisons is to confuse the notions of ‘visual’ and ‘iconic’: the visual is about
+using a speciﬁc sense, as will be discussed later, whereas the iconic is semiosis
+based on similarity (that only sometimes can be seen).
+I thus propose that we distinguish between the four modalities mentioned
+above to enable a clearer view of how media are constituted by both the
+physical realities and the cognitive functions of human beings. I want to
+stress that all media, as I understand the concept, are necessarily realized in
+the form of all four modalities; hence, it is not enough to consider only one
+or a few of them if one wants to grasp the character of a particular medium.
+In this respect, there is a fundamental difference between my approach and
+the systematic, often hierarchic, but necessarily simplistic classiﬁcations and
+divisions of the arts that were put forward from the eighteenth century
+and well into the twentieth century.14 The proposed model can be used to
+highlight both crucial divergences and fundamental parallels between all
+sorts and variants of media forms, which gives a ﬁrm ground for understand-
+ing, describing and interpreting the most elementary intermedial relations.
+Of course, the complexity of the innumerable intermedial relations that can
+be derived from the four modalities, not least from the semiotic modality,
+can only be hinted at.
+When I speak of modalities henceforth, I mean these four necessary cate-
+gories in the area of the medium ranging from the material to the mental,
+and when I speak of modes, I mean the variants of the modalities as described
+below. Entities such as ‘text’, ‘music’, ‘gesture’ or ‘image’ are not seen as
+modalities or modes. The modalities are obviously interrelated and depen-
+dent on each other in many ways, but nevertheless they can be rather clearly
+separated theoretically. Also, the modes are entangled with each other in
+many different ways, depending on the character of the medium.
+Before discussing the four modalities, a preliminary distinction must be
+made. All media need technical media to be realized. Our knowledge of the
+outer world is always limited by and dependent on our senses but, unless
+one gives oneself up to solipsism, one must assume that all media have a
+material ground. The notion of a technical medium will be discussed and
+deﬁned later in this essay, since a more delineated explanation of what a
+technical medium is requires an understanding of the four modalities; here,
+it must sufﬁce to say that a technical medium is not the same as the material
+modality. The modes of the material modality, like the modes of the three
+other modalities, must be understood as latent properties of media, whereas
+
+
+── PAGE 9 ──
+PROOF
+Lars Elleström
+17
+the technical medium is the actual material medium, the ‘form’, that realizes
+and manifests the latent properties of media, the ‘content’.
+The four modalities of media
+The order in which the four modalities will be presented is not arbitrary.
+I would not say that the order from the material, the sensorial and the spa-
+tiotemporal to the semiotic is ‘temporal’ or ‘hierarchical’ in any clear-cut
+way, but I do suggest that there is a point in starting with the material aspect
+since this is what would exist even if all living creatures were to be wiped
+out from the surface of our planet. The sensorial is the next stage since it is
+a prerequisite for the more ‘advanced’ spatiotemporal and semiotic modali-
+ties. Without sensory impressions there cannot be any conceptions of time,
+space or meaning. The semiotic modality is the ‘last’ modality since it can
+be said to include, or at least be based on, the other three. It is hence also
+the most complex modality.
+The material modality can thus be deﬁned as the latent corporeal interface
+of the medium. The material interface of television programs and motion
+pictures, for instance, consists of a more or less ﬂat surface of changing
+images (in a wide sense of the notion) combined with sound waves. The
+interface of most kinds of written text also consists of a ﬂat surface, but the
+appearance of the surface is not changing. The interface of music and radio
+theatre consists of sound waves. Regular theatre, on the other hand, must be
+understood as a combination of several interfaces: sound waves, surfaces that
+are both ﬂat and not ﬂat and that have both a changing and static character,
+and also the very speciﬁc corporeal interface of human bodies. The interface
+of sculptures normally consists of extended, generally solid materiality.
+The materialities of media can differ in many ways that cannot always
+be clearly separated, of course, but I think it is proper to make an approx-
+imate distinction between three modes of the material modality: human
+bodies, other materiality of a demarcated character such as ﬂat surfaces
+and three-dimensional objects, and material manifestations of a less clearly
+demarcated character such as sound waves and different sorts of laser or light
+projections.
+The sensorial modality is the physical and mental acts of perceiving the
+present interface of the medium through the sense faculties. Media cannot
+be realized: that is, cannot mediate, unless they are grasped by one or more
+of our senses. Usually, we talk about the ﬁve senses of humans, which may
+here be described as the ﬁve main modes of the sensorial modality: seeing,
+hearing, feeling, tasting and smelling. Still, the issue is, as usual, more com-
+plex. At least three levels of the sensorial must be discerned. The ﬁrst level is
+sense-data that originate from objects, phenomena and occurrences but that
+can never be captured in isolation without a perceiving and interpreting
+agent. Often, but far from always, sense-data tend to cause inter-subjective
+
+
+── PAGE 10 ──
+PROOF
+18
+Media, Modalities and Modes
+sensations. The sense-data of media come from the realized material
+interface. The second level of the sensorial consists of our receptors: cells that
+when stimulated cause nerve impulses that are transferred to a nervous sys-
+tem. The third level is the sensation, meaning the experienced effect of the
+stimulation. All our sensations consist of integrated experiences of the way
+a variety of receptors perceive and interpret an array of sense-data.
+The exact nature of sense-data and sensations, and the relation between
+them, is very much disputed, whereas the physical receptors have been stud-
+ied and described in detail.15 Exteroceptors register changes in the external
+environment, interoceptors are sensible to the internal conditions and proprio-
+ceptors give us information regarding length and tension in muscle ﬁbres and
+sinews. Our ﬁve senses are thus actually, to be more precise, the ﬁve sense
+organs that register changes in the exterior environment: eyes, ears, olfactory
+organ, gustatory organ and skin.16 For the moment we witness an increased
+interest in the interoceptors and the proprioceptors but most media are still
+primarily understood as exterior channels of information. Chieﬂy sight and
+hearing, the two cognitively most advanced faculties, deserve our attention
+in the context of media and arts, but not exclusively. Music and speech are
+ﬁrst and foremost heard, but there is a clear physical link between exterior
+hearing and inner balance that cannot be ignored. A sculpture is mainly
+seen, but it is impossible to grasp its entity without moving and hence also
+involving the inner senses. Even if one does not actually touch its surface
+one sees and indirectly feels its tactile qualities. The reactivation of memo-
+ries of sensorial experiences plays a certain part in the perception of media.
+Reading a text, for instance, often involves the creation and recollections of
+visual experiences that are very remote from the way the alphabetic letters
+look, and it also involves an inner hearing of the sounds of the words. New
+sensations are thus frequently a complex web of perceived and conceived
+sense-data combined with retrieved sensations.
+Sense-data cannot be grasped, cannot be conceived as sensation, unless
+they are given some sort of form, Gestalt, in the act of perception. The
+spatiotemporal modality of media covers the structuring of the sensorial
+perception of sense-data of the material interface into experiences and con-
+ceptions of space and time. Media, like all objects and phenomena, receive
+their multilayered spatiotemporal qualities in the act of perception and
+interpretation; thus, the spatiotemporal cannot be identiﬁed with the prop-
+erties covered by the material modality, although there is certainly a strong
+link between these two modalities. I basically adhere to Kant’s idea that space
+and time are a priori sensory intuitions ‘that must precede all empirical intu-
+ition (i.e., the perception of actual objects)’.17 Thus, because of cognitive
+conditions, all media necessarily in some respect receive both spatial and
+temporal qualities. Furthermore, the principles of physics teach that the spa-
+tiotemporal relationship is indeed very complex: time and space interact not
+only on the level of perception but as physical phenomena as such, but we
+
+
+── PAGE 11 ──
+PROOF
+Lars Elleström
+19
+do not have to bother about that when it comes to media modalities. In this
+context, it sufﬁces to state that all media have aspects of the two basic modes
+of space and time which must theoretically be kept apart in some respects
+and brought together in other respects. The closer we come to the sense-data,
+the more time and space seem to be able to be considered separately and the
+more they can be said to be part of the material modality; the closer we come
+to the sensations, the more the very distinction between space and time loses
+its relevance. This critical difference is often overlooked, which has led to
+some confusion in the discussion of intermediality.
+Spatiotemporal perception can be said to consist of four dimensions;
+width, height, depth and time. The corporeal interface of a photograph
+has only two dimensions; width and height. A sculpture has three mate-
+rial dimensions, all of them spatial; width, height and depth. A dance has
+four dimensions; width, height, depth and time. Every dance performance
+has a beginning, an extension and an end situated in the dimension of time,
+while a photograph, as long as it exists, simply exists. If one closes one’s
+eyes in the middle of a dance performance, something is missed and the
+spatiotemporal form cannot be grasped in its entirety. If one closes one’s
+eyes while watching a photograph, nothing is missed and the spatial form
+remains intact. In this respect, considering the material modality through
+the spatiotemporal modality, there are very distinct and certainly relevant
+spatiotemporal differences between media.
+Hence, media that lack the fourth dimension, time, can be said to be
+static, considered as material objects: their sense-data remain the same. For
+media that do incorporate the dimension of time in their physical manifesta-
+tion, meaning that their sense-data change, some further distinctions can be
+made. Motion pictures and recorded music, for instance, have ﬁxed sequen-
+tiality. Hypertexts and much music accompanying computer games can be
+said to have partially ﬁxed sequentiality. Mobile sculptures, truly improvised
+music and a performance broadcast live on television have (at least poten-
+tially) non-ﬁxed sequentiality. There are certainly no deﬁnite borders between
+these categories, and for some media one must also consider the semiotic
+modality in order to understand the spatiotemporal nature of the medium.
+Listening to a recorded poem is like listening to recorded music: the inter-
+face of the medium must be said to have ﬁxed sequentiality. Listening to a
+poem being read live is to perceive a medium hovering between the ﬁxed
+sequence and the non-ﬁxed sequence. Reading a printed poem is to per-
+ceive a medium with a clearly spatial material interface, but as soon as the
+conventional semiotic aspect of language is considered, the perception also
+incorporates temporality and ﬁxed sequentiality (for most standard poems)
+or at least partly ﬁxed sequentiality (for poems lacking clearly distinguish-
+able lines). However, this kind of sequentiality, being attributed not to the
+material interface but to the realization of sequential sign systems, has a less
+deﬁnite character.
+
+
+── PAGE 12 ──
+PROOF
+20
+Media, Modalities and Modes
+The most basic form of spatiality is hence the manifestation of the mate-
+rial modality in terms of physical width, height and depth, but that is far
+from the whole story since our cognition to a large extent works in terms
+of spatiality. Also, abstract concepts and experiences of time have spatial
+characteristics. Thinking in terms of spatiality is a fundamental trait of
+the human mind that has a signiﬁcant effect on the way we perceive and
+describe media. Experiences and interpretations of, for instance, narratives
+and music are also conceived of as spatial relations and patterns.18
+Some such conceptions are closely connected to certain types of primarily
+visual sense-data. The notion of virtual space covers the effects of media that
+are not three-dimensionally spatial on the level of the material interface but
+that nevertheless receive a spatial character of depth in the perception and
+interpretation. Paintings and photographs actually have only two dimen-
+sions, width and height, but often, by means of resemblance of certain visual
+qualities in the perceived world they give the illusion of a third, depth,
+which creates a virtual space in the mind of the beholder. The interface of
+a movie, correspondingly, has three dimensions: width, height and (ﬁxed
+sequential) time, but usually an illusion of depth is created. The virtual space
+created by a computer is undoubtedly slightly different, since we can choose
+to a certain extent how to move within it, but it nevertheless consists of
+width, height and (partly ﬁxed sequential) time, together also creating the
+illusion of depth. Indeed, verbal narratives also create various sorts of virtual
+spatiality in the mind of the listener or reader – not only abstract, conceptual
+spatiality but virtual worlds within which the reader can navigate.19
+Consequently, at least three levels of spatiality in media can be discerned:
+space as a trait of the interface of the medium (the material modality consid-
+ered through the spatiotemporal modality), space as a fundamental aspect
+of all cognition and space as an interpretive aspect of what the medium
+represents (virtual space).
+Temporality in media can be understood in a similar way. The most fun-
+damental form of time consists of the way the medium’s material modality
+is manifested through its sense-data. Some media have corporeal interfaces
+that are simply not temporal. Yet, it is important to note that all media are
+obviously realized in time: all perception and interpretation of media and
+what they mediate are necessarily inscribed in time, which complicates the
+modal relations between time and space. Also, media that are not basically
+temporal become situated in time as soon as they catch our attention, which
+of course has implications for our conception and interpretation of such
+media.
+As a counterpart to virtual space, the notion of virtual time might further-
+more be introduced. Some speciﬁc media have spatial characteristics that
+encourage the interpretation of the spatial in terms of time passing. To some
+extent, there are conventions that make us look at pictures, in a comic
+strip for instance, in a certain temporal order. However, this is not a case
+of virtual time but rather an instance of pictorial sequentiality produced by
+
+
+── PAGE 13 ──
+PROOF
+Lars Elleström
+21
+merging conventions of decoding symbolic and iconic signs. Virtual time
+is rather characterized by the capacity of individual pictures to depict not
+only one static moment but a series of occurrences.20 Interpretations of still
+images of what we, on iconic grounds, take to be moving objects or creatures
+always include an interpretation of where the object or creature was ‘before’
+and ‘after’ the frozen time in the image.21 Some still images, for instance
+photographs, may have qualities in the image, such as objects represented
+with blurred contours or stretched and transparent objects, that we take to
+be indexical depictions of objects moving in space and time.22 These ‘illu-
+sions’ of partly ﬁxed sequential time might be called virtual time, which is
+the case also for all sorts of time represented by verbal narration. In short,
+virtual space and virtual time can be said to be manifest in the perception
+and interpretation of a medium when what is taken to be the represented
+spatiotemporal state is not the same as the spatiotemporal state of the repre-
+senting material modality considered through the spatiotemporal modality.23
+Again, we have at least three levels of temporality in media: time as a trait of
+the interface of the medium (the material modality considered through the
+spatiotemporal modality), time as a necessary condition of all perception
+and time as an interpretive aspect of what the medium represents (virtual
+time).24
+Consequently, there are certainly fundamental differences between media
+when it comes to time and space. If one does not acknowledge these dif-
+ferences, one cannot understand the complexity of interpreting media in
+terms of clashes, fusions and mutual exchanges between the categories of
+time and space. The difference between media with various forms of spa-
+tiotemporal interfaces is never dissolved, of course, but it is certainly crucial
+to note the tension created in a medium lacking, for instance, temporal qual-
+ities in the interface, and yet provoking temporal aspects in the perception
+and interpretation.
+So far nothing has been said about meaning, which I think primarily
+belongs to the semiotic modality. Since the world is meaningless in itself,
+meaning must be understood as the product of a perceiving and conceiving
+subject situated in social circumstances. All meaning is the result of an inter-
+preting mind attributing signiﬁcance to states of affairs, actions, occurrences
+and artefacts. In its widest sense, semiotics is a theoretical ﬁeld aiming at
+understanding how the processes of signiﬁcation work. For me, the most
+proliﬁc endeavours of semiotics are those bordering on hermeneutics, such
+as the pragmatic sign discussions of Charles Sanders Peirce. Following Peirce,
+meaning can be described as the result of sign functions, and although there
+are no signs until some interpreter has attributed signiﬁcance to them, one
+can distinguish between different sorts of signs, or sign functions.
+The material interfaces of media have no meaning in themselves, of
+course, but the process of interpretation already begins in the act of
+perception. Conception and cognition do not come after perception; rather,
+all our sensations are the results of an interpreting, meaning-seeking mind.
+
+
+── PAGE 14 ──
+PROOF
+22
+Media, Modalities and Modes
+The moment we become aware of a visual sensation, for instance, the sen-
+sation is already meaningful at a basic level. Seeing a dancer is to become
+aware of a visual sensation of a body being inscribed in a spatiotemporal
+continuum. The sensation may also include apprehended similarities with
+other phenomena in the world and gestures that we recognize from other
+performances. The dancer may wave her arms like a bird, jump like a frog
+and then bow. What we take to be imitations of animals may be described
+as iconic sign functions, whereas the bow is primarily a conventional sign
+denoting ‘the end’.
+The semiotic modality thus involves the creation of meaning in the
+spatiotemporally conceived medium by way of different sorts of think-
+ing and sign interpretation. The creation of meaning already starts in the
+unconscious apprehension and arrangement of sense-data perceived by the
+receptors and it continues in the conscious act of ﬁnding relevant con-
+nections within the spatiotemporal structure of the medium and between
+the medium and the surrounding world. There are two different but com-
+plementary ways of thinking: on the one hand, some cognitive functions
+are mainly directed by propositional representations, while other cogni-
+tive functions mainly rely on pictorial representations.25 Brain research has
+shown that to a great extent the two ways of thinking can be located in
+the two cerebral hemispheres. We think both in an abstract way and in a
+concrete (visual and spatial) way. These interrelated but nevertheless differ-
+ent ways of cognition are deeply correlated, I would say, with the semiotic
+categories. Earlier, it was common to distinguish between conventional or
+arbitrary signs and natural signs. Peirce’s most important trichotomy – sym-
+bol, index and icon – has the advantage of avoiding the slightly misleading
+idea that some signs exist ‘in nature’, but obviously the symbol is a con-
+ventional sign, as Peirce states, and the index and the icon are in a way
+natural signs. The indexical sign function is based on cause and closeness,
+while iconicity is based on similarity: capacities that are part of the outer
+world as it is perceived and conceived by us.26 In semiotic terms, thinking
+based on propositional representations can be described as meaning cre-
+ated by conventional, symbolic sign functions, whereas thinking based on
+pictorial representations can be described as meaning created by indexical
+and iconic sign functions. The indexical and the iconic sign functions are
+deeply related to the way the mind conceives sense-data as spatiotempo-
+ral structures, which is why especially this kind of meaning is the result
+of interpretation also on the subliminal level. The spatiotemporal struc-
+tures conceived by our mind are ‘designed’ to be meaningful – not in a
+propositional way, but in a pictorial way.
+I thus propose that convention (symbolic signs), resemblance (iconic
+signs) and contiguity (indexical signs) should be seen as the three main
+modes of the semiotic modality. According to Peirce, who stresses that the
+determinate aspect of all signs are ‘in the mind’ of the interpreter, the
+
+
+── PAGE 15 ──
+PROOF
+Lars Elleström
+23
+three modes of signiﬁcation are always mixed, but often one of them can
+be said to dominate.27 In most written texts, the symbolic sign functions
+of the letters and words dominate the signiﬁcation process. Instrumental
+music and all kinds of visual images (for instance, drawings, ﬁgures, tables
+and photographs) are generally dominated by iconic signs, although pho-
+tos also have an important indexical character. The iconic qualities of music
+and images differ, of course, since the musical signs are auditory signs that
+mainly refer to motions, emotions, bodily experiences and cognitive struc-
+tures, while the visual signs of images largely refer to other visual entities,
+but all of these sign functions are based on resemblance.28 The semiotic char-
+acter of all media is exceedingly complex but there is no doubt about the
+basic semiotic differences between, for instance, a written text and a moving
+image.
+These semiotic modes, together with the spatiotemporal, the sensorial
+and the material modes, form the speciﬁc character of every medium. Let
+us brieﬂy and rudimentarily examine a few examples. Traditional sculpture
+has a three-dimensional, solid and static material interface. It is primar-
+ily perceived visually but it also has tactile qualities. Generally, the iconic
+sign function dominates. An animated movie consists of a ﬁxed sequence
+of moving images and sounds. Its corporeal interface is a ﬂat surface with
+visual qualities combined with sound waves, and the combination of two-
+dimensional images and sound often creates an effect of virtual space. The
+images are ﬁrst and foremost iconic and they lack the speciﬁc indexical char-
+acter of images produced by ordinary movie cameras. The sound generally
+consists of voices, sound effects and music: the musical sounds, but often
+also much of the voice qualities, are very much iconic, while the parts of
+the voices that can be discerned as language are mainly decoded as conven-
+tional signs. Printed poetry has a solid, two-dimensional material interface,
+or a sequential combination of such interfaces (if realized in the technical
+medium of a book). It is perceived by the eyes, but also when read silently
+it becomes apparent that it also has latent auditory qualities in the conven-
+tional system of signiﬁcation called language. Most poetry gains its meaning
+through these conventional signs, but there may also be substantial por-
+tions of iconicity in both the visual form of the text and the silent, inner
+sound experiences produced by the mind. In terms of spatiotemporality,
+printed poetry is essentially spatial. Very rarely, virtual space is perceived
+as a result of illusive depth in the two-dimensional visual appearance of the
+poem, whereas virtual space in the sense of illusionary worlds is often cre-
+ated. Printed poems that are dominated by readable words, rather than, for
+instance, clusters of letters, are indirectly (partly) sequential since the con-
+ventional signs (partly) determine the temporal realization of the written
+language.
+As one can see from these few examples, the modes of different media
+clearly differ and the modalities always interact in more or less complex
+
+
+── PAGE 16 ──
+PROOF
+24
+Media, Modalities and Modes
+ways. Since the modalities cannot be seen as isolated entities, the proposed
+model offers no simple, mechanical way of checking off the modes of the
+modalities, one after another, but it suggests a method of investigating
+minutely the features of various media and how they may be interpreted.
+The model roughly supports ideas about media always containing other
+media (McLuhan29 ), or media always being mixed media (Mitchell30), but
+it also accounts for, in some detail, what it can mean to say that media are
+always entangled in each other, and in which respects, in fact, media are
+not contained by or mixed with other media: it is about media necessar-
+ily sharing the four basic modalities, but having the shifting modes of the
+modalities only more or less in common; it is also about seemingly having
+modes in common when in fact many media features come into existence
+on different levels, ranging from the material interface to the perception and
+interpretation of the medium.
+There are thus media similarities and media dissimilarities. All media are
+mixed in different ways. Every medium consists of a fusion of modes that are
+partly, and in different degrees of palpability, shared by other media. Every
+medium has the capacity of mediating only certain aspects of the total real-
+ity. Since the world, or rather our perception and conception of the world,
+is utterly multimodal, all media are more or less multimodal on the level
+of at least some of the four modalities, meaning that they in some respect
+include, for instance, both the visual and the auditory mode, both the iconic
+and the symbolic mode, or both the spatial and the temporal mode (materi-
+ally or virtually). I think it is fair to say that all media are multimodal as far
+as the spatiotemporal and the semiotic modalities are concerned, whereas
+some media, such as computer games and theatre, are multimodal on the
+level of all four modalities.
+The two qualifying aspects of media
+The four modalities are thus necessary aspects of all conceivable media,
+but it is not always sufﬁcient to consider only the modes of the modali-
+ties to reach a proper understanding of how media are actually realized and
+understood. A deeper understanding of individual media realizations, their
+inﬁnitely many qualities and their way of taking part in a world of constant
+change, requires additional perspectives. There are at least two other aspects
+involved in media constructions and media deﬁnitions. These aspects com-
+plement the modalities, but they are also to some extent involved in the
+character of the modes. I propose they be called qualifying aspects of media.
+The ﬁrst of these two qualifying aspects is the origin, delimitation and use
+of media in speciﬁc historical, cultural and social circumstances. This may be
+called the contextual qualifying aspect. Modal combinations and blends can be
+performed in very many ways and often there is no manner of automatically
+deciding, on the basis of the modal properties, where the limits of a medium
+
+
+── PAGE 17 ──
+PROOF
+Lars Elleström
+25
+are to be found. That can be determined only by way of investigating his-
+torically determined practices, discourses and conventions. We tend to talk
+about a medium as something that begins to be used in a certain way, or
+gains certain qualities, at a certain time and in a certain cultural and social
+context.31 ‘Visual art’, ‘Morse messages’, ‘sign language’ and ‘e-mail’ are not
+eternal media although they may be neatly described as far as the modal
+properties are concerned – they appear and (perhaps eventually) disappear
+and they are intelligible only in certain cultural and social contexts. Some-
+times it is a more or less radical change on the material and technical level,
+such as the invention of a new printing technique or a new technological
+device, that triggers the genesis of what is taken to be new media. Sometimes
+it is rather old techniques that are seen as new media when adopted in new
+contexts, as when photographs are exhibited at galleries and museums or
+when letters are used to perform ‘mail art’.
+The second of the two qualifying aspects that deﬁne media includes aes-
+thetic and communicative characteristics. This may be called the operational
+qualifying aspect.32 There is a strong tendency towards treating a medium
+as a medium, or an art form as one form of art, only when certain qual-
+itative aspects can be identiﬁed. Such aspects are, of course, not eternally
+inscribed but formed by conventions.33 In fact, Lessing’s notorious assertions
+concerning the rigorous difference between poetry and painting are clearly
+normative and deal with qualifying aspects of the arts of time and space.
+Lessing’s claims regarding very distinct differences between the temporal
+art of poetry representing action and the spatial art of painting represent-
+ing objects do not really concern the basic, modal aspects of media. He
+recognizes important semiotic differences between the arts, of course, but
+constantly demonstrates not least how (allegedly bad) poetry can represent
+objects. Poetry, however, should not be as ‘speech and its signs in general’
+he claims.34 According to Lessing, then, the restrictions concerning spa-
+tiality and temporality in poetry and painting, respectively, are primarily
+a question of qualifying aspects.
+Another example of how the operational qualifying aspect works would
+be ‘cinema’ which, it has been argued, did not become ‘cinema’ the day the
+technique was invented.35 Cinema, like other new media, borrowed aesthetic
+and communicative characteristics belonging to old media, and although
+the ﬁrst ﬁlms also had distinct communicative and aesthetic characteris-
+tics, of course, it took a while before the many qualifying characteristics
+of the mediated content developed into recognizable media forms. Eventu-
+ally, there came to be two notions attached to the same term: cinema as a
+set of techniques and cinema as a multifaceted qualiﬁed medium developed
+within the frames of, but not determined by, the technical aspects.36 Music,
+on the other hand, can be mediated by a variety of technical media, but most
+people would not include simply any kind of sound in the notion of music.
+Music, as an art form, a qualiﬁed medium, must be produced within assured
+
+
+── PAGE 18 ──
+PROOF
+26
+Media, Modalities and Modes
+communicative circumstances and fulﬁl certain conventional aesthetic crite-
+ria to be accepted as music. These circumstances and criteria vary, no doubt,
+but if they were to be annihilated, few people would ﬁnd it meaningful still
+to talk about the medium of music.
+Dance is also a qualiﬁed medium governed by aesthetic standards, yet this
+art form is closely related to gesture, which might be seen as a qualiﬁed
+medium of another kind. The primary modes involved in both dance and
+gesture are the body, visuality and spatiotemporality. As far as the semiotic
+modality is concerned, both dance and gesture include iconic and symbolic
+signs. I presume there is a tendency towards more indexical sign-functions
+in gesture but the main difference between dance and gesture is to be
+found in the operational qualifying aspect: dance adheres to conventions
+of aesthetic expression whereas gesture is primarily part of communicative
+situations.
+These two qualifying aspects often interact, of course (and I guess it would
+be feasible to split them into three, four or even more speciﬁc aspects). As
+emphasized by Jürgen E. Müller, the aesthetic and the communicative fea-
+tures of a medium often arise, or become gradually accepted, or disappear,
+at a certain moment in history and in certain socio-cultural circumstances.37
+The relativity in many deﬁnitions of particular media is thus strongly related
+to the relativity of deﬁning genres and subgenres of media. A genre cannot
+be circumscribed as an abstract entity without considering how both ‘form’
+and ‘content’ are related to both aesthetic and social changes and sometimes
+it is an open question whether a new aesthetic or communicative practice
+should be called a medium or a genre.38
+The two qualifying aspects thus cannot be left out when trying to
+delineate the contours of a medium. A painting consists of paint on a two-
+dimensional (or weakly three-dimensional) surface that can be seen (and
+to a lesser degree felt and smelled). Generally, the iconic signs dominate.
+The iconic signs, together with conventions for representation, very often
+make us perceive virtual space in the depiction. In order to be counted as a
+painting instead of only paint spread around, however, the picture must be
+produced and presented within generally accepted social and artistic frames
+and it should have some aesthetic qualities. None of these qualifying aspects
+are truly stable, though. Like all art forms and other qualiﬁed media, the
+nature of ‘painting’ can only be circumscribed ad hoc. The modalities of the
+shifting notions of painting are rather stable, however, and provide a useable
+starting point for discussing the limits of the medium. If the material surface
+of an alleged painting is strongly three-dimensional, it can consequently be
+argued straightforwardly, on the basis of conventional genre and media bor-
+ders, that it in fact should be seen as a sculpture due to its material modality.
+Of course, this ‘redeﬁnition’ leaning on modality properties may have an
+impact on the way the painting or sculpture is conceived when taking into
+account the qualifying aspects of media deﬁnitions.
+
+
+── PAGE 19 ──
+PROOF
+Lars Elleström
+27
+All of the four modalities, and as a rule also the two qualifying aspects,
+must hence be considered when attempting to ﬁnd the core of one medium
+or another – if there is one. However, I think there is a lot to gain in acknowl-
+edging not only the existence of modalities and qualifying aspects but also
+their different natures. There is no point in comparing different media if the
+media in question are described or deﬁned on the basis of only a selection of
+modalities and qualifying aspects that are not properly related to each other.
+There is a point in deﬁning ‘music’ as a medium since it can be delimited
+rather unambiguously by way of the four modalities and the two qualifying
+aspects, notwithstanding the open character of the aesthetic qualities. ‘Liter-
+ature’ and ‘alphabetic text’ are not media as such though, I would say, since
+there is a distinct and extensive modal difference between the material, sen-
+sorial and spatiotemporal modalities of visual text and auditory text. ‘Visual
+text’ and ‘visual literature’ (based on printed or otherwise inscribed signs),
+however, might be seen as media, since they are both categories that include
+fairly similar medial objects (if ‘visual text’ is understood to be a written
+sequence of linguistic signs on a spatial surface). On the other hand, there
+is a difference between the media ‘visual text’ and ‘visual literature’: visual
+literature is heavily dependent on the two qualifying aspects while visual
+text is a sort of medium that can largely be deﬁned by way of only the four
+modalities. Media that are mainly identiﬁed by their modal appearances I
+propose to call basic media. Art forms and other cultural media types always
+rely strongly on the two qualifying aspects and hence can be called qualiﬁed
+media.
+The distinction between basic media and qualiﬁed media is not absolute
+and, since the modes of the modalities are not easily isolated entities, there
+is no deﬁnite set of basic media, I think. However, if we deﬁne ‘text’ as
+any conventional sign-system, media such as ‘auditory text’, ‘tactile text’,
+‘still image’, ‘moving image’, ‘iconic body performance’ and ‘organized non-
+verbal sound’ would be examples of what can be seen as basic media. ‘Visual
+text’, however, should be seen as a cluster of basic media that differ depend-
+ing on whether they are produced by material signs or body movements,
+whether they are ﬁxed in space or inscribed in a temporal ﬂow and per-
+haps also whether they consist of singular sign units or sequences of signs.39
+Apart from being deﬁned by the two qualifying aspects, qualiﬁed media can
+consist of both single basic media, for instance documentary photography
+being based on still images, and combinations of basic media, for instance
+motion pictures being primarily based on moving images, auditory text and
+non-verbal sounds.
+What is intermediality?
+It has been argued, for good reason, that intermediality is a result of
+constructed media borders being trespassed; indeed, there are no media
+
+
+── PAGE 20 ──
+PROOF
+28
+Media, Modalities and Modes
+borders given by nature, but we need borders to talk about intermediality.
+Werner Wolf emphasizes that media borders are created by conventions and
+Christina Ljungberg stresses the performative aspect of border crossings.40
+Intermediality would thus be something that sometimes ‘happens’; an effect
+of unconventional ways of performing medial works.
+Media borders are of at least two kinds, however: media differ partly
+because of modal dissimilarities and partly because of divergences concern-
+ing the qualifying aspects of media and the conventionality of media borders
+is mainly a facet of the qualifying aspects.41 Intermedial relations between
+basic media such as ‘moving image’ and ‘still image’ can thus be relatively
+clearly described within the framework of the four modalities, whereas inter-
+medial relations between qualiﬁed media such as ‘auditory literature’ and
+‘music’ to a great extent also rely on the two qualifying aspects. In the
+ﬁrst case, the border between the two basic media of ‘moving image’ and
+‘still image’ is mainly to be found in the spatiotemporal modality, since still
+images are spatial whereas moving images are both spatial and temporal.
+In the second case, the border between ‘auditory literature’ and ‘music’ is
+partly of a modal character, considering that all literature is primarily (but
+not exclusively) symbolic and music is primarily (but not exclusively) iconic,
+and partly of a qualiﬁed character, since the boundaries between what is
+counted as literature and music are also largely dependent on cultural and
+aesthetic conventions. A ‘normal’ reading of a poem is generally seen as lit-
+erature, whereas a singing performance of the same poem counts as music –
+and there are many performance variants in between the literary and the
+musical that cannot be classiﬁed as either literature or music in a clear-cut
+way since there is no deﬁnite border to be crossed. Sometimes it is rather a
+question of whether the poem is being performed in a ‘poetry reading’ or
+a ‘concert’. This cultural and aesthetic ambiguity of the difference between
+auditory literature and music is clearly linked to the semiotic modality, how-
+ever. Also, a rather neutral reading of a poem has some iconic potential, and
+what is taken to be the increasing ‘musicality’ of a more varied, rhythmic
+and melodic reading is in fact strongly linked to an increase of the iconic
+sign function.
+Both kinds of media borders, the modal and the qualiﬁed, can be crossed
+in two rather dissimilar ways. I think it is appropriate to distinguish between,
+on the one hand, combination and integration of (basic or qualiﬁed) media
+and, on the other hand, mediation and transformation of (basic or quali-
+ﬁed) media.42 Theatre, for instance, normally combines and integrates, to
+varying degrees, basic media such as auditory text, still image and body per-
+formance. The aesthetic aspects of these combinations and integrations of
+basic media are part of how theatre is understood and deﬁned as a qual-
+iﬁed medium. Each basic medium has its own modal characteristics and
+when combined and integrated according to certain qualitative conventions
+the result is what we call ‘theatre’, consisting of different kinds of material
+
+
+── PAGE 21 ──
+PROOF
+Lars Elleström
+29
+interfaces, appealing to both the eye and the ear, being both profoundly
+spatial and temporal, producing meaning by way of all kinds of signs and,
+certainly, being circumscribed by way of historical and cultural conventions
+and aesthetic standards. Theatre may thus be said to be a qualiﬁed medium
+that is very much multimodal and also, in a way, very much intermedial
+since it combines and integrates a range of basic and qualiﬁed media.43 The
+pop song, to take another example, is a qualiﬁed medium that includes
+the two basic media ‘auditory text’ and ‘organized non-verbal sound’. The
+consequences of the combination and integration of these two basic media
+are not as far-reaching as the combination of several basic media in the-
+atre. Auditory text and organized non-verbal sound have the same material
+interface: sound waves that are taken in by the organs of hearing. Their
+way of being fundamentally temporal, but also to a certain degree spatial,
+is similar. The difference between auditory text and organized non-verbal
+sound is clearly to be found in the semiotic modality: the process of sig-
+niﬁcation in auditory texts is mainly a question of decoding conventional
+signs, whereas the meaning of the organized non-verbal sound ﬁrst and
+foremost is a result of interpreting the sounds in terms of resemblance and
+contiguity.
+An unqualiﬁed combination and integration of these two basic media is
+not enough to produce a pop song, however. Normally, both the auditory
+text and the non-verbal sound need to have certain qualities that confer on
+them not only the value of ‘lyrics’ and ‘music’ but also of ‘pop lyrics’ and
+‘pop music’. The qualities of qualiﬁed media become even more qualiﬁed,
+so to speak, when aspects of genre are involved; a genre might therefore be
+called a sub-medium. Indeed, we usually deem that the lyrics produced by
+the singer are in themselves music, as is the sound produced by the mechan-
+ical and electronic instruments. The integration of the two basic media in a
+pop song is consequently in effect very deep, since the two media are more
+or less identical when it comes to three of the four modalities, and concern-
+ing the fourth modality, the semiotic, it is perfectly normal to integrate the
+symbolic and the iconic sign-processes in the interpretation of both litera-
+ture and music. Texts are generally more symbolic and music is generally
+more iconic, but the combination and integration of words and music stim-
+ulates the interpreter to ﬁnd iconic aspects in the text and to realize the
+conventional facets of the music.
+Whether it is relevant to talk about the combination and integration of
+media is thus a question of degree: media that share no or few modes,
+such as music and visual literature, can only be combined or weakly inte-
+grated,44 whereas media that have many modes in common may be deeply
+integrated. In fact, one may certainly say that media consisting of many dif-
+ferent modes in a way are ‘integrated’ or even ‘mixed’ already as ‘isolated’
+media, as Mitchell emphasizes.45 However, it is imperative to note that every
+medium is modally ‘mixed’ in a way that is more or less unique, allowing
+
+
+── PAGE 22 ──
+PROOF
+30
+Media, Modalities and Modes
+different kinds of intermedial mixtures with other media consisting of
+dissimilar modal combinations.46
+Similarly, whether it is reasonable to talk about the mediation or transfor-
+mation of media is a question of grade. In order to understand this properly,
+the notion of technical medium, which has already been used tentatively,
+must be discussed further. I deﬁne a technical medium as any object, physi-
+cal phenomenon or body that mediates, in the sense that it ‘realizes’ and
+‘displays’ basic and qualiﬁed media.47 In this sense, paper is a technical
+medium since it can mediate written words, whereas a pen, which can only
+produce and not display written words, is not a technical medium. A gui-
+tar, however, which can both produce and at the same time realize musical
+sound, can also be said to be a technical medium if one considers espe-
+cially its sound-realizing aspects.48 Basic and qualiﬁed media can exist only
+as ideas without technical media. A technical medium can thus be described
+as realizing ‘form’ while basic and qualiﬁed media are latent ‘content’. The
+crucial connection between the ‘form’ and the ‘content’ of media is found in
+the relation between the technical medium and the material modality: the
+material modality of a medium consists of a latent corporeal interface that
+can be realized in actual manifestations by technical media.
+Like all form–content relations, the relation between technical media and
+the material modality is very tight: the theoretical distinction can and must
+be made, but in practice the two cannot be separated. For instance, the mate-
+rial modality of sculpture consists of (an idea of) extended, generally solid
+materiality that can be realized by technical media such as bronze, stone or
+plaster. As an abstract notion, sculpture is not connected to speciﬁc technical
+media. Actual sculptures, however, are always necessarily realized by particu-
+lar technical media, for instance, metal or plastics. Accordingly, when talking
+about media, many aspects are involved: ‘a medium’ may mean both a basic
+or qualiﬁed medium with latent qualities and a particular realization of a
+basic or qualiﬁed medium in a speciﬁc technical medium. We generally say
+that both ‘sculpture’ and ‘a sculpture’ are media, although it would perhaps
+be more lucid to say that the latter is an instance of a medium or a ‘medial
+conﬁguration’ in the phrasing of Irina Rajewsky.49 Hence, intermediality is
+both about abstract relations between basic and qualiﬁed media and about
+connections between and features of speciﬁc works, performances and media
+products.
+Every technical medium can be identiﬁed according to the range of basic
+media it has the capacity of mediating: that is, which modal variants of
+the four modalities it can mediate. The deﬁning features of a technical
+medium are its capacity to realize speciﬁc material interfaces and the per-
+ceiver’s capacity to interact with these interfaces and with other users of the
+medium, whereas the more or less hidden technical properties of the tech-
+nical medium (the means of production and storage in a wide sense) are
+of subordinate interest as far as this proposed conception is concerned.50
+
+
+── PAGE 23 ──
+PROOF
+Lars Elleström
+31
+Mass media should be understood as a kind of technical media that have
+the capacity of permitting, say, ‘simultaneous participation of many people
+in some signiﬁcant pattern of their own corporate lives’, as McLuhan sug-
+gests.51 The television set is an illuminating case in point: it is a technical
+medium able to mediate a range of basic media, primarily ‘moving images’,
+‘auditory texts’ and ‘organized non-verbal sound’, but also ‘still images’ and
+various sorts of ‘visual texts’. There is a decisive difference between televi-
+sion screens being able to transmit images in colour or in black-and-white
+only, since the latter sort limits the range of potential interfaces. In con-
+trast, the procedural difference between analogue and digital technologies
+has no importance in itself when focusing on how the senses meet the
+material impact. The computer, another technical medium, can mediate the
+same basic media as the television set. Furthermore, it provides the opportu-
+nity to interact with the material interfaces and to communicate with other
+computer users. The orchestra is a technical medium that realizes ‘organized
+non-verbal sound’. The singer is a technical medium, being able to mediate
+both ‘auditory texts’ and ‘organized non-verbal sound’, and certainly also
+‘body performance’. Stereo equipment is a rather ‘pure’ technical medium
+that mediates, without having the capacity to produce, ‘auditory texts’ and
+‘organized non-verbal sound’. Some technical media combine the human
+and the non-bodily materiality: a man playing a Jew’s harp might be seen as
+a cyborg able to mediate unusual fusions of ‘auditory texts’ and ‘organized
+non-verbal sound’.
+Every technical medium, accordingly, can fully mediate certain basic and
+qualiﬁed media but only partly mediate other media. Basic and qualiﬁed
+media can hence be mediated more or less completely and successfully by
+different technical media. A theatre performance can only be realized by
+a combination of technical media such as, for instance, human bodies, an
+orchestra and properties. A television set, which mediates a feature ﬁlm very
+well (except for the size of the screen), is only capable of partly mediating a
+theatre performance: the complex corporeal interface of the theatre appeal-
+ing to many senses is reduced to a ﬂat screen and a concentrated source
+of sounds and the true visual three-dimensional spatiality is transformed
+to virtual spatiality. A solo dance is mediated quite well by a television set,
+not very well by still photographs and only in a radically altered form by
+a radio – all depending on the shifting modal capacities of the technical
+media. Of course, qualiﬁed media can be mediated many times by a row of
+technical media, which might be called remediation.52
+Some terms, we must remember, hover in a slightly confusing way
+between denoting technical and qualiﬁed media. We have already noted
+that ‘cinema’ did not become cinema in a qualiﬁed way the day the technol-
+ogy was invented. The term ‘photography’, which I recently used to denote
+rather vaguely a technical medium, is also the name of a qualiﬁed medium
+which has in fact been mediated by various technical media through history.
+
+
+── PAGE 24 ──
+PROOF
+32
+Media, Modalities and Modes
+Cameras are technical devices of production (with the capacity to register
+light chemically or physically) which can be said to be attached, more or
+less distantly, to technical media with shifting properties, for instance, silver-
+plated sheet copper, photographic paper or a screen (a computer screen or a
+display on the camera itself).
+Certain technical media can mediate basic or qualiﬁed media that may
+represent other technical media, which is the case, for instance, when we
+see a book or a dancing body on the television screen, but I would not
+say that a technical medium as such can be mediated by another technical
+medium. The technical medium of a body can be represented on the tele-
+vision screen, but it is rather the qualiﬁed medium of dance that is being
+mediated. Similarly, seeing a representation of a book on the screen has
+very little in common with interacting with a real book since the techni-
+cal medium book is not mediated. However, the basic media that a book can
+mediate – certain visual texts and still images – can also be mediated very
+well by the television screen. Seeing parts of a book in a television program
+may thus be described as seeing a representation of the technical medium
+‘book’ mediating certain basic media which are actually also being mediated
+by the technical medium ‘television set’. To put it more straightforwardly,
+the technical medium ‘television set’ mediates the qualiﬁed medium ‘tele-
+vision program’ that represents the technical medium ‘book’ that mediates
+the basic medium (visual, verbal, static) ‘text’. If one brackets a few links in
+the chain one can also say, correctly, that the technical medium ‘television
+set’ mediates the basic medium (visual, verbal, static) ‘text’.
+It is thus important to realize that mediation and representation are
+closely associated and yet distinct. Mediation is a relation between tech-
+nical media and basic or qualiﬁed media whereas representation (in this
+context) is a relation between basic or qualiﬁed media and what they sig-
+nify (which may be almost anything, including technical media and other
+qualiﬁed media). The issue of representation thus belongs to the semiotic
+modality, which is only one of the many aspects of media and mediation.
+Sometimes, however, when the process of mediation is very smooth; that is,
+when the material, the sensorial and the spatiotemporal modalities do not
+cause any friction in the mediating procedure, representation and mediation
+seem to come very close: a photograph of a landscape painting is deﬁnitely
+a question of mediation and when asked what the photograph represents
+one is inclined to say ‘a landscape’ whereas it actually represents ‘a paint-
+ing’: the photograph mediates a painting that represents a landscape. To
+be even more detailed: the technical photographic medium, for instance,
+photographic paper, mediates the qualiﬁed medium of photography that
+represents the technical medium of a coloured surface that mediates the
+qualiﬁed medium of, say, oil painting that represents a landscape. No doubt
+it is easier, and often sufﬁcient, to simply say that the photographic image
+
+
+── PAGE 25 ──
+PROOF
+Lars Elleström
+33
+represents a landscape, but when wrestling with intermedial issues there are
+no short cuts!53
+The relation between technical media and basic media is thus a ques-
+tion of technical media being able or not being able to mediate certain
+modes of the modalities. Consequently, an important facet of the relation
+between technical media and qualiﬁed media is about technical media also
+being ﬁt to realize the qualifying aspect of aesthetic and communicative
+characteristics. As I stated earlier, all qualiﬁed media are characterized by
+their origin, delimitation and use in speciﬁc historical, cultural and social
+circumstances (the contextual qualifying aspect). Since the existence of spe-
+ciﬁc technical media is an essential facet of every historical moment and
+cultural space, all qualiﬁed media (qualiﬁed ideas of mediality) are more or
+less strongly determined by speciﬁc technical media (realizations of medial-
+ity). Some qualiﬁed media are actually fundamentally linked to irreplaceable
+technical media. Hence, technical media inevitably also play a crucial part
+in the forming of the characteristic aesthetic and communicative qualities
+of qualiﬁed media (the operational qualifying aspect). Oil painting can be
+described as a qualiﬁed medium characterized not only by certain modes
+but also by unique aesthetic qualities linked to the technical medium of oil
+colour, which was invented and developed at a certain time and in a certain
+cultural context. Similarly, qualiﬁed media types such as computer games
+are inconceivable without the resource of recently invented technical media
+that allow advanced interaction with the displayed interface.
+When the mediation of basic and qualiﬁed media through technical media
+is restricted by the modal capacities of the technical media, or when the tech-
+nical media allow of modal expansion, that is, when the mediation brings
+about more or less radical modal changes, it may rather be described as trans-
+formation. A solo dance being mediated by a radio is drastically transformed
+by the mediation. I can think of two ways to perform such mediation: either
+the dance is transformed to auditory text or to organized non-verbal sound.
+In both cases, the human body of the dancer, which is normally consid-
+ered to be a vital part of dance, is substituted by sound waves and the visual
+mode is substituted by the auditory mode. In the case of a dance being trans-
+formed to an auditory text, the spatiotemporal furthermore is reduced to a
+primarily temporal mode, and, perhaps most importantly, the iconic mode
+is transformed to a symbolic mode.
+The qualiﬁed medium photography being mediated by a book is another
+example of potentially radical mediation. Again, I can think of at least
+two ways of mediating photography by way of the technical medium of
+a book. If reproduced as an image, the book is an ideal technical medium
+for mediating a photograph, and certainly other still images as well, present-
+ing virtually no modal limitations at all compared with how photography
+is usually presented. In fact, the book must be seen as one of the technical
+
+
+── PAGE 26 ──
+PROOF
+34
+Media, Modalities and Modes
+media that originally determined the qualifying aspects of photography. If
+mediated as a verbal description, however, the book offers the possibility
+of a smooth mediation of visual texts. However, the visual text is in itself
+a radical transformation of the photography: the two-dimensional spatiality
+(involving virtual depth) of the primarily iconic and indexical still image has
+been transformed to two-dimensional spatiality that, because of the mainly
+symbolic character of the visual text, also involves the temporal aspect of
+ﬁxed sequentiality.
+It is hence not necessarily the technical medium that ‘forces’ the transfor-
+mation. Ekphrasis, for instance, is part of the general habit of transforming
+basic and qualiﬁed media to other basic and qualiﬁed media, which is some-
+times a result of the modal constraints of technical media (as when a football
+match is covered on the radio) and sometimes a result of aesthetic or com-
+municative choices to take advantage of modal possibilities (as when a
+verbal narrative is transformed to a symphonic poem or when a movie is
+transformed to a computer game). The classical ekphrasis, a poem describ-
+ing a painting, is characterized by a certain kind of medial transformation:
+the factual space and the virtual time of the painting’s visual iconicity are
+being transformed to the virtual space of the poem’s sequentially arranged
+symbolic signs.54
+Obviously, there are very many kinds of intermedial transformations.55
+Sometimes these involve fairly clear and complete relations between speciﬁc
+art works or media productions, as when a particular newspaper article is
+clearly recognizable in its Internet version (although with fewer words and
+added animations and hyperlinks) or when a speciﬁc novel can be identiﬁed
+as the source of a movie (although the narrative has been abridged and visual
+and iconic qualities have been added). Sometimes it is rather a question of
+less deﬁnitive and fragmentary media traits that travel between modes and
+media types, as when musical form is traced in a short story or when visual
+traits associated with comic strips can be said to have found their way to the
+moving images of motion pictures.
+In her book Intermedialität, Irina O. Rajewsky operates, on different levels
+of distinction, with three notions that I ﬁnd relevant when discussing media
+transformation: transmediality (Transmedialität, phenomena that are not
+media speciﬁc, such as parody), medial transposition (Medienwechsel, media
+transformations such as adaptation) and intermedial references (intermediale
+Bezüge, for instance narrativization of music or musicalization of ﬁction).56
+These distinctions are valuable as long as one does not force them. In prac-
+tice, however, it is not always clear when a medium is actually a distinct
+transformation of another medium, exactly when some of the indistinct
+media borders have been transgressed, or which traits are to be considered as
+belonging to the one medium or the other. Intermedial transformations can
+only partly be described as a ﬁxed set of media relations. Ultimately, it is a
+question of hermeneutics: when ﬁnding traces of another medium, whether
+
+
+── PAGE 27 ──
+PROOF
+Lars Elleström
+35
+it is a basic medium or a speciﬁc qualiﬁed medium, it sometimes makes sense
+to say that the initial medium is very much recognizable and that it has been
+transformed to the other medium. Sometimes, if the connection seems more
+fragile, one might prefer to say that the one medium simply refers to the
+other. The only method of deciding whether it is a case of ‘strong’ transfor-
+mation or ‘weak’ reference is to interpret. Actually, it even makes sense also
+to talk about the transformation of ﬁctive media. There is no fundamental
+difference between the descriptions of, for example, an existing photo and
+a non-existent photo. At times, the most important issue is not at all to
+determine the transformational direction and speciﬁc relation between two
+speciﬁc media instances but rather to compare traits, structures and forms
+of meaning that are to be found in many qualiﬁed media, within a speciﬁc
+historical context or crossing historical and social boundaries, where they
+‘circulate’ without being deﬁnitely linked to the one or the other medium.
+Such transmedial phenomena are best captured by transmedial notions and
+concepts.57
+What is the conclusion?
+The starting point of this essay was the simple idea that if the notion of
+medium is not speciﬁed, the notion of intermediality cannot be understood
+properly. Media must be understood to be both similar and different and
+the notion of multimodality can be used to describe in a rather strict way
+what the many similarities and differences are. There are four modalities
+that underlie all conceivable media but each modality encloses several modes
+that vary between media. The modes of the modalities are not always easily
+detectable properties; rather, they are to be found on a scale from the mate-
+rial to the perceptual and the conceptual. Understanding the modal qualities
+of media is not a question of simple observation; it also includes cognition
+and interpretation.
+The model presented for understanding intermedial relations is a bottom-
+up model. Instead of beginning with a small selection of established media
+and their interrelations, which is the usual method, it starts with the modal-
+ities and modes that are shared by all media. The relations between the four
+modalities and the modes that are most easy to track down are illustrated in
+Figure 1.
+Apart from the modalities, two qualifying aspects must be considered in
+order to understand the notion of medium. The contextual qualifying aspect
+is the origin, delimitation and use of media in speciﬁc historical, cultural
+and social circumstances. The operational qualifying aspect is the aesthetic and
+communicative characteristics of media. What I propose to call basic media,
+are deﬁned by the four modalities whereas qualiﬁed media are deﬁned by the
+four modalities and the two qualifying aspects. All qualiﬁed media are based
+on one or more basic media.
+
+
+── PAGE 28 ──
+PROOF
+36
+Media, Modalities and Modes
+Modality
+What the modality is
+The most important modes of the
+modality
+Material modality
+The latent corporeal interface of
+the medium; where the senses
+meet the material impact
+□
+human bodies
+□
+other demarcated materiality
+□
+not demarcated materiality
+Sensorial modality
+The physical and mental acts of
+perceiving the interface of the
+medium through the sense
+faculties
+□
+seeing
+□
+hearing
+□
+feeling
+□
+tasting
+□
+smelling
+Spatiotemporal
+modality
+The structuring of the sensorial
+perception of the material
+interface into experiences and
+conceptions of space and time
+□
+space manifested in the
+material interface
+□
+cognitive space (always
+present)
+□
+virtual space
+□
+time manifested in the material
+interface
+□
+perceptual time (always
+present)
+□
+virtual time
+Semiotic modality
+The creation of meaning in the
+spatiotemporally conceived
+medium by way of different sorts
+of thinking and sign interpretation
+□
+convention (symbolic signs)
+□
+resemblance (iconic signs)
+□
+contiguity (indexical signs)
+Figure 1
+The modalities and modes of media
+Thus, intermedial relations can be found both between basic media and
+between qualiﬁed media. Intermedial relations consequently include both
+modal relations and qualiﬁed relations founded on conventions and a range
+of historically changing circumstances. Furthermore, intermediality is about
+both basic and qualiﬁed media as such and about speciﬁc works and per-
+formances. Intermedial relations have been categorized in many intricate
+systems but for the purpose of this essay I ﬁnd it sufﬁcient to differenti-
+ate between two main types, each holding a variety of merging variants: on
+the one hand, combination and integration of media and, on the other hand,
+mediation and transformation of media. Depending on their modal charac-
+ter and to a certain extent also on their qualifying properties, media can be
+both rather loosely combined and intimately integrated. Media consisting of
+many modes are in a way ‘integrated’ in themselves.
+Basic and qualiﬁed media must be understood as abstractions that need
+technical media to be materially realized. The material modality is the latent
+corporeal interface of a media type that can be realized in actual manifes-
+tations by technical media. The relation between technical media and basic
+media is consequently very much a question of technical media being able
+
+
+── PAGE 29 ──
+PROOF
+Lars Elleström
+37
+to or not being able to mediate certain modes, and all technical media must
+be deﬁned in relation to the range of basic media they have the capacity of
+mediating. When mediation involves more or less radical modal changes, it
+is feasible to say that it involves transformation.
+Doubtless, there are other kinds of intermedial relations that have not
+found their way into my model but might be compatible with it. For
+instance, the relations between various technical media, regardless of their
+mediated ‘content’, may well be described partly in terms of modal differ-
+ences. Needless to say, the many abstract examples of media characteristics
+and intermedial relations that I have brieﬂy discussed have forced some
+rather brusque simpliﬁcations, but my point has been not so much to exactly
+circumscribe certain media characteristics and speciﬁc intermedial relations
+as to provide a model and a rudimental method for such business.
+What is a medium? The confusion around this question, and the incom-
+patibility of many of the suggested answers, is largely caused, I think, by the
+shifting approaches of different scholars and research traditions. Technical
+aspects as well as modal and qualifying aspects have been emphasized in
+diverse and often exclusive ways in the efforts to ﬁnd narrow and hence
+efﬁciently operable deﬁnitions of the notion of medium.58 One alterna-
+tive has been to lean on conceptions of media that are open-ended and
+mind-triggering but difﬁcult to handle in the context of intermediality. The
+advantage of rather seeing a medium as a complex of interrelated facets –
+the technical, the modal and the qualifying aspects – is that such a notion
+sets certain limits while at the same time it incorporates most of the actual
+comprehensions of mediality.
+What is multimodality? To say that a medium is multimodal if it com-
+bines, for instance, solid materiality, visuality, spatiality and iconicity, is a
+truism since there simply are no media that are not being realized by at least
+one mode of each modality. Multimodality in a more qualiﬁed sense must
+hence mean that a medium includes many modes within the same modality.
+However, all media are at least slightly multimodal as far as the spatiotem-
+poral and the semiotic modalities are concerned, whereas some media are
+multimodal on the level of all four modalities. It can thus be argued that
+multimodality is very much about really observing and emphasizing the
+very common and perfectly normal multimodal characteristics of media.
+Certainly, multimodality is a very general phenomenon that may also be
+studied outside the context of media.
+What is then intermediality? The many possible intermedial relations
+within and between media have been discussed in some detail so far and
+it has become clear, I think, that intermediality is a notion that cannot
+be understood without the notions of modality, mode and multimodal-
+ity. Intermediality might be described as ‘intermodal relations in media’ or
+‘media intermultimodality’. I do not expect these terrible terms to win gen-
+eral praise but I think there is a point in seeing intermediality as a complex
+set of relations between media that are always more or less multimodal.
+
+
+── PAGE 30 ──
+PROOF
+38
+Media, Modalities and Modes
+I have hesitated to describe certain kinds of media as intermedial ‘in
+themselves’. Many media, if not all, are indeed multimodal ‘in themselves’,
+but when also considering the qualifying aspects of media, things become
+more complex. Media characterized by strong multimodality may be said to
+be intermedial in themselves in the sense that certain modal ‘borders’ are
+crossed. However, theatre and computer games, two examples of strongly
+multimodal media, are conventionally understood and rather well deﬁned as
+qualiﬁed media, so in that sense they are coherent media rather than exam-
+ples of pronounced intermedial crossings of conventional borders, although
+they may be said to fuse a multitude of qualiﬁed media that also exist in their
+own right: music, for instance. It is thus necessary to acknowledge that qual-
+iﬁed media are conventionally circumscribed, but one must also realize that
+the circumscriptions of qualiﬁed media in themselves create complex net-
+works of conventional media borders. All qualiﬁed media overlap, and some
+conventional media are totally engulfed by other conventional media. Con-
+sequently, one is actually not much helped by the notion that intermediality
+is the crossing of conventional media borders.
+The point is that both multimodality and intermediality are to be found
+everywhere. One can thus say that everything is intermedial and multimodal,
+which is deﬁnitely true in a way, but that might come dangerously close to
+saying that nothing is intermedial or multimodal. Given the fact that quali-
+ﬁed media are changing entities, I still ﬁnd it most proﬁtable to hold on to
+the idea that all ‘mediality’ involve ‘intermediality’. I do not believe that it
+is necessary or even possible to circumscribe a speciﬁc corpus of intermedial
+works or a set of ﬁxed relations between media, although I ﬁnd many of the
+scholarly systems of intermedial ‘works’ and ‘relations’ very valuable.59 Of
+course, it is essential to discuss which media, and which relations between
+media, might be of speciﬁc intermedial relevance, but I think it is pointless
+to try to establish clear borders – they are bound to be crossed. Who would,
+today, dream of deciding the exact delimitations of ‘art’ or even ‘visual art’ in
+order to ﬁx the area of investigation for art historians? Who would want the
+objects of ‘popular culture’ to be narrowly deﬁned in order to select suitable
+objects for, say, cultural studies to interpret? The nature of intermedial rela-
+tions, as they have been described here, is thus only seemingly exact and one
+must realize that they can be pinned down only to a certain extent. Interme-
+dial analysis cannot live without her twin sister intermedial interpretation.
+Intermediality is thus certainly about speciﬁc intermedial relations but it is
+also, and perhaps primarily, I would say, about studying all kinds of media
+with a high level of awareness of the modalities of media and the crucial
+modal differences and similarities of media. What makes intermedial studies
+important is that they offer insights into the medial nature of all media, not
+only a selection of peripheral media.60 The objects of intermedial studies may
+well be, for instance, media that have been categorized as ‘intermedial’ in
+themselves but they may also be what have been taken to be ‘normal’ media.
+
+
+── PAGE 31 ──
+PROOF
+Lars Elleström
+39
+The outcome of the studies does not so much depend on the objects of study
+as on the way the studies are performed. Some studies of pattern poems or
+newspapers may totally lack intermedial relevance, whereas other studies of
+written prose texts or photographs may be bursting with intermedial aspects.
+Notes
+1. G. E. Lessing (1984) Laokoön: An Essay on the Limits of Painting and Poetry, trans-
+lated, with an introduction and notes, by E. A. McCormick (Baltimore MD and
+London: Johns Hopkins University Press). Lessing states that the poet can treat
+‘two kinds of beings and actions, visible and invisible’, whereas in painting ‘every-
+thing is visible’ (pp. 66, 76). It is certainly questionable to propose that painting
+cannot deal with the ‘invisible’, but what is by far the most important for Lessing
+is to be normative rather than descriptive: the good poet should not deal with
+the visible unless it is inscribed in time in the form of action, whereas the good
+painter should not deal with action at all, but only with visible objects that are
+not inscribed in time. Actually, he once states that ‘signs existing in space can
+express only objects whose wholes or parts coexist, while signs that follow one
+another can express only objects whose wholes or parts are consecutive’, which
+sounds very deﬁnite, but his conclusion deals with the ‘true subjects’ of poetry
+and painting (p. 78) and in the rest of the essay he constantly refers to examples
+of, for instance, poetry describing static objects, which is of course fully possi-
+ble but not, according to Lessing, recommendable (p. 85). A philosopher such as
+Susanne K. Langer is much more consistent when it comes to upholding tenable
+borders between the arts. See S. K. Langer (1957) ‘Deceptive Analogies: Specious
+and Real Relationships among the Arts’, Problems of Art: Ten Philosophical Lectures
+(New York: Charles Scribner’s Sons), pp. 75–89.
+2. Cf., for instance, Jörg Helbig’s recent taxonomy of intra, inter, trans and mul-
+timedial relations in J. Helbig (2008) ‘Intermedialität – eine speziﬁsche Form
+des Medienkontakts oder globaler Oberbegriff? Neue Überlegungen zur System-
+atik intersemiotischer Beziehungen’ in J. E. Müller (ed.) Media Encounters and
+Media Theories (Münster: Nodus Publikationen). It works quite well as a very
+rough model and it is representative of the interart tradition where the media
+are very much seen as more or less separate entities. Its value is nevertheless
+severely reduced because of the idea that media can be understood as ‘distinct
+sign systems’ (p. 83) with ﬁxed ‘medial borders’ (p. 79), each medium having its
+‘medial surface’ (p. 85). Cf. also Axel Englund’s critical discussion, in this volume,
+of ‘topographic’ ways of deﬁning and delimiting media.
+3. See the very comprehensive overview of the development of the research ﬁeld
+intermedial studies in C. Clüver (2007) ‘Intermediality and Interarts Studies’ in
+J. Arvidson, M. Askander, J. Bruhn and H. Führer (eds) Changing Borders: Con-
+temporary Positions in Intermediality (Lund: Intermedia Studies Press), pp. 19–37.
+Also Irina Rajewsky’s overview of the ﬁeld, from the point of view of comparative
+literature and media studies, is valuable: I. O. Rajewsky (2008) ‘Intermedialität
+und remediation: Überlegungen zu einigen Problemfeldern der jüngeren Interme-
+dialitätsforschung’ in J. Paech and J. Schröter (eds) Intermedialität Analog/Digital:
+Theorien – Methoden – Analysen (Munich: Wilhelm Fink), pp. 47–60. Many of the
+studies of ‘intermediality’ are, in fact, considering both the theoretical frame-
+works and the objects of research, rather studies of ‘interartiality’, for instance
+
+
+── PAGE 32 ──
+PROOF
+40
+Media, Modalities and Modes
+T. Eichner and U. Bleckmann (eds) (1994) Intermedialität: Vom Bild zum Text (Biele-
+feld: Aisthesis Verlag) and W. Wolf (1999) The Musicalization of Fiction: A Study in
+the Theory and History of Intermediality (Amsterdam and Atlanta, GA: Rodopi).
+4. Mikko Lehtonen, however, arguing eloquently for the introduction of the per-
+spective of intermediality in cultural studies, has published an essay in a journal
+of media and communication studies where the notions of multimodality and
+intermediality are combined: M. Lehtonen (2001) ‘On No Man’s Land: Theses
+on Intermediality’, Nordicom Review 22, 71–83. Lehtonen is not aware of the
+research tradition of intermediality described by Clüver and hence he more or
+less has to invent the topic. Although he uses the notions in a different way from
+that proposed in this essay, the relation between multimodality and interme-
+diality is accurately described: ‘multimodality always characterizes one medium
+at a time. Intermediality, again, is about the relationships between multimodal
+media’ (p. 75). Lehtonen is not the only one who has invented intermedi-
+ality anew. See, for instance, L. M. Semali and A. W. Pailliotet (eds) (1999)
+Intermediality: The Teachers’ Handbook of Critical Media Literacy (Boulder CO and
+Oxford: Westview Press), where media literacy is discussed in terms of interme-
+diality without knowledge of the existing research ﬁelds of intermediality and
+multimodality.
+5. See S. Moser (2007) ‘Iconicity in Multimedia Performance: Laurie Anderson’s
+White Lily’ in E. Tabakowska, C. Ljungberg and O. Fischer (eds) Insistent Images,
+in Iconicity in Language and Literature 5 (Amsterdam: John Benjamins), p. 323.
+In another essay, S. Moser (2007) ‘Media Modes of Poetic Reception: Reading
+Lyrics Versus Listening to Songs’, Poetics 35, 277–300, the author uses the terms
+‘modality’ and ‘mode’ in a perfectly comprehensible but not systematic way:
+‘modalities of poetic language (print/song) and corresponding modes of recep-
+tion (reading/listening)’ (p. 277); ‘Songs are a multisensorial mode of linguistic
+communication’ (p. 278); ‘lyrics occur in different media modalities, namely
+oral ... printed ... and audiovisual’ (p. 278) and so forth. The ‘intermedia prac-
+tice’ of popular songs is said to enact and embody ‘the interplay and integration of
+oral, literate and audiovisual modes of linguistic communication’ (p. 283).
+6. M. McLuhan (1994) Understanding Media: The Extensions of Man, Introduction by
+Lewis H. Lapham (Cambridge MA and London: MIT Press), p. 24.
+7. Cf. B. Granström, D. House and I. Karlsson (eds) (2002) Multimodality in Language
+and Speech Systems (Dordrecht, Boston MA and London: Kluwer Academic Pub-
+lishers). In the ‘Introduction’ by the editors, it is stated that multimodality is, in
+essence, ‘the use of two or more of the ﬁve senses for the exchange of informa-
+tion’ (p. 1). In many of the essays in the same volume, however, modalities are
+also understood as gesture, speech, writing and so forth. In one of them, N. O.
+Bernsen (2002) ‘Multimodality in Language and Speech Systems: From Theory
+to Design Support Tool’, a medium is circumscribed as ‘the physical realisation of
+some presentation of information at the interface between human and system’,
+meaning in effect that media are deﬁned by the ‘sensory modalities’ (p. 94).
+8. G. Kress and T. van Leeuwen (2001) Multimodal Discourse: The Modes and Media of
+Contemporary Communication (London: Hodder Arnold), pp. vii, 3, 20, 22, 25, 28,
+67, 80; G. Kress and T. van Leeuwen (2006) Reading Images: The Grammar of Visual
+Design, 2nd edn (London and New York: Routledge), pp. 46, 113, 177, 214. In
+spite of claims of systematic analysis, the fundamental notion of multimodality
+is still circumscribed rather haphazardly by researchers following Kress and van
+Leeuwen, for instance J. A. Bateman (2008) Multimodality and Genre: A Foundation
+
+
+── PAGE 33 ──
+PROOF
+Lars Elleström
+41
+for the Systemic Analysis of Multimodal Documents (Basingstoke and New York:
+Palgrave Macmillan), who takes modes such as text, image, diagram, the visual,
+the spatial and the verbal to contribute to multimodality (pp. 1, 7), although
+these overlapping modes are never clearly related to each other as far as semiotic,
+sensorial or spatiotemporal aspects are concerned.
+9. In W. J. T. Mitchell (1986) Iconology: Image, Text, Ideology (Chicago and London:
+University of Chicago Press), his fundamental and very traditional dichotomies
+are text/image, verbal/pictorial and poetry/painting. This is understandable in
+the light of the historical tradition that he wrestles with, but these dichotomies
+must be overcome in order to grasp fully the similarities of media. By way of con-
+stantly reinforcing these dichotomies through the ﬁgure of paragone (the ‘battle’
+of the arts), which is of course necessary to achieve the historical understanding
+of culturally constructed differences between poetry and painting (which seems
+to be Mitchell’s most important aim), he thus in a way reinstates the differences
+that he simultaneously deconstructs on the ahistorical level. In M. Bal (1991)
+Reading Rembrandt: Beyond the Word-Image Opposition (Cambridge: Cambridge Uni-
+versity Press), the author convincingly and brilliantly demonstrates that ‘word’
+and ‘image’ are interrelated and integrated in complex ways, but she continues
+to operate with the dichotomy ‘verbal/visual’ in spite of the modal incommensu-
+rability of the two notions (the verbal and the visual are not to be understood as
+media-speciﬁc characteristics, though).
+10. Cf. the detailed and often enlightening comparison of literature and music in
+W. Wolf (1999) The Musicalization of Fiction, and the excellent comparison of
+prose ﬁction and ﬁction ﬁlm in C. Johansson (2008) Mimetiskt syskonskap: En
+representationsteoretisk undersökning av relationen ﬁktionsprosa-ﬁktionsﬁlm [Mimetic
+Sisterhood: A Representation Theoretical Study of the Interrelations of Prose
+Fiction and Fiction Film] (Stockholm: Acta Universitatis Stockholmiensis).
+11. An important early thinker who saw things more clearly than most was Moses
+Mendelssohn. In ‘On the Main Principles of the Fine Arts and Sciences’ [Über die
+Hauptgrundsätze der schönen Künste und Wissenschaften, 1757], translated by
+D. O. Dahlstrom, in D. O. Dahlstrom (ed.) (1997) Philosophical Writings (Cam-
+bridge: Cambridge University Press), Mendelssohn builds a typology with the
+aid of distinctions such as ‘natural’ versus ‘arbitrary’ signs, ‘the sense of hear-
+ing’ versus ‘the sense of sight’ and signs that are represented ‘successively’ versus
+‘alongside one another’ (pp. 177–9). The typology is sketchy but instructive since
+Mendelssohn clearly realizes that the borders of the arts ‘often blur into one
+another’ (p. 181). In modern times, Wendy Steiner has provided one of the
+most nuanced and constructive accounts of many of the problems connected
+to the spatiotemporal and semiotic aspects of interart comparison where she
+manages to avoid most of the common pitfalls: W. Steiner (1982) The Colors of
+Rhetoric: Problems in the Relation between Modern Literature and Painting (Chicago
+and London: Chicago University Press). In W. J. T. Mitchell (1987) ‘Going Too
+Far with the Sister Arts’ in J. A. W. Heffernan (ed.) Space, Time, Image, Sign: Essays
+on Literature and the Visual Arts (New York: Peter Lang), the author discusses ‘four
+basic ways in which we theoretically differentiate texts from images’. Three of
+these ways are ‘perceptual mode (eye versus ear)’, ‘conceptual mode (space ver-
+sus time)’ and ‘semiotic medium (natural versus conventional signs)’. He argues
+that ‘there is no essential difference between poetry and painting, no difference,
+that is, given for all time by the inherent natures of the media, the objects they
+represent or the laws of the human mind’ (pp. 2–3). Mitchell demonstrates very
+
+
+── PAGE 34 ──
+PROOF
+42
+Media, Modalities and Modes
+well that ideological considerations often permeate much of the rhetoric concern-
+ing medial differences, and that there are important similarities, but he does not
+really suggest that there are no differences. Although it is important not to exag-
+gerate the differences between media, I would say that it is fully possible ‘to give
+a theoretical account of these differences’ (p. 2), essential or not, which Mitchell
+sincerely doubts.
+12. J. Veltruský (1981) ‘Comparative Semiotics of Art’ in W. Steiner (ed.) Image and
+Code (Ann Arbor: Michigan Studies in the Humanities).
+13. Ibid., p. 110.
+14. See the enlightening chapter, ‘Philosophical Classiﬁcations of the Arts’ in
+T. Munro (1969) The Arts and Their Interrelations, revised and enlarged edi-
+tion (Cleveland OH and London: Press of Case Western Reserve University),
+pp. 157–208.
+15. Living creatures have photosensitive, chemosensitive, mechanosensitive, elec-
+trosensitive and thermosensitive receptors. The photoreceptors of human beings
+are found in the eyes, while other creatures have them in the skin. Our
+chemoreceptors are located in the organs of taste and smell, but also in certain
+blood vessels. Mechanoreceptors that register changes of position and pres-
+sure are in the organs of balance and hearing, and in the skin we also have
+mechanoreceptors that register touch, pressure and vibrations. Similarly, electro
+and thermoreceptors are located at various places in the body.
+16. These sense organs do not, however, simply consist of ﬁve different kinds of recep-
+tors. Both the olfactory and the gustatory organs consist of chemoreceptors, and
+the skin consists of both mechanoreceptors and thermoreceptors. Moreover, the
+sense organs and the different kinds of receptors do not work in isolation. Strong
+sound, for instance, can both be heard and felt by the whole body, although
+human beings do not have the very sensitive external sense organ of ﬁshes, the
+side line, which registers all kinds of sounds, vibrations and movements in the
+ﬁsh’s environment.
+17. I. Kant (1997) ‘Prolegomena to any future Metaphysics that will be able to come forward
+as Science’, with selections from the ‘Critique of Pure Reason’, translated and edited
+by G. Hatﬁeld (Cambridge: Cambridge University Press), Prolegomena p. 35, § 10.
+Cf. T. Munro (1969) The Arts and Their Interrelations, pp. 362–3, 399–406.
+18. The notion of ‘spatial thinking’, inspired by R. Arnheim (1969) Visual Think-
+ing (Berkeley and Los Angeles CA: University of California Press) is discussed in
+L. Elleström (2002) Divine Madness: On Interpreting Literature, Music, and the Visual
+Arts Ironically (Lewisburg PA and London: Bucknell University Press), pp. 184–93,
+219–24 and in L. Elleström (forthcoming) ‘Iconicity as Meaning Miming Mean-
+ing, and Meaning Miming Form’ in M. Beukes, J. Conradie, O. Fischer and
+C. Ljungberg (eds) Signergy, in Iconicity in Language and Literature 7 (Amsterdam:
+John Benjamins). For spatiality in music, see R. P. Morgan (1980) ‘Musical
+Time/Musical Space’ in W. J. T. Mitchell (ed.) The Language of Images (Chicago
+and London: University of Chicago Press), pp. 259–70. For spatiality in literature,
+see W. J. T. Mitchell (1980) ‘Spatial Form in Literature: Toward a General Theory’
+in the same volume, pp. 281–6. In this inspiring essay, Mitchell clearly sees the
+complexities of the spatiotemporal and he is eager to make the important point
+that space and time are closely interrelated. However, he makes no distinction
+between, for instance, ‘spatial forms’ and the ‘experience’ of spatial forms, which
+somewhat reduces the compass of his arguments.
+
+
+── PAGE 35 ──
+PROOF
+Lars Elleström
+43
+19. Cf. J. Frank (1991) ‘Spatial Form in Modern Literature’ [1945] in The Idea of Spa-
+tial Form (New Brunswick and London: Rutgers University Press), pp. 5–66. The
+notion of virtual worlds has since then been extensively explored within the ﬁeld
+of cognitive poetics.
+20. See the enlightening discussions in J. A. W. Heffernan (1987) ‘The Temporaliza-
+tion of Space in Wordsworth, Turner, and Constable’ in J. A. W. Heffernan (ed.)
+Space, Time, Image, Sign: Essays on Literature and the Visual Arts (New York: Peter
+Lang), pp. 64–5.
+21. Lessing acknowledges that there are represented bodies in painting ‘which, by
+their position, permit us to conjecture an action’: G. E. Lessing (1984) Laokoön,
+p. 77. He actually clearly states (which seems to be at odds with his earlier
+one-sided assertion concerning what ‘signs existing in space can express’) that
+‘painting too can imitate actions, but only by suggestion through bodies’ (p. 78).
+22. Cf. E. H. Gombrich (1980) ‘Standards of Truth: The Arrested Image and the Mov-
+ing Eye’ in W. J. T. Mitchell (ed.) The Language of Images (Chicago and London:
+University of Chicago Press), pp. 208–17.
+23. Langer uses the term ‘virtual time’ to denote the aspect of time in both music and
+the plastic arts: Langer (1957) ‘Deceptive Analogies’, pp. 81–3.
+24. Also Wendy Steiner comes to the conclusion that space and time ‘in fact relate
+to three very different aspects of the work’ (1982, p. 50). Their aspects are sim-
+ilar but not identical to the three levels that I discern. Cf. the detailed and
+mostly convincing discussions in J. Levinson and P. Alperson (1991) ‘What
+Is a Temporal Art?’ Midwest Studies in Philosophy 16, 439–50. Levinson and
+Alperson, too, conclude that there are three main variants of temporality
+in arts.
+25. For references to relevant research, see Elleström (forthcoming) ‘Iconicity as
+Meaning Miming Meaning, and Meaning Miming Form’.
+26. C. Hartshorne and P. Weiss (eds) (1960) Collected Papers of Charles Sanders Peirce
+Volume II, Elements of Logic (Cambridge MA and London: The Belknap Press of
+Harvard University Press), pp. 156–73.
+27. Ibid., p. 135.
+28. See Elleström (2009) ‘Iconicity as Meaning Miming Meaning, and Meaning Mim-
+ing Form’. I am well aware of the lack of consensus, not least when it comes to
+the question of meaning in music, but my point is that no matter how you deﬁne
+the semiotic character of a qualiﬁed medium it must include semiotic differences
+that are at least partly media speciﬁc. Even if one does not accept the notion of
+musical iconicity one must admit that there is a fundamental difference between
+the way music and, say, literature produce meaning.
+29. McLuhan (1994) Understanding Media, pp. 8, 305.
+30. ‘all media are mixed media, combining different codes, discursive conventions,
+channels, sensory and cognitive modes’: W. J. T. Mitchell (1994) ‘Beyond Com-
+parison: Picture, Text, and Method’ in Picture Theory: Essays on Verbal and Visual
+Representation (Chicago and London: University of Chicago Press), p. 95; ‘All
+media are, from the standpoint of sensory modality, “mixed media” ’ and ‘the
+very notion of a medium and of mediation already entails some mixture of sen-
+sory, perceptual and semiotic elements’: W. J. T. Mitchell (2005) ‘There Are no
+Visual Media’, Journal of Visual Culture 4, pp. 257, 260. Cf. the briefer comments
+in W. J. T. Mitchell (2005) What do Pictures Want? The Lives and Loves of Images
+(Chicago and London: Chicago University Press), pp. 215, 350.
+
+
+── PAGE 36 ──
+PROOF
+44
+Media, Modalities and Modes
+31. Joseph Garncarz rightly argues that one must see media ‘not only as textual sys-
+tems, but as cultural and social institutions’: J. Garncarz (1998) ‘Vom Varieté zum
+Kino: Ein Plädoyer für ein erweitertes Konzept der Intermedialität’ in J. Helbig
+(ed.) Intermedialität: Theorie und Praxis eines interdisziplinären Forschungsgebiets
+(Berlin: Erich Schmidt Verlag), p. 253.
+32. I refrain from trying to say exactly what ‘aesthetic and communicative character-
+istics’ are. Actually, any understanding of these characteristics is part of the way
+the operational qualifying aspect works: all changes in aesthetic conceptions, and
+even a denial of the point of thinking in terms of aesthetics, take part of the
+forming of qualiﬁed media.
+33. Cf. Wolf’s deﬁnition of a medium as ‘a conventionally distinct means of com-
+munication, speciﬁed not only by particular channels (or one channel) of
+communication but also the use of one or more semiotic systems serving for the
+transmission of cultural “messages” ’: Wolf (1999) The Musicalization of Fiction,
+pp. 35–6.
+34. Lessing (1984) Laokoön, p. 85.
+35. See A. Gaudreault and P. Marion (2002) ‘The Cinema as a Model for the Genealogy
+of Media’, translated by Timoty Barnard, Convergence 8(4), 12–18. Cf. the case
+of video which was ﬁrst launched as a technical medium and then eventually
+gave birth to a qualiﬁed medium with speciﬁc aesthetic qualities, as described in
+Y. Spielmann (2008) Video: The Reﬂexive Medium, translated by Anja Welle and
+Stan Jones (Cambridge MA and London: MIT Press).
+36. The terminological problem is aggravated by the shifting use of similar words
+in different languages. Hajnal Király has suggested to me that ‘movie’ would be
+the closest denomination for the technical aspect and that ‘cinema’ most often
+rather refers to the sociological, institutional and cultural, that is the contextual
+qualifying aspect, while ‘ﬁlm’ is associated with the aesthetically mature medium,
+determined by the operational qualifying aspect.
+37. Discussing television, Müller demonstrates how social, cultural and historical
+aspects of what I would call the qualiﬁed medium of television interact with
+aesthetic and communicative aspects. All these qualifying aspects are developed
+well after the step-by-step emergence of the technological prerequisites of the
+medium. See J. E. Müller, this volume, and idem (2008) ‘Perspectives for an Inter-
+media History of the Social Functions of Television’ in J. E. Müller (ed.) Media
+Encounters and Media Theories (Münster: Nodus Publikationen), pp. 201–15. Cf.
+also J. E. Müller (2008) ‘Intermedialität und Medienhistoriographie’ in J. Paech
+and J. Schröter (eds) Intermedialität Analog/Digital: Theorien – Methoden – Analysen
+(Munich: Wilhelm Fink), pp. 31–46.
+38. Cf. the genre discussion in Rajewsky, this volume.
+39. If we were to assume, in a very simpliﬁed way, that the most important modes
+could be isolated, say (human bodies, other demarcated materiality and not
+demarcated materiality), (seeing, hearing and feeling), (space and time) and (sym-
+bols, icons and indices), and that these modes could be mixed following the
+principle that there must be at least one mode per modality, and that there
+can also be all sorts of combinations of modes within the same modality, the
+possible amount of combinations would be 7×7×3×7=1029. Needless to say, it
+would be ridiculous to speak of 1029, or more, types of basic media. We have
+to settle with the fact that some basic modal combinations are commonly dis-
+tinguishable at a certain time and that the future may hold new conventions
+and technical solutions that make novel basic media discernible, such as a basic
+
+
+── PAGE 37 ──
+PROOF
+Lars Elleström
+45
+medium consisting of, say, not demarcated materiality that can be both seen
+and felt, that is perceived as both a spatial extension and a temporal ﬂow pro-
+ducing mainly iconic meaning. Assuming that a technical medium capable of
+mediating such a basic medium were invented, one may expect that a range of
+qualiﬁed media soon would be developed forming aesthetic and communicative
+conventions and eventually giving rise to more or less demarcated genres and
+subgenres.
+40. ‘ “Intermediality” can therefore be deﬁned as a particular relation (a relation that
+is “intermedial” in the narrow sense) between conventionally distinct media of
+expression or communication’: Wolf (1999) The Musicalization of Fiction, p. 37.
+See also C. Ljungberg, this volume.
+41. A similar conclusion is drawn by Irina Rajewsky in her essay in this volume.
+42. Cf. Hans Lund’s heuristic distinction between three kinds of word–picture rela-
+tions: combination, integration and transformation, in H. Lund (1992) Text as
+Picture: Studies in the Literary Transformation of Pictures, translated by Kacke Götrick
+(Lewiston NY, Queenston Ontario and Lampeter UK: Edwin Mellen Press), pp.
+5–9. Instead of combination and integration, Claus Clüver distinguishes between
+multimedia texts (separable texts), mixed-media texts (weakly integrated texts)
+and intermedia texts (fully integrated texts): Clüver (2007) ‘Intermediality and
+Interarts Studies’, p. 19. Wolf’s distinction between ‘overt’ and ‘covert’ interme-
+diality partly corresponds to my distinction between combination and integration
+of media and mediation and transformation of media. However, I ﬁnd it deeply
+problematic to state that an artefact of ‘overt’ intermediality is distinguished by
+qualities that are ‘immediately discernible on its surface’ and by way of limit-
+ing ‘overt’ intermediality to cases where ‘the signiﬁers of two media are apparent
+and distinct’ the category becomes very narrow: Wolf (1999) The Musicalization
+of Fiction, pp. 40, 50. What is, actually, the surface of a multimodal medium, and
+what does it mean to say that the signiﬁers of a medium are apparent? Only when
+it comes to technical media, actual physical objects or phenomena, is it possi-
+ble to talk about overt or direct co-presence of media, and since most qualiﬁed
+media are mediated by various and also altering technical media the distinctions
+overt–covert and direct–indirect have limited value when it comes to qualiﬁed
+media.
+43. Theatre is thus deﬁnitely extremely multimodal and it integrates many basic and
+qualiﬁed media, but it is an overstatement to say that ‘theatre is a hypermedium
+that incorporates all arts and media’. See F. Chapple and C. Kattenbelt (2006)
+‘Key Issues in Intermediality in Theatre and Performance’ in F. Chapple and
+C. Kattenbelt (eds) Intermediality in Theatre and Performance (Amsterdam and New
+York: Rodopi), p. 20. Cf. C. Kattenbelt (2006) ‘Theatre as the Art of the Performer
+and the Stage of Intermediality’, in the same volume, p. 32.
+44. Also, a simple juxtaposition involves some kind of integration. If an image and a
+visual text are combined, for instance, it matters which one of them is above or
+to the left of the other.
+45. Mitchell mainly deals with ‘verbal and visual representation’, as in Mitchell
+(1994) ‘Beyond Comparison’.
+46. In his later writings, Mitchell’s notion of mixed media becomes more articu-
+lated. In Mitchell (2005) ‘There are no Visual Media’, he also straightforwardly
+acknowledges the differences between media and states that, ‘If all media are
+mixed media, they are not all mixed in the same way, with the same propor-
+tions of elements’ (p. 260). This is a very important step towards the possibility
+
+
+── PAGE 38 ──
+PROOF
+46
+Media, Modalities and Modes
+of creating ‘a more nuanced taxonomy of media based in sensory and semiotic
+ratios’ (p. 264). However, the relation between the sensorial and the semiotic
+modalities (in my terminology) is not always apparent in Mitchell’s account.
+He argues that ‘Subtitles, intertitles, spoken and musical accompaniment made
+“silent” ﬁlm anything but silent’ (p. 258), but to me it is not obvious in which
+way subtitles and intertitles break the silence. Although one may take account
+of the perceiver’s subvocalization, the basic difference between silent ﬁlm and
+sound ﬁlm remains clear, if not unambiguous. His assertion that photography is
+so riddled with language ‘that it is hard to imagine what it would mean to call
+it a purely visual medium’ (p. 260) implies that a particular kind of mainly sym-
+bolic semiosis affects the sensorial perception, which is obviously not the case.
+Symbolic language that can be directly seen on or otherwise deduced from the
+screen or surface of moving or static images still has its origin in the visual (and
+has effect only on our photoreceptors), although it is not iconic, in the semiotic
+sense of the term – but the modes of the semiotic modality are something other
+than the modes of the sensorial modality. In spite of its conventional signs, nei-
+ther silent ﬁlm nor photography can be heard, smelled or tasted – they can only
+be seen and, in a rudimentary way felt, but that has hardly any bearing on the
+aspects of texts and language. Mitchell’s important main point is, it seems, to
+emphasize the blurring of modal borders in the perception of media, but I think
+one must also emphasize those borders that do exist in spite of the perceptual
+and cognitive operations of the recipients.
+47. Cf. Müller’s distinction between ‘technical conditions’ and ‘medial products’
+in J. E. Müller (1996) Intermedialität: Formen moderner kultureller Kommunikation
+(Münster: Nodus Publikationen), p. 23; see also pp. 81–2.
+48. As I deﬁne the notion of technical medium, it is narrower than, for instance,
+the notion of ‘physical media’ as circumscribed in C. Clüver (2007) ‘Intermedi-
+ality and Interarts Studies’, p. 30. Devices used for the realization of media, but
+not tools used only for the production or storage of media, are technical media.
+The brush and the typewriter are tools of production that are separated from the
+material manifestations of media and cannot be seen as technical media accord-
+ing to my deﬁnition, although they count as physical media in Clüver’s sense.
+Oil on canvas and ink on paper, however, are technical media. The ﬂute and the
+video camera are partly tools for production and partly devices for the realization
+of media and can hence also be seen as technical media. Some technical media,
+such as ink on paper, both store and display basic and qualiﬁed media, whereas
+a computer hard disk, a device for storage only, is not a technical medium in the
+sense that is emphasized here.
+49. See Rajewsky, this volume.
+50. In other contexts, of course, it is vital to consider not only the display but also the
+production and storage of basic and qualiﬁed media. When discussing qualiﬁed
+media such as art forms, for instance, many distinctive features that can be seen
+as operational qualifying aspects are connected to the production and storage of
+media. Traditional live theatre is produced and displayed by a range of technical
+media, the bodies of the actors being the most important, but it should not,
+and actually it cannot, be stored. A ﬁlmed theatre performance can be stored, but
+what is being stored is, as a matter of fact, not the performance, but a transformed
+version with very different modal and qualiﬁed qualities. A painting, on the other
+hand, is not produced by, for instance, oil paint and canvas, but the paint and
+canvas both store and display the painting. A motion picture is stored by technical
+
+
+── PAGE 39 ──
+PROOF
+Lars Elleström
+47
+equipment that is connected to and yet distinct from the screen that displays a
+copy of the ﬁlm.
+51. McLuhan (1994) Understanding Media, p. 245.
+52. Cf. the much broader notion of remediation in J. D. Bolter and R. Grusin (1999)
+Remediation: Understanding New Media (Cambridge MA and London: MIT Press).
+53. The lack of distinction between various forms of ‘representation’, ‘remediation’
+and simply ‘similarity’ is perhaps the major obstacle in Bolter and Grusin (1999)
+Remediation. It is a very inspiring book, full of interesting observations relevant
+for intermedial studies, but the authors’ notions of media and remediation are
+conspicuously vague. In their view, a ‘medium’ seems to be both all kinds of
+modalities, as understood in the tradition of Kress and van Leeuwen, and all
+kinds of media as (not) deﬁned by McLuhan. According to Bolter and Grusin,
+all sorts of media can remediate all sorts of media, whether they are techni-
+cal, qualiﬁed or something else: ‘our identity’ can be remediated by the internet
+(p. 231), ‘the fatal stillness of Antonioni’s ﬁlms’ can be remediated by a computer
+game (p. 268) and ‘the printed book’ is remediated by hypertext (p. 272). Alto-
+gether, their account gives a good view of the complexity of media relations, but
+no theoretical tools to deal with it. Cf. J. Schröter (2008) ‘Das ur-intermediale
+Netzwerk und die (Neu-)Erﬁndung des Mediums im (digitalen) Modernismus:
+Ein Versuch’ in J. Paech and J. Schröter (eds) Intermedialität Analog/Digital: The-
+orien – Methoden – Analysen (Munich: Wilhelm Fink), pp. 579–601, whose notion
+of ‘Transformational-ontologische Intermedialität’ is severely limited by its close
+association to the notion of representation (pp. 589–90).
+54. There has been some debate concerning the proper delimitations of the notion
+of ekphrasis. In S. Bruhn (2000) Musical Ekphrasis: Composers Responding to Poetry
+and Painting (Hillsdale NY: Pendragon Press), the author demonstrates convinc-
+ingly that the notion has an unexplored capacity to explain much more than
+literary transformations of images. Cf. S. Bruhn (ed.) (2008) Sonic Transformations
+of Literary Texts: From Program Music to Musical Ekphrasis (Hillsdale NY: Pendragon
+Press).
+55. Yvonne Spielmann discusses several ways of understanding intermedial trans-
+formation in Y. Spielmann (1998) Intermedialität: Das System Peter Greenaway
+(Munich: Wilhelm Fink). However, her main arguments are based on notions
+and distinctions that I ﬁnd problematic for reasons declared earlier in this essay:
+‘textuality’ versus ‘visuality’ and ‘monomediality’ versus ‘multimediality’ versus
+‘intermediality’.
+56. I. O. Rajewsky (2002) Intermedialität (Tübingen and Basel: A. Francke Verlag),
+pp. 12–3, 16–7. Rajewsky does not consider ‘Transmedialität’ to be a case of
+intermediality. Cf. the notion of ‘intermedial translation’ introduced by Regina
+Schober in this volume.
+57. The term ‘media circuit’ is telling. It is used in M. P. Punzi (ed.) (2007) Literary
+Intermediality: The Transit of Literature through the Media Circuit (Bern: Peter Lang),
+where ‘intermediality’ mainly refers to the phenomenon here characterized as
+the transformation of media. Cf. the way the notion of irony is transformed
+in the discourses on various arts, as described in L. Elleström (2002) Divine
+Madness, or the way narration can be understood in the context of different
+media; Marie-Laure Ryan talks about ‘transmedial narratology’ in M.-L. Ryan
+(2004) ‘Introduction’ in M.-L. Ryan (ed.) Narrative Across Media: The Languages of
+Storytelling (Lincoln and London: University of Nebraska Press), p. 35. The trans-
+medial notions of complexity, integration and rhythm are discussed as examples
+
+
+── PAGE 40 ──
+PROOF
+48
+Media, Modalities and Modes
+of ‘inter-medial factors’ in T. M. Greene (1940) The Arts and the Art of Criti-
+cism (Princeton: Princeton University Press), pp. 213–26. Ultimately, also notions
+such as reception and interpretation are transmedial, of course, and it is vital to
+recognize that interpretive strategies, contextualizations and ways to communi-
+cate the outcome of interpretation cross all media borders. This is a crucial point
+in Bal (1991) Reading Rembrandt.
+58. This problem is emphasized in Müller (1996) Intermedialität, pp. 81–2.
+59. Cf. the enlightening overview of intermedial positions and issues in I. O.
+Rajewsky (2005) ‘Intermediality, Intertextuality, and Remediation: A Literary
+Perspective on Intermediality’, Intermédialités (6), pp. 43–64.
+60. This is very much stressed by Jørgen Bruhn in his contribution in this volume.
+
+
+── PAGE 41 ──
+PROOF
+Index
+Adaptation, 200
+Adorno, T. W., 77
+A fényképezésröl, 197n26
+After the End of Art: Contemporary Art and
+the Pale of History, 209n3
+aleatory intertextuality, 158
+Allemann, B., 80n22
+Allen, E., 110n18, 214
+allusions, 89–90, 153
+Ambrose, J. P., 164, 172n6
+Amos ou introduction à la métagraphologie,
+133n5, 133n11, 133n18
+‘Anabasis’, 76–7
+Analyzing Musical Multimedia, 234,
+236n21
+Anderson, L., 40n5, 81–2, 83, 86, 87, 88,
+89–90, 93, 94n1, 94n3
+‘An Eye for an Ear’, 100–1
+Ansichten einer künftigen
+Medienwissenschaft, 186n18
+anthropocentrism, 114
+anthropomorphism, 114
+Antonioni, M., 208
+Apocalypse Now, 89
+apostrophes, 126
+Apter, E., 198n41
+Architecture, Mouvement, Continuité,
+221n4
+Aristotle, 80n13
+Arnheim, R., 42n18, 201, 209, 210n19
+Ars (art and handicraft) notion, 101
+Art and Beauty in the Middle Ages, 109n5
+artistic triangles, options at creator’s
+angle, 138–9
+arts
+arts of time and arts of space, 11
+comprehension in, 137–49
+intentionality in, 137–49
+intermedial relations between, 11
+limits of perception, obstacles at
+beholder’s angle, 139–40
+and media, boundaries between, 11
+mediation in, 137–49
+Trinity and ‘artistic triangle’, relation
+between, 138
+various artistic triangles, options at
+creator’s angle, 138–9
+Arts and the Art of Criticism, The, 48n57
+Arts and Their Interrelations, The, 42n14,
+42n17
+Artwork – Text – Medium: Steps en
+Route to Intermediality, 197n10,
+209n7
+Arvidson, J., 39n3, 186n17, 235n1,
+236n19
+Askander, M., 39n3, 186n17, 235n1
+Aspden, S., 172n9
+‘associative’, category, 156
+association, differential model, 152
+Audiovisions: Cinema and Television as
+Entr’actes in History, 251n6
+‘auditory text’, 29
+avant-garde context, 169
+axe de pertinence of intermediality,
+237–52
+in digitalized world, 248–9
+dispositifs, 239–44
+dynamic intermedial networks, 242
+hybridity, 245–6
+interartiality, 244
+intermediality as a process, 238–41
+intertextuality, 244
+medium, 237–8
+new medium, 237–8
+in scientiﬁc community, 241–3
+television (test case), 238–41, 246–8;
+making meaning, 246–8;
+materiality, 246–8; media
+encounters, 246–8
+Backman, E. L., 108, 110n18
+Bakhtin, M., 106, 210n12
+ballad, 99–110
+see also Medieval ballad and
+Romanesque church
+253
+
+
+── PAGE 42 ──
+PROOF
+254
+Index
+Bal, M., 41n9, 48n57, 85, 95n16, 166,
+173n25
+Band of Outsiders, A, 215–18
+Banks, I., 228
+Barricelli, J.-P., 80n28
+Barthes, R., 190, 191, 193, 197n19,
+197n22, 197n27, 197n34, 198n38,
+204, 209n11, 218, 230, 241
+basic media, 5, 12, 27–31
+Basic Writings, 109n11, 134n25, 134n29
+Bataille, G., 232
+Bateman, J. A., 40n8
+Baudry, J.-L., 238, 239, 246, 251n9,
+252n22, 252n33
+Bayreuth, 251n2
+Bazin, A., 191, 197n21, 197n25
+Beckett, S., 220
+Benjamin, W., 40n5, 42n18, 95n22,
+121n1, 165, 172n18, 192
+Berggren, D., 76
+Berio, L., 91
+Berlin Alexanderplatz, 81, 86, 94n2,
+95n23
+Bernhart, W., 80n15, 121n2, 172n9
+Bernsen, N. O., 40n7
+Bertrand, A., 69, 73, 74, 75
+Beukes, M., 42n18
+Biblia Pauperum, 104
+biopoetry of Eduardo Kac, 175–86
+electronic music, 182
+Genesis, 175–7, 184
+intermediality in, 184
+‘medial transposition’, 183
+‘sensorial modality’, 182
+‘spatiotemporal modality’, 182
+verbal language medium, 178
+written languages, 180
+Birders: Tales of a Tribe, 122n20
+Birds and Light: The Art of Lars Jonsson,
+123n21
+Birds in Literature, 122n16
+Birds of Eastern and Central North
+America, 116
+Bishara, N., 95n26
+Black, M., 69, 70, 72, 76, 77, 79n2,
+80n21
+Bladen, R., 2, 3
+Bleckmann, U., 40n3
+Blind Ossian, 162n11
+Block, F. W., 185n16
+Blush, 56
+Bodies, 57, 59–60
+Bohn, R., 180, 186n18
+Bolter, J. D., 47n52, 47n53, 212, 221n7,
+221n9
+Book of Mutations and In Our Own Image,
+The, 185n13
+borders, media, 28
+between different medial forms of
+articulation, 64
+conventionalization in, 61–2
+in current debate about intermediality,
+problematic status of, 51–68
+frames, 64
+habitualization in, 61–2
+‘individual media’, 53–4, 62, 64
+intermedial references, 62–3
+intramedial references, 62
+modal, 28–30
+qualiﬁed, 28–30
+Bordwell, D., 200, 209n6
+Bourcier, P., 110n16
+Breton, A., 144
+Broich, U., 161n8
+Bruhn, J., 6, 8, 39n3, 48n60, 132n2,
+133n17, 161n2, 172n13, 186n17,
+225–36
+Bruhn, S., 47n54, 73, 74, 75, 80n15,
+137–49, 172n12, 236n16
+Burks, W., 94n6
+Burns, R., 155, 156
+Byrman, G., 110n14
+calligrammatic rewriting of ekphrasis,
+218–21
+Calum Colvin: Fragments of Ancient Poetry,
+162n14
+Camera Lucida, 190
+Cantos of Ezra Pound, The, 171n2
+categories and medial difference,
+159–61
+Celan, P., 69, 76, 77, 78, 80n22, 80n23,
+80n24, 80n28
+Changing Borders: Contemporary Positions
+in Intermediality, 39n3, 186n17,
+235n1, 235n2, 235nn6–7, 236n19
+Changizi, M., 95n13
+Chapple, F., 45n43
+Chew, S., 166, 173n24
+
+
+── PAGE 43 ──
+PROOF
+Index
+255
+Choros as an ecclesiastical medium,
+107–9
+Religious Dances in the Christian Church
+and in Popular Medicine, 108
+Christos Pantokrator, 103
+churches
+early medieval church as
+mass-medium, 102–4
+Romanesque church, 99–110
+cinema, 25
+Cinémas, 251n21
+cinematic ekphrasis, 213
+cinematic imagination, media in, 211–12
+calligrammatic rewriting of ekphrasis,
+218–21
+heterotopic space, cinema as, 212
+intermediality, the cinematic
+‘in-between’ and ekphrasis,
+211–14
+Life of her Own/Her Life to Live, A, 214
+mise en abyme, 214–15
+‘Museum of Memory’, 218–21
+‘picto-ﬁlms’, 213
+‘The Oval Portrait’, 214
+vertigo of media, 214–15
+Vivre sa vie, 214
+Cisneros, J., 251n20
+Classical Music and Postmodern
+Knowledge, 79n1, 80n19
+Clüver, C., 7, 39n3, 40n4, 45n42, 46n48,
+67n24, 149n7, 172n12, 175–86, 226,
+235n2, 235n3, 235n7, 236n16, 241,
+244, 251n4, 252n28
+Cock and a Bull Story, A, 200
+Cocker, M., 122n20
+cognitive modalities, Greimas’s semiotic
+square of, 206
+Colapietro, V., 95n10, 95n19
+Coleridge, S. T., 241
+Collected Papers of Charles Sanders Peirce,
+43n26
+Collins Bird Guide, 116
+Collins, F. H., 116, 121n3, 149n3, 149n4,
+206, 210n13
+Colors of Rhetoric: Problems in the Relation
+between Modern Literature and
+Painting, The, 41n11
+Colvin, C., 153, 154, 155, 156, 157, 158,
+159, 160, 161n11, 162n11, 162n14,
+162n17, 162n19, 162n26
+Complete Poetical Works of Amy Lowell,
+The, 172n5
+Complete Works of Aristotle, The, 80n13
+Conradie, J., 42n18
+contextual qualifying aspect of
+media, 24
+contiguity (indexical signs), semiotic
+modality, 22–3
+convention (symbolic signs), semiotic
+modality, 22–3
+conventionalization, in medial borders,
+61–2
+Convergence, 44n35
+Cook, N., 232–3
+Coppola, F. F., 89
+Corot, C., 218
+Cowell, H., 133n21
+Critical Inquiry, 197n14
+Cultural Functions of Intermedial
+Exploration, 172n13
+Cultural Studies Reader, The, 236n17
+Curry-Lindahl, C., 122n19
+Dahlstrom, D. O., 41n11
+Dalhaus, C., 80n11
+dance, 26
+of intermediality, 199–210, see also
+under ﬁlm
+Danielson, E., 110n15
+Dansk litteraturhistorie, 109n7
+Dante, Alighieri, 101, 109n6, 133n10
+Danto, A. C., 199, 209n3
+Deane, S. W., 109n11
+de Behar, L. B., 95n21
+Deely, J., 95n19
+de Hooch, P., 206
+Dencker, K. P., 185n16
+Derrida, J., 70
+de Troyes, C., 109n12
+De vulgari eloquentia: Über das Dichten in
+der Muttersprache, 101, 109n6
+Den omsnudde verda: Ein studie i dei norske
+skjemteballadane, 109n14
+deontologization, 127–8
+Der kinematographische Apparat:
+Geschichte und Gegenwart einer
+interdisziplinären, 252n33
+Description: In Literature and Other Media,
+121n2
+
+
+── PAGE 44 ──
+PROOF
+256
+Index
+Dialogic Imagination: Four Essays, The,
+210n12
+‘dialogicity’, 156
+Dickinson, E. C., 121n3
+Die Perspektive als ‘symbolische Form’,
+210n16
+Die Räume der Maler: Zur Bilderzählung
+seit Giotto, 210n14
+differential model, for intermediality,
+151–3
+‘allusion’, 153
+association, 152–3
+‘indeterminate marking’, 153
+referentiality, 152–3
+re-presentation, 152–3
+‘selectivity’, 153
+‘structurality’, 153
+digitalized world, intermediality in,
+248–9
+Discourse, Vision, and Cognition,
+121n1
+discursive remedy or the (critical)
+intervention, 194–6
+dispositifs, 239–44
+Divine Madness: On Interpreting
+Literature, Music, and the Visual
+Arts Ironically, 42n18, 47n57, 139,
+149n2
+Döblin, A., 81–2, 86, 87, 88, 89, 90, 93,
+94n4, 95n23
+Dogville, 61
+Doppelbegabungen, 226
+Dreyer, C., 109n4
+Dreyer, C. T., 214
+During, S., 236n17
+early medieval church as mass-medium,
+102–4
+Christos Pantokrator, 103
+Majestas Domini, 103
+presbyterium, 103
+Eckstein, L., 172n13
+ecocriticism, 119–21
+Ecocriticism Reader: Landmarks in
+Literary Ecology, The, 123n29
+Eco, U., 109n5
+Eduardo Kac: Genesis, 185n8
+Eichner, T., 40n3
+ekphrasis, 34, 109n13, 124, 160, 214–15
+‘art of memory’, 215
+‘art of oblivion’, 215
+Band of Outsiders, A, 215–16
+calligrammatic rewriting of, 218–21;
+Histoire(s) du Cinema, 219; Letter
+to Jane: An Investigation About a
+Still, 219
+Ekphrasis: The Illusion of the Natural
+Sign, 209n2
+ekphrastic metaphors pointing to the
+other of ﬁlmic image, 217–18
+as a ‘ﬁgure of oblivion’, 215–17
+and poetics of in-between in Jean-Luc
+Godard’s cinema, 212–22, see also
+cinematic imagination, media in
+Sentimental dialogue, 216
+W. J. T. Mitchell deﬁning, 212
+Eliot, T. S., 165, 172n17
+Elleström, L., 11–48, 66n7, 79n7, 99,
+111, 112, 120, 124, 132n2, 134n26,
+139, 149n2, 160, 161n2, 164, 169,
+172n8, 174n36, 179, 182, 183, 225,
+226, 227, 228, 229, 235n1, 241,
+251n17, 252n25
+Éluard, P., 144
+Eming, J., 222n23
+Encryption Stones, 179, 185n8
+English Literary History, 133n15
+Englund, A., 5, 69–80, 173n30
+Erich Doﬂein: Festschrift zum 70.
+Geburtstag, 173n34
+Erkenntnisinteresse, 230
+Escher, M. C., 137
+Estes, R., 67n22
+Europas fåglar: En fälthandbok, 121n3,
+122n12
+exteroceptors, 18
+‘extracompositional intermediality’, 56
+Fågelguiden: Europas och
+Medelhavsområdets fåglar i fält, 122n3
+Fågelliv betyder orden: Vandringar i Erik
+Rosenbergs riken, 122n19
+Fåglar i Europa med Nordafrika och
+Mellanöstern, 122n3, 122n7, 122n10,
+122n14, 122n17, 123n21, 123n23,
+123n26, 123n28
+Fåglar i Sverige, 115–16, 122n3, 122n8,
+122n13, 123n22, 123n24, 123n27
+
+
+── PAGE 45 ──
+PROOF
+Index
+257
+Fassbinder, R. W., 81, 86, 87, 94n1, 94n2
+Felten, U., 251n11
+Festskrift tillägnad Erik Rosenberg på
+50-årsdagen 19 17/8 52, 122n19
+Fetishism as Cultural Discourse, 198n41
+fetishization, 191–192
+Field Guide to the Birds of Eastern and
+Central North America, A, 122n6,
+122n7, 122n10, 122n11, 122n12
+Field Guide to the Birds of South-East Asia,
+A, 121n3, 122n6
+ﬁeld guides, intermediality of, 111–23
+bird sounds, transcription of, 115
+Birds of Eastern and Central North
+America, 116
+Collins Bird Guide, 116
+contents of, 112
+ecocriticism, 119–21
+Fåglar i Sverige, 115–16
+image, 113–14
+images compared, 116–17
+keys in, 112
+mediated aspects, 112
+text, 114
+‘ﬁgure of oblivion’, ekphrasis as, 215–17
+ﬁlm, 199–210
+Film als Baustelle: Das Kino und seine
+Paratexte: Cinema and Its Paratexts,
+252n42
+Film and Literature, 209n4
+Film as Art, 210n19
+Film History: An Introduction, 209n6
+medium speciﬁcity and intermediality
+in, semiotic approach, 199–210;
+conceptuality, 200; deﬁning
+(inter)mediality, tango metaphor,
+202–4; Image and Narrative, 201;
+‘semiotic mediatics’, 201–2; space
+and time, description and
+narration, 204–5; ‘writer’s
+movies’, 200
+see also ‘meaning making’ in ﬁlm
+Finlay, I. H., 3
+Fischer-Lichte, E., 52, 66n9, 95n17,
+95n18
+Fischer, O., 40n5, 42n18, 95n17, 95n18,
+95n22
+ﬁxed sequentiality, 19
+Foltinek, H., 67n26, 250n1
+Fonda, J., 219
+Forman, R. K. C., 134n24
+Fortuina, 91
+Fossil Folds, 185n13
+Foucault, M., 204, 209n11, 217, 220,
+221n4, 222n15
+Foucault Reader: An Introduction to
+Foucault’s Thought, The, 210n11
+Fragments of Ancient Poetry, 153–7,
+162n11
+‘associative’, category, 156
+‘dialogicity’, 156
+‘re-presentative’ category, 156
+Francoeur, L., 240, 251n16
+Froger, M., 236n16, 251n19, 251n20
+Führer, H., 39n3, 186n17, 235n1
+Future of the Image, The, 222n22
+Gadamer, H.-G., 139
+Gale, I., 154, 162n16, 162n21, 162n24
+Gandelman, C., 206, 210n15
+Gandhi, M., 138
+García Márquez, G., 205
+Garncarz, J., 44n31
+Gaspard de la nuit, 73
+Gaudreault, A., 44n35, 240
+Geistliche Gesangswerk: Werkgruppe 3,
+80n27
+Gems: A Censored Anthology, 133n19
+Genesis, 7, 175–7, 185n13, 186n19
+‘genetic’ conception of intermediality,
+56
+Genette, G., 72, 80n12, 243, 244
+Gesammelte Werke in Sieben Bänden,
+80n22, 80n28
+Gesamtkunstwerk, 211, 241
+GFP Bunny, 175
+Gibaldi, J., 80n29
+Giotto di Bondone, 206, 210n14
+Glaser, S. A., 186n26
+Glass, P., 138
+Godard, J.-L., 8, 66n13, 200, 211–22
+Goodman, N., 71, 79n9, 160, 162n33
+Gorin, J.-P., 219
+Gothic period, 104
+Götrick, K., 45n42
+Gould, S. J., 123n32
+Granström, B., 40n7
+Grant, P. J., 122n3
+Greber, E., 66n12
+Greenaway, P., 47n55, 153, 200, 221n2
+
+
+── PAGE 46 ──
+PROOF
+258
+Index
+Greene, T. M., 48n57
+Greimas, A., 202, 205, 206, 210n13
+Grivel, C., 65n1, 243
+Grosz, E., 194, 198n41
+Grusin, R., 47n52, 47n53, 212, 221n7,
+221n9
+Guide to Bird Song: Descriptions and
+Diagrams of the Songs and Singing
+Habits of Land Birds and Selected
+Species of Shore Birds, A, 122n15
+Gumbrecht, H.-U., 247, 252n35,
+252n38, 252n40
+Gyáni, G., 196, 198n48
+habitualization, in medial borders, 61–2
+Handbook of Semiotics, 94n6
+Hanslick, E., 76
+Hao, Y., 95n13
+Harald Wiberg: En konstnär, 122n18
+Harawi, 144–5
+Hatﬁeld, G., 42n17
+Heart of Darkness, 89
+Hedling, E., 67n24, 149n7, 172n12,
+172n13, 222n16
+Heffernan, J. A. W., 41n11, 43n20, 143,
+149n7
+Heidegger, M., 129, 130–1, 134n25,
+134n29
+Helbig, J., 39n2, 44n31
+Herman, D., 66n17, 235n8, 235n13
+Hermenetka, 91–2, 95n34
+‘cyberart ritual’, 93
+mappings, 91–2
+heteromediality, 8, 225–36
+centrality of marginality, 233–5
+deﬁning, 229–30
+heteromedial text, 228
+ideology and, 230–2
+interart studies and intermediality
+studies, 225–7
+Nicholas Cook, 232–3
+W. J. T. Mitchell, 232–3
+heterotopic space, cinema as, 212
+Hickethier, K., 248, 252n39
+Higgins, D., 67n24, 159, 162n30, 173n25
+Histoire de la dance en Occident, 110n16
+Histoire(s) du Cinema, 219–21, 222n23
+Hodnett, E., 123n31
+Hölderlin, F., 78
+Hollom, P. A. D., 121n3
+Holšánová, J., 121n1
+Home of the Brave, 94n3
+Horizons: The Poetics and Theory of the
+Intermedia, 67n24
+House, D., 40n7
+Hranitzky, Á., 204
+Huber, W., 236n17
+Human Nature, 186n19
+humanities, intermediality approach in,
+241–3
+Hunt, D., 185n8
+hybridity concept, 67n30
+and intermediality, 244
+Hybridkultur Medien Netze Künste, 252n31
+hypergraphics, 127–8, 130, 131
+iconotextual, 131
+notionless, 131
+iconic development in Romanesque
+period, essential features of, 104
+Iconicity in Language and Literature, 40n5,
+42n18
+Iconology: Image, Text, Ideology, 41n9
+iconotext, 127
+iconotextual hypergraphics, 130, 131
+Icons, Texts, Iconotexts: Essays on Ekphrasis
+and Intermediality, 132n1, 133n20,
+161n3
+Idea of Spatial Form, The, 43n19
+ideology and heteromediality, 230–2
+Igor Strawinsky: Trois Pièces Pour Quatuor à
+Cordes: Analyse und Deutung, 173n32
+image, in ﬁeld guides, 113–14
+images compared, 116–17
+‘mug shot’, 113
+Image and Code, 42n12
+Image and Narrative, 201
+Image and Text: Studies in the Illustration
+of English Literature, 123n31
+Imaged Words &Worded Images, 185n16
+‘imagination’, 163–4
+Imagining Language: An Anthology,
+133n19
+‘in-between in’ Jean-Luc Godard’s
+cinema, ekphrasis and poetics of,
+212–22
+intermediality, 211–14
+‘indeterminate marking’, 153
+‘individual media’, 53–4, 62, 64, 66n7
+Insistent Images, 40n5, 95n22
+
+
+── PAGE 47 ──
+PROOF
+Index
+259
+interart and intermediality studies,
+225–7
+combination, 226
+integration, 226
+medium, deﬁning, 227
+transformation, 226
+Interart Poetics: Essays on the Interrelation
+of the Arts and Media, 67n24, 149n7,
+172n12, 222n16
+Inter-Art/Interart Studies, 66n9
+‘intertextuality’ notion, 151, 154, 160
+interartiality and intermediality, 244
+‘interlingual’ translation, 166
+intermedia conﬁgurations, 67n24
+intermedial, restrictions of, 126–9
+intermedial artwork, 153–6
+Fragments of Ancient Poetry, 153–5
+‘intertextuality’ notion, 154
+intermedial exchanges, in ‘Stravinsky’s
+Three Pieces “Grotesques”, for String
+Quartet’, 163–74
+see also individual entry
+intermedial ‘imagination’, 163–4
+intermedial references, 62
+of intermediality, 56
+intermedial relations, model for
+understanding, 11–48
+intermedial self-reference, 89
+Intermedial topography, 69–80
+see also metaphorical
+interaction/metaphoricity
+intermedial transformations, 34
+intermedial references, 34
+medial transposition, 34
+transmediality, 34
+intermedial translation, see translation,
+intermedial
+Intermedialität, 34, 48n58, 65n4, 172n10,
+252n27, 252n30
+Intermedialität: Analog/Digital, 39n3,
+47n53, 251n3
+Intermedialität: Das System Peter
+Greenaway, 47n55
+Intermedialität: Formen moderner
+kultureller Kommunikation, 46n47,
+221n5, 251n21
+‘Intermedialiät’: Kommentierungen und
+Bibliographiee, 251n3
+Intermedialität: Theorie und Praxis eines
+interdisziplinären Forschungsgebiets,
+221n3, 252n23
+Intermedialität: Vom Bild zum Text, 40n3
+Intermédialité et socialite: Histoire et
+gégraphie d’un concept, 236n16,
+251n19
+Intermédialités, 48n59, 186n25, 222n19,
+252n26, 252n35
+Intermedialites, 236n17
+Intermedialitet, 95n14, 235n6
+intermediality, 11, 27–35, 37, 45n40
+borders in, 28–9
+dance theatre, 56
+debate about, 51–68, see borders,
+media
+deﬁnition, 46, 51–2; the tango
+metaphor, 202–4
+‘extracompositional intermediality’,
+56
+‘genetic’ conception of, 56
+groups of phenomena in, 55; in
+narrower sense of intermedial
+references, 55; in narrower sense
+of media combination, 55; in
+narrower sense of medial
+transposition, 55
+Intermediality in Theatre and
+Performance, 45n43
+Intermediality: The Teachers’ Handbook
+of Critical Media Literacy, 40n4
+‘intracompositional intermediality’, 56
+‘moving image’ and ‘still image’,
+relations between, 28
+multimodality and, 4
+and performativity, 85–8
+Peter Wagner deﬁnition, 124
+plurimediality, 56
+qualitative conceptions of, 55
+and self-referentiality, 88–94
+sub-medium, 29
+intermediality, pragmatic approach to,
+150–62
+aleatory intertextuality, 158
+categories and medial difference,
+159–61
+differential model, 151–3, see also
+individual entry
+Fragments, intertextual components of,
+156–7
+
+
+── PAGE 48 ──
+PROOF
+260
+Index
+intermediality, pragmatic approach
+to – continued
+intermedial operations, categorizing,
+151–2
+‘intertextuality’, 151
+intertextuality? intermediality?
+multimediality?, 157–9
+‘multimedial intermediality’, 160
+obligatory intertextuality, 158
+interoceptors, 18
+‘intersemiotic translation’, 7, 166
+Interrelations of Literature, 80n29
+intertextual self-reference, 89
+Intertextualität: Formen, Funktionen,
+anglistische Fallstudien, 161n8
+intertextuality, 230
+and intermediality, 244
+Intertextuality: Research in Text Theory,
+161n4
+Intertextuality: Theory and Practices,
+162n27
+‘intracompositional intermediality’, 56
+‘intralingual’ translation, 166
+intramedial references, 62
+Introduction à une nouvelle poésie et à une
+nouvelle musique, 133n6, 133n8,
+134n32
+Isou, I., 124–5, 127, 129, 132, 133n5,
+133n6, 133n7, 133n8, 133n9,
+133n10, 133n11, 133n18, 133n19,
+133n23, 134n32
+Jahn, M., 235n8
+Jakobson, R., 7, 165–6, 173n22
+James, W., 81, 143, 161n1, 175, 176
+Jamme, C., 80n24
+Jansson, S.-B., 110n17
+Jean-Luc Godard’s cinema, 212–22
+ekphrasis and poetics of in-between
+in, 212–22, see also cinematic
+imagination, media in
+Jersild, M., 110n17
+Jia, Zhang Ke, 200
+Johansen, J. D., 95n10
+Johansson, C., 41n10
+Jones, S., 44n35
+Jongeneel, E., 161n5, 162n22
+Jonsson, B. R., 110n15, 110n17
+Jonsson, L., 116, 117, 118, 119, 122n3,
+122n7, 122n10, 122n11, 122n14,
+122n17, 123n21, 123n23, 123n26,
+123n28
+Jonze, S., 200
+Jost, F., 252n34
+Joyce, J., 172n4
+Kac, E., 7, 175–86
+Kant, I., 42n17
+Karina, A., 214, 215
+Karlsson, I., 40n7
+Karnicky, J., 122n4, 122n20
+Kaspersen, S., 109n7
+Kattenbelt, C., 45n43
+Kaufman, P., 200
+Keitel, E., 236n17
+Kemp, W., 206, 210n14
+Kermode, F., 172n17
+Kiernan, R., 231, 236n18
+King, B., 102, 121n3, 122n6, 154, 175,
+176
+Király, H., 7, 8, 44n36, 199, 201, 203,
+205, 207, 209
+Kivy, P., 233
+Klee, P., 192, 218
+Kneale, J. D., 133n15
+Kostelanetz, R., 185n16
+Kramer, L., 79n1, 80n19
+Krämer, S., 54, 66n14
+Krasznahorkai, L., 204, 205, 209n9,
+209n10
+Kress, G., 14, 40n8, 47n53
+Kristeva, J., 230
+Kuklick, B., 161n1
+Kværndrup, S., 6, 99, 101, 103, 105, 107,
+109n7, 109n13
+La créatique ou la novatique, 133n10
+La dictature lettriste: Cahiers d’un nouveau
+régime artistique, 133n9, 133n23
+Lagerroth, U.-B., 67n24, 149n7, 172n12,
+172n13, 222n16
+Lakoff, G., 161n6
+Langer, S. K., 39n1, 43n23
+language, 125
+anticonceptual language, 125
+Isou’s deﬁnition, 125
+Language of Images, The, 42n18, 43n22
+Languages of Art: An Approach to the
+Theory of Symbols, 79n9, 162n33
+and music, relation between, 76–7
+
+
+── PAGE 49 ──
+PROOF
+Index
+261
+Laokoön: An Essay on the Limits of Painting
+and Poetry, 11, 39n1, 43n21, 44n34
+Lapham, L. H., 40n6
+Las Meninas essay, 217
+Laverette, M., 201
+Lawson, J., 162n12
+Leão, L., 83, 86, 91, 92, 95n34
+Le chevalier au lion, 109n12
+L’effet cinéma, 251n9
+‘Le gibet’, 74
+Lehmann, A. J., 66n13, 222n23
+Lehtonen, M., 40n4, 226, 235n4
+Leigh, M., 200
+Leitgeb, C., 67n26, 250n1
+Le lettrisme, les creations et les createurs,
+133n13
+Le petit soldat, 218
+Lesbian Fetishism, 194, 198n41
+Les signes s’envolent: Pour une sémiotique
+des actes de langage culturels, 251n16
+Lessing, G. E., 11, 25, 39n1, 43n21,
+44n34, 236n19
+Les Noces, 174n37
+Lethe: Kunst und Kritik des Vergessens,
+222n13
+L’être et le néant: Essai d’ontologie
+phenomenologique, 134n28
+Letter to Jane: An Investigation About a
+Still, 219
+Lettrism, visual apostrophes in, 124–34
+anticonceptual language, 125
+comparables, 130
+discernible levels of, 130
+iconotextual hypergraphics, 130–1
+intermediality in, 126–9; restrictions,
+126–9
+language, 125
+lettrist writing, 125–6
+‘meaningless’ visual apostrophes, 131
+nothing with words, getting, 129–32
+notionless hypergraphics, 131
+signiﬁcation in Lettrist writing, 129
+visual apostrophes, 126–7
+visuality, 125
+written and the visual, tension
+between, 125
+‘writing nothingness’, 129
+Levy, K., 149n5
+Life of her Own/Her Life to Live, A, 214
+Lina, P., 87
+Lindemann, U., 186n17
+List of Recent Holarctic Bird Species, 122n5
+Listening In: Music, Mind, and the
+Modernist Narrative, 79n1
+Literary Intermediality: The Transit of
+Literature through the Media Circuit,
+47n57
+Literary Modernism and Musical Aesthetics:
+Pater, Pound, Joyce, and Stein, 172n4
+Literature, Transcendence, Avant-Garde,
+133n4
+Literaturwissenschaft – intermedial –
+interdisziplinär, 67n26, 250n1
+Ljungberg, C., 5, 28, 40n5, 42n18,
+45n40, 81–95
+Lodato, S. M., 172n9
+Lommel, M., 251n11
+Lönnroth, L., 109n7
+Lowell, Amy
+‘Stravinsky’s Three Pieces “Grotesques”,
+for String Quartet’, 163–74, see also
+individual entry
+Lüdeke, R., 66n12
+Lüders, O., 87
+Luhmann, N., 53
+Lund, H., 39n3, 45n42, 67n24, 95n14,
+149n7, 157, 162n22, 172n12,
+186n17, 222n16, 226, 230, 235n1,
+235n6, 235n9
+Lundquist, J., 235n1
+Lutwack, L., 122n15, 122n16
+Luz & Letra: ensaios de arte, literatura e
+comunicação, 185n2
+Lyon, T. J., 120, 123n29
+Maassen, I., 66n13, 222n23
+MacPherson, J., 153, 154, 155, 156,
+157, 158
+Madden, J., 200
+Madonna, 233, 234
+Magritte, R., 234
+Magyar Lettre Internationalee, 197n3
+Majestas Domini, 103
+Making Meaning: Inference and Rhetoric in
+the Interpretation of Cinema, 209n6
+Mallarmé, S., 215, 216
+Manifesto, 125
+mappings in Hermenetka, 91–2
+Maria, J., 103, 107, 108
+Marion, P., 44n35, 236n16
+
+
+── PAGE 50 ──
+PROOF
+262
+Index
+Mary of Egypt, 140–3, 149n3, 149n4
+mass media, 31
+material modality, 15, 17
+materiality, 15
+‘auditory’ material, 15
+immateriality and, 15
+‘visual’ material, 15
+Matrizes da linguagem e do pensamento,
+94n8
+Maurer, I., 251n11
+McCormick, E. A., 39n1
+McLuhan, M., 31, 40n6, 43n29, 47n51,
+47n53, 90, 99, 100, 101, 102, 109n2,
+109n8, 237, 239, 247, 251n8,
+251n10, 251n12, 252n29, 252n32,
+252n37
+‘meaning making’ in ﬁlm, 205–9
+cognitive modalities, Greimas’s
+semiotic square of, 206
+freedom, 207
+independence, 207
+medium concept, 208
+obedience, 207
+power, 206
+powerlessness, 207
+Reading Pictures, Viewing Texts, 206
+showing medium, 207
+systematic language, 205
+telling medium, 207
+transmediatic chronotopic language,
+208
+understanding, 206
+Méchoulan, E., 243, 252n26
+media
+basic media, 27, 36
+borders, 28
+combination and integration of, 28,
+45n42
+‘form’ and ‘content’ of, connection
+between, 30
+Elleström’s conditions for, 227;
+material modality, 227; semiotic
+modality, 227; sensorial modality,
+227; spatiotemporal modality, 227
+Elleström’s deﬁnition of, 227
+from a hermeneutical point of view, 13
+mass media, 31
+media combination category, of
+intermediality, 56
+mediation and transformation of, 28,
+45n42
+modalities of, 11–48
+modes of, 36
+qualiﬁed media, 27
+qualifying aspects of, 24–7, 35
+remediation, 31
+spatiality levels in, 20
+technical medium, 30, 36
+temporality in, 20–1
+see also qualifying aspects of media
+Media Encounters and Media Theories, 39,
+44n37, 251n5, 251n7, 252n23,
+252n34
+Media inter Media: Essays in Honor of
+Claus Clüver, 186n26
+Mediale Performanzen, 222n23
+medial transposition category, of
+intermediality, 55–6
+media poetry, 179
+Media Poetry: An International
+Anthology, 185n1
+New Media Poetry, 179
+see also biopoetry of Eduardo Kac
+media speciﬁcities, genre speciﬁcities
+and, comparison, 63
+media studies, intermediality approach
+in, 241–3
+mediation, 32–3
+medieval ballad and Romanesque
+church, 99–110
+Ars (art and handicraft) notion, 101
+art in the High Middle Ages, 101
+choir (heaven) and nave (Earth),
+relation between, 106
+Choros as an ecclesiastical medium,
+107–9
+and cultural interpretation problem,
+106–9; ‘ballads of chivalry’, 106
+early medieval church as mass
+medium, 102–4
+feudal society, 102
+Gothic period, 104
+iconic development, essential features
+of, 104
+McLuhan’s method, 102
+medieval media, understanding,
+99–100
+‘metaphor’ meaning of, 102
+numinous mode, 104–6
+
+
+── PAGE 51 ──
+PROOF
+Index
+263
+sublimes, 104–6
+Understanding Media, 99–101
+writing and the law, 100–2
+‘Mediterranean’ concept, 91
+medium, 11, 82
+and art forms, comparisons, 14–15
+deﬁnition in Wolf, 67n26
+description, 13–27, 35
+dissimilar notions of, 12
+as extensions of man, 13
+and ‘form’, 53
+Lars Elleström deﬁnition, 124
+materiality and perception,
+comparison, 15
+McLuhan’s sociological theory, 13–14
+and ‘medial conﬁguration’, 53
+multimodal concept of, implications,
+227–9
+notions of, 12
+in Peircean semiotics, 82
+in semiotics, 82
+Medium Theory and the Uses of Meaning,
+209n8
+Mein wunderbares Ich, 252n41
+Meisel, L. K., 66n21
+Memory, History, Forgetting, 197n5,
+198n52
+meontologization, 6, 126–9
+Mertens, M., 251n3
+Messiaen, O., 133n21, 144, 145, 146, 147
+metaphor conception, 69
+Aristotelian deﬁnition of, 73
+Black’s view, 70
+‘interaction view’ of, 69
+Metaphor and Musical Thought, 79n1
+musico-literary metaphor, 70–1
+subjects of, 69; principal subject, 69;
+subsidiary subject, 69; tension
+between, 71
+metaphorical
+interaction/metaphoricity, 69–80,
+80n20
+between music and literature, 71–7;
+Maurice Ravel’s piano piece
+Gaspard de la nuit, 73–4; as
+transmedialized, 75
+between music and poetry, 74; ‘Le
+gibet’, 74, 76; paratexts, 74
+in Black’s sense, 77
+intermedial relations in terms of, 69
+Mozart’s Exsultate, Jubilate, 78
+simultaneity notion, 79
+‘transmediality’, 75
+wandering phenomena, 75
+Middle Ages, ‘medium’ in, 102
+Midwest Studies in Philosophy, 43n24
+Mitchell, W. J. T., 11, 14–15, 24, 29,
+41n9, 41n11, 42n18, 43n22, 43n30,
+45n45, 45n46, 46n46, 65n7, 84, 90,
+95n9, 95n12, 95n33, 127, 133n16,
+188, 190–91, 197n7, 197n20,
+197n28, 198n43, 198n51, 199, 200,
+202, 209n1, 212, 221n8, 222n13,
+222n16, 229, 232–4, 235n12,
+236n19, 236n20, 236n24, 236n25,
+236n26
+mixed media, 45n46
+mixed-media conﬁgurations, 67n24
+‘modality’, 14
+material modality, 15, 17
+of media, 11–48
+sensorial modality, 15, 17–18
+spatiotemporal modality, 15, 19
+semiotic modality, 15, 21
+‘tones’, 16
+modal media border, 28
+‘mode’, 14
+Models and Metaphors, 79n2
+Mohr, J., 191
+‘monomediality’, 66n67
+Morgan, R. P., 42n18
+Morra, J., 166, 173n23, 173n25
+Moser, S., 40n5, 95n22, 251n19
+Mother Thekla, 140
+Mountfort, G., 121n3
+Mozart, W. A., 69, 76, 77, 78, 80n24,
+80n27
+Mullarney, K., 122n3
+Müller, J. E., 8, 26, 39n2, 44n37, 46n47,
+48n58, 160, 161n2, 180, 186n18,
+221n3, 221n5, 236n16, 237–52
+multimedia art, intermedial strategies in,
+81–95
+performativity, 85–8
+see also sign, medium as
+multimedia conﬁgurations, 67n24
+multimodality, 13–14, 37
+multimodal concept of medium,
+227–9; implications, 227–9
+
+
+── PAGE 52 ──
+PROOF
+264
+Index
+multimodality – continued
+Multimodal Discourse: The Modes and
+Media of Contemporary
+Communication, 40n8
+Multimodality and Genre: A Foundation
+for the Systemic Analysis of
+Multimodal Documents, 40n8
+Multimodality in Language and Speech
+Systems, 40n7
+Munro, T., 42n14, 42n17
+‘Museum of Memory’, 218–21
+Museum of Unconditional Surrender,
+The, 7, 187–98, 196n1, 197n4,
+197n6, 197n13, 197n18, 197n23,
+197n31, 198n35, 198n39, 198n46,
+198n49
+coda, 196
+discursive remedy or the (critical)
+intervention, 194–6
+‘fetish’, rewriting, 191–2
+intermediality, 188
+language conceptualization, 194
+narration of past displays, 195
+‘an old yellowing photograph’, 190
+photograph at the centre, 190–4
+photographic medium, themetizing,
+187
+photography and the photo/graphic,
+192–4
+ambivalence, 193
+diving into the picture, 192–4
+ekphrastic description, 192
+looking at, 192–4
+as a medium of anamnesis, 193
+reading, 192–4
+position and lens of camera, 188
+remediation, 194–6
+scopic experience, themetizing, 187
+single photograph, 188
+‘symbolic’ intermediality, 188
+textual anamnesis, 196
+Museum of Words: The Poetics of Ekphrasis
+from Homer to Ashbery, 149n7
+music, 25, 27
+and literature, metaphorical
+interaction between, 71–4
+Musical Ekphrasis: Composers Responding
+to Poetry and Painting, 47n53
+musical iconicity, 43n28
+Musicalization of Fiction: A Study in the
+Theory and History of Intermediality,
+The, 40n3, 41n10, 44n33, 45n40,
+45n42, 65n1, 67n24, 67n26, 80n14,
+162n32, 173n28, 226, 229, 235n15
+musico-literary artefact as
+transmedialized, 75
+musico-literary relations as metaphorical
+interaction, 71–6
+musico-poetic experiment, Three Pieces
+“Grotesques”, for String Quartet’
+poem, 167–168
+‘mutual-exclusivity’, 161n10
+Nana, 222n12
+Nänny, M., 95n14
+Narration in the Fiction Film, 209n6
+Narrative Across Media: The Languages of
+Storytelling, 47n57
+New Grove Dictionary of Music and
+Musicians, The, 149n5
+New Historicism and Cultural Materialism,
+236n18
+New Literary History, 122n9
+New Media Poetry: Poetic Innovation and
+New Technologies, 185n1
+‘new speech’, 125
+non-ﬁxed sequentiality, 19
+Normand, T., 154, 162
+nothingness
+Heidegger’s notion of, 130
+media on the edge of, 124–34, see also
+Lettrism, visual apostrophes in
+as ‘a slipping away of the whole’, 131
+nothing with words, getting, 129–32
+Nöth, W., 82, 94n5, 94n7, 95n11, 95n21,
+95n26, 95n28, 109n4, 159, 162n31
+notionless hypergraphics, 131
+Nouledo, C., 251n2
+numinous mode and sublime, in
+Romanesque period, 104–6
+choir (heaven) and nave (Earth),
+relation between, 106
+obligatory intertextuality, 158
+Ochsner, B., 65
+Oldörp, A., 59
+Olofsson, T., 109–10
+Olsen, T. D., 109n7
+
+
+── PAGE 53 ──
+PROOF
+Index
+265
+‘On Linguistic Aspects of Translation’,
+166
+On Meaning: Selected Writings in Semiotic
+Theory, 206, 210n13
+On Metaphor, 79n2
+Ontology, 162n29
+Oosterling, H., 218, 222n19,
+222n21
+operational qualifying aspect of
+media, 25
+oral interpretation, 89
+Order of Things: An Archaeology of the
+Human Sciences, The, 222n15
+‘organized non-verbal sound’, 29
+Paech, J., 39n3, 44n37, 47n53, 53, 65n2,
+66n13, 188, 197n10, 201, 203, 204,
+209n7, 221n3, 222n11, 222n23,
+243, 251n3, 252n23
+Pailliotet, A. W., 40n4
+Palearctic Birds, 122n5
+Panofsky, E., 201, 207, 208, 210n16
+paratexts, 74, 76
+Paratexts: Thresholds of Interpretation,
+80n12
+partially ﬁxed sequentiality, 19
+Pater, W., 172n3, 172n4
+Peignot, J., 186n16
+Peirce and the Notion of Representation,
+95n15
+Peirce, C. S., 21, 22, 43n26, 83, 85, 94n6,
+95n15
+Penrose, Roger, ‘seeing is believing’,
+137–49
+‘impossible triangle’, 137, see also
+under arts
+musical signiﬁers enriching an
+ekphrastic poem (Case study 2),
+143–8
+sensually or intellectually inaccessible
+spiritual signiﬁers (Case study 1),
+140–3
+performativity, 85–8
+intermediality and, 85–8
+kinds of, 85
+performance and, 86–7
+Performativity: A Paradigm for the
+Studies of Art and Culture,
+95n18
+radical sense, 85
+strong sense, 85
+weak sense, 85
+White Lily, 86–8
+Perron, P. J., 206, 210n13
+Perspective as Symbolic Form, 210n16
+Peterson, R. T., 121n3, 122n6
+Peterson, V. M., 122n6, 122n7, 122n9,
+122n10, 122n11, 122n12
+Peth, Á., 8, 211–22
+Pﬁster, M., 161n7, 161n8
+Phillips, D., 120, 122n9, 123n30
+Philosophical Writings, 41n11
+photo/graphic traces, 187–98
+thematizing photography, 188
+see also Museum of Unconditional
+Surrender, The
+‘photorealism’, 66n21
+photorealistic painting, 58–60
+‘picto-ﬁlms’, 213
+Pictor, A., 108, 110n19
+Picture Theory: Essays on Verbal and Visual
+Representation, 43n30, 66n67,
+133n16, 197n7, 197n20, 197n28,
+198n43, 198n51, 199, 200, 209n1,
+221n8, 222n14, 222n16, 234,
+235n12, 236n24, 236n25
+Pictures Into Words: Theoretical and
+Descriptive Approaches to Ekphrasis,
+161n5, 162n22
+Pierrot le fou, 215–17
+Plett, H., 151, 157, 160, 161n4, 243
+plurimediality, 56
+Poems and Translations, 80n26
+Poetic Origins and the Ballad, 109n1
+Poetics, 40n5
+Poetics of Cinema, 209n6
+Pöggeler, O., 80n24
+Pope Benedict XVI., 107
+Pound, E., 77, 80n26, 171n2, 172n4
+Pound, L., 109n1
+Pragmatism, 161n1
+presbyterium, 103
+Prieto, E., 79n1
+primitivism, 170–1
+Problem of Pure Consciousness: Mysticism
+and Philosophy, The, 134n24
+proprioceptors, 18
+Prospero’s Books, 153
+Punzi, M. P., 47n57
+
+
+── PAGE 54 ──
+PROOF
+266
+Index
+Qiong, Z., 95n13
+qualiﬁed media, 5, 12, 27–31
+border, 28
+qualifying aspects of media, 24–7
+aesthetic and communicative
+characteristics, 25–6
+cinema, 25
+contextual, 24, 33
+dance, 26
+music, 25, 27
+operational, 25, 33
+Quiepo, N., 251n11
+Quills, 200
+quotations, 89–90
+Rajewsky, I. O., 5, 30, 34, 39n3, 44n38,
+45n41, 46n49, 47n56, 48n59, 51,
+53, 55, 57, 59, 61, 63, 65n2, 65n4,
+65n5, 66n12, 66n15, 66n20, 67n25,
+67n29, 71, 75, 80n10, 80n18,
+80n25, 83, 111, 133n3, 133n12,
+172n10, 172n11, 183, 186n25,
+235n9, 252n24
+Rancière, J., 220, 222n22
+Ratzinger, Bishop J., 107
+Ravel, M., 69, 74
+Reading Images: The Grammar of Visual
+Design, 40n8
+Reading Pictures, Viewing Texts, 206,
+210n15
+Reading Rembrandt: Beyond theWord-Image
+Opposition, 41n9, 48n57
+Realists and Nominalists: An Introduction
+to Medieval Views of Knowledge,
+109n9
+Re/collecting Gendered Memory, 197n16,
+197n29, 198n44, 198n47
+Redeﬁning Literary Semiotics, 95n10
+referentiality, 74
+differential model, 152
+Regard du Fils sur le Fils, 149n10
+Regard du silence, 149n10
+Reichert, S., 80n22
+Reinfandt, C., 172n13
+Religious Dances in the Christian Church
+and in Popular Medicine, 108
+remediation, 31, 194–6, 213
+Remediation: Understanding New Media,
+47n52, 47n53, 221n7, 221n9
+Renaissance: Studies in Art and Poetry, The,
+172n3
+Renard, 174n37
+‘repleteness’, 71
+representation, 32, 153, 160
+differential model, 152
+resemblance (iconic signs), semiotic
+modality, 22–3
+Reutersvärd, O., 137
+Reverdy, P., 144
+Ricoeur, P., 76, 79n2, 80n20, 187, 197n5,
+198n52
+Riesinger, R., 252n33
+Riffaterre, M., 158, 162n28, 243
+Rilke, R. M., 192
+Rimbaud, A., 215, 216
+Rissler-Pipka, N., 251n11
+Robillard, V., 6, 7, 150–62
+Rodriguez, La Mala, 91
+Roland Barthes Reader, A, 209n11
+Roland Penrose: The Friendly Surrealist: A
+Memoir, 149n8
+Role of Comparative Literature in the Sharing
+of Knowledge and in the Preservation of
+Cultural Diversity, The, 95n21
+Romanesque church, 99–110
+see also Medieval ballad and
+Romanesque church
+Rosch, E., 161n6
+Rosenberg, E., 115, 116, 117, 118, 119,
+122n3, 122n8, 122n13, 122n19,
+123n22, 123n24, 123n27
+Rothberg, M., 189, 197n14
+Rothenberg, D., 122n15
+Routledge Encyclopedia of Narrative Theory,
+The, 66n17
+Ruppert, R., 180, 186n18
+Ryan, K., 231
+Ryan, M.-L., 47n57, 66n17, 235n8
+Sabatier, R., 133n13
+Sacks, S., 79n2
+Sadie, S., 149n5
+Sager, L. M., 221n10
+Said, E., 194
+Saint Anselm, 105, 109n11
+Sandgren, H., 111–23
+Sándor, K., 7, 133n3, 134n31, 187–98
+Santaella, L., 94n8, 95n21
+Sartre, J.-P., 134n28, 232
+
+
+── PAGE 55 ──
+PROOF
+Index
+267
+Satan’s Tango, 7, 202–7, 209n9, 209n10
+see also ‘meaning making’ in ﬁlm
+Satié, A., 126, 130, 131
+Saunders, A., 122n15
+Schapiro, M., 154, 162n13
+Scher, S. P., 78, 80n15, 172n9
+Schmidt, E., 44n31, 206, 207, 221n3,
+252n23
+Schmitz-Emans, M., 186n17
+Schneider, F. H., 172n7
+Schneider, I., 68n30, 252n31
+Schober, R., 7, 47n56, 163–74
+Schoenmakers, H., 65n7
+Scholz, B. F., 236n19
+Schröter, J., 39n3, 44n37, 47n53, 65n2,
+251n3
+scientiﬁc community, intermediality
+concept in, 241–3
+Scott, W., 155, 156, 157
+Second Life, 248–9
+Selected Prose of T. S. Eliot, 172n17
+‘selectivity’, 153
+self-referentiality
+allusions, 89–90
+‘braiding’, 90–1
+‘cyberart ritual’, 93
+Gesamtkunstwerk, 94
+Hermenetka, 94
+hybrid forms of art and media and, 90
+intermedial self-reference, 89
+intermediality and, 88–94
+intertextual self-reference, 89
+‘Mediterranean’ concept, 91
+oral interpretation, 89
+quotations, 89–90
+Self-Reference in the Media, 95n26
+synesthesia phenomenon, 90
+in terms of iconicity, 88
+various media integrated into an
+intermedial whole, 90
+virtual reality, 90
+White Lily, 91–4
+Semali, L. M., 40n4
+Seminar: A Journal of Germanic
+Studies, 80n
+semiosis, sign generation, 83
+‘semiotic mediatics’, 201–2
+semiotic modality, 15, 21
+contiguity (indexical signs), 22–3
+convention (symbolic signs), 22–3
+creation of meaning, 22
+pictorial representations, 22
+propositional representations, 22
+resemblance (iconic signs), 22–3
+Semiotics of Poetry, 162n28
+Semiotics of the Media: State of the Art,
+Projects and Perspectives, 95n27,
+109n4
+sensorial modality, 15, 17–18
+exteroceptors, 18
+interoceptors, 18
+levels of, 17
+modes of, 17
+proprioceptors, 18
+receptors level, 18
+sensation level, 18
+sense-data level of, 17–19
+Sentimental dialogue, 216
+Shakespeare in Love, 200
+Shinsuke, S., 95n13
+Sichtbares und Sagbares
+Text-Bild-Verhältnisse, 66n7
+Sievers, R., 167, 173n32
+sign, medium as, 83–4
+C. S. Peirce doctrine of, 88
+iconic, 83
+indexical, 83–4
+intermediality, 84
+‘narrative painting’, 84
+‘pure painting’, 84
+semiosis, sign generation, 83
+symbolic, 83–4
+signiﬁcation in Lettrist writing, 129
+‘simulation’, 67n23
+simultaneity notion, 79
+singing ﬂames, 59
+Sjöberg, S., 6, 124–34
+Solberg, O., 109n14
+Solheim, S., 110n15
+Sonic Transformations of Literary Texts:
+From Program Music to Musical
+Ekphrasis, 47n54
+Sontag, S., 189, 191, 197n15, 209n11,
+218, 222n18
+Sound Art, 61
+Sowa, J. F., 162n29
+Space, Time, Image, Sign: Essays on
+Literature and the Visual Arts, 41n11,
+43n20
+Spangenberg, P. M., 252n31
+
+
+── PAGE 56 ──
+PROOF
+268
+Index
+spatial thinking, 42n18
+spatiotemporal modality, 15,
+17–24
+dimensions of, 19; depth, 19; height,
+19; time, 19; width, 19
+ﬁxed sequentiality, 19
+non-ﬁxed sequentiality, 19
+partially ﬁxed sequentiality, 19
+represented state, 21
+Spielmann, Y., 44n35, 47n55
+Spinks, C. W., 95n19
+Spitzer, M., 79n1
+Stead, A., 166, 173n24
+Steiner, W., 41n11, 42n12, 43n24
+Stein, G., 172n4
+Steinmaurer, T., 251n6
+Stephan, R., 168, 173n34
+Stewart, M., 149n4
+State of the Art, The, 209n3
+Still, J., 162n27
+Storm, I., 122n18
+Stravinsky: A Creative Spring: Russia and
+France, 174n37
+Stravinsky and the Russian Traditions: A
+Biography of the Works through Mavra,
+174n37
+Stravinsky, I., 7, 163–74
+‘Stravinsky’s Three Pieces “Grotesques”, for
+String Quartet’ poem, 163–74
+avant-garde context, 169
+folkloristic elements, 169
+intermedial ‘imagination’, 163–4
+intermedial translation, 164–5, see also
+translation, intermedial
+musico-poetic experiment, 167–8
+‘primitive’ concept, 170–1
+self-referentiality, 168
+tonal colour in, 168
+‘structurality’, 153
+Styles of Radical Will, 222n18
+sublimes, in Romanesque period, 104–6
+Suchbegriff, 241, 244
+Sukorski, W., 91
+Superrealist Painting & Sculpture, 66n21
+Süss, G., 236n17
+Svensson, L., 122n3
+Synesthesia and Intersenses: Intermedia,
+162n30
+synesthesia phenomenon, 90
+Tabakowska, E., 40n5, 95n22
+Taha, R., 91
+Tarkovskij, A., 208
+Tarr, B., 7, 202–4, 207–8, 209n9
+Taruskin, R., 174n37
+Tavener, J., 140, 141, 142, 148, 149n3,
+149n4
+Taylor, L., 214
+technical media, 5, 12, 16, 30
+and basic media, relation between, 33
+and qualiﬁed media, relation
+between, 33
+Telepresence & Bio Art: Networking
+Humans, Rabbits, & Robots, 175,
+185n3, 185n4, 186n20
+television, 238–41
+Tele-Visionen: Zur Theorie und Geschichte
+des Fernsehempfangs, 251n6
+Temiz, O., 91
+text, in ﬁeld guides, 114
+anthropocentrism, 114
+anthropomorphism, 114
+‘Field marks’, 114
+narratives, 114
+short notes, 114
+text comparison, 117–19
+Text as Picture: Studies in the Literary
+Transformation of Pictures, 45n42,
+235n10
+Text-Bilder: Visuelle Poesie international:
+Von der Antike bis zur Gegenwart,
+185n16
+Text Production, 162n28
+Theater und Medien/Theater and the Media:
+Grundlagen – Analysen – Perspektiven:
+Eine Bestandsaufnahme, 65n7
+theatre, 29
+Theatre, Sacriﬁce, Ritual: Exploring
+Forms of Political Theatre, 95n17
+thematizing photography, 188
+Thomsen, C. W., 68n30, 252n31
+Thor, C., 122n19
+Three Pieces for String Quartet, 7, 174n37
+Thune, H., 235n1
+Tides of Manaunaun, The, 133n21
+Tidskrift för litteraturvetenskap, 235n1
+topographical model, 69–80
+meta-reﬂective element, 79, see also
+metaphorical
+interaction/metaphoricity
+
+
+── PAGE 57 ──
+PROOF
+Index
+269
+‘transcription’, 7
+‘Transgenic Art’, 175–86
+see also biopoetry of Eduardo Kac
+Transcription Jewels, 185n13
+transcription of bird sounds, 115
+Transfutur: Visuelle Poesie aus der
+Sowjetunion, Brasilien und
+deutschsprachigen Ländern, 185n16
+Transkriptionen, 65n7
+Translating Life: Studies in Transpositional
+Aesthetics, 173n24
+Translation and the Languages of
+Modernism: Gender, Politics, Language,
+172n14
+Translation Studies Reader, The, 172n18,
+173n22
+translation, intermedial, 164–5
+deﬁnition, 165
+‘interlingual’, 166
+‘intersemiotic’, 166
+‘intralingual’, 166
+‘On Linguistic Aspects of Translation’,
+166
+in Modernist literary production, 165
+term, 173n25
+‘translation’ term, 172n20
+transmedialization, 75
+Travelling Concepts in the Humanities:
+A Rough Guide, 95n16
+Trinity and ‘artistic triangle’, relation
+between, 138
+Hindu trinity, 138
+Tupsy-Turvy, 200
+Types of the Scandinavian Medieval Ballad
+(TSB), The, 110n15
+Typoésie, 186n16
+Ugreši´c, Dubravka, 187–98
+see also Museum of Unconditional
+Surrender, The
+Ulysses, 81
+Understanding Media: The Extensions of
+Man, 40n6, , 43n29, 47n51, 99–101,
+109n2, 109n8, 239–40, 251n8,
+251n10, 251n12, 252n29, 252n32,
+252n37
+Urichio, W., 251n15
+Valéry, P., 215
+Vandekeybus, W., 56
+van Leeuwen, T., 14, 40n8, 47n53
+Veivo, H., 95n10
+Venuti, L., 172n18, 173n22
+Verlaine, P., 215, 216, 217
+vertigo of cinema media, 214–15
+Vertigo, 215
+Video: The Reﬂexive Medium, 44n35
+Világoskamra, 197n19, 197n22, 197n27,
+197n34, 198n38
+virtual reality, 90
+virtual space notion, 20
+virtual time notion, 20–1, 43n23
+Visible Language, 185n1, 185n15
+visual apostrophes, 6, 124–34
+see also Lettrism, visual apostrophes in
+Visual Thinking, 42n18
+visuality, 26, 37, 47n55, 125, 129, 199,
+200, 220
+Vitruvian Man, 139
+Vivre sa vie, 214
+Voßkamp, W., 65n7
+Vom Klang der Bilder, 172n4
+von Trier, L., 61
+Voous, K. H., 122n5
+Vos, E., 67n24
+Wagner, P., 124, 127, 132n1, 133n20,
+151, 161n3
+Walsh, S., 174n37
+Waltz, S., 57, 58, 62
+Walzel, O., 241
+wandering phenomena, 75
+Wasp Factory, The, 228
+Weingart, B., 65n7
+Weinrich, H., 215, 222n13
+Welle, A., 44n35
+Wenders, W., 192
+What do PicturesWant? The Lives and
+Loves of Images, 43n30
+What is Cinema?, 197n21, 197n25
+What is Television?, 251n15
+White Lily, 40n5, 81, 86–9
+Why Birds Sing, 122n16
+Wiberg, H., 115, 116, 122n18
+Wild, G., 251n11
+William, W. P., 150, 161, 198n41
+Winterbottom, M., 200
+Wirkungsgeschichte, 70
+Wittgenstein, L., 234
+
+
+── PAGE 58 ──
+PROOF
+270
+Index
+Wolf, W., 28, 40n3, 41n10, 44n33,
+45n40, 45n42, 56, 57, 65n3, 66n17,
+66n18, 67n24, 67n26, 72, 80n14,
+121n2, 160, 162n32, 172n9,
+173n28, 206, 226, 227, 228, 229,
+230, 235n8, 235n15, 250n1
+Women, Fire, and Dangerous Things: What
+Categories Reveal About the Mind,
+161n6
+Wonderful Life: The Burgess Shale and the
+Nature of History, 123n32
+Woodcock, M. W., 121n3
+Word and Music Studies: Deﬁning the Field,
+80n15
+Word and Music Studies: Essays in Honor of
+Steven Paul Scher on Cultural Identity
+and the Musical Stage, 172n9
+words
+nothing with words, getting, 129–32
+see also Lettrism, visual apostrophes in
+Words and Images on the Screen: Language,
+Literature, Moving Pictures, 221n6
+Words and Pictures: On the Literal and the
+Symbolic in the Illustration of a Text,
+162n13
+World History of the Dance, 110n16
+Worton, M., 162n27
+Writing and Filming the Painting: Ekphrasis
+in Literature and Film, 221n10
+‘writing nothingness’, 129
+Yao, S. G., 172n14
+Zara, E., 91, 124
+Zeitschrift für Französische Sprache und
+Literatur, 67n29
+Zetterström, D., 122n3
+Zielinski, S., 251n6
+Zohn, H., 172n18
+Zola, E., 222n12

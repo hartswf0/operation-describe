@@ -1,0 +1,678 @@
+# Thetis and the Shield of Achilles — Reading the Iliad with Auden
+# Source: Yamagata - 2023 - Thetis and the Shield of Achilles — Reading the Iliad with Auden.pdf
+# BibTeX key: paprocki_thetis_2023
+# Zotero dir: 3276
+# Extracted chars: 39601
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Open Research Online
+Citation
+Yamagata, N. (2023). Thetis and the Shield of Achilles – Reading the Iliad with Auden. In: 
+Paprocki, M; Vos, G. P. and Wright, D. J. eds. The Staying Power of Thetis: Allusion, 
+Interaction, and Reception from Homer to the 21st Century. De Gruyter, pp. 395–410. 
+URL
+https://oro.open.ac.uk/78390/ 
+DOI
+License
+(CC-BY-NC-ND 4.0) Creative Commons: Attribution-Noncommercial-No Derivative Works 
+4.0
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+Policy
+This document has been downloaded from Open Research Online, The Open University's 
+repository of research publications. This version is being made available in accordance 
+with Open Research Online policies available from Open Research Online (ORO) Policies 
+Versions
+If this document is identified as the Author Accepted Manuscript it is the version after peer 
+review but before type setting, copy editing or publisher branding
+
+
+── PAGE 2 ──
+16. Thetis and the Shield of Achilles – Reading the Iliad with Auden 
+Naoko Yamagata 
+ 
+1. Introduction 
+W. H. Auden’s poem ‘The Shield of Achilles’, which first appeared in print in 1952 and was 
+published as the title poem of the collection The Shield of Achilles in 1955, has been interpreted 
+variously, according to its multiple layers of meaning.1 The poem rewrites Hephaestus’ making 
+of the shield for Achilles in Iliad book 18, replacing peaceful scenes of country and civic life 
+reminiscent of some images on the Homeric shield, that Auden’s Thetis expects to see, with 
+scenes of brutality and inhumanity of modern warfare and society, which the smith-god 
+actually places on the shield.2 In his review of the poem shortly after its publication, Jarrell 
+called it ‘an impressive, carefully planned, entirely comfortless poem’.3 As Mendelson puts it, 
+it has become ‘an anthology piece thanks to its apparently straightforward sentiments against 
+war, cruelty, impersonality and regimentation’, though ‘its covert themes are Auden’s 
+argument with himself about his art and his relation to it’.4 MacDiarmid further articulates 
+ 
+I would like to thank the colleagues at ‘Thetis’ Panel of the Celtic Conference in Classics in Coimbra in June 2019 
+from whose comments this version has very much benefitted. I am also indebted to Suman Gupta, Jan Haywood 
+and Lucia Presentacion Romero Mariscal for their helpful comments on the conference version of this essay and 
+their bibliographical suggestions. 
+1 Auden (1955) 35-37. The quotations from the poem in this essay are from Auden (2007) 594-596, which has 
+minor differences in spelling and punctuation from the original version. See also the version in Auden (1979) 206-
+208 which also shows minor differences in spelling and/or punctuation to both. 
+2 In Auden’s poem the smith-god’s name is spelt ‘Hephaestos’, but I am using the more common English spelling 
+‘Hephaestus’ throughout this article.  
+3 Jarrell (1955) 227.  
+4 Mendelson (2004) 59-60. 
+
+
+── PAGE 3 ──
+Auden’s uneasy relationship with art by arguing that the poem is about art as ‘a means of 
+disenchantment, through which our expectations for the absolute are answered with the 
+contingent and derivative’, showing art’s inability to convey moral and spiritual values.5 Taplin 
+observes that ‘Auden was disturbed that the great poem of war should include the shield of 
+Achilles, and insisted that art must present war in all its brutal inhumanity.’6  
+As a Homerist, I have been puzzled and intrigued by Auden’s version of the shield of 
+Achilles. He seems to challenge us not only as to how to read his poem, but also as to how to 
+read the shield of Achilles in the Iliad and the Iliad as a whole. One of the most significant 
+changes that Auden has made to the original tale of the making of the shield is the role of Thetis 
+in the scene. In Iliad 18 Thetis does not follow Hephaestus into his workshop (468 τὴν μὲν 
+λίπεν αὐτοῦ ‘he left her there’). By introducing Thetis as an anxious viewer of Hephaestus’ 
+making of the shield, Auden reminds us that the shield reflects not only the story of Achilles 
+but also that of Thetis.7 Moreover Auden’s dystopian vision, though deliberately contrasted 
+with happier vignettes on the Iliadic shield, seems to point the reader to some other aspects of 
+the Iliad beyond the shield. This essay is an attempt to re-read Homer through the lens of 
+Auden’s poem and subsequently examine Auden’s poem, à rebours, through the Homeric lens.  
+ 
+2. The Shield of Achilles in the Iliad 
+ 
+5 MacDiarmid (1990) 130. 
+6 Taplin (1980) 17. 
+7 The theme of ‘Thetis in the forge of Hephaestus’, however, was popular in Pompeiian wall-painting. In one 
+example from the House of Paccius Alexander (Museo Archeologico Nazionale di Napoli 9529), the shield is 
+literally reflecting Thetis’s image like a mirror. Cf. Hardie (1985) 19 and Villing, Fitton, Donnellan and Shapland 
+(2019) 80.  
+
+
+── PAGE 4 ──
+First of all, I would like to look at the structure of Achilles’ shield as depicted in Iliad 
+18, which can be summarized as in Table 1 below. 
+ 
+Table 1: The scenes on the shield of Achilles in Iliad 18 
+(1) 
+The Earth, the Sky and the Sea  483-489 
+(2) 
+The City at Peace  
+ 
+491-508 
+(3) 
+The City at War   
+ 
+509-540 
+(4) 
+Ploughing (spring) 
+ 
+541-549 
+(5) 
+Reaping (summer) 
+ 
+550-560 
+(6) 
+The Vintage (autumn) 
+ 
+561-572 
+(7) 
+Cattle (winter) 
+ 
+ 
+573-586 
+(8) 
+Sheep  
+(winter) 
+ 
+587-589 
+(9) 
+The Dance  
+ 
+ 
+590-606 
+(10) Oceanus  
+ 
+ 
+607-608 
+ 
+The current academic consensus on the significance of the shield of Achilles appears to be that 
+it is ‘a microcosm of the world and all that is in it’.8 The scenes on it do not appear to have 
+anything directly to do with the story of Achilles, but to depict the wider world, with cities and 
+countryside, war and peace, work and pleasure, horror and joy, bounded by the sky in the 
+ 
+8 Alden (2011) 796. Cf. Anderson (1976) 5-6, with his references to some of the most influential studies leading 
+to this view, especially Lessing (1901), Reinhardt (1961), Schadewaldt (1965) and Marg (1971). See also 
+Stansbury-O’Donnell (1995) 315: ‘The poet’s choice of scenes transforms the shield into a microcosm of the 
+world of the Iliad, providing its listeners and readers with both a retrospective and prospective picture of the 
+course of the poem and making them think about the price of the war by its contrast with scenes of peace.’ For 
+these and other angles from which the shield has been interpreted, see Rutherford (2019) 25-32.  
+
+
+── PAGE 5 ──
+middle and Oceanus encircling the whole. Some argue that this lack of specific reference to 
+Achilles is precisely what gives the shield the universal significance.9 If the shield is to 
+represent the whole world, then, by carrying it, Achilles is surely carrying the weight of the 
+world.10 This seems to correspond symbolically to his role as observed by Slatkin, that by not 
+being born to Zeus as the son ‘stronger than his father’, but to a mortal father and dying young, 
+he is sustaining the status quo of the Olympian universe.11 If so the shield is also part of Thetis’ 
+story, not only because she commissions it on Achilles’ behalf, but also because she ensured 
+that she gave birth to a son who was destined to be stronger than his father, not for Zeus, but 
+for Zeus’ grandson Peleus.  
+The emphasis on Thetis’s role in Auden’s poem also prompts us to look for more signs 
+of her story in the context of the making of the shield. We need not look very far to find the 
+synopsis of her life story, which is told in Il. 18.429-461. In her speech to Hephaestus by which 
+she commissions Achilles’ arms, Thetis recounts her story: her unique position among the 
+goddesses and Nereids in being forced to marry a mortal (429-435);12 she gave birth to a son 
+whom she brought up like a young tree in an orchard (436-438; ἀλωή at 438 here means orchard 
+or vineyard); that she sent him in the curved ships to fight in Troy and will never be able to 
+welcome him back to Peleus’ house (439-441); he has sorrows even while he lives and she is 
+powerless to help him (442-443), because Agamemnon dishonoured him and he withdrew from 
+ 
+9 Cf. Anderson (1976) 6, referring to Reinhardt (1961) 405, Marg (1971) 38 and Sheppard (1922) 8. 
+10 In this sense Achilles’ relationship with his shield is not so unlike Aeneas’ with his shield as the symbol of 
+Rome’s future (Verg. Aen. 8.731), with which Lessing contrasts Achilles’ shield at Lessing (1901) 137, except 
+that Achilles’ burden is significantly larger. Cf. Edwards (1991) 208. 
+11 Slatkin (1991) 101.  
+12 For Thetis’s unique position among goddesses in having been forced into a marriage with a mortal, see 
+Yamagata (2020) 16.  
+
+
+── PAGE 6 ──
+the battle (444-450); but by lending his armour to Patroclus and sending him out instead to 
+save the Argives, he lost both his dear friend and his arms (451-456); therefore she has come 
+to ask Hephaestus to make him a new set of armour (457-462). A scholiast (bT) has labelled 
+this passage as a typically ‘feminine’ moan instead of a straight answer to Hephaestus’ question 
+(424-427).13 Likewise Aristarchus athetized 444-456.14 However, if the shield is somehow 
+meant to reflect the story of Thetis, which incorporates that of Achilles, as it clearly does in her 
+reply to Hephaestus, it makes perfect sense for her to present its ‘blueprint’ to its prospective 
+maker. 
+Turning to the shield itself, I cannot help thinking that it must be significant that its 
+description begins with the earth, the sky and the sea (483), the last of which is the abode of 
+Thetis and her family. It must also be significant that the image of Oceanus, her ancestor and 
+therefore also Achilles’, ends the first section (489) as well as the whole description of the 
+shield (607-608).15 The picture of the universe on the shield therefore can be said to be framed 
+in the story of the origins of Thetis and Achilles. 
+Then the first human activities that appear on the second scene in the city at peace are a 
+wedding and dancing (491-496), which also seem to correspond to the images on the ninth, 
+penultimate, scene on the shield, where the dancing of ‘unmarried youths and much-courted 
+maidens (ἠίθεοι καὶ παρθένοι ἀλφεσίβοιαι)’ (593) are depicted.16 Again, it seems significant 
+ 
+13 Cf. Rutherford (2019) 183-184 on 429-461 and the bT-scholia to Il. 18.429-431 (Erbse 1975, 519). 
+14 Cf. Rutherford (2019) 185 on 444-456, who defends Thetis’ rationale for briefing Hephaestus who has not been 
+involved in the story since Book 1.  
+15 Another reminder of the significance of Oceanus to Thetis’ story occurs shortly before she meets Hephaestus, 
+when he recounts to Charis how he was saved and sheltered by Thetis and Eurynome by the stream of Oceanus 
+(Il. 18.395-405).  
+16 For the correspondence of the two scenes and the recurrence of Oceanus, see Hubbard (1992) 41, n. 67. 
+
+
+── PAGE 7 ──
+that the similar images of wedding and dancing are framing the shield, since the story of the 
+Trojan War and that of Achilles began with the wedding of Peleus and Thetis.17  
+Further parallels between the shield and Achilles’ story have been pointed out. Anderson 
+argues that the trial scene in the city at peace (497-508) is meant to echo the conflict between 
+Achilles and Agamemnon, especially Achilles’ refusal to accept Agamemnon’s offer of 
+compensation, which Ajax criticizes by contrasting his behaviour with a hypothetical case of a 
+man accepting a blood price for his kinsman (9. 632-638).18  
+The scenes related to the city at war (509-540) also contain many elements that are 
+reminiscent of the Iliad at large, including the general situation of Troy under siege and 
+particularly the mention of the women, children and older men on the city wall (514-515), 
+recalling Hector’s words in 8.517-522 and the teichoskopia in 3.146-242.19 The besiegers’ 
+internal debate over how to treat the spoils of the city that they are yet to capture seems to echo 
+both Diomedes’ words at 7.400-402 and Hector’s thoughts at 22.117-120.20 The scene on the 
+shield of the surprise attack on two shepherds playing pan-pipes (18.525-529) also recalls 
+Achilles’ attack on Andromache’s brothers while they were tending their sheep and cattle 
+(6.423-424).21  
+The peaceful agricultural scenes of plenty that follows (541-589), especially the picture 
+of the king happily supervising the work on his land (556-557), have been interpreted to 
+ 
+17 Cf. Hubbard (1992) 29. Alternatively – or in addition – the wedding may allude to that of Paris and Helen, 
+which triggered the war, as Anderson (1976) 11 suggests. 
+18 Anderson (1976) 14-15. See also Alden (2011) 794: ‘The situation depicted in the two cities bear some relation 
+to THETIS’ account of Achilles’ dispute with AGAMEMNON and the events leading to Patroklos’ death (18.439-
+461).’ 
+19 Cf. Anderson (1976) 9-10. 
+20 Cf. Anderson (1976) 9 and Alden (2011) 794.  
+21 Cf. Alden (2011) 794. 
+
+
+── PAGE 8 ──
+represent the life that Achilles has given up.22 It is this aspect of the shield that creates a tragic 
+contrast with the rest of the poem. We may also be meant to recall the image of Achilles whom 
+Thetis nurtured as a young tree in the orchard (438: ἀλωή) at 18.438 from the scenes of the 
+vintage in the vineyard (561: ἀλωή) at 561-572, which closes with a song for Linus. The Linus-
+song is a song of lament which many readers find out of place in the otherwise joyous context, 
+but if the scene is echoing Thetis’ lament for her son like a young tree, it may be more fitting 
+as a motif on the shield than has often been thought.23 These and other peaceful scenes are the 
+ones that seem to correspond most closely to what Thetis expects to see on the shield of 
+Achilles in Auden’s poem. Having surveyed some evidence for how the shield might relate to 
+the story of Thetis and Achilles, I would now like to turn to Auden’s poem.  
+ 
+3. Auden’s The Shield of Achilles 
+I have sketched out the structure of Auden’s poem with some keywords in Table 2.24 There are 
+nine stanzas to the poem, consisting of four stanzas featuring Thetis (Stanzas 1, 4, 7 and 9, 
+composed of eight three-stress lines) and five stanzas featuring modern life (Stanzas 2, 3, 5, 6 
+and 8, composed in seven-line verse known as rhyme royal).25  
+ 
+ 
+22 Cf. Anderson (1976) 7; Alden (2011) 795. The peace, however, is disturbed by two lions snatching an ox at 
+579-86. Alden (2011) 795 points out that the lion attack is the subject of many similes and refers particularly to a 
+simile comparing Menelaus to a lion ravaging a bull at Il. 17.61-69.  
+23 Cf. Tsagalis (2004) 20 for the link between the vegetal imagery of Achilles at 56 and 57 and lamentation. For 
+the meaning of the ‘Linus-song’, see Rutherford (2019) 218 on 570, Coray and Olson (2018) 253-254 on 570 and 
+Vos (this volume), with bibliography {p. 8 n. 14}. 
+24 Based on the text in Auden (2007) 594-596. 
+25 Wetzsteon (2007) 28-29 observes Hardy’s influence on Auden’s use of alternating stanzas here, creating ‘a 
+similar dialogue between naive optimism and harsh reality by using two very distinct stanza forms’.  
+
+
+── PAGE 9 ──
+ 
+Table 2: Some keywords in Auden’s The Shield of Achilles 
+‘Thetis’ Stanzas (eight lines) 
+‘Modern’ Stanzas (seven lines) 
+Stanza 1  
+‘She looked over his shoulder | For ….’ 
+Not found: ‘vines’, ‘olive trees’, ‘Marble 
+well-governed cities’, ‘ships’  
+Found: ‘An artificial wilderness | And a sky 
+like lead’  
+ 
+ 
+Stanza 2  
+‘A plain without a feature’, ‘No blade of 
+grass, no sign of neighborhood’, ‘Nothing to 
+eat’, ‘A million eyes, a million boots in line, 
+| Without expression, waiting for a sign.’  
+ 
+Stanza 3 
+‘a voice without a face’, ‘some cause was 
+just’, ‘No one was cheered and nothing was 
+discussed;’ 
+Stanza 4  
+‘She looked over his shoulder | For ….’ 
+Not found: ‘ritual pieties, | White flower-
+garlanded heifers, | Libation and sacrifice’, 
+‘the altar’ 
+ 
+ 
+Stanza 5  
+
+
+── PAGE 10 ──
+‘Barbed wire’, ‘A crowd of ordinary decent 
+folk | Watched from without and neither 
+moved nor spoke’, ‘three pale figures’ 
+ 
+Stanza 6 
+‘The mass and majesty of this world, all | 
+That carries weight and always weighs the 
+same, | Lay in the hands of others;’ 
+Stanza 7 
+‘She looked over his shoulder | For ….’ 
+Not found: ‘athletes at their games’, ‘Men 
+and women in a dance, | Moving their sweet 
+limbs, | Quick, quick, to music,’ ‘dancing 
+floor’ 
+Found: ‘a weed-choked field’ 
+ 
+ 
+Stanza 8 
+‘A ragged urchin, aimless and alone, | 
+Loitered about that vacancy;’ ‘a bird’ which 
+avoids ‘his well-aimed stone’, ‘That girls 
+are raped, that two boys knife a third, | Were 
+axioms to him, who’d never heard | Of any 
+world where promises were kept, | Or one 
+could weep because another wept.’ 
+Stanza 9  
+ 
+
+
+── PAGE 11 ──
+‘Thetis of the shining breasts | Cried out in 
+dismay’, ‘Iron-hearted man-slaying 
+Achilles’, ‘Who would not live long’ 
+ 
+The first three ‘Thetis stanzas’ (1, 4 and 7) begin with the refrain ‘She looked over his shoulder 
+| For…,’ followed by what she did not find on the shield and then followed by what she did see 
+on it.26 The first half of Stanza 1 goes as follows, listing what she looked for but did not find:  
+ 
+She looked over his shoulder 
+   For vines and olive trees, 
+     
+Marble well-governed cities 
+        
+    And ships upon untamed seas, 
+ 
+‘[V]ines’ remind us of the vintage scene on the Iliadic shield (esp. Il. 18.561-568), with its 
+possible connection with Thetis’ lament for Achilles, as we have seen above. There is no 
+mention of olive trees on the Homeric shield, but Achilles’ image as a tree can also relate to 
+this. Auden may have introduced them also because the olive branch is commonly known as a 
+symbol of peace.27 ‘Marble well-governed cities’ appear to refer to the city at peace (490-
+ 
+26 Daalder (1974) 193 observes Milton’s influence in the refrain ‘She looked…’, which appears to echo ‘He looked 
+…’ and other expressions in lines 555-556, 637-638, 712 and 840 in Paradise Lost XI.  
+27 For the olive as the symbol of peace both in ancient Greece (e.g. the use of olive wreaths at the Olympic Games) 
+and Christian traditions, see Sotiriu (2000) 1172-1174. Daalder (1974) 195 sees Milton’s influence in Auden’s 
+poem, citing Paradise Lost XI.860, which describes the olive leaf that the dove brings back to Noah as a ‘pacific 
+sign’. The Old Testament (Genesis 8.11), on the other hand, does not explicitly describe the olive leaf as the 
+symbol of peace. 
+
+
+── PAGE 12 ──
+508).28 No ships appear on the Homeric shield itself, though Thetis specifically mentions that 
+she sent Achilles to Troy in the ships (439). The sea appears in the first section of the Homeric 
+shield (483). 
+In Stanza 4 Thetis looked for ‘ritual pieties’ (line 2), ‘White flower-garlanded heifers’ 
+(line 3) and ‘Libation and sacrifice’ (line 4) which recall the sacrifice of an ox and the 
+preparation for the feast in the harvest scene on the Homeric shield (558-560).29  
+In Stanza 7 Thetis looked for ‘athletes at their games’ (line 2), which do not belong to 
+the Homeric shield, but remind us of the games hosted by Achilles (Il. 23.257-897) for the 
+funeral of Patroclus, at which Thetis stirs up the lamentation among the mourning Greeks 
+(23.14). She also looked for ‘Men and women in a dance’ (line 3), which seem to refer to the 
+wedding scene in the city at peace (18.491-96) and the dance circle towards the end of the 
+Homeric shield (590-605), taking place on ‘a dancing floor’ (χορός 590) that Auden’s 
+Hephaestus did not make (line 7). As noted above, both these scenes evoke the wedding of 
+Peleus and Thetis.  
+What Thetis did see on the shield in these stanzas are ‘an artificial wilderness’ (Stanza 
+1), ‘a sky like lead’ (Stanza 1) and ‘a weed-choked field’ (Stanza 7), which are an antithesis to 
+ 
+28 Homeric vocabulary does not have a word for marble. Daalder (1974) 192 argues that Auden is ‘consciously 
+appealing to our sense of a tradition and its virtues rather than a specifically Homeric world.’ He also points out 
+possible echoes in Auden’s poem of some expressions in Keats’ Ode on a Grecian Urn, such as ‘peaceful citadel’ 
+(Stanza 4) and ‘marble’ (Stanza 5). 
+29 Daalder (1974) 192 convincingly demonstrates the influence of Stanza 4 of Keats’ Ode on a Grecian Urn on 
+Stanza 4 of Auden’s poem by pointing out the verbal echoes of such words as ‘sacrifice’, ‘altar’, ‘heifer’, 
+‘garlands’ and ‘pious’.  
+
+
+── PAGE 13 ──
+the well-ploughed land in the Homeric scene of ploughing (541-549) and do not seem to belong 
+to the world of Homer’s shield.30  
+What about the scenes depicted in the stanzas on modern life? I believe there, too, are 
+some reflections of the Iliad, even if not all images are relevant. Auden as a classicist is not 
+likely to have made a naïve dichotomy between the idealized heroic world of Homer and the 
+dystopian world of today.31  
+Stanza 2 begins with further description of the ‘artificial wilderness’ of Stanza 1: 
+ 
+A plain without a feature, bare and brown, 
+    
+     No blade of grass, no sign of neighborhood, 
+Nothing to eat and nowhere to sit down, 
+ 
+ 
+30 Lead does not feature on the Homeric shield, which is made of bronze (or copper cf. Coray and Olson (2018) 
+194-95 on Il. 18.474-75), gold, silver and tin. A ‘sky like lead’ must have been made of lead, looking like lead 
+with all its negative connotations, including being the material for bullets (I owe this observation to Gary Vos). It 
+may also be worth noting Auden’s well documented fascination with lead mines since his childhood, which may 
+have prompted his choice of this metal as a symbol of desolation. For Auden’s fascination with lead mines, see 
+Carpenter (1981) 13-14 and Osborne (1980) 13. 
+31 Cf. Fuller (1998) 449: ‘Auden was aware that the function of descriptions of shield-decoration in classical epics 
+could be to represent life as it generally and eternally is, both in war and in peace (see, for example, ‘“Aeneid” 
+for our time’, Nation, 10 March 1951): his poem is claiming that the distinction between the two had become in 
+his era almost meaningless.’ See also Summers (1984) 220: ‘Auden’s point, then, is not that the Homeric 
+idealization of war contrasts with contemporary militarism, but that the heroic age contained within it the seeds 
+of modern dehumanization.’  
+
+
+── PAGE 14 ──
+A plain without grass, absence of neighbourhood and absence of food all look like an antithesis 
+to the scenes of plenty on the Homeric shield. The remainder of the stanza depicts the soldiers 
+standing in this wilderness:  
+ 
+   Yet, congregated on its blankness, stood  
+   An unintelligible multitude,  
+ A million eyes, a million boots in line,  
+ Without expression, wating for a sign. 
+ 
+Although it is expected to be a scene of modern warfare, the soldiers waiting for a sign remind 
+us of the ambush in the scene of the city at war on the Iliadic shield (Il. 18.520-522) as well as 
+the silent march of the anonymous soldiers in Il. 3.8-14.  
+In Stanza 3 ‘a voice without a face’ out of the air (line 1) could easily be the voice of the 
+oracle dictating that Troy must fall in the tenth year of the war or that Achilles must die young.32 
+‘[S]ome cause was just’ (line 2) reminds us of Agamemnon’s words justifying the war due to 
+Paris’ breach of the code of hospitality (Il. 2.356) or his advice to his brother Menelaus not to 
+spare any male Trojan, not even a little boy or baby in his mother’s womb (Il. 6.55-60). The 
+soldiers silently marching in ‘Column by column in a cloud of dust’ (line 5) again echo Il. 3.8-
+14, which describes the dust stirred up by the march of silent soldiers. Mendelson sees the 
+ 
+32 Cf. Bahlke (1970) 170: ‘The lines here form a comment on the perverse logic which leads men in all ages to 
+create enemies and fight them; the artificial wilderness is a plain indifferent to the multitudes of men who wait 
+there for some sign – voices of the gods in the Homeric worlds, the voices of political leaders and dictators in the 
+modern world.’ 
+
+
+── PAGE 15 ──
+mood of the Cold War era in this stanza, but the suppression of freedom of expression and 
+‘dispassionate conformity’ can be seen in such passages in the Iliad, too.33  
+In Stanza 5 the scene of the execution of ‘three pale figures’ has been related to the 
+Crucifixion (lines 4-7):34  
+ 
+    A crowd of ordinary decent folk 
+    Watched from without and neither moved nor spoke 
+ As three pale figures were led forth and bound 
+ To three posts driven upright in the ground.  
+ 
+However, here, too, we can find a parallel to the sacrifice of twelve Trojan youths by Achilles 
+at Patroclus’ funeral (Il. 23.175-177). Homer, who rarely speaks as a narrator, 
+uncharacteristically comments that this is κακὰ ἔργα (176 evil deeds), but those around 
+Achilles, presumably most of them ‘ordinary decent folk’ (line 4), do not say anything. 
+Stanza 6 is least easy to relate to Homer, but ‘The mass and majesty of this world, all | 
+That carries weight and always weighs the same’ (lines 1-2) seems to echo Achilles’ shield 
+itself and its symbolic meaning. The powerlessness of people who are ‘small’ (line 3) and 
+‘could not hope for help’ (line 4) when the power ‘[l]ay in the hands of others’ (line 3) seems 
+no different from the powerlessness of people in Homer. 
+In Stanza 8 again I hear echoes of Homer in ‘A ragged urchin, aimless and alone, | 
+Loitered about that vacancy.’ (lines 1-2) which reminds us/the reader of Achilles sulking on 
+ 
+33 Mendelson (1999) 362: ‘…. the collective impulse was now expressed in dispassionate conformity, mass 
+communications, and statistical answers to ethical questions.’ An example of enforcement of conformity can be 
+found in Odysseus’s harsh treatment of the outspoken Thersites at Il. 2.244-271.  
+34 E.g. Summers (1984) 220, Fuller (1970) 228, Smith (1997) 63. 
+
+
+── PAGE 16 ──
+his beachside camp, withdrawn from battle and lounging around aimlessly.35 It may be fanciful, 
+but the bird at whom the urchin aims a stone (lines 2-3) reminds me of the fact that one of the 
+games that Achilles sets for Patroclus’ funeral is pigeon shooting (Il. 23.850-883)! 
+The following three lines (lines 4-7), ‘That girls are raped, that two boys knife a third, | 
+Were axioms to him, who’d never heard | Of any world where promises were kept,’ come as 
+no shock to those of us acquainted with Homeric epic. After all it was the rape of Thetis or the 
+abduction of Helen that started the story of Troy. Patroclus was killed by Euphorbus (Il. 16.806-
+815) and Hector (16.820-857). Dolon was killed by Odysseus and Diomedes, who did not keep 
+their promise to spare him (Il. 10.454-457). This is not the only time that promises are broken 
+in the Iliad, including the breach of the truce in Book 3. Although Achilles eventually weeps 
+with Priam in Iliad 24, earlier he took no pity on the weeping Lycaon in Il. 21.97-135. Violence 
+and brutal inhumanity, especially those caused by war, were already clear to see in the Iliad.36 
+We only need to read them in the reflection on Auden’s shield.  
+In Stanza 9, we meet Thetis again, named at last, though we had worked out who it was 
+from the title of the poem and the context. Hephaestus, too, is named as ‘The thin-lipped 
+armorer, | Hephaestos’ as he ‘hobbled away’ (lines 1-2). Here Thetis bears Auden’s original 
+epithet to be ‘Thetis of the shining breasts’ (line 3), instead of ‘of the silver feet’.37 Her ‘silver 
+feet’ have been interpreted as possibly referring to water around her feet or her white feet 
+glistening while wet as she comes out of the sea.38 By analogy, therefore, her epithet here could 
+ 
+35 Cf. Rodway (1984) 150: ‘… the legendary hero (burlesqued by the urchin)….’ 
+36 Cf. Summers (1984) 220, quoted in note 31 above. 
+37 The epithet ἀργυρόπεζα (silver-footed) is unique to Thetis in Homeric epic, applied to her 12 times in the Iliad 
+(1.538, 556; 9.410; 16.222, 574; 18.127, 146, 369, 381; 19.28; 24.89, 120), once in the Odyssey (24. 92) and once 
+in the Homeric Hymn to Apollo (319).  
+38 Cf. Pulleyn (2000) 258 on Il. 1.538 for the former and Hinckley (2001) esp. 149 for the latter interpretation.  
+
+
+── PAGE 17 ──
+be referring to her wet, shining breasts as she emerges from the swell.39 We must also note the 
+significance of the attention given to her breasts instead of her feet, for the Homeric mother 
+will expose her breasts only in order either to feed her baby or to lament its death. Therefore, 
+Thetis can be seen here to be cast as the mother above all, in her dual role of nurturing (as in 
+her story to Hephaestus at Il. 18.438) and sheltering (as she did for Dionysus at Il. 6.135-137 
+whom she took into her bosom (κόλπος) and for Hephaestus at Il. 18.395-405) and of mourning 
+her son.40 The epithet is also amplified by her action – she ‘[c]ried out in dismay/At what the 
+god had wrought/To please her son,’ (lines 4-6), lamenting at the grim world she has to send 
+her son into, while trying to please and shield her son as much as she can.41 As in the Iliad, she 
+is very much a mourning mother. 
+The epithets that Auden applies to Achilles also need closer attention (lines 6-8): 
+ 
+  
+ 
+the strong 
+Iron-hearted man-slaying Achilles 
+  Who would not live long 
+ 
+I believe even into his grim modern version of the shield Auden incorporated the human 
+connection between Achilles and Priam, with the phrase ‘Iron-hearted man-slaying Achilles’. 
+ 
+39 The image of Thetis with bare breasts may go back to Cat. 64.18. Cf. Hunter (1991) 254. (I owe this reference 
+to Maciej Paprocki.)  
+40 For Thetis as the mourning mother, cf. Slatkin (1991) esp. 85-105; Tsagalis (2004); Kelly (2012) 249-250; 
+Currie (2016) 119-120, and the contributions of Massetti and Cannavale {this volume}. 
+41 By commissioning the shield for Achilles, she can be seen to be acting as his shield herself in a sense. (I owe 
+this observation to Jan Haywood.) If so, the suggestion of Daalder (1974) 189 that Thetis’ ‘shining’ breasts are 
+meant to be metallic can be connected to her function as Achilles’ ‘shield’.  
+
+
+── PAGE 18 ──
+‘Iron-hearted’ is a description shared between Achilles and Priam in the Iliad.42 Hector 
+describes Achilles’ heart as being of iron (σιδήρεος) when the latter refuses to release his body 
+to his family (Il. 22.357).43 In the end, however, he does allow Priam to ransom Hector’s body, 
+thereby proving that his heart was not made of iron after all. On the other hand, Priam’s heart 
+is described as being of iron (σιδήρειον) both by Hecuba (Il. 24.205) and Achilles (Il. 24.521) 
+for his audacity to risk his life to ransom Hector’s body. This epithet therefore connects the 
+two men and evokes the scene of their reconciliation in Il. 24.485-672, which is ‘very much 
+about someone weeping “because another wept”’.44  
+Likewise the epithet ‘man-slaying’ evokes the connection between Achilles and Priam 
+through Hector. Hector is the only hero in the story of the Iliad who is described with this 
+epithet and as often as 11 times.45 The only other Iliadic hero to whom it is applied is Achilles, 
+but only to his hands, which is applied three times.46 On one of those occasions (Il. 18.317), he 
+is leading the lamentation for Patroclus, placing his ‘man-slaying’ hands to the dead body of 
+Patroclus. In this scene he is compared to a lion whose cubs are stolen by a hunter, desperately 
+ 
+42 Cf. Taplin (1980) 19 n. 7. 
+43 Hector also expects Achilles to have the strength of iron, judging by his description of him at Il. 20.371-372, 
+saying that he has to face Achilles even if his hands are like fire and his strength is like gleaming iron (μένος δ’ 
+αἴθωνι σιδήρῳ). Cf. Taplin (1992) 227.  
+44 Cf. Fuller (1998) 450, with his reference to Taplin’s quotation of Il. 24.503-526 at Taplin (1980) 17-18.  
+45 The epithet is applied to Hector always in the genitive form in the formula Ἕκτορος ἀνδροφόνοιο (‘of the man-
+slaying Hector’) and occurs at Il. 1.242; 6.498; 9.351; 16.77, 840; 17.428, 616, 638; 18.149; 24.509, 724. There 
+are two other occurrences of the epithet, once applied to the god Ares (Il. 4.441) and once to Lycurgus in a story 
+of the past (Il. 6.134).  
+46 Il. 18.317 = 23.18 χεῖρας ... ἀνδροφόνους (‘man-slaying …. hands’); Il. 24.478-79 χεῖρας | δεινὰς ἀνδροφόνους 
+(‘terrible/man-slaying hands’). Cf. Taplin (1980) 19, n.7, who speculates that Auden derived his epithet ‘man-
+slaying’ from Il. 18.317.  
+
+
+── PAGE 19 ──
+trying to find him and is bitter with anger (318-322), reflecting his anger at Hector. On another 
+occasion (Il. 23.18) he is again leading the lament and bidding farewell to Patroclus, promising 
+to feed Hector’s body to dogs (23.19-24), again with his desire for revenge even after Hector’s 
+death. On the third occasion (Il. 24.478-479), however, the epithet is applied to his hands as 
+they were kissed by Priam who has come to ransom Hector’s body, with which Achilles does 
+not kill, but to treat Priam kindly (24.508, 671-672). Therefore, the use of the epithet ‘man-
+slaying’ to Achilles’ hands, given that it is Hector’s trademark, comes with great irony and 
+pathos in the Iliad. The epithet in Auden’s poem is therefore also evoking Achilles’ connection 
+with Priam as well as with Hector, and through it the human potential for reconciliation and 
+understanding.  
+The last line of Auden’s poem, ‘Who would not live long’, is another Homeric epithet in 
+disguise (ὠκύμορος or μινυνθάδιος).47 Achilles is the only Iliadic hero to whom the former 
+(ὠκύμορος) is applied and it is always spoken by Thetis, either while lamenting Achilles’ fate 
+with him (Il. 1.417, 18.95) or while appealing to another god to seek their help for him (Il. 
+1.505 to Zeus, Il. 18.458 to Hephaestus). The latter (μινυνθάδιος) is used for four warriors on 
+the Trojan side, including Hector (Il. 15.612),48 but also used by Achilles once to describe 
+himself while appealing to Thetis to seek her help to regain his honour (Il. 1.352). Therefore, 
+this epithet is closely connected with Thetis as the protecting and mourning mother, aptly in 
+the context of Auden’s poem, and at the same time also hinting at the shared fate of Achilles 
+and Hector. 
+ 
+4. Conclusion 
+ 
+47 Cf. Taplin (1980) 19, n.7. 
+48 The others are Simoeisios (Il. 4.478), Hippothoos (Il. 17.302) and Lycaon (Il. 21.84).  
+
+
+── PAGE 20 ──
+My re-reading of the Homeric shield of Achilles along with Auden’s poem seems to have 
+produced two main results. One is the observation that the Iliadic shield seems to reflect more 
+of the story of Thetis and Achilles than previously thought. The other is that Auden’s shield of 
+Achilles appears to echo many negative elements of the Iliad, suggesting that war was no more 
+or less inhuman in Homer’s time than today. However, Auden’s poem has proven not to be 
+‘entirely comfortless’, by subtly hinting at the episode of Achilles and Priam as the symbol of 
+human hope and capacity for sympathy and reconciliation. And the story of Thetis as the 
+nurturing and lamenting mother seems to be reflected on both versions of the shield.  
+ 
+References:  
+Alden, M. (2011). ‘Shield of Achilles’ in M. Finkelberg (ed.), The Homer Encyclopedia: 
+Volume III R-Z. Chichester: 793-796. 
+Anderson, Ø. (1976). ‘Some Thoughts on the Shield of Achilles’, SO 51: 5-18. 
+Auden, W.H. (1955). The Shield of Achilles. London.  
+Auden, W.H. (1979). Selected Poems, expanded edition, edited by E. Mendelson. London.  
+Auden, W.H. (2007). Collected Poems, 3rd edition, edited by E. Mendelson. London and New 
+York. 
+Bahlke, G.W. (1970). The Later Auden: From “New Year Letter” to About the House. New 
+York.  
+Carpenter, H. (1981). W.H. Auden: A Biography. London.  
+Coray, M. and S.D. Olson eds. (2018). Homer’s Iliad: The Basel Commentary, Book XVIII, 
+trans. by B.W. Millis and S. Strack. Berlin.  
+Currie, B. (2016). Homer’s Allusive Art. Oxford. 
+Daalder, J. (1974). ‘W.H. Auden’s “The Shield of Achilles” and Its Sources’, Journal of the 
+Australasian Universities Modern Language Association 42: 186-198.  
+
+
+── PAGE 21 ──
+Edwards, M. W. (1991). The Iliad: A Commentary. Volume V: Books 17-20. Cambridge. 
+Erbse, H. ed. (1975) Scholia graeca in Homeri Iliadem (scholia vetera): volumen quartum 
+scholia ad libros O-T continens. Berlin.  
+Fuller, J. (1970). A Reader’s Guide to W.H. Auden. London.  
+Fuller, J. (1998). W.H. Auden: A Commentary. London. 
+Hardie, P.R. (1985). ‘Imago Mundi: Cosmological and Ideological Aspects of the Shield of 
+Achilles’, JHS 105: 11-31. 
+Hinckley, L. (2001). ‘Why Does Homer’s Thetis Have Silver Feet?’, NECJ 28: 144-49.  
+Hubbard, T. K. (1992). ‘Nature and Art in the Shield of Achilles’, Arion 2: 16-41.  
+Hunter, R. (1991). ‘“Breast is Best”: Catullus 64.18’, CQ 41.1: 254-255. 
+Jarrell, R. (1981). ‘Recent Poetry: The Yale Review, Summer 1955’, in Kipling, Auden & co.: 
+Essays and Reviews, 1935-1964. Manchester: 221-230. 
+Kelly, A. (2012). ‘The Mourning of Thetis: ‘Allusion’ and the Future in the Iliad’, in F. 
+Montanari, A. Rengakos and C. Tsagalis (eds.), Homeric Contexts: Neoanalysis and the 
+Interpretation of Oral Poetry. Berlin and Boston, MA: 221-265.  
+Lessing, G. E. (1901). Lessing’s Laokoön, edited with English notes by A. Hamann, revised 
+with an Introduction by L. E. Upcott. Oxford (original published in 1766).  
+MacDiarmid, L. (1990). Auden’s Apologies for Poetry. Princeton, NJ. 
+Marg, W. (1971). Homer über die Dichtung: Der Schild des Achilleus. Münster.  
+Mendelson, E. (1999). Later Auden. New York.  
+Mendelson, E. (2004). ‘The European Auden’, in S. Smith (ed.), The Cambridge Companion 
+to W.H. Auden. Cambridge: 55-67. 
+Osborne, C. (1980). W.H. Auden: The Life of a Poet. London.  
+Pulleyn, S. ed. (2000). Homer: Iliad I. Oxford.  
+Reinhardt, K. (1961). Die Ilias und ihr Dichter. Göttingen.  
+
+
+── PAGE 22 ──
+Rodway, A. (1984). A Preface to Auden. London and New York.  
+Rutherford, R.B. ed. (2019). Homer: Iliad Book XVIII. Cambridge. 
+Schadewaldt, W. (1965). Von Homers Welt und Werk: Aufsätze und Auslegungen zur 
+Homerischen Frage. Stuttgart.  
+Sheppard, J.T. (1922). The Pattern of the Iliad. London.  
+Slatkin, L.M. (1991). The Power of Thetis: Allusion and Interpretation in the Iliad. Berkeley, 
+CA, Los Angeles and Oxford. 
+Smith, S. (1997). W.H. Auden. Plymouth.  
+Sotiriu, E. (2000). ‘Olive’, in: G. Speake (ed.), Encyclopedia of Greece and the Hellenic 
+Tradition: Volume 2 L-Z. London and Chicago: 1172-1174. 
+Stansbury-O’Donnell, M.D. (1995). ‘Reading Pictorial Narrative: The Law Court Scene of the 
+Shield of Achilles’, in J.B. Carter and S.P. Morris (eds.), The Ages of Homer: A Tribute 
+to Emily Townsend Vermeule. Austin, TX: 315-334.  
+Summers, C.J. (1984). ‘“Or One Could Weep Because Another Wept”: The Counterplot of 
+Auden’s “The Shield of Achilles”’, The Journal of English and Germanic Philology 83: 
+214-232. 
+Taplin, O. (1980). ‘The Shield of Achilles within the Iliad’, G&R 27: 1-21.  
+Taplin, O. (1992). Homeric Soundings: The Shaping of the Iliad. Oxford.  
+Tsagalis, C. (2004). ‘The Poetics of Sorrow: Thetis’ Lament in Iliad 18.52-64’, QUCC n.s. 76: 
+9-32. 
+Villing, A., J.L. Fitton, V. Donnellan and A. Shapland eds. (2019). Troy: Myth and Reality. 
+London.  
+Wetzsteon, R. (2007). Influential Ghosts: A Study of Auden’s Sources. New York and London.  
+Yamagata, N. (2020). ‘Thetis: The Goddess Between Four Worlds’, in M. Christopoulos and 
+M. Païzi-Apostolopoulou (eds.), The Upper and the Under World in Homeric and 
+
+
+── PAGE 23 ──
+Archaic Epic: Proceedings of the 13th International Symposium on the Odyssey, Ithaca, 
+August 25-29, 2017. Ithaca: 11-30. 
+ 

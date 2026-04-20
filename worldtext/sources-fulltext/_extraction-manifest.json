@@ -1,0 +1,405 @@
+{
+  "pdf_success": 34,
+  "pdf_fail": 0,
+  "html_success": 10,
+  "html_fail": 0,
+  "total_chars": 2823209,
+  "files": [
+    {
+      "cite_key": "webb_ekphrasis_1999",
+      "title": "\\textit{Ekphrasis",
+      "dir_id": "3106",
+      "format": "pdf",
+      "chars": 49908,
+      "words": 7995,
+      "output": "webb_ekphrasis_1999.txt"
+    },
+    {
+      "cite_key": "lindhe_visual_2013",
+      "title": "A Visual Sense is Born in the Fingertips: Towards a Digital Ekphrasis",
+      "dir_id": "3107",
+      "format": "html",
+      "chars": 70362,
+      "words": 10591,
+      "output": "lindhe_visual_2013.txt"
+    },
+    {
+      "cite_key": "cluver_new_2017",
+      "title": "A new look at an old topic: ekphrasis revisited",
+      "dir_id": "3108",
+      "format": "pdf",
+      "chars": 49724,
+      "words": 7659,
+      "output": "cluver_new_2017.txt"
+    },
+    {
+      "cite_key": "fjellestad_testing_2018",
+      "title": "Testing the Limits",
+      "dir_id": "3109",
+      "format": "pdf",
+      "chars": 62689,
+      "words": 9741,
+      "output": "fjellestad_testing_2018.txt"
+    },
+    {
+      "cite_key": "kennedy_ink_2018",
+      "title": "Ink \\& After",
+      "dir_id": "3110",
+      "format": "pdf",
+      "chars": 45409,
+      "words": 6975,
+      "output": "kennedy_ink_2018.txt"
+    },
+    {
+      "cite_key": "jansson_ekphrasis_2018",
+      "title": "Ekphrasis and Digital Media",
+      "dir_id": "3111",
+      "format": "pdf",
+      "chars": 54722,
+      "words": 8383,
+      "output": "jansson_ekphrasis_2018.txt"
+    },
+    {
+      "cite_key": "wright_ekphrasis_2024",
+      "title": "The Ekphrasis of Abstract Paintings through Oulipo and Other Critical Techniques",
+      "dir_id": "3112",
+      "format": "pdf",
+      "chars": 54968,
+      "words": 8519,
+      "output": "wright_ekphrasis_2024.txt"
+    },
+    {
+      "cite_key": "brosch_ekphrasis_2018-1",
+      "title": "Ekphrasis in the Digital Age",
+      "dir_id": "3113",
+      "format": "pdf",
+      "chars": 57565,
+      "words": 8589,
+      "output": "brosch_ekphrasis_2018-1.txt"
+    },
+    {
+      "cite_key": "ashberry_europe_1962",
+      "title": "Europe",
+      "dir_id": "3114",
+      "format": "pdf",
+      "chars": 21921,
+      "words": 3690,
+      "output": "ashberry_europe_1962.txt"
+    },
+    {
+      "cite_key": "sager_eidt_writing_2008",
+      "title": "Writing and Filming the Painting: Ekphrasis in Literature and Film.",
+      "dir_id": "3115",
+      "format": "pdf",
+      "chars": 54648,
+      "words": 8411,
+      "output": "sager_eidt_writing_2008.txt"
+    },
+    {
+      "cite_key": "rippl_cultural_2018",
+      "title": "The Cultural Work of Ekphrasis in Contemporary Anglophone Transcultural Novels",
+      "dir_id": "3116",
+      "format": "pdf",
+      "chars": 64534,
+      "words": 9730,
+      "output": "rippl_cultural_2018.txt"
+    },
+    {
+      "cite_key": "louvel_types_2018",
+      "title": "Types of Ekphrasis",
+      "dir_id": "3117",
+      "format": "pdf",
+      "chars": 52680,
+      "words": 8264,
+      "output": "louvel_types_2018.txt"
+    },
+    {
+      "cite_key": "bajohr_operative_2024",
+      "title": "Operative ekphrasis: the collapse of the text/image distinction in multimodal {AI",
+      "dir_id": "3118",
+      "format": "pdf",
+      "chars": 48746,
+      "words": 8105,
+      "output": "bajohr_operative_2024.txt"
+    },
+    {
+      "cite_key": "goehr_how_2010",
+      "title": "How to Do More with Words. Two Views of (Musical) Ekphrasis",
+      "dir_id": "3119",
+      "format": "pdf",
+      "chars": 79727,
+      "words": 12530,
+      "output": "goehr_how_2010.txt"
+    },
+    {
+      "cite_key": "kafalenos_ekphrasis_2018",
+      "title": "Ekphrasis as Misrepresentation",
+      "dir_id": "3120",
+      "format": "pdf",
+      "chars": 33275,
+      "words": 5311,
+      "output": "kafalenos_ekphrasis_2018.txt"
+    },
+    {
+      "cite_key": "perelman_primer_1981",
+      "title": "Primer",
+      "dir_id": "3121",
+      "format": "pdf",
+      "chars": 28740,
+      "words": 4829,
+      "output": "perelman_primer_1981.txt"
+    },
+    {
+      "cite_key": "krieger_ekphrasis_1992",
+      "title": "Ekphrasis: The Illusion of the Natural Sign",
+      "dir_id": "3122",
+      "format": "pdf",
+      "chars": 778247,
+      "words": 128689,
+      "output": "krieger_ekphrasis_1992.txt"
+    },
+    {
+      "cite_key": "webb_ekphrasis_2016",
+      "title": "Ekphrasis, Imagination and Persuasion in Ancient Rhetorical Theory and Practice",
+      "dir_id": "3123",
+      "format": "pdf",
+      "chars": 204691,
+      "words": 31992,
+      "output": "webb_ekphrasis_2016.txt"
+    },
+    {
+      "cite_key": "aaa_table_2018",
+      "title": "Table of Contents",
+      "dir_id": "3124",
+      "format": "pdf",
+      "chars": 1397,
+      "words": 195,
+      "output": "aaa_table_2018.txt"
+    },
+    {
+      "cite_key": "bundschuh_edward_2018",
+      "title": "Edward Hopper\u2019s Nighthawks, 1942",
+      "dir_id": "3125",
+      "format": "pdf",
+      "chars": 47462,
+      "words": 7354,
+      "output": "bundschuh_edward_2018.txt"
+    },
+    {
+      "cite_key": "brosch_ekphrasis_2018",
+      "title": "Ekphrasis in Recent Popular Novels",
+      "dir_id": "3126",
+      "format": "pdf",
+      "chars": 61821,
+      "words": 9437,
+      "output": "brosch_ekphrasis_2018.txt"
+    },
+    {
+      "cite_key": "ellestrom_media_2010",
+      "title": "Media Borders, Multimodality and Intermediality",
+      "dir_id": "3127",
+      "format": "pdf",
+      "chars": 169270,
+      "words": 26370,
+      "output": "ellestrom_media_2010.txt"
+    },
+    {
+      "cite_key": "bajohr_operative_2024",
+      "title": "Operative ekphrasis: the collapse of the text/image distinction in multimodal {AI",
+      "dir_id": "3128",
+      "format": "pdf",
+      "chars": 75573,
+      "words": 11794,
+      "output": "bajohr_operative_2024.txt"
+    },
+    {
+      "cite_key": "mathieson_body_2018",
+      "title": "The Body and the Possible Soul in Digital Ekphrastic Poetry",
+      "dir_id": "3129",
+      "format": "pdf",
+      "chars": 59939,
+      "words": 9393,
+      "output": "mathieson_body_2018.txt"
+    },
+    {
+      "cite_key": "ha_world_2018",
+      "title": "World Models",
+      "dir_id": "3271",
+      "format": "pdf",
+      "chars": 84061,
+      "words": 13071,
+      "output": "ha_world_2018.txt"
+    },
+    {
+      "cite_key": "auden_shield_nodate",
+      "title": "The Shield of Achilles",
+      "dir_id": "3272",
+      "format": "pdf",
+      "chars": 4623,
+      "words": 769,
+      "output": "auden_shield_nodate.txt"
+    },
+    {
+      "cite_key": "taplin_shield_1980",
+      "title": "The Shield of Achilles Within Homer's Iliad",
+      "dir_id": "3275",
+      "format": "pdf",
+      "chars": 0,
+      "words": 0,
+      "output": "taplin_shield_1980.txt"
+    },
+    {
+      "cite_key": "paprocki_thetis_2023",
+      "title": "Thetis and the Shield of Achilles \u2014 Reading the Iliad with Auden",
+      "dir_id": "3276",
+      "format": "pdf",
+      "chars": 39601,
+      "words": 6593,
+      "output": "paprocki_thetis_2023.txt"
+    },
+    {
+      "cite_key": "lindley_prompt_2025",
+      "title": "From Prompt Engineering to Prompt Craft",
+      "dir_id": "3280",
+      "format": "pdf",
+      "chars": 38783,
+      "words": 5643,
+      "output": "lindley_prompt_2025.txt"
+    },
+    {
+      "cite_key": "zhang_ip-prompter_2025",
+      "title": "{IP",
+      "dir_id": "3287",
+      "format": "pdf",
+      "chars": 60253,
+      "words": 8557,
+      "output": "zhang_ip-prompter_2025.txt"
+    },
+    {
+      "cite_key": "wang_motionctrl_2024",
+      "title": "{MotionCtrl",
+      "dir_id": "3288",
+      "format": "pdf",
+      "chars": 51531,
+      "words": 7664,
+      "output": "wang_motionctrl_2024.txt"
+    },
+    {
+      "cite_key": "gu_diffusion_2025",
+      "title": "Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control",
+      "dir_id": "3289",
+      "format": "pdf",
+      "chars": 62436,
+      "words": 9386,
+      "output": "gu_diffusion_2025.txt"
+    },
+    {
+      "cite_key": "li_assetdropper_2025",
+      "title": "{AssetDropper",
+      "dir_id": "3290",
+      "format": "pdf",
+      "chars": 55919,
+      "words": 8143,
+      "output": "li_assetdropper_2025.txt"
+    },
+    {
+      "cite_key": "han_when_2024",
+      "title": "When Teams Embrace {AI",
+      "dir_id": "3291",
+      "format": "pdf",
+      "chars": 83237,
+      "words": 12051,
+      "output": "han_when_2024.txt"
+    },
+    {
+      "cite_key": "deng_efficient_2024",
+      "title": "Efficient Visual Prompt Engineering for Creative Story Writing",
+      "dir_id": "3292",
+      "format": "html",
+      "chars": 4961,
+      "words": 534,
+      "output": "deng_efficient_2024.txt"
+    },
+    {
+      "cite_key": "florida_distant_nodate",
+      "title": "Distant Writing",
+      "dir_id": "3294",
+      "format": "pdf",
+      "chars": 85303,
+      "words": 12007,
+      "output": "florida_distant_nodate.txt"
+    },
+    {
+      "cite_key": "noauthor_iconclass_ai_nodate",
+      "title": "iconclass\\_ai",
+      "dir_id": "3309",
+      "format": "html",
+      "chars": 0,
+      "words": 0,
+      "output": "noauthor_iconclass_ai_nodate.txt"
+    },
+    {
+      "cite_key": "noauthor_art_nodate",
+      "title": "Art \\& Architecture Thesaurus (Getty Research Institute)",
+      "dir_id": "3310",
+      "format": "html",
+      "chars": 4139,
+      "words": 504,
+      "output": "noauthor_art_nodate.txt"
+    },
+    {
+      "cite_key": "oppenlaender_prompting_2024",
+      "title": "Prompting {AI",
+      "dir_id": "3326",
+      "format": "html",
+      "chars": 3946,
+      "words": 476,
+      "output": "oppenlaender_prompting_2024.txt"
+    },
+    {
+      "cite_key": "mishra_promptaid_2025",
+      "title": "{PromptAid",
+      "dir_id": "3330",
+      "format": "html",
+      "chars": 4725,
+      "words": 565,
+      "output": "mishra_promptaid_2025.txt"
+    },
+    {
+      "cite_key": "noauthor_advanced_nodate",
+      "title": "An advanced guide to writing prompts for Midjourney ( text-to-image) {\\textbar",
+      "dir_id": "3332",
+      "format": "html",
+      "chars": 0,
+      "words": 0,
+      "output": "noauthor_advanced_nodate.txt"
+    },
+    {
+      "cite_key": "luo_readout_2024",
+      "title": "Readout Guidance: Learning Control from Diffusion Features",
+      "dir_id": "3336",
+      "format": "html",
+      "chars": 4037,
+      "words": 474,
+      "output": "luo_readout_2024.txt"
+    },
+    {
+      "cite_key": "liu_design_2023",
+      "title": "Design Guidelines for Prompt Engineering Text-to-Image Generative Models",
+      "dir_id": "3339",
+      "format": "html",
+      "chars": 3833,
+      "words": 461,
+      "output": "liu_design_2023.txt"
+    },
+    {
+      "cite_key": "kulkarni_word_2023",
+      "title": "A Word is Worth a Thousand Pictures: Prompts as {AI",
+      "dir_id": "3341",
+      "format": "html",
+      "chars": 3803,
+      "words": 460,
+      "output": "kulkarni_word_2023.txt"
+    }
+  ]
+}

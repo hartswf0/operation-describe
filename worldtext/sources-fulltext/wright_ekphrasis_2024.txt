@@ -1,0 +1,1505 @@
+# The Ekphrasis of Abstract Paintings through Oulipo and Other Critical Techniques
+# Source: WIP 10 08.pdf
+# BibTeX key: wright_ekphrasis_2024
+# Zotero dir: 3112
+# Extracted chars: 54968
+# Format: PDF
+============================================================
+
+── PAGE 2 ──
+Writing in Practice vol. 10 • 99
+The Ekphrasis of Abstract Paintings 
+through Oulipo and Other Critical 
+Techniques
+Patrick Wright
+Abstract:
+This article emerges from a larger project: to develop new modes of responding, in 
+ways that might be understood as ekphrastic, to modern and especially abstract 
+works of art. It posits different ways of looking, in contrast with the poet believing 
+that they know where to look and what is to be considered important. I want to 
+emphasise the point that unknowing can be a creative device. Methodologically, I 
+draw on Georges Perec and art historian Giovanni Morelli. What they have in 
+common is a concern for how attention is directed and how to cultivate methods that 
+enable an even or free-floating perception, where all elements of the image are given 
+equal weight. Employing a pedagogic approach (where my poem might focus on 
+trifling or marginal details, or show other ways of looking), and procedural and 
+Oulipo techniques, I demonstrate an innovative mode of ekphrasis.
+Keywords: ekphrasis; modern; art; poetry; image; abstraction; subjectivity 
+Elizabeth Bergmann Loizeaux observes that “images are more urgent [for poets] in the 
+twentieth century than ever before” owing to what W.J.T. Mitchell called the “pictorial 
+turn”, “from a culture of words into a culture of images that began in the late 
+nineteenth century” (Loizeaux 2008: 2-3; Mitchell 1995: 11-34). At the same time, while 
+she identifies an upsurge in poets responding to art in a variety of modes, their 
+prompt is usually one that pre-dates, often by some time, the major formal 
+innovations associated with modern art, such as abstraction (Loizeaux 2008: 2-5). I 
+acknowledge that, among the many and wide-ranging examples of ekphrasis during 
+this period, there is a scepticism towards the artwork and how we should look at it, 
+or, as Loizeaux writes, “a heightened emphasis on the provisional nature of the truth 
+pictures convey […] a wariness, too, of the viewer’s ability to see ‘right,’ and of the 
+illusion-making nature of art that further complicates the difference between ‘seem’ 
+and ‘is’” (Loizeaux 2008: 23). Nevertheless, even though poets have toiled with the 
+uncertainty of modernist images in the twentieth century and up to the present day, I 
+notice that there remains a preference for figurative rather than abstract art.
+I am aware that “figurative” and “abstract” are in no way a strict dichotomy and the 
+region in between is highly nuanced (actually, there are many semi-figurative 
+examples); thus, I want to clarify that by “abstract” I have in mind images with no 
+trace of figures or the referential world, that are dominated by colour, brushstrokes, or 
+formlessness. This might apply, then, to Mark Rothko’s Seagram murals or Kazimir 
+Malevich’s Black Square (1915), but likewise to early precedents, such as J.M.W. 
+Turner’s late and often considered “unfinished” seascapes.  
+Barbara Guest, influenced by the principles of Abstract Expressionism, was able to 
+find related and corresponding possibilities for poetry. A perceived rupture in the 
+
+
+── PAGE 3 ──
+100 • Writing in Practice vol. 10
+Writing in Practice vol. 10 • 101
+tradition of figuration, evinced in the 
+paintings of Jackson Pollock, Willem de 
+Kooning, and Franz Kline, led her to a 
+poetry that “extended vertically, as well 
+as horizontally”, and refused to “remain 
+motionless within a linear structure” 
+(Guest, in Ford and Winkfield 2006: 17). 
+While this suggests direct engagement 
+with an abstract image and re-presenting 
+its formal attributes, poets responding to 
+such artworks often move swiftly away 
+from its surface. Instead, they tend to 
+write about historical context, the 
+biography of the artist, or their own life. 
+Examples of this instinct to move away 
+or outside the frame are: Jorie Graham, 
+associating outwards, from the red of a 
+Rothko’s colour field painting to the red 
+of a bird in the speaker’s immediate 
+vicinity (“For Mark Rothko” [1979: 85]); 
+Tamar Yoseloff’s The City with Horns
+(2011), where the social and cultural 
+milieu around Pollock’s abstract 
+canvases is the focus of her poems; 
+Ocean Vuong’s “Untitled (Blue, Green, 
+and Brown): oil on canvas: Mark Rothko: 
+1952”, where, aside from the title, there 
+is little in the poem that refers to 
+Rothko’s painting (Vuong 2017: 47); or 
+the poet can sometimes look to the space 
+around the artwork, the gallery, or other 
+images in the exhibition, and incorporate 
+the visitors or staff. One instance of this 
+is Gillian Clarke’s “The Rothko Room”: 
+“In this, the last room after hours in the 
+gallery, / a mesh diffuses London’s light 
+and sound. / The Indian keeper nods to 
+sleep, marooned / in a trapezium of 
+black on red” (Clarke 1997: 106-107). 
+Each time, the abstract image itself 
+seems to be circumvented. 
+Similarly, I have identified a gap in 
+criticism on the ekphrasis of abstract art. 
+It is likely that James Heffernan has 
+figuration in mind when he puts 
+forward the idea that ekphrasis is “the 
+verbal representation of visual 
+representation” (Heffernan 2004: 3). This 
+bias is also implicit in the criticism of 
+Mitchell and Murray Krieger (Mitchell 
+1995; Krieger 1992), while Shahar Bram 
+asserts that ekphrasis is “tied up with 
+the mimetic tradition” (Bram 2006: 372). 
+There has been a shift in recent decades 
+from understanding ekphrasis as an act 
+of representation to one of re-
+presentation, or the production of a new 
+work of art, resulting from the dynamic 
+interaction between the poet and the 
+image or artist (Kennedy 2012). 
+However, even if poets are now more 
+likely to think in terms of finding a 
+“response” or “answers” to an image 
+(rather than representation or 
+description), they are still usually reliant 
+on figures or narrative, even if this is 
+partial or discreet (Brandon 2018). 
+Accordingly, I would like to address the 
+seeming evasion of the abstract image, 
+and how to stay with this image, rather 
+than (as is often the temptation) to move 
+outside or beyond it. It may be the case 
+that context is useful in the process and 
+finds its way in, at some point, but I 
+want to propose techniques to work 
+against skirting the image in a way that 
+is premature, where first we begin by 
+looking with new and critical 
+perspectives. Though such techniques 
+can also be applied to figurative images, 
+they are perhaps more easily utilized 
+with artworks where we are unsure of 
+what we are seeing, that are subject to 
+guesswork and indecision, or lack 
+critical consensus as to their meaning. 
+And, despite our proclivity to find form 
+(as attested by the experience of 
+pareidolia), looking at a monochromatic 
+painting, for example, makes overt the 
+fact that we have no script to follow. The 
+figure/ground distinction is vague or 
+non-existent, and the image becomes a 
+screen on which to project our 
+interpretations. 
+The new ways of looking I propose have 
+emerged from my reading of existing 
+scholarship. James Heffernan 
+understands ekphrasis as a “paragonal 
+… contest between rival modes of 
+representation: between the driving 
+force of the narrating word and the 
+stubborn resistance of the fixed image” 
+(Heffernan 2004: 6). Finding this too 
+restrictive and emblematic of what 
+David Kennedy refers to as the 
+“representational model” of ekphrasis, I 
+am persuaded, like him, to think more in 
+terms of an “encounter” between word 
+and image, opposed to rivalry or 
+competition (Kennedy 2012; Kennedy 
+and Meek 2019). So too, my idea of an 
+encounter is inspired by Camille Guthrie 
+who cites Barbara Guest’s meditation on 
+Juan Gris in “Roses” and Kevin Young’s 
+“Cadillac Moon” (Guest 2016 [1973]: 128; 
+Young 2003: 10). For Guthrie the 
+relationship between poet and artist is 
+not adversarial: it is based on “an 
+interaction that doesn’t require a 
+winner… It revels in the image, even if 
+the artwork is ironic, a spectacle. It asks, 
+it reveals, it wonders” (Guthrie 2013).
+With Guthrie’s understanding in mind, I 
+would like to develop ekphrastic modes 
+that begin with a stance of humility and 
+openness, allowing ourselves to be 
+receptive and let the image guide our 
+looking experience. This is because 
+knowledge can be an obstacle in 
+producing new writing: it can direct 
+attention in a way that limits the scope 
+of what can be perceived. As an 
+alternative, I suggest an “unknowing” 
+approach, which means looking at the 
+artwork without imposing preconceived 
+ideas or laying stress on certain 
+signifiers. Similar to how a 
+psychoanalyst can listen to a client’s 
+speech with evenly dispersed attention, 
+without assuming the meanings or 
+weight of words and phrases, it is 
+possible to view an image in a way 
+where everything is perceived as having 
+equal value. For Wilfred Bion this meant 
+“the capacity to forget, the ability to 
+eschew desire and understanding” (Bion 
+1970: 51-52). Though this attitude of 
+mind can be challenging, and the viewer 
+might still be swayed by prior or 
+supplementary knowledge of what 
+should be deemed important, it can 
+yield new insights or perspectives on the 
+image.
+Regardless of the approach or the kind 
+of artwork the poet works with, we must 
+deal with what we already know about 
+the image, the artist, and other poems 
+with the same or a similar prompt. This 
+calls to mind Paul Hetherington and 
+Cassandra Atherton’s idea of 
+“ekphrastic inheritance”: “when a writer 
+composes a new ekphrastic poem while 
+cognisant of previously published 
+ekphrastic poetry on the same artwork. 
+In such cases, the previous poems 
+become part of the ekphrastic tradition 
+informing the new poem” (Hetherington 
+and Atherton 2023: 16). This “knowing” 
+approach can result in a recurrence of 
+tropes or bringing well-travelled motifs 
+to the fore; and this is the subject of 
+satire in Julia Deakin’s “After Rothko”. 
+In this poem, clichés are pronounced 
+only to be denied in the style of via 
+negativa: “This is not the night sky, 
+teeming with more than we know. / 
+This is not the abyss. Not a black hole. 
+Not unremitting black” (Deakin 2018: 
+77). Such inheritance can allow us to see 
+art in a way that is reflexive or ironic; not 
+disavowing what we know but writing 
+through it. Yet, the time is ripe for a 
+methodology that may help us to see 
+new and familiar images with fresh eyes.
+I have thus furthered ways of working 
+with or subverting what I know of 
+paintings in a way that brings about new 
+insights into the self, ekphrastic modes, 
+and inventiveness in poetry. Indeed, 
+though I agree with John Hollander and 
+George Raitt in casting doubt on 
+whether ekphrasis illuminates the 
+image, and poetry arrives at a 
+supplementary “truth” about artworks 
+(Hollander 1988: 209), I think that poetry 
+can illuminate the experience of seeing, 
+the writing process, and the writer who 
+sees. Raitt makes this distinction, and 
+the important point that the poet 
+responding to visual art can allow 
+meaning to emerge at the limits of 
+signification (Raitt 2006: 14-26). To do so, 
+the poet needs to restrain from believing 
+that they know what they are seeing or 
+where to look. While it is impossible to 
+view the artwork without any 
+knowledge whatsoever, I proceed with 
+the argument that new ways of writing 
+about abstract art can be expanded 
+through alternative ways of looking and 
+critical techniques of engagement.
+In what follows, I present strategies for 
+steering my attention away from what I 
+assume to be of vital importance in the 
+image. This also means outlining the 
+ways in which different modes of poetic 
+ekphrasis can lead me away from where 
+my lyric “I” might take me; how by 
+prohibiting some ways of looking, I 
+facilitate others. I draw then on the 
+
+
+── PAGE 4 ──
+102 • Writing in Practice vol. 10
+Writing in Practice vol. 10 • 103
+Oulipo school and procedural methods 
+(Motte 1986; Conte 1991), while 
+suggesting that a systematic or rule-
+based approach could be one way of 
+dealing with the ekphrasis of abstract 
+images. I also examine how a more 
+deliberate use of critical writing on 
+images can alter my lyric habits, direct 
+my awareness to seemingly insignificant 
+details, marginalia, or the paratext. This 
+can provide new ideas and language to 
+work with, resulting in a poem that 
+looks different from what I usually 
+write. One example is the effect of 
+collaging texts or quotations together. 
+The idea of a found text (at least as a 
+starting point) is thus discussed, along 
+with the cento form. 
+My proclivity to take flight from the 
+image can be seen as part of a 
+contemporary interest in moving 
+beyond representation or testing its 
+limits. I have been motivated in this 
+endeavour by my reading of Anne 
+Carson, Emily Berry, and Deryn Rees-
+Jones — poets who, through their 
+ekphrasis, do not gesture to figures or 
+narrative. Instead, the prompt is used to 
+generate the poem (as formally 
+analogous, as a source of inspiration, as 
+a metaphor for lyric themes, and so on) 
+(Carson 1998, 2006; Berry 2017; Rees-
+Jones 2012). Simultaneously, I am 
+inspired by poems like Moniza Alvi’s “I 
+Would Like to be a Dot in a Painting by 
+Miró”: to include the lyric within my 
+experiments with form and to promote 
+ways of seeing which might be 
+considered subjective (Alvi 2008 [1993]: 
+20). Rather than begin with or studiously 
+incorporate knowledge of the artwork, I 
+associate Alvi’s poem with poets in the 
+habit of trying to look naïvely or 
+playfully misperceiving what the artist 
+intended. Another example is Susan 
+Fealy’s “Gouache, Sheep Skulls, Fence 
+Bracket”. She writes: “Look closer. / The 
+skulls are singing, / More like bird-
+beaks than sheep” (Fealy 2017). 
+Like other poets responding to 
+modernist art, such as Tamar Yoseloff in 
+The City with Horns and Mary Oliver (see 
+her poem “Franz Marc’s Blue Horses”), I 
+often rely on biographical or historical 
+details to compensate for the absence of 
+referents (Yoseloff 2011; Oliver 2014: 43). 
+In “Nocturne”, for example, I employ 
+description and have recourse to the 
+imagination and wider milieu. I was 
+inspired by Charles Simic’s Dime-store 
+Alchemy (2011) and Pascale Petit’s What 
+the Water Gave Me (2013). In these 
+ekphrastic collections, while there is still 
+occasional reference to a figure or object 
+(in the work of Joseph Cornell and Frida 
+Kahlo, respectively), the art serves as a 
+springboard for the poet to make use of 
+extraneous content, such as biography, 
+history, or literary context In “Nocturne” 
+(based upon Whistler’s simplified 
+composition, tonal relationships, and 
+atmospheric effects), I move from 
+reflections prior to research in the first 
+stanza (“Over the Thames are ghost 
+trails of rockets / reflecting like stars on 
+the water’s edge”) towards a more 
+“knowing” attitude vis-à-vis the 
+painting, after having read about it, in 
+the final stanza (“In the courtroom, it 
+was hung upside down”): 
+Nocturne
+After James McNeill Whistler 
+Over the Thames are smoke trails of rockets
+reflecting like stars on the water’s edge — 
+cinders showering down, a Rorschach test. 
+They say this is a cause to celebrate: 
+the paint vague, stirring the mind’s 
+slideshow —
+dabs of green, yellow. They double, cascade, 
+coalesce into a Manhattan by night.
+Or are they strip-lights seen through fabric?
+Much begins with deliberate accidents.
+Spectators gaze, blinkered by their habits.
+Pale to themselves, not quite transparent. 
+In the courtroom, it was hung upside down.
+To counter my instinct to move outside 
+the abstract image and reach for context, 
+I put into action strategies that allow me 
+to stay inside the frame, at least to 
+produce a first draft. With Rothko’s 
+murals in mind, it is easy to move away 
+from the canvas and assume there is 
+little to describe or respond to beyond 
+colour. I understand this in contrast with 
+figurative works such as Bruegel’s 
+Landscape with the Fall of Icarus (1560), 
+where my eyes are drawn in towards the 
+ploughman, the sun, the ship, and so 
+forth. This could be due to several 
+factors, such as knowledge of the 
+painting and the “ekphrastic 
+inheritance” of well-known poems that 
+have instilled partial bias. W.H. Auden’s 
+“Musée des Beaux Arts” (2007: 57) and 
+William Carlos Williams’s “Landscape 
+with the Fall of Icarus” (2000: 212) are 
+canonical examples, the latter 
+underscoring the key visual features: 
+“Icarus”, the “farmer”, and the “sea”.
+To bypass or at least become aware of 
+my visual prejudices I explore free-
+floating or evenly dispersed attention. 
+This includes an effort to look closely at 
+the image over time, bracketing 
+preconceptions, not knowing where 
+figure and ground are situated, where 
+the focal point is, what is central and 
+peripheral, and so on. I have thus read 
+the Oulipo poets, whom I see as 
+advancing ways of looking that are 
+“flat” or even and open to the possibility 
+that everything in the visual field could 
+be of interest or the locus of meaning. 
+Particularly apt is Georges Perec’s 
+proposal in his essay “The Street”: 
+Note down what you can see. 
+Anything worthy of note going on. 
+Do you know how to see what’s 
+worthy of note? Is there anything 
+that strikes you? Nothing strikes 
+you. You don’t know how to see… 
+You must set about it more slowly, 
+almost stupidly. Force yourself to 
+write down what is of no interest, 
+what is most obvious, most common, 
+most colourless (Perec 2008: 46-56). 
+I have also repurposed the thoughts of 
+nineteenth-century art historian and 
+critic Giovanni Morelli. His attitude to 
+looking involved observing clues in 
+trifling details (an ear or hand for 
+instance) rather than in composition, 
+narrative, and subject matter, which 
+would likely be the foci for students, 
+copyists, or imitators. As Carlo Ginzburg 
+explains, the Morellian method involves 
+working like a “detective”, “discovering, 
+from clues unnoticed by others, the 
+author in one case of a crime, in the 
+other of a painting” (Ginzburg 1980: 8). 
+As such, the artist’s identity is 
+paradoxically disclosed most reliably in 
+details least attended to. In my writing, I 
+am less concerned about the artist’s 
+identity. Instead, the method I describe 
+helps to shift my focus away from what I 
+assume are the significant components 
+of the artwork and towards the parts to 
+which I had not yet attributed meaning. 
+Other than myself, at least one poet has 
+looked to apply such a strategy to 
+abstract art. Liz Cashdan, observing her 
+tendency to “find representations of 
+objects” in Angela Baum’s abstract 
+paintings, regards my approach of 
+“seeing flatly” as innovative and has 
+successfully re-utilized it within her 
+series of poetic responses (Cashdan 
+2019). Here, like in my poems, elements 
+in the image are itemised in the poem in 
+a way that appears disinterested. I found 
+this deceptively “objective” recording 
+useful in galleries, where my attention 
+span was rather short (if my interest was 
+not piqued). Additionally, even when 
+time and attention were given to the act 
+of seeing, my visual literacy skills were 
+at times impeding. My knowledge of 
+where or how to look, particularly 
+regarding composition, modelling, or 
+the picture plane, resulted in 
+overlooking certain details, such as 
+marginalia or curios. This led me to 
+ponder whether these aspects (those 
+originally missed), rather than figures or 
+narrative, could serve as the wellspring 
+of a poem.
+I tried to look at what I assumed were 
+insignificant or trivial marks when 
+viewing first-hand the work of Hughie 
+O’Donoghue and Henry Moore at the 
+Whitworth Art Gallery, but I later 
+rejected these as disinterested exercises. 
+My initial thought was to arrange to 
+view the images privately in the hope 
+that distraction would be kept to a 
+minimum (e.g., background chatter). But 
+I later found inspiration in the unwanted 
+stimuli. The space itself, whether in the 
+research room or in the holdings, offered 
+
+
+── PAGE 5 ──
+104 • Writing in Practice vol. 10
+Writing in Practice vol. 10 • 105
+additional points of interest, such as a 
+sense of surveillance. The in-situ
+experience was, however, only 
+successful in producing a first draft; and 
+I was naïve in my belief that under such 
+conditions my focus on the artwork 
+would be intensified. I now see this as a 
+conceptual stage through which subtle 
+details emerged, and in later revisions I 
+re-integrated personal themes. 
+Sina Queyras writes how the ekphrastic 
+poet “doesn’t … try to read a painting 
+from the top left corner, describing it 
+square by square the way an artist might 
+have blocked it in”, but she then goes on 
+to wonder “what that would be like” 
+(Queyras 2010). I have also been directed 
+by my reading of Cole Swensen, who, as 
+Kenneth Goldsmith notes, has tried to 
+“get beyond the ‘emotions recollected in 
+tranquillity’ paradigm.” She sees this as 
+what “conceptual poetry” in its widest 
+sense looks to accomplish. For Swensen, 
+in fields of visuality, the ways in which 
+we see and “read” have not changed 
+much, based, as they are, on the primary 
+figure/ground distinction. What has 
+changed is the subject matter:
+Increasingly, the visual arts and some 
+poetry have worked to distil subject 
+matter so that core structural 
+elements and their dynamics are laid 
+bare or at least made much more 
+apparent. But it seems that the visual 
+arts have been more successful at this 
+than poetry, and in part, it is because, 
+after a very promising start 
+[translating cubism’s geometric and 
+perspectival shifts into writing], 
+poetry took a turn which confused 
+distillation with simplification, 
+turning away from that which would 
+expose underlying dynamics apparent 
+through rhythm, echo, and 
+juxtaposition, and towards simpler 
+language, where “simpler” was 
+understood to be both “clearer” and 
+“truer,” with the result being poetic 
+language dominated by subject matter 
+(Swensen, in Goldsmith 2008). 
+I like how Swensen posits 
+that “ekphrasis as a tool can help poetry 
+by historically analysing how the visual 
+arts have achieved this” (Goldsmith 
+2008). I understand “this” as referring to 
+how modernist art has been successful, 
+through techniques of abstraction, to 
+emphasise and make overt its formal 
+construction. Moreover, with the images 
+I have in mind, “form” can be 
+indistinguishable from “content” (the 
+figure/ground distinction collapsing). 
+Thus, ekphrasis can be a re-presentation 
+of the formal elements of the image, 
+without looking to reduce the poem to 
+subject matter. Recognizing an affinity 
+with Swensen and linking her 
+evaluation with my own interest in 
+answering to the forms of abstract art, I 
+applied the idea implied by Queyras. I 
+started by placing a grid over a painting 
+by Wassily Kandinsky, then studied each 
+section in turn, cataloguing elements in a 
+systematic manner. 
+Given the degree of nebulousness, I was 
+led to respond pareidolically to each 
+part, seeing for instance “a ladybird in 
+disguise”, “a snail on the pavement”, 
+and a “black swan”. Initially, I gave six 
+sections of the painting equal treatment 
+and engaged in freewriting activities 
+(provoking the aforementioned images). 
+I discovered that my written 
+observations were incongruous, though 
+were ultimately brought together under 
+a unifying lyric theme (like in my poem 
+“Abstraction”, below). 
+I then played with swapping phrases 
+around, corresponding with the formal 
+arrangement of the image. 
+I also recalled the Comte de 
+Lautréamont’s statement: how such 
+juxtapositions are often as “beautiful as 
+the chance meeting on a dissecting-table 
+of a sewing-machine and an umbrella” 
+(Ducasse 1953 [1869]: 327). I began by 
+seeing the picture as though anything 
+could be as exciting as anything else. 
+Soon, however, some parts became more 
+alluring, and my openness to finding 
+unintended forms and shapes meant 
+that any narrative I imposed was 
+illogical. My poem only emerged when I 
+began to write in a lyric mode, taking 
+the parts I mis-perceived and weaving a 
+more personal theme around them. 
+What I retain in the final version is a 
+tabulated form, a schema that is 
+suggestive of a canvas with no centre, 
+that has several foci which are also 
+coordinated:
+Abstraction 
+Alongside Alma Thomas
+the greatest truths I’ve found are 
+that god is a ladybird in disguise
+                                                    Hades will 
+remain mute to my protests
+after the apocalypse I must nail 
+meaning down through inscape
+                                                    the choice to 
+go on living arrives  
+when I feel vertigo over a cliff  
+                                                 the sound of 
+immanence can be heard 
+as the rain blitzkriegs my glass
+                                                 one meaning 
+of martyr is to bear witness
+when I save a snail on the pavement 
+I save humanity
+                                                at least Christ 
+only had one crucifixion
+I need a ghost in the machine 
+science is just a line of paradigms 
+I need my black swans and white crows
+                                                                my 
+words must serve as a requiem 
+love is beyond Aristotle’s categories
+                                                          all these 
+are variations on a theme
+Looking to undo standard dichotomies 
+of figure/ground, centre/margins, and 
+form/content required practice and 
+inspired unorthodox methods. For 
+example, I rotated some artworks 
+sideways or turned them upside down: 
+simple actions in themselves, yet highly 
+effective ways to defamiliarize the 
+artwork and subvert expressive modes. 
+This was easier with abstract or 
+“formless” artworks, such as Turner’s 
+final seascapes. With these, I began by 
+shuffling and reshuffling a set of 
+postcard reproductions on the surface of 
+a table: creating new images and 
+simulating a personally curated 
+“exhibition”. Deidre Lynch links this 
+method and my poem (below) with the 
+“scenic myriorama: a parlor amusement 
+from the 1820s, which was touted to its 
+purchasers as being the source in potentia
+of a multitude of landscapes” (Lynch 
+2024: 4-5): 
+Imaginary Museum 
+On this Sunday autumnal morning
+I arrange a set of postcards on the table’s
+surface — all Turners from the 1840s
+with billowing waves and detonating suns.
+ 
+I juxtapose them in ways entirely my 
+own —
+ 
+I rotate them in the style of a gyre: 
+ 
+the ships and shorelines disappearing 
+ 
+till all that’s left is one big creation 
+myth —
+ 
+ 
+like how once everything we 
+know 
+ 
+ 
+was crammed inside the size of 
+a dice.
+ 
+ 
+All this at some remove from 
+the Clore
+ 
+ 
+with its taut ropes and 
+exclusion zones. 
+ 
+ 
+ 
+Under my hands I see 
+the paint sail 
+ 
+ 
+ 
+outwards and into the 
+grain — the edges 
+ 
+ 
+ 
+fizzling away and 
+atmospheres escaping
+ 
+ 
+ 
+into the larger lozenge: 
+the place of prayer.
+I also tried adopting a Martian attitude, 
+which relied on a state of negative 
+capability, making things strange, or 
+“resting in doubts and uncertainties” 
+(Keats 1958 [1817]: 193-194). In doing so, 
+however, I found that I was still 
+applying knowledge to my poems. 
+Indeed, I distinguish my dispersed 
+attention tactics from the Martian poets 
+and how they immediately saw objects 
+as “foreign”. In Craig Raine’s “A 
+Martian Sends a Postcard Home”, books 
+are “Caxtons” and “mechanical birds 
+
+
+── PAGE 6 ──
+106 • Writing in Practice vol. 10
+Writing in Practice vol. 10 • 107
+with many wings” (Raine 2000 [1979]: 
+95-96). This poem could be said to 
+belong to a romantic tradition: returning 
+to a child-like perception of the world. 
+Though the Martian poets were 
+projecting personal content (“Caxtons” 
+and “mechanical birds” are not 
+“objective”; they say something about 
+the poet), my initial phase usually 
+involves procedural rules. Rather than 
+have, from the beginning, the 
+imagination in operation, a system helps 
+to avoid making the image a screen for 
+fantasy (at least initially).  
+I find that employing a system works 
+against my ego-based habits and the 
+aspect of the lyric mode that emphasizes 
+personal themes. Eschewing the 
+romantic myth of “innocent” vision or 
+finding a deeper truth, I embraced the 
+postmodern tenet that I can only 
+represent another mediation of what I 
+see and can never gain access to the 
+image in itself (outside of language or 
+cultural frameworks) (Jay 1994: 8). 
+Though I will always see by way of 
+lenses, it has been crucial to draw 
+attention to these while looking at how 
+they might be exchanged for others. But 
+I find it necessary to re-introduce a lyric 
+element in my final poems (if there has 
+been an initial phase of self-effacement). 
+Not only are aspects of my life always 
+present to some extent (whether I like it 
+or not), inserting these into my poem 
+gives it an emotional core.
+An example of the approach I outline is 
+“Black Square”: a poem based on 
+Kazimir Malevich’s painting of the same 
+title (below). I chose this image because 
+it has no clear figures or centre; as such, 
+the principal areas of focus are 
+prohibited, and I am forced to look for 
+details I do not normally seek out. I am 
+faced with an image characterised by 
+flatness, aside from physical properties 
+such as the frame, the brushstrokes, the 
+texture, and so on. 
+With Perec’s method I became aware 
+that, in terms of surface area, white is 
+just as prevalent as black. The title is also 
+misleading: the picture is not black but 
+contains a sprinkling of colours (“Closer 
+… this is only a semblance of black”). 
+Neither is the painting a square: this fact 
+is in plain sight (though we might not 
+notice it at first and may need a critical 
+source to point it out). These initial 
+impressions, after looking “stupidly” as 
+Perec suggests, shaped the form of my 
+eventual poem. It looks like a slightly 
+distorted square with use of lineation 
+and space: the borders of the image 
+determine the line breaks of the poem.
+ The white space around the words hints 
+at traces of hues and craquelure; while 
+the space around my poem’s edges 
+signifies the white bezel that surrounds 
+the “black” centre. I have considered the 
+size of the margins, and these are just as 
+important as the words and are a vital 
+part of the poem. It is a “hybrid” poem, 
+as Hetherington and Atherton read it, 
+which employs aspects of the prose 
+poem while combining these with the 
+concrete poem’s deployment of the right 
+margin (Hetherington and Atherton 
+2020: 161-62). Aside from the formal 
+aspects, much of the poem is concerned 
+with seeing flatly. I noticed my reflection 
+in the glass covering the artwork, which 
+tempted me to write about myself in a 
+way that increased self-awareness. 
+Though I wanted to resist this, and I 
+announce: “I don’t want to see myself 
+seeing back, not seeing black” despite 
+my call to “see flatly, the way Freud 
+listened”, I reveal my angst in what the 
+blackness evokes (“the starlessness 
+between galaxies”) and how “sense 
+deprivation” gives rise to forms in 
+obscurity (e.g., a running “buffalo”). 
+Likewise, I notice my associations 
+outside the canvas (Gallipoli, 
+Suprematism, Russian icons, or 
+references to Dostoyevsky’s The Idiot) 
+(Dostoyevsky 2008 [1869]: 228-229). The 
+formal aspects of the poem contain the 
+imaginative leaps, while my questions 
+express doubts (in contrast to the 
+assumed academic authority of art 
+historians). While my poem is, in part, a 
+reflection on the failure of the 
+disinterested attitude I began with, my 
+questioning seeks to elaborate what I see 
+in terms of unknowing (as defined 
+earlier). The accuracy of my recollections 
+is unimportant, giving a fictive and 
+notional quality to the final poem: 
+Black Square
+After Kazimir Malevich 
+In this light      the surface is a black mirror    
+I don’t want to see
+myself seeing back    not seeing black     
+Behind cut glass a black
+cat in a coal bunker       fur curled in a 
+corner     Learn to see flat
+see flatly        the way Freud listened       
+Does matt paint glisten
+a sea-creature?         or is this Vantablack          
+sense deprivation
+an anechoic chamber?       The only sound is 
+the nervous system
+heart hurtling inside my cranium         Here 
+I see the starlessness
+between galaxies         the black        of 
+nothing quite happening
+of consciousness closing     fastening     
+Could this be a Madonna
+and Child    figures excised      (Suprematist 
+and still       a mother
+and child)?          This black          has a dead 
+Christ uncanniness
+(Holbein’s panel for Prince Myshkin)          
+This is also Gallipoli
+field artillery (out into history)   Closer    
+this is only a semblance
+of black              a rainbow             the web of 
+a shattered phone
+A buffalo  torso  legs    a head hurrying 
+towards some wilderness
+Another method was to make use of free 
+association over successive viewings. 
+This led to a series of poems divided 
+into numbered stanzas. I made use of the 
+temporal device (seeing the image at 
+different times) to work against the idea 
+of a unified, humanist model of the self 
+and what Swensen sees, succeeding 
+Wordsworth, as the “emotions 
+recollected in tranquillity paradigm” 
+(Swensen, in Goldsmith 2008; 
+Wordsworth 1989 [1801]: 73). Pursuing 
+this rule, neglected details are brought to 
+the fore. By unknowing what I am 
+seeing, re-discovering the image with 
+each viewing, I become aware of other 
+particulars. 
+Although prior knowledge can be an 
+obstacle in producing new writing, I also 
+see potential in becoming more 
+cognizant of how critical writing can 
+have an auxiliary role in the poetry-
+making process, as I will now illustrate. 
+The distinctiveness of modern, 
+especially abstract, art lies in how its 
+meaning often depends on critics, 
+theorists, or art historians. The discourse 
+surrounding the image or object not only 
+informs our viewing but also plays an 
+integral role in defining the artwork 
+(Krauss 1986: 162). Thus, my ekphrasis 
+can sometimes be understood as a 
+triangular relationship between image, 
+poem, and criticism — where the last 
+item subverts what I know (or think I 
+know) about the image. The knowledge 
+I imbibe through critical texts can then 
+be employed during a phase of 
+freewriting or assembling a preliminary 
+draft. Examples include how an essay on 
+an artwork might be incorporated into 
+my poem, responding to a quotation, 
+distilling ideas in an exhibition 
+catalogue, or the use of the paratext. If 
+my initial draft has an academic tone, I 
+will subsequently blend this with a 
+personal engagement.  
+One case here is my poem “Portrait of 
+Katherine Mansfield” (below). Notes 
+were first gleaned through a visual 
+analysis of a portrait by Anne Rice, then 
+through commentaries by art historians 
+and critics. This has been useful as a 
+technique during my first phase of 
+writing. I was inspired by the cento 
+form, since this demonstrated how a 
+poem could be constructed in fragments 
+and cobbled together in a way that 
+produces meaning and elicits new 
+insights. This involved collating and 
+condensing quotations and phrases, 
+rearranging and editing them, which 
+then became a spur for a second phase of 
+writing. My re-ordering is inspired by 
+collage and is a way of linking my 
+poems with the spirit of Modernism. 
+This is evident in my poem on 
+Mansfield:
+Portrait of Katherine Mansfield
+Alongside Anne Rice 
+I never dreamt of coughing blood the colour 
+
+
+── PAGE 7 ──
+108 • Writing in Practice vol. 10
+Writing in Practice vol. 10 • 109
+of this dress. 
+Nor spending the English winters abroad. I 
+only dreamt 
+of ending stories abruptly, using words the 
+way a cello rises 
+and falls. As a girl my dreams were an atlas. 
+To escape windy
+Wellington, leave on a liner, find my fictive 
+home. I wrote 
+of jazzy palettes, low-neck bohemian garb. 
+How life could 
+be all syntax, experiment. From Wilde’s 
+prose and a Maori 
+breast, I adored the fetish, torn between 
+gestalt and imago. 
+My red dress fills most of the canvas. As an 
+émigré, I’d share 
+a cigarette, strut in a kimono. At parties, I’d 
+laud suffragettes 
+or write vignettes in bold strokes like the 
+Fauves. Aroused, 
+I’d return from the colonies, my personas 
+piling like a house 
+of cards. I’d be polyamorous, endless rhythm. 
+I’d embody 
+the fleeting and contingent. In the end, I’d 
+ride a falling star.
+In this instance the form can be 
+construed as a prose poem that resists 
+narrative. Sentences are provided as 
+statements of equal bearing, resembling 
+the flatness of Rice’s canvas. 
+I began in medias res, suggesting no 
+single focus. Parataxis and vivid 
+imagery were employed to parallel the 
+vibrant colours of the Fauvist style. I 
+opted to experiment with dramatic 
+monologue; I speak in the voice of 
+Mansfield and make use of 
+prosopopoeia, as if she were speaking 
+from a moment after her death. I did so 
+to subvert my lyric voice, which, by this 
+point, I felt had become too predictable. I 
+saw the techniques I was developing as 
+a means of writing poems that looked 
+like someone else had written them. This 
+can feel like a creative achievement, and 
+it often comes about as an effect of 
+unknowing the artwork in the way I 
+describe (along with relinquishing 
+elements of my style or identity) and 
+integrating other sources in the process.     
+Particularly valuable has been initial 
+research into images, artists, or ways of 
+looking, which then suggested 
+alternative points of view, a precise 
+lexicon, or an unintentional ekphrasis by 
+a critic, which functioned as a starting 
+point for my poems. While, as I have 
+said, my eyes are often directed or 
+certain signifiers are privileged, critical 
+writing has illuminated parts of the 
+image that I had not yet seen or could
+not see. This includes criticism that reads 
+the life of the artist or how they worked. 
+John Ashbery’s “Self-Portrait in a 
+Convex Mirror” has set up a precedent 
+in this regard, since it provides a 
+meditation on Parmigianino’s working 
+methods and Mannerist ways of looking 
+(Ashbery 2007 [1975]: 68-83).
+My poem “Lessons on How to View a 
+Mondrian” has similar (though less 
+ambitious) aims. I began with a blog 
+article on Mondrian by James Elkins, 
+which I stripped down to prominent 
+phrases. Next, I focused on the line, 
+paying attention to cadence and rhythm, 
+cutting words, and using synonyms 
+when internal rhyme was possible. I 
+then re-ordered lines, again looking for 
+rhyme, but also to convey skittishness 
+and disjunction. The process of 
+adaptation went on until I had a first 
+draft. Here the poem emerges out of a 
+pre-existing text and the dynamic is 
+triangular rather than dualistic: my 
+poem fuses my own idiosyncratic way of 
+looking at the image with observations 
+imparted by the critic (Elkins 2010). I 
+end with lines that comment on the 
+seemingly more comprehensible activity 
+of a painter in comparison to that of a 
+poet, like Frank O’Hara’s “Why I Am 
+Not a Painter” (2005 [1957]: 112):
+Lessons on How to View a Mondrian 
+First glance simple, though it’s a 
+masquerade.
+Off-white, black stripes, pale lemon. The 
+canvas
+is the whole universe, with nothing beyond 
+it.
+Stop and a world unfurls from a bud: 
+scarabs,
+teeth, X-rays, halos. Luscious surfaces, 
+rubbed
+to a weave. At the borders of stripes, they 
+aren’t
+just lines where black meets white or blue or
+yellow. At the cordon you’ll see how he’s 
+changed
+his mind. If you bend down, look up against 
+the
+light, it shows the warp and weft at forty-
+five
+degrees to stripes. A closer look shows a 
+stairway
+of paint. In some parts, there’s been no paper 
+to
+guide him. He’s kept his hand from 
+wavering,
+joyed in the tremble and feints. When you 
+put
+up an easel in a museum, everyone talks to 
+you.
+If you sit and write a poem, nobody 
+does.
+I have also been led to work this way 
+through my reading of Anne Carson, 
+especially in what is often called “the 
+lyric essay”. Her work “The Glass 
+Essay”, for instance, can be seen as a 
+poetic form marked by lineation and 
+organised in tercets and quatrains 
+(Carson 1995: 1-38). 
+This form is open to experimentation 
+and often comprises what Lia Purpura 
+understands as “provisional responses” 
+as opposed to certitude (consistent with 
+the questioning attitude I set out earlier) 
+(Purpura 2007: 97). Polyvocality and 
+code-switching may also feature, and I 
+value how these techniques enable a 
+personal or objective tone, even within 
+the same poem. 
+I am working, then, within an 
+established postmodern lineage of poets 
+writing critically and self-reflexively 
+about images and/or the act of 
+representation. Again, in this context, I 
+have Ashbery’s “Self-Portrait in a 
+Convex Mirror” in mind. While my 
+poems focus on abstract or modernist 
+artworks, I have found Ashbey’s poem 
+useful when writing in a way that is 
+open about my act of looking and the 
+process by which I work. This can often 
+occur on site, while I look at the image 
+and record my techniques of looking in a 
+notebook. This is important as a 
+generative strategy, and when revised 
+into a poem the result can resemble an 
+ars poetica, one that reflects on my 
+thoughts and concerns (e.g., “Black 
+Square”). “Ars Ekphrasis” (inspired by a 
+poem of that title by Paul T. Corrigan 
+[2019]) is another example. This has 
+Turner’s late seascapes in mind, but it 
+also serves as a condensation of my 
+larger project.
+Ars Ekphrasis
+Is my subject broad or specific? Does it 
+include dreams? Does my focus extend to 
+scenes of sketching by the sea & things in 
+galleries? Can it evoke prints yet to exist? 
+Should I say ‘abstract’, ‘liminal’, ‘non-
+figurative’, ‘colour field’? Are such pictures 
+even finished? A key question seems to be: 
+Does spending long on detail suggest 
+illness? Is it perverse to spend time with 
+shadows? Should my poems be written 
+in sittings? Do I forbid words & efface the 
+trick? Is the world there to interpret? Is the 
+author dead or merely asleep? Is a poem a 
+provisional system? Might I write theory 
+elegantly & done in a few syllables? Should I 
+care if there never was a Shield of Achilles? 
+Should I have fun playing with the partial & 
+indistinct? Do I see cloud patterns or draw 
+ovals in sand? If I find a border, is this 
+happenstance?
+To conclude, I have presented different 
+ways of looking. These are: looking as 
+free-floating or evenly dispersed 
+attention; observing clues in trifling 
+details (an ear or hand for instance) 
+rather than in composition, narrative, or 
+subject matter; looking in a way that 
+seeks to undo the standard dichotomies 
+of figure/ground, centre/margins, and 
+form/content; seeing the artwork over 
+successive viewings; and regarding the 
+critical discourse surrounding the image 
+as integral to it, and using this material 
+as a way to direct or inform the ways in 
+which I look. I see these as vital for poets 
+to know and practice because they work 
+against preconceptions or prior 
+
+
+── PAGE 8 ──
+110 • Writing in Practice vol. 10
+Writing in Practice vol. 10 • 111
+knowledge of what is or should be 
+considered significant to the artwork. In 
+other words, they can be useful in 
+unknowing the image: to pave the way 
+for new discoveries or highlight aspects 
+that we might not have seen otherwise. 
+Each tactic either subverts what we 
+think we know or offers new 
+perspectives as a way of inviting new 
+modes of writing. These ways of looking 
+can also overcome the idea that there is 
+little to write about on the abstract 
+image: the poet feeling stuck or limited. 
+In such instances, they can act as a foil 
+against the urge to reach for context or to 
+project aspects of the self onto the 
+artwork. 
+Even if the latter is seen as desirable, the 
+techniques I describe can warp or alter 
+habitual or unconscious lyric impulses, 
+such as reflexive distancing from the 
+artwork. To stay with the image, at least 
+for a while, allowing what and how we 
+see to shape our poem (suggesting a 
+dialogue with the artwork), can also 
+affect the eventual form; and it is 
+important to emphasise that in my 
+poems, form and content are not a 
+simple dichotomy. Formal rules are 
+linked to content to the extent that this 
+apparent dualism breaks down into a 
+“system” or what is often understood as 
+“procedural form” (Conte 1991). I set out 
+initially to write in a way that was 
+disinterested with the assumption that 
+this would help transform my poetic 
+voice. Not only did I find, however, that 
+disinterestedness was difficult to attain, 
+but I also found that it rarely led to a 
+successful poem. What it did result in 
+was a first draft that involved novel 
+insights on abstract art; it was only after 
+I revised this, though, with the lyric in 
+mind (personal thoughts and feelings) 
+that it felt like a meaningful poem. 
+Likewise, as I pursued a system of 
+procedural rules, I would eventually — 
+like a Möbius loop — re-inscribe aspects 
+of my identity in the process of self-
+effacement. I do think though that it was 
+first necessary to apply the techniques I 
+have presented, and then, only then, to 
+bring in personal themes (in the manner 
+of a dialectic), to construct a different 
+kind of ekphrastic poem. 
+BIOGRAPHY
+Patrick Wright has a poetry collection, 
+Full Sight of Her (Eyewear), which was 
+nominated for the John Pollard Prize. He 
+has also been twice shortlisted for the 
+Bridport Prize. His poems have 
+appeared in Poetry Ireland, Poetry Wales, 
+The North, Gutter, and London Magazine. 
+He has a second collection, Exit Strategy, 
+which is scheduled for publication by 
+Broken Sleep Books in January, 2025. 
+BIBLIOGRAPHY
+Alvi, M. (2008) Split Word: Poems 1990-
+2005. Northumberland: Bloodaxe Books.
+Ashbery, J. (2007 [1975]) Self-portrait in a 
+Convex Mirror. Manchester: Carcanet. 
+Auden, W.H. (2007) Selected Poems. 
+Edited by E. Mendelson. London: 
+Vintage. 
+Berry, E. (2017) Stranger, Baby. London: 
+Faber and Faber. 
+Bion, W. (1970) Attention and 
+Interpretation. London: Tavistock. 
+Bram, S. (2006) ‘Ekphrasis as a Shield: 
+Ekphrasis and the Mimetic Tradition’, 
+Word & Image, 22(4), October-December, 
+pp. 372-378.
+Brandon, J., Dautch, A. and Quraishi, S. 
+(2018) ‘Poetic responses to Gustav 
+Klimt’, Hay Festival, Saturday, 26 May. 
+https://www.hayfestival.com/p-13760-
+jo-brandon-aviva-dautch-shazea-
+quraishi.aspx (Accessed: 3 June 2024)
+Bruegel, P. (1560) Landscape with the Fall 
+of Icarus. Royal Museums of Fine Arts of 
+Belgium, Brussels. Available at: https://
+artsandculture.google.com/story/
+landscape-with-the-fall-of-icarus-royal-
+museums-of-fine-arts-of-belgium/
+ewUxXpmuNdcLJg?hl=en (Accessed: 11 
+June 2024)
+Carson, A. (1995) Glass, Irony, and God. 
+New York: New Directions.
+Carson, A. (1998) Men in the Off Hours. 
+London: Jonathan Cape.
+Carson, A. (2006) Decreation: Poetry, 
+Essays, Opera. London: Jonathan Cape.
+Cashdan, L. (2019) ‘Ekphrastic Poetry’, 
+Open College of the Arts, Tuesday, 11 June. 
+Available at: https://www.oca.ac.uk/
+weareoca/creative-writing/ekphrastic-
+poetry/?cn-reloaded=1 (Accessed: 3 
+June 2024). 
+Clarke, G. (1997) Collected poems. 
+Manchester: Carcanet. 
+Conte, J.M. (1991) Unending Design: The 
+Forms of Postmodern Poetry. Ithaca, New 
+York: Cornell University Press.
+Corrigan, P.T. (2019) ‘Ars ekphrasis’, The 
+Ekphrastic Review, Wednesday, 3 April. 
+Available at: https://www.ekphrastic.
+net/ekphrastic/ars-ekphrasis-by-paul-t-
+corrigan (Accessed: 3 June 2024). 
+Deakin, J. (2018) Sleepless. Scarborough: 
+Valley Press.
+Ducasse, I. (1953 [1869]) Les chants de 
+Maldoror, in Oeuvres complétes: chants de 
+Maldoror, poésies, lettres. Paris: Garnier-
+Flammarion. 
+Elkins, J. (2010) ‘How to look at 
+Mondrian’, HuffPost. Available at: 
+https://www.huffpost.com/entry/
+post_1036_b_756669 (Accessed: 3 June 
+2024). 
+Fealy, S. (2017) ‘Gouache, sheep skulls, 
+fence bracket’, Cordite Poetry Review, 
+Ekphrastic, 79, Wednesday, 1 March. 
+Available at: http://cordite.org.au/
+poetry/ekphrastic/gouache-sheep-
+skulls-fence-bracket/ (Accessed: 3 June 
+2024). 
+Ford, M. and Winkfield, T. (2006) (eds) 
+The New York poets II: An Anthology. 
+Manchester: Carcanet. 
+Ginzburg, C. and Davin, A. (1980) 
+‘Morelli, Freud, and Sherlock Holmes: 
+Clues and Scientific Method’, History 
+Workshop, 9, Spring, pp. 5-36. Available 
+at: http:///users.clas.ufl.edu/burt/
+filmphilology/
+ginzburgmorellifreudholmes.pdf 
+(Accessed: 3 June 2024). 
+Goldsmith, K. (2008) ‘Conceptual 
+Poetics: Cole Swensen’, Poetry 
+Foundation, Wednesday, 4 June. Available 
+at: https://www.poetryfoundation.org/
+harriet-books/2008/06/conceptual-
+poetics-cole-swensen (Accessed: 3 June 
+2024). 
+Guest, B. (2016) The Collected Poems of 
+Barbara Guest. Edited by H.H. Guest. 
+Middletown, Connecticut: Wesleyan 
+University Press.
+Guthrie, C. (2013) ‘Writing poetry about 
+art’. The Poetry Foundation. Available at: 
+https://www.poetryfoundation.org/
+harriet/2013/04/writing-poetry-about-
+art (Accessed: 3 June 2024).
+Heffernan, J.W. (2004) Museum of Words: 
+The Poetics of Ekphrasis from Homer to 
+Ashbery. Chicago: University of Chicago 
+Press.
+Hetherington, P. and Atherton, C. (eds) 
+(2020) Prose Poetry: An Introduction. 
+Princeton and Oxford: Princeton 
+University Press. 
+Hetherington, P. and Atherton, C. (2023) 
+‘Starry Night: Ekphrasis, Inheritance and 
+Constellation’, conference programme 
+(abstract), Great Writing International 
+Creative Writing Conference, University 
+College, London, 15-16 July, pp. 1-25.
+Hollander, J. (1988) ‘The Poetics of 
+Ekphrasis’, Word & Image, 4(1), pp. 209-
+219.
+Jay, M. (1994) Downcast Eyes: The 
+Denigration of Vision in Twentieth-century 
+French Thought. California. University of 
+California Press.
+Keats, J. (1958) The Letters of John Keats. 
+Edited by H.E. Rollins. 2 vols (1). 
+Cambridge: Cambridge University 
+Press.
+Kennedy, D. (2012) The Ekphrastic 
+Encounter in Contemporary British Poetry 
+and Elsewhere. London: Routledge.
+Kennedy, D. and R. Meek (eds) (2019) 
+Ekphrastic Encounters: New 
+Interdisciplinary Essays on Literature and 
+
+
+── PAGE 9 ──
+112 • Writing in Practice vol. 10
+Writing in Practice vol. 10 • 113
+the Visual Arts. Manchester: Manchester 
+University Press. 
+Krauss, R.E. (1986) ‘The Originality of 
+the Avant-Garde’, The Originality of the 
+Avant-Garde and Other Modernist Myths. 
+Cambridge, Massachusetts; London, 
+England: The MIT Press, pp. 151-170. 
+Krieger, M. (1992) Ekphrasis: The Illusion 
+of the Natural Sign. Baltimore and 
+London: The John Hopkins University 
+Press.
+Loizeaux, E.B. (2008) Twentieth Century 
+Poetry and the Visual Arts. Cambridge: 
+Cambridge University Press.
+Lynch, D. (2023) ‘Afterword: The Object 
+Lessons of the Virtual Museum’, 
+Romanticism on the Net, 80-81, Spring-
+Fall, pp. 1-16.
+Malevich, K. (1913) Black Square. Tate 
+Gallery, London. Available at: https://
+www.tate.org.uk/art/artists/kazimir-
+malevich-1561/five-ways-look-
+malevichs-black-square (Accessed: 11 
+June 2024)
+Mitchell, W.J.T. (1995) Picture Theory: 
+Essays on Verbal and Visual Representation. 
+Chicago: University of Chicago Press.
+Motte, W.F. (ed) (1986) Oulipo: A Primer 
+of Potential Literature. Lincoln, Nebraska: 
+University of Nebraska Press.
+O’Hara, F. (2005) Selected Poems. 
+Manchester: Carcanet. 
+Oliver, M. (2014) Blue Horses. London: 
+Penguin Books.
+Perec, G. (2008) Species of Spaces and 
+Other Pieces. Translated from the French 
+by J. Sturrock. London. Penguin Books.
+Petit, P. (2013) What the Water Gave Me: 
+Poems After Frieda Kahlo. Bridgend: Seren 
+Press. 
+Purpura, L. (2007) ‘What is a Lyric 
+Essay?: Provisional Responses’, Seneca 
+Review, 37(2), p. 97.
+Queyras, S. (2010) ‘After Ekphrasis’, 
+Poetry Foundation, Saturday, 27 March. 
+Available at: https://www.
+poetryfoundation.org/harriet-books/
+2010/03/after-ekphrasis. (Accessed: 3 
+June 2024). 
+Raine, C. (1979) A Martian Sends a 
+Postcard Home. Oxford: Oxford 
+University Press. 
+Raitt, G. (2006) ‘Ekphrasis and 
+Illumination of Painting: The End of the 
+Road?’, Word & Image, 22(1), pp. 14-26.
+Rees-Jones, D. (2012) Burying the Wren. 
+Bridgend: Seren Press.
+Simic, C. (2011) Dime-store Alchemy: The 
+Art of Joseph Cornell. New York: NYRB 
+Classics.
+Vuong, O. (2017) Night Sky with Exit 
+Wounds. London: Jonathan Cape.
+Williams, W.C. (2000) Selected Poems. 
+Edited. C. Tomlinson. London: Penguin 
+Books. 
+Wordsworth, W. (1989 [1801]) Preface to 
+the Lyrical Ballads. Lahore: Kitab Mahal, 
+pp. 57-73. 
+Yoseloff, T. (2011) The City with Horns. 
+Norfolk: Salt Publishing. 
+Young, K. (2003) To Repel Ghosts. 
+Hanover, New Hampshire: Steerforth 
+Press. 
+List of artworks:
+Bruegel, P. (1560) Landscape with the Fall 
+of Icarus. Royal Museums of Fine Arts of 
+Belgium, Brussels. Available at: https://
+artsandculture.google.com/story/
+landscape-with-the-fall-of-icarus-royal-
+museums-of-fine-arts-of-belgium/
+ewUxXpmuNdcLJg?hl=en (Accessed: 11 
+June 2024)
+Kandinsky, W. (1913) Composition VII. 
+Available at: https://www.
+wassilykandinsky.net /work-36.php 
+(Accessed: 11 June 2024)
+Malevich, K. (1913) Black Square. Tate 
+Gallery, London. Available at: https://
+www.tate.org.uk/art/artists/kazimir-
+malevich-1561/five-ways-look-
+malevichs-black-square (Accessed: 11 
+June 2024)
+Mondrian, P. (1921) Lozenge Composition 
+with Yellow, Black, Blue, Red, and Gray. 
+Available at: https://www.huffpost.
+com/entry/post_1036_b_756669 
+(Accessed: 11 June 2024)
+Rice, A.E. (1918) Portrait of Katherine 
+Mansfield. Available at: https://
+arthistoryproject.com/artists/anne-
+estelle-rice/portrait-of-katherine-
+mansfield/ (Accessed: 11 June 2024)
+Rothko, M. (1958) Black on Maroon. Tate 
+Gallery, London. Available at: https://
+www.tate. org.uk/art/artworks/rothko-
+black-on-maroon-t01031 (Accessed: 11 
+June 2024)
+Turner, J.M.W. (1845) Sunrise with Sea 
+Monsters. Tate Gallery, London. 
+Available at: https://www.tate.org.uk/
+art/artworks/turner-sunrise-with-sea-
+monsters-n01990 (Accessed: 11 June 
+2024)
+Whistler, J.M. (1875) Nocturne: Black and 
+Gold – The Fire Wheel. Tate Gallery, 
+London. Available at: https://www.tate.
+org.uk/art/artworks/whistler-nocturne-
+black-and-gold-the- fire-wheel-n03419 
+(Accessed: 11 June 2024)
+Poems previously published:
+“Abstraction”, Dark Winter Literary 
+Magazine, June, 2022. Available at: 
+https://www.darkwinterlit.com/post/
+abstraction-a-distant-fawn-night-sea-
+journey-by-patrick-wright (Accessed: 11 
+June 2024)
+“Black Square”, The Ekphrastic Review, 
+April 2018. Available at: https://www.
+ekphrastic.net/the-ekphrastic-review/
+black-square-by-patrick-wright 
+(Accessed: 11 June 2024)
+“Imaginary Museum”, Romanticism on 
+the Net: Materialising Romanticism, Issue 
+80-81, Spring/Fall 2023. Available at: 
+https://ronjournal.org/articles/n80-81/
+introduction-8/ (Accessed: 11 June 2024)
+“Nocturne”, The Alchemy Spoon, 
+Issue 5, 2021. Available at: https:/
+/www.calameo.com/read/
+006240328c64bd9e2ee29?
+authid=3ogoUhpVZ3L5 
+(Accessed: 11 June 2024)
+“Portrait of Katherine Mansfield”, The 
+High Window, Autumn, 2021. Available 
+at: https://thehighwindowpress.com/
+2021/09/05/the-high-window-poetry-
+issue-23-autumn-2021/
+#Patrick%20Wright (Accessed: 11 June 
+2024).

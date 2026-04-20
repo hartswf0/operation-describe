@@ -1,0 +1,777 @@
+# A new look at an old topic: ekphrasis revisited
+# Source: Clüver - 2017 - A new look at an old topic ekphrasis revisited.pdf
+# BibTeX key: cluver_new_2017
+# Zotero dir: 3108
+# Extracted chars: 49724
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+30
+Claus Clüver*
+Abstract: Focusing on ekphrastic poetry, I argue that James A. W. Heffernan’s 
+succint definition of ekphrasis as the “verbal representation of a visual represen-
+tation”, much cited by others and still upheld in his essay “Ekphrasis: Theory” 
+in the 2015 Handbook of Intermediality (org. G. Rippl), has become even less te-
+nable than when I criticized it in 1995. I then showed that it excluded ekphrastic 
+descriptions of non-representational painting and sculpture as well as all archi-
+tecture. I am now supported by David Kennedy’s recent studies, who has shown 
+that contemporary critical ekphrasis and the surrounding discourse have turned 
+against the model of a paragone based on representation. I also demonstrate that 
+the dominant view of seeing ekphrasis as a prime example of intermedial trans-
+position is questionable and should be replaced by the recognition that it prima-
+rily verbalizes a viewer’s encounter with (a) non-kinetic visual configuration(s).
+Keywords: Ekphrasis. Intermedial transposition. Non-representational art.
+■T
+he Handbook of Intermediality: Literature – Image – Sound – Music, 
+edited by Gabriele Rippl and published in 2015, is the first volume in De 
+Gruyter’s series of “Handbooks of English and American Studies” and 
+is programmatically restricted to investigating the relations of literary texts 
+written in English to other media but draws in its bibliographic resources on 
+theoretical texts written in English and in German. Rippl’s (2015, p. 1-23) 
+“Introduction” is competent, up-to-date, and helpful. The 31 essays by 
+recognized specialists in the field have been divided into three large categories: 
+1. text and image; 2. music, sound and performance; and 3. intermedial 
+methodology and intersectionalities (three essays). Rippl’s “Introduction” 
+provides the general theoretical orientation for the enterprise.
+* 
+Indiana University – Bloomington – Indiana – United States. E-mail: cluver@indiana.edu
+A new look At An old 
+topic: ekphrAsis revisited
+
+
+── PAGE 2 ──
+31
+DOSSIÊ
+A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+Interestingly, the first category begins with seven essays grouped under the 
+heading “Ekphrasis”. They have a basically chronological bent, ranging from 
+“Medieval Ekphrasis” to the “Early Modern Period” and then considering various 
+aspects of ekphrasis in modernity: “Ekphrasis and Poetry”, “Ekphrasis and the 
+Novel/Narrative Fiction”, “Ekphrasis in the Age of Digital Reproduction”, and 
+“Postcolonial Ekphrasis in the Contemporary Anglophone Indian Novel”. This 
+covers a wider perspective than most monographs or essay collections on the 
+subject. The section is headed by the essay “Ekphrasis: Theory”, in which James 
+A.W. Heffernan presents (again) his understanding of this concept as he had 
+elaborated it over twenty years earlier in his Museum of Words, although in 
+modified form. Interestingly, among the other contributors to this section only 
+David Kennedy, writing about “Ekphrasis and Poetry”, engages – rather critically 
+– with Heffernan’s view, while the other five, focusing mostly on ekphrasis in 
+narratives, have little use for Heffernan’s theoretical considerations. This includes 
+Rippl herself, although in her essay on postcolonial ekphrasis she does refer to 
+Heffernan’s “widely accepted definition which claims that ekphrasis is the verbal 
+representation of visual representation” (RIPPL, 2015, p. 129). But she makes no 
+further reference to his theory and points to her own earlier “critique of Heffernan’s 
+use of the term ‘representation’” (RIPPL, 2015, p. 129; cf. RIPPL, 2005, p. 97-98).
+It was exactly Heffernan’s positioning of “visual representation” as the object 
+of “verbal representation” in the catchy definition cited by Rippl that twenty 
+years ago triggered my own questioning in response to his Museum of Words: The 
+Poetics of Ekphrasis from Homer to Ashbury (1953), which was to establish him 
+as a leading authority in the field. Having worked on ekphrastic representations 
+of the mature work of a Piet Mondrian and a Josef Albers (cf. CLÜVER, 1978, 
+1989), I saw that Heffernan’s overall definition worked well for the kinds of texts 
+he had discussed, but not for texts dealing with the work of these artists. The 
+term “visual representation”, as understood by Heffernan, referred to the 
+representation of objects in the phenomenal world. Until the beginning of the 
+twentieth century, that was all that painting and sculpture and most graphic art 
+had been about. The visual artworks referred to by Heffernan ranged from the 
+(fictional) shield of Achilles in Homer to van Gogh’s Starry Night (HEFFERNAN, 
+1993, p. 183) and Magritte’s surrealist La condition humaine (p. 56). But the new 
+century had introduced a kind of artmaking that was not only increasingly 
+abstract but even entirely “non-representational” or “non-figurative” or “non-
+objective” – terms used for what in German is perhaps more simply and 
+unequivocally called “gegenstandslos”, as opposed to “gegenständlich”1. Such 
+“non-representational” artworks relied entirely on their medium’s materials (line, 
+shape, color, texture, in the case of painting) and the physical media that had 
+produced them and had left their traces (board, canvas; tempera, oil; brushes, 
+fingers etc.) as well as on the techniques by which they had been applied and on 
+the structures thus created and the visual programs thus executed (as in abstract 
+expressionism, concrete art, or op art). Viewers soon realized that, besides 
+appealing to our sensibilities, such “non-representational” artworks were 
+meaningful in their own right even though it might be difficult to express such 
+1 
+“Gegenstandslos” is closest to “non-objective”, but “gegenständliche Kunst” does not have an English equivalent of “objective 
+art”. A translation of Heffernan’s phrase would require a noun based on the verb “darstellen”, which has a range of significa-
+tions only slightly narrower than “represent”. 
+
+
+── PAGE 3 ──
+CLAUS CLÜVER
+32
+DOSSIÊ
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+meanings in words, because they involved aspects of visual materials and 
+structures that rely on a non-verbal semiotics. But many could be read as 
+configurations representing space-time relations or ambiguities of visual 
+perception, or as signs, symbols, or visual metaphors representing abstract 
+concepts or conditions such as movement, tension, order, harmony, conflict, 
+chaos, narrativity, and much more, besides pointing self-referentially at 
+themselves and the particular style, and thus also at the culture and period, they 
+represent. Our response to the various techniques and styles of representing the 
+material world is undoubtedly shaped by the same aspects, although ekphrastic 
+texts may often not verbalize these. In abstract paintings and sculptures the 
+signs referring to the extra-pictorial world are distorted and reduced, and in non-
+representational visual artworks they have been eliminated, even though as 
+viewers we may tend to associate certain features with extra-pictorial objects, 
+depending on our viewing habits. While literary representations of abstract and 
+non-representational visual art may be relatively rare, they certainly exist, and 
+so do verbal representations in art criticism or art history books. 
+To accommodate such texts under the ekphrastic label I therefore modified 
+Heffernan’s pithy definition in 1995, in a lecture entitled “Ekphrasis Revisited: 
+On Verbal Representations of Non-verbal Texts”2. My proposal read: “Ekphrasis 
+is the verbal representation of a real or fictitious text composed in a non-verbal 
+sign system” (cf. CLÜVER, 1997, p. 26). Heffernan (1993, p. 4) had insisted that 
+ekphrasis “explicitly represents representation itself. What ekphrasis represents 
+in words, therefore, must itself be representational”, which had led him to 
+conclude: “Because it verbally represents visual art, ekphrasis stages a contest 
+between rival modes of representation” (p. 6). In this view, the contest is 
+ultimately between the ways a visual artwork and a literary text can represent 
+an object that exists in the extra-artistic phenomenal world. Architecture and 
+much twentieth-century sculpture and painting, whatever they may represent, 
+do not function as representations of the phenomenal world, and verbal texts 
+that represent them therefore cannot be included in the ekphrastic “mode” as 
+constructed by Heffernan in the 1990s. He had denied Hart Crane’s poem “The 
+Bridge” ekphrastic status because “[t]he Brooklyn Bridge may be considered a 
+work of art and construed as a symbol of many things, but since it was not 
+created to represent anything” (HEFFERNAN, 1993, p. 4) the poem representing 
+the bridge could not qualify as an ekphrastic text. He relativized the bridge’s 
+status as a work of art and as a symbol (and thus not a “representation”) and, 
+along with Crane’s “The Bridge”, removed all verbal representations of non-
+representational visual art to a place outside of the ekphrastic mode.
+My new definition avoided the ambiguous term “visual representation” and 
+also opened the concept beyond Heffernan’s restriction to “a literary 
+representation of visual art” (HEFFERNAN, 1993, p. 1). It promoted the view of 
+ekphrasis as representing a medial configuration as such, as primarily a 
+representation of the image, not of what the image refers to in the extra-artistic 
+world. The verbal texts would not have to be literary, and the objects represented 
+could be “non-representational” paintings or sculptures and even architectural 
+structures; they would have to be medial compositions but not necessarily “art”. 
+2 
+Opening presentation of the International Conference on “Interarts Studies: New Perspectives” at Lunds Universitet, Sweden, 
+May 1995 (see CLÜVER, 1997). 
+
+
+── PAGE 4 ──
+33
+DOSSIÊ
+A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+This reorientation removed the traditional focus on the visual and the verbal as 
+rivaling enterprises engaged in a paragone.
+But “text composed in a non-verbal sign system” was not a fortunate 
+formulation. Besides using “text” misleadingly to signify a configuration in any 
+sign system (following semiotic usage) I also made the definition too inclusive. 
+Using the label for verbal representations of configurations in any media 
+employing any sign system and its codes (music, dance, mime, performance 
+arts, cinema, etc.) made it unnecessarily imprecise and impracticable. It may 
+have been these shortcomings that overshadowed my critique of Heffernan’s 
+restrictive view.
+In a series of follow-up essays in subsequent years I further examined my 
+definition and explored its limits. In “Quotation, Enargeia, and the Functions of 
+Ekphrasis” (1998) I changed “verbal representation” to “verbalization” in an effort 
+to create my own restrictions, a change that I have since recognized as vain and 
+have undone. “The Musikgedicht: Notes on an Ekphrastic Genre” (1999) elaborated 
+on the poems in Jorge de Sena’s Arte de Música (1968) which I had already 
+referred to in “Ekphrasis Revisited” as backing up my expansion of the concept 
+and its label; I would now eliminate its subtitle but otherwise still support my 
+findings, which dealt mostly with the differences between verbally representing 
+music and ekphrastic representations of visual configurations. “(Re)Writing 
+Edward Hopper” (1999) covered a series of poems in English and Portuguese 
+ranging from texts that could be read as close intersemiotic transpositions of 
+Hopper paintings to mere intermedial references, mostly by title. 
+I did not return to the subject until 2013, when I was asked to contribute an 
+essay on “Ekphrasis and Adaptation” to the Oxford Handbook on Adaptation 
+Studies organized by Thomas Leitch (see CLÜVER, 2017). 1 used the opportunity 
+to review, rectify, and considerably expand my earlier definition. The short 
+version of it I now formulated as “Ekphrasis is the verbal representation of real or 
+fictive configurations composed in a non-kinetic visual medium”. I added “non 
+-kinetic” to exclude verbal representations of “configurations” (the term that I 
+now find most applicable where I used to say “texts”) on television or in the 
+cinema, because these are products of plurimedial media and require different 
+approaches, terms, and techniques for verbal representation. What Heffernan 
+now includes as “cinematic ekphrasis” and exemplifies with descriptions of films 
+in Manuel Puig’s Kiss of the Spider Woman (HEFFERNAN, 2015, p. 45-48) should 
+not be conflated with the many uses of ekphrasis in narrative fiction.
+While again focusing almost exclusively on poetry and using a sonnet by 
+John Hollander, “Edward Hopper’s Seven A. M.” (1948), as an example of an 
+ekphrastic text that can be read as a translation of the painting because the 
+voice we hear in the poem reacting to the image can also be heard as that of the 
+painter reacting to the scene he supposedly observed and then depicted,3 I 
+discussed Carlos Drummond de Andrade’s short poem “Quadro I (Mondrian)” 
+and a poem by Eugen Gomringer, “außenrund”, on an entirely non-figurative 
+concrete work by Marcel Wyss, teilkreis-projektionen: zwölf variationen 
+(projections of circle segments: twelve variations, 1977), as ekphrastic texts that 
+would not be covered by Heffernan’s definition of 1993. 
+3 
+An idea I first developed in “On Intersemiotic Transposition” (see CLÜVER, 1989, p. 66-67).
+
+
+── PAGE 5 ──
+CLAUS CLÜVER
+34
+DOSSIÊ
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+Nor would they be accommodated by his Handbook essay of 2015, although 
+Heffernan there made a gesture toward including ekphrastic descriptions of post-
+modernist art that would not immediately be recognized as a visual representation. 
+After reviewing the history of “ekphrasis” as a concept related to the literary 
+description of visual art and engaging with differing views of the nature of verbal 
+and visual representation, in particular that of Murray Krieger, Heffernan arrived 
+at offering his reading of Lessing’s distinction between poetry as time-oriented and 
+visual art as space-oriented and the 18th-century theorist’s admission of a potential 
+temporal dimension in visual works of art. From there he went on to state:
+If works of art “are structures in space–time” rather than either spatial or tem-
+poral, as W. J. T. Mitchell argues (1986, [p.] 103), ekphrasis must allow for both 
+elements in the works it represents. For this reason I have defined ekphrasis as 
+“the verbal representation of visual representation” (HEFFERNAN 1993, [p.] 3). 
+This definition makes room for descriptions of paintings and sculptures that re-
+present anything at all, whether someone or something in motion or a still object 
+like Magritte’s famous pipe (HEFFERNAN, 2015, p. 38).
+The purpose of the first phrase is not easy to see. It may mean that an 
+ekphrastic representation should address temporal dimensions implied in a 
+painting or a sculpture, or that it should deal with moving objects such as 
+Calder’s mobiles, or with moving images on the computer, on TV, or in the 
+cinema. It is not clear why he considers this to be the reason why his 1993 
+definition still works. The final statement returns to a restriction of the objects 
+of ekphrastic description to paintings and sculptures, and in either case to 
+visual representations of still or moving objects – supposedly connected with the 
+phenomenal world. But the phrase “that represent anything at all” is meant to 
+lead up to the quotation of the art critic Leo Steinberg’s ekphrastic interpretation 
+of Shade (1959), “one of the works with which Jasper Johns launched 
+Postmodernism in the late 1950s” (HEFFERNAN, 2015, p. 41). This quote 
+appeared in Heffernan’s instructive essay “Speaking for Pictures: The Rhetoric 
+of Art Criticism” (1999) and has been included in several of his later pieces. The 
+essay itself was reprinted in Heffernan’s Cultivating Picturacy (2006). The quote 
+also appears in his essay “Speaking for Pictures: Language and Abstract Art”, 
+which in truncated form was also reprinted in Picturacy, but without the 
+Steinberg text, which appears earlier in the volume4. 
+In all these instances Steinberg’s interpretation of Johns’s Shade follows a 
+discussion of the “Modernist” art that preceded it, “an art that seem[ed] to turn 
+its back on representation, on reference to any object or figure that we might 
+recognize from our experience of the world outside the painting” (HEFFERNAN, 
+2015, p. 40). Even though puzzling, Johns’s work “returns us to the world of 
+tangible objects that Modernism had renounced – to objects such as flags, target, 
+and shade” (HEFFERNAN, 2015, p. 41). In 2015, Heffernan only provided a brief 
+summary of how he read the “abstract” works of Modernism. He had developed 
+his ideas first in the section on “Leo Steinberg and the Taciturnity of Abstract 
+Art” of his 1999 essay, the last of his five detailed and critical exemplifications of 
+the “rhetoric of art criticism” ranging from Philostratus5 to Steinberg. What 
+4 
+In Picturacy it has the title “Reza, Pollock, Richter: Language and Abstract Art.” I shall quote from the 2006 essay.
+5 
+The long passage about Philostratus in the 2015 essay (p. 38-40) is largely a repetition of this early text.
+
+
+── PAGE 6 ──
+35
+DOSSIÊ
+A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+Heffernan had to say about Modernism and abstract art was to a large extent 
+inspired by W. J. T. Mitchell’s “Ut Pictura Theoria: Abstract Painting and 
+Language” (1994); it echoed several of the critical voices cited by Mitchell but did 
+not engage with his central thesis. Instead, Heffernan (1999, p. 27) asked:
+What sort of story, after all, can be told about an art that apparently turns its 
+back on representation, on reference to any object or figure that we might recog-
+nize from our experience of the world outside the painting, and that might give 
+us something to talk about?.
+This very phrase returned in his 2015 essay (p. 40), in the paragraph that led 
+up to his quotation of the Steinberg passage on Johns. The phrase had already 
+made a come-back in 2006 in “Speaking for Pictures: Language and Abstract 
+Art”6 (p. 26), which by its very title announced that it resumed a topic broached 
+at the end of the 1999 essay. Here Heffernan made an effort to come to terms 
+with “abstract” art, from Malevich and the later Kandinsky to Jackson Pollock, 
+Robert Rauschenberg, and Ad Reinhardt as well as the post-modernist art of a 
+Jasper Johns and a Gerhard Richter. He did not consider literary representations 
+of such art but relied quite heavily, as in 1999, on the authority of such influential 
+American art critics as Clement Greenberg, Rosalind Krauss, Michael Fried – by 
+whom he quoted a lengthy description of Pollock’s Number 1 (1948), with which 
+he disagreed – and Leo Steinberg. And (as had Mitchell) he emphasized the 
+voices of critics that emphasized “modern art’s will to silence” (KRAUSS, 1986, 
+p. 9), which supposedly also eliminated the possibility of interpretation (SONTAG, 
+p. 201-202).
+Answering his persistent question, in 2006 Heffernan found much to talk 
+about by developing the thesis that “abstract” art can be read as figurative and 
+thus ultimately referential. He spent considerable space showing that, as 
+opposed to Michael Fried’s assertion that nothing in Pollock’s Number 1 (1948) 
+“deserves to be read as a figure” (FRIED apud HEFFERNAN, 2006, p. 33), others, 
+himself included, have indeed seen figures in Pollock’s work, and that it is easy 
+from there to associate these with objects in extra-pictorial reality (HEFFERNAN, 
+2006, p. 34). Which led him to insist that, “[w]ether geometric, biomorphic, or 
+anthropomorphic, [figures] inform his paintings, which may be seen or read as 
+veils drawn over shapes we can recognize – and specify” (p. 36). Ultimately, he 
+saw even in paintings that most puzzled him, monochromatic canvases and 
+their perceived “silence”, a possibility to make them speak. One of the conclusions 
+he favored in looking at Rauschenberg’s white paintings was that “the surface of 
+an abstract painting may actually be read as a veil or screen for what stands 
+behind it” (p. 29). If lifting the veil reveals to the imagination anything figurative, 
+even if it does not resemble anything in the “real world”, we can consider the 
+work to be a representation that is meaningful and can be interpreted:
+If visual representation does not require resemblance, as Nelson Goodman in-
+sists, no essential barrier separates the kinds of signification that abstract and 
+realistic painting can achieve; nothing thwarts their capacity to stand for some-
+thing we can experience in the real world, or for something we may conceive or 
+imagine (HFFERNAN, 2006, p. 38).
+6 
+It appeared as the opening essay of an important collection of essays (see HEFFERNAN, 2006, in Homem and Lambert)..
+
+
+── PAGE 7 ──
+CLAUS CLÜVER
+36
+DOSSIÊ
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+For Heffernan, that “something” is still something tangible, something 
+figurative, even if it does not resemble that which it is taken to represent. As I 
+read his interesting essay I see him approaching “abstract” art still with the eyes 
+and expectations of someone used to seeing in visual images references to the 
+extra-artistic world of phenomenal reality, even though these words imply an 
+extension of the concept of “representation” that will allow him to maintain his 
+much quoted phrase. But while insisting on the continued validity of that 
+phrase, in his “Theory” essay of 2015 Heffernan makes no reference to his idea 
+that “abstract” art might permit us to discover figures in such works and to 
+move from there to construct some kind of representation. He repeated the 
+rhetorical question, but the paragraph it introduces ends in a generality: “So far 
+from silencing the critic, then, abstract art provokes and demands at least as 
+much commentary as any of its precursors” (HEFFERNAN, 2015, p. 41) – and 
+moves from there directly to quoting again the Steinberg passage about Johns’s 
+Shade, which is presented as “clearly show[ing] how much we can learn about 
+the art of ekphrasis by studying it in what might be called its purest form – as 
+art criticism” (HEFFERNAN, 2015, p. 42). The essay’s subsequent section on 
+“Ekphrastic Poetry” deals only with a few canonical texts as discussed in his 
+book of 1993. He nowhere indicates what kind of “stories” literary texts about 
+abstract art might produce.
+What is missing from the 2006 essay is any confrontation of the “abstract” 
+art discussed by Heffernan with the “concrete” art of the Swiss painters around 
+Max Bill or of Bill’s Brazilian disciples, the concrete or constructivist artists of 
+São Paulo and Rio de Janeiro who began developing their art and its theoretical 
+support in the early 1950s. This was an art based on the statement and 
+development of “ideias visíveis”, “visible ideas” executed by the manipulation of 
+the artist’s materials without prompting the viewer to link this concrete 
+configuration with any object or figure in the world of experience7 – even though 
+viewers like Heffernan might find ways of doing just that. Concrete artists 
+avoided guiding their viewers even by suggestive titles – another of the avenues 
+Heffernan used to make pictures speak. 
+Bill had come out of the Bauhaus tradition. One of the outstanding Bauhaus 
+artists was Josef Albers, whose work was a major inspiration for Gomringer’s 
+concrete poetry. Paintings by Malevich, Mondrian, Albers, and others that do 
+not suggest any representation of “figures” relating to an extra-pictorial 
+phenomenal reality have inspired ekphrastic poems which do not suggest they 
+do. Several of these have taken the form of what Heffernan referred to in 1993 
+as “iconic poetry” (p. 4) by incorporating visual references to the work represented. 
+Gomringer’s collaboration with more than thirty non-representational artists 
+over several decades has resulted in a number of ekphrastic poems of the kind 
+I have illustrated by “außenrund”, poems that cannot be covered by the phrase 
+“verbal representation of visual representation”. 
+But in the essay for the Oxford Handbook of Adaptation Studies where I 
+analyzed “außenrund” I still framed my deliberations about both ekphrasis and 
+adaptation within the context of “intermedial transpositions”, as which I had 
+7 
+For the connections between Brazilian concrete artists and poets in São Paulo see Clüver, “The Noigandres Poets and Concrete 
+Art”, 2008. These concrete paintings and sculptures, to which Mitchell does not refer, would serve well to exemplify his thesis 
+concerning the interdependence of “abstract” art and theory developed in his “Ut Pictura Theoria”.
+
+
+── PAGE 8 ──
+37
+DOSSIÊ
+A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+approached ekphrasis since my earliest efforts, the essay investigating the 
+transposition of “Painting Into Poetry” of 1978 and the essay “On Intersemiotic 
+Transposition” of 1989. This is where theories of intermediality have usually 
+placed these phenomena (see, e.g., RAJEWSKY, 2005).
+As I resumed my work on the subject I increasingly began to question this 
+view of ekphrastic poetry as a particular form of intermedial transposition within 
+the field of word-and-image studies. I realized that neither Heffernan’s view, 
+following a lengthy tradition, of ekphrasis as basically engaged in a rivalry 
+between two modes of representation, and the equally lengthy tradition of 
+looking at ekphrasis as a transfer between two media, paid sufficient attention 
+to what John Hollander would call, quoting P. B. Shelley, “the gazer’s spirit” 
+(HOLLANDER, 1995). David Kennedy’s The Ekphrastic Encounter in Contemporary 
+British Poetry and Elsewhere (2012) suggested in its title that ekphrastic texts, 
+here again in poetry, may suggest a different critical approach and emphasis, 
+one that is also indicated in the title of a new collection of essays still in press 
+which he and Richard Meek have organized, Ekphrastic Encounters: New 
+Interdisciplinary Essays on Literature and the Visual Arts. My own contribution 
+to that volume, “On Gazer’s Encounters with Visual Art: Ekphrasis, Readers, 
+Iconotexts”, approaches Drummond’s poem (again) as well as a poem by Pedro 
+Tamen about a “representational” painting by Manuel Amado and a poem by 
+Gomringer accompanying seven “non-representational” aquatint prints by 
+Heinz-Günter Prager, sieben begehren (seven desires, 2010), as records of an 
+encounter. It furthermore broaches the question of how such records position 
+the reader of the text, which becomes more complex in narrative fiction where a 
+(frequently fictive) visual artwork may be described by an extradiegetic narrator 
+or as perceived by an intradiegetic character in a specified situation, and where 
+readers have to consider the particular functions such ekphrastic moments 
+have in the overall narrative as they understand it.
+Interpreting Drummond’s three-line poem “QUADRO I (Mondrian)”, the only 
+one about an abstract work among thirty-two short ekphrastic poems collected 
+as “Arte em exposição” (Art on Exhibit)8, I concluded that its generic title and its 
+sparse and succinct form convey a reading of Mondrian’s mature paintings as 
+highly abstract representations of the artist’s view of the universe without 
+permitting us to identify a specific work, and that this reading is as much 
+expressed by the poem’s form as by its words. But this form is not exceptional: 
+Ten of these short records of encounters with canonical paintings have only 
+three lines, eight have only two, and the longest among these thirty-two poems 
+has just six. Usually Drummond zoomed in on a specific detail or quality of a 
+work or its effect, as when he highlighted the color in “Odalisca vermelha 
+(Matisse)” by rolling l’s and r’s (“A indolência da odalisca em rosa rubra / respira 
+paz de lânguido fervor”), ending with a short fourth line: “pura cor” (p. 31), or 
+when he encapsulated the reaction to “nature screaming” in “O Grito (Munch)” 
+in the line: “Doem os ouvidos, doi o quadro” (p. 30). These are not transpositions 
+of the images but expressions of a viewer’s personal reaction that nevertheless 
+impress the poem’s reader as penetrating to a work’s core. The latter can be said 
+8 
+According to the verso of the title page of Drummond’s Farewell, “os poemas de ARTE EM EXPOSIÇÃO foram publicados em 
+1990 pela Ed. Salamandra/Record” (Farewell, p. 4). In Farewell, the 32 poems about individual paintings grouped under the title 
+“Arte em exposição” appear on p. 29-37, “QUADRO I (Mondrian)” on p. 35.
+
+
+── PAGE 9 ──
+CLAUS CLÜVER
+38
+DOSSIÊ
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+of the Mondrian poem as well, except that it may refer to almost any of the 
+painter’s later works and that it reflects at least as much of the poet’s knowledge 
+of Mondrian’s world view as it does of his reaction to the work. Given the formal 
+affinity, the poem can be seen as a verbal equivalent, and therefore as a 
+transposition, of Mondrian’s manner of representation, contrary to the other 
+short poems and their relation to the particular painting evoked. 
+Figure 1: Heinz-Günter Prager (b. 1944), sieben begehren. 2010, aquatint on 
+hand-made paper, portfolio with 8 sheets, 77 x 55.5 cm each. Edition of 7. Re-
+hau: institut für konstruktive kunst und konkrete poesie. Images 5 and 6. Rpt. 
+in GILBERT (Org.), nichts für schnell-betrachter, p. 210. Photos: László Tóth. © 
+2016 Artists Rights Society (ARS), New York /VG Bild-Kunst, Bonn.
+As I interpret it, Tamen’s much longer poem, which is printed side by side 
+with a copy of Amado’s painting, does not transpose anything from the image 
+but instead enacts a reading of it as an abstraction of the scene represented, 
+which makes the painting in the end appear as a “Mondrian recheado” (Mondrian 
+filled in; TAMEN, p. 60). Tamen entitled this volume of his ekphrastic poems 
+Depois de Ver (After Looking). That title might also cover the following poem by 
+Eugen Gomringer:
+the game of circles
+(by twos, by threes, by fours)
+the seven ways
+to meet one another
+the seven ways 
+to touch one another
+the seven ways 
+to desire one another
+the seven ways 
+to circle apart
+
+
+── PAGE 10 ──
+39
+DOSSIÊ
+A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+the seven ways
+to let go of each other 
+the seven ways
+to make it like prager
+the seven ways
+to see it like gomringer (trans. Claus Clüver)9
+Gomringer’s text presents itself self-referentially as a particular way of seeing 
+what another produces, setting the act of interpretation against the act of 
+creation with its own intentions and motivations. The text is included in the 
+portfolio with Prager’s prints as the first leaf of a total of eight and, like Tamen’s, 
+depends entirely on this juxtaposition. But also like Tamen’s, it cannot be read 
+as a transposition of the visual objects. The seven prints are non-representational, 
+each showing from two to four loosely sketched oval shapes that can be read as 
+tilted circles, and one or two sharply defined rectangles, all in white against a 
+black background (see Figure 1). Since in the text there are only five verbs 
+referring to these seven untitled images there seems to be no correspondence 
+between verbs and images; moreover, “the seven ways” makes every verb apply 
+to each of the seven prints with their elliptical forms that the text refers to as 
+“circles”. Nevertheless, the order of the verbs suggests a sequence from encounter 
+to separation, with “to desire one another” representing a climax; but the fixed 
+sequence of the non-figurative images does not follow such narrative logic. 
+“seeing it like gomringer” provided the title “seven desires” on the cover of the 
+folder, which, along with the poem, may direct the viewer’s response. But the 
+final line with the impersonal, objectifying “gomringer” also distances us from 
+this view and invites us to find our own way of looking at Prager’s work. We may 
+even disagree with the idea of inferring slightly anthropomorphic actions into 
+the forms created by the artist – which raises the question of how to interpret 
+non-representational images and how to verbalize such interpretations.
+David Kennedy’s “Ekphrasis and Poetry” in Rippl’s Handbook begins by 
+presenting itself as a continuation and expansion of the theory of ekphrastic 
+poetry as offered by Heffernan in the same volume. Kennedy even takes up the 
+canonical examples used by Heffernan to demonstrate differences between 
+poetry and art criticism. But he presents them as approached in the context of 
+what he calls “critical ekphrasis”, an approach taken by modern poets as well as 
+by critics that “conceiv[es] of the ekphrastic art object as foreign or other” 
+(KENNEDY, 2015, p. 84). His most interesting example is a project I know only 
+from Kennedy’s description, Maggie O’Sullivan’s Tonetreks, a sequence of eleven 
+ekphrastic poems composed in 1975-77 but not published until 2006 as part of 
+a larger book, Body of Work. Among the works represented are paintings by 
+Malevich and Rothko, and several of the texts apparently visually imitate aspects 
+of the works to which they refer. Kennedy describes and interprets many details 
+of O’Sullivan’s varied procedures. There is one passage he quotes, which he 
+views as
+9 
+Printed with permission of the poet.
+
+
+── PAGE 11 ──
+CLAUS CLÜVER
+40
+DOSSIÊ
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+not only crucial to the ekphrastic sequence as a whole but also, crucially, to 
+understanding how ekphrasis works. Verse three appears to quote the painter 
+[Arshile Gorky] directly:
+ You said, 
+Permit me my making, there is no meaning here.
+Meaning is the spectator’s privilege.
+The fetish
+to invent a camouflage (O’SULLIVAN, 2006, p. 23).
+The passage is so clear that it requires little in the way of critical gloss. What we 
+can say is that it speaks to how ekphrasis is founded on the need to interpret. 
+The search for meaning is presented here as something that gets in the way of 
+the actual activities of making art which may in fact have little to do with making 
+meaning. It also suggests that the artist may have little conception of what the 
+meaning of a specific work might be (KENNEDY, 2015, p. 88).
+Interestingly, while Kennedy’s selection and interpretation of the lines from 
+the poem about Gorky emphasizes the self-assumed task of contemporary 
+critical ekphrasis to provide interpretation, his summary of O’Sullivan’s sequence 
+highlights her apparent refusal to interpret and her tendency to explore the 
+materials of the works represented and to find verbal (and visual) equivalents in 
+her poetry. To this he adds the observation that her poems reveal “the importance 
+of the body in conveying the ekphrastic meaning of an individual poem” 
+(KENNEDY, 2015, p. 89). This leads him to conclude, after considering the work 
+of other poets as well, that “a new focus on the body in ekphrastic poetry is one 
+way of introducing a new ‘turn’ in critical responses to ekphrasis”; but another, 
+equally important, is “the idea of the encounter” (KENNEDY, 2015, p. 90). He 
+sees this primarily in the encounter, like the one staged by O’Sullivan, between 
+text and image and between visual and textual cultures. 
+Kennedy’s essay exemplifies what he meant by claiming in his book The 
+Ekphrastic Encounter (2012) that “a revision of some aspects of the dominant 
+representational model of ekphrasis is long overdue” (p. 1). His book focuses on 
+contemporary British ekphrastic poems, but does not include any discussion of 
+O’Sullivan’s work. There is no explicit discussion of what exactly “encounter” 
+signifies here. It definitely implies an encounter of viewers with a work of art and 
+their verbalization of their responses, compelled by “the need to ‘complete’ the 
+image’s perfection”. Before he outlines his ideas about “Ekphrasis Beyond 
+Representation” in the introduction to his book Kennedy suggests that modern 
+viewers experience “works of art [as] stand[ing] literally apart from us and our 
+daily lives […], untouchable in [their] apparently perfected form”, while we are 
+“intimately involved” with the language we use in our response, which
+[at] some level […] reminds us of the contingent nature of ourselves and our li-
+ves. […]
+So ekphrasis is not, as James A. W. Heffernan has argued, so much a matter of 
+a paragonal struggle between word and image […] as an attempt to bring art 
+into the realm of our contingencies (KENNEDY, 2012, p. 6).
+
+
+── PAGE 12 ──
+41
+DOSSIÊ
+A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+Kennedy’s later observation that “contemporary British ekphrastic poetry 
+offers significant challenges to established criticism founded on the idea of 
+representation” (p. 11) implies that these developments question the concept 
+both of verbal and of visual representation. This means, among other things, 
+that Steinberg’s passage about Johns’s Shade, Heffernan’s favorite quotation, 
+loses any implied claim to an exemplary status except as an impressive example 
+of the art criticism of its time. It also prompts me to reconsider my latest mini-
+definition of ekphrasis, which still contains the phrase “verbal representation” 
+(see p. XX above). 
+But as I have already indicated, my deliberations developed in my most recent 
+essay, “On Gazers’ Encounters with Visual Art”, further prompted by reflections 
+on Kennedy’s work, have led me to conclude that our understanding of ekphrasis 
+is no longer well served by being approached within either of the traditional 
+modes: not as a struggle between two kinds of representation, and not as a 
+prime example of intermedial transposition within the discourse on basic types 
+of intermediality. Our understanding is also not helped by one-line definitions. 
+Here I reproduce, in slightly altered form, the definition with which I concluded 
+my essay:
+Ekphrasis verbalizes a real or fictive viewer’s perceptions of, or reactions to, 
+characteristic features of non-kinetic visual configurations. It deals with configu-
+rations that actually exist, or suggests the perceived existence of such configu-
+rations in virtual, or fictive, reality. Its materials are purely verbal, but may in-
+volve the exploitation of visual aspects of the verbal medium. It produces a 
+mental image of configurations in a non-kinetic visual medium, making them 
+anschaulich without literally showing anything. It implies a viewer’s gaze at 
+these objects; if they are the product of an encounter with the phenomenal 
+world, it suggests the producer’s way of representing that world according to 
+the semiotic and cultural conventions of the age. Ekphrasis is a parallel proce-
+dure to verbal representations of configurations in other than non-kinetic visual 
+media, including such a kinetic visual medium as film. Many but by no means 
+all instances of ekphrasis can be read as intermedial transpositions. As literary 
+texts, ekphrases can be free-standing or integrated as ekphrastic passages in 
+other texts, including plays, libretti, and filmscripts. There are many kinds of 
+markers that compel the attentive reader to receive certain verbal texts as 
+ekphrastic — depending on the concept of ekphrasis accepted in the respective 
+interpretive community. The present definition may persuade those who read it 
+now, but as a cultural construct it is bound to change.
+UM NOVO OLHAR SOBRE UM VELHO TEMA: ÉCFRASE REVISITADA
+Resumo: Focalizando na poesia ecfrástica, argumento que a definição sucinta de 
+écfrase de James A.W. Heffernan – “representação verbal de uma representação 
+visual” – amplamente citada por outros e ainda defendida em seu ensaio 
+“Ekphrasis: theory” no livro Handbook of Intermediality, 2015, de G. Rippl, 
+torna-se ainda menos defensável agora do que quando a critiquei em 1995. 
+Naquela época, mostrei que a definição excluía descrições ecfrásticas de pintu-
+ras e esculturas não representacionais como também da arquitetura. Agora 
+
+
+── PAGE 13 ──
+CLAUS CLÜVER
+42
+DOSSIÊ
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+tenho o apoio dos recentes estudos de David Kennedy, que demonstram que a 
+écfrase crítica contemporânea e o discurso circundante se voltaram contra o 
+modelo de um paragone baseado na representação. Além disso, argumento que 
+a visão dominante que considera a écfrase um exemplo primário de transposi-
+ção intermidiática é questionável e deveria ser substituída pelo reconhecimento 
+de que ela verbaliza, primeiramente, o encontro de um espectador com configu-
+rações visuais não cinéticas.
+Palavras-chave: Écfrase. Transformação intermidiática. Arte não figurativa.
+REFERÊNCIAS
+ANDRADE, C. D. de. Quadro I (Mondrian). In: ANDRADE, C. D. de. Farewell. Rio 
+de Janeiro: Record, 1996. p. 35.
+CLÜVER, C. Painting into Poetry. Yearbook of Comparative and General Litera-
+ture, v. 27, p. 19-34, 1978. 
+CLÜVER, C. On Intersemiotic Transposition. Poetics Today, v. 10, n. 1, p. 55-90, 
+1989.
+CLÜVER, C. Ekphrasis Reconsidered: On Verbal Representations of Non-Verbal 
+Texts. In: LAGERROTH, U.-B.; LUND, H.; HEDLING, E. (Org.). Interart Poetics: 
+Essays on the Interrelations Between the Arts and Media. Amsterdam; Atlanta: 
+Rodopi, 1997. p. 19-33.
+CLÜVER, C. Quotation, Enargeia, and the Functions of Ekphrasis. In: RO-
+BILLARD, V.; JONGENEEL, E. (Org.). Pictures Into Words: Theoretical and Descrip-
+tive Approaches to Ekphrasis. Amsterdam: VU University Press, 1998. p. 35-52.
+CLÜVER, C. (Re)Writing Edward Hopper. In: SCHMELING, M.; SCHMITZ-
+-EMANS, M. (Org.). Das visuelle Gedächtnis der Literatur. Würzburg: Königshau-
+sen & Neumann, 1999. p. 141-165.
+CLÜVER, C. The Musikgedicht: Notes on an Ekphrastic Genre. In: BERNHART, 
+W.; SCHER, S. P.; WOLF, W. (Org.). Word and Music Studies: Defining the Field. 
+Word and Music Studies, Amsterdam; Atlanta: Rodopi, 1999. v. 1, p. 187-204. 
+CLÜVER, C. The Noigandres Poets and Concrete Art. [online]. Special section on 
+“poesia concreta.” CiberLetras: Revista de crítica literaria y de cultura – Journal 
+of literary criticism and culture, n. 17, 2007.
+CLÜVER, C. The Noigandres Poets and Concrete Art. Pós, Belo Horizonte, v. 1, 
+n. 1, p. 114-135, 2008. 
+CLÜVER, C. Ekphrasis and Adaptation. In: LEITCH, T. (Org.). The Oxford Hand-
+book of Adaptation Studies. New York: Oxford University Press, 2017. p. 459-476.
+CLÜVER, C. On Gazer’s Encounters with Visual Art: Ekphrasis, Readers, Icono-
+texts. In: KENNEDY, D.; MEEK, R. (Org.). Ekphrastic Encounters: New Interdis-
+ciplinary Essays on Literature and the Visual Arts. Manchester: Manchester 
+University Press, 2017. In press.
+FRIED, M. Three American Painters: Kenneth Noland, Jules Olitski, Frank 
+Stella. [1965.] In: FRIED, M. Art and Objecthood. Chicago: The University of 
+Chicago Press, 1998. p. 213-265.
+
+
+── PAGE 14 ──
+43
+DOSSIÊ
+A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+GILBERT, A. (Org.). nichts für schnell-betrachter und bücher-blätterer: Eugen 
+Gomringers Gemeinschafts-arbeiten mit bildenden Künstlern. Bielefeld: Kerber, 
+2015. 
+GOMRINGER, E. Untitled poem (außenrund). In: GILBERT, A. (Org.). nichts für 
+schnell-betrachter und bücher-blätterer: Eugen Gomringers Gemeinschaftsarbe-
+iten mit bildenden Künstlern. Bielefeld: Kerber, 2015. p. 77. 
+GOMRINGER, E. das kreisspiel: zu zweit, zu dritt, zu viert. In: GILBERT, A. 
+(Org.). nichts für schnell-betrachter und bücher-blätterer: Eugen Gomringers Ge-
+meinschaftsarbeiten mit bildenden Künstlern. Bielefeld: Kerber, 2015. p. 208.
+HEFFERNAN, J. A. W. Ekphrasis: Theory. In: RIPPL, G. (Org.). Handbook of 
+Intermediality: Literature – Image – Sound – Music. Handbooks of English and 
+American Studies. Berlin; Boston: De Gruyter, 2015. v. 1, p. 35-49. 
+HEFFERNAN, J. A. W. Ekphrasis, Art Criticism, and the Poetry of Art. In: 
+KARLSEN, O. (Org.). Krysninger: um moderne nordisk lyrikk. Oslo: Unipub for-
+lag, 2008. p. 21-46.
+HEFFERNAN, J. A. W. Museum of Words: The Poetics of Ekphrasis from Homer 
+to Ashbery. Chicago: The University of Chicago Press, 1993. 
+HEFFERNAN, J. A. W. Speaking for Pictures: The Rhetoric of Art Criticism. 
+Word & Image, v. 15, n. 1, p. 19-33, 1999. Rpt. in: HEFFERNAN, J. A. W. Cul-
+tivating Picturacy: Visual Art and Verbal Interventions. Waco: Baylor University 
+Press, 2006. p. 39-68. 
+HEFFERNAN, J. A. W. Speaking for Pictures: Language and Abstract Art. In: 
+HOMEM, R. C.; LAMBERT, M. de F. (Org.). Writing and Seeing: Essays on Word 
+and Image. Amsterdam; New York: Rodopi, 2006. p. 25-44. Rpt. in modified 
+form as: Reza, Pollock, Richter: Language and Abstract Art. In: HEFFERNAN, J. 
+A. W. Cultivating Picturacy: Visual Art and Verbal Interventions. Waco: Baylor 
+University Press, 2006. p. 287-309.
+HOLLANDER, J. Edward Hopper’s Seven A. M. (1948). In: HOLLANDER, J. Tes-
+serae. New York: Knopf, 1993. p. 10. Rpt. in LEVIN, G. (Org.). The Poetry of 
+Solitude: A Tribute to Edward Hopper. New York: Universe, 1995. p. 26. 
+HOLLANDER, J. The Gazer’s Spirit: Poems Speaking to Silent Works of Art. Chi-
+cago: The University of Chicago Press, 1995.
+KENNEDY, D. The Ekphrastic Encounter in Contemporary British Poetry and 
+Elsewhere. Farnham, Surrey, UK; Burlington, VT: Ashgate, 2012. 
+KENNEDY, D. Ekphrasis and Poetry. In: RIPPL, G. (Org.). Handbook of Interme-
+diality: Literature – Image – Sound – Music. Handbooks of English and Ameri-
+can Studies. Berlin; Boston: De Gruyter, 2015. v. 1, p. 82-91.
+KRAUSS, R. E. Grids. In: The Originality of the Avant-Garde and Other Modernist 
+Myths. Cambridge, MA: MIT Press, 1986. 
+KRIEGER, M. Ekphrasis: The Illusion of the Natural Sign. Baltimore: Johns 
+Hopkins University Press, 1992.
+MITCHELL, W. J. T. Iconology: Image, Text, Ideology. Chicago; London: The 
+University of Chicago Press, 1986. 
+
+
+── PAGE 15 ──
+CLAUS CLÜVER
+44
+DOSSIÊ
+TODAS AS LETRAS, São Paulo, v. 19, n. 1, p. 30-44, jan./abr. 2017
+http://dx.doi.org/10.5935/1980-6914/letras.v19n1p30-44
+MITCHELL, W. J. T. Ut Pictura Theoria: Abstract Painting and Language. In: 
+MITCHELL, W. J. T. Picture Theory. Chicago; London: The University of Chicago 
+Press, 1994. p. 213-239.
+PRAGER, H.-G.; GOMRINGER, E. sieben begehren, Portfolio with 8 leaves, 77 x 
+55.5 cm. Rehau: institut für konstruktive kunst und konkrete poesie, 2010. 
+Edition of 7. Rpt. in GILBERT, A. (Org.). nichts für schnell-betrachter und bücher-
+blätterer: Eugen Gomringers Gemeinschaftsarbeiten mit bildenden Künstlern. 
+Bielefeld: Kerber, 2015. p. 207-211. 
+RAJEWSKY, I. O. Border Talks: The Problematic Status of Media Borders in the 
+Current Debate about Intermediality. In: ELLESTRÖM, L. (Org.). Media Borders, 
+Multimodality and Intermediality. New York: Palgrave Macmillan, 2010. p. 51-80. 
+RAJEWSKY, I. O. Intermediality, Intertextuality and Remediation: A Literary 
+Perspective on Intermediality. Intermédialités/Intermedialities. (Special issue 
+on: “Remédier/Remediation”, edited by P. Despoix and Y. Spielmann. Montreal, 
+Centre de Recherche sur l’Intermédialité), n. 6, p. 43-64, 2005.
+RIPPL, G. Beschreibungs-Kunst: Zur intermedialen Poetik angloamerikanischer 
+Ikontexte (1880-2000). München: Fink, 2005. 
+RIPPL, G. Introduction. In: RIPPL, G. (Org.). Handbook of Intermediality: Litera-
+ture – Image – Sound – Music. Handbooks of English and American Studies. 
+Berlin; Boston: De Gruyter, 2015. v. 1, p. 1-31.
+RIPPL, G. Postcolonial Ekphrasis in the Contemporary Anglophone Indian 
+Novel. In: RIPPL, G. (Org.). Handbook of Intermediality: Literature – Image – 
+Sound – Music. Handbooks of English and American Studies. Berlin; Boston: 
+De Gruyter, 2015. v. 1, p. 128-155.
+RIPPL, G. (Org.). Handbook of Intermediality: Literature – Image – Sound – Music. 
+Handbooks of English and American Studies. Berlin; Boston: De Gruyter, 2015. 
+v. 1.
+SENA, J. de. Arte de Música, 1968. In: Obras de Jorge de Sena: Poesia II. 2. ed. 
+Lisboa: Edições 70, 1988. p. 163-212. Notas, p. 223-231. 
+SONTAG, S. Against Interpretation. In: MEYER, J. (Org.). Minimalism. London: 
+Phaidon, 2000. 
+STEINBERG, L. Other Criteria. London: Oxford University Press, 1972.
+TAMEN, P. Como se Constrói uma Casa. In: TAMEN, P. Depois de Ver. Lisboa: 
+Quetzal Editores, 1995. p. 60.
+WYSS, M. teilkreis-projektionen: zwölf variationen. Locarno: éditions Lafranca, 
+1977.
+Recebido em janeiro de 2017.
+Aprovado em fevereiro de 2017.

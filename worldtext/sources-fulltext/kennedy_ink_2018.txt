@@ -1,0 +1,759 @@
+# Ink \& After
+# Source: Kennedy - 2018 - Ink & After.pdf
+# BibTeX key: kennedy_ink_2018
+# Zotero dir: 3110
+# Extracted chars: 45409
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Ink & After:
+Ekphrasis, Intermediality, Intersemiosis, and the
+Collaborative Chains of Thomas Ingmire
+David Kennedy
+University of Hull
+Abstract
+First, I survey ideas of translation, intersemiosis, and intermediality draw-
+ing on the work of European scholars. These include Roman Jakobson and his 1959
+definition of intersemiosis as “an interpretation of verbal signs by means of non-verbal
+sign systems” ( Jakobson 2000 [1959]: 261). I also draw on “Towards a Model of Inter-
+semiotic Translation,” by Daniella Aguiar and Joao Queiroz, who suggest the concept
+of “creative sign transmutation” (2009). Second, I discuss the collaborations of the
+US calligraphic artist and book illuminator Thomas Ingmire. Inviting US and UK
+poets to collaborate with him by writing poems in response to sheets of calligraphic
+marks, Ingmire then produces highly artistic, calligraphic versions of the poems. In the
+example I discuss, the poem was then produced as an artist’s book by a Japanese artist
+using ancient paper-folding and bookmaking techniques. Finally, a Japanese composer
+produced a musical composition in response to the poem and the artist’s book. It could
+be argued that poetry written in response to calligraphic marks is at the very limits of
+both mimesis and ekphrasis. However, I argue that it is precisely at such limits that
+intermediality begins to happen. The article concludes with David Annwn’s proposal
+of new categories of ekphrasis.
+Keywords
+intermediality, intersemiotic, calligraphy
+In his seminal study Picture Theory: Essays on Verbal and Visual Representation,
+W. J. T. Mitchell makes the surprising assertion that “All media are mixed
+media, combining different codes, discursive conventions, channels, sensory
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324481
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+and cognitive modes” (1994: 95). What needs to be added to Mitchell’s asser-
+tion is that we live in an age where our culture is now profoundly ekphrastic
+and intersemiotic. Our culture assumes that we have reading and interpre-
+tative competencies derived from exposure to a variety of media. It relies
+on ekphrastic and intersemiotic translation in ways that it never did before.
+One can point, for example, to the Hollywood blockbusters based on best-
+selling computer games or cult graphic novels. More recently, and more
+unusually, in 2013, the fortieth anniversary of Pink Floyd’s album Dark Side
+of the Moon, British playwright Tom Stoppard wrote a play based on the
+album for BBC Radio 2, called Darkside (broadcast August 26, 2013). More-
+over, in February 2013 Turkish pianist Aysedemiz Gokcin released a CD
+of Pink Floyd songs reimagined as nineteenth-century Romantic piano
+pieces. The BBC reported the story (February 6, 2013) under the headline
+“The Turkish pianist ‘Lisztifying’ Pink Floyd.” In the light of such exam-
+ples, we can perhaps rewrite Mitchell’s assertion and say that “All media
+are open to other media, their different codes, discursive conventions, chan-
+nels, sensory and cognitive modes.”1
+1. Ekphrasis, Intermediality, and Intersemiosis: Cultural “Turns” and
+Cultural Politics
+Before moving on to the main focus of this article—the work of American
+calligrapher Thomas Ingmire and his collaborators—I want to establish
+what might be termed a context of consideration for his work and collabo-
+rations. In the following pages, I outline a number of typologies of interme-
+diality and a model of intersemiotic translation. It is not my intention to
+suggest that the works in Ingmire’s collaborative chain can or should be
+measured exactly within any or all of these theoretical frameworks. Instead,
+I want to give readers the opportunity to reflect on the cultural moment in
+which Ingmire’s work is taking place. There then follows a brief discussion
+of a recent example of literary translation that reveals what is at stake when
+a creative transfer takes place between image and word, between two
+languages, and between two different poetics. I want to suggest that this
+example belongs to the same cultural moment as Ingmire’s collaborations.
+I bring ekphrasis into the discussion because, in the context of cultural
+“turns,” it is my contention that we are living through an “ekphrastic turn” as
+much as an “intermedial” one. Ekphrasis has become a “hot” topic. There
+1. An even stranger example is the use of graphs of sales figures of David Bowie’s CDs to
+produce electronic music. The process is called “sonification,” the sonic rendering of data that
+isn’t sound. See Robinson (2016).
+320
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+were several conferences on ekphrasis in the United Kingdom in the period
+2011–13, and 2014 saw the University of Dundee host the triennial confer-
+ence of the International Association of Word and Image Studies (IAWIS).
+In recent years a number of wide-ranging studies have reimagined ekphrasis:
+Stephen Cheeke’s Writing for Art: The Aesthetics of Ekphrasis (2008); Elizabeth
+Bergman Loizeaux’s Twentieth-Century Poetry and the Visual Arts (2008); Liliane
+Louvel’s Poetics of the Iconotext (2011); Richard Meek’s Narrating the Visual in
+Shakespeare (2009); and my own The Ekphrastic Encounter in Contemporary British
+Poetry and Elsewhere (2012). Similarly, the journals Classical Philology (2007),
+French Studies (2010), and Word & Image (2011) have all devoted special issues
+to new perspectives on ekphrasis. How can we account for this renewed
+interest? First, ekphrasis is the intersemiotic and interdisciplinary subgenre
+par excellence, and therefore chimes with the wider intersemiotic and inter-
+cultural moment as material moves back and forth across and between cul-
+tures and languages. Second, the upsurge of interest in ekphrasis is, I would
+hazard, almost nostalgic. Ekphrasis appears to confirm that word can indeed
+explain and mediate image when, in fact, recent events tell us that it is often
+the other way round. The images from Guantanamo Bay, Abu Ghraib, and
+Wikileaks show us a “truth” or a “reality” that is not present in the official
+accounts of the war in Iraq and of the so-called war on terror. Finally, a
+question: is the upsurge of interest in ekphrasis symptomatic of an “after
+theory” moment in literary studies because ekphrasis seems to invite and
+promise relatively unproblematic, conservative, and largely descriptive read-
+ings? Indeed, as I have noted elsewhere, large areas of ekphrastic criticism
+seem to rely on reproducing ideas of art and representation as if modernism
+and postmodernism never happened (see Kennedy 2012). Intermediality,
+intersemiotics, and translation theory provide us with ways of writing about
+ekphrasis that do not swerve away from its contemporary complexities.
+Werner Wolf (2011: 3) has argued that we are living through an “inter-
+medial turn” whose key concepts are mediality and intermediality. At the
+same time, Jens Schro¨ter invokes Rosalind Kraus’s argument that we are in
+a “post-medium condition,” and goes on to quote Lev Manovich on the
+dilution of the concept of medium: “although the concept of medium has
+become obsolete to some extent, it continues to be used from ‘sheer inertia.’”
+This, he contends, is because it is difficult to replace it with new conceptual
+systems, “so rather than getting rid of media typology altogether, we keep
+adding more and more categories” (Manovich 2001). The very spread and
+extension of the concept of medium to ever more objects, phenomena, and
+ensembles, and the accompanying uncertainty of how properly to define
+“medium” can be interpreted as part of the problem, which, as Manovich
+makes very clear, is particularly acute for art (Schro¨ter 2010: 109).
+Kennedy
+† Ink & After
+321
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+Whether we embrace this or critique it, our response is, Schro¨ter reminds
+us, necessarily political. Intermediality and/or the “post-medium condition”
+is either “good” or “bad” (ibid.: 117–18). “Good” intermediality exemplifies
+the breakdown of the capitalist division of labor. In contrast, nonintermedial
+artforms are “monomedia” that “reproduce in their ‘specifics’ the very divi-
+sion of labour that needs to be overcome in post-capitalist societies” (ibid.:
+118). “Bad” intermediality represents and performs “a capitulation of art to
+capitalist spectacle culture. Its ‘autonomy,’ if this refers to the area of special
+competencies circumscribed by medial reflexivity and purity, i.e., ‘self-
+definition,’ is lost” (ibid.: 112).
+There is no doubt, however, that works of art and literature are being
+produced that exceed, wholly or in part, the traditional categorizations.
+Gabriele Rippl (2015: 1) notes “the sheer number of Anglophone literary
+texts which participate in intermedial interfaces” (e.g., Salman Rushdie’s The
+Moor’s Last Sigh [1995] and Siri Hustvedt’s What I Loved [2003]), and goes on to
+argue that any discussion of art forms has to take place “against the back-
+drop of their medial networks, what Bernd Herzogenrath calls their ‘arch-
+intermediality’” (ibid.: 1). Such a view explains recent attempts at typologies
+of intermediality. If we cannot come up with new medium names, we can at
+least find new ways of talking about new works. The best known typology
+has been formulated by Irina Rajewsky (2005), who proposes three cate-
+gories: “intermedial” (works that have to do with crossing borders between
+media); “intramedial” (works that do not involve crossing media boundaries);
+and “transmedial” (the appearance of a motif or a style across a variety of
+different media). Wolf (2005: 253–55) has proposed a four-part typology to
+address intermediality’s principal phenomena or variants. He begins with
+“transmediality,” which denotes things that are not specific to a particular
+medium but appear across a range of media. Second is “intermedial trans-
+position,” which refers to elements being transferred from one medium to
+another, for example, Stoppard’s play about Pink Floyd’s classic album.
+Third is “intermedial relations/references,” which describes what happens
+when “two or more media are . . . present in a given semiotic entity,” for
+example, an ekphrastic poem. Finally, there is “multi- or plurimediality,”
+which denotes a combination of media, for example, a ballet or a radio
+dramatization.
+A different type of typology has been proposed by Schro¨ter (2012: 16) who
+is less interested in defining intermediality than in describing “what ways of
+talking about intermediality, in a most general sense, there are.” His typology
+is also in four parts. “Synthetic intermediality” denotes a “fusion of several
+media into a new medium—the intermedium—that supposedly is more
+than the sum of its parts” (ibid.). He gives as examples 1960s “happenings”
+322
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+and the Fluxus movement. “Formal or transmedial intermediality” denotes
+structures or features such as fictionality or rhythmicity that can be found
+across a range of media. “Transformational intermediality” describes the
+representation of one medium through another. Schro¨ter argues that in
+representations—for example, a text about a photograph—we are always
+“already dealing with a relation between two media” (ibid.: 27). Finally, he
+proposes “ontological intermediality or ontomediality.” This is his version of
+Herzogenrath’s “arch-intermediality” and, indeed, of the Mitchell assertion
+with which this article began. Schro¨ter’s discursive typology should be read
+as a refinement, not an abandonment, of his earlier politicized reading of
+intermediality.
+What is missing from all these typologies is gender. Indeed, it is arguable
+that women artists were exploring intermediality long before the theorists.
+One can point to the work of Eva Hesse and the Brazilian artist Lygia Clark.
+The concept of the “fantasmatic,” coined by Clark seems particularly rel-
+evant to intermediality. It has been glossed by the art historian Susan Best as
+“something that is not reducible to visibility . . . a term that covers the sense of
+experiencing something without a real or identifiable referent” (Best 2014:
+140). Clark’s conception of the work of art as a living organism or a quasi-
+body, which is neither painting nor sculpture and which requires the viewer
+to become a participant and handle it also seems highly pertinent (see Best
+2014: 47–66).
+Intermediality is closely related to intersemiosis and to intersemiotic trans-
+lation. Roman Jakobson’s definition of intersemiosis in his 1959 paper “On
+Linguistic Aspects of Translation” is, we might remind ourselves, quite
+specific. Although he refers to the “transmutation of signs,” he defines inter-
+semiosis as “an interpretation of verbal signs by means of non-verbal sign
+systems” ( Jakobson 2000 [1959]: 261). This might serve in an account of, say,
+a film adaptation of a novel, but it could seem limited and limiting in other
+contexts. However, it is now accepted critical practice to take a more expan-
+sive view of intersemiosis and develop Jakobson’s emphasis on what he terms
+an “extra-linguistic horizon.” So, for example, we can sketch a chain of
+intersemiotic translations involving Mallarme´’s poem “L’apre`s-midi d’un
+faun” as a source, and Debussy’s music, Fokine’s choreography, and Nijin-
+sky’s performance as multiple targets.
+In their paper “Towards a Model of Intersemiotic Translation,” Daniella
+Aguiar and Joao Queiroz (2009: 3) suggest the concept of “creative sign
+transmutation.” They draw on the work of Dinda Gorle´e who argues that
+intersemiosis is the “‘reconstruction’ of an artwork into a distinctive semiotic
+system, creating a sophisticated collection of interconnected signs.” The
+emphasis on “reconstruction” and “creation” seems to suggest that it is the
+Kennedy
+† Ink & After
+323
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+act or process of intersemiosis itself that bestows semiotic distinctiveness in
+the target system rather than any distinctive features of the target system.
+Intersemiosis, in this view, is as much a becoming as a transformation or
+crossing of boundaries between two systems.
+The most useful aspect of Aguiar and Queiroz’s paper is perhaps their
+assertion (2009: 4) that “Emphatically, a semiotic process is not a bi-lateral
+relation, bi-univocal, between two entities.” They go on to argue that in both
+intersemiotics and translation, we need to reconceptualize source and target
+as multilayered or multilevel systems. This means that “a translation is a
+relation between multi-layered processes, and an intersemiotic translation
+(IT) can be described as a multi-hierarchical process of relation between
+semi-independent layers of descriptions” (ibid.).
+To unpack this a little, the hierarchical arrangement of elements can
+change in the translation/transition from source to target. To quote Aguiar
+and Queiroz (ibid.) again, “certain layers have their relevant properties
+selected and translated into new materials and processes.” They go on to
+note that “for example, from literature to dance, linguistic layers (rhythmic,
+prosodic, syntactic, or psychological ambience) are translated into dynamic
+movement, organization of space, light design, costumes, scenography, etc.
+Notably, a ‘mapping of correlations’ cannot be easily established between
+layers of different nature (different semiotic systems)” (ibid.). This presents a
+challenge to both the translator and the critic because, if a translation results
+in very different materials and structures, “how is it possible to compare
+semiotics of source and target?” (ibid.).
+Changes to the hierarchical arrangement of elements seem particularly
+relevant to the long-established precursor of both intermediality and inter-
+semiosis that is ekphrasis. It is certainly the case that, post-Auden at least, the
+impulse of ekphrastic poetry has been essentially deconstructionist, using ele-
+ments of the source work against itself to produce the target poem. Or we
+might say, using Aguiar and Queiroz’s terminology, that ekphrasis is an act
+and process of relayering.
+2. Farre´s’s Hopper, Venuti’s Farre´s: An Intermedial and Intersemiotic Example
+The difficulties of comparing the semiotics of source and target can be seen in
+a recent example of literary translation: Catalan poet Ernest Farre´s’s book
+Hopper, translated by Lawrence Venuti and published by Carcanet in 2010.
+Farre´s writes poems in response to fifty-one of Edward Hopper’s paintings,
+including all the well-known ones such as Nighthawks (1942). There are, of
+course, a lot of things that one could say about Hopper’s paintings—for
+example, how the very few exceptional paintings derive their disturbing
+324
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+drama and dynamism by going against reading conventions and drawing us
+from right to left. A couple of remarks by Mark Ford in response to the 2004
+Tate Modern exhibition seem especially pertinent. Ford notes the “expansive
+inner dramas” of many of the paintings but adds that “the narratives [Hop-
+per’s] scenarios at first seem to illustrate never materialize” (2004: 114). He
+goes on to note that “though the protagonists themselves are nearly always
+deep in reveries, we are not encouraged to identify with them or probe their
+thoughts.”
+This goes to the heart of Hopper’s enduring fascination: we look into the
+paintings expecting narrative but what we often get are the urban spaces of
+twentieth-century American capitalism, spaces that are empty to emphasize
+that they are inhospitable. What we get are characters self-consciously trying
+to fit themselves into public spaces where no one belongs. What we get is a
+voyeurism of despair. This makes it all the more surprising that Farre´s chose
+to write most of his poems in the form of monologues and, in the case of
+Nighthawks, in the form of a male-female dialogue. Even more surprising is
+what Venuti tells us about his translation. He says that Farre´s’s poems “com-
+bine the current standard dialect” of Catalan “with colloquialisms and slang,
+poetical archaisms, academic and technical jargons, foreign loan words. He
+frequently includes the idiomatic expressions in which Catalan is abundant,
+as well as cliche´s from elite and popular culture” (Venuti 2010: introduction,
+xvii).
+In one sense, that sounds exactly how we expect contemporary poetry to
+be. Venuti tells us that he has tried “to match this heterogeneity.” However,
+he adds that “the English of my translations goes much further.” Venuti says
+he decided to translate the poems into “an American vernacular” and that he
+added into them phrases taken from Hopper’s own writings and the writings
+of his wife Josephine Nivison Hopper. He identifies these phrases in notes to
+the poems—otherwise, we would have to know a lot about Hopper to spot
+them, a job made doubly hard by the fact that Hopper didn’t say much about
+the evolution or meaning of his paintings. So, throughout the translated
+volume, Hopper is speaking out of his paintings and therefore about them in
+ways that he never did in life.
+Now, in one sense there is no problem with this if we remember that, when
+pressed to explain what he was after in one late painting, Hopper famously
+said “I’m after me” (in Ford 2004: 114), and if we remember that his wife
+Josephine modeled for most of the women he painted. But Venuti seems
+to have magnified the dubious engagement of Farre´s’s poems. The chatty
+monologues simply fall short of the challenge of Hopper’s work in ways
+that the poems of Auden and Ashbery do not in relation to Breughel and
+Parmigianino. Indeed, Farre´s’s most successful poems seem to be those where
+Kennedy
+† Ink & After
+325
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+he stands outside the paintings and wonders what their urban emptinesses
+and voyeuristically viewed women might mean. Similarly, Venuti (in the
+context of Ford’s remarks) seems to have given in to the temptation to add
+in narrative and inner life. Perhaps none of this matters. There’s a counter-
+argument that says that ekphrastic poems cannot and should not be judged
+in terms of how authentically they reproduce paintings and sculptures.
+However, Venuti’s notes to many of the poems have the effect of placing
+the poems in the context of how the paintings were made and, in some cases,
+of what they mean. We are being given the “truth” behind the paintings and
+therefore being asked to judge their “truthfulness” and the “truthfulness” of
+the poems.
+If we return to Farre´s and Hopper, the poems domesticate the paintings
+and turn them into habitable spaces—that is, precisely the kind of spaces they
+are not. If we really could step into the world of Hopper’s paintings, it would
+be terrifying—women with botched makeup that makes them look like
+smashed flowers, the men with faces from a medieval bestiary. Ekphrasis,
+in this context, is utopian because it needs to imagine that art is a place where
+we might be able to live—or, rather, it can barely cope with art’s unhome-
+liness. Indeed, John Ashbery’s “Self-Portrait in a Convex Mirror” reminds
+us that we must leave the museum “by closing time. You can’t live there”
+(Ashbery 1987: 207). Art never stops being unhomely.
+So what Venuti has produced is not so much translations of Farre´s’s poems
+as transpositions of them. Venuti wants to give us a version of a twentieth-
+century American experience that is at several removes from Hopper’s paint-
+ings. The result seems reminiscent of what Paraschivescu (2012: 66–76) has
+identified as the creation of doppelga¨nger avatars in a range of ekphrastic
+writing. Farre´s can also be said to have produced avatars to represent Hop-
+per’s paintings.
+3. The Collaborative Chains of Thomas Ingmire
+Representations or reconstructions of semiotic and/or textual identities into
+distinctive systems brings me to the main subject of this article: the collabo-
+rations of Thomas Ingmire. In 2011, the American calligrapher and book
+illuminator, Thomas Ingmire, invited a number of poets interested in visual
+poetics to work with him on a collaborative word and image project. Ingmire,
+born in 1942, originally trained as a landscape architect and has been work-
+ing as a calligrapher and book illuminator for the past thirty years. He has
+been involved in a number of projects, most notably the St. John’s Bible.
+The poets Ingmire chose were from the United Kingdom, United States,
+Philippines, and Singapore and included Alan Halsey, Jack Hirschman,
+326
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+Geraldine Monk, and Robert Sheppard. The project was initiated by Ing-
+mire sending the poets several sheets of calligraphically derived drawing. The
+poetry project grew out of an earlier collaboration between Ingmire and the
+British poet David Annwn. This initial collaboration involved, in Ingmire’s
+words, “an exploration of the relationships between poetry, music, and cal-
+ligraphy that, in many respects represents visits for both of us to new con-
+ceptual spaces” (personal communication, November 2011). At first, Ingmire
+had thought to send the same calligraphic images to all the poets. As a type of
+research, he thought it would be interesting to see how each poet would
+respond to the same image. In the end, however, he decided to send each
+poet different works. He sent five or six different images to each because he
+also wanted to explore new letterforms and compositions and felt that a range
+of diverse images would work best.
+Ingmire wrote to the British artist and poet Christine Kennedy as follows:
+I would like very much to work with one of your poems. Normally I would select
+a poem and ask for your permission to use it for the creation of a calligraphic
+translation. However, in this instance, because it is key to advancing my research,
+I would like to have you choose the poem for me . . . with the assistance of the
+following guidelines.
+A number of images are attached to this letter. They are spontaneous marks
+made while listening to music. If it is possible, can you align one of your poems
+to any of these images? I am not looking for anything particular in this; the only
+connection that is important is the one that you make. Alternatively, if your time
+permits and you have the interest, your response could be the writing of a new
+poem. . . . The key for me is having the connection between the visual image and
+the poem. My intention then will be to create a calligraphic visual/textural
+response to your work. (Personal letter to Christine Kennedy, by permission
+from C. Kennedy)
+Two things are of immediate interest here: first, the idea of a calligrapher
+making “spontaneous marks”; second, Ingmire’s use of the term “calligraphic
+translation.” The Greek roots of “calligraphy” are kallo6 (beauty) and
+grawή (writing), and calligraphic practice can be defined as the art of giving
+form to signs in an expressive, harmonious and skilful manner. It is interesting
+to note here that the contemporary Tunisian artist and calligrapher Nja
+Mahdaoui considers himself both an explorer of signs and a choreographer
+of letters (see his personal website). Calligraphy takes the letter and the word
+and turns it into something else. What is “carried across”—to return to the
+literal meaning of translation for a moment—is not meaning per se.
+Calligraphy is not, then, about writing, and it is not necessarily about com-
+munication of meaning. Indeed, there is an increasing body of calligraphic
+art in English that is as hard for an English-speaker to read as examples of
+Kennedy
+† Ink & After
+327
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+calligraphy in Arabic or Chinese. Ingmire’s work can be located in a wider
+area of contemporary art practice that places more emphasis on the visual
+and on the performative. The work of self-identified “action calligrapher”
+Timothy Donaldson would be a good example of the latter (see Bilston
+Gallery website). For the calligrapher or calligraphic artist, the work is, at
+least in part, the record of the performative movement of the body, the
+hand, and the pen. This movement is, in turn, an exploration of line and
+space: both the combination of line and space that makes up letters and the
+form of the letter and the space of the page. In the words of calligrapher
+Brody Neuenschwander (best known for his calligraphic work in the Peter
+Greenaway film The Pillow Book [1997]), “where typography seeks balance,
+clarity and optimal legibility, calligraphy seeks expression and a dynamic
+composition of black and white elements” and looks for “the perfect marriage
+of verbal and visual content” (see Neuenschwander’s website). To gloss this a
+little, the finished calligraphic work is a record of the expenditure of energy in
+physical movement, and the perfect marriage of the verbal and the visual
+may be a matter of taste as well as a species of possible-impossibility. In this
+sense, the work of contemporary calligraphers like Ingmire, Donaldson, and
+Neuenschwander is always already intermedial. Their work enacts a per-
+petual flickering between signifier and signified, between language that sig-
+nifies something and an image that alludes both to language and something
+beyond it.
+Neuenschwander, like many late twentieth and early twenty-first century
+calligraphers, has been greatly influenced by the work of German calligra-
+pher and theorist Hans-Joachim Burgert (1928–2009). Burgert’s theoretical
+writing emphasizes the “visualization of the word,” and that “calligraphy
+is concerned with the creation of a sequence and arrangement of forms.”
+(see Neuenschwander’s website). What calligraphy produces is closer to
+non-Western letter forms and writing traditions. For example, Chinese
+and Japanese characters are made up of strokes and flicks suited to being
+rendered by the brush, while Western capitals are straight and angular
+because they were originally chiseled on monuments. Similarly, lowercase
+letters are more flowing because they were written with quill pens. In some
+aspects, calligraphy seems to be a process where Western forms are produced
+using Eastern techniques. In the words of the Ukrainian calligrapher Aleksei
+Chekal, “calligraphy is a step forward into the past or a stroke back into the
+future!” (Calligraphy Expo website).
+This relation of past and future, old and new, is very pertinent to the
+collaboration between Kennedy and Ingmire. As I have already indicated,
+Ingmire sent Kennedy a number of calligraphic images. Kennedy’s initial
+328
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+response was to e-mail Ingmire with details of how she would work with the
+images. Her own work draws on an abiding interest in the connection
+between visual representation and verbal representation. For her, the work
+of art is a mark in general, and this is the nature of the text in its fullest sense.
+Kennedy began by choosing a calligraphic image and scanning it using soft-
+ware called Abby Fine Reader, software usually used for changing source
+materials in text documents. This read some but not all of the marks as
+English language characters. Christine Kennedy turned the page round and
+scanned it in all four directions to maximize the capture of characters. The
+characters and, in some cases, the text produced were then processed using
+Microsoft Word’s spellcheck facility.
+These two processes served to interpret the calligraphic image into lan-
+guage, and Kennedy ended up with many suggestions for vocabulary from
+which she was able to derive a pool of English language words to work with
+in composing a poem. Kennedy e-mailed Ingmire, “I think of this sort of
+compositional method as a form of, or related to, a technological divination,”
+and she used the word “oracular” to describe the process (e-mail Kennedy to
+Ingmire, November 13, 2012). The software processes enabled Kennedy to
+find, in her words, a “temperament” within the pages that Ingmire sent.
+Can we decide on the nature of Ingmire’s making of marks while listening
+to music? Can Kennedy’s scanning and spellchecking be called ekphrasis? To
+answer the first question, we need to decide whether Ingmire’s marks are just
+marks or something else. For the purposes of this discussion, we can call them
+“art signs,” as in certain bodies of twentieth-century American art, where
+there is a well-established practice of using calligraphy. For example, Mark
+Tobey (1890–1976) overlaid white or light-colored calligraphic-type marks
+and symbols onto abstract color fields. Similarly, one can point to the black
+marks and signs in the work of Franz Kline (1910–62) and to the black and
+white paintings, Calligraphic Studies and Octavio Paz Suite of Robert Motherwell
+(1915–91). In answer to the second question, it seems clear that Kennedy
+came up with a new way of making an ekphrasis. One wonders why no one
+had thought before to scan an image and read it as text.
+The pool of English language words Kennedy came up with was then
+subjected to cut-up procedures. The text produced suggested to Kennedy the
+idea of tayu, a Japanese word meaning the one who sits with the musician in
+traditional Japanese theater and tells a story, but also the predecessors of the
+geisha. Tayu arts included poetic composition and calligraphy as well as
+dance, singing, musicianship, and tea ceremony. Once again, we can see
+calligraphy pulling Western artists and writers toward the East.
+Here is the poem Kennedy produced:
+Kennedy
+† Ink & After
+329
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 12 ──
+Diva Fall Jive: Mr Verb Visits The Tayu
+Unlit eve came
+Mr Verb visits the tayu. “Jive the quill.”
+***
+crania full as cans
+cyanic tofu tea dill oil jelly
+Lord I never Fall
+if I never Jive
+Ivy sash to tie all
+my toe
+can’t fly
+run flail Fall
+run flail Fall
+Ivy ran
+I fell
+Jolt it
+Lilt if it errs
+So sass Jives
+***
+Quill the Jive
+tea urn
+fill it
+Java tea
+crane
+lark
+it is a rare lily
+***
+“ . . . if by my eye it is uglier –
+shush, Diva!”
+330
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 13 ──
+Ingmire commentsthat “herprocessof getting toherpoeminstantly intrigued
+me. I did feel from the beginning that the image she chose had a kind of
+delight and rhythm that was matched by the sense and images of the poem.
+Because of the match, working toward lettering was actually pretty easy. Also
+becauseof the link to Japanese, writing vertically seemed an obvious decision”
+(e-mail to author, August 27, 2013). He goes on to say that “I tend to think
+about space in my pages which is a different focus to most calligraphers.”
+Indeed, Ingmire’s approach conceives of the page as a field that contributes
+to the finished work where many calligraphers focus on the letterforms.
+The next process was the making of the lettering into a book. Ingmire
+began by making a calligraphic scroll. He made all the poems he received
+into individual books, with the intention of combining them into a book
+where the poems are linked by either verbal or visual transitions. In the
+case of Kennedy’s poem, “Diva Fall Jive: Mr Verb Visits The Tayu,” the
+poem’s Japanese references linked in Ingmire’s mind with a Japanese
+book- and mixed-media artist whom he knew, Kyoko Matsunaga. Born in
+Hyogo, Japan, Matsunaga graduated from Kyoto Seika University with a
+degree in printmaking, worked as a graphic designer, and then studied with a
+bookbinder. She is now based in the San Francisco Bay area.
+Matsunaga’s book of Ingmire’s calligraphic version of Kennedy’s poem
+can be opened not only as a conventional book but also as a circular structure.
+This structure, called Waterwheel binding, is one that Matsunaga invented
+for one of her own artist’s books. The structure has one long accordion spine,
+and single sheets are attached to each of the valley folds by weaving with long
+paper strips without glue. Waterwheel binding was used at Ingmire’s request.
+Matsunaga comments that:
+When Thomas requested me to apply the Waterwheel binding to [the] Diva book,
+I too thought it’s a great idea, because of the material of the poem. The book
+flexibly spreads like a fan that Geisha have, and the accordion spine reminds me
+of Japanese folded screens. And I also loved the way Christine found the Japanese
+word “tayu.” It’s very intriguing. If the poem sounded like just a typical image
+of Japan, I would not be so interested in this project because I don’t want to rely on
+my nationality or to make “exotic” work in the Western world on purpose. Diva
+Fall Jive has a stable . . . rhythm and sounds a bit comical to me. (E-mail to the
+author, August 31, 2013)
+It is particularly interesting to note Matsunaga’s comments on the sound and
+rhythm of the poem, and the implication that they somehow help the work to
+avoid crass Western ideas of Japan and the East.
+Sound links to the next process and to one of the more surprising aspects
+of the collaborative chain I am presenting in this article. Having received
+Kennedy
+† Ink & After
+331
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 14 ──
+poems, produced them calligraphically and begun the process of making
+them into books, Ingmire invited composers and musicians to participate
+in what he calls “[visits] to new conceptual spaces” (see website). Here we
+have another Japanese connection because the composer who responded to
+Kennedy’s poem is UK-based Japanese guitarist Hide` Takemoto, whom
+Ingmire met on a visit to England some years ago, and whom he later invited
+to participate in the current project. Takemoto’s first composition was in
+response to Geraldine Monk’s poem “Songings.” Takemoto’s piece of music
+was written simply from Ingmire’s calligraphic image before Monk re-
+sponded with her poem. In his own words, Takemoto “followed and trans-
+lated the direction of each line of the image to the melodic lines to start the
+piece with” (e-mail to the author, August 31, 2013).
+“Honey Rain,” the piece that Takemoto wrote in response to Kennedy’s
+poem, followed a slightly different process. This time, Takemoto “studied the
+image.” Image, for him, meant both the calligraphic source and the finished
+work. Takemoto comments that “it’s not a direct translation of the poem as
+you cannot translate it back to the original poem from my music, but I wrote
+it as a kind of background music for Thomas and Christine Kennedy. I would
+have written it more dramatic and dynamic if I composed it as a stand-alone
+piece of music, but I kept it calm and plain so hopefully it sounded well with
+Thomas and Christine’s work” (e-mail to the author, August 31, 2013).
+Takemoto’s music might be termed a kind of para-semiosis. The American
+composer Clifford Burke has also written music in response to another poem
+in the project by UK poet Robert Sheppard. As I’ve already noted, the
+processes of intersemiosis and translation are far from complete. Ingmire
+intends to combine the individual poem books into a single book where the
+poems are linked by either verbal or visual transitions. He also foresees
+another step where he responds calligraphically to the music written in
+response to his responses to the poems. This takes us almost full circle in
+the sense that Ingmire’s initial calligraphic images were made while listening
+to music. He notes that he has already worked a little in this manner with
+Allen Fisher’s poem “Human Cosmos.” Ingmire notes that “he sent a poem
+without choosing an image. I asked him for music that he thought linked to
+his poem. I used the music as my starting point to create the interpretation to
+his poem” (e-mail to the author, August 27, 2013).
+In conclusion, the collaborative chain that Thomas Ingmire initiated with
+his sheets of calligraphic marks cannot perhaps be called strictly ekphrastic,
+intermedial, or intersemiotic and yet it touches, at certain points, on one or all
+of those categories. At first sight, each new work in the chain appears to be
+discrete within its own medium, but its creation relied on a process of inter-
+action that eludes easy categorization. Crucially, each new work in the chain
+332
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 15 ──
+was based on an entirely new source for each collaborator. Each collabo-
+rator’s chosen target necessitated the selection and translation of what Aguiar
+and Queiroz would call different layers and properties. There is a pleasing
+sense of completion in a Japanese-inspired poem somehow ending up as a
+piece of music by a Japanese composer. It is worth adding that Ingmire’s
+project is not unique. Anyone interested in the possibilities and potentialities
+that his project suggests should visit the e-zine Versejunkies: Intersemiotic Trans-
+lation Journal. Here, a non-English source poem can find itself translated into
+an English poem, a graffiti portrait or a piece of music.
+4. A Final Note: Extending Ekphrasis
+Thomas Ingmire’s collaborations with poets grew from an initial collabora-
+tion with British poet David Annwn. Annwn’s own account of the collab-
+oration can be found in his article “‘Flying Through’—Poetry/Calligraphy
+Collaborations with Thomas Ingmire” (2012). Their work together encom-
+passed the exchange of words and images but also a workshop they taught
+together for calligraphy students. Annwn’s article places the collaboration
+within an ekphrastic framework but attempts to move beyond it by offering
+some new terms:
+Figure 1
+Featured in Annwyn’s “‘Flying Through’ — Poetry/Calligraphy Collabora-
+tions with Thomas Ingmire” (2012). By permission from David Annwyn
+Kennedy
+† Ink & After
+333
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 16 ──
+Annwn’s assertion that these new categories “could spread the work in
+further directions” sounds like a nicely understated manifesto for all who
+produce ekphrastic, intermedial, or intersemiotic work and for all of us who
+write about their work—all of us, that is, who translate or intermediate it into
+criticism.
+Note (02.03.17): Hide` Takemoto will shortly be releasing his as yet untitled
+CD, which will contain a version of the piece “Honey Rain.” Contact him at
+hide@hideguitar.com for further details.
+Bibliography
+Aguiar, Daniella, and Joao Queiroz
+2009 “Towards a Model of Intersemiotic Translation,” International Journal of the Arts in Society
+4, no. 4: 203 – 10.
+Annwn, David
+2012 “Flying Through — Poetry/Calligraphy Collaborations with Thomas Ingmire,”
+glasfrynproject.org.uk/w/wp-content/uploads/2012/05/Flying-through-1.pdf.
+Ashbery, John
+1987 Selected Poems (London: Paladin).
+Best, Susan
+2014 Visualizing Feeling: Affect and the Feminine Avant-Garde (London: I. B. Tauris).
+Chekal, Alexei
+s.d. “Beauty of Calligraphy,” http://calligraphy-expo.com/en/participants/Alexey_Chekal
+/beauty-of-calligraphy (accessed July 28, 2016).
+Donaldson, Timothy
+s.d.
+“Timothy
+Donaldson
+in
+Action,”
+http://fontfeed.com/archives/calligraphy-
+performance-by-timothy-donaldson-at-opening-%E2%80%9Csigns-for-sounds%E2%
+80%9D-exhibition/ (accessed July 28, 2016).
+Farre´s, Ernest
+2010 Edward Hopper, translated by Lawrence Venuti (Manchester: Carcanet).
+Ford, Mark
+2004 “On Edward Hopper,” Poetry Review 94, no. 2: 114 – 16.
+Ingmire, Thomas
+n.d. http://www.thomasingmire.com/.
+Jakobson, Roman
+2000 [1959] “On Linguistic Aspects of Translation.” In The Translation Studies Reader, edited
+by Lawrence Venuti, 138 – 44 (London: Routledge).
+Kennedy, David
+2012 The Ekphrastic Encounter in Contemporary British Poetry and Elsewhere (Farnham: Ashgate).
+Mahdaoui, Nja
+http://www.nja-mahdaoui.com/biography/ (accessed July 28, 2016).
+Manovich, Lev
+2001
+“Post-Media
+Aesthetics,”
+http://manovich.net/index.php/projects/post-media-
+aesthetics.
+Matsunaga, Kyoko
+n.d. http://kyokomatsunaga.com/en/artwork.htm (accessed July 28, 2016).
+334
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 17 ──
+Mitchell, W. J. T.
+1994 Picture Theory: Essays on Verbal and Visual Representation (Chicago: University of Chicago
+Press).
+Neuenschwander, Brody
+n.d. http://www.brodyneuenschwander.com/ (accessed July 28, 2016).
+Paraschivescu, Alina Marcela Banea
+2012 “Ekphrasis: A Special Type of Intertextuality in the British Novel.” Unpublished PhD
+diss., University of Cluj-Napoca.
+Rajewsky, Irina O.
+2005 “Intermediality, Intertextuality, and Remediation: A Literary Perspective on Interme-
+diality,” Interme´dialite´s 6: 43 – 64.
+Rippl, Gabriele
+2015 “Introduction.” In Handbook of Intermediality: Literature — Image — Sound — Music, edited by
+Gabriele Rippl, 1 – 31 (Berlin: De Gruyter).
+Robinson, John
+2016 “Golden Ears,” Uncut September: 7.
+Schro¨ter, Jens
+2010 “The Politics of Intermediality,” Film and Media Studies 2: 107 – 24.
+2012 “Four Models of Intermediality.” In Re-Blurring the Boundaries, edited by Bernd Herzo-
+genrath, 15 – 26 (Hannover: Dartmouth College Press).
+Takemoto, Hide`
+n.d. http://www.hideguitar.com/ (accessed July 28, 2016).
+Venuti, Lawrence
+2010 “Introduction.” In: Edward Hopper, Ernest Farre´s, xi – xix (Manchester: Carcanet).
+Versejunkies: Intersemiotic Translation Journal
+n.d. https://independent.academia.edu/VERSEJUNKIES/Issues (accessed July 28, 2016).
+Wolf, Werner
+2005 “Intermediality.” In Routledge Encyclopaedia of Narrative Theory, edited by David Herman,
+Manfred Jahn, and Marie-Laure Ryan, 252 – 56 (London: Routledge).
+2011 “(Inter)mediality and the Study of Literature,” CLCWeb: Comparative Literature and Culture
+13, no. 3, http://docs.lib.purdue.edu/clcweb/vol13/iss3/2/.
+Kennedy
+† Ink & After
+335
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/319/528891/0390319.pdf by Georgia Tech Library user on 26 December 2025

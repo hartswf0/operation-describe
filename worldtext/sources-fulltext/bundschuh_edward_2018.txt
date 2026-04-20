@@ -1,0 +1,823 @@
+# Edward Hopper’s Nighthawks, 1942
+# Source: Bundschuh - 2018 - Edward Hopper’s Nighthawks, 1942.pdf
+# BibTeX key: bundschuh_edward_2018
+# Zotero dir: 3125
+# Extracted chars: 47462
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Edward Hopper’s Nighthawks, 1942:
+The Ekphrastic Poet’s Collective Diner
+Jessica Bundschuh
+University of Stuttgart
+Abstract
+In an Internet age dominated by network structures and visuality, contem-
+porary ekphrastic critics and writers have felt prompted to question anew the value
+of ekphrasis to its readers. That is, it has become important to demarcate a site for
+ekphrasis’s continued cultural currency for a readership well versed in relational think-
+ing, who have come to expect the copresence of image and text in nearly every reading
+experience. In this paper, my questioning of ekphrasis’s continued relevance proceeds
+via ekphrastic responses — in particular, Ann Lauterbach’s (1995) “Edward Hopper’s
+Way” — to Edward Hopper’s Nighthawks, 1942, one of the most iconic paintings in
+American art. My consideration draws on Harriet Tarlo’s recognition (2009) of the
+contemporary value of found poetry, here applied to advance the concerns of ekphrasis
+in the process of retooling its response to a changing public sphere. Significantly,
+Lauterbach’s “Edward Hopper’s Way,” a found poem marked by digression, simulates
+a space of intimacy within Hopper’s pictorial elegies of alienation and lost common-
+ality. Granted, “Edward Hopper’s Way,” in its oblique treatment of Hopper, does not
+conform to a traditional definition of ekphrasis. Yet Lauterbach, in proposing Hopper,
+the visual artist, as a lyrical guide to negotiate the tensions between public and private,
+self and other, and individual and collective at play in his iconic painting, references
+central concerns of ekphrasis in the digital age.
+Keywords
+found poetry, network, intermediality, intertextuality, collectivity, literary
+hospitality
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324517
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+1. Ekphrasis’s Cultural Currency
+Contemporary ekphrastic poets of late have recognized that, in the interest of
+self-preservation, they need to redefine their genre for readers in an Internet
+age dominated intrinsically by network structures and visuality. Thus, the
+concern for practitioners and champions of ekphrasis is how to demarcate a
+site for its continued cultural currency. Such a site is necessary to attract a
+media-savvy readership, practiced in the art of relational thinking, who have
+come to expect the simultaneity, or copresence, of image and text in nearly
+every reading experience.
+Ekphrasis may be better positioned than most literary genres to survive
+this transition since it is, by design, relational and interactive. Dana Gioia
+(2004: 8) contends that “critics miss the most interesting aspects of the new
+popular poetry” today, namely, “the unusual mixture of radical innovation
+and unorthodox traditionalism in the structure of the work itself and the
+modes of performance, transmission and reception.” Indeed, to ensure the
+genre’s survival, contemporary ekphrastic poems—amid a potentially disori-
+enting and isolating virtual context capable of swallowing up ambiguities in
+the text—need to productively construct interactive collective spaces for the
+poet, the artist, and the reader/viewer alike.
+I have chosen ekphrastic poems that respond to one of the most isolated
+of American artists, Edward Hopper—an artist who, according to Robert
+Hughes (2015: 289), has “so affected popular culture” that “his images have
+become part of the very grain and texture of American experience.” While
+earlier American artists painted the frontier, in Hopper, Hughes (ibid.: 289–
+90) claims, “the old frontier has moved inward and now [lies] within the self,
+so that a man of action, extroverted and self-naming, [is] replaced by the
+solitary watcher.” Likewise, poet Mark Strand (1988: 340) links the lingering
+strangeness of Hopper’s paintings to his ability to make his viewers feel like
+“transients.” Hopper’s work, Strand (ibid.: 343) explains, exudes “a sense of
+being in a room with a man who insists on being with us, but always with his
+back turned.” We see this clearly in Hopper’s Nighthawks, 1942, an iconic
+painting of American art focused on lonely individuals assembled in a col-
+lective space. Over the past seventy-five years, it has become a locus of artistic
+responses, from life-size tableaus through theater plays to graffiti art. Inter-
+estingly, the painting continues to prompt an outpouring of contemporary
+ekphrastic poems, despite, or perhaps because of, Hopper’s formidable dis-
+tance and the Internet’s innumerable reproductions of his paintings. As
+David Kennedy suggests in his contribution to this volume, the enduring
+interest in Hopper’s work is rooted in the pleasure his viewer takes in indulg-
+ing in a “voyeurism of despair” through Hopper’s “charactersself-consciously
+384
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+trying to fit themselves into public spaces where no-one belongs” (Kennedy
+2018, 385).
+In this article, my questioning of ekphrasis’s continued relevance, by way
+of poetic responses to Edward Hopper—above all, Ann Lauterbach’s 1995
+“Edward Hopper’s Way,” which employs the found poem strategy of inte-
+grating and reframing existing texts—draws on Tarlo’s contention (2009)
+that found poetry, the literary version of collage, is well positioned for a
+contemporary readership in need of literary hospitality in an increasingly
+isolated world. Found poetry has a natural affinity with ekphrasis, based on
+shared characteristics: dynamicism; homage to, erasure, and remixing of
+outside texts; and self-reflexive posturing about its own efficacy. Both possess
+a productive ability, in an oversaturated world of images and news media,
+to engage readers actively. What is most important for this investigation,
+however, is the interplay between the poles of public and private, inside and
+outside, and sameness and difference common to both ekphrasis and found
+poetry. Indeed, “Edward Hopper’s Way,” in its oblique treatment of Hop-
+per’s pictorial space, does not conform to a traditional definition of ekphrasis;
+yet, Lauterbach proposes Hopper, the visual artist, as a guide (even if an
+oppositional one), a “way” to negotiate those tensions on display in his iconic
+painting. Ultimately, Lauterbach’s work redirects such tension—through
+the strategy of found poetry—into a productive dialogue with readers. As a
+result, her experimental poem becomes a hospitable place where the “home-
+less” reader of the Internet age can find refuge, overcoming the alienation
+expressed in Hopper’s Nighthawks, 1942.
+2. The Network Structure of Found Poetry
+W. B. Yeats lineated and published “Mona Lisa,” a single prose sentence
+from Walter Pater’s The Renaissance (1873), as a free-verse entry in the Oxford
+Book of Modern Verse, 1892–1935:
+She is older than the rocks among which she sits;
+Like the vampire,
+She has been dead many times,
+And learned the secrets of the grave . . . (Yeats 1936: 1)
+Yeats’s adaptation highlights a long-standing commonality between found
+poetry and ekphrasis, namely that intermediality opens up for the reader a
+more profound and textured whole.
+The contemporary creative writing journal, The Found Poetry Review, sep-
+arates found poems into two variants: first, “untreated” poems in which the
+poet’s intervention is limited to lineation or spacing, like Yeats’s “Mona
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+385
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+Lisa”; second, “treated” poems in which a poet uses a source text or multiple
+source texts to create a poem that differs vastly in content and form from the
+original, like Lauterbach’s “Edward Hopper’s Way”; the latter variant is
+preferred by the Review. This gesture of borrowing a source text to be recon-
+stituted and re-received, whether as a “treated” or “untreated” poem, hints at
+one of the central aspirations of found poetry: the promise of a perpetually
+unfinished and open exchange designed to radically breach boundaries, pull-
+ing readers into a debate about generic expectations. Interestingly, the
+methods of found poetry are nothing new to the history of painting, even if
+in the poetry world “the demand for original expression dies hard” (Perloff
+2010: 23).
+Poet Annie Dillard (1996: ix–x) asserts in the “Author’s Note” in her book
+of found poems that the found-poem writer “doubles” the context of the
+source text. That is, “the original meaning remains intact but it swings
+between two poles,” with the result that it ties poetry’s oldest, most traditional
+objective of shared experience to the innovative and contemporary strategy
+of ironic foiling. The result, when wedded to ekphrasis, is an invigorated
+ekphrastic poem able to bridge between its long history of mimesis and its
+more recent developments, displacing, suppressing, or calling into question,
+playfully or not, an original text, now transformed into yet another open-
+ended artistic experience.
+Without a doubt, the Internet has changed the act of reading a poem, even
+if one reads it in a book, rather than from an online platform. Lauterbach
+(2005: 6) worries about readers who experience primarily the passive and
+isolating reality of a screen-driven, one-sided exchange, since she believes
+that sincere emotional interactions are “embedded in reciprocity; and reci-
+procity is contingent on receptivity.” Likewise, communications researchers
+like Clifford Nass (2009) suggest that the multitasking necessitated by online
+exchanges makes thinkers less able to sustain big ideas, as opposed to short
+bursts of superficial inspiration. The upside, however, is that such readers are
+more competent in the task of balancing multiple points of view, and thus are
+better prepared for the mental acrobatics necessitated by a found poem.
+Ulfried Reichardt (2015: 21) asserts that readers who leverage the pastiche-
+driven “open architecture” of the digital gain an expanded and more
+engaged sense of identity; that is, the interface inherent in networks redraws
+the boundaries between individuals. Collective problem solving, Reichardt
+claims, invigorates even those who are digitally isolated. Therefore, one pro-
+found consequence for a digital-savvy reader of found poems is the celebra-
+tion of decentered, multilateral, and fluid reading experiences. Aesthetic texts
+wisely shaped to accommodate the needs of a new breed of readers openly
+acknowledge how murky the boundaries between individuals (and texts) have
+386
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+become. As Marjorie Perloff (2010: 49) concedes, the Internet transforms us
+all into “recyclers” and “reframers.” A found poem, then, merely makes
+visible how we already move through the network of the Internet.
+Tarlo (2009: 125) importantly contends, further, that found poetry “desta-
+bilises single perspectives,” instead privileging networks of knowledge built
+on connections. What makes the practice even more radical is the way it
+undermines the distinction between inside and outside, such that there is
+really no outside of the text. That is, as Tarlo (ibid.: 123) admits, such a poem
+powerfully “confronts us with our complicity as users of the common cultural
+coinage.” In so doing, found poems ask us to question the literary concept of
+ownership and singularity “embedded in the mythical image of the lyric
+poet” (ibid.: 127). Ultimately, the benefit afforded by a more flexible defi-
+nition of originality is that it proposes, and even demands, greater collab-
+oration on all fronts.
+3. The Magnetism of Hopper’s All-Night Diner
+Lisel Mueller’s poem “American Literature” proposes that Hopper’s paint-
+ings are compelling to writers because of the vast expanses of emptiness they
+offer, spaces she characterizes as “vacant,” “blank,” “scoured,” “bleached,”
+and “bereft”:
+Poets and storytellers
+move into the vacancies
+Edward Hopper left them.
+They settle down in blank spaces
+where the light has been scoured and bleached
+skull-white and nothing grows except absence.
+Where something is missing. (Mueller 1995: 72)
+Mueller’s poem (ibid.: 72) continues: “such bereft interiors / is just what
+they’ve been looking for,” “for starting fires in empty rooms.” The poet,
+then, may fill the “skull-white” interiors with the heat of presence, and the
+warmth of interaction.
+In an article on fellow painter Charles Burchfield, Hopper (1928: 6), an
+avid reader of Ralph Waldo Emerson, expresses admiration for Burchfield’s
+rejection of a European aesthetic and his embrace of marginalized commu-
+nal spaces in America: “the sweltering, tawdry life of the American small
+town, and behind all, the sad desolation of our suburban landscape.” His
+admiration of Burchfield leads Hopper to establish a connection to Emerson’s
+“Self-Reliance”: “In every work of genius we recognize our own rejected
+thoughts; they come back to us with a certain alienated majesty” (Emerson
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+387
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+1960 [1840]: 147; quoted in Hopper 1928: 6). In so doing, Hopper demon-
+strates an appreciation for the dialectic exchange between the recipient and
+the creator of an artwork through an honest appraisal of suburbia’s deso-
+lation. Hopper’s biographer, Gail Levin (1995a: 125–26), explains that “it
+should not surprise us that Hopper’s art resonates even more strongly for
+successive generations of artists, for he fulfills the Emersonian description of
+the genius whose imagination provides the ‘deep insight’ and ‘symbols’ that
+inspire and spur others. . . . These adaptations and appropriations are most
+often based upon Nighthawks, which has been replicated, reconstructed, and
+animated.”
+Painted at a time when daily life was under threat, Nighthawks, 1942, Hop-
+per’s testament to “urban emptiness,” would be “terrifying” to actually inhab-
+it, as Kennedy asserts (2018: 326). Hopper’s wife, Josephine Hopper, records
+in her journal that her husband painted Nighthawks, 1942 on the brink of
+a public event: the United States’ entry into World War II. He began the
+composition in December 1942, shortly after the attack on Pearl Harbor
+on December 7:
+Ed refused to take any interest in our very likely prospect of being bombed — and
+we live right under glass sky-lights and a roof that leaks whenever it rains. . . . For
+the black-out we have no shade over the sky light . . . but Ed can’t even be both-
+ered. He’s doing a new canvas and can’t be interrupted! . . . Hitler has said that he
+intends to destroy New York and Washington . . . It takes over a month for E to
+finish a canvas and this one is only just begun. ( Josephine Hopper quoted in Levin
+1995b: 348– 49)
+Then, in late January, Josephine Hopper wrote a letter about the painting’s
+completion, famously suggesting the title “Night Hawks”: “Ed has just fin-
+ished a very fine picture—a lunch counter at night with three figures. Night
+Hawks would be a fine name for it. E posed for the 2 men in the mirror and I
+for the girl. He was about a month and a half working on it—interested all the
+time, too busy to get excited over public outrages. So we stay out of fights”
+(ibid.: 349). Even if one remains unaware of the backstory of the painting’s
+composition that Josephine Hopper’s letter and journal provide, one has,
+nonetheless, a sense of it being painted just off-stage from a communal event.
+In other words, the true achievement of Nighthawks, 1942—and likely why it
+has attracted so many poets—is its ability to straddle contradictory perspec-
+tives: that of the collective and that of the idiosyncratic individual. Thus,
+Hopper’s Nighthawks, 1942 presents a cultural topography that both cele-
+brates and contests the ethics of collectivity.
+Before proceeding to an in-depth discussion of Lauterbach’s poem
+“Edward Hopper’s Way,” I have assembled a few excerpts from ekphrastic
+388
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+responses to Hopper’s Nighthawks, 1942 to shed light on the tension Hopper
+sets up visually between isolation (private) and cohabitation (public). Each
+poetic work below fixates on trespassing these boundaries, which poet
+Edward Hirsch (2014: 195) characterizes as fundamental to the practice of
+ekphrasis, in its ability to hop across an “abyss” and “violate” the silence of the
+pictorial realm. That is, each ekphrastic response below reenacts verbally the
+experience of engaging, as a viewer, with Hopper’s painting: the wide win-
+dowpane vanishes, enabling the viewer’s gaze to penetrate the space of the
+diner. In fact, the setting of the diner is significantly a prototypical American
+public space; yet, as we witness it—in what appears to be the wee hours of the
+night (rather than the hustle and bustle of a New York workday)—it is full of
+shadow and mystery. Thus, the diner—in its island of light—is also a private
+space, situated on the margins of a vast historical narrative. Lauterbach
+(2011: 36) claims that the best artworks “stop before judgment occurs,”
+since their higher objective is to “enlarge” the point of view of the viewer/
+reader, allowing him or her to better “absorb” and accommodate contradic-
+tory views. Following this reasoning, a diner in which strangers have assem-
+bled is the ideal site to elegize, and potentially salvage, the sense of shared
+community. Indeed, the ekphrastic responses below are exercises in joint
+looking with the reader, hence the frequent use of “we” and “you”:
+Samuel Yellen (1995: 32), “Nighthawks”:
+We who peer through the curve of plate glass
+Count three nighthawks seated there
+............................................................................
+Oh, are we lucky to be none of these!
+David Ray (1995 [1970]: 33), “A Midnight Diner by Edward Hopper”:
+Some ache still found within you!
+Now it will go with you, this scene
+By Edward Hopper and nothing else.
+It will become your own tableau of sadness.
+Wolf Wondratschek (1998: 3– 4), “Nighthawks: After Edward Hopper’s Painting”:
+You admire the painting’s composition
+but what grabs me is the erotic pleasure
+of complete emptiness.
+............................................................................
+No wonder, art lovers,
+that this man is turning his back on you.
+(emphasis added throughout )
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+389
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+Each of the above ekphrastic responses to Nighthawks, 1942 invites the
+reader to join the poet in hovering between the temporalities of leave-taking
+and arrival. These poems from Yellen, Ray, and Wondratschek all suggest
+the “erotic” (Wondratschek 1998: 3) pull of voyeurism, the pleasure of Hop-
+per’s image in its play of light and dark that lets us, the viewers, “peer” (Yellen
+1995 [1951]: 32) into it. Above all, these poets remain intrigued by Hopper’s
+static subjects: “you are in a midnight / Diner painted by Edward Hopper /
+Here is a man trapped at midnight underneath the El” (Ray 1995 [1970]: 33);
+“The place is the corner of Empty and Bleak, / . . . The persons in this drama
+do not speak” (Yellen 1995 [1951]: 32). On the flipside, the reader remains
+likewise stuck, peeking through the other side of the glass. The advantage of a
+mutual “spinning of wheels” is precisely that it is mutual, a joint immobility
+acting as the critical first step of what will become an interplay in the public
+space. Such an engagement also allows us to examine our own present
+moment, in which we, as a collective, are threatened by a virtual isolation
+so poignantly captured seventy-five years ago by Hopper in Nighthawks, 1942.
+4. The Hospitality of the Found Poem as a Public Space
+In “Edward Hopper’s Way,” Lauterbach (1995) is interested neither in
+replicating the pictorial texture of Hopper’s work, nor in constructing a
+temporal narrative about the individual figures in the New York City diner,
+or in any other Hopper wasteland—from waiting rooms, to gas stations, to
+hotel rooms, or ill-lit front porches. Instead, assuming the role of hostess,
+Lauterbach greets those “guests” who arrive at the point of entry of the
+“dwelling,” identified by her as a literary text, and wait for an invitation to
+enter. Lauterbach’s (2011: 16) metaphor of hospitality—felt most acutely in
+the inhospitable world of Hopper—transforms the literary space into a fully
+three-dimensional site that opens toward “the commons”: “The idea is
+to leave enough room for others, for other subjectivities, to engage and
+explore, as if they were guests. We do not ask guests to strip themselves of
+their stuff when they come to our dwellings—at least not yet. We are hoping
+to provide a place of animated conversation, in which gaps and silences,
+shifts in tone, curiosity and inquiry, might be accommodated.” That is, the
+truly “accommodating” host/hostess of the poetic text lets the reader-as-
+guest enter as he or she is, metaphorical baggage and all.
+In today’s cultural climate, this proposition of exchange might be difficult,
+Lauterbach concedes, since the “public social space [is] now all but lost in the
+slippages of scroll, screen, and cell” (ibid.: 17). Such concern prompts Lau-
+terbach to question if the Internet has made us feel more “abstract” and
+“estranged” (ibid.) than ever before. However, her continued anxiety about
+390
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+the risks of those who inhabit the “habitat” of the Internet (and then bring
+those expectations to the “habitat” of the literary text) suggests that she has
+not given up on hospitality. Lauterbach turns to the strategy of found poetry
+as an alternative to the expectation that readers defer to the strictures of the
+poet in order to “cohabitate” in the poetic text, which would be a most
+unfriendly hospitality.
+An investigation of “Edward Hopper’s Way” as an ekphrastic work does
+necessarily require a loosening up of the traditional definition of ekphrasis.
+Without the title’s reference to Hopper, a reader might be hard-pressed to
+find an immediate connection to his work, or to painting in general. Lauter-
+bach (2005: 208)—who initially studied painting before switching to poetry—
+explains that she is “not interested in description per se.” Instead, she approa-
+ches ekphrasis obliquely, contending that the poems she writes in response to
+paintings (of which there are many) begin “as if the painting were a form of
+speech that I could answer. When works of art cause me to begin to speak,
+that is, to think, I am drawn toward them or into them” (ibid.). Thus, for
+Lauterbach, “conversations” with paintings help her to better understand,
+and enact, the intentions of her poems; in other words, such interactions
+bring her and her reader “closer to the possibility of human engagement,
+agency, and response” (ibid.: 209). As “Edward Hopper’s Way” demon-
+strates, Lauterbach models her ekphrastic poetic exchanges on pictorial
+exchanges she has as a viewer who is trying to understand the decisions of
+the painter. In this poem, she initiates such an exchange with a question
+addressed directly to Edward Hopper himself:
+Where did you want us to go?
+What did you want us to see?
+Where, fixed by waiting
+at the gate, in the stairway
+plain as day
+slowed to a glassy halt
+irresolute prior utensil of a stage
+roof bound
+penetrated sky or portrait
+“sheltering locations”
+unsettling America
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+391
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+the place is obvious and ample
+bliss of solid light.
+(Lauterbach 1995: 35 – 36)
+Lauterbach’s “roof bound” “sheltering location”—framed by a “glassy halt”
+in its parallel to a “stage” populated by figures “fixed by waiting”—refers
+obliquely, surely, to Hopper’s Nighthawks, 1942. Only infrequently does Lau-
+terbach provide specific details from Hopper’s individual works, since she is
+more interested in the larger mood of his oeuvre. Thus, the initial focus of
+“Edward Hopper’s Way” is that of the journey the artist proposes to his
+viewers: “Where did you want us to go?” (ibid.: 35). In approaching the artist,
+the poet finds—and guides her readers toward—connection. As Lauterbach
+(2005: 6–7) asserts, this is possible when the poet “release[s] materials into
+the animated middle ground between subjects,” thereby stretching subjects
+beyond what is familiar (ibid.: 6). Through such an engagement, Lauterbach
+participates in the “commerce of the creative spirit,” a phrase coined by
+Lewis Hyde (2007 [1979]: 356), who asserts that the “primary commerce of
+art is a gift exchange” that the audience/reader needs to acknowledge for
+the exchange to be complete. Hyde (ibid.: 74) continues that the gift’s goal is
+to create a “feeling-bond,” that is, to simply connect persons. Thus, we—as
+recipients of Lauterbach’s poetic “gift,” and as part of the extended commu-
+nity of recipients of Hopper’s pictorial “gift”—may actively engage the artist,
+asking him, “What did you want us to see?”
+Approached as offerings, the poem and the painting alike—in Hyde’s
+view—become more valuable through the act of circulation, passing from
+hand to hand, from computer screen to computer screen; the participation
+of the artworks within a network of readers and viewers helps them, as
+a result, to fulfill their mutual objective, namely, gift exchange. In this
+regard, the Internet is a powerful (even if unwitting) collaborator. Likewise,
+as Christine Hume (2002: 372) argues, Lauterbach’s approach to ekphrasis
+is less intent on exploring Lessing’s distinction of poetry as temporal and
+painting as spatial, and more committed to a return to the ancient Greek’s
+conception of ekphrasis that places emphasis on process and experience,
+rather than product or “the artwork’s cultural codes of connotation.”
+Accordingly, Lauterbach foregrounds the ethical dimension of connectivity,
+alongside the aesthetic texture of the ekphrastic text. Indeed, if process-
+objectives dominate, even sites of “failure” become instructive. After all,
+the desire for connectivity does not disregard or disavow the usefulness of
+disconnection and rupture, as we see from Lauterbach’s (2005: 11) critique of
+those who hanker unthinkingly for master narratives, at the cost of domes-
+ticating the “disruptively” experimental.
+392
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+Lauterbach insists that it is precisely the absence of, and lack of interest in,
+the “wholeness” of a master narrative that motivates a found poem assemblage.
+It begins by embracing an experimental poetics built on a quality of “as is”—
+like a cup with a crack in a secondhand window display. The resulting poetic
+method—having reappropriated the modernist fragment—is, as Lauterbach
+describes in an essay, “As (It) Is: Toward a Poetics of the Whole Fragment,”
+lineated as a fragment-driven poem,
+. . . now rendered
+as an address that
+eschews totalizing concepts of origin, unity, closure, and completion, and is
+constructed as
+a
+series of flaws or openings through which both chance and change register
+a matrix of
+discontinuous distributions . . . (ibid.: 41)
+Thus, the reader is thrust into an active role of “network maker”:
+. . . The reader/listener participates in the construction of significance
+not by filling in
+the gaps and elisions, but by appropriating whatever fragment is “useful” to
+her. (ibid.: 41)
+In welcoming the act of “appropriation,” for poet and reader alike, Lauter-
+bach asks her readers to approach the poetic experience as a journey that
+moves from exclusion to inclusion, from privacy to a hosted public space.
+5. The Fragmentary Whole
+In a poem that weaves found texts from sources as various as photographer
+Robert Frank, sculptor David Smith, singer Emmylou Harris, composer
+Leonard Bernstein, and poets Emily Dickinson and Langston Hughes—
+not to mention Jeremiah’s repurposing of the Old Testament creation story
+as an apocalyptic warning about decreation—with her own oblique responses
+to those texts, Lauterbach simulates a dialogue that is truly multivocal and
+multigeneric. Ultimately,the experience of readingthe poem mimics the real-
+time text negotiation necessitated by a digital platform. And the text produc-
+tively channels the resulting tension to create an explorative immediacy.
+Yet even the experimental strategy of fragmentation can become staid and
+hackneyed over time and through excessive repetition. What is a contempo-
+rary experimental poet to do? That is, how can a poet create a fragment that
+is both grounded and directed, and yet flexible and open to diverse interpre-
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+393
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 12 ──
+tations? Perhaps the poet must create a hybrid fragment endowed with both
+separateness and connectivity, part and whole. In an essay on the artist Ger-
+hard Richter, Lauterbach (ibid.: 208) describes how she writes about one
+single detail, to test her theory of the “whole fragment”: “The notion of the
+whole fragment had come in part from thinking about Robert Ryman’s white,
+his paintings as fragments of whiteness, and about how some abstraction can be
+perceived as an accrual of individual marks each of which is, on its own, a
+whole fragment.” Let me quote an extended passage of “Edward Hopper’s
+Way”—from the middle of the poem to its final line—to display Lauter-
+bach’s strategy of the “whole fragment,” enacted through interspliced found
+texts embeddedin amuscularanddynamic prosodythat hopsacrossthe page:
+fastened or sundered
+like a slip
+over the body of it
+so you find an instant which seems to be itself but the
+temporal ignites and is its subject: lobby, rooms, approach to the city, four lane road,
+by a railroad, hotel window, motel, bridge, path
+staircase
+everything in transit, all ghosts in wait
+in search of a great good place
+( James Thurber)
+water to cliff
+intellect of observation
+reeled out to its edge
+“Before I got my eye put out
+I liked as well to see — ”
+(Emily Dickinson)
+scale’s syntax
+isolates attention, a
+distillate conserve
+as if riveted
+394
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 13 ──
+to realism’s mirage
+turn away from or toward
+the spirit’s pragmatic example
+all that is air melts into objects
+garland of language, habitat
+of baskets and tropes—
+But where did you mean us to go?
+To the slow field
+without noise/to the
+rail/to the curb/to the fence/to cross out of the self
+to the spare opulence of the horizon/to the trail
+to the sea in our good hats, our tweeds, our
+work ethic, our inability to listen to strangers.
+Saturday December eleventh 1994
+“My soul has grown deep like the rivers”
+(Langston Hughes)
+It rains on/into our dark river.
+(Lauterbach 1995: 37– 39)
+In this poem we can appreciate how each “found” and “borrowed” text acts
+as an “accrual of individual marks” (Lauterbach 2005: 208), framed by its
+intertextual neighbor(s), while remaining, nonetheless, distinct from it/them.
+For instance, midway through the poem, Lauterbach references James Thur-
+ber’s moniker of a “great good place” (1995: 38) for his home in West Cornwall,
+Connecticut, which he named after Henry James’s short story “The Great
+Good Place.” The location of Thurber’s residence is a pivot where two sites
+meet, each distinct but connected, which Lauterbach (ibid.: 36) describes as
+“water to cliff,” or, more abstractly, as the location of the “intellect of obser-
+vation / reeled out to its edge.”
+Lauterbach then interpolates two lines from Dickinson’s poem #327,
+“Before I got my eye put out” (written in 1862 and originally published in
+1891). Here, Dickinson cautions against the habit of seeing that takes in too
+much:
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+395
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 14 ──
+As much of noon, as I could take —
+Between my finite eyes —
+(Dickinson 1960 [1862/1891]: 155; quoted in Lauterbach 1995: 38)
+Dickinson’s speaker favors the “safety” of inner looking, as the speaker pos-
+itions her “soul,” rather than her eyes, on “the window pane.” Although such
+a huge leap from Thurber’s house to Dickinson’s inner sight resists a linear
+path of relationality, it suggests that Lauterbach is not solely interested in
+establishing disconnection or contrast between her intertextual references.
+Rather, she hopes to engage in a dialogue, even if one full of ruptures—
+perpetually incomplete and ongoing—like the dialogue with the paintings
+that initiate her ekphrastic works. Ultimately, Lauterbach (2005: 11) uses her
+approach of “whole fragments” to invigorate the traditional ekphrastic poem
+through the formal innovation of honoring and inviting in the fragmentari-
+ness of daily life. The goal is to jumble up, and thus call into question, the
+boundaries between public and private, inclusion and exclusion.
+6. The Experiment of Choice
+The indeterminacy and fragmentariness of the genre of found poetry offers
+readers above all choice, emancipating them from a sense of helpless pas-
+sivity. Found poetry’s objective of positioning readers as collaborators is
+especially vital for engaging those who may be potentially disengaged, desen-
+sitized by the onslaught of digital images. As Lauterbach (ibid.: 7) asserts, it is
+the critical task of art to teach laypersons that they, too, “can choose to make
+forms that imbue experience with experiment, and so come to know the
+gladness of making ‘it’—life—anew.” That is, the poet creatively shapes an
+aesthetic contingent on the choice and arrangement of the found texts. Rad-
+ically, this arrangement is not one-sided: by welcoming the choices offered
+by the fragmented intertextuality of found poetry, the reader recognizes not
+only his or her own isolation and alienation, but learns how to become
+hospitable and open to the space of the poem. Such an ability to choose is
+powerful—and powerfully empowering. To interact with an artwork is, in
+Lauterbach’s view, to shoulder the thrilling and yet tricky burden of agency.
+In a nutshell, to choose is to invoke free will.
+In “Edward Hopper’s Way,” Lauterbach’s (1995: 36) phrase, “the bliss
+of solid light,” references Hopper’s most glib but revealing statement about
+his art, and his predominant choice of subject matter: “I guess I’m not very
+human. All I really want to do is paint light on the side of a house” (Hopper
+quoted in Ferlinghetti 2001: ix). Light for a painter is no small matter;
+indeed, Ferlinghetti (2001: ix), in quoting Hopper’s revealing claim, suggests
+396
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 15 ──
+that both “poets and painters are natural bearers” of light, and therefore of
+the anterior state of shadow as well. Lauterbach chooses to splice Hopper’s
+light together with a reference to the black and white photographs of New
+York street life from Robert Frank’s series “From the Bus, New York”
+undertaken while he was working on The Americans. Frank (1959: n.p., my
+italics) took the photographs with his Leica camera from a moving city bus,
+as he describes: “The Bus carries me thru the City, I look out the window,
+I look at the people on the street, the Sun and the Traffic Lights. It has to
+do with desperation and endurance—I have always felt that about living in New
+York. Compassion and probably some understanding for New York’s
+Concrete and its people, walking . . . waiting . . . standing up . . . holding
+hands . . . the summer of 1958.”
+The energetic strategy of intercutting in “Edward Hopper’s Way” creates
+a continual shape-shifting:
+the place is obvious and ample
+bliss of solid light
+sucked from the street: “desperation and endurance”
+(Robert Frank)
+where space is
+contingent/shadow in the bowl like a chimney on an upsidedown
+roof/a green sky
+(David Smith)
+emotion will not resemble the tall guard walking
+how remnant the rare calamities
+spoking the revenant flag
+uncircled, windless
+wearing red blazers and hats
+we are ordinary folk in search of insight
+“I see the light, I see the light
+at the end of the tunnel”
+(Emmylou Harris).
+(Lauterbach 1995: 36)
+The phrase Lauterbach lifts from Robert Frank, “desperation and endurance,”
+proposes a method for reading her poem as a whole: the former of the paired
+words, “desperation,” suggests an anxiety that results in a frenzied speeding
+up of time, whereas the latter one, “endurance,” signals a calmness achieved
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+397
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 16 ──
+by slowing down and stretching out time. The poem, therefore, proposes the
+possibility of holding the two temporal states in balance in the communal
+chorus of “ordinary folk” on a hunt for “insight,” or a light “at the end of the
+tunnel” (ibid.: 36). The poem’s trajectory is a “way,” or path, that is intersected
+by a variety of transitional stopping-off points common to the Hopper land-
+scape: gates, stairways, roofs, lobbies, bridges, railroads, and windows. Lau-
+terbach deliberately chooses a poetic arc that is meandering instead of
+linear—and the result is that each time through the poem is a singular and
+fresh journey.
+The overarching instruction of Lauterbach’s poem is to follow the “way”
+of Hopper, such that we enter the poem as members of an imaginary com-
+munity, just as we enter the painting as members of a likewise imagined
+community. In the final lines of the poem, Lauterbach illustrates this dynamic
+balance of public and private through the microcosm of prepositions—those
+small, but vital semantic connectors that reveal the relationships between the
+parts of a whole, be it location, direction, time, causality, or possession:
+But where did you mean us to go?
+To the slow field
+without noise/to the
+rail/to the curb/to the fence/to cross out of the self
+to the spare opulence of the horizon/to the trail
+to the sea in our good hats, our tweeds, our
+work ethic, our inability to listen to strangers.
+(ibid.: 39, emphasis mine)
+In this hospitable exchange, Lauterbach’s readers may even overcome the
+“inability to listen to strangers” (ibid.) by moving toward the vast “opulence of
+the horizon,” interacting across boundaries and genres. In such a conver-
+gence, the reader may “cross out of the self ” (ibid.) and into the land of
+prepositional exchange. Thus, the strategies of incompleteness and intertext-
+uality in “Edward Hopper’s Way” testify to the ongoing feasibility of creating
+contemporary texts in which poet and reader may simultaneously play the
+role of a welcoming, open-armed host or hostess, but who may still stand with
+his or her back to those guests who enter. It is all a matter of choice—and
+connection.
+Lauterbach frames her entire poem with references to water. The final line
+of the poem, “It rains on/into our dark river” (ibid.: 39, emphasis mine),
+connects back to the first hypertext from Emerson’s essay “Nature” (1960
+[1836]): “Who looks upon a river in a meditative hour and is not reminded of the flux of all
+398
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 17 ──
+things?” (ibid.: 35). The only universal constant, thus, is the symbolic river, that
+prototypical representation of simultaneous stasis and flux, change and con-
+tinuity. Aside from foregrounding the important ekphrastic aspect of tem-
+porality and flux, Lauterbach asks her reader, via Emerson, to engage in the
+act of deep and intense outward looking, but to do so without the stability of
+firm ground, amid watery surfaces and depths.
+Lauterbach’s choice among prepositions, “on/into,” in this final line
+enables her reader to witness, in a microcosm, the predominant gift of
+found poetry. That is, Lauterbach’s river in the last line, one she characterizes
+communally as “our dark river,” is set against the intertext of Langston
+Hughes’s river, in the line prior, from “The Negro Speaks of Rivers,”
+where the river acts as a simile for a subject in transition: “My soul has grown
+deep like the rivers” (Hughes 1994 [1921]: 23; quoted in Lauterbach 1995: 39).
+Lauterbach deliberately offers a choice in the final line, the choice afforded
+by the practice of found poetry, that is, the practice of choosing and of choos-
+ing not to choose. In this last instance, Lauterbach enacts that interaction
+through the fresh contact of rain that both touches the river’s surface (“on”),
+and penetrates its depth (“into”), significantly an interaction through both
+metaphoric and metonymic means, equally merged and contiguous.
+Edward Hopper’s Nighthawks, 1942—an artwork, situated on the cusp of
+the communal experience of war, that has compelled a rich variety of
+ekphrastic responses—offers a fishbowl through which we may gaze directly
+at ourselves, as recipients of his isolated urban spaces. Lauterbach’s “Edward
+Hopper’s Way” testifies, as this paper has argued, to ekphrasis’s continued
+commitment to hospitality and exchange, especially in the face of Hopper-
+esque isolation. Granted, Lauterbach’s found poetry requires an invigorated
+and more inclusive definition of ekphrasis. Yet, the bounty of such an expan-
+sion is a resilient and agile ekphrasis well suited to the contemporary reader,
+and able to channel complex explorations of, and interconnections between,
+public and private, self and other, and original and borrowed. In essence, the
+poem becomes a refuge.
+Bibliography
+Dickinson, Emily
+1960 [1862/1891] #327 “Before I Got My Eye Put Out.” In The Complete Poems of Emily
+Dickinson, edited by Thomas H. Johnson, 155 (Boston: Little, Brown).
+Dillard, Annie
+1996 Mornings Like This: Found Poems (New York: Harper Perennial).
+Emerson, Ralph Waldo
+1960 [1836] “Nature.” In Selections from Ralph Waldo Emerson, edited by Stephen E. Whicher,
+21 – 56 (Boston: Houghton Mifflin).
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+399
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 18 ──
+1960 [1840] “Self-Reliance.” In Selections from Ralph Waldo Emerson, edited by Stephen E.
+Whicher, 147 – 68 (Boston: Houghton Mifflin).
+Ferlinghetti, Lawrence
+2001 “A Word.” In New Poems: How to Paint Sunlight, ix (New York: New Directions).
+Frank, Robert
+1959 “From the Bus, New York,” The Met, www.metmuseum.org/art/collection/search/
+296353.
+Gioia, Dana
+2004 Disappearing Ink: Poetry at the End of Print Culture (Saint Paul, MN: Graywolf ).
+Hirsch, Edward
+2014 “Ekphrasis.” In A Poet’s Glossary, 195 – 96 (Boston: Houghton Mifflin Harcourt).
+Hopper, Edward
+1928 “Charles Burchfield: American,” The Arts 14: 6 – 7.
+Hughes, Langston
+1994 [1921] “The Negro Speaks of Rivers.” In The Collected Poems of Langston Hughes, edited by
+Arnold Rampersad and David Roessel, 23 (New York: Vintage).
+Hughes, Robert
+2015 “Edward Hopper.” In The Spectacle of Skill: New and Selected Writings of Robert Hughes,
+289 – 95 (New York: Alfred A. Knopf ).
+Hume, Christine
+2002 “ ‘Enlarging the Last Lexicon of Perception’ in Ann Lauterbach’s Framed Fragments.”
+In American Women Poets in the 21st Century: Where Lyric Meets Language, edited by Claudia
+Rankine and Juliana Spahr, 367 – 99 (Middletown, CT: Wesleyan University Press).
+Hyde, Lewis
+2007 [1979] The Gift: Creativity and the Artist in the Modern World (New York: Vintage).
+Lauterbach, Ann
+1995 “Edward Hopper’s Way.” In Edward Hopper and the American Imagination, edited by
+Deborah Lyons et al., 35 – 39 (New York: W. W. Norton).
+2002 “Rootless Elegiac (Interview by Trace Peterson),” Rain Taxi 7, no. 2: 26 – 28.
+2005 The Night Sky: Writings on the Poetics of Experience (New York: Penguin).
+2011 The Given and the Chosen (Oakland, CA: Omnidawn).
+Levin, Gail
+1995a “Edward Hopper: His Legacy for Artists.” In The Poetry of Solitude: A Tribute to Edward
+Hopper, edited by Gail Levin, 109 – 26 (New York: Universe).
+1995b Edward Hopper: An Intimate Biography (New York: Alfred A. Knopf ).
+Mueller, Lisel
+1995 “American Literature.” In The Poetry of Solitude: A Tribute to Edward Hopper, edited by Gail
+Levin, 72 (New York: Universe).
+Nass, Clifford
+2009 “What Is Multitasking? (Interview),” Frontline, December 1.
+Perloff, Marjorie
+2010 Unoriginal Genius: Poetry by Other Means in the New Century (Chicago: University of Chicago
+Press).
+Ray, David
+1995 [1970] “A Midnight Diner by Edward Hopper.” In The Poetry of Solitude: A Tribute to
+Edward Hopper, edited by Gail Levin, 33 (New York: Universe).
+Reichardt, Ulfried
+2015 “The Network as a Category in Cultural Studies and as a Model for Conceptualizing
+America,” Amerikastudien / American Studies 60: 17 – 35.
+Strand, Mark
+1988 “Crossing the Tracks to Hopper’s World.” In Poets on Painters: Essays on the Art of Painting
+by Twentieth-Century Poets, edited by J. D. McClatchy, 339 – 43 (Berkeley: University of
+California Press).
+400
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 19 ──
+Tarlo, Harriet
+2009 “Recycles: The Eco-Ethical Poetics of Found Text in Contemporary Poetry,” Journal of
+Ecocriticism 2: 114 – 30.
+Yeats, W. B.
+1936 “Mona Lisa.” In The Oxford Book of Modern Verse 1892 – 1935, edited by W. B. Yeats, 1
+(New York: Oxford University Press).
+Yellen, Samuel
+1995 [1951] “Nighthawks.” In The Poetry of Solitude: A Tribute to Edward Hopper, edited by Gail
+Levin, 32 (New York: Universe).
+Wondratschek, Wolf
+1998 “Nighthawks: After Edward Hopper’s Painting.” In Framed Visions: Popular Culture,
+Americanization, and the Contemporary German and Austrian Imagination, edited by Gerd Gemu¨n-
+den, 3 – 4 (Ann Arbor: University of Michigan Press).
+Bundschuh
+† Edward Hopper’s Nighthawks, 1942
+401
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/383/528930/0390383.pdf by Georgia Tech Library user on 26 December 2025

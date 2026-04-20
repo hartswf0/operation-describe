@@ -1,0 +1,851 @@
+# Types of Ekphrasis
+# Source: Louvel - 2018 - Types of Ekphrasis.pdf
+# BibTeX key: louvel_types_2018
+# Zotero dir: 3117
+# Extracted chars: 52680
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Types of Ekphrasis:
+An Attempt at Classiﬁcation
+Liliane Louvel
+University of Poitiers
+Abstract
+This article aims at offering a reassessment of ekphrasis, expanding on the
+definitions in work by Tamar Yacobi and James A. W. Heffernan, to name only two.
+It aims to distinguish between different types of ekphrasis according to the various
+functions it may assume: narrativizing, maieutic, hermeneutic, subversive, elegiac, and
+affective. Ekphrasis has undergone a new turn in our digital age and is even more
+widespread than before, since it is no longer confined to books. The word/image
+relationship has become more broadly part of our everyday life. This article argues
+that reception theory and the phenomenology of reading and viewing must be taken
+into account in analyzing this new experience of a digital virtual world. The emergence
+of a mental image conjured up by the word/image interaction plays a role not only
+in our cognitive but also in our bodily experience. I propose that the interaction and
+oscillation between the page or the screen (the receiving device) on which the ekphrasis
+appears and our mind’s eye generates a blend that I call the “pictorial third” as a means
+of accounting for the reading/visualizing experience.
+Keywords
+ekphrastic moment, reading event, phenomenology, pictorial third
+The “pictorial turn” as theorized by W. J. T. Mitchell (1994 [1964]) and the
+ever-increasing presence of intermediality in our digital age seem to require a
+reassessment of the relation between word and image in general and of the
+figure of ekphrasis in particular. Indeed, not only literature, its original locus,
+but sociocultural productions such as newspapers, cinema, television, digital
+photography or social networks make rethinking the word/image relation-
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324432
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 2 ──
+ship necessary. People have become used to media-mixing, and literature has
+followed suit, experimenting with new uses of images. For instance, the trag-
+edy of 9/11 and the innumerable descriptive comments on its traumatic
+images reflected the intermedial turn the catastrophe fostered as multiple
+kinds of media were employed in trying to make sense of it. Literature inter-
+acted with the advent of visually engaged “9/11 books,” like Jonathan Safran
+Foer’s Extremely Loud and Incredibly Close (2005). This novel contains images
+together with their descriptions, and its end pages work like a flip-book: when
+quickly leafed through they mimic the awful fall of a man. In Falling Man, Don
+DeLillo also worked with the repetition of the traumatic image of the man
+falling off one of the doomed Twin Towers. The intermingling of word and
+image, of words commenting upon images and vice versa has become so
+common a phenomenon that people do not question it any more. This is a
+process that of course dates back to ancient rhetoric and in particular, the
+practice of ekphrasis.
+In the following I attempt a definition of ekphrasis as well as explore its
+different types and functions in search of an adequate typology. In reflecting
+on the effects of the word-image relationship on the reader/viewer well
+attuned to information technology I evoke, in parallel to cognitive studies
+and the tenets of phenomenology, the phenomenon I call the “pictorial third”
+as a means of accounting for the reading/visualizing experience.
+It seems necessary to start with a clear definition of ekphrasis. The classic
+definition states that it “brings things literally before the eyes” (Webb 2009:
+240) as an instance of enargeia (in Greek) or evidentia (in Latin). The reader is a
+witness to that which is being described and which is vivid in the mind; in
+terms of the omnipresent screens of “visual representation media” (Grønstad
+2016: 225), we would say that it was “life-like.” Due to the ever-expanding use
+of works of art in literature, over the years the term—at least in Anglophone
+criticism—has come to be restricted to the description of works of art, where-
+as classic ekphrasis corresponded to the wider figure of hypotyposis (the Greek
+term) or descriptio (the Latin equivalent). What is the state of the art nowadays
+when technology has taken such a powerful electronic and intermedial turn?
+In what way have screens altered our contact with images and our links
+with the world? What has changed in the context of widespread internet
+access? Are we witnessing the rise of new types of inter/trans/remedial
+objects? As a consequence, has ekphrasis acquired a new nature and new
+functions? Can it now be conceived of as an intermedial object? There
+has been a noticeable change in the position of the viewer: the monocular
+Renaissance perspective has shifted to the swift display of multivisual hyper-
+text and the mosaic-like presentation of objects—their presentation and no
+longer their representation. Multiple synchronous images are vying for space
+246
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 3 ──
+on the same screen. The viewer/user has the opportunity of reading/viewing
+images and their accompanying ekphrases on all kinds of screens, whether
+collective (like cinema screens or huge TV screens for special sports, political
+or musical occasions) or private ones (TV, computer screens, smartphones,
+e-readers, etc.). How do these new technological conditions of visibility affect
+ekphrasis, and does it in response adopt new modalities of appearance, new
+textual shapes, and functions? Why do some types of ekphrasis survive and
+others undergo alterations or become extinct? Which kinds of ekphrasis resist
+the mutations of our technological, electronic, digitally influenced times and
+are plastic enough to adapt?
+If we agree that ekphrasis is “an aesthetic composite” (Yacobi 2005), that is,
+an intermedial mixture of word and image, then it seems to be ideally suited
+for the presentation of a fragmented world told in split-up narratives. The
+montage-like pictures on screens actually seem to reflect our new ways of com-
+municating and living, a fact literature has quickly seized upon. Ekphrasis can
+imitate this quick-changing life of illusory closeness and virtuality. The mix-
+ture of description and the actual presence of visual images interrupting the
+flow of a text brings to the reader’s eye a horizontal rhizome-like window to
+look at instead of a linear continuous narrative flow (see the work of W. G.
+Sebald, Aleksandar Hemon, and many others). Word and image seem to be
+in closer and more complex interrelations than the knots of Laocoo¨n’s ser-
+pents. They may concur or they may differ; their relationship may be one of
+redundancy, confirmation, and reassurance or, on the contrary, subversion,
+destabilization, and threat.
+Let me add that the word/image relationship has often been troubled by
+the domination of word over image. Psychoanalysis has it that the verbal
+elaboration of the work of dreams makes the image disappear; conversely,
+rhetoric argues that in ekphrasis the word makes the image appear (Rousset
+1990). The well-known hierarchy has also been the locus of gender issues, an
+image being seen as feminine and inferior to the powerful word seen as mas-
+culine (Bryson 1986).
+In this article, I argue that distinguishing between different types of
+ekphrasis will help us to take into account the performative aspect of visually
+imbued texts (Paulson 2016: 238) and to examine “how to do things with
+ekphrasis.” I propose that there is such a thing as an “ekphrastic moment,” a
+textual and phenomenological duration that envelops us while reading and
+gazing at the same time. This ekphrastic moment holds epistemological
+potential beyond its two input domains: when an image arises in a text it
+provokes “a visual reading event,” combining Louis Marin’s (1999: 33) “read-
+ing event” and Sarah J. Paulson’s (2016: 241) ekphrastic “visual event.” The
+Louvel
+† Types of Ekphrasis
+247
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 4 ──
+actualization of the triadic event involving text and imagined image in the
+reader’s mind gives rise to a “pictorial third” (Louvel 2010: 258–59).
+Ekphrasis Challenged by the Digital
+The digital screens on which flickering images appear and disappear seem
+to impart to them a life and death of their own. Walter Benjamin identified
+three factors necessary to produce “an accomplished work of art”: technical
+evolution, the exhaustion of traditional art forms, and subtle changes in
+society entailing a change in the reception mode favoring new forms of art:
+Indeed, every developed art form intersects three lines of development. Technol-
+ogy works toward a certain form of art. . . . Secondly, the traditional art forms in
+certain phases of their development strenuously work toward effects which later
+are effortlessly attained by the new ones. . . . Thirdly, unspectacular social changes
+often promote a change in receptivity which will benefit the new art form. (Ben-
+jamin 1969 [1936]: 249– 50)
+Heconcludesthat “everyfundamentallynew, pioneering creation ofdemands
+will carry beyond its goal” (ibid.: 237). The fact that the image of a painting, for
+instance, is so readily accessible seems to free ekphrasis from its primary func-
+tion:that of making the absent image visualizable. Hencetheaccessto internet
+picturesrepresentsachallengetoekphrasis,whenprimarydescriptivefunctions
+and uses may recede into the background (except in the case of “notional
+ekphrasis” [Hollander 1988: 209], which has no equivalent in the world
+beyond the text).
+As we can have such fast and easy access to digital pictures, photographs,
+graphs, maps, and so on, all kinds of writers (commentators, artists, art his-
+torians, journalists, teachers, students) are encouraged to appeal to the visual
+and the digital. In a world of networks, of rhizomes, and of multiplying
+screens and composite pictures, the visual often develops horizontally more
+than vertically. According to Gilles Deleuze, the rhizome refuses hierarchy.
+There are no entry points, no differences in levels; the rhizome can be com-
+pared to flat cartography rather than deep-digging archeology (Deleuze and
+Guattari 1993: 20). This organizing mode tallies perfectly with word/image
+onscreen, the mixing of techniques, and media. In House of Leaves, Mark
+Z. Danielevski (2000) displays a variety of links, interfaces, hyperlinks, and
+montages on the book page. Its typographical layout is consistent with the
+storyline, which tells of the video filming of an exploration of the inside of an
+ever-expanding house in an ever-expanding book. Among the huge number
+of novels dealing with ekphrasis, a few, for example, Dorian by Will Self (2002)
+248
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 5 ──
+and What I Loved by Siri Hustvedt (2002), have already staged digitally pro-
+duced works of art like videos, animated documents, or filmed installations.
+It seems necessary then not to treat ekphrasis as a unified phenomenon, but
+to carefully distinguish among different functions and types of ekphrasis.
+Perceptual changes follow changes in the media and in the historical context,
+so that different cultural periods entail different modes of reception and
+seeing. Paulson quotes Marshall McLuhan’s famous catchphrases “the medi-
+um is the message” and “the medium matters” (McLuhan 1964; quoted in
+Paulson 2016: 253). Ekphrasis is not monomorphous and any attempt at
+classifying ekphrases glosses over the frequent combination of two (or even
+more) functions and types.
+A certain number of attempts have already been made to differentiate
+types of ekphrasis; Michele Cometa (2012), for instance, further developed
+James A. W. Heffernan’s idea of “notional ekphrasis” and Laura Sager Eidt
+(2008) also offered a typology. But these valuable works often concentrate on
+a particular period (the German nineteenth century for Cometa, film studies
+for Sager). An overview seems particularly necessary as digital practices and
+information technology bring about completely unprecedented uses of word
+and image.
+I try to offer a detailed typology taking into account the types of ekphrasis
+already described but also new ones that have emerged in recent artistic
+practices. A phenomenological turn will also be necessary to account for the
+effects of the different types of ekphrases on the reading experience as well as
+on the often overlooked reader/viewer’s experiencing body.
+Narrative Ekphrases: Ekphrasis at Work
+Narrativizing Ekphrasis
+Ekphrasis’s first and foremost function is that of describing an inanimate
+visual object. It is thought to stall the smooth unrolling of the narrative. As
+in Homer’s canonical description of Achilles’s shield, it allegedly decelerates
+the story, although it is not merely a description of the shield but, as Murray
+Krieger (1992) argues, the narrative of the events depicted on it, that is, a
+narrative disguised as a vivid description. Economically speaking, a minimal
+portion of text will be taken up by a minimal ekphrasis when the reference to a
+well-known picture suffices. A minimal ekphrasis, consisting of a quick evo-
+cation such as a title or a painter’s name, called “model ekphrasis” by Tamar
+Yacobi (1999: 96), helps reduce the so-called descriptive chores. Of course,
+detailed ekphrasis remains absolutely necessary in the case of “notional”
+ekphrasis when a purely imaginary image requires words to conjure it up.
+Louvel
+† Types of Ekphrasis
+249
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 6 ──
+Beyond this classical function of ekphrasis, several others deserve attention
+in our quickly changing world. In contemporary artistic expression, ekphra-
+ses also occur in videos, films about artists, films about works, and montages.
+All these forms allow for private verbal expressions or narratives construed
+by visitors in addition to verbal explanations of visual works of art given on
+the part of the artist or the curator. Ann Hamilton’s exhibition Phora at La
+Maison Rouge in Paris in 2005 displayed numerous screens on a wall. On the
+screens a long series of the same huge black and white mouth kept uttering
+words. This was the ultimate visual/aural/verbal production rolled into one.
+A leaflet took pains to describe and explain the video to the spectator (Ham-
+ilton 2005: n.p.).
+Hermeneutic Ekphrasis
+An ekphrasis may work as a clue to signal a mystery; the reader then turns
+detective and embarks on a hermeneutic quest. Yacobi’s (2005: 224) example
+of “double exposure,” twinning Blake Morrison’s ekphrastic poem “Teeth”
+with Robert Browning’s “My Last Duchess,” shows how, thanks to the allusion
+to Francis Bacon’s The Pope in the poem, the crime the husband committed is
+revealed. Ekphrasis may also contain elements alluding to an image or images
+that in turn may also point to a possibly hidden story or mystery. In Ghosts by
+John Banville (1993), the presence of several of Vaublin’s (actually Watteau’s)
+paintings, like the detailed ekphrasis of the (unacknowledged) portrait, pushes
+the reader to juxtapose it with Watteau’s painting Gilles. The “real” picture
+then gives the clue to the solution of one of the story’s mysteries.
+The reader may suspect the presence of a painting behind a description
+thanks to linguistic markers (see Louvel 2002: 33) and thus may be led to check
+and confirm his or her intuition—easily done on the web. Reading the
+description of a cupboard in chapter 11 (“Containers”) of Gabriel Josipovici’s
+The Goldberg Variations (2002) provokes an impression of de´ja` vu. The trace of
+a possible picture concealed behind the verbal text thanks to the descriptive
+linguistic choices and the visual quality of the minute description sends the
+reader on a hermeneutic quest, which confirms his or her doubts. The
+description is actually that of the first still life in European art painted on
+wood, the anonymous Armoire au placard et aux bouteilles (1470, Colmar Museum
+Unterdenlinden).
+Maieutic Ekphrasis
+A character may also experience the emergence of an idea or a feeling thanks
+to an ekphrasis. I prefer to call this “maieutic” ekphrasis instead of using
+Heffernan’s (1993: 5) term, “obstetric ekphrasis.” In Edith Wharton’s The
+House of Mirth (2005), a novel strongly imbued with painting, the description
+250
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 7 ──
+of the impersonation of Reynold’s Mrs. Lloyd by the character Lily Bart in a
+tableau vivant produces an ambiguous revelation under her lover’s eyes. Selden
+is led to realize his love for Lily as well as her true character, which supersedes
+her model: Mrs. Lloyd becomes Lily Bart and not the other way around. If
+this is Lily Bart’s moment of triumph, it also foretells her impending doom.
+Art and illusion disclose the artificiality of Lily’s character in this artistic
+description of an artistic moment copying an artistic work. It is art at three
+removes, revealing how false and shallow Lily really is. Wharton’s original
+title for her novel, A Moment’s Ornament, supports this reading. Lily, the orna-
+ment of a moment, triumphs in her “ekphrastic moment,” experiencing at
+the same time her position as subject and object. She gets caught up in the
+lethal power of her artificial being-as-representation.
+Subversive (Debunking) Ekphrasis
+Ekphrasis often achieves a performative role, as is the case in postmodern
+ekphrastic writing like Michel Faber’s The Crimson Petal and the White (2011).
+The novel rewrites Victorian blockbusters, adding distancing effects, meta-
+lepsis, and direct address to the reader (e.g., “you will see later that . . . ”).
+Ekphrasis here is part of a postmodern debunking strategy and acts upon
+characters and readers alike, making one take a step back from becoming
+completely engrossed in the tongue-in-cheek narrative. Meta-references in
+such phrases as “Wilkie Collins my friend,” or the allusion to famous pictures
+and photographs, add to the reader’s complicity with the narrator.
+In this way ekphrasis can subvert and even destroy the apparent discourse
+of the narrative or of popular opinion to alert the reader to ideological or
+ethical implications. Julian Barnes’s first chapter of A History of the World in 10
+and 1/2 Chapters (1989) is told from a worm’s point of view, thus debunking the
+Bible’s narrative perspective on the Flood. His chapter dedicated to Ge´ri-
+cault’s painting the Wreck of the Medusa (Barnes 1989: 125–39) mixes up art
+history parlance, humor, and strident personal critical opinion, as in the
+following series of interrogations: “A painting is a moment. What would we
+think was happening in a scene where three sailors and a soldier were throw-
+ing people off a raft into the sea? That the victims were already dead? or if
+not, that they were being murdered for their jewelry?” (Barnes 1989: 129, my
+italics).
+Paul Durcan’s (1991) poems in Crazy about Women may be read as profana-
+tion when they contradict or debunk the pictures of sacred subjects that they
+purport to celebrate. This is the case for instance with “The Holy Family with
+St. John” (Durcan 1991: 10–11) in which the childish St. John the Baptist has
+a “trim penis” peering “out like bullfinch from a bough” and Christ and the
+Virgin Mary sport “frisby halos.” This type of ekphrasis stalls reading time
+Louvel
+† Types of Ekphrasis
+251
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 8 ──
+when the reader has to check the details in the adjacent picture and may
+destabilize the evidence of the visual in the text. This is also the case in
+Sebald’s œuvre at times. When the image and the text are at loggerheads,
+the reader can go to the internet to check the validity of the description in
+cases where the image is not provided.
+Anachronistic Ekphrasis
+Ekphrasis may be strongly marked by the interplay between past, present,
+and future. Texts that reenact the aesthetic mores of an earlier period, like the
+Pre-Raphaelites’ aesthetics in The Children’s Book by A. S. Byatt, are inevitably
+at variance with aesthetic choices and practices since Duchamp (the impor-
+tance of the artistic gesture, installations, videos, weird objects, etc.). Tem-
+poral dialectics invite ideological interrogations by the reader. In Aleksandar
+Hemon’s novel The Lazarus Project (2008), the ideologically racist and xeno-
+phobic tenets of the early twentieth century are foregrounded by the archive
+photographs and their descriptions, which may shock today’s readers. The
+ekphrasis of the photo figuring on the front page of the Tribune “is a photo of
+Lazarus in profile, his eyes closed, a dark shadow over his eyes and in the
+hollow of his cheeks. THE ANARCHIST TYPE the heading says: numbers
+are strewn around his face. Below it, the numbers are explained” (Hemon
+2008: 143). The text provides a phrenological explication of the dead man’s
+face, noting that his “simian ears” demonstrate his so-called bestial ten-
+dencies. This ekphrasis precedes the photograph, which appears almost a
+hundred pages later.
+Not only may the description of a picture (and its ideological assumptions)
+seem anachronistic from today’s point of view, but conversely the text may
+play on anachronism when referring to later topics or events, while the
+related ekphrasis deals with visual objects of earlier date. In this case, it may
+double as debunking ekphrasis. However, quite a number of novels have
+recently revived Victorian materials and standpoints in a nostalgic manner;
+one could cite Antonia Byatt’s work, as well as Michel Faber’s or Tracy
+Chevalier’s, among others.
+Ekphrasis and Emotions
+Monumental or Elegiac Ekphrasis
+Ekphrasis often aims to help retrieve the past, which is also one of photog-
+raphy’s major functions. We could thus designate this type “monumental”
+ekphrasis, for it strives to erect a monument to commemorate a person or an
+event. It may also point to a trauma; ekphrasis thus can be paired with elegy
+as Stephen Cheeke (2008) remarked a` propos photography, which Susan Son-
+252
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 9 ──
+tag called “the twilight art.” Cheeke (2008: 143) evokes “the elegiac nature of
+photographic art,” for “the photographic image has something to do with
+Death” and is akin to a memento mori. For Sontag (1977: 154), “a photograph is
+not only an image (as a painting is an image), an interpretation of the real; it
+is also a trace, something directly stenciled off the real, like a footprint or a
+deathmask.” She adds with humor: “Having a photograph of Shakespeare
+would be like having a nail from the True Cross.” Of course this is directly
+linked to Barthes’s famous notion of Ça-a-e´te´, “It has been” (1980: 120).
+A good example of elegiac ekphrasis might be found in Timothy Findley’s
+The Wars (2001), a kind of monument erected to the memory of Robert Ross,
+a young Canadian soldier caught up in the horror of World War I, “the war
+to end all wars.” Photographs are minutely described together with their
+handwritten comments. The text even mimics the inscriptions the photo-
+graphs bear at the back: “You turn them over—wondering if they’ll spill—
+and you read on the back in the faintest ink in a feminine hand: ‘Robert.’ But
+where? . . . Then you see him: Robert Ross” (Findley 2001: 6). The inscrip-
+tions in italics read, “Robert Ross and Family,” “Rowena,” “Mother and Miss
+Davenport,” some with more personal comments—“Here is Meg—a Patriotic
+Pony”—or exclamation marks: “This is Peggy Ross with Clinton Brown from Har-
+vard!!! ” (ibid.: 6–7). Letters are also inscribed on photographs: “What is this?”
+for an iceberg, or the “clipping from a paper reading ‘Longboat wins the
+marathon!’” (ibid.: 12). The photographs are used to recapture subjective
+experiences and the subsequent contradictory testimonies relating to the
+young man’s horrendous ordeal.
+“Affective” Ekphrasis
+A corollary of elegiac ekphrasis might be “affective” ekphrasis, the kind of
+ekphrasis that expresses a longing to merge with the object, Narcissus- or
+Pygmalion-like. It expresses the desire for erotic absorption and fusion with
+the world of the image or with the image itself. Absjorn Grønstad gives the
+example of Point Omega by Don DeLillo, where one character wants to merge
+with Hitchcock’s decelerated Psycho and live it minute by minute (Grønstad
+2016: 232). We could add the character of Strether in Henry James’s The
+Ambassadors (2009 [1903]), who loves the landscape of a painting by Lambinet
+so much that he manages to enter it imaginatively. Climbing off the suburban
+train, he walks in the French countryside as painted by Lambinet and enjoys
+the feeling of recognition and reunion with a loved object. In this kind of
+ekphrasis, word and image meet to provide the locus for an emotional
+ekphrastic encounter.
+Louvel
+† Types of Ekphrasis
+253
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 10 ──
+Ekphrasis and Artistic Practice: Ekphrasis in the Painter’s Studio
+Pragmatic or Technical Ekphrasis
+This type of ekphrasis and the ones that follow may be seen as composite since
+they often combine description with other issues or aims. “Pragmatic” or
+“technical” ekphrasis refers to an ekphrasis focusing on the more technical
+choices of an artist. Here let us rely on a painter’s words. In a notebook entry
+dated December 6, 1947, the British painter Stanley Spencer wrote a very
+detailed account of his work for the famous chapel at Burghclere and its
+frescoes, culminating in the Altar piece, The Resurrection of the Soldiers:
+The crosses throughout & the mules & limber & men in the central part of the
+picture form the main basis on which the picture is built. . . . This cross was placed on
+the graves or wherever men fell was placed there, as a symbol of hope for their
+ultimate resurrection & redemption & was looked upon & thought of as such. . . .
+the cross is one of the forms through which the state of peace has been expressed. Here
+it is caressed as a sweetheart, & there it is forming a kind of door to a house so that a
+soldier can re-enjoy his old days of sitting in his doorway & chatting to his neigh-
+bour. It forms a home for him . . . This picture is supposed to be a reflection of the
+general attitude & behaviour of men during the war. As soon as I decided in this it
+seemed that every army incident was a coin, the obverse of which was presented to
+me & on the unseen face of which was the Resurrection. (Spencer 2001: 142, my
+italics)
+While describing his work of art, Spencer clearly explains the origin of his
+picking out the cross as a symbol of his experience of the war and of the death
+of his comrades-in-arms. Crosses marked the place where soldiers have fallen
+and became omnipresent as a haunting symbol. They also, in true Spence-
+rian manner, became the mark of hope in resurrection. Therefore, the shape
+of the cross becomes a necessary presence in the painting and its main compo-
+sitional element. The words “basis,” “built,” “represent,” “expressed,” and
+“forming forms” all point in that direction.
+There are numerous examples of artists at work in literature, and writers
+have taken pains to describe their technical grappling with their subjects.
+A famous example is Emile Zola in L’œuvre, where he models Lantier on
+Ce´zanne. Oscar Wilde staged Basil Halward painting Dorian Gray, while
+in our own time, Siri Hustvedt in The Blazing World (2014) repeatedly
+describes the artist in her studio and the coming to life of her installations,
+videos, or boxes.
+Creative Ekphrasis: The Description of a Creative Event or “Advent”
+Close to “technical ekphrasis” are cases that combine description with the
+advent of a creative event or inspiration. This is the phenomenological side of
+254
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 11 ──
+ekphrasis, reflecting processes of exchange and transaction resulting from the
+“ekphrastic encounter” (Grønstad 2016: 231; Kennedy 2012) or the “infinite
+dialogue” as developed by Foucault (1966).
+In most of Spencer’s writings and ekphrases, art is the result of an event or
+of an “advent,” of something that happened to the painter, which came to his
+mind and is described in his writings as an experience. It may be a response to
+a situation, to a literary event, or to a vision that triggers his desire to paint. He
+often declares that he responded to something he liked and fell in love with.
+This was the case with Sarah Tubb and the Heavenly Visitors (1933), as he wrote to
+D. Tooth, his gallery’s owner:
+Usually, in order to describe any one picture of mine it means taking a seat &
+preparing to hear the story of my life. . . In the village, many years ago, lived an old
+couple ( brother & sister) Tommy Tubb & Sarah Tubb. I remember them very
+well & seeing them going in & out of the gate in the picture. I remember my father
+describing how when one evening the “Northern Lights” . . . was very clear & vil-
+lagers wondered what it was, that “Granny Tubb,” Sarah Tubb’s mother, had
+knelt down in her gate & prayed . . . This is I am aware not a satisfactory or
+explanatory explanation & I should think you might feel like Byron did about
+Coleridge
+“Explaining Metaphysics to the Nation.”
+“I wish he would explain his explanation.”
+But I see an old Grandmother in black kneeling in her gateway & texts lying
+about & greengrocers & shopkeepers adoring. I must paint it, because I like it very
+much & see it all very clearly. (Spencer 2001: 155)
+This sort of text by a painter is closely related to the field of art criticism and
+art history, where ekphrasis takes on a scholarly function.
+Critical Ekphrasis
+Art Criticism and Second-Order Ekphrasis
+I would argue that such art-critical and art-historical “ekphrastic encounters”
+are of the second order. First-order ekphrasis is an encounter between image
+and language, or between ekphrasis and narration, or reader and ekphrasis.
+Second-order ekphrasis is an encounter between two disciplines, art history
+and “literature/writing on art,” dealing with an art work already once
+removed from what it (re)presents. It broadens the scope of ekphrasis to
+bring in the parlance of academic art criticism. A fine example is Siri Hust-
+vedt, whose heterogeneous texts often verge on art history and criticism; she
+even indulged in art criticism in Mysteries of the Rectangle: Essays on Painting
+(2015). In The Blindfold, the enigma of the absent figure of Paris in the main
+Louvel
+† Types of Ekphrasis
+255
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 12 ──
+character Iris’s description of Giorgione’s The Tempest is posed by the text
+itself. Her detailed description takes up two pages:
+There’s a woman sitting on a riverbank in the foreground to the right. She’s
+nursing a child not a tiny infant, a baby who also sits on the ground. One of her
+arms rests on the child’s shoulder . . . And then there’s the storm which gives the
+painting its curious illumination. It’s not real light but a kind of inner light, the light
+of strong memories.
+“Haven’t you forgotten something?”
+“Have I? . . . ”
+“There’s a man in the painting.” Paris answered for Sam. (Hustvedt 2003
+[1992]: 152 – 54)
+This type of ekphrasis might be called “critical.” In this instance it is com-
+bined with maieutic ekphrasis, for the omission of this important detail will
+reveal an ambiguous aspect of Iris’s character. Ekphrasis may be used to
+criticize, recreate, or evaluate an art work. Ekphrastic criticism verges on the
+genre of the manifesto since texts featuring this type of ekphrasis often contain
+various elements of an art theory, and the task of collecting them and piecing
+them together may fall to the reader-as-critic. Cheeke (2008: 183), writing
+about prose ekphrasis—that is, the kind of ekphrasis close to “writing on art”
+in the wake of Pater—identifies what I propose to call critical ekphrasis. He
+aligns this with the kind of “creative criticism” championed in Oscar Wilde’s
+The Critic as Artist where the critical act is a “new creation,” “adding more to
+the life of the artwork” Cheeke (ibid.: 186) concludes:
+Ekphrasis then is an example both of the creative act itself — through the Greek
+mimesis, imitating, copying — and of the secondary critical act of commentary,
+description, revelation. Indeed [it] is frequently a moment of significant creation
+(as Ruskin, Pater on Leonardo, . . . ), and therefore potentially subject itself to
+critical commentary and appreciation, and at the same time it is a moment of
+criticism, a response to an art object, and thus always open to disagreement or
+correction.
+This type of ekphrasis should clearly be differentiated from the fictional
+type. But we could also venture that when it is used to interpret the visual,
+ekphrasis in fiction might sometimes easily rival ekphrasis in art criticism and
+art history. The deliberate choice of the connoisseur’s language of art critics
+has a long history in Henry James, Emile Zola, Theophile Gautier, Karl
+Huysmans, Virginia Woolf, John Banville, Tracy Chevalier, Siri Hustvedt,
+and others. Overrunning the boundaries between fiction and nonfiction
+and between creation and academic study, these novels urge us to rethink
+ekphrastic categories and uses in relation to art theory.
+256
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 13 ──
+The rivalry between literature, art history, and aesthetics dates back to the
+coining of the term by Baumgarten in 1735 and the separation among the
+three disciplines. Vasari wrote ekphrases without pretending to be strictly an
+art historian (there was no such thing then) or a “novelist” (no such thing
+either yet) but a biographer enjoying the freedom of his art. Ruskin on Turner,
+or Pater on Leonardo, for instance, wrote about art in a hybrid medium
+mixing together reflection, evaluation, philosophy, biography, and fiction.
+But “writing for art” means “envoicing” a silent painting, as in “l’e´crit sur
+l’art” (Cheeke 2008: 24). Art history, too, largely relies on ekphrasis, even
+when there are reproductions, pushing the limits of representation and
+exposing its points of fusion or friction with literature. The novelist or the
+poet can also borrow from museums or gallery collections, which may be
+checked online by the reader/viewer who nowadays is much more cognizant
+of museums, galleries, and the art market.
+Heuristic Ekphrasis: Linking Text with Knowledge and Discovery
+The link between art history and “writing for art” (Cheeke 2008) is a subtle
+one. Dealing with art, language, and the ethical and aesthetic issues at stake
+in both, its reverberations extend into the current ekphrastic practices that
+might be characterized as “a form of critical knowledge” (Kennedy 2012: 85).
+This was the case for Stanley Spencer when he made a “discovery” while
+painting and then writing about his painting, which revealed to him some-
+thing about himself and about his own artistic choices. A particular phrase
+of John Donne’s, “to heaven by heaven,” puzzled him, and painting helped
+him make sense of it, as he explained in one of his lectures at Oxford in 1922:
+I loved the studious atmosphere of the room and I began to read an extract of a
+sermon by the metaphysical poet, John Donne. The lines that struck me were: “As
+I go to Heaven by Heaven.” I thought he meant literally “by Heaven” as though he
+were getting a broad view of it when as, of course, he really meant “As I go to
+Heaven by the virtue of Heaven in me.” As soon as I came to the words “by
+Heaven,” I seemed to imagine Donne went past heaven, alongside heaven & as I was
+thinking like this seemed to see four people praying in four directions: I saw their exact
+relative positions within a moment in a second. Heaven was Heaven everywhere so, of
+course, they all prayed in all directions. Well when I had done this picture, I found I
+had made another discovery. I liked it when the same thing seen in different places in a picture looked
+different. . . . I also noticed that the physical sense of the picture coincided with the
+spiritual. I mean, for instance, that the furthest figure in the picture was the most
+remote in a spiritual sense. These discoveries I made as a direct result of liking
+Donne & his poetry. (Spencer 2001: 118, my italics)
+The italicized words testify to the visual and spatial quality of Spencer’s
+imagination that serves as a kind of preview of the work to come. Spencer
+Louvel
+† Types of Ekphrasis
+257
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 14 ──
+insists on the heuristic import of his experience, which yielded a twofold
+revelation,onebeforestartingtopaint,oneoncetheworkwasdone.Thisenlight-
+ened him about Donne’s meaning as well as his own aesthetic preferences.
+In her “illustrated novel” The Sensualist, Barbara Hodgson (2001 [1998])
+inserts a great number of anatomical plates as well as pictures of boxes, dried
+plants, collages of maps, photographs, dictionary entries, which together
+transform her book into a hermeneutic quest, or a kind of detective story.
+Above all, the images stage an interrogation of the interplay between identity,
+scientific knowledge, and art, reflecting the “anatomical art” in which the
+heroine specializes. In particular, the art of an allegedly stolen woodcut by
+Vesalius reproduced in the book fascinates her and provides the subject of an
+ekphrasis. The book thus becomes an interpretive challenge that compels the
+reader to ponder over the complex and varied relations of the visual objects
+presented. The assemblage of the book, replete with scientific pictures, is meant
+to be a source of knowledge as well as visual enjoyment.
+Reading such books, whether they display material pictures or contain
+their description, constitutes what Grønstad (2016: 233) calls a “neo-phenom-
+enological hermeneutics,” which is an encounter and an experience typical of
+“the ekphrastic turn” and of the ekphrastic moment.
+The various functions of ekphrasis of course produce different “reading
+events” by affecting the reader phenomenologically when he or she “encoun-
+ters ekphrasis” (Kennedy 2012). It stands to reason, then, that the phenomena
+of reception should deserve our attention and care.
+The Ekphrastic Moment
+I propose the term “ekphrastic moment” for the moment of some duration
+experienced when ekphrasis reaches beyond its own definite textual space. It
+differs from the “pregnant moment” or the kairos, which are thought of as
+relatively fleeting experiences. Between the more extended time of the whole
+narrative and the “ekphrastic moment,” the reader notices a change of reg-
+ister, or a “deceleration” of rhythm and speed, hence a change in the relation
+between time and space.
+Given that the ekphrastic moment is a process and a duration, it is set in
+motion by the ekphrastic text passage, from which waves propagate like
+concentric circles in water, expanding the effect of ekphrasis beyond its
+descriptive paragraphs. The “ekphrastic moment” makes it possible to
+inscribe ekphrasis on the time axis and to reveal the ambiguity of this in-
+between genre, poised on the limit between two metaphysical implications,
+two arts, two (or more) media. It is also a moment of risk, when the two media
+are reciprocally testing their limits. Their friction is rich with potential.
+258
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 15 ──
+The tableau-vivant is a good example of the “ekphrastic moment” for it holds
+its spectators in its power. For example in Edith Wharton’s The House of Mirth,
+Lily Bart gives a perfect rendering of Reynolds’s portrait of Mrs. Lloyd. Time
+is suspended both by the text (the ekphrasis) and in the diegesis as spectators
+are left speechless. This arrest by the ekphrasis provokes a kind of textual
+oscillation in between action and reaction. A realization is initiated by the text
+before and has thrilling aftereffects once the enactors have disappeared. It
+stretches time with the anticipation of the event and with its aftereffects, and
+includes intra-diegetic(mainlymasculine)gazesforthereader/viewer’s reflec-
+tion. This shows how the ekphrastic “reading event” may turn into a signifi-
+cant experience for the reader/viewer outside the fictional world.
+A Phenomenological Experience: A Reading Event
+Reading/viewing the hybrid word/image text works on our senses (see The
+Sensualist ), on our percepts, emotions, and bodies. I suggest that word/image
+reading/viewing causes an event, an advent, which is close to what Marin
+(1999: 15) called a “reading event,” occurring “in the very humble meaning
+of what arises from what happens in what one is reading, all of a sudden,
+almost unexpectedly.” There is a before and an after of this surprise, as in the
+“ekphrastic moment.” When the image “happens to/in” a text, it interrupts
+it; it “objects” (Winterson 1995: 19). The body is moved, “seized” by the
+image that is incorporated, when some pictures produce strong affects, liber-
+ating the forces they captured (cf. Deleuze 1989: 39), which might be one
+of the reasons why onscreen texts/images are objects of such fascination.
+Somehow the reader’s body is affected by the impression, and the reader,
+stimulated and alerted by ekphrasis, is activated: he or she generates super-
+impositions, collages, and montages that make up a palimpsestic image. The
+word/image text implies a coproduction, an activation on the part of the
+reader. Previously “contained” between covers, the book all of a sudden
+comes to life thanks to the workings of an aesthetics of surprise that disrupts
+the reading process and provokes its “re-dysposition,” as Didi-Huberman
+terms recontextualization, substituting “dys-” for the “dis-” of “disposition”
+(Didi-Huberman 2009: 75). The “syncopation of the visual” suspends disbe-
+lief and the sensory echoes pull the individual toward the singular, toward the
+vibrations of what I have called “iconorhythm” (Louvel 2002: 242), a blending
+of word and image, and of time and space. The image plays the role of a
+mediator, a means of reaching unheard-of or unspoken truths, a link between
+memory and imagination.
+These processes involving mental images and emotions are best con-
+fronted with the aid of the cognitive sciences at the crossroads with neurology
+Louvel
+† Types of Ekphrasis
+259
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 16 ──
+and psychoanalysis. This might open a new horizon for polymedial research,
+“une ide´e de recherche” as Barthes (1980: 35) wittily offered when writing
+about Proust.
+Reception: The Pictorial Third
+Finally, the study of the relationships between word and image, their “com-
+merce,” is of great import and holds a privileged place as it displays the way
+language and image work in our quickly evolving world in the context of
+enormous technological changes. Ekphrasis stands at the core of the process,
+and we have to acknowledge the phenomological import of its various ava-
+tars, so often ignored. The reading experience as the consequence of the
+translation into words of a visual component, whether brief or more devel-
+oped, while fulfilling one or more of the great variety of functions I have tried
+to describe, takes place on the side of reception; it is part of the human
+experience. Information technology has exerted a great influence on mind
+and body, speeding connection and expanding linkages. Word and image are
+inextricably tied together, as in the sculpture of Laocoo¨n.
+If Lessing’s Laocoo¨n allegorically presents the inextricability of the interar-
+tistic relationships in the multiple knots of the snake coiled around Laocoo¨n’s
+body, it is far too violent an image for our contemporary practices when
+intermediality is the rule and at everyone’s fingertips. My own conception is
+less aggressive, and less hierarchical too, for I do not see the relation of word
+and image in terms of a vertical structure but in the mode of the rhizome,
+refusing the gendered separation between feminine image and male text. To
+my mind, no mortal struggle is involved, but rather a fruitful collaboration
+and a productive encounter, which is realized in what I call the “pictorial
+third.” The pictorial third emerges thanks to transpositions in which text and
+image are intertwined. Images are always already-there, circulating in our
+world, and language constantly transposes them. Conversely, the iconotext
+shows that image depends on text (Louvel 2011: 22).
+The detour of the text via the image may be necessary as a way of provid-
+ing meaning. Conversely, the image must be elevated by language to reach
+significance beyond effect and experience. The contemporary arts of per-
+formance and installation, and digital art as aesthetic “events” achieve a
+synesthesia, coupling eye with ear. The “pictorial third” is my term for this
+synesthesia, this in-between movement when the ekphrastic text reaches out
+to the image, when the image happens to the text, and when in the reader’s
+mind and body something of the iconotext resonates. In between text, image,
+and reading something arises still veiled and hazy; it also involves rhythm
+when the “pictorial third” conjures a visual syncopation.
+260
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 17 ──
+The “pictorial third” is a “relation,” a dynamic activity, that of a picturing
+reading, a read picture conveyed by ekphrasis first and foremost, very much
+in keeping with our Zeitgeist. The pictorial/visual impetus triggers the “pic-
+torial third” that finds its locus in the iconotext, in between text and image,
+when it arises in the reader’s mind on her/his inner screen. The “pictorial
+third” is dynamic, a movement or drive that produces a surplus of meaning
+and affect, a fantasy hovering in between the two media. It is a modality
+sharing qualities with the living, a lived experience, an “event” in the mean-
+ing of what happens: an intermedial performance.
+Bibliography
+Banville, John
+1993 Ghosts (London: Secker and Warburg).
+Barnes, Julian
+1989 A History of the World in 10 and 1/2 Chapters (London: Jonathan Cape).
+Barthes, Roland
+1980 La chambre claire, Note sur la photographie (Paris: Gallimard).
+Benjamin, Walter
+1969 [1936 ] “The Work of Art in the Age of Mechanical Reproduction.” In Illuminations,
+translated by Harry Zohn, edited by Hannah Arendt, 217 – 51 (New York: Schocken).
+Bryson, Norman
+1986 Vision and Painting: The Logic of the Gaze (New Haven, CT: Yale University Press).
+Cheeke, Stephen
+2008 Writing for Art, The Aesthetic of Ekphrasis (Manchester: Manchester University Press).
+Cometa, Michele
+2012 La scrittura delle immagini (Milano: Cortina).
+Danielewski, Mark Z.
+2000 House of Leaves, 2nd ed. (New York: Pantheon Books).
+Deleuze, Gilles
+1989 Francis Bacon: Logique de la sensation (Paris: Seuil).
+Deleuze, Gilles, and Fe´lix Guattari
+1993 A Thousand Plateaus (Minneapolis: University of Minnesota Press).
+Didi-Huberman, Georges
+2009 Quand les images prennent position (Paris: Minuit).
+Durcan, Paul
+1991 Crazy about Women (Dublin: The National Gallery of Ireland).
+Faber, Michel
+2011 The Crimson Petal and the White (Edinburgh: Canongate).
+Findley, Timothy
+2001 The Wars (London: Faber and Faber).
+Foucault, Michel
+1966 Les mots et les choses (Paris: Gallimard).
+Grønstad, Absjorn
+2016 “Transaesthetic Temporalities. Ekphrasis and the Poetics of Deceleration.” In Literature
+in Contemporary Media Culture, edited by Sarah J. Paulson and Anders Skare Malvik, 222 – 36
+(Amsterdam: John Benjamins).
+Hamilton, Ann
+2005 “Phora,” www.lamaisonrouge.org/PDF/Press Release Ann Hamilton.pdf.
+Louvel
+† Types of Ekphrasis
+261
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 18 ──
+Heffernan, James A. W.
+1993 A Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery (Chicago: University of
+Chicago Press).
+Hemon, Aleksandar
+2008 The Lazarus Project (New York: Riverhead Books).
+Hodgson, Barbara
+2001 [1998] The Sensualist (San Francisco: Chronicle).
+Hollander, John
+1988 “The Poetics of Ekphrasis,” Word & Image 4: 209 – 19.
+Hustvedt, Siri
+2002 What I Loved (New York: Scepter Hodder and Stoughton).
+2003 [1992] The Blindfold (New York: Macmillan Picador).
+2014 The Blazing World (New York: Simon and Schuster).
+2015 Mysteries of the Rectangle: Essays on Painting (New York: Princeton Architectural Press).
+James, Henry
+2009 [1903] The Ambassadors (Oxford: Oxford World’s Classics).
+Josipovici, Gabriel
+2002 Goldberg Variations (Manchester: Carcanet).
+Kennedy, David
+2012 The Ekphrastic Encounter (Farnham: Ashgate).
+Krieger, Murray
+1992 Ekphrasis: The Illusion of the Natural Sign (Baltimore: Johns Hopkins University Press).
+Louvel, Liliane
+2002 Texte/image, images a` lire textes a` voir (Rennes: Presses Universitaires de Rennes).
+2010 Le tiers pictural (Rennes: Presses Universitaires de Rennes).
+2011 Poetics of the Iconotext (Farnham: Ashgate).
+Marin, Louis
+1999 L’e´criture de soi (Paris: P.U.F./Colle`ge international de philosophie).
+McLuhan, Marshall
+1964 Understanding Media: The Extensions of Man (New York: McGraw Hill).
+Mitchell, W. J. T.
+1994 [1964] Picture Theory (Chicago: University of Chicago Press).
+Paulson, Sarah J.
+2016 “Showing Seeing Across Media, The Contemporary Novel as Visual Event.” In Lit-
+erature in Contemporary Media Culture, edited by Sarah J. Paulson and Anders Skare Malvik,
+237 – 59 (Amsterdam: John Benjamins).
+Rousset, Jean
+1990 passages e´changes et transpositions (Paris: Jose´ Corti).
+Safran Foer, Jonathan
+2005 Extremely Loud and Incredibly Close (London: Hamish Hamilton/Penguin).
+Sager Eidt, Laura M.
+2008 Writing and Filming the Painting. Ekphrasis in Literature and Film (Amsterdam: Rodopi).
+Self, Will
+2002 Dorian. An Imitation (London: Viking).
+Sontag, Susan
+1977 On Photography (London: Penguin).
+Spencer, Stanley
+2001 The Writings of Stanley Spencer, edited by Adrian Glew (London: Tate Gallery).
+Webb, Ruth
+2009 Ekphrasis, Imagination, and Persuasion in Ancient Rhetorical Theory and Practice (Farnham:
+Ashgate).
+Wharton, Edith
+1905 The House of Mirth (New York: Charles Scribner’s Sons).
+262
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025
+
+
+── PAGE 19 ──
+Winterson, Jeanette
+1995 Art Objects: Essays on Ecstasy and Effrontery (London: Jonathan Cape).
+Yacobi, Tamar
+1999 “The Ekphrastic Figure of Speech.” In Text and Visuality, edited by Martin Heusser,
+Miche`le Hannoosh, Leo Hoek, Charlotte Schoell-Glass, and David Scott, 93 – 101
+(Amsterdam: Rodopi).
+2005 “Ekphrastic Double Exposure: Blake Morrison, Francis Bacon, Robert Browning, and
+Fra Pandolfo as Four-in-One.” In On Verbal/Visual Representation, edited by Martin Heus-
+ser, Miche`le Hannoosh, Eric Haskell, Leo Hoek, David Scott, and Peter de Voogd,
+219 – 30 (Amsterdam: Rodopi).
+Louvel
+† Types of Ekphrasis
+263
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/245/528854/0390245.pdf by Georgia Tech Library user on 01 October 2025

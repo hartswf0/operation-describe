@@ -1,0 +1,966 @@
+# Ekphrasis in Recent Popular Novels
+# Source: Brosch - 2018 - Ekphrasis in Recent Popular Novels.pdf
+# BibTeX key: brosch_ekphrasis_2018
+# Zotero dir: 3126
+# Extracted chars: 61821
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Ekphrasis in Recent Popular Novels:
+Reafﬁrming the Power of Art Images
+Renate Brosch
+University of Stuttgart
+Abstract
+This article examines the uses of ekphrasis in recent popular novels, situated
+in a cultural economy in which there is great public interest in art objects and the world
+of artists, dealers, and collectors. Discussing novels by Siri Hustvedt, Thomas van
+Essen, Ali Smith, and Donna Tartt and casting side-glances at several others, it iden-
+tifies some common strategies for presenting the ekphrastic object. These novels typi-
+cally present the artwork through the subjective and highly affective gaze of a fictional
+character; they problematize the status and role of the artist, particularly in terms of
+gender; they posit that art objects trigger unquenchable desire; and— most signifi-
+cantly — they attribute transformative power to such objects. By affirming the power
+of art images to improve empathy and relationality in their privileged viewers, the
+novels reauratize art, supplementing traditional ideas of sublimity and epistemological
+benefit with an ethical effect.
+Keywords
+reader response, empathy, power of art, reauratization, cultural memory
+1. Novels in the Art Market
+The last two decades have seen an astonishing upsurge of ekphrasis in popu-
+lar novels. Most frequent and conspicuous among its objects are canonical
+works of art—especially paintings—by famous artists. It seems that the more
+we are surrounded by the digital, the more precious surviving art objects from
+periods of manual production become. The preoccupation with works of art
+in novels such as Donna Tartt’s The Goldfinch, Ali Smith’s How to Be Both, and
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324529
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+Thomas van Essen’s The Center of the World, may be seen as part of an inten-
+sified fixation on Western cultural inheritance from the past.
+In contrast to traditional ekphrastic poetry addressed to an educated read-
+ership bonding via elite connoisseurship about “the Old Masters” (as in
+Auden’s “Muse´e des Beaux Arts”), popular art novels nowadays aim at larger
+audiences, as do contemporary museum practices. The various outreach
+strategies that museums throughout the world are successfully utilizing to
+increase the number of museumgoers are matched by new processes of cir-
+culating and popularizing novels that dissolve the boundaries between cul-
+tural and consumer spaces. As Jim Collins convincingly shows, the cultural
+distinctions that Pierre Bourdieu made between restricted and large-scale
+cultural productions no longer apply to the current hybrid literary field where
+books circulate through fan blogs, superstores, Amazon websites, and tele-
+vision book clubs and where increasingly large-scale and interdependent
+systems of delivery, circulation, consecration, and adaptation of novels reach
+“the public at large” (2010: 32–33). It is in this sense of participating in an
+encompassing, converging media ecology that I refer to my literary examples
+as popular novels. As part of popular culture, these novels contribute to
+cultural memory by reinforcing certain images and ideas.
+With the increasing frequency of ekphrasis and its spread to popular nar-
+ratives in recent years, ekphrastic writing has accrued different functions.
+These functions are my focus in this article. I hope to shed some light on the
+current use of visual art in novels, to examine the role of artworks in a number
+of recent novels and the narrative techniques employed in their presentation,
+considering also what ekphrasis accomplishes for the reader and his or her
+comprehension of and response to the text. Though ekphrastic novels exhibit
+a wide variety of uses of artworks, what appears to be a common concern is
+a pervasive preoccupation with the nature of art and artists. Equally long-
+standing is the preoccupation with conventional ways of seeing and spec-
+tatorship. Though recent novels often exploit the opportunity to reflect on
+the gender question of vision, and the implicit and explicit power structures of
+visibility, they also—surprisingly, in light of the dominant anti-metaphysical
+concepts of culture—converge in a shared confirmation of the power of art,
+so that the democratic broadening of address goes hand in hand with a
+relatively narrow and conservative conception of art. If one had to name
+one common denominator in the function of ekphrasis in recent popular
+novels, it would have to be the attempt to reauratize art.
+However, given the affinity for the popular on the part of both the art
+market and the museum world, it is perhaps not surprising that recent novels
+reinstate and affirm traditional cultural axioms about the “nature” of art.
+The majority of recent popular novels regardless of their ideological affinities
+404
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+are conservative in endorsing the romantic concept of the “power of images”
+(Freedberg 1989), enhanced via the emotional impact of ekphrastic viewing
+in the novels. In modernist novels, ekphrasis was often linked to moments of
+epiphany in which characters experienced profound revelations, whether
+these were spelled out for the reader or not. Today’s novels also foreground
+subjective experiences and emotional drama in ekphrastic encounters, but
+these narrative elements are often employed in the service of a communal and
+interpersonal ethics, instead of the more individualistic values of the modern-
+ist period. Using novels by Siri Hustvedt, Donna Tartt, Thomas van Essen,
+and Ali Smith as examples, the following article examines four central pre-
+occupations: (1) the enactment of the gaze, (2) artists and the creative process,
+(3) the desire unleashed by great artworks, and (4) the ethical and epistemol-
+ogical benefit of art.
+For authors, the dialogue with the creative work of others is a means of
+energizing and upgrading their own fictions. Referencing works of high art
+can confer on the referencing medium an instant rise in status. For these
+novels, adding the motif of a visual art object confers a surplus boost of
+prestige and value. Ekphrasis in fictions can be related at least partly to the
+shifting ground of material culture and its basis in economic market forces.
+The art market has proved an ever more attractive area of financial invest-
+ment, and the high prices it generates have in turn fueled the public’s fasci-
+nation with the glamor of art and artists. However, the rise in interest in the
+visual arts is not only economically motivated: museums and art galleries
+have developed more inclusive curatorship, offering captivating shows that
+have broadened the spectatorship once limited to an educated community.
+Since the 1980s, museums have been competing as part of the leisure and
+entertainment industry and hence have had to consider the needs and desires
+of a broader audience for their presentations (Schwend 2012: 19). This grow-
+ing interest in art is manifested in blockbuster exhibitions that have become
+magnets for enormous crowds of viewers, and very likely informs the interest
+of readers of novels, as well. Given the infinite storage capacity and massive
+distribution of images in the electronic media, memory—on the individual
+as well as the collective scale—is likely to store many more images than fifty
+years ago, so that to mention a Caravaggio or Edward Hopper is to evoke
+instant associations. Given the present-day saturation of the individual and
+the collective imaginary with images, authors can count on readers’ abilities
+to promptly visualize bygone legendary achievement, masterpieces, or genius
+personalities.
+These conservative interests are served by Donna Tartt’s The Goldfinch, a
+good example of ekphrasis’s contribution to safeguarding the heritage of an
+artwork previously known only to specialists. The title of this enormously
+Brosch
+† Ekphrasis in Recent Popular Novels
+405
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+popular novel is also that of the real painting at its center, a small 1654
+masterpiece by Carel Fabritius, a pupil of Rembrandt and a teacher of
+Vermeer. Fabritius is regarded as a forgotten genius; when he was killed at
+the age of thirty-two in a gunpowder explosion near his studio, almost all his
+work was destroyed. “The Goldfinch” is widely considered the finest of the
+paintings that survived. The Frick Collection in New York, which exhibited
+the painting shortly after the publication of the novel, had not seen so many
+visitors in years (Peretz 2014).
+At the same time, the novel performs a radical recontextualization of the
+painting, inserting it into unlikely contemporary settings. The Goldfinch is not
+alone in doing this; following an established tradition in ekphrastic writing,
+it is a common strategy to remove art objects from their familiar settings in
+order to open surprising new perspectives and to make startling departures
+from the readers’ expectations. In cases of an actual ekphrasis like this, it is the
+privilege of fictional engagements with history to revise traditional views of
+these objects from the past, to question conventional assumptions governing
+their dominant interpretation, and to shift center stage things and people
+hitherto neglected. In doing so, ekphrastic novels possess some of the appeal
+of historical fiction, namely its double nature as a source of factual infor-
+mation about and a fictive, imaginative extension of the past. This duality
+gratifies two opposing desires in readers: to actively share “real” historical
+knowledge, on the one hand, but also to be hoodwinked into entering an
+alternative universe on the other. Ekphrastic novels’ fabrication of a story
+around an object of cultural memory is multifunctional: it restores the object
+to the current cultural imaginary, adapts or revises its meaning, and thereby
+discusses and questions historical values and ideas in comparison with con-
+temporary ones (Assmann 2005 [1992]: 227). Consequently, the often re-
+peated assessment that ekphrasis transforms readers into viewers must be
+taken with a grain of salt, since defamiliarized images turn readers from
+passive viewers into imaginative creators of images, a consequence that
+tends to intensify these passages in the reading experience and thus helps
+perpetuate the myth of art as a source of mysterious power.
+2. Staging the Gaze
+Narrative ekphrasis involves the performance of seeing. By staging a visual
+observation, narratives are liable to reflect on particular ways of seeing and
+on the relation between the subject and the object of a significant act of visual
+scrutiny. I choose the term stage to emphasize that the ekphrastic passages in
+the novels under examination do not primarily represent an artwork; their
+more important function is to enact an experience of visual observation and
+406
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+to question ways of seeing and showing. This effect has broad cultural and
+philosophical implications and can therefore mobilize reflections on the
+evaluation and interpretation of the chosen images. In staging the gaze
+directed at a visual object, novels are able to elevate signification onto a
+metalevel by presenting a visual pathway to “subjects of knowledge.” The
+intersection of figures of sight and insight is particularly salient in “the con-
+temporary,” which “suffers from a lack of visual clarity” despite its over-
+abundance of images (Boxall 2013: 23). By providing new ways of perceiving
+and assessing images from the archive of cultural memory, ekphrastic writing
+becomes empowered to influence the constant rewriting of cultural memory
+and to reevaluate that elusive storehouse of images that shapes the shifting
+ground of a culture’s identity.
+In order to assess these effects, the reading process of and response to the
+narrative needs to be considered. Such a response-oriented approach recu-
+perates the classical concept of ekphrasis, in which “it is the act of seeing that is
+imitated, not the object itself” (Webb 2009: 128). The effect holds for present-
+day examples: extraordinarily vivid images emerge in the reading experience
+typically when subjective, character-oriented perception is described as close
+attention. It is a specific task of fiction to present subjective experience, and
+the experience of seeing art images typically enhances privileged and climac-
+tic moments in the novels’ plots, often involving great emotions. Hence, on
+the level of form and narrative technique, ekphrasis involves focalization,
+defamiliarization, and dramatization. These techniques conspire to unleash
+surprising and violent reactions in the fictional characters confronted with
+artworks. Many literary critics suggest that readerly imagining is highlighted
+when fictional characters are specially mentioned as seeing something (Auyoung
+2015; Brosch 2015; Esrock 1994: 183; Otis 2015; Scarry 2001; Starr 2015).
+For instance, Elaine Scarry claims that visualizations are particularly vivid
+when guided by an intermediary in the text and explains that the most intense
+visualizations occur when what comes to be imitated is not only the sensory
+outcome but the “deep structure of production” that gave rise to the percep-
+tion (1996: 161).
+One reason the fictional perceptions of characters are so engaging may be
+our person-oriented interest in narrative fictions, particularly in passages that
+possess emotional valence and affective quality (Vermeule 2010: 2). Instances
+of character focalization entail the character’s emotions and state of mind
+and hence contain the potential for empathy. Through an appeal to embod-
+ied knowledge, affective viewing by a fictional character provokes an emu-
+lative visualization on the part of the reader. Relating to personalized scenes
+of observation involves affect and emotions and thus provides an important
+ingredient for an intensification of visualization. Vividness of mental imagery
+Brosch
+† Ekphrasis in Recent Popular Novels
+407
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+in turn renders the latter more emotionally salient for the reader (Richardson
+2011: 683). This effect is underscored by the dramatic reactions of fictional
+characters to the art objects they see.
+Even a callous narrator like Julius in Teju Cole’s novel Open City, discussed
+by Gabriele Rippl in her article in this issue, becomes deeply absorbed in his
+only confrontation with paintings, transfixed by the “total quietness” and
+“suspension of time” in the images: “I lost all track of time before these
+images, fell deep into their world, as if all the time between them and me
+had somehow vanished. . . . When I eventually walked down the stairs and
+out of the museum, it was with the feeling of someone who had returned to
+the earth from a great distance” (Cole 2011: 39–40). It is remarkable that this
+emotionally numb protagonist breaks through the shell of his cerebral solip-
+sism only when contemplating art.
+The reader’s visualization of such passages of affective seeing in the fic-
+tional world is dependent on embodied experience and cultural knowledge
+recalled from memory, where neither of these input domains are entirely
+subjective and personal but rely on a shared mental makeup and experience
+(Brosch 2013). Images evoked by a narrative text make an appeal to embod-
+ied experience because they produce a recall of actual perceptions, so that
+their reception resembles the experiential parameters of perceptions in every-
+day life. This is a bottom-up process: the textual cues trigger a semiautomatic
+or fully automatic response; this aspect of response is then geared toward the
+presence effect of the visual in the narrative. It may be conceptualized as
+a present-day version of the idea of enargeia that the ancients aspired to in
+graphic description. Prompted by textual guidance and instructions, readers
+commonly respond by producing mental imagery related to narrative con-
+tent. In contrast to the ongoing events and narrated action in a novel, which
+contribute toward maintaining the illusion of the storyworld, ekphrastic writ-
+ing can lift a narrative passage out of the indistinct vagueness of the ongoing
+imagination of a story. It can stall the flow of mental images by providing a
+halting place for a more attentive imagination. In terms of experientiality, in
+other words, it can slow down and intensify the imagination of the fiction.1
+One does not have to look far for pertinent examples:
+The painting was like none of his others. It was just of me, of my head and shoul-
+ders, with no tables or curtains, no windows or powderbrushes to soften and dis-
+tract. He had painted me with my eyes wide, the light falling across my face but
+the left side of me in shadow. I was wearing blue and yellow and brown. The cloth
+1. This argument is not geared toward textuality and structure as was Murray Krieger’s famous
+formalist definition of ekphrasis as stasis or “still-point” (1992 [1967]), but rather focuses on the
+phenomenology of reading.
+408
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+round my head made me look not like myself but like a Griet from another town,
+from another country altogether. The background was black, making me appear
+very much alone, although I was clearly looking at someone. (Chevalier 1999:
+202 – 3)
+The simple but intensely personalized description from Tracy Chevalier’s
+novel Girl with a Pearl Earring (1999) is likely to elicit a visceral, embodied
+reading in which the feelings and mood are projected onto the imagined
+portrait. But visualization alone cannot account for this quasi-sensual experi-
+ence. Embodied and enactive mental processes triggered in the reader evoke
+emotional reactions that are supplemented with input from cultural memory,
+as in this case when the title and cover of the novel in question have already
+told us that we are looking at Vermeer’s famous Girl with a Pearl Earring.
+Hence, while the description allows a contemplative arrest in the ongoing
+realization of the story, which highlights this image from the stream of default
+visualization, it also evokes associations with or deliberate acts of connecting
+to prior knowledge and memory about Vermeer’s work.
+An embodied response to the passage just quoted is a visual impression
+shot through with the feelings of loneliness and vulnerability of the focalizing
+character Griet. Her feelings of anxiety as Vermeer’s model and her awe in
+looking at the artwork invest the narrative with affective appeal. The novel
+heightens the drama by inventing a deadlock in the process of artistic cre-
+ation: in the quoted passage, Vermeer’s painting is stalled at a stage of not
+quite satisfying the artist’s idea of color scheme and composition. This drama
+of artistic creation is not just narrated, it is made to resonate with the reader
+through a slight defamiliarization in the ekphrastic passage: we are asked to
+imagine the famous portrait without the earring. In the narrative rewriting this
+becomes the climactic moment when Griet, not the great painter, comes up
+with the idea of wearing a pearl to offset the darkness in the background.
+While the girl’s feelings of wonder and respect are conventional topoi, the fact
+that the articulate voice presenting the picture and the creative mind behind
+the solution of the aesthetic problem both belong to her goes against the grain
+of cultural memory and its conventional gender roles. The text’s strategy of
+involvement is to make the reader participate in the mental construction of
+an effective picture. This productive tension in the novel provokes simul-
+taneously the reader’s embodied and critical response. Embodied reactions
+and interpretive, critical responses are interrelated processes: the automatic
+sensory response of visualization is serviced by the cultural memory in which
+each individual participates (Collins 1991: xi). Since these mental activities
+always occur within a preexisting social field and within actual power re-
+lations, a given narrative may either confirm or question existing schemata
+Brosch
+† Ekphrasis in Recent Popular Novels
+409
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+(Bryson 2001: 5). Our mental images are never “innocent” or acultural. They
+are always embedded in cultural practices, knowledge systems and power
+regimes, and from this situatedness, they produce subject positions and hier-
+archies (Reavey 2011: xxvii).
+Without implying the emotions of characters, ekphrastic description would
+have limited affective appeal. Consequently, awestruck paralysis and emo-
+tional turmoil are by no means unusual in fictional observers. In Kim Dever-
+eux’s beautifully written novel Rembrandt’s Mirror, the maid Hendrickje is
+empowered almost magically to enlarge her vision of the world beyond the
+limits imposed by her Calvinist upbringing through contact with the artist
+and an oeuvre “infused with God’s breath” (Devereux 2015: 74). It is typical
+of characters in the novels under examination to be overaffected and at the
+same time unable to comprehend or explain either the visual object or their
+own stupefied reaction to it. The dramatization of subjective reactions has
+remained an enduring strategy of reauratizing art in popular novels.
+3. Artists and the Creative Process
+Many critics, most notably James Heffernan (1993), have emphasized that
+the inherent tension and conflict in ekphrasis is often played out in gendered
+power structures. Contemporary instances seem to retain the metarepresen-
+tational interest in modes of seeing, which has been a long-standing pre-
+occupation of ekphrasis, but they employ it to problematize the binary
+distribution of roles between male artist and female muse/model or male
+spectator and female image. When the perspective is from the sidelines,
+observing the artist from outside his consciousness, as in Girl with a Pearl
+Earring, we get a sense that the mute and marginalized female helpmates,
+the models and muses, played a larger and more productive role than has
+been acknowledged in art history.
+Siri Hustvedt’s The Blazing World employs a different strategy for under-
+mining the logic of the male gaze by making the problem of the female artist
+in a male-dominated art world her central theme. The novel emplots the
+enduring prejudices against women artists in the history of painting and in
+the contemporary art world. “All intellectual and artistic endeavors,” writes
+the female painter-protagonist of The Blazing World, “even jokes, ironies, and
+parodies, fare better in the mind of the crowd when the crowd knows that
+somewhere behind the great work or the great spoof it can locate a cock and a
+pair of balls” (Hustvedt 2014: 1). The neglected artist Harriet (Harry) Bur-
+den, living in New York at the close of the twentieth century, decides to take
+action against cultural misogyny by persuading three of her male contempo-
+raries to show her work under their own names. Each of these male surrogates
+410
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+enjoys extravagant success with Harriet’s installations, thus proving her sus-
+picion of gender bias correct. But Harriet’s vengeance on the biased art world
+fails completely, as this money-driven, capitalist subsystem is resistant to the
+facts of female authorship behind its most exciting and financially promising
+art shows.
+Harriet chooses her male foils carefully to represent different aspects of the
+masculinity that is not only tolerated but endorsed in connection with male
+artistic fame. Under the guise of the young, photogenic prodigy, “Anton
+Tish,” her work is read by critics as a comment on art history; through the
+black and gay performance artist, “Phineas Q. Eldridge,” her work explores
+identity; and through the egocentric, media-savvy, macho artist “Rune,” her
+work thematizes seduction and masculinity. Yet this elaborate project,
+intended as a postponed rehabilitation of herself as an artist, becomes
+another instance of her exploitation, when her alter ego Rune claims her
+creations as his own (Hustvedt 2014: 308). She discovers that her successful
+mimicry puts her at a decided disadvantage in the face of male dominance in
+public discourse. Her failure is problematic in terms of the novel’s message:
+since Harriet’s designs hide her identity behind her chosen “Masks” (the title
+of her project), she is at least partly responsible when her authorship becomes
+dubious and contested. The intention to create awareness of female artists’
+disadvantages is undermined by “the fact that Hustvedt’s character adapts
+her work for each surrogate artist, thus at least partially becoming them,
+rather than, as Burden describes it, ‘wearing’ them” (Whitfield 2014: n.p.).
+Harriet’s struggle with the phallocentricity of the cultural elite and gender-
+inflected habits of seeing constitutes the wider interest of the novel beyond its
+exploration of art-world mechanisms. As the summary shows, the novel is at
+home in the realm of ideas, which are presented in the multiperspectival form
+of an archive, assembling media responses, critical reviews, and academic
+research about Harriet’s provocative project and juxtaposing these with the
+more personal accounts in Harriet’s diary, her best friend’s testimony and the
+statements of her personal New Age healer. Hustvedt is intent on showing
+how questions of authorship come to be subordinated to the shifting ground
+of authoritative public discourse.
+These philosophical and political motives (and those of the central char-
+acter) are contained in the relatively obvious didactic messages of Harriet’s
+artworks, which are rendered through elaborate and detailed descriptions.
+According to Whitfield, these transparent illustrations of the artist’s ideas
+“come across as literal-minded and adolescent” (Whitfield 2014: n.p.). The
+first installation is an obvious comment on the manipulative historiography of
+art: a mash-up of quotations written on the gallery walls and an accompany-
+ing giant sculpture of a recumbent female nude pasted all over with scraps
+Brosch
+† Ekphrasis in Recent Popular Novels
+411
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+of writing. The recurrent motif of boxes in later installations alludes to the
+confinement of women, and the element of the maze, whose tactile and
+disorienting form is prominent in the last installation, stresses the forgotten
+involvement of the body in processes of perception and understanding. Sup-
+ported by the theoretical explanations in Harriet’s notes, the lengthy, ambi-
+tious descriptions of Harriet’s oeuvre do not fail to deliver their message. But
+these efforts at creating in verbal form innovative visuality lack the estrange-
+ment that actual ekphrasis typically performs.
+Though Hustvedt reworks gender stereotypes and exposes power imbal-
+ances, her concepts of art remain within the bounds of received ideas. We are
+meant to understand that Harriet, though unappreciated by the art market,
+has immortalized herself in her works. Not only does she experience a spir-
+itual epiphany through her aesthetic production, but this effect is meant to
+feed into the reader’s recognition that her art is immortal because of its
+restitution of aura (“blazing world”). At the end of the novel, when Harriet
+is on her deathbed, her caretaker pronounces the final verdict on her art-
+works, which uncannily reiterates the enduring myth of art’s spirituality: “I
+turned around to take one last look at Harry’s artworks, and then I saw their
+auras blazing out all around them . . . and I knew for certain that each and
+every one of those wild, nutty, sad things Harry had made was alive with the
+spirit. For a second there, I could almost hear them breathing” (Hustvedt
+2014: 379). In occupying a prominent position at the very end of the novel,
+this quasi-religious response to the spirituality and vitality of the artwork
+reaffirms one of the mythic commonplaces about the nature of art at the
+price of blunting the edge of Hustvedt’s feminist critique.
+4. Desire and Obsession Triggered by Art
+Many ekphrastic novels follow an enduring tradition that links the viewing of
+an artwork to desire and obsession. It is therefore not surprising that they
+often employ a crime plot focused on the artwork. This is the case in Hannah
+Rothschild’s The Improbability of Love (2015), a page-turner about the sinister
+maneuvers of Nazi art dealers who pose as Jews to whitewash their illegal
+seizure of paintings from Jewish families in Nazi Germany. In Rothschild’s
+thriller a dense population of avaricious collectors, desperate auctioneers,
+unscrupulous dealers, and one lone innocent appreciative woman circle a
+fictional masterpiece like a pack of hungry wolves. A fictional lost picture by
+Watteau exerts such power over its beholders that they resort to criminal
+machinations to possess it.
+Donna Tartt’s The Goldfinch makes use of a real historical painting for
+similar narrative effects. Here also the painting functions primarily as a
+412
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+plot device. Around the image of the painting, Tartt engineers a complicated
+Bildungsroman about Theo Decker, whose adolescent world is violently turned
+upside down when his mother is killed in a terrorist bomb attack on the
+Metropolitan Museum of Art. Stunned by the explosion and carnage, Theo
+makes off with the Fabritius masterpiece. For the next fourteen years, the
+painting becomes both his burden and his prized connection to his lost
+mother, as the novel moves from a story of childish trauma to one of crime
+set in the murky underworld of illegal art dealing. In an uninhibited appeal to
+affective reading, we are meant to see the bird, “this lonely little captive,” as
+analogous to the novel’s protagonist, a fellow sufferer “chained to his perch”
+as Theo is to the illegal possession of the painting and to the memory of his
+mother (Tartt 2013: 765).
+This amplificatory function of ekphrasis is supplemented by extravagant
+claims about the sublime nature of art. According to Tom Lubbock’s read-
+ing, Fabritius’s exquisite tiny oil “holds before you the fundamental discrep-
+ancy of Western art” (2006: n.p.). At first sight, it is a classic trompe l’oeil
+image that abolishes the “discrepancy between subject and paint.” Lured
+into a seamless illusion, he states, we could easily equate the wall that forms
+the background with a three-dimensional wall. Yet, at the very center of
+interest, the life-size bird is on closer inspection very clearly made up of
+brushstrokes, inviting viewers to notice the paint and technique (Lubbock
+2006: n.p.). This appreciation of the dual aesthetics of painting is echoed
+briefly in Tartt’s novel when Theo states, “you see the mark, you see the paint
+for the paint, and also the living bird” (Tartt 2013: 579). He is fascinated by
+the “slide of transubstantiation where paint is paint and yet also feather and
+bone” (ibid.: 766).
+In stealing the painting, Theo follows an inexplicable spontaneous impulse,
+but his retention of it despite his anxieties about illegal possession and fear
+of discovery is attributed to some magic hold that the object supposedly has
+on him, even as he gradually develops genuine appreciation. At the end
+of the novel, having survived his excursion into crime and drug addiction,
+Theo, whose connection to the painting has been mainly possessive and
+obsessive so far, suddenly voices his belief that art is able to lift us above
+ourselves. “The painting,” he observes, “was the still point where it all hinged:
+dreams and signs, past and future, luck and fate” (ibid.: 755). In an unac-
+countable illumination he suddenly discerns a place of meaning, “a rainbow
+edge . . . where all art exists, and all magic. And . . . all love” (ibid.: 770). Thus
+the novel concludes with the high-minded concept that the eternity of a work
+of art can make the keenest losses more bearable. According to James Wood,
+Tartt’s “consoling message,” “that what will survive of us is great art,” is
+tacked on in the book’s final pages in a bid for seriousness and sophistication
+Brosch
+† Ekphrasis in Recent Popular Novels
+413
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 12 ──
+(2013: n.p.). The Goldfinch can serve as an example of a novel that makes an
+effort to embed itself in the tradition of the “power of images,” although the
+fictional events compromise the credibility of this effort.
+Thomas van Essen’s novel The Center of the World (2013) employs the most
+obvious gendered icon in Western visual art—the female nude—to develop
+its story of excessive desire for possession. In this case, a lascivious painting of
+Helen of Troy is the object of intense fetishization and desire on the part of
+its exclusively male viewers. The novel’s story of a (fictitious) lost masterpiece
+by the nineteenth-century British landscape artist Joseph Mallord William
+Turner is animated by the premise that the image is so daring and dangerous
+that it has been hidden for decades, only to be rediscovered thanks to a series
+of accidents and the determination of some ruthless art lovers. The painting
+portrays the mythical Helen looking over the battlements of Troy, surveying
+the havoc of the war she has caused. This representation of the famous
+beauty, imbued with mystical beauty and erotic life force, becomes the driv-
+ing force of the characters’ actions and thereby of the whole plot.
+Van Essen’s novel narrates the events partly through an authorial narrator
+and partly through four main focalizing characters: two contemporaries of
+Turnerand two twenty-first-century rivals.From chapter to chapter, the novel
+moves deftly among different narrative strands to reveal the story of the
+painting’s conception, realization, acquisition, disappearance, and rediscov-
+ery. In the unfolding of these episodically narrated events, the story gains
+momentum, suspense mounts, and the disparate characters converge around
+the painting as if subject to a magnetic force. In this way the narration
+resembles the effect of the painting, a stunning, almost alchemically powerful
+work that is said to enthrall, entice, and—in one way or another—enslave
+everyone who views it.
+The story of its production hints at licentiousness, carnality, and prurience
+in the artist’s handling of his nude model as well as in the content of his
+painting. Yet the ekphrastic passages decline to render any of these suspicions
+concrete. Instead, van Essen sets out to demonstrate the dual nature of the
+phenomenon, at once tempting and unsatisfying, that Mitchell famously
+called “ekphrastic fear” and “ekphrastic hope” (1994: 152–54). Each of the
+characters sees something different, some undergo a devastating existential
+crisis, but none look upon this image unscathed. Those who gaze upon it
+describe the composition in terms that range from the spiritual to the orgias-
+tic. A contemporary American character reports:
+I don’t know how long I sat there. The day turned into evening. As the light in the
+barn faded and changed, I understood things that had been incomprehensible a
+moment before, while the certainties of the previous hour were lost. I remembered
+414
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 13 ──
+sensing a presence of the gods, although I knew they were not depicted on the
+canvas. (van Essen 2013: 64).
+And later:
+I had felt the power that fires all poetry and moves the world. I had seen Helen of
+Troy. I knew the truth of her like no one who is now alive, like no one who has been
+alive for a hundred years. (ibid.: 113)
+Every time another character lingers over the canvas, new details in the
+composition come to light—a kitten, an eagle, or a jeweled cup from Helen’s
+marriage to Menelaus, which overflows with shells from Troy’s shores, the
+lyre with strings still vibrating (ibid.: 92), “the armour of the heroes sparkling
+on the plain” (ibid.: 18), “the carnage of battle” (ibid.: 187), soldiers crying,
+horses rearing (ibid.: 188), and “ships in the far distance . . . hope and fear on
+the mariners, faces” (ibid.: 117). Some observers have synesthetic experi-
+ences, hearing music and sounds of battle, others glimpse the passing of
+gods through the picture’s luminous light. This profusion of sensuous details
+is clearly implausible and as the narrative continues to accumulate them, the
+painting verges on the fantastic, thus removing the image from the rest of the
+realistic storyworld.
+The effect of such foregrounding of secondary elements in the painting
+is ekphrastic defamiliarization. The center of the painting—the seductive
+Helen—seems to recede increasingly into the background. None of the nar-
+rating voices captures her person or alluring body in words. For the fictional
+characters this appears to be beside the point; their attention veers naturally
+to the sidelines, taking in each new pictorial content with surprise and delight.
+For the reader, the painting becomes less visualizable with each narrated
+viewing, each description making it less conceivable. The expectations that
+were first suspensefully excited in the reader are disappointed; instead of a
+voluptuous nude we are treated to a world of fractured plenitude in which
+chaosandwar arebalanced with thesublime beauty of nature. Thus ekphrasis
+ultimately stands for absence and unrepresentability, and it dispels the illu-
+sion that a work of art can ever be rendered adequately in words. The novel
+denies what is the very premise of ekphrastic hope: that painting and writing
+are alike in “the power to create an illusion of presence” together with “an
+awareness of absence” (Webb 2009: 194).
+Hence, the ironical withholding of the object at the center of the novel’s
+interest and the refusal to satisfy the reader’s curiosity emphasize absence as
+a condition for the desiring gaze. This withholding of description shifts the
+reader’s affective engagement from the visual representation to the charac-
+ters and their contrasting modes of viewing, which are meant to be reflected
+Brosch
+† Ekphrasis in Recent Popular Novels
+415
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 14 ──
+on and evaluated by readers. The narrative strategy of multiple focalization,
+staging varieties of the gaze, allows van Essen to do what is commonly des-
+ignated as the noblest task of ekphrasis: to reflect on and interrogate ways of
+seeing. In spite of its conventional gendering of subject and object in art
+spectatorship, the novel undermines what Norman Bryson (1983) has iden-
+tified as the masterful male objectifying gaze. In the course of the narrative,
+with ekphrastic visibility obviously denied, alternative viewing options become
+a matter for readerly reflection.
+5. The Beneﬁt of Art
+In The Center of the World, as subjective ekphrasis surfaces across the course of
+two centuries, each of the characters experiences a kind of transcendence and
+transformation through the encounter with the artwork. The novel follows a
+contemporary ethical agenda in directing attention to the capacity of char-
+acters to transcend the desire to possess, foregoing their egoistic impulses.
+The main protagonist and I-narrator puts this feeling into the words, “It was
+as if I had ceased to be” (van Essen 2013: 312). It invariably happens to
+viewers of the painting, that some magic force within it turns them into
+kinder, more empathetic beings and improves their closest, most intimate
+relations. Noting the “affective power” of images, Richard Meek explains
+that “ekphrasis is often concerned with empathy and serves as a means of
+both figuring and eliciting the reader’s emotional responses” (2009: 17).
+While the epistemological benefit of being in the presence of a great work
+of art has been an enduring topos not just in fictional literature but also in life-
+writing and even in art criticism, the novels under discussion infuse the con-
+cept of the sublimity of art with an ethical effect. Modernist ekphrastic writing
+was often concerned to generate an epiphany by probing the depths of a
+spectator’s consciousness. The fictional moment of looking at a work of art
+was very often a moment of startling recognition, of revelation and even
+epiphany—an effect that is premised on the connection between sight and
+insight in the Western philosophical tradition, which has imbued vision with
+epistemological relevance and made it central to defining the relations of the
+self to the world. In the more recent novels at hand, this common trope in
+novelistic ekphrasis is not abandoned. Indeed, it frequently represents the
+climax in the narratives, when the confrontation of a character with a visual
+artwork provides occasion for addressing the issue of significant seeing. With
+the upsurge of ekphrasis and its spread to popular narratives in recent years,
+ekphrastic encounters are still significant moments elevated above the flow
+of narrative and climactic experiences for the fictional characters, but their
+benefit seems to be less internal and individualistic in that they perform
+416
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 15 ──
+more communicative, intersubjective functions, in tune with current ideals of
+interpersonal relationality and connectivity.
+In The Center of the World such a response is reinforced by the emotional
+appeal of the melodramatic encounters with the magic portrait of Helen,
+which transforms characters into better versions of themselves. For the main
+characters, the experience of the painting is one of conversion: even callous
+old rakes and hardened businessmen become kind and considerate under its
+continued influence. Though the story of the lost masterpiece resonates in the
+voices of multiple narrators, the multiple perspectives ultimately accumulate
+to suggest the moral impact of the painting, which remains the same across
+many individuals and centuries. This universal reaction is contained in the
+reiterated phrase of looking “into the heart of things” (van Essen 2013: 11): a
+realization of the beauty and blessedness of human life, an increase in empa-
+thetic understanding and an acceptance of ethical, interpersonal responsi-
+bility. None of these reactions can be associated with the convention of the
+male gaze directed at a female nude, the icon of gendered seeing. Instead
+of objectifying vision, the fictional characters achieve more interconnected,
+relational insights. With these romantic, idealist ideas, the novel promotes the
+revival of moral sentimentalism and an “ethics of caring,” ascribing to art-
+works a beneficial and educative effect. This seems to be part of a larger
+ethical turn in popular fictions to connect art with social outcomes such as
+changed attitudes, improved motives, and aspirations to greater humani-
+tarianism (Nussbaum 1992).
+In tune with this agenda, recent fictions often present encounters with art
+as an opportunity for calling attention to the dignity and value of margin-
+alized perceptions, and for rendering gazes reciprocal and mutually respect-
+ful, undermining the typical power imbalances that scopic regimes have
+accustomed us to, thus acting as a trigger for other-directed empathy. The
+narrative act of ekphrasis can address the protagonists’ marginality by allow-
+ing outsiders to become the mouthpieces of a visual object and to avail them-
+selves of it as a symbol of their condition, resulting in emotionally charged
+encounters with art that enrich the reader’s emotional experience as well.
+By staging the subversive glance of disadvantaged perceivers, who explicitly
+refuse to be representatives of conventional ways of seeing and who reject the
+culture’s evaluative norms, ekphrasis can contribute to a reconceptualization
+of seeing as “intersubjective” and “interpersonal” (Bryson 2001: 9).
+This is the case in Ali Smith’s novel How to Be Both (2014), where the two
+central protagonists suffer on account of their unclear sexuality. This gender
+trouble, which is the source of the reader’s emotional involvement with the
+characters, is also productive of a tension between an official version and a
+personal take on visual representation. On one level of the plot, the Renais-
+Brosch
+† Ekphrasis in Recent Popular Novels
+417
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 16 ──
+sance painter Francesco del Cossa is really a girl cross-dressing as a man to
+make a career in painting. In the other half of the novel, del Cossa’s paintings
+are inspected by the twenty-first-century main character, sixteen-year-old
+George (short for Georgia), who must in the course of events come to terms
+with her mother’s death. The novel invents a life for the historical artist del
+Cossa plus a ghostly afterlife in which he observes the contemporary char-
+acters. This double-take not only questions chronologies but inserts a per-
+sonal level into both time frames (Smith 2014: 234–40).
+Visiting Italy with her two children, George’s mother tells them how art
+restorers sometimes find underdrawings that differ significantly from the final
+painted image. “Which came first?” she asks, and George answers that it is
+the drawing below the paint. “But the first thing we see,” her mother coun-
+ters, “and most times the only thing we see, is the one on the surface. So does
+that mean it comes first after all?” (ibid.: 289). This conversation comes late in
+the novel, if one happens to read the version where the contemporary plot
+comes second. But this is a matter of chance, since the book consists of two
+parts, both numbered “One”; half the copies are printed with George’s
+portion of the narrative first, the other half with Francesco’s. How to Be
+Both thus refers to the complex interrelations between the past and the pres-
+ent, the original and the rewriting, male and female, the whole and the parts,
+and significantly, the image and its meaning. “The picture makes you look at
+both—the close-up happening and the bigger picture” (ibid.: 239).
+Very little is known about the artist del Cossa, and few of his works survive.
+His responsibility for three phantasmagorical wall panels in the Room of the
+Months of the Palazzo Schifanoia was forgotten until historians discovered a
+letter of protest the painter wrote to the duke who commissioned the work,
+a detail Smith incorporates into her story. Somewhat anachronistically he
+becomes the voice for articulating a contemporary aesthetics of simultaneous
+illusion and deconstruction: “I like very much a foot, say, or a hand, coming
+over the edge and over the frame into the world beyond the picture, cause a
+picture is a real thing in the world and this shift is a marker of this reality”
+(ibid.: 121).
+In the storyworld, Francesco is ordered to celebrate the duke’s generosity
+and splendor by connecting the “peaceable and prosperous world he has
+made to the cosmic order” (ibid.: 110). The three frescoes visible in the real
+palazzo feature elaborate secular allegories involving classical gods and the
+signs of the zodiac. As Laura Miller contends, “A lot of these images appear
+enigmatic to the modern eye, now that the coded meanings have been for-
+gotten, but that doesn’t lessen their appeal. Despite allegory’s reputation as a
+simplistic technique, it is in fact the quintessential storytelling way of being
+both; rich on the surface and replete with layers of underlying significance”
+418
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 17 ──
+(Miller 2014: n.p.). The lack of art-historical knowledge about the paintings
+and their creator makes them good examples of the convergence of the
+notional and the actual, and the blurring of the historical and the contem-
+porary. How to Be Both makes use of their semantic indeterminacy by annexing
+the images for presentist readings.
+Like The Center of the World, Smith’s novel engages with what art may do to
+transform those who encounter it and those who make it, celebrating the act
+of seeking to understand the other. On one level of the plot, the Renaissance
+artist crosses the temporal border and enters the contemporary world as a
+ghost hoping to help the mourning girl. Similarly, the girl’s mother gives a
+reading of the fresco that is an astounding example of empathy across cul-
+tures and ages. She understands that del Cossa painted his own face onto a
+worker in rags who is “the most virile and powerful figure in the whole room,
+much more so than the Duke,” and intuits that the painter was a female cross-
+dresser (Smith 2014: 296–97). While she herself is the subject of the painter’s
+empathetic ghostly attention, the girl George recovers from grieving through
+remembering her dead mother’s empathetic readings of the artist. Without
+crude didacticism, art is represented as creating intersubjective and empa-
+thetic connections across strict ontological divides. Ultimately, ekphrasis
+moves the characters beyond the binary relationship of viewing subject and
+perceived object, and by extension from their isolation as marginal characters
+to engagement with others.
+6. Conclusion: Reauratizing Images
+We have seen that on the level of individual response, ekphrasis is an inten-
+sifier, enriching the reading experience visually and in an embodied way.
+Preferring to look at “serious” artworks, popular novels use them to offer
+readers a contemplative mental space. This imaginative enhancement works
+best when ekphrastic writing is attached to subjective seeing, mediating a
+subjective perception in the storyworld for readers and making the fictional
+experience available to them. At the level of the reader’s experientiality, then,
+ekphrasis performs functions ranging from enhanced visualization to refresh-
+ing cultural memory, generating affect and emotion as pathways to empathy,
+and finally reflecting on culturally privileged ways of seeing. The latter informs
+a wider cultural environment, where ekphrasis is a shapeshifter adjusting the
+appearance and meaning of cultural icons and topoi to enhance their rele-
+vance to cultural memory and contemporary ethical purposes.
+Responding to the shifting ground of present-day material culture and its
+basis in economic market forces, literature seems to want to assure itself of its
+place in a prestigious shared tradition. Thematizing the visual arts can dignify
+Brosch
+† Ekphrasis in Recent Popular Novels
+419
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 18 ──
+a fictional text. Recent ekphrasis seems keen to imitate the broad outreach of
+popular museum culture, sometimes annexing for the novel some of the pres-
+tige of canonical artworks, sometimes pointing the reader to visual memo-
+rabilia otherwise neglected. Even in the case of notional ekphrasis, references
+to art borrow from its prestige and the esteem in which it is held. This text-
+image relation is not one-sided but reciprocal. Artworks as well as the novels
+that contain them receive surplus value from the immediacy and powerful
+appeal of textual visuality and from the new meanings, contemporary issues,
+and themes inscribed into the ekphrastic object.
+In the face of the enormous technological changes governing our relations
+to images, it may seem surprising that many recent novels’ ekphrases uphold
+traditional concepts of art, reiterating claims for the “magic of art” or the
+“power of images.” The confrontation of a viewer with a work of art is an
+occasion for negotiating two culturally determined conventions: pictorialism
+and the appreciative aesthetic spectatorship appropriate for art, on the one
+hand, and the imitation of an individualized perception, perhaps warped or
+misled, but subjective in any case, on the other. In creating a response to
+visual art, the novels under discussion make the most of the tension between
+these two modes of seeing. An individual emotional reaction to an artwork
+permits narrative dramatization, while the gaze of aesthetic awe and admi-
+ration is based on a premise of the sublime power of art. The ekphrastic
+moment of looking takes place at the intersection of these different ways of
+seeing.
+Ekphrastic art-objects are commonly designed to be powerful agents, act-
+ing upon the fictional characters in compelling ways. Since the point is to
+assure readers of art’s stunning impact, the seductive rhetorical promise and
+defamiliarized visuality of artworks frequently combine forces in recent nov-
+els to elevate the moment of ekphrasis into a revelation of moral insight for
+fictional characters. Contemporary narratives seem to be committed to nar-
+rative strategies that empower the artwork in the text by making it the focus of
+highlighted visualization, melodramatic subjective experience, and the desire
+of fictional agency, as well as the pivot of narrative events. These narrative
+strategies work in the interest of “reauratizing” art; they keep alive the endur-
+ing linkage between ekphrasis and epiphany, which has been one of the
+elements of ekphrastic writing since Romanticism. Through these strategies,
+ekphrastic novels maintain the myth of art’s spirituality and transformative
+potential. Yet they also add a new twist to the celebration of the power of art
+by attributing to it not only epistemological benefit, but restorative and
+ethical effect as well.
+In short, ekphrastic defamiliarizing of artworks feeds into remythologizing
+them. The novels are rewritings of images with new meanings, in which
+420
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 19 ──
+different reading frames and world pictures are correlated. In this way,
+ekphrasis makes use of images to stimulate the reader’s imagination and
+creative participation in the construction of new meanings. Such engagement
+on the part of the audience not only enables interpretations, but can also lead
+to a questioning of cultural axioms. These possibilities for intervention are
+exploited in recent novels typically in the interest of a more inclusive, more
+interpersonal ethics of connectedness and relationality. Given this reflexive
+challenge and ethical aim, it is unsurprising that they remain loyal to or even
+dependent on received ideas about the power of art.
+References
+Assmann, Jan
+2005 [1992] Das kulturelle Geda¨chtnis: Schrift, Erinnerung und politische Identita¨t in fru¨hen Hochkulturen
+(Munich: Beck).
+Auyoung, Elaine
+2015 “Rethinking the Reality Effect: Detail and the Novel.” In The Oxford Handbook of Cognitive
+Literary Studies, edited by Lisa Zunshine, 581 – 92 (Oxford: Oxford University Press).
+Boxall, Peter
+2013 Twenty-First Century Fiction: A Critical Introduction (Cambridge: Cambridge University
+Press).
+Brosch, Renate
+2013 “Reading and Visualisation,” Anglistik: Focus on Reception and Reader Response 24, no. 2:
+169 – 80.
+2015 “Images in Narrative Literature: Cognitive Experience and Iconic Moments.” In
+Handbook of Intermediality: Literature, Image, Sound, Music, edited by Gabriele Rippl, 343 – 60
+(Berlin: De Gruyter).
+Bryson, Norman
+1983 Vision and Painting: The Logic of the Gaze (Basingstoke: Macmillan Press).
+2001 “Introduction: Art and Intersubjectivity.” In Looking In: The Art of Viewing, edited by
+Mieke Bal, 1 – 40 (London: Routledge).
+Chevalier, Tracy
+1999 Girl with a Pearl Earring (London: HarperCollins).
+Cole, Teju
+2011 Open City (New York: Random House).
+Collins, Christopher
+1991 Reading the Written Image: Verbal Play, Interpretation, and the Roots of Iconophobia (University
+Park: Pennsylvania State University Press).
+Collins, Jim
+2010 Bring on the Books for Everybody: How Literary Culture Became Popular Culture (Durham, NC:
+Duke University Press).
+Devereux, Kim
+2015 Rembrandt’s Mirror (London: Atlantic Books).
+Esrock, Ellen J.
+1994 The Reader’s Eye: Visual Imaging as Reader Response (Baltimore: Johns Hopkins University
+Press).
+Freedberg, David
+1989 The Power of Images: Studies in the History and Theory of Response (Chicago: Chicago Uni-
+versity Press).
+Brosch
+† Ekphrasis in Recent Popular Novels
+421
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 20 ──
+Heffernan, James A. W.
+1993 Museum of Words. The Poetics of Ekphrasis from Homer to Ashbery (Chicago: Chicago Uni-
+versity Press).
+Hustvedt, Siri
+2014 The Blazing World (London: Sceptre).
+Krieger, Murray
+1992 [1967] “Ekphrasis, or the Still Movement of Poetry; or Laokoon Revisited.” In Ekphra-
+sis: The Illusion of the Natural Sign, 263 – 88. Baltimore: Johns Hopkins University Press.
+Lubbock, Tom
+2006 “Fabritius, Carel: The Goldfinch (1654),” The Independent, September 15, www
+.independent.co.uk/arts-entertainment/art/great-works/fabritius-carel-the-goldfinch
+-1654-744406.html.
+Meek, Richard
+2009 Narrating the Visual in Shakespeare (Farnham: Ashgate).
+Miller, Laura
+2014 “How to Be Both by Ali Smith Review — Playful, Tender, Unforgettable,” Guardian,
+September 13, www.theguardian.com/books/2014/sep/13/how-to-be-both-ali-smith
+-review-novel.
+Mitchell, W. J. T.
+1994 Picture Theory (Chicago: University of Chicago Press).
+Nussbaum, Martha C.
+1992 “‘Finely Aware and Richly Responsible’: Literature and the Moral Imagination.” In
+Love’s Knowledge: Essays on Literature and Philosophy, edited by Martha Nussbaum, 148 – 67
+(Oxford: Oxford University Press).
+Otis, Laura
+2015 “The Value of Qualitative Research for Cognitive Literary Studies.” In The Oxford
+Handbook of Cognitive Literary Studies, edited by Lisa Zunshine, 505 – 24 (Oxford: Oxford
+University Press).
+Peretz, Evgenia
+2014 “It’s Tartt — But Is It Art?,” Vanity Fair, June 11, www.vanityfair.com/culture/2014
+/07/goldfinch-donna-tartt-literary-criticism.
+Reavey, Paula
+2011 “The Return to Experience: Psychology and the Visual.” In Visual Methods in Psychology:
+Using and Interpreting Images in Qualitative Research, edited by Paula Reavey, 1 – 14 (Hove:
+Psychology Press).
+Richardson, Alan
+2011 “Defaulting to Fiction: Neuroscience Rediscovers the Romantic Imagination,” Poetics
+Today 32, no. 4: 663 – 92.
+Rothschild, Hannah
+2015 The Improbability of Love (London: Bloomsbury).
+Scarry, Elaine
+1996 “Die Lebhaftigkeit der Vorstellung: Der Unterschied zwischen Tagtraum und ange-
+leiteter Phantasie.” In Texte und Lektu¨ren: Perspektiven in der Literaturwissenschaft, edited by
+Aleida Assmann, 156 – 87 (Frankfurt: Fischer).
+2001 [1999] Dreaming by the Book (Princeton, NJ: Princeton University Press).
+Schwend, Joachim
+2012 “The Museum — A Site of Memory in Consumer Cultures.” In The Museal Turn, edited
+by Sabine Coelsch-Foisner and Douglas Brown, 19 – 33 (Heidelberg: Winter).
+Smith, Ali
+2014 How to Be Both (London: Penguin).
+422
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 21 ──
+Starr, Gabrielle
+2015 “Theorizing Imagery, Aesthetics, and Doubly-Directed States.” In The Oxford Handbook
+of Cognitive Literary Studies, edited by Lisa Zunshine, 246 – 72 (Oxford: Oxford University
+Press).
+Tartt, Donna
+2013 The Goldfinch (London: Little, Brown).
+van Essen, Thomas
+2013 The Center of the World (New York: Other Press).
+Vermeule, Blakey
+2010 Why Do We Care about Literary Characters? (Baltimore: Johns Hopkins University Press).
+Webb, Ruth
+2009 Ekphrasis, Imagination, and Persuasion in Ancient Rhetorical Practice (Farnham: Ashgate).
+Whitfield, Ian
+2014 “The Blazing World,” ArtReview May, artreview.com/reviews/may_2014_book
+_review_the_blazing_world_by_siri_hustvedt/.
+Wood, James
+2013 “The New Curiosity Shop: Donna Tartt’s The Goldfinch,” New Yorker, October 21, www
+.newyorker.com/magazine/2013/10/21/the-new-curiosity-shop.
+Brosch
+† Ekphrasis in Recent Popular Novels
+423
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/403/528934/0390403.pdf by Georgia Tech Library user on 26 December 2025

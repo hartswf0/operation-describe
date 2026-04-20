@@ -1,0 +1,852 @@
+# \textit{Ekphrasis
+# Source: Webb - 1999 - Ekphrasis ancient and modern The invention of a genre.pdf
+# BibTeX key: webb_ekphrasis_1999
+# Zotero dir: 3106
+# Extracted chars: 49908
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Word & Image
+A Journal of Verbal/Visual Enquiry
+ISSN: 0266-6286 (Print) 1943-2178 (Online) Journal homepage: www.tandfonline.com/journals/twim20
+Ekphrasis ancient and modern: The invention of a
+genre
+Ruth Webb
+To cite this article: Ruth Webb (1999)  Ekphrasis ancient and modern: The invention of a genre,
+Word & Image, 15:1, 7-18, DOI: 10.1080/02666286.1999.10443970
+To link to this article:  https://doi.org/10.1080/02666286.1999.10443970
+Published online: 14 Sep 2012.
+Submit your article to this journal 
+Article views: 2841
+View related articles 
+Citing articles: 17 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=twim20
+
+
+── PAGE 2 ──
+I - This article contains material presented 
+at a Round Table on Ekphrasis at the 
+Universite de Paris-Nanterre in March 
+1994. An expanded version will form part 
+of a book currently in progress on ekphrasis 
+in ancient and Byzantine rhetoric. 
+2 - For example, Murray Krieger, Ekphrasis: 
+The Illusion qf the Natural Sign (Baltimore, 
+I 991);JamesA. W. Heffernan, Museum qf 
+Words: The Poetics qf Ekphrasis from Homer to 
+Ashbcry (Chicago, 1993); Grant F. Scott, The 
+Sculpted Word: Keats, Ekphrasis, and the VISual 
+Arts (Hanover, 1995); Peter Wagner (ed.), 
+Icons - Texts - Iconotexts: Essqys on Ekphrasis 
+and Intermediality (Berlin, 1996). 
+3 - Jean Hagstrum, The Sister Arts: The 
+Tradition qf Literary Pictorialism in English Poetry 
+from Dryden to Grqy (Chicago, 1958), p. 18, 
+n. 34; Philippe Hamon, La description 
+littiraire: de l'antiquite a Roland Barthes (Paris, 
+1991),p.8. 
+4 - Scott, Sculpted Word, p. I. 
+5 - For example, W. Steiner, The Colors qf 
+Rhetoric: Problems in the Relation Between 
+Modem Literature and Painting (Chicago, 
+1982), p. 4 I: 'The technical term for this is 
+ekphrasis, the concentration of action in a 
+single moment of energy .. .'; Heffernan, 
+Museum qfWords, p. 3 cited below; Stephen 
+Bann, The True Vine: On Visual Representation 
+and the Western Tradition (Cambridge, 1989), 
+p. 28: 'Ekphrasis as a genre of writing is 
+dependent first all on tlJe risky presumption 
+that tlJe visual work of art can be translated 
+into terms of verbal discourse ... .' 
+6 - The problem has also been pointed out 
+by Raymond A. Macdonald in a Review 
+Essay of Kreiger, Ekphrasis, in Word & 
+Image, (1993), pp. 81-6. 
+7 - Heffernan, IX/ I Museum qfWords, p. 3. 
+8 - Scott, Sculpted Word, p. I. 
+Ekphrasis ancient and modern: 
+the invention of a genre! 
+RUTH WEBB 
+In contemporary critical terminology 'ekphrasis' has come to be firmly 
+associated with the subject of this journal: word and image. Mention 
+'ekphrasis' to an art historian, literary critic or classicist, and the examples 
+that spring to mind are likely to include the Homeric Shield of Achilles 
+and its many literary imitations, the rhetorical and allegorical descriptions 
+of paintings written by later Greek prose authors, like Lucian and the 
+Elder and Younger Philostratos or, from more recent periods of Western 
+literary history, John Keats' meditation on his tantalisingly still and silent 
+Grecian Urn. This 'genre', or 'trope', of ekphrasis evokes a network of 
+interlocking questions and interests, from the positivist pursuit of lost 
+monuments described in ancient and medieval ekphrasis to the poststructur-
+alist fascination with a textual fragment which declares itself to be pure 
+artifice, the representation of representation. 
+Today, numerous publications have ensured that the term is firmly 
+attached to issues of word and image.
+2 By a sort of etymological magic, 
+the Greek word is even seen to bear its meaning inscribed within it. Jean 
+Hagstrum defended his idiosyncratic use of the term to designate texts in 
+which the work of art 'speaks out,' by the use of etymology, translating 
+'ekphrasis' as a speaking (phrazo) out (ek) , while for Philippe Hamon the 
+preposition, ek, conveys the separable nature of these descriptions of art 
+objects which exemplifY the nature of description as a detachable fragment, 
+distinct from its narrative frame. 3 (A more flexible etymology, which the 
+critic can interpret at will, is the one which simply translates the term as 
+'a telling, a speaking out.'4) 
+But when one looks more closely at the range of definitions on offer, 
+one is inevitably struck by a degree of divergence strangely at odds with 
+the belief in a quasi-immanent meaning suggested both by the modern 
+etymologies and the many assertions of what 'ekphrasis is' to be found 
+in the burgeoning literature.5 The confidence of all these assertions is 
+striking, too striking perhaps, for it masks some fundamental (but rarely 
+stated) disagreements about the nature of ekphrasis.6 For some, ekphrasis 
+includes descriptions of non-representational arts, for others it is the 
+'verbal representation of visual representation. '7 On the one hand ekphrasis 
+is a 'classic genre' with its roots deep in antiquity, on the other scholars 
+do not agree about which works should be included in this genre: do 
+descriptions of buildings count? Does 'description' include a catalogue 
+entry?8 As each new study redefines the term to fit the critic's selection 
+of works and to accommodate a particular critical stance, one is tempted 
+to ask whether there is in fact a single phenomenon that can usefully be 
+called 'ekphrasis.' 
+WORD & IMAGE, VOL. 15, NO. I, JANUARY-MARCH 1999 
+7 
+ISSN 0266-6286 © 1999 Taylor & Francis Ltd 
+
+
+── PAGE 3 ──
+Appeal to the testimony of antiquity might then seem like a reasonable 
+step. Ekphrasis, after all, is an ancient term and the practice of describing 
+works of art goes back to Homer. But, as anyone who has taken this step 
+from the modern to the ancient definition knows only too well, the ancient 
+sources only complicate the question. The rhetorical handbooks offer a 
+definition, but not the one expected. As is well known, 'ekphrasis' in 
+antiquity had a far wider range of meaning than it does in modern 
+criticism. As far as the rhetoricians were concerned, ekphrasis could be a 
+description of a person, a place, even a battle, as well as of a painting or 
+sculpture. And even though certain highly polished and sophisticated 
+descriptions of paintings or artifacts, like Philostratos' Imagines, or the 
+Shield of Achilles, were classified as 'ekphraseis' in antiquity, the technical 
+writers on ekphrasis hardly evoke discussions of the visual arts, or the special 
+questions raised by their translation into a verbal medium. 
+Most studies on ekphrasis begin with a nod in the direction of the original 
+meaning of the term, and modern scholars have accounted for this discrep-
+ancy in various ways. One strategy is simply to dismiss the ancient rhetor-
+icians: their definitions are too vague and broad to be useful; they are 
+merely talking about a general type of description that does not merit 
+further attention.9 This strategy has the advantage of leaving the critics 
+free to propose what they see as a more useful definition for the immediate 
+purpose. On occasion they even correct the ancient sources. Roland 
+Barthes, for example, seems to have assumed that the rhetoricians had 
+carelessly forgotten to mention works of art when he added this category 
+to his, otherwise accurate, account of ancient ekphrasis. '° Several critics 
+who, like Barthes, have first-hand familiarity with the ancient rhetorical 
+sources simply ignore the discrepancy, conflating the ancient and modern 
+definitions into one. Thus George Kennedy slips seamlessly from ancient 
+to modern ekphrasis when he gives an entirely accurate account of ekphrasis 
+as defined by Aphthonios in the fourth century CE (in which there is no 
+mention of works of art) followed immediately by a brief survey of descrip-
+tions of works of art in ancient oratory. I I Yet another strategy is to claim 
+that the restricted modern meaning does in fact have ancient authority, 
+that the meaning changed over the first centuries CE and that already in 
+Late Antiquity 'ekphrasis narrows its focus and becomes a specialized 
+genre devoted to objets d'art.lI2 
+Should we worry about such a cavalier treatment of an ancient term? 
+It is after all indisputable that there is a group of texts, starting with the 
+inevitable Shield of Achilles, that have works of art as their subject-matter 
+and which, as a group, raise a range of important questions about verbal 
+and visual representation. Does it really matter whether a few obscure 
+rhetoricians living in some corner of the later Roman Empire would have 
+recognized these texts as forming a genre, or whether they would 
+have called this genre 'ekphrasis?' If the term is being used as a purely 
+abstract tool to focus reflection, the answer may be 'no.' But the moment 
+questions of literary history enter the picture, as they do in almost all 
+studies of 'ekphrasis,' terminology surely does matter. Few literary histor-
+ians would deny that knowledge of how a genre was defined in a particular 
+period is important if we want to gain some understanding of the produc-
+tion and reception of texts. Philostratos' Imagines, for example, take on a 
+8 
+RUTH WEBB 
+9 - For example, N. Land, The Vzewer as 
+Poet: The Renaissance Response to Art 
+(University Park, 1994), p. xvi. 
+10 - Roland Barthes, 'L'effet de reel', in 
+Litterature et realitt!, ed. R. Barthes et at. (Paris, 
+1982), p. 84; S. Rabau, 'Narration et 
+description: l'exigence de details', Lalies, xv 
+(1995), pp. 273-89. 
+I I - George Kennedy, A New History qf 
+Classical Rhetoric (Princeton, 1994), p. 206: 
+'The subjects [of ekphrasis] ... may be 
+persons, actions, times, places, animals, and 
+growing things .... Ekphrasis is an 
+important feature of classical literature, 
+beginning with the Shield of Achilles.' 
+P. DuBois, History, Rhetorical Description and 
+the Epicfrom Homer to Spenser (Cambridge, 
+1982), p. 4 performs a similar manoeuvre 
+when she states that 'the description in 
+words of a work of plastic art, the ekphrasis 
+was one of the progymnasmata.' 
+12 - Scott, Sculpted Word, p. I. 
+
+
+── PAGE 4 ──
+13 - Svetlana Alpers, 'Ekphrasis and 
+aesthetic attitudes in Vasari's Lives',Joumal 
+if the Warburg and Courtauld Institutes, XXIII 
+(1960), pp. 190- 215. 
+14 - Patricia Rubin, Giorgio Vasari: Art and 
+History (New Haven and London, 1995), 
+PP·275-6. 
+15 - Scott, Sculpted Word, chapter I; idem, 
+'The Rhetoric of Dilation: ekphrasis and 
+ideology', Word & Image, VII (1991), 
+pp. 301-10, discussing the review ofH. S. 
+Boyd, Select Passages if the Writings if 
+St Chrysostom, St Gregory Nazianzen, and 
+St Basil (London, 1813), The Edinburgh 
+Review (1814), pp. 59-72. 
+different hue when viewed against the background of rhetorical ekphrasis 
+in all the breadth of the ancient definition, rather than being considered 
+as members of a genre devoted to the description and/or interpretation 
+of works of art. In the next section I will try to outline what the ancient 
+definition of ekphrasis was and how the Imagines might be understood as an 
+an example of ekphrasis in this sense. Ekphrasis as defined in antiquity 
+emerges as a type of discourse that differs radically from the 'description 
+of a work of art' we have come to expect, but the ancient rhetoricians' 
+discussions nevertheless raise questions about the interaction of word and 
+image, text and imagination. 
+So there is more than just philological correctness at stake in the 
+definition of 'ekphrasis.' The lure of the modern meaning has too often 
+obscured the ancient meaning, which is worthy of study in its own right. 
+Definitions are also of crucial importance if one is to gain an accurate 
+picture of tradition and continuity. It is one thing to borrow an ancient 
+term (like 'ekphrasis' or, to take an example from another domain, 
+'democracy') and endow it with an altered meaning. It is quite another 
+to assume that the shared name is a sign, or proof, of real historical 
+continuity. Svetlana Alpers suggested in her seminal article that Giorgio 
+Vasari was following a 'rhetorical tradition of ekphrasis' and was con-
+sciously placing himself in that tradition in his own writings. '3 This claim 
+has been hugely influential, despite the fact that Alpers adduces very 
+little evidence beyond Vasari's supposed familiarity with Philostratos and 
+Lucian. Her argument rests on the power and ambiguity of the term 
+'ekphrasis'. But terminology does not constitute history. As an obscure 
+Greek rhetorical term it was, in fact, hardly known to Renaissance 
+scholars and the few who did know it used it in the broader ancient 
+sense which it had in Byzantine Greek. The only 'rhetorical tradition of 
+ekphrasis' which a writer of Vasari's period could have known as such 
+was one which encompassed descriptions of all kinds of subjects and was 
+not confined to works of art. The extent and nature of Vasari's use of 
+individual classical models is a complex question which is only obscured 
+by the assumption that he conceived of his writings within a unified 
+classical tradition of writing on art. '4 The projection of the modern 
+meaning of 'ekphrasis' back to the Renaissance serves to facilitate this 
+assumption and to mask what is particular about Vasari's enterprise. The 
+modern critic may now wish to categorise Vasari's descriptions alongside 
+those of Lucian or Philostratos for the purpose of comparison or contrast, 
+but this does not mean that these works formed any sort of continuous 
+tradition, a nuance which is obscured by giving them all the ancient 
+label 'ekphrasis'. 
+On a more basic level, it is important, especially given the wide range 
+of possible meanings of ekphrasis, to know precisely how the term is being 
+used each time it is encountered. Clearly, ancient rhetoricians did not 
+mean 'description of a work of art' when they used the term, but what 
+about later writers? When the anonymous author of the 1814 Edinburgh 
+Review article cited in the Oiford English Dictionary and discussed by Grant 
+Scott referred to 'florid effeminacies of style ... in a love-letter of 
+Philostratus, or an ecphrasis of Libanius', can one be sure that the modern 
+sense of 'description of a work of art' was in his mind?'5 Or was he using 
+9 
+
+
+── PAGE 5 ──
+the term in something closer to the ancient sense, in which case the 
+quotation is only tangentially relevant to the relationship between art and 
+literature (though highly revealing of nineteenth-century attitudes towards 
+rhetoric and description)? The more likely answer is the latter, for the 
+modern, specialized definition of ekphrasis turns out on further inspection 
+to be far more modern than is usually assumed. The restriction to 'descrip-
+tions of oijets d'art' dates not to late antiquity (the broad ancient definition 
+was still familiar to Byzantine writers), nor even to the Renaissance (when 
+the term was used as a translation of descriptio, or copied directly from 
+Byzantine sources, when it was used at all), but as far as I have been able 
+to trace its development only to the mid-twentieth century. 
+First of all, the absence of the term from the type of context in which 
+one would now expect to find it is striking. Gotthold E. Lessing, for 
+example, did not use the term in the Laokoon, the discussion of the relation-
+ship of poetry to painting in which the Shield of Achilles, now considered 
+the grandmother of all ekphraseis, features prominently. Even Paul 
+Friedlander, who is generally credited with having compiled the first and 
+most thorough survey of ekphrasis in ancient and Byzantine literature in 
+1912, does not use the term in its modern sense. '6 'Ekphrasis' does occur 
+in the lengthy Introduction to two early Byzantine ekphraseis of monuments, 
+but it is used strictly in accordance with ancient practice, when discussing 
+a group of texts which, like the Philostratean Imagines, were rhetorical 
+ekphraseis whose subject-matter was a work of art and which therefore fell 
+into the range of his survey. As the title of his study indicates, 
+'Kunstbeschreibung' is used to designate what critics now know as 'ekphr-
+asis'. What Friedlander achieved was certainly to define the group of texts 
+that would come to be known as examples of ekphrasis in classical literature. 
+He shaped conceptions of the 'genre' ekphrasis without giving it a name. 
+But it was not until the 1950s, with the work of Leo Spitzer and Jean 
+Hagstrum and, in the domain of archaeology, the entry by Glanville 
+Downey in the Reallexikon for Antike und Christen tum, that the term came to 
+the attention of a wide scholarly audience and acquired the first versions 
+of its restricted meaning which has since undergone an endless process of 
+revision and refinement. 17 
+It was the prodigiously learned and inventive Spitzer who, in 1955, 
+coined the definition which most people now recognise ('ekphrasis, the 
+poetic description of a pictorial or sculptural work of art') and ensured 
+that Keats' Urn would stand alongside the Shield of Achilles as one of the 
+defining members of the new genre. '8 Until then, with a few notable 
+exceptions, the term had been largely confined to works of philology, 
+along with other obscure late Greek rhetorical terms, and led a shadowy 
+existence in the half-light of the academic footnote, rarely honoured by 
+transliteration into the Roman alphabet. 
+Of course Spitzer did not invent this new meaning in a vacuum. His 
+coinage gained currency because the ideas it expressed were increasingly 
+of interest and Friedlander's survey is itself one of the signs of this 
+interest. So the story of how the term 'ekphrasis' made the transition 
+from these dusty origins to the glamorous world of critical theory is a 
+significant chapter in the history of ideas. It was the result of converging 
+interests in the 'description of works of art' in a range of disciplines, 
+10 
+RUTH WEBB 
+16 - P. Friedlander, Johannes von Ga;;a und 
+Paulus Silentarius: Kunstbeschreibungen 
+Justinianischer Zeit (Leipzig and Berlin, 
+1912). 
+17 - Leo Spitzer, 'The "Ode on a Grecian 
+Urn," or content vs. metagrammar', in 
+Essays on English and American Literature, ed. 
+A. Hatcher (Princeton, 1962), pp. 67-97; 
+originally published in Comparative Literature, 
+VII (1955); Hagstrum, The Sister Arts; 
+Glanville Downey, 'Ekphrasis', in 
+Reallexikon for Antike und Christentum, vol. 4 
+(Stuttgart, 1959), pp. 921-44. 
+18 - Spitzer, 'The "Ode on a Grecian 
+Urn"', p. 72. W. T.]. Mitchell, Iconology: 
+Image, Text, Ideology (Chicago, 1985), p. 99, 
+refers to the Ode as 'the ritual example' of 
+ekphrastic poetry. 
+
+
+── PAGE 6 ──
+19 - Scholia Graeca in Homeri Iliadem, ed. 
+H. Erbse, vol. 4 (Berlin, 1975), p. 64; vol. 5 
+(Berlin, 1977), p. 404. 
+20 - Theon, Progymnasmata, ed. M. Patillon 
+(Paris, 1997), pp. 66-9 (with French 
+translation); Hermogenes, 0pf:fa, ed. 
+H. Rabe (Leipzig, 1913), p. 22; Aphthonios, 
+Progymnasmata, ed. H. Rabe (Leipzig, 1926), 
+p. 36; Nikolaos, Progymnasmata, ed.J. Felten 
+(Leipzig, 1913), p. 68. The only difference 
+in terminology is that Nikolaos has 
+aphegematikos (from aphegema 'a telling, a tale') 
+instead of periegematikos. I have preserved the 
+root meaning of the latter term in the 
+translation rather than translating 
+'descriptive'. For more discussion of the 
+possible senses, see Theon, Progymnasmata, 
+p. 149, n. 323. 
+2 I - Nikolaos, Progymnasmata, p. 69. 
+from archaeology to English literature -
+a diversity which perhaps 
+helps to explain the variety of shades of meaning of the single term 
+'ekphrasis' in modern criticism. I will trace this story in the second half 
+of this article. First, however, I would like to explore the meaning of 
+'ekphrasis' in its original context, the rhetorical tradition of the first 
+centuries CEo 
+Ancient ekphrasis 
+The ancient scholia to Homer give a good impression of the range of 
+passages which could be classified as ekphrasis in antiquity. The account of 
+the Shield of Achilles, and other sets of armour, are referred to as ekphraseis, 
+but so is the descent of Apollo (likened to that of a hawk; Iliad, 15, 237-8) 
+and the account of Achilles sinking exhausted into sleep beside the funeral 
+pyre of Patroklos (Iliad, 23, 232).'9 An even greater range of examples is 
+in the Progymnasmata, elementary exercises used to train students in the 
+basic skills needed to compose speeches (or indeed any other kind of text). 
+The composition of an ekphrasis is one of the more advanced exercises 
+following exercises in, among other things, narration, confirmation and 
+refutation of a version of events, praise and blame, comparison and 
+characterization. The definition of ekphrasis provided by the various ver-
+sions of the Progymnasmata is practically identical. Theon (first century CE), 
+'Hermogenes' (possibly second century CE), Aphthonios (fourth century 
+CE) and Nikolaos (fifth century CE) all define it as: 'a speech which leads 
+one around (periegematikos), bringing the subject matter vividly (enargos) 
+before the eyes. '20 The authors all then go on to suggest the range of 
+subject-matter proper to ekphrasis. The earliest of them, Theon, suggests 
+persons (prosopa), places (topoi), times (chronoi) and events (pragmata). This 
+list remains standard throughout, although it undergoes various emenda-
+tions: Aphthonios adds plants and animals, while Nikolaos adds festivals, 
+belatedly reflecting the dominance of epideictic oratory of celebration and 
+display over the judicial oratory of the courtroom under the Roman Empire. 
+The contrast with the modern definitions is clear, works of art as a 
+category are of no particular importance. Nikolaos does go on later in his 
+discussion of ekphrasis to give some instructions for 'when we describe 
+statues or paintings or anything of this sort' but these are not included in 
+his main list ofsubjects.
+21 And when Theon refers to the Shield of Achilles 
+it is under the idiosyncratic heading, which he is the only one to mention, 
+of ekphraseis of the tropos, the manner in which something is done. What 
+interests him about the Shield is the same quality praised by Lessing, the 
+narrative unfolding of the making of the shield by Hephaistos, its status 
+as a description not of an object but of a process. Theon, moreover, does 
+not classifY the shield as art, but places it instead alongside other descrip-
+tions of the preparation of military equipment. We need not place too 
+much emphasis on this aspect of Theon's classification system, but it is a 
+useful reminder that categories like 'work of art' are neither universal nor 
+immutable. 
+The most interesting aspect of the progymnasmata, though, is not the 
+absence of works of art (in itself a relatively minor detail), but the way in 
+which the authors define ekphrasis first and foremost as a type of speech 
+(logos) that has a certain effect upon an audience. An ekphrasis appeals to 
+I I 
+
+
+── PAGE 7 ──
+the mind's eye of the listener, making him or her 'see' the subject-matter, 
+whatever it may be. The nature of the subject-matter is of secondary 
+importance. One cannot help but be struck by the contrast with the terms 
+in which description in general (not to mention ekphrasis in particular) is 
+defined in modern textbooks. It is the subject-matter that commonly 
+defines a description and which distinguishes it from narration: a descrip-
+tion deals with objects, while narration deals with actions.22 Ekphrasis in 
+contrast was defined in terms of its impact on an audience. 
+So the very basis on which the definition is built distinguishes ekphrasis 
+from the concept of description familiar from modern narratology. There 
+are further radical differences that suggest that the way ancient writers 
+conceived of ekphrasis was very different from the way in which we conceive 
+of either description or ekphrasis in the sense of 'description of an art 
+object.' Among Theon's list of subjects is pragmata, 'things done,' 'actions.' 
+That 'actions' or 'events,' rather than 'objects' (as it is sometimes trans-
+lated), is the sense of the Greek term, pragmata, is clear from the examples 
+cited by all the authors: battles. What is more, such ekphraseis should 
+progress from an account of what preceded the battle to the event itself, 
+and then to its aftermath.23 This means that the fundamental distinction 
+between narration (unfolding in time) and description (the problematic 
+verbal representation of an object, constituting a 'narrative pause') upon 
+which so much modern theory of description and its interpretation is 
+based, is disregarded by the ancient theoreticians. 24 
+The modern assumption that objects are the proper domain of descrip-
+tion has influenced the way in which ekphrasis is often defined as a descrip-
+tion of an 'art object,' a definition which it is now clear differs in spirit as 
+well as in the letter from the ancient one. Barthes' treatment of ancient 
+ekphrasis in 'L'effet du reel' illustrates how problematic the category of 
+pragmata is for a critic who wishes to assimilate the rhetorical definition of 
+ekphrasis to modern critical theories of description. The account of ekphrasis 
+as defined in ancient rhetoric is accurate except for one detail: Barthes 
+quietly omits the category of actions or events (replacing it with the 
+category 'works of art' to bring ancient ekphrasis in line with the modern 
+definition).25 The manoeuvre is scarcely detectable, but it changes the 
+nature of ekphrasis, limiting its subject-matter to the static, the objectified 
+and, of course, associating it with the work of art. 
+Barthes' free emendation of his ancient sources implies that the range 
+of subjects suggested by the progymnasmata is nothing more than a random 
+selection that can be manipulated at will with no effect on the whole. But 
+this is not the case. The four types of subject-matter that remain standard 
+throughout the tradition from Theon to Nikolaos, persons, places, times 
+and events, formed a coherent set in the ancient rhetorical system. They 
+represent four of the six parts of narration (or peristaseis), corresponding to 
+who? (the agent), what? (the act) and when and where? (time and place). 
+Missing are the cause (why?), which is rarely amenable to being 'placed 
+before the eyes,' and the manner in which the act was committed (how?). 
+This last part of narration is included by Theon, and was the category in 
+which he placed the Shield of Achilles, but is not found listed as a category 
+elsewhere, although Nikolaos does explain how it might be included in an 
+ekphrasis. 
+I2 
+RUTH WEBB 
+22 - M. Bal, Narratology (Toronto, 1985), 
+P·130. 
+23 - For example, Theon, Progymnasmata, 
+p.68. 
+24 - Rabau, 'Narration et description'. 
+25 - Barthes, 'L'effet du reel', p. 84: 
+'ekphrasis . .. avait pour objet de decrire des 
+lieux, des temps, des personnes ou des 
+oeuvres d'art ... .' 
+
+
+── PAGE 8 ──
+26 - Theon, Progymnasmata, p. 69. 
+27 - Nikolaos, Progymnasmata, pp. 68-9. 
+28 - F. Graf, 'Ekphrasis: Die Enstellung der 
+Gattung in der Antike', in Beschreibungskunst-
+Kunstbrescheibung, eds. G. Boehm and 
+H. Pfotenhauer (Munich, 1995), 
+PP·143-55· 
+29 - R. Webb, 'Imagination and the arousal 
+of the emotions', in The Passions in Roman 
+Literature and Thought, eds. S. Braund and 
+C. Gill (Cambridge, 1997), pp. 112-27; 
+idem, 'Memoire et imagination: les limites 
+de l'enargeia', in Dire l'evidence, cds. C. Levy 
+and L. Pernot (Paris, 1997), pp. 229-48. 
+30 - Quintilian, Institutio aratoria, 6.2.30. 
+So not only is ekphrasis not conceived as a form of writing dedicated 
+to the 'art object,' but also it is not even restricted to objects. It is a form 
+of vivid evocation that may have as its subject-matter anything -
+an 
+action, a person, a place, a battle, even a crocodile. What distinguishes 
+ekphrasis is its quality of vividness, enargeia, its impact on the mind's eye of 
+the listener who must, in Theon's words, be almost made to see the 
+subject. 26 Nikolaos, the latest of the authors, gives the clearest account of 
+the relation of ekphrasis to narration in the ancient rhetorical system. 
+Narration is a simple account of what happened, while an ekphrasis includes 
+the details that tell one how it happened, how it looked (one might add 
+also how it sounded and felt).27 The difference, in Nikolaos' terms, is 
+enargeia, vividness, an ekphrasis in sum is a vivid form of narration. As well 
+as taking us to the heart of the ancient definition of ekphrasis, Nikolaos' 
+comment reveals the meaning of the 'ek' in ekphrasis: it serves to indicate 
+fullness, thoroughness. To compose an ekphrasis is to tell (phrazo) in full (ek). 
+Enargeia is at the heart of ekphrasis. 28 The Progymnasmata give no explana-
+tion of this quality of language, obviously assuming prior knowledge in 
+their readers, but other more elaborate treatises do provide some explana-
+tions. Quintilian explains both how to produce enargeia in a speech and 
+what its effect upon the listener should be. In the Institutio oratoria 
+(6.2.29-32) he explains that enargeia is produced when the orator uses his 
+own power of imagination to conjure up a scene in his mind. This exercise 
+in visualization ensures that his language will spark a mental impression 
+in the mind of his audience. The function of this is made clear later on 
+in the work (8.3.62). A successful orator must move his audience, must 
+make them feel as if they were present at the events described, this is the 
+purpose of enargeia. 
+Quintilian is imprecise about the mechanics of this process, preferring 
+to demonstrate with his own examples, or to describe his personal response 
+to enargeia in Cicero (Institutio oratoria, 8.3.64). But his ideas do find reson-
+ance in ancient theories of memory, imagination and language. The images 
+impressed on the mind by sense experience linger as memory to be 
+manipulated as part of memory techniques, in each act of recollection or 
+even as the basis of thought itself.29 Language, particularly for Quintilian 
+language which has the quality of enargeia, is produced by such images (in 
+the mind of the speaker) and gives rise to other, comparable, images in 
+the listener's mind. It is difficult for us, with our concept of a free and 
+creative imagination, to understand how a speaker could be sure of working 
+the right effect. But the imagination to which vivid language was thought 
+to appeal was more a store-house of images derived from sense perception 
+and informed by a common culture. To be sure of the effect of his speech 
+a speaker needed to ensure that his subject-matter conformed to his 
+audience's expectations and prior knowledge. It was more important that 
+the events communicated by the orator should be 'like truth,' that they 
+should be acceptable to the listener, than that they should actually have 
+happened. 3
+0 
+Several of the passages Quintilian cites as examples of enargeia are 
+directly paralled in the Greek discussions of ekphrasis in the progymnasmata 
+and in more advanced manuals. From this combination of ancient sources 
+one can arrive at some understanding of what ancient rhetoricians meant 
+
+
+── PAGE 9 ──
+by ekphrasis and its function. Ekphrasis was an evocation of a scene, often 
+a scene unfolding in time like a battle, a murder or the sack of a city. The 
+impact derived from the judicious choice of details that corresponded to 
+the audience's prior knowledge and expectations, calling up the mental 
+images already stocked in the store-house of memory. Such passages, far 
+from constituting 'narrative pauses' (and consequently demanding inter-
+pretation) were often an intensification of the narrative, introducing a 
+degree of detail which would involve the audience both imaginatively and 
+emotionally. And far from being independent, detachable passages, ekphra-
+seis could contribute to the persuasive effect of the whole. 
+This seems to be the ideal reflected by the various rhetorical authors. 
+In practice the isolation of ekphrasis as an independent school exercise does 
+seem to have encouraged both the composition of free-standing ekphraseis, 
+like the Imagines, and in some cases a sterile proliferation of detail at the 
+expense of enargeiaY Works of art, as Nikolaos acknowledges, provided 
+subjects, but ekphrasis was never associated solely with these. It is interesting 
+then to consider Philostratos' Imagines as ekphrasis in this ancient rhetorical 
+sense, the sense in which the Younger Philostratos presumably used the 
+word when he described his grandfather's work as 'ekphraseis of works of 
+graphic art' in the Proem to his own Imagines. One feature of Philostratos' 
+paintings that has provoked much comment is the way in which the 
+descriptions often do not define a single moment which might have been 
+depicted in the static medium of painting. For the nineteenth-century 
+German scholars who hotly debated the existence of the gallery this was 
+yet one more example of Philostratos' failure to make his language submit 
+dutifully to its subject. But, if ekphrasis is a form of vivid narration, 
+Philostratos' narrative presentation of his various subjects is only to be 
+expected. Another objection raised by these German scholars was that 
+many of the subjects derived directly from the poetsY What Philostratos' 
+reliance on the poets suggests though, is that the 'paintings' reflect a 
+common stock of themes, familiar from texts, the arts and, in some cases, 
+the stage, which would therefore be already stored in his audience's 
+memories. Philostratos' images would then be the result of a sophisticated 
+interplay between remembered texts and images, painted on the canvas 
+of the listener's mind. 
+This discussion of the subject-matter of the Imagines serves to highlight 
+the special nature of ekphraseis of the visual arts. Even when speakers are 
+evoking works that, as far as one can tell, really existed, it is above all the 
+subject-matter contained in the frame that they seek to 'bring before the 
+eyes.' In the case of ancient and Byzantine art this subject-matter was 
+familiar, often repeated and represented in both word and image. Such 
+narratives had a cultural significance far greater than that of any single 
+artistic representation. In the case of real works of art it is not surprising, 
+therefore, that attention should be focussed on the narrative depicted. In 
+the case of fictional works (or works of dubious status), like those in 
+Philostratos' gallery, the frame of the painting may function in other ways 
+as well: as a pretext for bringing together ekphraseis of such a variety of 
+subjects, and as a metaphor, signalling the intended effect of such graphic 
+descriptions. Enargeia easily suggested to ancient critics an analogy with 
+painting. It is easy to forget that Simonides' often-quoted dictum that 
+I4 
+RUTH WEBB 
+3 I - For example, the model ekphraseis of 
+statues attributed variously to Nikolaos and 
+to Libanios, in Libanios, Opera, ed. 
+R. Foerster, Vo!' 8 (Leipzig, 1915), 
+PP·491-540 . 
+32 - For a summary of the arguments, see 
+Philostratos, Die Bilder, ed. O. Schonberger 
+(Munich, 1968), pp. 26-37. For a more 
+positive assessment of Philostratos' use of 
+the poets, see M. Blanchard, 'Problemes du 
+texte et du tableau: les limites de l'imitation 
+a I' epoque hellenistique et sous I' empire', in 
+Le Plaisir de parler: etudes de sophistique comparee, 
+ed. B. Cassin (Paris, 1986), pp. 131-54. 
+
+
+── PAGE 10 ──
+33 - Plutarch, Moralia, 346-7. 
+34 - Friedrich Matz, De Philostratorum in 
+describendis imaginibusfide (Bonn, 1867), p. 45. 
+'painting is mute poetry and poetry speaking painting' is quoted by 
+Plutarch to illustrate a discussion of enargeia. Plutarch's interest was in the 
+second comparison, in the ability of a text (more precisely historical 
+narrative) to represent as vividly as painting, in the quality of enargeia in 
+Thucydides' history writing. 33 
+Such a brief analysis cannot begin to do justice to the complexity of 
+Philostratos' enterprise, but I hope that it suggests how the ancient rhetor-
+ical background might shed a different light on this text. Philostratos' work 
+is an important example of an ancient ekphrasis that has works of art as its 
+subject and which therefore stands at the intersection of the ancient and 
+modern definitions of the term. The modern reception of the Imagines also 
+illustrates the problems encountered by later generations of readers in 
+allocating this text to a recognizable genre and in reconciling it with 
+modern expectations of 'description'. The German debates of the nine-
+teenth century were sparked by Philostratos' manifest failure to provide 
+the type of information expected of a 'true description' by scholars of that 
+period. Philostratos is also key to the development of the new definition 
+of 'ekphrasis' for it was in response to questions such as these that attention 
+first began to be turned to the meaning of the term. 
+The invention of a genre 
+Editors of Philostratos in the eighteenth and early nineteenth centuries 
+had already noted that the Younger Philostratos referred to his grand-
+father's Imagines as 'ekphraseis of works of graphic art' and that the term 
+was also the title given to a collection of descriptions of statues by 
+Kallistratos. But it was in the middle of the nineteenth century that the 
+term became a subject of serious investigation. In r867 Friedrich Matz 
+published a Latin treatise, De Philostratorum in describendis imaginibus fide, in 
+which he argued that an understanding of the genre to which the text 
+belonged was crucial to the debate on the author's reliability as a source. 
+He discussed various examples of description of works of art in the Second 
+Sophistic, placing Philostratos alongside Lucian, Apuleius and the Greek 
+novels, and attributed this interest in art to the spirit of an age in which 
+art and rhetoric flourished side by side. Matz concluded that though there 
+may be grains of truth in the descriptions, Philostratos, like any writer of 
+his period, inevitably introduced rhetorical embellishments.34 Matz's enter-
+prise -
+the removal of deceitful rhetoric to reveal the pearl of truth -
+reflects his own age and archaeological interests, but his work is still of 
+interest because of its attention to questions of genre and the attempt to 
+understand the intellectual climate of Philostratos' period. 'Ekphrasis' 
+appears only a few times, in his account of the rhetorical background to 
+the Imagines, and Matz seems not to have taken a special interest in the 
+term. But this was the beginning of a long association of 'ekphrasis' with 
+debates about descriptions of works of art. The idea of ekphrasis as a special 
+kind of description of art objects was already coming to be separated from 
+the wider ancient definition. 
+This focus on ekphraseis of paintings and the consequent detachment of 
+these from the wider context of ancient ekphrasis was continued in the work 
+of two French scholars, writing in the r 880s: E. Bertrand and A. Bougot. 
+In reaction to the positivist agenda of the German school, they proposed 
+
+
+── PAGE 11 ──
+a reading of the Imagines as art criticism rather than reportage. Bertrand, 
+whose account is enlivened by a highly imaginative account of the Elder 
+Philostratos' state of mind on the day on which he 'invented art criticism,' 
+echoed Matz's interest in the genre of Philostratos' text and the spirit of 
+his age.35 Bertrand took a crucial further step when he grouped Philostratos 
+not just with other writers of the Second Sophistic but also with Catullus 
+and Virgil, and identified these works as members of 'a fashionable genre 
+which has its own name.'36 The name is, of course, 'ekphrasis'. But 
+Bertrand was curiously reluctant to display his find. He relegated it, 
+untransliterated, to a footnote as if he were not wholly confident in his 
+new use of the term. Bougot, however, showed no such reticence and used 
+the term directly in his text, extending its range still further to include 
+passages in Greek tragedy. 37 
+The nineteenth-century focus on Philostratos and his gallery came to 
+highlight and gradually alter the meaning of ekphrasis from a specific type 
+of description, which may include works of art, to a description of any 
+type which has a work of art as its subject-matter. Simultaneously 
+Philostratos' text was detached from its immediate cultural context and 
+placed in a diachronic selection of 'descriptions of works of art' which 
+were grouped together regardless of differences in genre and technique. 
+This is not to say that Bertrand and Bougot were indifferent to the cultural 
+context of the Imagines. On the contrary, Bertrand in particular tried to 
+evoke Philostratos' world, once more developing an idea first proposed by 
+Matz. The world Bertrand depicted was one in which art and literature 
+flourished simultaneously and where poets were constantly drawn to the 
+visual arts. This is an image in which the intellectual ideals of late nine-
+teenth-century France have been superimposed onto the later Roman 
+Empire. In particular, the influence of Theophile Gautier, whose own 
+poem l'Art (1857) explores the equivalence of verbal and sculptural artistry, 
+is clearly discernable. Bertrand's ancient sophist seems to be living the 
+ideal of 'l'art pour l'art.' Bertrand and Bougot's redefinitions of 'ekphrasis' 
+reflect this contemporary interest in the common ground between art and 
+literature, and interart comparisons. 
+Bertrand and Bougot redefined the meaning of ekphrasis in response to 
+their own intellectual world, in reaction to the positivism of the German 
+archaeologists and encouraged by contemporary interests in the adapta-
+tions of techniques from one art into another (aptly termed 'transpositions 
+d'art' by Huysmans in L'Art modeme of 1883). But their focus remained 
+fixed on classical texts. This is true too oflater French scholars like H. Piot 
+and J. Bompaire who, in their treatments of ekphrasis in writings of the 
+Second Sophistic, were careful to note the range of the ancient definition 
+but chose to focus on descriptions of art and architecture because of the 
+inherent interest they saw in these particular ekphraseis. Though writing in 
+the second decade of the twentieth century, Piot was as thoroughly imbued 
+with the spirit of Gautier as Bertrand had been. His analysis of the ancient 
+sophists' 'taste for poetic vocabulary and artistic sentence structure which 
+led them to cultivate that most sculptural of genres, ekphrasis,' reads like 
+a paraphrase of Gautier's l'Art and is capped by a reference to 'transposi-
+tions d'art.'38 But 'ekphrasis' was still more or less confined to the fields 
+of classical and Byzantine art and literature until Spitzer's study of Keats' 
+16 
+RUTH WEBB 
+35 - E. Bertrand, Un Critique d'art dans 
+l'antiquite: Philostrate et son ecole (Paris, 1881), 
+PP·53-4· 
+36 - Ibid., p. 49. 
+37 - A. Bougot, Philostrate I'Ancien: une gateri.e 
+antique (Paris, 1881),p. 172. 
+38 - H. Piot, Les procedes litteraires de la Second 
+Sophistique chez Lucien: E ecphrasis (Rennes, 
+1914), p. 22;]. Bompaire, Lucien ecrivain: 
+imatation et creation (Paris, 1958), p. 707. 
+
+
+── PAGE 12 ──
+39 - Spitzer, 'The "Ode on a Grecian 
+Urn"', p. 72. 
+40 - L. Spitzer, 'Garcilaso, Third Eclogue, 
+lines 265-271', Hispanic Review, xx (1952) 
+p. 248, n. 5. I am grateful to Alejandro 
+Coroleu for drawing my attention to this 
+article. The term does not appear at all in 
+an earlier study of an art object by Spitzer, 
+'Wiederum Morikes Gedicht ''Auf eine 
+Lampe"', Trivium, IX (1951), pp. 203-25. 
+41 - Peter Wagner, 'Introduction: 
+Ekphrasis, Iconotexts, and 
+Intermediality -
+the State(s) ofthe Art(s)', 
+in Wagner (ed.), Icons -
+Texts -
+Iconotexts, 
+PP·I-40 . 
+'Ode' catapulted it into the world of English and Comparative literature. 
+Spitzers' definition deserves to be quoted at length: 
+it [the Ode] belongs to the genre, known to Occidental literature from Homer 
+and Theocritus to the Parnassians and Rilke, of the ekphrasis, the poetic 
+description of a pictorial or sculptural work of art, which description implies, 
+in the words ofTheophile Gautier, 'une transposition d'art,' the reproduction, 
+through the medium of words, of sensuously perceptible objets d'art ('ut pictura 
+poesis').39 
+Reading this confident statement one would hardly guess that it repres-
+ented such a radical redefinition. Ekphrasis was now entirely divorced from 
+its rhetorical background and reinterpreted as a poetic genre stretching 
+not only backwards to Homer and Theocritus, but also forward to the 
+nineteenth century. This article was not the first in which Spitzer had 
+discussed poems on works of art, but previously the term 'ekphrasis' had 
+hardly appeared. It is used once, in Greek and buried in a footnote, in an 
+article on Garcilaso de la Vega's description of a tapestry which, in its 
+evocation of light and shade embodied the 'transpositions d'art' which 
+fascinated Spitzer toO.40 Spitzer's use of the term in the Keats article was 
+new to his own reuvre and it is unlikely that he was unaware of the 
+originality of the step he was taking. His distaste for footnotes and tendency 
+to misattribute quotations (as with 'transpositions d'art' above) make it 
+difficult to trace his sources for his definition of ekphrasis. But the examples 
+he uses - including the Parnassians and Gautier - make his intellectual 
+affiliations clear. And once again the redefinition of ekphrasis takes place 
+in response to existing interests. Spitzer's article fell on fertile ground, 
+already prepared by the New Critics' interest in the poem as artifact, an 
+idea in search of a name. 
+Now, the term had been thoroughly removed from its ancient meaning 
+and context. Instead of designating a dynamic mode of writing thought 
+to have an immediate impact on its audience and whose range of subject-
+matter could include images of action and movement, 'ekphrasis' came to 
+be used of a work of literature in which the movement was found only in 
+the flow of language, whose subject-matter was still, objectified, making 
+the poem itself an object of detached interpretation rather than an active 
+stimulus to imaginative involvement. 
+Conclusion 
+Throughout the nineteenth and twentieth centuries 'ekphrasis' has under-
+gone a process of gradual redefinition to conform to contemporary intellec-
+tual and esthetic preoccupations. This process, which it has only been 
+possible to sketch here, helps to explain the diversity of the modern 
+definitions of the term. In the absence of an agreed definition, apart from 
+the broadest 'writing on art,' each critic is able, effectively, to redefine the 
+term to suit his or her interests and to fit the corpus of works chosen as 
+representative. Definitions of ekphrasis are thus in danger of becoming (like 
+Keats' urn) circular. 
+One response might be to invent a range of new terms, like Peter 
+Wagner's 'intermediality', to correspond to the range of connotations 
+currently attached to 'ekphrasis.'4
+I I would welcome such a move, as 
+
+
+── PAGE 13 ──
+someone whose main field of interest is the ancient sense and context of 
+the term. But there would be wider advantages in removing the illusion 
+of antiquity from what is essentially a modern coinage. For however 
+divergent the modern definitions of ekphrasis are on the surface, they all 
+have in common the fact that they are modern and are predicated direcdy 
+or indirecdy on a certain set of assumptions about description in particular 
+and about texts in general: the perceived dichotomy between description 
+and narration; the association of description with the passive object; a 
+conception of literature as a text to be treated as an object of study rather 
+than as a transcription of oral performance which, even in its written 
+form, can work a powerful effect upon a reader. In denying the possibility 
+of a verbal representation of reality, poststructuralist reactions to positivist 
+ideals of 'realistic' or 'truthful' description still preserve the dichotomy 
+between object and action and still, ironically yet inevitably, focus on the 
+absent 'reality.' From this perspective, Barthes' account of ekphrasis as a 
+'detachable fragment, an end in itself' is not so far away from the 'art for 
+art's sake' of the previous century. 
+Ekphrasis as defined in the ancient rhetorical sources is based on a 
+different set of assumptions that are as far removed from naive realism as 
+they are from the coldly analytical formulae of a critic like Philippe 
+Hamon.42 The rhetoricians speak freely of the psychological impact of the 
+word and the imaginative contribution of the listener. Yet theirs is an 
+imagination bounded by cultural tradition, by the collective memory of 
+an educated elite. Verbal representation thus aims only at verisimilitude, 
+an impression of truth, and seeks only to evoke a relatively restricted range 
+of culturally significant images. Ancient discussions of verbal representa-
+tion -
+enargeia, hyporyposis, ekphrasis -
+thus side-step the problem of whether 
+language can or should represent reality by assuming that words appeal 
+instead to the mental impressions left by perception. 
+This interpretation of ekphrasis is far away from Keats' Urn. But although 
+it raises some rather different issues from those usually associated with the 
+term -
+mental images rather than works of art, word as dynamic force 
+rather than object or tool of interpretation -
+it deserves attention in its 
+own right if only because it reminds one of the profound differences 
+between our ways of thinking about such questions and those current in 
+antiquity, differences which are only obscured by the invented tradition 
+of a genre of ekphrasis spanning Western literature from Homer to Keats 
+and beyond. 
+18 
+RUTH WEBB 
+42 - Philippe Hamon, Du descriptif(Paris, 
+1993)· 

@@ -1,0 +1,1111 @@
+# The Body and the Possible Soul in Digital Ekphrastic Poetry
+# Source: Mathieson - 2018 - The Body and the Possible Soul in Digital Ekphrastic Poetry.pdf
+# BibTeX key: mathieson_body_2018
+# Zotero dir: 3129
+# Extracted chars: 59939
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+The Body and the Possible Soul in
+Digital Ekphrastic Poetry
+Jolene Mathieson
+University of Hamburg
+Abstract
+New media technologies have inaugurated the most recent and important
+shift in our understanding of word-image relations. While seminal studies of new media
+poetry (Funkhouser 2012; Hayles 2006, 2008) and its potentially ekphrastic properties
+(Lindhe´ 2013) have been published in recent years, the close relationship between
+digital poetry and ekphrasis has yet to be convincingly theorized. This article focuses
+on new media poetry and the digital strategies it utilizes in the ekphrastic remediation
+of art images. Digital media may be unique in its ability to create highly immersive
+environments that more readily activate a holistically embodied and dialogical experi-
+ence for the reader in represencing images, but digital ekphrastic praxis also exploits its
+multimodal, polysemiotic possibilities to critically reflect on the nature of the digital
+image and its relations to material ontology. This critique, and its emphasis on both
+representational and experiential reasoning, primarily takes the form of lyrical med-
+itations on the material and immaterial realities of code, of computer-mediated poetry,
+of images, and of human-computer interaction. The result of these poetic meditations
+is a type of ekphrasis that is willfully metaphysical in tone and content, as will be
+evidenced via a close reading of two digital ekphrastic poems: Deena Larsen’s “Carving
+in Possibilities” (2001) and Harry Giles’s “Photo of Maud Wagner” (2013).
+Keywords
+digital poetry, intermediation, metaphysics, dynamic heterarchy, digital
+ekphrasis
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324505
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+Sui Generis: Digital Poetry, Multimodality, and Image Production
+Digital poetry is endowed with a generous degree of intermedial playfulness
+and genericambivalence. Itssetting is dynamicand ambient. And itpossessesa
+sui generis ability to create highly particularized and immersive environments
+capable of activating embodied, dialogical experiences for the reader—all of
+which points to digital poetry’s potential as an especially poignant and fertile
+medium for assessing and remediating the infinitely reproducible and mal-
+leable digital art image. The extent to which the digital regime tends to be
+conceptualized, structured, and experienced in primarily visual terms has
+been a focal point for crucial debates in new media studies (see Bolter and
+Grusin 1999: 23; Hansen 2006; Mitchell 2015), and further signals the
+importance of visual technologies as viable technogenic agents of sociobio-
+logical meaning that actively shape how humans interact and coevolve with
+images (see Hayles 2012). Additionally, the ubiquity of digital graphics, pic-
+torial media, and online image archives and hosting platforms highlights the
+necessity for a digital lyrical form capable of mediating contemporary aes-
+thetic consciousness. As such, a digital poetry of ekphrasis seems not only
+intuitively compelling but even axiomatic or tautological. The close relation-
+ship between digital poetry and ekphrasis, however, remains theoretically
+elusive despite the recent publication of seminal studies of new media poetry
+(Funkhouser 2012; Hayles 2006, 2008) and its potentially ekphrastic proper-
+ties (Lindhe´ 2013). There are several complex, interconnected reasons for
+this, the most fundamental being a question of genre and the messy theo-
+retical consequences that so often accompany definition and classification.
+Digital poetry is predicated on code and computation for its creation,
+displayed on electronic screens for its consumption, and, crucially, comprised
+of elements from linguistic, audio, gestural, spatial, and visual semiotic modes
+for its signification. Practitioners and theorists of digital poetry are careful to
+foreground its literariness by pointing to its origins in concrete and visual
+poetry, found poetry, automatic writing, and other experimental forms of the
+late nineteenth and early twentieth centuries, as well as oral and slam poetry
+(see Funkhouser 2008; Wardrip-Fruin 2008). Yet born of computer exper-
+imentation and genetically related to performance, computer, and interac-
+tive media art (see Block et al. 2004: 13–17), digital poetry’s raison d’eˆtre is to
+realize technically the more abstract premises of its literary predecessors.
+A digital poem is a “poem” because its literary impetus is to poetically exploit
+the disparate spaces between linguistic and audio, gestural, spatial, and visual
+semiotic systems. However, by including video files, sound files, and/or gen-
+erative and interactive features, it is also a multimodal, interstitial event that
+can be felt, heard, seen, and navigated (see Funkhouser 2008).
+360
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+This high degree of polysemy, multimodality, and sensory richness is what
+renders digital poetry so uniquely seductive in the context of ekphrasis, but
+also so problematic. Ekphrasis, a notoriously slippery term in it its own right,
+is a mode of poetics that is also intermedial, but regardless whether it is
+understood in its ancient or more contemporary senses, it invariably func-
+tions via the medium of language. The single feature common to all its
+competing definitions and chaotic results is its reliance on indexing verbal or
+lexemic units to produce sensuous effects of representation or of image-
+making within the mind of the reader. What distinguishes a digital ekphrasis
+from its more traditional relatives in rhetoric and print is that it can and
+does exploit a type of visuality based on generating and mapping images
+external to the mind. The function of ekphrasis within the digital regime is
+thus dependent on an individual poem’s operating procedures and lyrical
+strategies for configuring and arbitrating its verbally produced endogenous
+images and externally generated digital images. The ekphrastic quality
+of a digital poem is contingent on the specific ways in which such proce-
+dures, which necessarily operate on both a representational and a visceral-
+experiential level, make literally and metaphorically visible images that are
+not there and make absent those that are present. As I show in the following,
+the complex, multilevel relations between absence and presence, between
+the physical and the transcendent, between agent and actant are metaphys-
+ical concepts that a digital poetry of ekphrasis will need to address at
+the level of content but which will also be made manifest at the material
+level.1 Acknowledging the relative obscurity and tricky conceptualization of
+a digital poetry of ekphrasis, I first attempt to conceptually or theoretically
+link digital poetry with ekphrasis, and in a second step, I offer a reading of
+two poems, Deena Larsen’s “Carving in Possibilities” (2001) and Harry
+Giles’s “Photo of Maud Wagner” (2013). These two poems are compelling
+examples of a contemporary material practice that is currently exploring
+and utilizing a number of polysemiotic strands to recreate, reappropriate, or
+represent the visual art image in a verbalized, digital form, and can be
+understood as digital ekphrasis.
+Conceptual Linking: Digital Poetry and Ekphrasis
+As Cecilia Lindhe´ has pointed out, most new media theorists and word-image
+scholars would altogether repudiate the existence of ekphrasis in digital
+1. I use the term actant to refer to an agent that is mutually determined and acted upon by
+another agent. As all agents are in some sense also actants, the agent-actant relationship is
+codependent and relational. For an in-depth discussion on actants in actor-network-theory,
+see Bruno Latour (2005: 53 – 55).
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+361
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+poetry or would otherwise argue for its terminological redundancy (2013:
+n.p., par. 11). Marie-Laure Ryan, for example, diagnoses ekphrasis as almost
+antediluvian in light of multimedia systems and their complex polysemy.
+Arguing that “some types of thought are better served by expressive resources
+that do not involve discrete and arbitrary symbols,” Ryan claims that in
+virtual reality (VR) “there will be no need for ekphrasis—the verbal descrip-
+tion of a visual artwork—because the system will encompass all forms of
+representation, action and signification. The multisensory will also be the
+omnisemiotic” (2015 [2001]: 46). W. J. T. Mitchell, too, insists on the mono-
+semiotic or solitary role language plays in the case of ekphrasis. In a 2007 essay
+reissued and slightly revised in 2015’s Image Science, he revisits his position that,
+in ekphrasis,
+the visual, graphic, or plastic object, is never made visible or tangible except by way
+of the medium of language. One might call ekphrasis a form of nesting without
+touching or suturing, a kind of action-at-distance between two rigorously sepa-
+rated sensory and semiotic tracks, one that requires completion in the mind of
+the reader. This is why poetry remains the most subtle, agile master-medium of
+the sensus communis, no matter how many spectacular multimedia inventions are
+devised to assault our collective sensibilities. (Mitchell 2015: 132)
+As a “multimedia invention,” digital poetry would thus be excluded from
+the ekphrastic enterprise. But as an interstitial form nestled in the often
+dissonant spaces between modalities, it can and frequently does distend and
+augment the gaps intervening among the haptic, the aural, the seen, and the
+read. The suturing ambitions or abilities of television and other multimedia
+assumed by Mitchell will not be applicable in a blanket fashion to all or even
+most digital poetry. Digital poetry is a highly heterogeneous amalgam of
+forms, methods, and media that include but are not limited to VR poems
+and other types of interactive poetry, hypertext poetry, video poetry, digital
+sound poetry, kinetic and animated poetry, code poetry, poetry generators,
+and other fringe and hybrid forms (Funkhouser 2008: n.p.). Further, as
+Talan Memmott aptly observes, digital poetics resists taxonomy, thanks to
+what he calls “the transitive aspects of its elements, and the transactive
+quality of its applications” (2006: 304); thus to speak meaningfully of digital
+poetry in the context of ekphrasis requires a vigilant reading of individual
+case studies carefully positioned in relation to each other.
+The “transitive” and “transactive” features mentioned by Memmott are
+what lend the genre its vigor and hybridity. But they also indirectly reference
+the digital poem’s ontological nature as a code-object, as that which is ac-
+cessed via a user’s interface with an electronic screen but is not permanently
+recorded or inscribed by the material artifacts presenting it. Hidden or
+362
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+ensconced within both the material hardware and digital software that
+mechanically animate it, the code-object is both an agent and an actant
+that directs but also embodies the case-specific data structures and looping,
+random but deterministic inputs and outputs from hardware, software, and
+user, so that upon animation each individual digital poem emerges in real
+time as its own object but also as its own performative event. In Electronic
+Literature: New Horizons for the Literary, N. Katherine Hayles patiently and
+luminously describes how this emergent event results from what she terms
+“dynamic heterarchy” or multilevel complexity comprised of “second-,
+third-, and n-level emergences” that move both horizontally and vertically
+to “continuously inform and mutually determine each other” (2008: 45). This
+multilevel complexity is, not surprisingly, a feature of the cognizant, embod-
+ied user. But it is also, crucially, a feature of the computer-mediated text. The
+computer-mediated text is characterized by Hayles (drawing on Strickland
+2006) as (1) multimodal; (2) “layered” through “cascading processes of inter-
+pretation” on the part of language tags, programming languages, codes, and
+strings, much of which is looping, often recursive, and invisible to the user
+when generating the text seen on screen; and (3) a realization of “fractured
+temporality,” denoting the degree to which mechanical hardware, computer
+settings, and mouse function affect loading times and other temporal features
+that “fracture time” in idiosyncratic, agentic ways (ibid.: 163–64).
+The entangled nexus constituted by the dynamic interactions of the
+embodied user and the computer-mediated text, then, forms the next level
+of complexity, which Hayles labels “intermediation” (ibid.: 51–52). The con-
+cept of intermediation stresses the material agency of code objects and
+computer systems as well as of the human body, so that meaning-making
+capabilities are equally distributed as feedback and feedforward loops.
+Hayles’s notion of intermediation thus effectively mitigates Mark B. Hansen’s
+subordination of technology to the body in his highly influential work on
+immersion and embodiment—key concepts in much recent theorizing on
+ekphrasis, especially in the field of neuroaesthetics (see Starr 2013). Hansen
+censures digital technology’s privileging of ocular modes of visualization as
+well as its uncanny ability to mimic or create image-objects of simulacra in
+which representation and referent collapse together so completely that such
+objects are no longer representable but merely haunting manifestations of
+the hyperreal’s horror vacui, or what he calls “the referential void” (Hansen
+2004a: 600). In light of the subsistent nature of the digital, that is its sense of
+being without existing, Hansen sees a rigorously phenomenological account
+of embodiment as the only possibility for rehabilitating meaning in human-
+computer interaction (see Hansen 2004b; Hayles 2008: 102–13, 179–86).
+Hayles’s critique of this position rightly denounces its readiness to ignore the
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+363
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+material reality of the digital, arguing that “although it is true that digital
+technologies can create objects for which there is no original . . . , the tech-
+nology itself is perfectly representable” (2008: 180).
+In his Visual Art: From Illusion to Immersion, Oliver Grau, too, emphasizes the
+primary role of the body in ascribing and relaying meaning in new media.
+Grau understands immersion as a sense of “presence (an impression sugges-
+tive of ‘being there’), which can be further enhanced through interaction
+with apparently ‘living’ environments in ‘real time’” (2003: 7) and which is
+“characterized by diminishing critical distance to what is shown and increas-
+ing emotional involvement in what is happening” (ibid.: 13). This is achieved
+via “sound, tactile and haptic impressions, and thermoreceptive and even
+kinaesthetic sensations” (ibid.: 15). “Literary immersions,” which appeal to
+the imagination through words, Grau argues, “differ fundamentally from the
+visual strategies of immersion in the virtual reality of the computer” (ibid.:
+15). Although this is undoubtedly the case due to the interiorized versus
+exteriorized production of images discussed above, several features shared
+between the two serve as the conceptual segue for Cecilia Lindhe´’s rather
+provocative attempt to link classical ekphrasis with digital media (2013: n.p.).
+Lindhe´ points to Ruth Webb’s influential definition of classical ekphrasis
+as “a dynamic mode of writing thought to have an immediate impact on
+its audience” (Webb 1999: 17) and which “leads one around ( periege-matikos)
+bringing the subject matter vividly (enargos) before the eyes” (ibid.: 11). With
+respect to Hansen’s prioritizing of embodiment, Lindhe´ argues that “digital
+literature and art align with this concept of ekphrasis, especially in the way
+that its rhetorical meaning is about effect, immediacy, aurality, and tactility”
+(2013: n.p., par. 2). Grounding her argumentation in the analogous relation-
+ship between perception in VR and ekphrasis, Lindhe´ writes:
+Just as Grau describes the characteristics of VR and immersion as a space of
+possibility and impossibility, the ancient ekphrasis is dependent on an “as-if-
+presentness.” InQuintilian’s description ofenargeiaan“as if ” (quamsi ) alwaysfigures:
+enargeia is about illusion and takes place in an ongoing tension between presence
+and absence [ Webb 2009: 168– 69]. It is this oscillation or process of visualization
+that is of interest here, not the representation of the object. (2013: n.p., par. 13)
+While I am quite sympathetic with the overall sentiment here, in order to
+avoid the terminological and conceptual redundancy rightly feared by Jay
+David Bolter and Richard Grusin so long ago (1999: 45) and to further
+capture the technical issues central to digital literature, it is still necessary
+to create a more robust, second-order linking of ekphrasis with digital poetry.
+Webb has shown how ekphrasis was one of the means by which a pupil was
+taught to write and speak in a manner that exhibited a high degree of verbal-
+364
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+visual mimesis (Webb 2009: 18–22). It was a means of producing images in
+the mind of the listener but also taught the listener how to imaginatively and
+visually engage with a text and to be visually and emotionally transported to
+the scene being described. As Webb theorizes, in ekphrasis, “words do not
+directly represent their subjects, but are attached to a mental representation
+of that subject” (ibid.: 128), which means that rhetoricians conceived of
+ekphrasis as a dialogic in which the mind of the listener is an active agent
+in the process of receiving, composing, and engaging with mental images
+activated via the speaker’s agentic use of rhetorical strategies, mimetic cues,
+and semantic frames (ibid.: 18–22). The dialogic here, though, is a human-
+to-human interaction in which both participants are agents but also actants
+within the visualization process, where the visualized object is an individu-
+ated, subjective, emergent realization that in each instantiation necessarily
+differs. Linking the dialogical nature of ekphrasis to digital media would, it
+seems to me, thus require Hayles’s concept of intermediation as that which
+logically, both metaphorically and literally, corresponds to the complex,
+idiosyncratic agency-actant relationship between systems and participants.
+As Richard Powers so passionately argued in “Seeming and Being,” his essay
+on the impossible paradox of virtual reality, “the more advanced the media,
+the higher the level of mediation” (2000: n.p.). In other words, while imme-
+diacy and immersion may give the impression of a reality that is directly
+accessed, it is produced via mediation procedures that rely on representable
+structures as well as structures of representation. The more advanced the
+media, the more it relies on such structures and the more it relies on inter-
+mediation. The beauty of conceptualizing a digital ekphrasis in light of
+intermediation is that on various levels and to varying degrees it would
+robustly accommodate rhetorical ekphrasis and its emphasis on immersion
+as theorized by Webb (2009), but also ekphrasis understood as representa-
+tion and meta-representation, as theorized by James Heffernan (1993) and
+Mitchell (1986, 1994). Because of the dynamic heterarchy of digital poetry,
+immersion via visualization and the representation of visual media are
+inextricably linked. It is not that they are indistinguishable, but that they
+are invariably entangled.
+A poetics of digital ekphrasis would thus be a type of poetics aware of and
+able to account for both the processes of visualization as well as their infinite
+desire for and embodiment of the representation of visual media and vice
+versa. It would be a type of poetics able to endorse both the cultural or
+metaphorical power of the living image as well as the technical agency of the
+enlivened digital image. It would also be a poetics deft at pursuing its mul-
+timodal, polysemiotic possibilities to critically reflect on and maybe even
+subvert the nature of the (de-)materialized digital image and its relation to
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+365
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+material ontology. Finally, it would be a poetics that is both the result of and
+the instigator of intermediation. This, in turn, means that a poetics of digital
+ekphrasis will be very complex—thematically, structurally, and materially.
+To Enliven Is to Kill Is to Enliven Is to Kill (Ad Inﬁnitum): Metaphysical Recursion
+in Deena Larsen’s “Carving in Possibilities”
+Deena Larsen’s now canonical “Carving in Possibilities” (2001) is a time-
+based hypertext poem comprised of written text, as well as visual, audio,
+animated, and kinetic elements. These elements are compressed into a
+Shockwave Flash file, which means that the user cannot access the poem’s
+source code and that its specific formats remain hermetic. The opening
+sequence of the poem displays a blurred, pixelated, close-up image of Michel-
+angelo’s colossal statue of David housed in the Academia Gallery Museum
+in Florence, onto which the title “Carving in possibilities” is superimposed.
+Discretely placed under the title as a full sentence are the instructions “Mouse
+slowly to carve out your existence.” Located to the user’s right is a button with
+Figure 1
+Screenshot of title page, Deena Larsen’s “Carving in Possibilities.” www
+.collection.eliterature.org/1/works/larsen__carving_in_possibilities.html. Creative Com-
+mons Attribution-NonCommercial-NoDerivs 2.5 License
+366
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+further instructions, “click / to start”; upon mousing over it, but not clicking
+on it, the line “And remember where you put your ghosts” appears, as is
+shown in figure 1.
+The poem’s title page is accompanied by a musical theme meant to invoke
+the eerie soundtracks of 1950s sci-fi films. It disappears after fourteen seconds
+but remains a ghostly, vaguely visual presence in the mind of the user.
+Through the progressive aspect of the present tense used in the title, the
+imperative voice in the remaining text fragments, and the haunting qualities
+of its soundtrack, this title page frames the user’s participation as one of active
+responsibility. While the music is threatening in tone, the linguistic text
+directs and firmly coaxes the user to enter its portal. Clicking on the start
+button allows the user to metaphorically enter the gates of Florence and
+access what is the same pixelated, close-up image of David accompanied
+by the same soundtrack, but now overlayed with invisible hotspots that are
+then triggered upon mouseover. Each hotspot activates three simultaneous
+but different semiotic modes or responses:
+1. A single color-coded line of embedded or hidden poetic text emerges
+and remains as long as the pointer hovers, as seen in figures 3 and 4. In
+total, it would appear that there exist upwards of fifteen different color
+and typeface combinations varying in point scales that loosely denote
+bundles of thematic content and/or speaker situations. It is sometimes
+the case that the pointer will cover the text upon mouseover, rendering
+it difficult to read.
+2. A sharp, 8–bit sound connotative of both gunfire and the striking of
+a hammer on marble is heard. The quality and duration of the sound
+effects, in combination with the soundtrack, reference both the aes-
+thetic and generic conventions of classic point-and-click adventure
+games from the 1980s and 90s, especially Ron Gilbert’s Maniac Mansion
+and its playful haunted-house narrative based on intertexts from horror
+films in which a limited number of endings are possible depending on
+user inputs (see Gilbert 1987).
+3. The image of David’s face is metaphorically carved as its resolution and
+color scheme become a grade sharper. While this is a time-based piece,
+the poem does not end until the user has completed ca. 30–40 triggers,
+at which point David’s face will become entirely focused and thus fully
+“carved.” The combinations of lines are linked in physical proximity
+so that thematic understanding emerges via the user’s navigation of
+the mouse, but are organized in a nonlinear manner, which, in combi-
+nation with the user’s individual decisions regarding the speed and
+direction of mouse movement, means that the total reading will be
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+367
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+made up of all the different performances and will vary from case to
+case (Funkhouser 2012: 72–77). As seen in figure 2, once the ghostly
+image of David is rendered completely absent and the focused image
+entirely present, the poem ends and an exit button appears to the lower
+right and a “sculpt again” button appears on the lower left, in which a
+hotspot for the line “for another reality” is embedded.
+So while the poem may appear to end, it actively desires the user to
+continue on to a second, third, and nth number of runs, of which each is a
+new reality not yet experienced by the user. The degree of multimodal com-
+plexity and recombinant flux in this poem, and in contradistinction to the
+video games it quotes, renders an exhaustive reading utterly impossible. And
+due to the emergent reading experience in each run, a critical interpretation
+of the poem will in every case be only a haunting fragment of its potential
+textual totality, a hermeneutic manifestation of the ghost in the machine.
+Nonetheless, as C. T. Funkhouser points out, by situating specific lines of
+poetic text within “the same area of the screen as the start button, which every
+Figure 2
+Screenshot of closing page, Deena Larsen’s “Carving in Possibilities.” www
+.collection.eliterature.org/1/works/larsen__carving_in_possibilities.html. Creative Com-
+mons Attribution-NonCommercial-NoDerivs 2.5 License
+368
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+viewer must activate,” comprehensible packets of thematic content are
+revealed in intervals determined by the users (2012: 72). These packets may
+appear in varying combinations for each run, but are deterministically
+designed so that meaning can be presented in just a few runs. As such,
+following Funkhouser and his nomenclature (ibid.: 73), I provide a transcrip-
+tion. The single slash indicates a line break, the double slash indicates a link
+break, and the numbers added by me denote a link of poetry.
+Run 1:
+I do not know my dream / in your reality //
+1
+I saw precisely / what the stone was / meant to be //
+2
+Others had tried the stone / before me //
+3
+He stands poised to / strike //
+4
+When was it yours? //
+5
+He stands poised to / strike //
+6
+echoes of waiting hordes //
+7
+When was this his thought? //
+8
+When is stone stone? //
+9
+When is real real? //
+10
+Eyes watchful . . . the / neck of a bull . . . hands / of a killer. . . //
+11
+of a single reality //
+12
+Be honest. //
+13
+of a single reality //
+14
+echoes of fig leaf / titters and / scowls of shame //
+15
+Muscles resting. / Ready. //
+16
+I am the waiting stone. //
+17
+unknowable //
+18
+Knowing what you know now //
+19
+Or do they inhabit 10,000 possible worlds / as real to them as ours is
+to us? //
+20
+Can we feel it in the depth / or only in the carved shadows? //
+21
+perfections //
+22
+I am everything you //
+23
+imperfections //
+24
+Does your David lie / only on the surface / of your polished stone?
+25
+perceptions //
+26
+to keep youth in taut unmoving motion //
+27
+It’s the same stone. //
+28
+no matter who inhabits it //
+29
+Is it the stone / or is it the name / that gives life? //
+30
+Who breathed life into whom? //
+31
+Which ghosts are you hiding from? //
+32
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+369
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 12 ──
+Run 2:
+Do you care who is telling you this now? //
+33
+The gods had taken / everything we had had / long before. //
+34
+A baby cried in the hot, still air. //
+35
+We saw the stone resting / in his dry palms. / We were afraid. //
+36
+We waited as the wind / blew in our faces. / We did not know where /
+to run. //
+37
+Our fate was carved / in the jagged shards / of his stone. //
+38
+Would you have stared / up into his eyebrows as //
+39
+Knowing what you know now //
+40
+unknowable //
+41
+I am the waiting stone. //
+42
+Muscles resting. Ready. //
+43
+I am everything you //
+44
+perfections //
+45
+imperfections //
+46
+to see you as God //
+47
+under the shelter / of impossibility //
+48
+I am the waiting stone. //
+49
+Figure 3
+A line of text from Run 1 in Deena Larsen’s “Carving in Possibilities.” www
+.collection.eliterature.org/1/works/larsen__carving_in_possibilities.html. Creative Com-
+mons Attribution-NonCommercial-NoDerivs 2.5 License
+370
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 13 ──
+indivisible //
+50
+I could feel him . . . under me / Watching . . . as I chipped away . . . //
+51
+Who he was depended on the / sinews outside the stone. //
+52
+Or was there, always and ever, / only one David for you? //
+53
+Did they mock your vision / with their special possibilities? //
+54
+A solitary David locked / in the one rejected stone //
+55
+The decision made. //
+56
+In the end . . . it is only / absence that matters. //
+57
+It is the ground . . . not the figure / the space . . . not the stone //
+58
+Is it the stone / or is it the name / that gives life? //
+59
+It’s the same stone. //
+60
+Is this what you want / to call back as real?
+61
+It’s the same stone. //
+62
+no matter who inhabits it //
+63
+only what inhabits / the surface of the atoms / changes //
+64
+ancient bodies / compressed / into calcite structures //
+65
+no matter who inhabits it //
+66
+no matter who inhabits it //
+67
+heated from the core out — / bones melted into / unrecognizable shapes // 68
+Did they dance for you / just out of reach? //
+69
+Is it the stone / or is it the name / that gives life? //
+70
+leaving only outline //
+71
+conceptions //
+72
+Does your David lie / only on the surface / of your polished stone? //
+73
+of their reality //
+74
+of a single reality //
+75
+Be honest. //
+76
+echoes of fig leaf / titters and / scowls of shame //
+77
+I am nothing you k //
+78
+I am everything you //
+79
+Can we feel it in the depths / or only in the carved shadows? //
+80
+Run 3:
+We saw the stone resting / in his dry palms. / We were afraid. //
+81
+invisible //
+82
+invisible //
+83
+invisible //
+84
+Are they all here now? //
+85
+What if we could hold them all / here now? //
+86
+What makes your polished stone different / from one tumbled in
+a riverbed?
+87
+Or could they ignore / your pounding? //
+88
+Or did they answer your knock / upon their being? //
+89
+Who breathed life into whom? //
+90
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+371
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 14 ──
+Did they tell you their names? //
+91
+Who breathed life into whom? //
+92
+I am the waiting stone. //
+93
+I cut away everything / that wasn’t needed. //
+94
+Did they furrow / impossible brows / and decline your offers? //
+95
+It’s the same stone. //
+96
+to keep youth in taut unmoving motion //
+97
+can you distinguish the atoms of your soul / from the stone? //
+98
+It’s the same stone. //
+99
+no matter who inhabits it //
+100
+It’s the same stone. //
+101
+It will be the same stone / long after his face / is worn away. //
+102
+no matter who inhabits it //
+103
+ancient bodies / compressed / into calcite structures //
+104
+heated from the core out — / bones melted into / unrecognizable shapes // 105
+The wind blowing against me //
+106
+nothing during //
+107
+Is that what he told you? //
+108
+How do you know this David / did not lie? //
+109
+Did they keep / you company in / polyphonic harmony? //
+110
+When was his thought? //
+111
+When is stone stone? //
+112
+of a single reality //
+113
+of their reality //
+114
+Does your David lie / only on the surface / of your polished stone? //
+115
+imperfections //
+116
+to see you as God //
+117
+When taken together, these three runs, and figures 3 and 4, present a
+highly entangled and conceptually blended narrative of, on one “side,”
+Michelangelo carving the statue of David, Michelangelo’s thoughts on the
+metaphysical repercussions of creating life from apparently dead matter,
+David’s thoughts on being carved and encased into a rigid form by Michel-
+angelo as well as the viewers’ interactions with the statue as they visit the
+gallery, with, on the other “side,” the biblical account of David pointing
+and throwing the stone that killed Goliath, the thoughts and actions of the
+crowd watching, as well as the stone’s metaphysical dread at being impli-
+cated in the killing process. This, in turn, is augmented by the speaker of the
+poem. As intermediated agent-actants, we are in some sense the speaker of
+the poem although we are being addressed. We are thus responsible but also
+made responsible for exerting linguistic or verbal agency in the processes of
+making present and absent. This is especially made evident with the refer-
+ence to video games, in which a player must often make decisions, such as
+372
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 15 ──
+killing a rival or overcoming a threat, in order to win the game. While it may
+seem that killing in a virtual setting is not actual killing, the metaphysical
+paradox of the material agency of the code-object and its mechanical pro-
+cesses of animation in conjunction with the aleatory or contingent inputs
+from the embodied user is such that killing and enlivening become uncannily
+intertwined. The layering and levels of conflation taking place through the
+various speakers and grammatical inversions then extend this paradox to
+the creation and representation of the statue of David, where we become
+the sculptor giving birth to David’s representation, which, made of marble,
+becomes both the stone as well as the boy, David, who kills Goliath. David,
+the statue, is ensouled but capable of desouling. Thus, as we sculpt David, we
+kill Goliath; but in an act of recursion, as we kill Goliath, we enliven David.
+In light of the poem’s title page warning the user to “remember where you
+put your ghosts” as well as its spectral soundtrack, we become increasingly
+aware that as an embodied, intermediated agent-actant, we thus have the
+power not only to self-inflict trauma in the physical carving of possibilities,
+but to inflict trauma on the sculpted image and on the poem, all the while
+Figure 4
+A line of text from Run 3 in Deena Larsen’s “Carving in Possibilities.” www
+.collection.eliterature.org/1/works/larsen__carving_in_possibilities.html. Creative Com-
+mons Attribution-NonCommercial-NoDerivs 2.5 License
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+373
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 16 ──
+incrementally making present as well as visible a representational repro-
+duction of David and incrementally making materially present but increas-
+ingly less visible the representation of its ghost. The looping circularity of
+the levels of representation reproduces and makes visible the looping cir-
+cularity of the runs, which further reproduce and make visible the looping
+circularity of dynamic heterarchy and intermediation. By playing the game
+of the poem, we bear the responsibilities of enlivening the code object and
+shaping our mutual identity formation processes.
+These multilevel looping circularities and degrees of interpenetration
+echo Homer’s ekphrastic description of the making of the shield of Achilles
+by Hephaestus in the eighteenth book of the Iliad. The shield depicts a
+series of idyllic and peaceful scenes organized in concentric rings that are
+described by Homer “in centrifugal order, moving from the innermost circle
+to the rim” (Heffernan 1993: 12). The shield, however, not only functions
+as circular representation, it also has the material power of an agent. As
+suggested by Heffernan, the shield “is metaphorically interchangeable with
+Achilles himself ” (ibid.: 11), and even as it protects Achilles in battle, it is
+instrumental in his death. Hephaestus makes the shield, yet also feels
+responsible for sealing Achilles’s fate and desires to “hide him away from
+death and its sorrow / at that time when his hard fate comes upon him”
+(Homer: 18.466–67; quoted in Heffernan 1993: 11). Although the shield is
+born of divine power, Achilles’s enemies are able to penetrate it in combat
+and literal gaps in its material representation appear. These absences in
+form render visible the peaceful life no longer available to Achilles upon
+creation of the shield. The disturbing nature of the hole in the reality of the
+shield is that it marks Achilles’s negation and makes materially manifest the
+ontological wounds that representation is able to inflict. This idea finds its
+poetological reflection in Larsen’s poem. The poem’s thematic hauntology
+resides in its own awareness of how it functions as a digital poem—how its
+Flash file format hides its image files and how its verbal powers of repre-
+senting the cycles of killing and enlivening in visual media in turn materially
+animate the ghost of its own represented code-object. Aware of the meta-
+physical implications of dynamic heterarchy and intermediation, this poem
+asks itself and us, and in turn we ask the poem: do such procedures trap
+the soul in stone? Or release it? “When is the real real?” (link 10). When it is
+flesh? When it is stone? When it is an immaterial body, a gap, a hole? When
+it is singular? When it converges with other identities or objects across time
+and space? When Achilles is the shield? When David is David? Regardless of
+the answers to these questions, the metaphysical consequences are recursive.
+And as the poem itself argues: “In the end . . . it is only / absence that
+matters.” (link 57)
+374
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 17 ──
+Encoding and Decoding the Immaterial Body in Harry Giles’s
+“Photo of Maud Wagner”
+While the agentic nature of the code-object suffuses the genre with exciting
+ontological consequences, as seen above, its mechanical enlivenment pro-
+cess also means it can easily become digital detritus, an obsolete ephemeron
+that cannot be recovered ex negativo even as it exists ex negativo. The original
+hardware and software specifications of code-objects are often condemned
+to obsolescence as technology mutates and develops, so that a large amount
+of digital poetry produced and published either off- or online has since
+been relegated to the digital dustbin. This problem is further compounded
+by the relative frequency with which online magazines and other sites be-
+come defunct, either because they have been proactively deleted or are no
+longer maintained. As a case in point, Harry Giles’s “Photo of Maud
+Wagner” was originally published in 2013 in the online poetry magazine
+Verse Kraken. The magazine was defunct from 2015 until spring of 2017, and
+its published poetry was unavailable for viewing until recently. Verse Kraken
+commissioned hybrid poetry challenges based on spurs, or material taken
+Figure 5
+“Portrait of a Woman Showing Images Tattooed or Painted on her Upper
+Body.” Los Angeles, CA: The Plaza Gallery, c1907, Library of Congress, www.loc.gov
+/pictures/item/2006687059/. Public domain
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+375
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 18 ──
+from the public domain to act as inspiration for its contributors, some of
+which included the intermedial remediation of copyright-free visual
+material available on the Internet. Giles’s “Photo of Maud Wagner” is
+one of a group of poems by a handful of poets who submitted their com-
+positions under the rubric “Maud Stevens Wagner (1907)” to accompany
+the photograph of the famously tattooed Maud Wagner seen in figure 5.
+The poem itself consists of this photograph as well as a PDF file (figure 6)
+whose text is written in a combination of ASCII code and anagrams based on
+Maud Wagner’s name, the typographical arrangement of which recreates
+the actual concrete image of Maud Wagner as shown in the photograph.
+It also consists of a sound file (figure 7) comprising two voices: a highly
+artificial, digitized female voice that performs the code at an accelerated
+tempo, and a very sonorous, seductive “analogue” male voice which sounds
+the anagrams in a slight Midwestern, flatlander twang, echoing Maud
+Wagner’s native roots in Kansas.
+Figure 6
+Harry Giles’s poem “Photo of Maud Wagner,” 2013. With kind permission
+by the author
+376
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 19 ──
+The gendered performance of these two speakers is of special importance
+and is anchored so that we have multiple semiotic systems that seem to
+uncomfortably compete for the attention of the user both internally (on the
+part of the simultaneous voices) and externally (on the part of the voices in
+conjunction with the written text). While the user does not generate content,
+he or she is inexorably ensnared in the paragonal bargaining of which medi-
+um or semiotic system or combination thereof is most adept at encoding and
+decoding Maud Wagner’s material and immaterial realities, that is, both her
+as subject and as self. The poem’s gender performance is formally and the-
+matically constituted by the poem’s operating procedures and file formats.
+To produce the coded ASCII text seen in figure 6, the digital reproduction of
+the photograph in figure 5 was run through an ASCII image generator (Giles
+2016). ASCII code is a type of telegraph code, and is thus genetically linked
+to Morse code, codeveloped by and named after Samuel F. B. Morse, who
+coinvented the telegraph and operated his own daguerreotype studio begin-
+ning in 1840 (Dinius 2012: 1–25). The use of ASCII code thus creates an
+important historical and conceptual framework for conceiving the material
+imprint of light on chemically treated surfaces as code. Maud Wagner’s name
+was run through the Internet Anagram Server, and the resulting anagrams
+were manually chosen from a long list and pasted into the ASCII text to
+create the unified written text (Giles 2016). The original ASCII text was run
+through a text-to-voice generator to produce the synthesized female per-
+formance of ASCII text, while the male performance is a self-recording by
+Giles that they then layered on top of the text-to-voice output (the poet refers
+to themself using the pronouns they and them; Giles 2016). The typographical
+arrangement of text corresponds to the gendered performance of the voices
+Figure 7
+QR code for audio component of Harry Giles’s poem “Photo of Maud
+Wagner,” 2013. With kind permission by the author
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+377
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 20 ──
+such that the written ASCII code—a functional code that represents a kind of
+pseudo-code, insofar as it cannot reproduce Wagner—reads as female, while
+the anagrams read as male. Together they reproduce the image of the photo
+of Maud Wagner, meaning that their multimodality is dually gendered, and
+their work, in tandem, not only makes this a concrete poem, but also creates a
+meta-picture that reinstates and critiques the gender and semiotic binary so
+often associated with poetry and visual art. This binary is based on long-
+standing cultural values which have, over the course of centuries, been
+repeatedly reified and which serve as a theoretical springboard for much
+of W. J. T. Mitchell’s early hypothesizing on the reality of images and the
+nature of ekphrasis.
+Mitchell cites Edmund Burke as a forerunner to this type of thinking, but it
+is Gotthold Ephraim Lessing’s monumental work that systematizes a number
+of other features associated with visual systems of art versus verbal ones
+(Mitchell 1986: 110–11). In Lessing’s configuration, visual art is composed
+of natural signs, based on imitation, concerned with the body, limited to the
+external, bounded by space, ruled by the gaze and not surprisingly gendered
+female. Poetry is composed of arbitrary signs, based on expression, con-
+cerned with the mind, expanded to the internal, bounded by time, ruled
+by the ear and of course gendered male (ibid.: 110). Yet, as a meta-picture,
+“The Photo of Maud Wagner” entangles and inverts many of these relations.
+It does so by reenacting them only to then comment on how the tattoos,
+which are visual representations, inscribe Maud Wagner’s body and encode
+her gender performance, while also commenting on its own reinscribing,
+relettering, and reencoding of both this image and her body via its remedi-
+ation procedures. By doing so, it incidentally invokes the curious language of
+Renaissance emblem theory, which conceives the graphic image as a “body”
+and the motto as the “soul” (Caldwell 2000: 277–86). The tattoos are both
+visual representation and code, so they give the impression of being able
+to speak on her body and for her soul. However, the interpolation of the
+anagrams into the ASCII code obscures or makes absent Wagner’s original
+tattoos; yet, like those tattoos, the anagrams and the ASCII code have the
+uncanny effect of creating a palimpsestic ghosting across the materialized
+body of the visual poem. Because we conceive of the photograph as being
+encoded within the poem and Maud Wagner as being encoded within the
+photograph and by the tattoos, this ghosting seems to also traverse Maud
+Wagner’s immaterialized body.
+Within the temporal performance of the poem, we have a further degree
+of complication. The ventriloquized male voice slowly and casually strokes
+Maud Wagner’s anagrammatic sensuality until the poem comes to its visual
+end, but the synthetic female voice that scans her own coded lines with a
+378
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 21 ──
+pinched, volatile velocity only gets as far as the first set of three question marks
+in line 7, the line in which the code meets the concrete, digital image’s eyes
+(see figure 6). The male voice, layered on top of the female voice in the
+generative process of the poem and embodied as the naming agent forming
+her identity and speaking for her “self,” verbally performs the male gaze until
+the poem comes to its visual end. The code, in contrast, is gendered and
+embodied as female and stops at the poem’s representation of the photo’s
+representation of the eyes of Maud Wagner. Her eyes are thus present but not
+visible. This is the moment in which the poem encounters itself as well as the
+photograph, and it is the moment when the meta-picture asks: what does this
+photo want from me, what does Maud Wagner want from this photo, what
+do we want from Maud Wagner, and what want do we want from this poem?
+This is the moment in which organized epistemology, represented here as
+visual and verbal form, questions its ability to touch and to reproduce an
+otherwise invisible or absent self or ontology.
+Roland Barthes, in Camera Lucida, famously theorized the metaphysical
+realities of the photographic subject:
+I call “photographic referent” not the optionally real thing to which an image or a
+sign refers but the necessarily real thing which has been placed before the lens,
+without which there would be no photograph. Painting can feign reality without
+having seen it. Discourse combines signs which have referents, of course, but these
+referents can be and are most often “chimeras.” Contrary to these imitations, in
+Photography I can never deny that the thing has been there. There is a superimposition
+here: of reality and of the past. (2000 [1980]: 76)
+This leads Barthes to argue that photography is asymbolic, that it cannot
+be reduced to cultural or political codes made miraculously accessible via the
+decoding procedures of what he calls the studium (ibid.: 51); rather, as I like
+to phrase it for myself, its ontology is accessible through phenomenological
+reasoning, that is, through the embodied encounter with the object. This
+encounter is established by what he calls the punctum, the wound that “pricks”
+and “bruises” the viewer and tethers him or her in direct contact with, in
+Barthes’s case, the photographic subject (ibid.: 27).
+In our case, however, this poem argues that the photograph’s punctum may
+be the eyes, but that its own punctum, when understood in terms of its con-
+crete visual form, is the series of three question marks in line 7, and when
+understood in terms of its temporality, is the repeated, dialogical act of
+questioning. Because it is a poem and an enlivened meta-picture, it can
+recognize and voice its own punctum, but paradoxically, it does this via writ-
+ten and verbal code, in other words, through its studium. In this poem,
+dynamic heterarchy and its highly transparent operating procedures work
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+379
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 22 ──
+so that the poem is both punctum and studium, and the photographic referent is
+both “the optionally real thing” and “the necessarily real thing.” At this moment
+in which epistemology questions its ability to touch and to reproduce onto-
+logy, the visceral understanding, the pain of the punctum, is the recognition on
+the part of the poem that the code, whichever code it is, whether functional,
+pseudo-, or gendered, would appear to move in only one direction. We can
+read the poem, the poem can read itself and we can both read the photo and
+her tattoos, but this does not mean that we can read Maud Wagner. The
+photo may encounter Maud Wagner, the poem may encounter the photo,
+and we may encounter the poem, but none of these encounters can with
+ontological fidelity reproduce Maud Wagner. We can look at the represen-
+tation of her palimpsestic soul but she cannot look back. It is, in this sense, an
+elegiac poem that adopts the voice of someone that has come before to
+question and criticize the legitimacy of the poetic act of ventriloquism,
+especially as a male voice speaking for the silenced female image. Yet as
+soon as the punctum is made verbally manifest, we understand how this series
+of remediation procedures works and we have empathy for the poem’s desire
+to touch, hear, and see Maud Wagner. Upon doing so, we enter the dialogic
+of the poem, the code moves polydirectionally, we become intermediated
+agent-actants, and we see the code-object’s verbalized, material represen-
+tations of Maud Wagner’s ontological absence. We have a multimodal,
+embodied encounter, and we become part of an emergent structure of ver-
+tically and horizontally corresponding ontological events that are both syn-
+chronic and diachronic: it is the closest we can get to Maud Wagner, to the
+photo, and to the poem, and it is the closest the poem can get to itself.
+Concluding the Ending of the Beginning
+The readings offered here of Deena Larsen’s “Carving in Possibilities” (2001)
+and Harry Giles’s “Photo of Maud Wagner” (2013) suggest that a digital
+poetry of ekphrasis, when considered in light of dynamic heterarchy and
+intermediation, of both representational and experiential reasoning, is pos-
+sible. The result is a kind of Pygmalion poetics: a poetics that uses and also
+exploits the interstice between modalities, the interstice between systems of
+mediation, and the interstice between “lifelikeness” and material ontology.
+It is also a type of ekphrasis that is willfully metaphysical in tone and content,
+capable of speculatively investigating the relations of mind and matter, time
+and space, and the material and immaterial realities of code, computer-
+mediated poetry, images, and human-computer interaction. It is further a
+poetics of intermediation, aware of its capacity to forge what appears as a
+unified image, an image that can appear to be magically entered, but is also
+380
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 23 ──
+aware of the phenomenological shaping power of the embodied user. It even
+appears to be a poetics capable of fulfilling Richard Powers’s desire for a kind
+of digital representation able “to refresh us to the irreducible complexity of
+the analog world, a complexity whose scale and heft we might always have
+underestimated, without the shortfall of its ghostly imitations” (2000: n.p.).
+And it is certainly a poetics that would not argue against the possibility of
+ekphrasis but would encode ekphrasis as nothing other than possibility.
+References
+Barthes, Roland
+2000 [1980] Camera Lucida (London: Vintage).
+Block, Friedrich W., Christiane Heibach, and Karin Wenz, eds.
+2004 P0es1s: The Aesthetics of Digital Poetry (Berlin: Hatje Cantz).
+Bolter, Jay David, and Richard Grusin
+1999 Remediation: Understanding New Media (Cambridge, MA: MIT Press).
+Caldwell, Dorigen
+2000 “The Paragone between Word and Image in Impresa Literature,” Journal of the Warburg
+and Courtauld Institutes 63: 277 – 86.
+Dinius, Marcy J.
+2012 The Camera and the Press: American Visual and Print Culture in the Age of the Daguerreotype
+(Philadelphia: University of Pennsylvania Press).
+Funkhouser, C. T.
+2008 “Digital Poetry: A Look at Generative, Visual, and Interconnected Possibilities
+in Its First Four Decades.” In A Companion to Digital Literary Studies, edited by Ray
+Siemens and Susan Schreibman, n.p. (Oxford: Blackwell), www.digitalhumanities.org
+/companionDLS.
+2012 New Directions in Digital Poetry (New York: Continuum).
+Gilbert, Ron
+1987 Maniac Mansion (San Francisco: Lucasfilm Games).
+Giles, Harry
+2016 E-mail to author, September 12, 2013, “Photo of Maud Wagner,” Verse Kraken: The
+Magazine of Hybrid Art, no. 1, www.versekraken.com.
+Grau, Oliver
+2003 Virtual Art: From Illusion to Immersion (Cambridge, MA: MIT Press).
+Hansen, Mark B. N.
+2004a “The Digital Topography of Mark Z. Danielewski’s House of Leaves,” Contemporary
+Literature 45, no. 4: 597 – 636.
+2004b New Philosophy for New Media (Cambridge, MA: MIT Press).
+2006 Bodies in Code: Interfaces with Digital Media (New York: Routledge).
+Hayles, N. Katherine
+2006 “The Time of Digital Poetry: From Object to Event.” In New Media Poetics: Contexts,
+Technotexts, and Theories, edited by Adalaide Morris and Thomas Swiss, 181 – 209 (Cam-
+bridge, MA: MIT Press).
+2008 Electronic Literature: New Horizons for the Literary (Notre Dame, IN: University of Notre
+Dame Press).
+2012 How We Think: Digital Media and Contemporary Technogenesis (Chicago: University of
+Chicago Press).
+Mathieson
+† The Body and the Possible Soul in Digital Ekphrastic Poetry
+381
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 24 ──
+Heffernan, James A. W.
+1993 Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery (Chicago: University of
+Chicago Press).
+Larsen, Deena
+2001 “Carving in Possibilities,” Electronic Literature Collection, Volume 1, http://collection
+.eliterature.org/1/works/larsen__carving_in_possibilities.html.
+Latour, Bruno
+2005 Reassembling the Social: An Introduction to Actor-Network Theory (New York: Oxford Univer-
+sity Press).
+Lindhe´, Cecilia
+2013 “‘A Visual Sense Is Born in the Fingertips’: Towards a Digital Ekphrasis,” Digital Humanities
+Quarterly 7, no. 1: n.p., www.digitalhumanities.org/dhq/vol/7/1/000161/000161.html#p3.
+Memmott, Talan
+2006 “Beyond Taxonomy.” In New Media Poetics: Contexts, Technotexts, and Theories, edited by
+Adalaide Morris and Thomas Swiss, 293 – 306 (Cambridge, MA: MIT Press).
+Mitchell, W. J. T.
+1986 Iconology: Image, Text, Ideology (Chicago: University of Chicago Press).
+1994 Picture Theory (Chicago: University of Chicago Press).
+2015 Image Science (Chicago: University of Chicago Press).
+Powers, Richard
+2000 “Being and Seeming: The Technology of Representation,” Context: A Forum for Literary
+Arts and Culture 3, www.centerforbookculture.org/context/no3/powers.html.
+Ryan, Marie-Laure
+2015 [2001] Narrative as Virtual Reality 2: Revisiting Immersion and Interactivity in Literature and
+Electronic Media (Baltimore, MD: Johns Hopkins University Press).
+Starr, G. Gabrielle
+2013 Feeling Beauty: The Neuroscience of Aesthetic Experience (Cambridge, MA: MIT Press).
+Strickland, Stephanie
+2006 “Writing the Virtual: Eleven Dimensions of E-Poetry,” Leonardo Electronic Almanac,
+www.leoalmanac.org/wp-content/uploads/2012/09/06Writing-the-Virtual-Eleven
+-Dimensions-of-E-Poetry-by-Stephanie-Strickland-Vol-14-No-5-6-September-2006
+-Leonardo-Electronic-Almanac.pdf.
+Wagner, Maud
+1907 “Portrait of a Woman Showing Images Tattooed or Painted on Her Upper Body.” Los
+Angeles: The Plaza Gallery, Library of Congress, www.loc.gov/pictures/item/2006687059/.
+Wardrip-Fruin, Noah
+2008 “Reading Digital Literature: Surface, Data, Interaction, and Expressive Processing.”
+In A Companion to Digital Literary Studies, edited by Ray Siemens and Susan Schreibman, n.p.
+(Oxford: Blackwell), www.digitalhumanities.org/companionDLS.
+Webb, Ruth
+1999 “Ekphrasis Ancient and Modern: The Invention of a Genre,” Words & Image 15, no. 1:
+7 – 18.
+2009 Ekphrasis, Imagination, and Persuasion in Ancient Rhetorical Theory and Practice (Farnham:
+Ashgate).
+382
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/359/528910/0390359.pdf by Georgia Tech Library user on 26 December 2025

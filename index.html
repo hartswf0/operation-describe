@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERATION DESCRIBE — From Imagetext to Worldtext</title>
+    <meta name="description" content="A knowledge cosmos built from the collision of ekphrasis, thick description, and generative AI. 374 pages, 26 species, 708 sources, 26 structural bridges.">
+    <meta name="keywords" content="operative ekphrasis, worldtext, thick description, generative AI, knowledge cosmos">
+    <meta name="author" content="Hartsoe & Bolter">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #111118;
+            --bg-tertiary: #1a1a24;
+            --bg-card: #14141e;
+            --text-primary: #e8e6e1;
+            --text-secondary: #9d9a93;
+            --text-dim: #5a5852;
+            --accent-gold: #c9a84c;
+            --accent-gold-dim: #8a7235;
+            --accent-blue: #4a7fb5;
+            --accent-purple: #7b5ea7;
+            --accent-rose: #b5566a;
+            --accent-teal: #4a9b8e;
+            --accent-green: #6b9e5e;
+            --border-subtle: rgba(201, 168, 76, 0.12);
+            --border-hover: rgba(201, 168, 76, 0.3);
+            --glow-gold: rgba(201, 168, 76, 0.06);
+            --font-serif: 'EB Garamond', Georgia, serif;
+            --font-sans: 'Inter', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-serif);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* ── GRAIN OVERLAY ── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* ── HERO ── */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: 4rem 2rem;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(ellipse, var(--glow-gold) 0%, transparent 70%);
+            pointer-events: none;
+            animation: breathe 8s ease-in-out infinite;
+        }
+
+        @keyframes breathe {
+            0%, 100% { opacity: 0.4; transform: translateX(-50%) scale(1); }
+            50% { opacity: 1; transform: translateX(-50%) scale(1.15); }
+        }
+
+        .hero-badge {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            border: 1px solid var(--border-subtle);
+            padding: 0.4rem 1.2rem;
+            border-radius: 2px;
+            margin-bottom: 2.5rem;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: clamp(2.8rem, 6vw, 5.5rem);
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            text-align: center;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        .hero h1 .highlight {
+            color: var(--accent-gold);
+            font-style: italic;
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-serif);
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            font-weight: 400;
+            font-style: italic;
+            color: var(--text-secondary);
+            text-align: center;
+            max-width: 600px;
+            margin-bottom: 3rem;
+            animation: fadeIn 1.6s ease-out;
+        }
+
+        .hero-epigraph {
+            font-family: var(--font-serif);
+            font-size: 1.05rem;
+            font-style: italic;
+            color: var(--text-dim);
+            text-align: center;
+            max-width: 480px;
+            line-height: 1.8;
+            border-left: 2px solid var(--accent-gold-dim);
+            padding-left: 1.5rem;
+            margin-bottom: 3.5rem;
+            animation: fadeIn 2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ── STATS BAR ── */
+        .stats-bar {
+            display: flex;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 3rem;
+            animation: fadeIn 2.2s ease-out;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: var(--font-mono);
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: var(--accent-gold);
+            display: block;
+        }
+
+        .stat-label {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+        }
+
+        /* ── CTA BUTTONS ── */
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            animation: fadeIn 2.5s ease-out;
+        }
+
+        .cta {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            font-weight: 500;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 0.85rem 2rem;
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            background: var(--bg-card);
+            transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, var(--glow-gold), transparent);
+            opacity: 0;
+            transition: opacity 0.35s;
+        }
+
+        .cta:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(201, 168, 76, 0.1);
+        }
+
+        .cta:hover::before { opacity: 1; }
+
+        .cta-primary {
+            background: linear-gradient(135deg, var(--accent-gold-dim), var(--accent-gold));
+            color: var(--bg-primary);
+            border-color: var(--accent-gold);
+        }
+
+        .cta-primary:hover {
+            color: var(--bg-primary);
+            box-shadow: 0 8px 32px rgba(201, 168, 76, 0.25);
+        }
+
+        /* ── SCROLL INDICATOR ── */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            animation: fadeIn 3s ease-out;
+        }
+
+        .scroll-indicator span {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+        }
+
+        .scroll-line {
+            width: 1px;
+            height: 40px;
+            background: linear-gradient(to bottom, var(--accent-gold-dim), transparent);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        /* ── SECTION LAYOUT ── */
+        section {
+            padding: 6rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            margin-bottom: 3rem;
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-gold-dim);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title {
+            font-family: var(--font-serif);
+            font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .section-desc {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            line-height: 1.8;
+        }
+
+        /* ── DIVIDER ── */
+        .divider {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--border-subtle), transparent);
+        }
+
+        /* ── THESIS BLOCK ── */
+        .thesis-block {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            padding: 3rem;
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .thesis-block::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--accent-gold), var(--accent-gold-dim), transparent);
+        }
+
+        .thesis-block p {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            margin-bottom: 1rem;
+        }
+
+        .thesis-block p:last-child { margin-bottom: 0; }
+
+        .thesis-block strong {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        /* ── GALAXIES GRID ── */
+        .galaxies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .galaxy-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .galaxy-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--card-accent, var(--accent-gold));
+            opacity: 0.6;
+            transition: opacity 0.35s;
+        }
+
+        .galaxy-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .galaxy-card:hover::after { opacity: 1; }
+
+        .galaxy-card h3 {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .galaxy-tension {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--card-accent, var(--accent-gold));
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .galaxy-card p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .galaxy-card.ekphrasis { --card-accent: var(--accent-gold); }
+        .galaxy-card.thick { --card-accent: var(--accent-teal); }
+        .galaxy-card.generative { --card-accent: var(--accent-purple); }
+        .galaxy-card.intermedial { --card-accent: var(--accent-blue); }
+
+        /* ── WORLDS LIST ── */
+        .worlds-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
+        }
+
+        .world-item {
+            background: var(--bg-secondary);
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: baseline;
+            gap: 1rem;
+            transition: background 0.25s;
+        }
+
+        .world-item:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .world-id {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--accent-gold-dim);
+            white-space: nowrap;
+            min-width: 2em;
+        }
+
+        .world-name {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .world-desc {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            margin-left: auto;
+            text-align: right;
+            font-style: italic;
+        }
+
+        /* ── BRIDGES / ROSETTA ── */
+        .bridges-list {
+            columns: 2;
+            column-gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .bridge-item {
+            break-inside: avoid;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 0.95rem;
+        }
+
+        .bridge-arrow {
+            color: var(--accent-gold);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+
+        .bridge-left {
+            color: var(--text-primary);
+        }
+
+        .bridge-right {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* ── SYNTHESES LIST ── */
+        .syntheses-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .synthesis-item {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 2rem;
+            padding: 1.25rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+            align-items: baseline;
+            transition: all 0.25s;
+        }
+
+        .synthesis-item:hover {
+            padding-left: 0.5rem;
+        }
+
+        .synthesis-title {
+            font-weight: 500;
+            font-size: 1.05rem;
+        }
+
+        .synthesis-desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* ── SPECIES TABLE ── */
+        .species-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: var(--font-sans);
+            font-size: 0.85rem;
+        }
+
+        .species-table th {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .species-table td {
+            padding: 0.65rem 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+            color: var(--text-secondary);
+        }
+
+        .species-table tr:hover td {
+            color: var(--text-primary);
+            background: rgba(201, 168, 76, 0.02);
+        }
+
+        .species-table .species-name {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--accent-gold-dim);
+        }
+
+        .species-table .species-count {
+            font-family: var(--font-mono);
+            color: var(--text-dim);
+            text-align: right;
+        }
+
+        /* ── TOOLS SECTION ── */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tool-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2.5rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+
+        .tool-card:hover {
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+        }
+
+        .tool-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .tool-card h3 {
+            font-family: var(--font-serif);
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .tool-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .tool-tag {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-gold-dim);
+            margin-top: 1rem;
+            display: block;
+        }
+
+        /* ── EVIDENCE SECTION ── */
+        .evidence-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
+        }
+
+        .evidence-stat {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .evidence-stat .stat-number {
+            font-size: 2rem;
+        }
+
+        .evidence-stat .stat-label {
+            margin-top: 0.25rem;
+        }
+
+        /* ── FOOTER ── */
+        footer {
+            padding: 4rem 2rem;
+            text-align: center;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .footer-title {
+            font-family: var(--font-serif);
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-meta {
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            letter-spacing: 0.15em;
+            color: var(--text-dim);
+        }
+
+        .footer-meta a {
+            color: var(--accent-gold-dim);
+            text-decoration: none;
+        }
+
+        .footer-meta a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 768px) {
+            .bridges-list { columns: 1; }
+            .synthesis-item {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+            .world-desc { display: none; }
+            .stats-bar { gap: 1.5rem; }
+            section { padding: 4rem 1.5rem; }
+            .thesis-block { padding: 2rem; }
+        }
+
+        /* ── FADE-IN ON SCROLL ── */
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <header class="hero">
+        <div class="hero-badge">Hartsoe &amp; Bolter · 2026</div>
+
+        <h1>OPERATION<br><span class="highlight">DESCRIBE</span></h1>
+
+        <p class="hero-subtitle">
+            From Imagetext to Worldtext:<br>
+            Generative AI as Operative Ekphrasis
+        </p>
+
+        <blockquote class="hero-epigraph">
+            To describe was once to stand outside and look in.<br>
+            Now to describe is to generate,<br>
+            and to generate is to describe.
+        </blockquote>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-number">374</span>
+                <span class="stat-label">Pages</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">26</span>
+                <span class="stat-label">Species</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">708</span>
+                <span class="stat-label">Sources</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">12</span>
+                <span class="stat-label">Worlds</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">26</span>
+                <span class="stat-label">Bridges</span>
+            </div>
+        </div>
+
+        <div class="cta-group">
+            <a href="worldtext-reader.html" class="cta cta-primary" id="cta-reader">Enter the Reader</a>
+            <a href="double-bar.html" class="cta" id="cta-visualization">Open Visualization</a>
+            <a href="worldtext/README.md" class="cta" id="cta-readme">Read the README</a>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ THESIS ═══════════════════ -->
+    <section id="thesis">
+        <div class="section-header reveal">
+            <div class="section-label">§ Central Claim</div>
+            <h2 class="section-title">The Ancient Operation, Restored</h2>
+        </div>
+
+        <div class="thesis-block reveal">
+            <p><strong>Operative ekphrasis is not an invention. It is a recovery.</strong> The ancient definition of ekphrasis was already operative—words produced visual experience, not just described pre-existing images. The 1955 Spitzer narrowing concealed this by redefining ekphrasis as "verbal representation of visual representation." Generative AI restores the ancient operation computationally: text becomes image, not as metaphor but as executable instruction.</p>
+            <p><strong>The imagetext has arrived.</strong> But its arrival reveals the new paragone: intent vs. distribution. The prompter's creative will against the training data's statistical gravity. Remove the human from the loop and you get twelve lighthouses—the platform mean at rest. Restore the human and you get the carrot uprising.</p>
+            <p><strong>The worldtext is what operative ekphrasis becomes when it stops generating images and starts compiling worlds.</strong> Homer already knew. The Shield of Achilles was always a worldtext. We just didn't have the substrate to run it.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ FOUR GALAXIES ═══════════════════ -->
+    <section id="galaxies">
+        <div class="section-header reveal">
+            <div class="section-label">§ Cosmological Structure</div>
+            <h2 class="section-title">Four Galaxies</h2>
+            <p class="section-desc">The cosmos is organized at six scales: galaxies → systems → worlds → objects. Four gravitational centers anchor the entire knowledge structure.</p>
+        </div>
+
+        <div class="galaxies-grid reveal">
+            <div class="galaxy-card ekphrasis">
+                <h3>Ekphrastic Worlds</h3>
+                <span class="galaxy-tension">Word vs. Image — Paragone</span>
+                <p>Classical Ekphrasis, Shield of Achilles, Operative Ekphrasis. The 2,500-year war between language and vision—and its computational resolution.</p>
+            </div>
+            <div class="galaxy-card thick">
+                <h3>Thick Description Worlds</h3>
+                <span class="galaxy-tension">Surface vs. Depth — Density</span>
+                <p>Thick Description, Embodied Description. Geertz's dense semiotic worldmaking as the secret architecture of expert prompting.</p>
+            </div>
+            <div class="galaxy-card generative">
+                <h3>Generative AI Worlds</h3>
+                <span class="galaxy-tension">Description vs. Generation — Collapse</span>
+                <p>Latent Space, Prompt Craft, World Models. Where the distinction between describing and producing collapses into a single act.</p>
+            </div>
+            <div class="galaxy-card intermedial">
+                <h3>Intermedial Worlds</h3>
+                <span class="galaxy-tension">Medium vs. Medium — Translation</span>
+                <p>Intermediality, Digital Poetics, Oral-Formulaic Generation. The border-zone between sign systems where Homer meets GPT.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ 12 WORLDS ═══════════════════ -->
+    <section id="worlds">
+        <div class="section-header reveal">
+            <div class="section-label">§ Navigable Environments</div>
+            <h2 class="section-title">The 12 Worlds</h2>
+        </div>
+
+        <div class="worlds-grid reveal">
+            <div class="world-item">
+                <span class="world-id">01</span>
+                <span class="world-name">Classical Ekphrasis</span>
+                <span class="world-desc">Homer to Ashbery</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">02</span>
+                <span class="world-name">Operative Ekphrasis</span>
+                <span class="world-desc">Describing = Generating</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">03</span>
+                <span class="world-name">Thick Description</span>
+                <span class="world-desc">Geertz's semiotic density</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">04</span>
+                <span class="world-name">Prompt Craft</span>
+                <span class="world-desc">Practice, not engineering</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">05</span>
+                <span class="world-name">Latent Space</span>
+                <span class="world-desc">Vector navigation</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">06</span>
+                <span class="world-name">Intermediality</span>
+                <span class="world-desc">Between sign systems</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">07</span>
+                <span class="world-name">Shield of Achilles</span>
+                <span class="world-desc">The ur-worldtext</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">08</span>
+                <span class="world-name">World Models</span>
+                <span class="world-desc">Neural environments</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">09</span>
+                <span class="world-name">Digital Poetics</span>
+                <span class="world-desc">Screen-based ekphrasis</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">10</span>
+                <span class="world-name">Academic Ekphrasis</span>
+                <span class="world-desc">The scholarly apparatus</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">11</span>
+                <span class="world-name">Embodied Description</span>
+                <span class="world-desc">Body as third term</span>
+            </div>
+            <div class="world-item">
+                <span class="world-id">12</span>
+                <span class="world-name">Oral-Formulaic Generation</span>
+                <span class="world-desc">Homer ≈ GPT</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ ROSETTA STONE ═══════════════════ -->
+    <section id="bridges">
+        <div class="section-header reveal">
+            <div class="section-label">§ The Rosetta Stone</div>
+            <h2 class="section-title">26 Structural Bridges</h2>
+            <p class="section-desc">Not metaphors—structural identities. The same architecture described at different scales across 2,500 years.</p>
+        </div>
+
+        <div class="bridges-list reveal">
+            <div class="bridge-item">
+                <span class="bridge-left">Enargeia</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Prompt quality</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Pictorial third</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Prompt-output gap</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Misrepresentation</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Hallucination</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Phantasia</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Latent space</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Euphantasiōtos</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Prompt engineer</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Progymnasmata</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Prompt pedagogy</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Paragone</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">AI alignment</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Film ekphrasis</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Video generation</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Unknowing</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Diffusion noise</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Distant writing</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Digital ekphrasis</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Co-prompting</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Ekphrastic performance</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Assemblage</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Training data curation</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Synesthesia</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Multimodal embedding</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Text as control</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Cybernetic governor</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Enargeia</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Sensory prediction</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Ellestrom's modalities</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">AI processing stack</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Context window</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">Thick description</span>
+            </div>
+            <div class="bridge-item">
+                <span class="bridge-left">Kiki / Bouba</span>
+                <span class="bridge-arrow">↔</span>
+                <span class="bridge-right">CLIP embedding geometry</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ SYNTHESES ═══════════════════ -->
+    <section id="syntheses">
+        <div class="section-header reveal">
+            <div class="section-label">§ Original Arguments</div>
+            <h2 class="section-title">The Major Syntheses</h2>
+            <p class="section-desc">Where the cosmos does its original intellectual work—drawing connections across papers that have never cited each other.</p>
+        </div>
+
+        <div class="syntheses-list reveal">
+            <div class="synthesis-item">
+                <span class="synthesis-title">The Rosetta Stone</span>
+                <span class="synthesis-desc">26 structural homologies between ekphrasis theory and AI research</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Kiki or Bouba</span>
+                <span class="synthesis-desc">Ekphrasis and AI both exploit cross-modal perceptual leakage</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Imagetext to Worldtext</span>
+                <span class="synthesis-desc">Full grounding of the Hartsoe &amp; Bolter paper through the cosmos</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Description Has Always Been Inference</span>
+                <span class="synthesis-desc">The historical thesis: 2,500 years of one operation</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">The Thick Prompt</span>
+                <span class="synthesis-desc">Geertz's six layers mapped onto expert prompt architecture</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Grandmother Cells &amp; Enargeia</span>
+                <span class="synthesis-desc">CLIP's grandmother neurons = ancient enargeia</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Four Strata</span>
+                <span class="synthesis-desc">Vivification → protection → defamiliarization → dissolution</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Punishment of Marsyas</span>
+                <span class="synthesis-desc">Goehr's myth as the five-epoch history of ekphrastic function</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Thick Description of Diffusion</span>
+                <span class="synthesis-desc">Geertzian reading of a single Stable Diffusion inference pass</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">The Cohen Case</span>
+                <span class="synthesis-desc">Sheep indemnification as structural proof of thick prompting</span>
+            </div>
+            <div class="synthesis-item">
+                <span class="synthesis-title">Politics of the Threshold</span>
+                <span class="synthesis-desc">Gender, postcolonial critique, and structural silences</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ EVIDENCE ═══════════════════ -->
+    <section id="evidence">
+        <div class="section-header reveal">
+            <div class="section-label">§ Evidence Stratum</div>
+            <h2 class="section-title">The Archive</h2>
+        </div>
+
+        <div class="evidence-stats reveal">
+            <div class="evidence-stat">
+                <span class="stat-number">708</span>
+                <span class="stat-label">Total entries (1903–2026)</span>
+            </div>
+            <div class="evidence-stat">
+                <span class="stat-number">232</span>
+                <span class="stat-label">Attributed sources</span>
+            </div>
+            <div class="evidence-stat">
+                <span class="stat-number">178</span>
+                <span class="stat-label">Source summaries</span>
+            </div>
+            <div class="evidence-stat">
+                <span class="stat-number">44</span>
+                <span class="stat-label">Full-text extractions</span>
+            </div>
+        </div>
+
+        <p class="section-desc reveal" style="color: var(--text-dim); font-size: 0.9rem;">
+            Spanning: classical rhetoric &amp; ekphrasis studies · Geertz &amp; interpretive anthropology · diffusion models &amp; text-to-image generation · prompt engineering · world models · intermediality &amp; media theory · digital humanities &amp; electronic literature
+        </p>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ SPECIES TABLE ═══════════════════ -->
+    <section id="species">
+        <div class="section-header reveal">
+            <div class="section-label">§ Taxonomy</div>
+            <h2 class="section-title">26 Species</h2>
+            <p class="section-desc">Every page in the cosmos belongs to one species. Together they form a living knowledge organism, not a filing cabinet.</p>
+        </div>
+
+        <table class="species-table reveal">
+            <thead>
+                <tr>
+                    <th>Species</th>
+                    <th>Count</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td class="species-name">sources</td><td class="species-count">178</td><td>Summarized academic sources (graded A–D)</td></tr>
+                <tr><td class="species-name">syntheses</td><td class="species-count">19</td><td>Original arguments across the corpus</td></tr>
+                <tr><td class="species-name">worlds</td><td class="species-count">12</td><td>Major intellectual environments</td></tr>
+                <tr><td class="species-name">entities</td><td class="species-count">22</td><td>Scholars, theorists, thinkers</td></tr>
+                <tr><td class="species-name">concepts</td><td class="species-count">14</td><td>Core theoretical objects</td></tr>
+                <tr><td class="species-name">bridges</td><td class="species-count">10</td><td>Structural homologies (Rosetta Stone)</td></tr>
+                <tr><td class="species-name">distinctions</td><td class="species-count">14</td><td>Binary oppositions</td></tr>
+                <tr><td class="species-name">conflicts</td><td class="species-count">8</td><td>Recurring tension grammars</td></tr>
+                <tr><td class="species-name">thresholds</td><td class="species-count">8</td><td>Crossing points between states</td></tr>
+                <tr><td class="species-name">questions</td><td class="species-count">14</td><td>Open frontier questions</td></tr>
+                <tr><td class="species-name">places</td><td class="species-count">14</td><td>Specific sites within worlds</td></tr>
+                <tr><td class="species-name">taxonomies</td><td class="species-count">11</td><td>World-type classification pages</td></tr>
+                <tr><td class="species-name">rituals</td><td class="species-count">9</td><td>Recurring structured practices</td></tr>
+                <tr><td class="species-name">atmospheres</td><td class="species-count">6</td><td>Affective qualities of worlds</td></tr>
+                <tr><td class="species-name">epochs</td><td class="species-count">5</td><td>Historical periods</td></tr>
+                <tr><td class="species-name">fragments</td><td class="species-count">5</td><td>Anchoring quotations</td></tr>
+                <tr><td class="species-name">galaxies</td><td class="species-count">4</td><td>Gravitational centers</td></tr>
+                <tr><td class="species-name">systems</td><td class="species-count">6</td><td>Mid-scale orbital structures</td></tr>
+                <tr><td class="species-name">constellations</td><td class="species-count">3</td><td>Recurring cross-system patterns</td></tr>
+                <tr><td class="species-name">memories</td><td class="species-count">3</td><td>Residual traces</td></tr>
+                <tr><td class="species-name">scenes</td><td class="species-count">3</td><td>Grounding moments</td></tr>
+                <tr><td class="species-name">infrastructures</td><td class="species-count">3</td><td>Background technical structures</td></tr>
+                <tr><td class="species-name">flows</td><td class="species-count">2</td><td>Dynamic processes and loops</td></tr>
+                <tr><td class="species-name">regions</td><td class="species-count">2</td><td>Sub-world spatial zones</td></tr>
+                <tr><td class="species-name">governance</td><td class="species-count">1</td><td>Rules and gatekeeping</td></tr>
+                <tr><td class="species-name">cosmology</td><td class="species-count">1</td><td>The universe statement</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══════════════════ TOOLS ═══════════════════ -->
+    <section id="tools">
+        <div class="section-header reveal">
+            <div class="section-label">§ Instruments</div>
+            <h2 class="section-title">Enter the Cosmos</h2>
+        </div>
+
+        <div class="tools-grid reveal">
+            <a href="worldtext-reader.html" class="tool-card" id="tool-reader">
+                <span class="tool-icon">📖</span>
+                <h3>WorldText Reader</h3>
+                <p>Clean, hyperlinked interface for navigating all 374 pages. Species-colored sidebar, wiki-link navigation, reading history and breadcrumb trails.</p>
+                <span class="tool-tag">Navigation · Reading · Search</span>
+            </a>
+            <a href="double-bar.html" class="tool-card" id="tool-doublebar">
+                <span class="tool-icon">◎</span>
+                <h3>Double-Bar Visualization</h3>
+                <p>Full cosmological Voronoi map with sediment strata. 1,000+ nodes rendered as a navigable spatial topology of the entire knowledge structure.</p>
+                <span class="tool-tag">Voronoi · Topology · 1000+ Nodes</span>
+            </a>
+            <a href="worldtext/atlas.md" class="tool-card" id="tool-atlas">
+                <span class="tool-icon">🗺</span>
+                <h3>Atlas</h3>
+                <p>Every object at every scale, organized by species. The complete navigational surface of the cosmos in a single document.</p>
+                <span class="tool-tag">Index · Navigation · All Scales</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer>
+        <p class="footer-title">OPERATION DESCRIBE</p>
+        <p class="footer-meta">
+            Cosmos compiled 2026 · 374 pages · 26 species · 708 sources<br>
+            <a href="COSMIC_LAW.md">COSMIC_LAW</a> · <a href="worldtext/chronicle.md">Chronicle</a> · <a href="https://github.com/hartswf0/operation-describe">GitHub</a>
+        </p>
+    </footer>
+
+    <!-- ═══════════════════ SCROLL REVEAL ═══════════════════ -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Smooth counter animation for stats
+        document.querySelectorAll('.stat-number').forEach(el => {
+            const target = parseInt(el.textContent);
+            if (isNaN(target)) return;
+            el.textContent = '0';
+
+            const statObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        let current = 0;
+                        const increment = Math.ceil(target / 40);
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= target) {
+                                el.textContent = target.toLocaleString();
+                                clearInterval(timer);
+                            } else {
+                                el.textContent = current.toLocaleString();
+                            }
+                        }, 30);
+                        statObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            statObserver.observe(el);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,874 @@
+# Ekphrasis and Digital Media
+# Source: Jansson - 2018 - Ekphrasis and Digital Media.pdf
+# BibTeX key: jansson_ekphrasis_2018
+# Zotero dir: 3111
+# Extracted chars: 54722
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Ekphrasis and Digital Media
+Mats Jansson
+University of Gothenburg
+Abstract
+Digital technologies entail new possibilities and challenges for the production
+and reception of ekphrasis. The ekphrastic poet is given the opportunity not only to
+write a poem “describing” a work of art, but to create a multimedial artwork involving
+several senses. In consequence, the recipient is no longer simply reading an ekphrastic
+poem but engaged in an activity of reading, viewing, and listening, whereby ekphrasis
+becomes part of a multisensory “event.” Digital “remediation” has given the ekphrastic
+writer a new creative freedom to work with the visual arts. In particular, software
+techniques have allowed the ekphrastic writer/artist to experiment with the kinetics
+of text and image, thus developing new ways to problematize and overcome the old
+dichotomy of stasis and movement within the arts. This article focuses on three
+examples of computer-mediated ekphrasis that make use of the digital possibilities in
+various degrees. The Swedish writer Lotta Lotass’s tetralogy Redwood (2008 – 9), Hemvist
+(2009, Abode), Kraftverk (2009 – 10), and Nya Dikter (2011, New Poems), published on the
+website Autor Eter, relies on ekphrasis as a mode of writing in relation to a vast number
+of remediated photographs in the form of picture postcards. Edward Falco’s Chemical
+Landscapes Digital Tales (2006), available on the homepage of the Electronic Literature
+Organization (ELO), is a suite of image-text combinations where photograms are the
+object of ekphrastic re-presentations. Accounts of the Glass Sky (2006) by M. D. Coverley
+(Marjorie Luesebrink), published in ELO’s first collection of electronic literature, is
+based on old black-and-white remediated photographs that are linked to ekphrastic
+poems. The article shows that ekphrasis in all of these cases becomes part of a multi-
+medial experience or aesthetic event that in various degrees relies on the active par-
+ticipation of the reader/viewer.
+Keywords
+intermediality, photography, remediation, multimodality, photogram
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324468
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+Ekphrasis in a broad sense is commonly understood as a literary re-creation
+of visual art, whereby the concept as such becomes “an umbrella term that
+subsumes various forms of rendering the visual object into words” (Yacobi
+1995: 599). In line with James Heffernan’s seminal definition (1993:3), Tamar
+Yacobi, Valerie Robillard (1998: 61), and others have noted that the one
+work’s representation of the world becomes the other’s re-presentation, “a
+mimesis in the second degree,” as Yacobi (1995: 600) puts it, but hardly an
+unproblematic one since it is fraught with semiotic, hermeneutical, and phe-
+nomenological issues: the transformation of one semiotic sign system through
+another; the literary interpretation of an historically situated sculptural/
+pictorial work of art and its present hermeneutic application; the liter-
+ary concretization of the sculptural/pictorial work of art as a possible aes-
+thetic object. Without downplaying these theoretical complexities (cf.
+Jansson 2016: 51–71), my aim is to examine some examples of ekphrasis
+that rely on digital technologies and are made available on the computer
+screen. These new technologies have indeed entailed new possibilities and
+brought about new consequences for the production and reception of
+ekphrasis. The ekphrastic poet is given the opportunity not only to write a
+poem “describing” a work of art, but to create a multimedial artwork involv-
+ing several senses. In consequence, the recipient is no longer simply reading
+an ekphrastic poem but engaged in reading, viewing, and listening, thus
+taking an active part in a multisensory event. Digital “remediation” has
+given the ekphrastic writer a new creative freedom to work with the visual
+arts. In particular, software techniques have allowed the ekphrastic writer/
+artist to experiment with the kinetics of text and image, thereby developing
+new ways to problematize and overcome the old dichotomy of stasis and
+movement within the arts. Indeed, as Johanna Hartmann (2015: 120) has
+noted, the digital age comprises new ontological and epistemological chal-
+lenges for ekphrasis.
+The last decades of the previous century were characterized by rapid
+change and development in the cultural sphere, in which communication
+technology had come to play a vital role. The personal computer and the
+Internet are by now established media channels to create and convey cultural
+products of an enormous variety. The computerization of the world we live in
+has brought about consequences for the production, distribution, and con-
+sumption of literature and has openedup opportunities for new aesthetics and
+for new forms of literary works. The so-called digital age has seen the emer-
+gence of various types of “electronic literature,” defined by N. Katherine
+Hayles (2008: 3) as literature “generally considered to exclude print literature
+that has been digitized” and “by contrast ‘digital born,’ a first-generation
+digital object created on a computer and (usually) meant to be read on a
+300
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+computer.” In her study of digital poetry, Maria Engberg (2007: 2) presents
+a definition in agreement with Hayles and reserves the term digital poetry for
+“a range of diverse poetic practices and types of poems . . . that share com-
+puter technology as a medium of composition and publication.”
+Jay David Bolter (1996: 265), who briefly discusses ekphrasis in the context
+of new electronic technologies of representation, sees the recent expansion of
+the multimedia field and the accompanying pictorial turn as “a denial of
+ekphrasis.” Since ekphrasis depends upon a written or spoken text, he claims
+that there is a tendency in popular prose and multimedia to strive for the
+natural sign “in the realm of the visual rather than through heightened verbal
+expression” (Bolter 1996: 265). Cecilia Lindhe´ (2013), on the other hand, has
+reinterpreted the traditional concept she calls “printed ekphrasis,” with its
+emphasis on the description of a visual artwork, to make ekphrasis workable
+in a new digital context. Consequently, she seeks a “digital ekphrasis” that
+focuses the process of visualization by adding “touch,” a digital ekphrasis
+characterized by bodily interaction that conveys “an aesthetic of tactility;
+digital ¼ finger” (Lindhe´ 2013: 3).
+On a general level, Bolter’s claim that the rapid growth of various multi-
+media expressions and the development of virtual reality tend to make
+ekphrasis in effect obsolete undoubtedly has some truth to it. Nevertheless,
+individual writers do take advantage of the new digital technologies in order
+to present intermedial and multimedial combinations in which ekphrasis
+proves to be a prominent mode of writing. On a purely practical level,
+Bolter’s definite “denial” of ekphrasis therefore needs to be moderated.
+However thought-provoking and stimulating Lindhe´’s reinterpretation of
+the concept, I maintain that the re-presentational qualities of verbal ekphra-
+sis are present in my digital examples, at least to a minimal degree. To some
+extent, I share Lindhe´’s well-founded interest in the user’s interactivity
+generated by the digital medium. Various degrees of interaction prove to
+be essential components in the following discussion, though in a different
+sense than Lindhe´’s “tactility.” I retain the notion of “verbal representation
+of visual representation” (Heffernan 1993: 3) and variations of it as a basic
+quality of ekphrasis, in order not to render the concept too broad and
+imprecise.
+Since the “pictorial turn” (Mitchell 1994) and with the growth of Internet,
+our postmodern culture thrives on images, which are more accessible and
+more easily distributed now than they have ever been. Before we move on to
+examine these new challenges and opportunities for the ekphrastic writer and
+the computer-based reader, I briefly refer to two websites exclusively aimed
+at promoting ekphrastic writing in a nonvirtual-reality context. In doing so,
+Jansson
+† Ekphrasis and Digital Media
+301
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+I aim to highlight digital media as important distribution channels that prove
+also to have a positive impact on the production of ekphrasis.
+The Light Ekphrastic is a quarterly online journal dedicated to the creation
+of new written and visual artworks created in collaboration between artists.
+For each issue writers and artists are paired, each creating a new poem, story,
+photograph, or painting inspired by work previously submitted by their part-
+ner artist. A similar principle operates in the website SPARK: Art from Writing:
+Writing from Art, which centers around ten-day project rounds, in which
+participants create new work using someone else’s art, writing, or music as
+inspiration. Each resulting work is then displayed online together with the
+piece that inspired it. Both of these websites contain a large number of
+ekphrases, verbal re-presentations of other artworks, which of course vary
+enormously in their degree of mimetic adherence to the artworks, but essen-
+tially not in kind. They are part of an interartistic dialogue whereby visual art
+objects and poems/stories appear simultaneously on the digital page, regard-
+less of which expression comes first in the creative process. The combinatory
+pairings of artist and poet in The Light Ekphrastic contain four contributions,
+two from the painter and two from the poet, each answering or responding to
+the other’s work, leaving us with verbal re-presentations as well as iconic/
+visual re-presentations of the objects in question. However, in these inter-
+medial combinations the digital medium is principally used to distribute and
+disseminate the work, whereas the actual creation of each individual work
+does not rely on computer-based technologies. Digital possibilities are real-
+ized only insofar as the user/reader/viewer is invited to click on the visual art
+object to access an enlarged version of it.
+My subsequent discussion focuses on three examples of digital born
+ekphrasis of a slightly different kind, making use of digital possibilities to
+various degrees. The Swedish writer Lotta Lotass’s tetralogy Redwood (2008–
+9), Hemvist (2009, Abode), Kraftverk (2009–10), and Nya Dikter (New Poems),
+published 2008–11 on the website Autor Eter, makes use of ekphrasis as a
+mode of writing in relation to a vast number of remediated photographs in
+the form of picture postcards. Edward Falco’s Chemical Landscapes Digital Tales
+(2006), available on the homepage of the Electronic Literature Organization
+(ELO), is a suite of image–text combinations in which photograms are the
+object of ekphrastic representations. Accounts of the Glass Sky (2006 [2002]) by
+M. D. Coverley (Marjorie Luesebrink), published in ELO’s first collection of
+electronic literature, is based on old black and white remediated photo-
+graphs that are linked to ekphrastic poems. As I show, ekphrasis in each
+case becomes part of a multimedial experience or aesthetic event that in
+various degrees relies on the active participation of the reader/viewer/
+listener.
+302
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+1. Lotta Lotass: Ekphrasis and the Remediated Picture Postcard
+My point of departure is the Swedish writer Lotta Lotass, prolific novelist and
+playwright, who mainly uses the printed book as a conventional medium, but
+is also a highly experimental writer taking advantage of a variety of media to
+compose and disseminate her work, such as the tetralogy published on the
+website Autor Eter. A short characterization of the work as a whole is a
+necessary starting point (cf. Jansson 2014: 223–25). I limit my comments to
+the first three parts that form a thematic unity and in various ways explore
+cultural-historical and visual expressions of modernity and modernization
+through the late nineteenth and early-to-middle twentieth centuries.
+Redwood consists of seventy photographs—picture postcards—of lumber-
+jacks at work in North American redwood forests (see, e.g., figure 1) and
+fifty-four mostly short texts. In the majority of these juxtapositions of text and
+image the relationship is one-to-one, that is, one text related to one photo-
+graph. But in a few cases we are dealing with several photographs displaying
+identical visual motifs that are linked to one and the same text, that is, many-
+to-one, following Yacobi’s schematization of ekphrastic relationships (1995:
+Figure 1
+Text on the back of the card: “Giant Fir, Washington. Made in Germany.
+Sprouse & Son, Tacoma, Wash., Importers and Publishers” (Lotass 2008 – 9: 27:76).
+Jansson
+† Ekphrasis and Digital Media
+303
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+602). The texts included in Redwood are of radically different types and
+represent a number of different genres, fictional as well as nonfictional.
+Lotass not only mixes art forms and media but also includes a vast amount
+of genres and text types. Some of these are quotations, others are original
+with Lotass.
+Hemvist comprises forty-six texts and fragments of texts, which correspond
+to one hundred and three picture postcards in color of the exteriors of mental
+hospitals in the United States. The exact dates when the photographs were
+taken are not indicated except in a few instances, but in the tetralogy as a
+whole we are probably dealing with a period from the end of the nineteenth
+to the middle of the twentieth century. As in Redwood, the texts included are of
+various kinds and formats. The longest text fills six pages in printed form, the
+shortest only two lines.
+Finally, Kraftverk is made up of sixty-two texts connected to sixty-four pho-
+tographic postcards in color of the interiors of Swedish and US power plants.
+This part of the tetralogy is somewhat differently organized. In Kraftverk all
+digital pages have short and identically formatted ekphrases in the upper left
+corner. Many of these ekphrases are supplemented by factual comments
+taken from scientific literature and placed below the pictures. The comments
+usually relate to the pictures by focusing on relevant technological and his-
+torical perspectives. On a few occasions, Lotass has omitted factual material
+and chosen rather to quote thematically relevant poetry and prose from other
+Swedish authors.
+A conglomerate of original and appropriated texts and remediated photo-
+graphs are made to coexist in Lotass’s work. One striking feature is the
+relationship between texts and pictures. That texts and pictures are reproduced
+side by side on the same digital page means that the reader, who is also a
+viewer, meets word and image at the same time. The different sign systems
+coexist but are also visually and graphically separated from each other and
+therefore also appear as independent medial expressions. At the same time,
+however, the fact that text and picture appear simultaneously, though they
+are separated spatially, means that they jointly form a meaningful whole.
+Nevertheless, the remediated photographs and Lotass’s texts are obviously
+neither created nor produced simultaneously.
+We could therefore make a distinction between reception and production, and
+between the morphology and syntax of word-and-image relations, according
+to a modified application of A. Kibe´di Varga’s basic taxonomy (1989: 33–
+35). Varga postulates, with respect to object level relations, that word and
+image can appear either simultaneously or consecutively. In the first case, the
+beholder meets words and images at the same time and cannot perceive them
+separately (as in emblems or comics). In other cases, the artist produces an
+304
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+ekphrasis inspired by a scene from a preexisting image or from some preex-
+isting text, such as the Bible or Homer’s epics. This means that the beholder
+sees a picture and the reader reads a poem without necessarily having access
+to the source of reference. Simultaneous appearance does not in itself, how-
+ever, imply that the words and images in emblems, for example, have been
+created simultaneously. In terms of production, image and text always
+appear consecutively if they originate from different artists, but from the
+point of view of reception, there is according to Varga a great difference
+between cultural products that offer words and images at the same time and
+those that belong to one domain only, although they owe their existence to a
+cultural product previously made in another domain.
+With respect to Lotass’s work, we have to conclude that word and image do
+not appear either simultaneously or consecutively, but simultaneously and con-
+secutively. It is not a question of either/or. From this it also follows that in
+those instances in which the relationship between text and photograph is
+ekphrastic, the image is present on two different ontological levels at the same
+time: as verbal ekphrastic re-presentation and as digitally remediated iconic/
+indexical sign.
+This is also a circumstance that Yacobi has recently noted in her discus-
+sion of ekphrasis in the museum book of poetry (2013: 14), in which we in
+principle encounter a similar word–image configuration, adding digiti-
+zation as a further complicating factor. Following Yacobi’s line of thought,
+I would like to point out one of the effects of this particular intermedial
+combination since it is relevant to Lotass’s work. Yacobi (ibid.: 3) reasons
+that the simultaneous availability of the image facilitates communication
+with the reader, who without difficulty can locate, read, and interpret the
+visual object together with the accompanying poem. As a consequence,
+the presence of the image significantly increases the possibilities of word
+and image relationships available to the poet: “No longer constrained to
+specify and integrate any details of the artwork—they’re all there, in the
+visual component—the poet can turn the image into ‘a point of departure’”
+(ibid.: 17). The poem is free to go its own way and can take any direction it
+pleases, such as fantasy, anachronistic narrative, or ideological subversive-
+ness. Yacobi suggests that the relationship to the accompanying artwork/
+image/photograph changes accordingly. This is what happens in Lotass’s
+Hemvist (Abode) in which she undermines the ideological context of the asy-
+lum photographs. Often she takes the iconic element, the asylum building,
+as a starting point, then deviates from it by giving voice to those unseen and
+confined behind the asylum walls, as in the last image–text configuration
+(figure 2) where we hear the patients speaking their pain and suffering in
+Jansson
+† Ekphrasis and Digital Media
+305
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+a passage declaring: “You will know us from our voices. / The lonely and
+broken” (my translation).1
+Since Lotass’s work incorporates and activates various media, let me add a
+few remarks regarding digital publication, inspired by Lars Ellestro¨m’s model
+for understanding intermedial relations (2010: 11–48). The computer I use in
+order to gain access to Lotass’s work is a technical medium, a physical object
+with a capacity to mediate or display other forms of basic media, such as still
+pictures (e.g., picture postcards), or visual texts (e.g., printed poetry). Fur-
+thermore, the computer in principle offers the reader an opportunity to
+interact in more or less sophisticated ways with the material interface. In
+Lotass’s work this possibility is available throughout in that the reader can
+click on every picture to access an enlarged version of it. The effect of this
+interaction of course is meaningful, since the syntactical relation between
+word and picture on the page is broken, and for a moment the picture alone
+occupies the center of the viewer’s attention. It is no longer an iconic element
+juxtaposed to the words.
+In Hemvist Lotass furthermore uses these digital possibilities of the medium
+to give the reader access to links to external materials—both texts and still
+pictures—that contextualize her own page. In Kraftverk, moving pictures in
+Figure 2
+Text on the back of the card: “Danvers, Mass. Mass Hospital for Insane. The
+Hugh C. Leighton Co. Manufacturers, Portland, Me., U.S.A. 25572 Printed in Germany”
+(Lotass 2009: 72:131).
+1. “Pa˚ va˚ra ro¨ster skall ni ka¨nna oss. / De ensamma och brustna.”
+306
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+the form of film are mediated digitally and can be activated as background
+material via external linkage. On one occasion, Lotass in Kraftverk offers
+the possibility of activating yet another medium, namely music, so that this
+page is given an audiovisual character that turns the user into a reader/
+viewer/listener.
+Since a large part of the incorporated material consists of photographs
+made available on the computer, one medium being represented in another,
+J. David Bolter and Richard A. Grusin’s (1999) clarification of “remedia-
+tion,” identified as a defining characteristic of the new digital media, becomes
+relevant. At one extreme, “an older medium is highlighted and represented
+in digital form without any apparent irony and critique,” which would be
+the case for picture galleries containing, for example, digitized photographs
+(Bolter and Grusin 1999: 45). Lotass’s suite of photographs falls into this
+category. Here the electronic medium is not placed in opposition to pho-
+tography, or printing for that matter; “instead, the computer is offered as a
+new means of gaining access to these older materials, as if the content of the
+older media could simply be poured into the new one,” whereby the elec-
+tronic version pretends to be “transparent” (ibid.: 45). However, even if the
+digital medium strives to erase itself, the computer cannot avoid making its
+presence felt. In Lotass’s case, this is apparent since the viewer is encouraged
+to click on the photograph to access an enlarged version of it or to retrieve
+further relevant material via an external link.
+To conclude, there is a certain amount of modest digital interaction in
+Lotass’s work, but we are not dealing with an electronic hypertext. The inter-
+action does not offer a choice between different paths through a work with
+several text nodes that present different stories. The radical nature of Lotass’s
+work is not so much characterized by sophisticated possibilities of digital
+interaction, but rather by its intermedial mixture of genres, text types, and
+pictures. In this instance ekphrasis turns out to be a dominant mode of writ-
+ing, a guiding principle, which binds this vast and diverse material together.
+From here, we need to move on and ask questions about the specific
+photographic conditions for this type of transformation in Lotass’s tetralogy.
+The photographs are remediated real photo postcards. As cultural products,
+the photo postcards included in Redwood were originally part of a large socio-
+economic transformation, when the United States shifted from a rural and
+small-town society to a consumer-driven and industrialized mass-society
+(Bogdan and Weseloh 2006: 25–29). Furthermore, all the included photo
+postcards in Lotass’s suite can in some basic sense be characterized as real-
+istic, that is as (seemingly) direct representations of reality. The intractable
+question of photographic realism or the essence of photography thereby
+becomes an issue.
+Jansson
+† Ekphrasis and Digital Media
+307
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+We could describe the images in question as documentary photographs,
+taken to capture certain working environments, public buildings, and indus-
+trial plants. There is hardly any artistic intention behind them, but these
+realistic and documentary photographs are inserted by Lotass in a context
+that gives them aesthetic value and makes them artistically meaningful. This
+is done to a large extent via the ekphrastic mode of writing.
+It would be a mistake to assert that the realistic appearance of the photo-
+graphs, their essential transparency, so to speak, automatically means that
+they signify in an unambiguous fashion (cf. Van Gelder and Westgeest 2011:
+14–40). Less than ever does “the mere ‘reproduction of reality’ say anything
+about that reality,” Walter Benjamin declared in 1931, quoting Bertolt
+Brecht on photography (2008: 293–94). A realistic and documentary photo-
+graph of an exterior of, for example, a mental hospital in Wisconsin in the
+early 1900s (figure 3) does not say anything about the tragic histories and
+personal destinies that have unfolded inside its walls. To emphasize this
+attitude, the picture is given a commentary. This is exactly what happens
+in Lotass’s ekphrases: they add meaning to the realistic photograph, as in
+Hemvist:
+Only walk along the straight, white bands of the paving stones. The flowers, the
+bushes, the trees stand where they are supposed to stand and do not ask. The grass
+is growing on the ground where it is planted to grow and is not obstinate, is not
+reluctant. And the water stays inside its planed, tiled edges and is not averse, does
+not dispute, does not offer resistance. Tread on the straight, white bands. Do not
+look out towards the thick forest. Do not look up on the light sky. The house
+commands, the house orders and governs and spreads symmetrically out towards
+its corners.2 (Lotass 2009: 2:4; my translation)
+When the photograph is combined with texts its various potential layers
+of meaning can be led in specific discursive directions (Van Gelder and
+Westgeest 2011: 165). Lotass’s ekphrasis offers a description of the iconic
+elements in the photograph; the asylum building and its immediate surround-
+ings. Concrete visual elements are denoted, and more importantly they
+are read into the connotative code of the photograph. They are inserted
+into an overall ethical and ideological discourse characterized by prohibition,
+restriction, subordination, obedience, and submission. The iconic elements
+are thereby qualified as parts of a power relation.
+2. “Endast ga˚ la¨ngs stenplattornas raka, vita band. Blomstren, buskarna, tra¨den sta˚r da¨r de skall
+sta˚ och fra˚gar inte. Gra¨set va¨xer o¨ver marken da¨r det a¨r satt att va¨xa och strider inte och a¨r inte
+genstra¨vigt, a¨r inte dorskt. Och vattnet ha˚ller sig innanfo¨r sina planade, kaklade kanter och
+tredskas inte, fejdar inte, spja¨rnar inte emot. Sa¨tta ner stegen pa˚ de raka, vita banden. Inte se ut
+mot den ta¨ta skogen. Inte se upp mot den ljusa himlen. Huset kommenderar, huset befaller och
+styr och viker sig symmetriskt ut mot sina kanter.”
+308
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+Thus the ekphrasis always adds a particular perspective and by doing so it
+also indirectly reveals the seemingly objective and realistic photograph as a
+particular perspective on reality. The belief in some essential realism inherent
+in photography is thereby effectively repudiated in Lotass’s work. According
+to John Tagg (1988: 3), the indexicality of photography, the casual link
+between the prephotographic referent and the sign, cannot guarantee any-
+thing in terms of meaning. The remediated paper-copy, originally the result
+of an optical and chemical process that organizes human experience and desire,
+can be made meaningful in a number of different ways. The ekphrastic mode
+of writing is one instance in which this negotiation is given concrete expression.
+2. Edward Falco: Photograms and Ekphrasis, Stasis and Movement
+The Internet and the computer offer other examples of how ekphrasis func-
+tions in the digital age. As noted, Lotass’s work is produced and disseminated
+by the digital medium but does not to any large extent explore the artistic and
+technical possibilities of the medium. Digital poetry proper, however, often
+uses graphic elements, colors, images, and movement, which separates it
+from printed poetry. Technically, these multimedial poems are made with
+commercial software applications, such as Flash in the case of Edward Falco’s
+Chemical Landscapes Digital Tales (2006) and M. D. Coverley’s Accounts of the Glass
+Sky (2006 [2002]). Flash permits a variety of visual and kinetic properties in
+which text, images, and sound are all handled as objects that can be orga-
+Figure 3
+Text on the back of the card: “Asylum, Richland Center, Wis. B1719B2
+Published by H. G. Zimmerman & Co. Chicago” (Lotass 2009: 2:4)
+Jansson
+† Ekphrasis and Digital Media
+309
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 12 ──
+nized on a two-dimensional plane (called a “scene”) with an added temporal
+dimension (a timeline with different “scenes”) and given different character-
+istics and behaviors. This application allows the creator to transform letters
+and set them in motion. Typography, color, size, and fonts can be changed in
+a number of ways. Text fragments can be cut, copied, and pasted into differ-
+ent arrangements. As Engberg (2007: 31) points out, collage techniques have
+probably never been easier to employ, a circumstance with direct relevance
+for contemporary creators of ekphrasis.
+In Falco’s case we are dealing with an electronic hypertext and ekphrastic
+poetry that is not only digitally distributed but also digitally created. As Hart-
+mann (2015: 123) has noted, Falco’s landscapes and tales constitute an intri-
+cate mixture of media. Falco’s suite is made up of eight different image–text
+pairs showing surfaces with poems on nonfigurative shapes of color, denser
+and darker at the bottom and lighter above, intended to give the impression
+of earth and sky. Since the visual mode is abstract, ekphrasis could here
+perhaps better be characterized as “verbalization” (Clu¨ver 1998: 44) than
+verbal mimetic re-presentation. As Falco (2006) explains, the abstract photo-
+graphic landscapes are photograms, the result of photosensitive paper being
+subjected to chemicals and light. According to the introductory text, the
+photograms were created by Mary Pinto and the design is by Will Stauffer-
+Norris, so Chemical Landscapes Digital Tales is a collaborative artwork, in which
+the computer as a technical medium and physical object is used to mediate
+text and images and, in the process, a new and complex multimedia product
+is created in which the reader/viewer is invited to take active part. Indeed,
+as Hayles (2008: 22) has pointed out, “[t]he multimodality of digital art
+works challenges writers, users, and critics to bring together diverse expertise
+and interpretive traditions so that the aesthetic strategies and possibilities of
+electronic literature may be fully understood.” A major characteristic of a
+computer-mediated text is, according to Hayles (ibid.: 164), its multimodal-
+ity, since text, images, and sound can all be represented as binary code, and
+the computer becomes the medium that contains all other media within itself.
+As the reader/viewer engages with Chemical Landscapes Digital Tales, it be-
+comes clear that some kind of participation is required to activate the work.
+If the user does not engage with the work, the title image will simply stay on
+the screen. When the reader clicks on the title page, the texts and landscapes
+gradually fade in and out, with the landscape emerging slightly before the text
+that is subsequently projected onto the landscape. The photogram then fades
+out, leaving the text for a second by itself in the viewer’s attention, but it in
+turn fades before the reader has had time to finish reading. The sequential
+ordering in the appearance of image and text should not be given any hier-
+archical significance. But the fact that the image appears first and the text is
+310
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 13 ──
+projected onto the image afterward may indicate that the symbolic signs of
+the text to some extent are about the image, rather than the other way around.
+Subsequently, the reader has the option to click again to finish reading or to
+move around randomly between the texts and pick up pieces of a story that
+could be put together in different ways with each new reading. Falco thus
+intentionally rejects the old Aristotelian logic of beginning, middle, and end
+for a hypertextual reading in which one enters and exits the fictional world
+anywhere, thus creating a new experience with each encounter.
+There is a basic ekphrastic relationship between poems and images in that
+the texts throughout describe the colors and shifting nuances of the accom-
+panying images. One of the texts, presented below, is projected onto a light
+blue background with touches of white short vertical lines and irregular
+rounded shapes with white edges. It is important to note that quoting the
+poem in its entirety and presenting it as printed text here, in a further form of
+re-remediation, makes it “static” since its digitized and kinetic qualities are
+eliminated:
+Rain.
+Looking down on mountains through rain, through a rain-spotted windshield.
+Driving somewhere on a high mountain road.
+Sky the thick blue storm.
+Storm, mountain, rain, driving, high mountain road.
+Clouds through a streaked windshield rain-spotted.
+Land undulating dreamlike through cloud rain storm-light.
+Driving somewhere on a high mountain road the place is gone the year the
+season but the high mountain road and the heavy rain through the windshield
+beating on the windshield the car gone the make of the car the year the reason
+for driving the drive where it began where it was going all that remains the storm
+the mountain the rain a high mountain road looking down on land undulating
+dreamlike on mountains obscured in the blue light of the storm in the storm light
+and you beside me beside me in the car driving nowhere going nowhere remain
+there a part of the clouds the land the storm a part of the drive storm mountain
+rain the blue sky, you a part I a part land through rain-spotted a part, a part of
+the sky steelblue stormlight drive. (Falco 2006)
+The text has a striking visual iconicity in itself, the upper part with shorter
+lines and wider spacing contrasts with the part below where the lines are
+longer and the spacing denser. This digital poem thus inscribes itself into a
+literary tradition of visual and typographical experimentation going back to
+Apollinaire’s calligrammes at the beginning of the twentieth century and con-
+tinued in the concrete poetry of the 1950s and 1960s. Indeed, Falco’s
+Jansson
+† Ekphrasis and Digital Media
+311
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 14 ──
+ekphrastic poems have a visual organization reminiscent of early pattern-
+poetry. The decisive difference between the printed experiments and the
+digital counterparts is of course the movement of the latter works.
+This organization of the graphic image also corresponds, according to
+Falco, to the notion of sky and earth represented in the photogram. The
+text as visual image could therefore be said to mime the composition of the
+photogram. With regard to contents the quoted poem refers to the charac-
+teristic blue color, the light touches of white strokes and the white formations
+on the photogram, giving the impression of a storm-ridden rainy sky with
+clouds. This is a textual denotation and interpretation of certain iconic ele-
+ments, the coloring and the shapes, on the remediated photogram. From
+here the text deviates from the image and adds meaning: vague memory
+fragments from a car journey high up in the mountains, two persons looking
+through the rainy windscreen on a stormy landscape. From the abstract
+image the text infers rudiments of a narrative plot with agents, a movement
+indicated by the couple’s “driving.” We are, indeed, encouraged to read a
+digital “tale.” Movement is also actualized on another level in the digital
+fading in and fading out of the poems and landscapes. In this instance the
+gradual fading of the text and image corresponds to the vague and fading
+memory of a car trip sometime in the past, most of which has vanished except
+for the memory of the rain and storm in the mountains. From the reader’s
+point of view, the visual fading and the fading memory verbalized in the text
+correspond. To counter this notion of “movement” one should add that
+“stillness” is also invoked in Falco’s digital tales, such as the one beginning:
+Placid. Idylic. Still.
+Peaceful. Piece. Please
+Place.
+An Idylic place still, a peaceful place.
+A piece of peace, an undulating expanse.
+Currents effuse effused vent outward upward easily flowing
+Colors deep streams of dense color pool swell rise flow
+Under idylic place still peaceful deep streams of dense color flow swell rise
+easily flowing deep streams of color effuse vent easily suffuse spread outward
+upward under sky blue horizon under the fading ridges the colors deepened and
+descend where dense descent darkening pressing down to depths out of which
+stream vent find faults and fissures swell easily upward outward streaming to an
+undulating expanse an idylic place a peaceful place still over dense depths,
+please, please. (Falco 2006)
+312
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 15 ──
+The serene stillness of the idyllic scene is invoked through an elliptic enu-
+meration of adjectives in the first line. As a whole, the text is structured by
+euphonic effects in which alliteration and assonance become a driving force
+binding the lines together. The green and blue lower half of the photogram,
+where the colors merge into each other, is distinctly separated from the
+whiteness of the upper half, giving a sensation of a sea in motion under an
+empty sky. The coloring and composition generate the ekphrastic interpre-
+tation of “undulating” movement of water, while the stillness in the first lines
+gradually gives way to movement that descends further into “depths,” cor-
+responding to the successively deepening green coloring of the lower half of
+the photogram.
+In Falco’s digitized project the old and obsolete dichotomy of stillness
+and movement within the arts is problematized in an interesting way. The
+sequential reading and decoding of the symbolic signs of the text that rest on a
+movement of the eyes from left to right, top to bottom, are countered by a
+movement whereby the text visually fades away. This has the effect of down-
+playing the orthodox way of consuming written texts, to the benefit of an
+interactive engagement with a multimedial artwork in which conventional
+ways ofapprehending,“reading” and “viewing,” “movement,” and “stillness,”
+are no longer relevant. To read a text in a digital environment requires a
+different physical engagement with the text and its medium, since a handling
+of software functions is added to reading. However, the technical interaction
+with the text does not mean that its contents and semantics should be for-
+gotten. The reader still has the opportunity to interpret the symbolic signs of
+the digital text in order to uncover its meaning, but to get at the meaning of
+these digital ekphrases the reader/viewer/user first has to physically interact
+with the work.
+3. M. D. Coverley: Ekphrasis and Multimodality
+M. D. Coverley’s Accounts of the Glass Sky (2006 [2002]) is a complex multi-
+modal mixture of text, image, and sound that thematizes disillusion and loss
+of the past. The blue sky, an iconic sign conventionally associated with long-
+ing and dreams, is here taken to represent boundaries and fears. Coverley
+(2006 [2002]) clarifies her intention to capture “the experience of fluid nego-
+tiation between a past that we think we know and a present/future we
+recognize only in the moment of transmutation.” In itself, the movement
+between text and image implies a sort of narrative in which the “story” is not
+fully rendered by either image, text, or sound alone but by the oscillations
+between them. In this multimodal storytelling, the ekphrastic feature proves
+to be an essential component.
+Jansson
+† Ekphrasis and Digital Media
+313
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 16 ──
+Accounts of the Glass Sky is composed of seven old black and white photo-
+graphs projected as windows onto the glass facade of a modern skyscraper.
+Through this visual superimposition, Coverley’s suite contrasts modernity
+and history, present and past, time and memory. Just as in Lotass’s tetralogy,
+old photographs are remediated via binary code on the computer screen.
+The difference is that Coverley takes this remediation one step further in a
+digital manipulation of the visual surface of the photographs.
+When the user/viewer moves the mouse cursor over one of the photo-
+graphs, a larger version of it appears. This means that the formerly passive
+spectator becomes an active user who can click and intervene. The user is
+consequently invited to interact through Flash application by clicking on
+the photograph to access parts of the story comprising Accounts of the Glass
+Sky. Doing so makes the stanzas of a short poem gradually appear, projected
+beside or onto the photograph; moreover, as in Falco’s work, almost before
+the reader has finished reading it the poem disappears and the photograph
+starts to change, wither, and disintegrate, rendering it indistinct and blurred,
+or completely covering it with other visual shapes. The photographs exist as
+digital files in binary code, which allows for this metamorphosis whereby the
+pixels, the smallest of picture elements, are warped and manipulated. What
+we have here is ekphrasis as an event that unfolds due to the interaction
+between the user/reader/viewer and the work in its material instantiation.
+Each of the seven multimedial combinations is furthermore accompanied
+by a different sound effect, thus adding yet another sensory experience. The
+user is thus called upon to engage equally in the activities of reading, watch-
+ing, and listening. This means that the user not only reads the poem or
+looks at the photograph, but experiences a multisensory event. Finally, a
+new text appears alongside the changed and changing photograph: a short
+poem of four to five lines in italics explicitly commenting on the glass sky
+theme of the suite in lines that resemble a poetic epilogue. Hence, what
+we encounter in Coverley’s Accounts of the Glass Sky are four different layers
+of representation and two combinatory pairs: poem–photograph/warped
+photograph–epilogue.
+The poems are throughout ekphrastic descriptions and interpretations
+of the visual motifs of the photographs. As in Lotass’s suite, the photographs
+are thus present on two different ontological levels at the same time: they are
+both digitally remediated and verbally re-presented. The photographs in-
+cluded in Coverley’s work are all black and white portraits of young children
+or middle-aged people, all full of life, vitality, hope, and expectations. One
+of the photographs captures a group of young children on a lawn, neatly
+dressed, lined up, and looking straight into the camera, some of them smil-
+ing, others with more serious faces. The accompanying poem reads:
+314
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 17 ──
+Report on the Sky, 1920:
+The sky was just there.
+No one worried about it. The children
+who were at this birthday party have
+lived their lives and are at rest, having never
+wondered when the sky would
+turn to glass.
+In 1920, in Hollywood, CA
+there was talk of pollution,
+but everyone said
+that it would go away.
+And it has. (Coverley 2006 [2002])
+The poem then disappears from the digital page, and the photograph is
+gradually transformed: it darkens, making the children into shadow-like
+figures merging with the background. The photograph is then compressed,
+vertically deforming the bodies of the children. Another photograph captures
+two children on a lawn in front of a low hedge, a girl dressed in a skirt and
+wearing her hair in plaits, and a boy in dungarees. They are standing straight
+and side-by-side, looking right at us. From this photographic starting point
+Coverley’s ekphrasis introduces a time line:
+Report on the Sky, 1949:
+Two children in the Valley on a windy
+day?
+Wesley will not die in a jungle war
+twenty years later.
+Nor will he marry Miss Pigtails.
+No, he will die in a hospital
+for the survivors. Situated, this place,
+in another Valley under startled blue.
+As late as 1990, wheeling around
+on his meds.
+Looking for his cell phone. (Coverley 2006 [2002])
+The short poetic epilogue, when it finally appears, declares: “but he had forgotten
+/ what it might mean / to walk downstairs / and across the / grass,” thus contrasting
+the young boy on the lawn with the old man and his withering memory.
+Through the movement on the digital page the photograph is gradually
+enlarged and the whiteness increases, which causes the figures of the children
+Jansson
+† Ekphrasis and Digital Media
+315
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 18 ──
+to fade out. Subsequently they almost completely disappear behind a bluish-
+black-grey pattern of colors covering their bodies.
+The multimodal combination of verbal ekphrastic re-presentationand dig-
+itally produced movement deals with time and pastness. Therefore, Accounts of
+the Glass Sky could be said to thematize the essence of photography, which lies
+in its unique ability to capture a moment of the past, to freeze time, as it were,
+and seemingly to suspend impermanence.
+However, as Susan Sontag claims, all photographs are also “memento mori,”
+since taking a photograph is to participate in another person’s “mortality,
+vulnerability, mutability” (1973: 15). By slicing out this moment and freez-
+ing it, a photograph testifies to “time’s restless melt.” Photographs state the
+innocence and vulnerability, Sontag continues, of lives heading toward their
+own destruction, and “this link between photography and death haunts all
+photographs of people” (ibid.: 70). Herein lies the paradox of the historical
+portrait that Barthes has formulated with striking clarity (1981: 96). It lets us
+observe “an anterior future of which death is the stake”: this will happen
+and it has happened. Coverley’s remediated old photographs of people
+convey something of this paradox, the notion of death in the past future—
+a paradox that is furthermore explicitly verbalized in the quoted ekphrases
+from Accounts of the Glass Sky.
+In the case of the intermedial and multimedial works here discussed, it
+is clear that they explore medial relations in a variety of ways to generate
+poetic meaning. Ekphrasis is an integrated part of multimedial experiences
+or events that require the active participation of the reader/viewer/listener
+to various degrees. Moreover, the digitally mediated ekphrases that coexist
+with their re-presented visual objects—digitally mediated photographs
+(Lotass, Coverley) and photograms (Falco)—allow the visual work to be pres-
+ent on two ontological levels simultaneously. However, in the case of Falco
+and Coverley, the coexistence is momentary since the digital technology
+produces a movement that dynamizes any static coexistence. By setting the
+images and ekphrastic texts in motion Falco and Coverley allude to the long-
+standing question of stillness and movement within the arts and problematize
+it in a new and productive way.
+Movement in the works of Falco and Coverley could in fact be discussed
+in four different senses (cf. Engberg 2007: 39): (1) the images and ekphrastic
+poems moving on the screen through the reader’s/viewer’s interaction with
+the work; (2) the physical movements of the user in clicking and passing the
+mouse cursor over the screen; (3) the reading of the ekphrastic poems, which
+relies on the movement of the eyes following the lines of the text; and finally
+(4) the movement on the narrative level indicated by the symbolic signs in
+Falco’s “tale.” Through the digital possibilities of software technique, the
+316
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 19 ──
+kinetics of text and images in digital ekphrasis become an integral part of a
+dynamic event and multimedial experience. The addition of sound in Cover-
+ley’s work goes further in involving the user in a truly multisensory event.
+Works Cited
+Barthes, Roland
+1981 Camera Lucida: Reflections on Photography, translated by Richard Howard (New York:
+Farrar, Straus and Giroux).
+Benjamin, Walter
+2008 “Little History of Photography.” In The Work of Art in the Age of Its Technological Repro-
+ducibility, and Other Writings on Media, edited by Michael W. Jennings, Brigid Doherty, and
+Thomas Y. Levin, 274 – 98 (Cambridge, MA: Harvard University Press).
+Bogdan, Robert, and Todd Weseloh
+2006 Real Photo Postcard Guide. The People’s Photography (New York: Syracuse University Press).
+Bolter, Jay David
+1996 “Ekphrasis, Virtual Reality, and the Future of Writing.” In The Future of the Book, edited
+by Geoffrey Nunberg, 253 – 72 (Berkeley: University of California Press).
+Bolter, J. David, and Richard A. Grusin
+1999 Remediation: Understanding New Media (Cambridge, MA: MIT Press).
+Clu¨ver, Claus
+1998 “Quotation, Enargeia, and the Functions of Ekphrasis.” In Pictures into Words: Theoretical
+and Descriptive Approaches to Ekphrasis, edited by Valerie Robillard and Els Jongeneel, 35 – 52
+(Amsterdam: VU University Press).
+Coverley, M. D. (Marjorie Luesebrink)
+2006 [2002] Accounts of the Glass Sky, http://collection.eliterature.org/1/works/coverley
+__accounts_of_the_glass_sky.html.
+Ellestro¨m, Lars
+2010 “The Modalities of Media: A Model for Understanding Intermedial Relations.” In
+Media Borders, Multimodality, and Intermediality, edited by Lars Ellestro¨m, 11 – 48 (Basing-
+stoke: Palgrave Macmillan).
+Engberg, Maria
+2007 Born Digital: Writing Poetry in the Age of New Media (Uppsala: Department of English,
+Uppsala University; Karlskrona: School of Technoculture, Humanities, and Planning,
+Blekinge Institute of Technology).
+Falco, Edward
+2006 Chemical Landscapes Digital Tales, http://collection.eliterature.org/1/works/falco
+__chemical_landscapes_digital_tales.html.
+Hartmann, Johanna
+2015 “Ekphrasis in the Age of Digital Reproduction.” In Handbook of Intermediality: Literature —
+Image — Sound — Music, edited by Gabriele Rippl, 113 – 27 (Berlin: De Gruyter).
+Hayles, Katherine N.
+2008 Electronic Literature: New Horizons for the Literary (Notre Dame, IN: University of Notre
+Dame).
+Heffernan, James A. W.
+1993 Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery (Chicago: University of
+Chicago Press).
+Jansson, Mats
+2014 Poetens blick: Ekfras i svensk lyrik (The Poet’s Gaze: Ekphrasis in Swedish Poetry) (Stockholm:
+Symposion).
+Jansson
+† Ekphrasis and Digital Media
+317
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 20 ──
+2016 “Ekfras som poetiskt modus (Ekphrasis as Poetic Mode),” Nordisk poesi. Tidsskrift for
+lyrikkforskning (Scandinavian Poetry. Journal of Poetry Research) 1: 51 – 71, www.idunn.no
+/nordisk_poesi/2016/01.
+n.d. The Light Ekphrastic, thelightekphrastic.com/ (accessed September 2, 2016).
+Lindhe´, Cecilia
+2013 “A Visual Sense Is Born in the Fingertips: Towards a Digital Ekphrasis,” The Digital
+Humanities Quarterly 7, no. 1: 1 – 21.
+Lotass, Lotta
+2008 – 9 Redwood, www.autor.se/autoreter/kraftverk./index.htm.
+2009 Hemvist, www.autor.se/autoreter/hemvist/index.htm.
+2009 – 10 Kraftverk, www.autor.se/autoreter/kraftverk/index.htm.
+Mitchell, W. J. T.
+1994 Picture Theory: Essays on Verbal and Visual Representation (Chicago: University of Chicago
+Press).
+Robillard, Valerie
+1998 “In Pursuit of Ekphrasis: An Intertextual Approach.” In Pictures into Words: Theoretical
+and Descriptive Approaches to Ekphrasis, edited by Valerie Robillard and Els Jongeneel, 53 – 72
+(Amsterdam: VU University Press).
+Sontag, Susan
+1973 On Photography (New York: Picador).
+SPARK: Art from Writing: Writing from Art, www.getsparked.org/ (accessed September 7, 2016).
+Tagg, John
+1988 The Burden of Representation: Essays on Photographies and Histories (Minneapolis: University
+of Minnesota Press).
+Van Gelder, Hilde, and Helen Westgeest
+2011 Photography Theory in Historical Perspective (Oxford: Wiley-Blackwell).
+Varga, A. Kibe´di
+1989 “Criteria for Describing Word-and-Image Relations,” Poetics Today 10: 31 – 53.
+Yacobi, Tamar
+1995 “Pictorial Models and Narrative Ekphrasis,” Poetics Today 16: 599 – 649.
+2013 “Ekphrastic Double Exposure and the Museum Book of Poetry,” Poetics Today 34:
+1 – 52.
+318
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/299/528880/0390299.pdf by Georgia Tech Library user on 26 December 2025

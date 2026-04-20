@@ -1,0 +1,998 @@
+# The Cultural Work of Ekphrasis in Contemporary Anglophone Transcultural Novels
+# Source: Rippl - 2018 - The Cultural Work of Ekphrasis in Contemporary Anglophone Transcultural Novels.pdf
+# BibTeX key: rippl_cultural_2018
+# Zotero dir: 3116
+# Extracted chars: 64534
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+The Cultural Work of Ekphrasis in Contemporary
+Anglophone Transcultural Novels
+Gabriele Rippl
+University of Bern
+Abstract
+This article takes as its starting point the conspicuous ekphrastic nature of
+many contemporary Anglophone transcultural novels and asks about their engage-
+ment with ekphrasis as a self-reflexive writing mode delving into implicit power rela-
+tions, cultural hierarchies, and the media landscapes of our digital age. Against the
+backdrop of intermediality theory, my functional analysis of the cultural work of
+ekphrasis builds its argument on the analysis of three novels: NoViolet Bulawayo’s
+We Need New Names (2014), Taiye Selasi’s Ghana Must Go (2013), and Teju Cole’s Open City
+(2011). I analyze these writers’ interventions in the field of aesthetics, considering net-
+works of aesthetic exchange as well as identity politics, and argue that the functions
+of ekphrasis in narratives written by the transcultural writers discussed here are of a
+cultural-critical and sociopolitical nature.
+Keywords
+contemporary Anglophone novel, transcultural writers, cultural functions
+of ekphrasis, media landscapes
+1. Ekphrasis Today
+If one considers today’s literary market, it is immediately apparent how
+important and topical ekphrasis as a writing practice is. Novels such as
+John Updike’s Seek My Face (2002), Raj Kamal Jha’s Fireproof (2007), Salman
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324444
+q 2018 by Porter Institute for Poetics and Semiotics
+Earlier versions of some parts of this essay were presented at a Berlin workshop on ekphrasis in
+August 2015 and at Birgit Neumann’s research colloquium at the University of Duesseldorf
+in January 2016. I thank the audiences for their comments and several readers, particularly
+Birgit Neumann and Renate Brosch.
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+Rushdie’s The Enchantress of Florence (2008), Siri Hustvedt’s What I Loved (2003)
+and The Blazing World (2014), as well as Donna Tartt’s The Goldfinch (2013) are
+prime examples of the wide use of this ancient mode of writing. It is precisely
+this broad presence and sheer number of ekphrases in contemporary Anglo-
+phone literature that invites scholars to investigate existing word-image
+configurations, literature’s collaboration, interaction, and competition with
+images as well as today’s media landscapes and media ecologies in general
+(Tabbi and Wutz 1997). Clearly, contemporary writers know that they write
+for an audience used to multimedia environments, enabling new forms of
+immediacy, interactivity, and text-picture-soundinteractions. American nov-
+elists such as Teju Cole, Jennifer Egan, Dave Eggers, and Jonathan Franzen
+are “acutely aware of [their] responsibility to write books that are compelling
+enough to compete with the new media that have taken over the world”
+(Aspden 2010, quoting Franzen). Today’s readers are accustomed to retriev-
+ing information distributed on split TV screens, on the Internet, and from
+printed material such as newspapers and magazines, which themselves
+increasingly combine words with images. This is one reason why contempo-
+rary novels and poetry collections often include pictures, maps, diagrams,
+and other visual depictions and employ ekphrastic devices.1 Another reason
+for the fascination with word-picture combinations and ekphrasis that writers
+and scholars exhibit lies in the tendency of these modes of writing to help
+reconstruct, question, and subvert concepts of representation. While the
+highly self-reflexive quality of contemporary ekphrastic texts demonstrates
+on the one hand the inadequacy of verbally representing visual data and
+acknowledges that each verbal representation is necessarily also a “misrep-
+resentation” (Klarer 1999: 1–4),2 the sheer number of ekphrastic descriptions
+in post- and post-postmodernist literary texts, on the other hand, seems to
+insist on the fact that the verbal medium cannot be foregone in our digital
+age. In contemporary literary texts ekphrasis comes in many shapes and takes
+on a range of important cultural functions, but all instances of ekphrastic
+writing in the primary sources discussed in this article are “pictureless” ones.
+They share this feature with ancient ekphrases. While for ancient rhetoricians
+the term ekphrasis referred to any description that was enargetic, in modern
+debates the concept has undergone a severe narrowing of meaning and refers
+only to descriptions of works of art (Webb 2009). While enargetic descriptions
+1. For a general discussion of the increase of novels where text is juxtaposed with images, see
+Wolfgang Hallet (2009, 2014, 2015). Regarding ekphrastic endeavors of the last decades, Emma
+Kafalenos (2012) has noticed an increase of image-ekphrasis combinations in literary texts that
+replaces the relationship of substitution between image and ekphrasis. She discusses the impli-
+cations of reading ekphrasis alongside images.
+2. See below for a critical discussion of the term representation in the context of ekphrasis research.
+266
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+(that is, detailed, lively and often extended ones) are still an important feature
+of some contemporary literature, often the reader also encounters relatively
+short, stenographic ekphrases that are mere references and nonrepresentational
+traces instead of fully fledged descriptions of images. This new quality of
+ekphrasis is neither in line with its ancient conceptualization nor with more
+recent definitions such as James A. W. Heffernan’s (1993: 3) widely accepted
+and enormously influential definition of ekphrasis as a second-degree rep-
+resentation—“the verbal representation of visual representation” (visual representation
+meaning a work of art). In order to adequately describe the manifold word-
+image configurations in contemporary literature and the visual arts, as well as
+the new media, the concept of ekphrasis needs to be adapted, modified, and
+expanded:
+.
+First, with respect to the visual objects described ekphrastically: accord-
+ing to many researchers these objects are no longer exclusively works
+of art.
+.
+Second, with regard to current definitions of representation (see Heffer-
+nan’s use of the term). It has been suggested that representation be
+replaced with terms such as “intermedial quotation or re-presentation (rep-
+resentation in the second degree)” (Yacobi 2013: 1), re-representation
+(Kafalenos 2012: 27), or evocation (Rippl 2005: 97).
+.
+Third, with respect to theoretical conceptualizations of ekphrasis with-
+in the semiotic paradigm. In accordance with Rajewsky’s (2002, 2005,
+2010) and Wolf’s (2005) respective definitions, I consider ekphrasis
+to be an intermedial reference and consequently discuss contemporary
+ekphrasis within the wider cultural frame of intermediality, that is,
+beyond the semiotic paradigm (Rippl 2005, 2010, 2015a, 2015b).
+.
+Fourth, with regard to the media of ekphrasis. According to some critics
+(e.g., Bruhn 2000), language is no longer considered the only medium
+to deliver ekphrases; opera, drama, film, and so on, may also do so.
+While the first three expansions of ekphrasis are relevant for our dis-
+cussion, the fourth expansion does not apply to the transcultural nar-
+ratives discussed here. In this article, I consider as ekphrasis any explicit
+or covert verbal/literary reference to images, including descriptive-
+static ekphrases and those charged with narrative impulses, whether
+concise and abbreviated (e.g., Tamar Yacobi’s [1995] examples of
+“ekphrastic models”) or extended and detailed (Yacobi 1995, 1997).3
+3. Two important categories of ekphrastic writing today, ekphrasis “born digital” and critical
+ekphrases (that is, ekphrastic writing produced by literary critics and art historians) will not be
+addressed here. For a discussion of these categories see Behluli and Rippl (2017); see Hayles
+(2008: 3) for the notion of “digital born,” which refers to “a first-generation digital object
+created on a computer and (usually) meant to be read on a computer.”
+Rippl
+† The Cultural Work of Ekphrasis
+267
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+2. Cultural-Critical Functions of Contemporary Ekphrasis
+As an intersection of signification systems and a highly self-reflexive mode of
+writing that triggers meta-representational questions, ekphrasis is able “to
+disclose the values, belief systems, and assumptions underlying our concepts
+of the verbal and the visual” (Brosch, “Introduction” to the present issue
+240). While ekphrasis may consolidate prevailing epistemological and ideo-
+logical structures, its cultural-critical functions are pivotal in Anglophone
+transcultural fiction,4 which is inherently interested in negotiating prevalent
+epistemologies, ideologies, notions of identity and nation, as well as questions
+relating to post- and neocolonialism. The experimental, intermedial liter-
+ary aesthetic of transcultural novels, which serves sociopolitical and ethical
+goals, has so far been underresearched. Teju Cole’s, Taiye Selasi’s, and
+NoViolet Bulawayo’s novels, for instance, attest to the many different ways
+in which young writers today imaginatively engage in sociopolitical issues
+that they translate into cultural-critical aesthetics and innovative formal
+modes. While living now, at least part-time, in the United States, the three
+writers share roots in postcolonial sub-Saharan African countries and are
+familiar with experiences of diaspora and transcultural, deterritorialized
+identity. Unsurprisingly, their novels tell stories of transnational identities
+and lives with multiple topographic settings and locations, thus attesting to
+the extensive migratory movements that characterize our age. Their self-
+reflexive ekphrastic quality reflects a broad aesthetic as well as sociopolitical
+and cultural-critical interest in border crossings, translation, and hybridity. In
+her discussion of the pictorial saturation of literary texts, Liliane Louvel (2011
+[1998]: 89–100) has underlined the importance of questions concerning the
+functions of ekphrasis. As is the case with all cultural phenomena, these are
+subject to historical change and vary among different times, places, and (sub-)
+cultures. Louvel’s list of functions (ibid.: 101–33) includes textual functions
+of ekphrasis such as the construction of reference, generating narratives,
+revelation, and authentification (especially in the case of photography), but
+also ideological and ethical functions (for the latter see also Kennedy 2012;
+Loizeaux 2008; Rippl 2015b). There are additional functions such as affec-
+tive ones, “aura-enhancing/auraticizing” ones (Behluli and Rippl 2017),
+cognitive ones (Brosch 2015; Yacobi 1997),5 and—as I claim—cultural-
+critical and sociopolitical ones that play a crucial role in transcultural litera-
+4. In this article “Anglophone transcultural novels” is the denomination for novels written in
+English by authors with a transcultural background and/or protagonists and settings with the
+same feature.
+5. “All ekphrasis deautomatizes our perception by defamiliarizing the manner and the matter
+of the source in re-presentation. The making-strange results from the very transfer of a visual
+image to another medium, with its radically different sign-system and structural principles, and
+268
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+ture, tackling questions of cultural memory (including the Western canon),
+trauma, and social imaginaries in general (Do¨ring 2002; Emery 2007; Neu-
+mann 2015, 2016; Rippl 2015b). In the long academic debate over ekphrasis,
+only a few scholars have investigated functions of ekphrasis in any depth.
+W. J. T. Mitchell, and more recently Elizabeth Bergman Loizeaux, have for
+instance discussed to what extent ekphrastic strategies are saturated with
+implicit power relations and cultural hierarchies. Both scholars claim that
+one function of ekphrasis as a social practice is that it translates between self
+and other, that it “transfers into the realm of literary art sublimated versions
+of our ambivalence about social others” (Mitchell 1992: 702) and engages in
+“otherness” and “the foreign” (Loizeaux 2008: 9–11). According to Loizeaux
+(2008: 8, 10), “looking is not, never has been, ethically neutral, and ekphrasis
+stages relations lived under that fact. . . . The inherently social dynamics of
+ekphrasis and its possibilities for polyvocality made it especially attractive to
+a postmodernism alive to the multiplicity of the lyric subject and to racial,
+ethnic, and gender differences.” Thus, cultural-critical functions are intrin-
+sically linked to ekphrasis because ekphrasis as a mode of writing reflects on
+questions of (re-)representation and showcases epistemological frameworks
+and cultural hierarchies—crucial insights for any discussion of ekphrasis in
+transcultural contexts (Rippl 2015b).
+3. Cultural-Critical Functions in Bulawayo, Selasi, and Cole
+It is against the backdrop of recent developments in intermediality studies
+and ekphrasis theory (Heffernan 2015; Kennedy 2012, 2015; Rippl 2015a,
+2015b) that NoViolet Bulawayo’s We Need New Names (2014), Taiye Selasi’s
+Ghana Must Go (2013), and Teju Cole’s Open City (2011) are analyzed.6 The
+authors share not only family roots in African countries such as Ghana,
+Nigeria, and Zimbabwe, but also an interest in an intermedial aesthetic,
+most prominently in ekphrasis. This helps them discuss, first, sub-Saharan
+African politics and civil wars (for instance the Nigerian Civil War also known
+as the Biafran War; the Zimbabwean War of Liberation); second, the role of
+Western mass media such as American television and its stereotypical rep-
+resentation of Africa: and third, African transnational mobility, the new
+global African immigrants and complex African diaspora identities that
+include all social strata, lower-, middle-, and upper-class, whose experiences
+communicative priorities. The more established that image in the source artwork or model, the
+ruder the shock of its reworking” (Yacobi 1997: 41).
+6. For a detailed discussion of Bulawayo’s and Cole’s uses of ekphrasis in their novels see
+Neumann and Rippl (2018). See also Behluli and Rippl (2017).
+Rippl
+† The Cultural Work of Ekphrasis
+269
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+are not reducible to the “black Atlantic” paradigm of slavery. Reviewers and
+critics alike have shown a huge interest in these writers, often discussing them
+and their protagonists as “Afropolitans.” According to Selasi’s widely read
+(and critically discussed) essay “Bye-Bye Babar” (2005),7 “Afropolitan” and
+“Afropolitanism” refer to a new generation of cosmopolitan African immi-
+grants who are cultural hybrids, multilingual, have mixed ethnic roots, come
+from middle- or upper-class backgrounds, have good academic educations
+and successful careers, and enjoy being “Africans of the world,” but “must
+form an identity along at least three dimensions: national, racial, cultural—
+with subtle tensions in between” (Selasi 2005). While ekphrasis has tradition-
+ally been discussed within the paradigm of the paragone, and hence as a power
+struggle between word and image, Bulawayo’s, Selasi’s, and Cole’s novels
+employ ekphrasis as an important means of fathoming word-image intersec-
+tions beyond the paragone and as a way of negotiating the impact of the
+Western canon of works of art and literature as well as that of today’s mass
+media and global networks of communication (television, the Internet, social
+media, movies, etc.). The ekphrases produced by their protagonists—all of
+them African immigrants to the United States or children of African immi-
+grants—negotiate on the one hand personal problems concerning cultural
+assimilation, the trauma of immigration and other personal traumas (for
+instance sexual abuse), and on the other hand crimes against humanity
+and violent conflicts of a political and historical nature (the Holocaust, colo-
+nial clashes, slavery, etc.). As will become clear in what follows, the ekphrases
+presented in the novels demonstrate that ekphrasis does, indeed, come in
+many shapes and has expanded with respect to the objects described: they are
+no longer restricted to the field of Western high art, but now also cover
+noncanonical, non-Western artistic objects, African artifacts, postcards,
+TV stills, and pictures/scenes from American pornographic films as well as
+other images circulated by the mass media of our time.
+3.1. “Transculturing” Ekphrasis: NoViolet Bulawayo’s We Need New Names
+(2014) and Taiye Selasi’s Ghana Must Go (2013)
+Born in Zimbabwe, NoViolet Bulawayo received her university education at
+Cornell University (MFA), before she went on to become a Stegner Fellow
+at Stanford University, teaching fiction and creative writing. In her prize-
+winning first novel We Need New Names she discusses how important it is for
+Africans to give themselves new names, as Bulawayo’s female protagonist,
+Darling, and her friends do when they reimagine their shanty town as
+7. See Wasihun (2016) for a discussion of Selasi’s concept and the critique it has provoked.
+270
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+“Paradise” and an affluent neighborhood as “Budapest.”8 The novelist aims
+at delivering “new narratives beyond preconceived Western discourses,”
+“new narratives of Africans in trans-lation,” in modern diasporic living con-
+ditions (Wasihun 2016: 397). We Need New Names is a coming-of-age-novel
+narrated in the captivating voice of its ten-year-old protagonist. The novel is
+comprised of two parts, the first of which deals with Darling’s childhood in a
+shantytown located in an unnamed African country resembling Zimbabwe.
+Bulawayo’s representation of dire African life focuses on everyday political
+and sexual violence, poverty, and illnesses such as AIDS, but is interspersed
+with the children’s laughter, thus allowing for comic relief. The novel’s
+second part presents Darling’s harrowing life after migrating to the United
+States where she comes to live with her aunt in “Destroyedmichygen” (Bula-
+wayo 2014: 147) as she calls the economically rundown Detroit, Michigan.
+While Selasi’s male and female middle-class protagonists are overachievers,
+Bulawayo’s protagonist Darling comes from a poor background, which is
+why her childhood in Africa as well as the circumstances of her immigration
+to the United States are far less comfortable than those of Selasi’s protag-
+onists. As a teenager, Darling struggles with cultural assimilation and only
+gradually adjusts to an American way of life, coming to enjoy American food,
+popular culture, and music, and to accept its standards of beauty, only to find
+out later as a young woman that America will never feel like a real home.
+Ekphrasis is a prominent writing mode in the novel, allowing Bulawayo to
+enact the tensions between African and American experiences and to nego-
+tiate contradictory feelings of belonging and nonbelonging, identity, and
+otherness. Clearly, Bulawayo’s visual strategies are responsible for the intense
+impressions readers take away from this novel. We Need New Names is replete
+with Darling’s colorful descriptions of her surroundings, of people and
+objects. Her description of some pastry may serve as an example:
+I look closely at her long hand, at the thing she is eating. It’s flat and the outer part is
+crusty. The top is creamish and looks fluffy and soft, and there are coin-like things
+8. In Bulawayo’s novel, Darling and the other children use their imaginations to forget about
+their hunger and dream of a better life in a “real” country such as the United States. They speak
+a little English and know their global geography, as becomes clear in chapter 3, “Country-
+Game,” which allows the children “to be certain countries” (Bulawayo 2014: 49). Of course
+“everybody wants to be the U.S.A. and Great Britain and Canada and Australia and Swit-
+zerland and France and Italy and Sweden and Germany and Russia and Greece and them.
+These are the country-countries. If you lose the fight, then you just have to settle for countries
+like Dubai and South Africa and Botswana and Tanzania and them. They are not country-
+countries, but at least life is better than here. Nobody wants to be rags of countries like Congo,
+like Somalia, like Iraq, like Sudan, like Haiti, like Sri Lanka, and not even this one we live in —
+who wants to be a terrible place of hunger and things falling apart?” (ibid.).
+Rippl
+† The Cultural Work of Ekphrasis
+271
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+on it, a deep pink, the color of burn wounds. I also see sprinkles of red and green
+and yellow, and finally the brown bumps that look like pimples. (Bulawayo 2014: 6)
+Living in poverty, Darling is of course always hungry and would love to have
+a bite herself, hence the focus on a piece of pastry. But what is striking in this
+description is Darling’s choice of comparisons: in addition to the “brown
+bumps” reminding her of “pimples,” the “deep pink” has “the color of burn
+wounds,” which recalls Darling’s shantytown existence and her exposure to
+the recurrent violence of a politically unstable postcolonial African country.
+Bulawayo makes clear that the country’s colonial past is one reason for its
+present political chaos, about which the reader learns through Darling’s
+reports and ekphrases.
+In addition to Darling’s critical discussion of the role of Western mass
+media and her colorful descriptions of people and objects, the novel engages
+primarily with photography as a medium of documentation of family history.
+Darling’s ekphrasis of her father’s photograph, taken at a university gradu-
+ation ceremony (ibid.: 22) informs the reader that her father left the family to
+work in South Africa, neither keeping in contact nor supporting his family
+financially. Darling also produces an ekphrasis of a photograph of her “cous-
+in Makhosi carrying me when I were little” (ibid.: 23), which again provides
+the reader with insight into her family history and the bleak fate of male
+family members such as Makhosi who ruined their health in the diamond
+mines. Hidden under the bed is a photograph of her grandfather who was
+killed “during the war for feeding and hiding the terrorists who were trying to
+get our country back” from the white minority (ibid.: 20). “During the war”
+refers to the “Zimbabwean War of Liberation,” which in Western historiog-
+raphy is often derogatively called the “Rhodesian Bush War,” raging from
+1964 to 1979, but with origins going back to the colonization of the region by
+white “settlers” (that is, colonizers). During this Zimbabwean War of Liber-
+ation a conservative white minority fought black nationalist forces in order to
+keep their power and prevent the implementation of majority rule and uni-
+versal suffrage in “Southern Rhodesia” (as the British colony was formerly
+called). Darling’s ekphrasis of a photograph of her grandfather takes the
+reader deep into the family’s past to a more traditional and rural Africa
+when the soil was still fertile but political violence was on the rise:
+In the hidden picture, Grandfather is speaking, his mouth pursed. There are frown
+lines on his forehead, and from the way his red eyes are looking deeply at the
+camera, you would think that he wants to eat it. He has a bone going through his
+nose and is wearing earrings. Behind him are fields of waist-high maize crops, just
+endless and endless green. (ibid.: 24)
+272
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+The ekphrasis of this photograph gives voice to a colonial conflict that cost
+Darling’s grandfather his life. Six chapters later, in chapter 8 (“Blak Power”
+[sic ]), Darling finds the counterpart to this photograph in a white couple’s
+home, without however realizing that the two photographs show the same
+scene from different angles, the moment before her grandfather was shot by
+the white men:
+A man stands next to a long rock, pointing a gun. He bites his lower lip in con-
+centration, like maybe he is constipated and he is trying to push it out. Another
+man is dressed in a soldier’s uniform and carries a red beret. His left breast is flashy
+with metal thingies. He looks at the camera like he doesn’t know where to look. A
+man dressed in khaki stands in front of a field of maize. (ibid.: 124)
+These ekphrases of photographs conjure up the colonial past of Darling’s
+unnamed African country. By presenting ekphrases of the two pictures, Bula-
+wayo comments on the fact that in Darling’s shack, the photograph of the
+identical scene is hidden under the bed, while the white couple exhibits the
+tense colonial scene proudly on their sitting room wall (in proximity to an
+African mask). With her ekphrases of the two photographs of the same scene
+Bulawayo is able to show both sides of the conflict, thus laying bare colonial
+scopic regimes and telling the story of repressed and marginalized African
+historical events, of lives sacrificed to colonial interests and human greed,
+which are now only conserved in photographs hidden under a mattress in
+a shack. Bulawayo’s technique of presenting two ekphrases of photographs
+taken at the same scene of a lethal colonial conflict is an intricate way of
+“writing back to/gazing back at” the colonizers. But it takes an attentive
+reader to appreciate this effect: after all, the two ekphrases are one hundred
+pages apart. It is in this sense that the novel is highly self-reflexive, even
+developing something like an ethics of seeing.
+Darling also produces an ekphrasis of a large traditional mask she encoun-
+ters in the white couple’s home after the couple has been abducted by a gang
+of young African political activists:
+In the sitting room, we stand before the large mask on the wall and stare at the
+black face, the eyes gouged out. It is a long, thin face, white lining the eyebrows and
+the lips. The forehead is high and protrudes a little, and yellow dots divide it in half.
+The nose is long, and the round mouth is open, like it’s letting out a howl. And
+finally a horn grows at the top of the head. (ibid.: 123)
+This African mask, which adorns the walls of the affluent white couple’s
+home, is described in detail, and the dots depicted on the mask return in
+the ornaments of the novel’s chapter headings, which are sometimes embroi-
+Rippl
+† The Cultural Work of Ekphrasis
+273
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+dered with American stars, and sometimes with dots to be found on Ndebele
+and other African masks. Today ancient African masks are no longer to be
+found in sub-Saharan Africa—the priceless pieces are now exhibited in the
+ethnographic sections of European and North American museums or owned
+by rich Westerners. Originating as cult objects in ritual performances that
+help to summon the spirits of ancestors (Adepegba 1995; Mack 2013 [1994]:
+32–55), they lose this function through the process of becoming transcultural
+objects in the West. Since ekphrases of African masks (unlike ancient Greek
+and Roman artifacts) do not belong to the (Western) canon of ekphrastic
+writing, one important cultural-critical function of Bulawayo’s “African”
+ekphrases is to help “transculturate” ekphrasis. In this way, the text aims at
+opening up the ekphrastic canon and disclosing the hidden agendas of aes-
+thetic values (Rippl and Winko 2013). Bulawayo’s aesthetic program can be
+defined as “repair work,” not unlike what the French-Algerian artist Kader
+Attia pursues in his installation “Repair. 5 Acts” (at Kunst-Werke Berlin,
+2013; Attia 2014), which deals with the ghosts and aftereffects of colonialism.
+In the chapters set in the United States, Darling produces more ekphrases,
+now focusing on products of the digital mass media.9 The central, most
+detailed and extended “American” ekphrases Darling produces are “porno-
+graphic ekphrases,” describing scenes from pornographic films she watches
+on American television (Bulawayo 2014: 200–2, 211, 212–14), some of which
+hark back to scenes of violence in Africa. Apart from these long pornographic
+ekphrases, the only other extended ekphrasis is one of an African “batik the
+size of a beach towel” (ibid.: 282), which Darling finds in a storage box in the
+basement of Aunt Fostalina’s house:
+It’s a painting of a market scene and it’s crazy with life and color, people selling
+things — fruits, vegetables, foodstuffs, colorful beads and cloth, handbags, belts,
+animal carvings, just anything you can think of. There’s children, women, men,
+women with babies on their backs, old people, a couple of dogs, a bicycle, every-
+body and everything alive under a bright blue sky.
+Looking at the cloth I’m remembering how beautiful it felt to be in a real scene
+like that, everybody just there together, mingling together, living together, before
+things fell apart. I begin to feel this ache in my heart that always comes when I think
+of home these days. (ibid.: 283)
+9. Darling’s host in Detroit, Aunt Fostalina, is a TV sports program addict, while Darling and
+her cousin TK are caught up in the world of the digital media and engrossed with their Mac
+computers, DVDs, Netflix, text messages on BlackBerries (Bulawayo 2014: 275, 277, 279), and
+iPods (ibid.: 163), social media such as Facebook, Internet platforms like Google and com-
+munication via e-mail (ibid.: 223) and Skype.
+274
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+The depicted market scene “crazy with life and color . . . under a bright blue
+sky” makes Darling remember life at home “before things fell apart,”10 filling
+her with nostalgia for the former peaceful life in an intact community and an
+“imaginary homeland” (Rushdie 1991).
+Darling also finds a “weird mask” (Bulawayo 2014: 283):
+It’s split in the center, one half white, the other black. The black half is split further
+in numerous crazy patterns that I can’t figure out, but it looks interesting to me so
+I take it and the other stuff upstairs to my room.
+. . . the mask is looking at me with the puzzling face; it’s like it’s trying to tell me
+something that will take years for me to understand. . . . And finally, on the other
+side of the dresser, the batik market is mad busy. I imagine I can hear all sorts of
+things — vendors singing their wares, some calling out to me to buy things at
+reduced prices; boys whistling sweet tunes to girls; babies crying out for sweets;
+the voices of children singing Who discovered the way to India? and playing Andy-
+over; the mothers’ laughter rising above everything else. (ibid.: 283 – 84)
+While Darling is unable to decipher the meaning and message of the “numer-
+ous crazy patterns” of the African mask—possibly the result of growing up in
+a postcolonial country where people have lost the knowledge of their own
+indigenous culture and art—the African market scene depicted on batik cloth
+speaks to her. Ekphrases of African batik art are rare in Anglophone litera-
+ture, and it is worth noticing that Bulawayo uses enargeia, a characteristic of
+ancient Western ekphrasis, in order to describe the market with an intensity
+of effect (“crazy with life,” “crazy patterns,” “the batik market is mad busy,”
+“I can hear all sorts of things”), adding sound to visual details so that the scene
+almost comes to life. By translating ekphrasis—after all a device deeply
+steeped in Western literary history and its canon—into African constella-
+tions, We Need New Names does important cultural-critical work, renegotiat-
+ing cultural hierarchies by showcasing local African artistic practices and
+art forms while at the same time exposing and thwarting Western claims
+of artistic superiority and authority over canon formation (see Rippl and
+Winko 2013).
+Taiye Selasi, writer and photographer of Nigerian and Ghanaian origin,
+was born in London and raised in Massachusetts. She is another leading voice
+among the young Anglophone novelists and essayists today. Her debut novel
+Ghana Must Go (2013) was praised for its narrative technique, its intricate
+depiction of racism and the power of love, its transcultural imagination,
+10. As Wasihun (2016: 396) has rightly remarked, “the every day struggles for survival and the
+constant sense of ‘things falling apart’” refer to Chinua Achebe’s canonical novel Things Fall
+Apart (2001 [1958]), which works “like a leitmotif in Bulawayo’s novel.”
+Rippl
+† The Cultural Work of Ekphrasis
+275
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 12 ──
+and presentation of immigrant characters with hybrid US-African (Gha-
+naian and Nigerian) identities. The novel tells the story of one family:
+Kweku Sai and his wife Fola Savage as well as their four talented children,
+Olu (an excellent medical doctor, “a picture of perfection, New Immigrant
+Perfection,” [Selasi 2013: 127]), the twins Taiwo and Kehinde, and Sadie, the
+youngest daughter. Apart from bulimic Sadie, who yet has to find her role
+in life, the children are all “overachiever[s]” (ibid.: 136), that is, well-educated
+Afropolitans. When renowned surgeon Kweku Sai is wrongly accused of the
+death of a patient, he just walks away from his life, leaving his wife, a single
+mother of four. This traumatic event becomes the hub of the plot and haunts
+his deserted wife and children until Kweku’s death of a heart attack sixteen
+years later. Only upon his funeral do the family members manage to leave
+behind their pain, their suicidal drives, and their fragile psychic conditions by
+reconnecting, facing their personal traumas via talking cures and coming to
+believing in the transformative power of love. In addition to personal traumas
+triggered by the sudden loss of a father and husband (and in Taiwu and
+Kehinde’s case by sexual abuse at the hands of their uncle in Nigeria), Fola
+Savage and Kweku Sai, too, have to struggle with their own postcolonial angst
+and muted traumatic family histories full of extreme forms of colonial atroc-
+ity, racism, and the brutal experience of ethnic conflict between the Hausa
+and Igbo, the anti-Igbo pogroms, the victimization and killing of Yoruba,
+and the Nigerian civil war.
+Ghana Must Go is a novel full of colors and visual references to family
+photographs (ibid.: 116, 146, 212–13, 233, 251, 310), to the famous Ghanaian
+fantasy coffins (ibid.: 232, 261, 294–95), to movies and the work of the “silent-
+visual cameraman” (ibid.: 4); while dying Dr. Sai recalls the latter “quietly
+filming” scenes of his life “like scenes from a movie” (ibid.: 27). The novel is
+replete with architectural ekphrases of classically Ghanaian family houses,11
+new cheap show homes, and American houses and apartments (ibid.: 4, 5, 24,
+162–63, 185). There are numerous references to paintings as well as the
+young but already successful artist Kehinde, based in London and Brooklyn
+with “his dealer in Bern” (ibid.: 161). The readers encounter Kehinde after
+he has recovered from a suicide attempt: “He was twenty-six, young with the
+newness of money, the strangeness of money and fame and the world” (ibid.:
+164). In the two-story workspace of his Brooklyn studio, “one work-in-
+progress [is] stretched out on the concrete, some seven feet long, so-called
+mud-cloth, the new thing, a departure from the portraits he’s made out of
+11. Architectural ekphrases have a long tradition that dates back to antiquity. See Statius, Silvae
+as well as the letters of Plinius Secundus, in which he described ancient villas (Du Prey 1994;
+Rippl 2005: 139 – 42).
+276
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 13 ──
+beadwork since going abroad” (ibid.: 163). Making portraits in beadwork
+relies on mixing two art forms that serve the expression of subjectivity and the
+self: the art of beadwork, which has existed for many centuries in many parts
+of Africa, and the genre of the painted portrait, which since the Renaissance
+has been a predominant European genre of self-fashioning. Likewise,
+Kehinde’s new technique of portraiture, “mud-cloth,” again belongs to a
+well-known artistic African tradition; it is a material charged with symbolic
+value, which he sells to Western art collectors. This mixture of artistic tra-
+ditions has its parallels in the ethnic mixture of Kehinde’s family with its
+Ga, Yoruba, and Scottish roots. Portraiture is the predominant genre in
+Kehinde’s oeuvre; even when he sends his younger sister Sadie a birthday
+card, it is a portrait: “She holds up the card that he made for her birthday, on
+the one side a drawing in simple pastels, brown and violet and orange, her
+face vaguely, close up, the other his writing, happy birthday, baby s” (ibid.: 165).
+This short ekphrasis is followed by another concise description of nine huge
+unfinished portraits of women, depicting the muses and resembling
+Kehinde’s twin sister Taiwo, who on a visit to her brother’s studio examines
+them studiously: “Nine full-length portraits, the bodies unfinished, but clearly
+her face, slightly altered in each, with some object, a lyre or a hymn-book or a
+pencil to make the thing plain to non-readers of Greek. On the floor by each
+canvas is an index card label. . . . ‘Euterpe, Polyhymnia, Terpsichore, Clio,
+Thalia, Erato, Urania, Melpomene, Calliope’” (ibid.: 180). The reader is not
+informed whether these unfinished portraits are painted or beadwork, but
+the ekphrasis makes clear that they show Taiwo’s features. With his training
+as a classicist, Kehinde brings together the African features of his sister’s face
+with the Greek muses, thus rewriting the (allegedly) white Greek tradition
+while at the same time working through his childhood trauma (of sexual
+abuse by his uncle). His hybridized classical Greek muses with their African
+features produce a cultural in-between space, inviting the reader to question
+the imageofapure“white”antiquityand insteadcontemplatethe mixed roots
+of Western civilization and cultural identities in general. Selasi’s ekphrases
+are not at all detailed descriptions of works of art; her short ekphrases rather
+serve the aim of hybridizing cultures, opening up transcultural spaces, and
+making her readers see the entanglement of cultures—an undertaking that
+finally also propels Kehinde’s idea of producing and exhibiting a Ghanaian
+fantasy coffin as an installation in a Western museum (ibid.: 296).
+3.2. “Hyperlinking” Ekphrasis: Teju Cole’s Open City (2011)
+Teju Cole is a transcultural American-Nigerian writer, photographer, and
+art historian, born in Kalamazoo, Michigan, to Nigerian parents. After
+spending his childhood in Lagos, he returned to Michigan in 1992 to attend
+Rippl
+† The Cultural Work of Ekphrasis
+277
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 14 ──
+college and has since mostly lived in New York City. Like Bulawayo and
+Selasi, Cole, too, employs an intermedial aesthetics—ekphrasis in his novel
+Open City (2011) and word-photography configurations in his fictional trave-
+logue Every Day Is for the Thief (2014 [2007])—to negotiate notions of individual
+and collective identification in times of intense globalization, mass migration,
+trauma, violence, racism, terrorism, and corruption. These negotiations take
+place against the backdrop of today’s media landscapes and the global forms
+of communication and interconnectedness our Internet age enables. Cole’s
+male protagonists are educated, cosmopolitan city dwellers with migrant
+backgrounds.12 They neither live transcultural lives in dire material circum-
+stances, nor do they seem to suffer from their in-between identities. While
+Julius, the young medical doctor and protagonist of Open City, at first impres-
+ses the readers with his minute registrations of city life and his erudite com-
+ments on historical, social, political, and aesthetic issues, readers might find
+him increasingly perplexing by his striking noncommitment and emotional
+detachment from other people.
+The stories of immigrant experience, violence, and trauma, which Julius
+collects while roaming the transcultural urban spaces of post-9/11 Manhat-
+tan and Brussels, have their parallels in Julius’s many comments on and in-
+depth discussions of high-cultural art forms:13 classical music (for instance
+Gustav Mahler), literature (for instance Paul Claudel), the visual arts (for
+instance Jan van Eyck’s and Diego Vela´zquez’s oil paintings and Martin
+Munka´csi’s photographs), and urban architecture. Cole’s novel is not plot-
+driven but characterized by its descriptive style and predilection for ekphrasis
+and intermedial aesthetics.In addition to passingreferences toworksof West-
+ern painting and sculpture, readers encounter several extended ekphrases,
+among them many of buildings and their ornaments:14
+12. For a discussion of cosmopolitanism in Cole’s narratives, see Hallemeier (2013) and Ver-
+meulen (2015).
+13. Julius rarely produces ekphrases of artworks and artifacts of his African ancestors, and if he
+does they are short and unenthusiastic. Only in passing does Julius mention a family trip during
+his childhood to cultural landmarks in the interior of Yorubaland (the southwestern parts of
+Nigeria) and visits to the historic Deji’s Palace in Akure and the Ooni’s in Ife: “both of them
+large traditional royal complexes built of mud brick and decorated with massive carved wooden
+pillars showing aspects of Yoruba cosmology: the world of the living, the world of the dead, the
+world of the unborn. My mother, deeply interested in the art, explained the iconography to her
+mother and me. My father wandered around a little bored” (Cole 2011: 34). These palaces
+testify to Nigeria’s rich cultural past with a plethora of tribal art forms shaped by numerous
+kingdoms, but compared to Julius’s elaborate descriptions of Western art his references to
+Yoruba art and artifacts are sparse. For an introduction to Nigerian art (Nok, Yoruban, Igbo,
+Ife, and Hausa), see Egonwa (2011 [1988]) and Adepegba (1995); for a general introduction to
+Nigeria, see Falola and Heaton (2008).
+14. In addition to the extended architectural ekphrases, ekphrases of photographic images play
+a major role in Cole’s novel, in particular ekphrases of documentary photographs by the
+278
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 15 ──
+Across the street from El Malecon [a popular restaurant] was a massive and
+architecturally bizarre building. It was built in 1930, and was known back then
+as the Loews 175th Street Theatre. Designed by Thomas W. Lamb, it was filled
+with glamorous detail — chandeliers, red carpeting, a profusion of architectural orna-
+ment within and without — and the terra-cotta elements on the facade drew from Egyptian,
+Moorish, Persian, and Art Deco styles. Lamb’s stated aim was to cast a spell of the mysterious
+on the “occidental mind,” with the use of “exotic ornaments, colors, and schemes.” . . .
+Now, from the doorway of El Malecon, in the waning light of a Friday evening,
+it looked quiet. The jumble of architectural styles failed, more than seventy-five
+years on, to resolve themselves into something meaningful. Even in its best days,
+it must have looked alien in the environment. It looked more so now, still reasonably well
+maintained, but utterly out of place, its architecture a world away from that of the small shops, its
+grand columns and arches irrelevant to the fatigued immigrants who rarely raised their heads to look
+above street level. The spell had faded. (Cole 2011: 234– 35, my italics)
+This architectural ekphrasis highlights the exotic ornamental elements of the
+building’s facade, which mixes Western and oriental styles to enchant the
+Western mind with mysteries. The multicultural ornaments stand in contrast
+to the new Christian function of the building whose grandeur now seems out
+of place. The spell of the multicultural mixture of styles “had faded” and
+neither the old inhabitants of that part of the city nor the new arrivals—the
+“fatigued immigrants”—pay tribute to the building’s charming architectural
+features: the magic of the spell of multicultural styles translated into “some-
+thing meaningful” has definitely dissolved.
+While Julius may impress readers with his profound erudition in the arts
+and cultural history in general, in fact his description of Loew’s 175th Street
+Theater largely resembles the wording used in the Wikipedia entry on this
+theater.15 Vermeulen (2015: 97) has commented on Julius’s tendency to con-
+stantly make historical connections: “While these historical connections may
+seem to underwrite an ethic of cosmopolitan ‘hyperlinking,’ they are deliv-
+ered in an insipid tone that also surfaces elsewhere in the novel and that is
+inevitably reminiscent of a Wikipedia page.” Vermeulen borrows the term
+“hyperlinked text” from Barnard (2009: 209) who uses it to describe the
+apparently arbitrary, but fortuitous, linkages between characters and stories
+in a film like Alejandro In˜a´rritu’s Babel or a novel like David Mitchell’s
+Hungarian-American photographer Martin Munka´csi (1896 – 1963) that depict Germany’s
+Nazi past (Cole 2011: 152 – 55). For an in-depth discussion of Munka´csi’s photographic oeuvre
+and many additional ekphrases in Cole’s novel, see Neumann and Rippl (2018). For a discus-
+sion of architectural ekphrases as an ekphrastic subcategory, see Rippl (2005: 139 – 42, fn. 11).
+15. See https://en.wikipedia.org/wiki/United_Palace. For a detailed discussion of the paral-
+lels between the Wikipedia entry and Cole’s ekphrasis, see Neumann and Rippl (2018).
+Rippl
+† The Cultural Work of Ekphrasis
+279
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 16 ──
+Ghostwritten with its “broad geographic trajectory” (Barnard 2009: 210). The
+characters of hyperlinked novels and films “whether fixed in a particular
+locality . . . or hypermobile . . . operate within a linked set of emerging global
+conditions” (ibid.: 211). This is certainly the case in Open City, too. While
+Vermeulen persuasively reads Cole’s text as a “hyperlinked” text in a met-
+aphorical sense, I contend that this “hyperlinking” ought to be taken far more
+literally: Julius is not only globally interconnected—that is, “hyperlinked” to/
+with all sorts of historical events that happened around the world—but also
+“hyperlinked” to/with the Internet and (museum) websites from which he
+takes bits and pieces for his ekphrases. What does this copy-and-paste tech-
+nique together with Julius’s random accumulation of stories and descriptions
+tell us about his mind-set? Living in the digital age with its advanced com-
+munication technology and computerization of daily lives, Julius has ready
+access to information about images and texts. Taking this into account, Irr
+(2014: 2) has discussed Open City as a “digital migrant novel,” an example of
+the many “works that address the interconnected global environment of the
+new millennium.” In her review of Cole’s novel, Messud (2011: 25) speaks of
+our age as one “of rapid technology and the jolly, undiscriminating ephem-
+eralizing of culture and knowledge.” This certainly applies to Open City:
+instead of offering first impressions and describing architecture, buildings,
+paintings, and monuments from scratch—after all ekphrases used to be char-
+acters’/writers’ signature pieces, attesting to their wit and acumen—Julius
+delivers secondhand and often stenographic descriptions.
+This is again the case when during a Christmas holiday in Brussels (chap.
+7–11) Julius produces more ekphrases of buildings, monuments, and paint-
+ings that at first glance seem to focus on his own aesthetic impressions. These
+ekphrases resonate strongly with Belgium’s colonial crimes in the Congo.
+The Royal Museums of Fine Art are famous for their iconic paintings, such
+as Bruegel’s Landscape with the Fall of Icarus (circa 1560), which Julius men-
+tions: “It was time, in any case, to go home, . . . to leave, in the museum next
+door, Auden’s Bruegel with its fallen Icarus, and the unforgettable painting
+by an anonymous painter of a young girl with a dead sparrow” (Cole 2011:
+145).16 Julius does not deliver an ekphrasis of Bruegel’s globally known
+painting, but takes a shortcut by referring instead to one of the most famous
+ekphrastic poems, W. H. Auden’s “Muse´e des Beaux Arts” written in Brus-
+sels in December 1938, the first stanza of which contemplates human suf-
+fering that occurs in a nondescript place on the margins and thus goes
+16. This anonymous, southern Belgian painting Little Girl with Dead Bird (1500 – 25) is also on
+display at the Royal Museums of Fine Art in Brussels, https://commons.wikimedia.org/wiki
+/File:Little_girl_with_dead_bird_mg_2968.jpg.
+280
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 17 ──
+unnoticed.17 This ekphrastic shortcut allows Cole to reactivate in our cul-
+tural memory the colonial atrocities committed in the Congo, but for Cole’s
+protagonist, they are nothing but yet another atrocious story in his collec-
+tion. The technique of embedding a stenographic ekphrasis within another
+ekphrasis is a typical feature of Julius’s descriptive style. The fact that many
+of Julius’s ekphrases are partly copied from Wikipedia can also be read in
+the light of Cole’s criticism of the ekphrastic mode for the latter’s entangle-
+ment with an imperial rhetoric of visuality and the hierarchical power
+relations it creates. Read this way, Cole’s copy-paste ekphrastic technique
+delegitimizes ekphrastic practices as colonial ones.
+Obviously, Cole’s novel is an impressive tour through art, musical, and
+global cultural history. The novel’s abundance of ekphrases together with its
+many comments on media ecologies, global communication, and the pro-
+duction of knowledge in our digital age allows us to draw some conclusions.
+In Open City, Cole negotiates the sociopolitical and ethical impact of works of
+art today by presenting a “hyperlinked” protagonist—hyperlinked to differ-
+ent places whose stories of atrocities he contingently accumulates, while at the
+same time staying emotionally detached from people and important causes;
+his hyperlinked life does not incite engagement. While Julius immerses him-
+self in works of art, which sometimes trigger strong emotions, his innumera-
+ble stories of human rights violations do not emotionally affect him. Julius
+renders them in an “affectless tone” (Vermeulen 2015: 91) and has no desire
+for agency or for taking on responsibility for the people in dire circumstances
+whom he encounters.
+It is with the help of ekphrasis that Cole is able to raise important socio-
+political issues. However, he goes far beyond the traditional antagonistic
+paradigm of media competition and the paragone. Instead, his ekphrastic aes-
+thetic investigates the collaboration of today’s media, that is, the interplay
+between literary text, the image, the Internet, social media, culture, and
+communication. What is more, the secondhand ekphrases of Cole’s trans-
+cultural African protagonist cannot be exclusively explained as postcolonial
+attempts at “re-writing colonial history.” Rather, they answer to today’s
+global accessibility and migration of images by combining material from a
+17. “About suffering they were never wrong,
+The old Masters: how well they understood
+Its human position: how it takes place
+While someone else is eating or opening a window or just walking dully along;
+. . .
+They never forgot
+That even the dreadful martyrdom must run its course
+Anyhow in a corner, some untidy spot”
+(Auden 1979 [1939]: 146 – 47).
+Rippl
+† The Cultural Work of Ekphrasis
+281
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 18 ──
+plethora of cultures, thus showcasing cultural interrelations, networks, and
+translations, while at the same time presenting a young hyperlinked male
+immigrant who cannot emotionally link up with the stories he has randomly
+collected.
+4. Conclusion: The Cultural-Critical Work of Ekphrasis Today
+The numerous ekphrases we have encountered in these three novels dem-
+onstrate that ekphrasis is a ubiquitous cultural phenomenon that has ex-
+panded with respect to the objects described—they are no longer restricted
+to the field of high art, but also cover photographs, postcards, TV pictures,
+and other images circulated by mass media. Recent Anglophone transcul-
+tural novels such as Bulawayo’s, Selasi’s, and Cole’s take an increasing inter-
+est in developing a new ekphrastic aesthetic. They are investigations in
+cultural history, mediascapes, and the arts, both highbrow and popular. In
+Bulawayo’s novel, it is the gaze of her protagonist Darling that allows readers
+to establish visual contact zones and transcultural spaces of comparison. The
+numerous abbreviated as well as extended ekphrases we have encountered
+demonstrate how ekphrasis is being “transcultured”: Bulawayo’s and Selasi’s
+migrant protagonists produce ekphrases of works of art that either merge
+African and European artistic modes and genres or present African artworks
+and artifacts such as batik painting and masks, which do not belong to the
+Western canon of ekphrastic literary writing and have thus not yet received
+much scholarly attention. Both Bulawayo and Selasi invite their readers to
+think about Western systems of cultural value, cultural hierarchies, and sym-
+bolic capital as well as spaces of translation and transculturation. In this sense
+their ekphrases are “ethical ekphrases” (Rippl 2015b) because they raise
+questions about hidden epistemologies and ideological agendas materializing
+in literary/artistic modes, genres, and canons. By investigating today’s word-
+image configurations, by renegotiating cultural hierarchies, and by hyper-
+linking and transculturating ekphrasis and thus opening up the ekphrastic
+literary canon, Bulawayo, Selasi, and Cole demonstrate that ekphrasis today
+serves a range of important epistemological, cultural-critical, ethical, and
+sociopolitical functions. Of course, ekphrasis can and has been (ab)used as
+a discourse of power based on binary thought and a politics of dualisms that
+denigrate the other. Yet it also has a transformative potential that allows for
+accommodating and renegotiating otherness, be it medial, ethnic, cultural,
+religious, or gender-related (see Neumann 2015; Neumann and Rippl 2018).
+282
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 19 ──
+References
+Achebe, Chinua
+2001 [1958] Things Fall Apart (London: Penguin).
+Adepegba, C. O.
+1995 Nigerian Art: Its Traditions and Modern Tendencies (Alakia/Ibadan: Jodad).
+Aspden, Peter
+2010 “Man in the News: Jonathan Franzen,” Financial Times, September 10, www.ft.com
+/cms/s/0/4c23c2a4– bd0d-11df-954b-00144feab49a.html?siteedition¼intl#axzz4J0EB5
+Ljj.
+Attia, Kader
+2014 Transformations (Leipzig: Spector).
+Auden, W. H.
+1979 [1939] “Muse´e des Beaux Arts.” In Collected Essays, edited by Edward Mendelson,
+146 – 47 (New York: Random House).
+Barnard, Rita
+2009 “Fictions of the Global,” Novel: A Forum on Fiction 42, no. 2: 207 – 15.
+Behluli, Sofie, and Gabriele Rippl
+2017 “Ekphrasis in the Digital Age,” Digitalita¨t und literarische Netz-Werke Antikanon 2: 131 – 76.
+Brosch, Renate
+2015 “Images in Narrative Literature: Cognitive Experience and Iconic Moments.” In
+Handbook of Intermediality, edited by Gabriele Rippl, 343 – 60 (Berlin: De Gruyter).
+2018 “Introduction,” Poetics Today 39, no. 2: 225 – 44.
+Bruhn, Siglind
+2000 Musical Ekphrasis. Composers Responding to Poetry and Painting (Hillsdale, NY: Pendragon).
+Bulawayo, NoViolet
+2014 We Need New Names (London: Vintage).
+Cole, Teju
+2011 Open City (New York: Random House).
+2014 [2007] Every Day Is for the Thief (New York: Random House).
+Do¨ring, Tobias
+2002 Caribbean-English Passages: Intertextuality in a Postcolonial Tradition (London: Routledge).
+Du Prey, Pierre de la Ruffinie`re
+1994 The Villas of Pliny: From Antiquity to Posterity (Chicago: University of Chicago Press).
+Egonwa, Osa D.
+2011 [1988] Nigerian Art: Introductory Notes (Sango/Ibadan: Ababa).
+Emery, Mary Lou
+2007 Modernism, the Visual, and Caribbean Literature (Cambridge: Cambridge University Press).
+Falola, Toyin, and Matthew M. Heaton
+2008 A History of Nigeria (Cambridge: Cambridge University Press).
+Hallemeier, Katherine
+2013 “Literary Cosmopolitanism in Teju Cole’s Every Day Is for the Thief and Open City,” Ariel:
+A Review of International English Literature 44, nos. 2 – 3: 239 – 50.
+Hallet, Wolfgang
+2009 “The Multimodal Novel: The Integration of Modes and Media in Novelistic Narra-
+tion.” In Narratology in the Age of Interdisciplinary Narrative Research, edited by Sandra Heinen
+and Roy Sommer, 129 – 53 (Berlin: De Gruyter).
+2014 “The Rise of the Multimodal Novel: Generic Change and Its Narratological Impli-
+cations.” In Storyworlds across Media: Towards a Media-Conscious Narratology, edited by Marie-
+Laure Ryan and Jan-Noe¨l Thon, 151 – 72 (Lincoln: University of Nebraska Press).
+2015 “A Methodology of Intermediality in Literary Studies.” In Handbook of Intermediality:
+Literature — Image — Sound — Music, edited by Gabriele Rippl, 605 – 18 (Berlin: De Gruyter).
+Rippl
+† The Cultural Work of Ekphrasis
+283
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 20 ──
+Hayles, N. Katherine
+2008 Electronic Literature. New Horizons for the Literary (Notre Dame: University of Notre Dame).
+Heffernan, James A. W.
+1993 The Museum of Words: The Poetics of Ekphrasis from Homer to Ashberry (Chicago: University of
+Chicago Press).
+2015 “Ekphrasis: Theory.” In Handbook of Intermediality: Literature — Image — Sound — Music,
+edited by Gabriele Rippl, 35 – 49 (Berlin: De Gruyter).
+Hustvedt, Siri
+2003 What I Loved (London: Hodder and Stoughton).
+2014 The Blazing World (New York: Simon and Schuster).
+Irr, Caren
+2014 Toward the Geopolitical Novel: U.S. Fiction in the Twenty-First Century (New York: Columbia
+University Press).
+Jha, Raj Kamal
+2007 Fireproof (London: Picador).
+Kafalenos, Emma
+2012 “The Polysemy of Looking: Reading Ekphrasis alongside Images in Calvino’s Castle of
+Crossed Destinies and Vargas Llosa’s In Praise of the Stepmother,” Poetics Today 33, no. 1: 27 – 57.
+Kennedy, David
+2012 The Ekphrastic Encounter in Contemporary British Poetry and Elsewhere (Farnham: Ashgate).
+2015 “Ekphrasis and Poetry.” In Handbook of Intermediality: Literature — Image — Sound — Music,
+edited by Gabriele Rippl, 82 – 91 (Berlin: De Gruyter).
+Klarer, Mario
+1999 “Introduction,” Word & Image 15, no. 1: 1 – 4.
+Loizeaux, Elizabeth Bergman
+2008 Twentieth-Century Poetry and the Visual Arts (Cambridge: Cambridge University Press).
+Louvel, Liliane
+2011 [1998] Poetics of the Iconotext, translated by Laurence Petit (Farnham: Ashgate).
+Mack, John
+2013 [1994] “African Masking.” In Masks. The Art of Expression, edited by John Mack, 32 – 55
+(London: The British Museum Press).
+Messud, Claire
+2011 “The Secret Sharer” (Review of Cole, Open City), The New York Review of Books 58, no. 12:
+25 – 27.
+Mitchell, W. J. T.
+1992 “Ekphrasis and the Other,” South Atlantic Quarterly 91, no. 3: 695 – 719.
+Neumann, Birgit
+2015 “Intermedial Negotiations: Postcolonial Literatures.” In Handbook of Intermediality: Lit-
+erature — Image — Sound — Music, edited by Gabriele Rippl, 512 – 29 (Berlin: De Gruyter).
+2016 “Postcolonial Ekphrasis and Counter-Visions in Derek Walcott’s Tiepolo’s Hound
+Contacts, Contests, and Translations,” Zeitschrift fu¨r Anglistik und Amerikanistik 64, no. 4:
+(forthcoming).
+Neumann, Birgit, and Gabriele Rippl
+2018 Intermedial Aesthetics: Verbal-Visual Configurations in Postcolonial Literature: (forthcoming).
+Rajewsky, Irina O.
+2002 Intermedialita¨t (Tu¨bingen: Francke).
+2005 “Intermediality, Intertextuality, and Remediation: A Literary Perspective on Interme-
+diality,” Interme´dialite´s 6: 43 – 64.
+2010 “Border Talks: The Problematic Status of Media Borders in the Current Debate about
+Intermediality.” In Media Borders, Multimodality, and Intermediality, edited by Lars Ellestro¨m,
+51 – 68 (Basingstoke: Palgrave Macmillan).
+284
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 21 ──
+Rippl, Gabriele
+2005 Beschreibungskunst: Zur intermedialen Poetik angloamerikanischer Ikontexte (1880 – 2000) (Munich:
+Fink).
+2010 “English Literature and Its Other: Towards a Poetics of Intermediality.” In Imagescapes:
+Studies in Intermediality, edited by Christian Emden and Gabriele Rippl, 39 – 65 (Oxford:
+Peter Lang).
+2015a “Introduction.” In Handbook of Intermediality: Literature — Image — Sound — Music, edited
+by Gabriele Rippl, 1 – 31 (Berlin: De Gruyter).
+2015b “Postcolonial Ekphrasis in the Contemporary Anglophone Indian Novel.” In Hand-
+book of Intermediality: Literature — Image — Sound — Music, edited by Gabriele Rippl, 128 – 55
+(Berlin: De Gruyter).
+Rippl, Gabriele, and Simone Winko
+2013 Metzler Handbuch Kanon und Wertung (Stuttgart: Metzler).
+Rushdie, Salman
+1991 Imaginary Homelands: Essays and Criticism 1981 – 1991 (London: Penguin).
+2008 The Enchantress of Florence (London: Random House).
+Selasi, Taiye
+2005 “Bye-Bye Barbar,” The LIP #5 AFRICA, March 3, http://thelip.robertsharp.co.uk
+/?p¼76.
+2013 Ghana Must Go (New York: Penguin).
+Tabbi, Joseph, and Michael Wutz
+1997 Reading Matters: Narrative in the New Media Ecology (Ithaca: Cornell University Press).
+Tartt, Donna
+2013 The Goldfinch (New York: Little, Brown and Company).
+Updike, John
+2002 Seek My Face (London: Hamish Hamilton).
+Vermeulen, Pieter
+2015 Contemporary Literature and the End of the Novel (Houndsmills/Basingstoke: Palgrave Mac-
+millan).
+Wasihun, Betiel
+2016 “Afropolitan Writing.” In Handbook of Transatlantic North American Studies, edited by Julia
+Straub, 391 – 410 (Berlin: De Gruyter).
+Webb, Ruth
+2009 Ekphrasis, Imagination, and Persuasion in Ancient Rhetorical Theory and Practice (Farnham:
+Ashgate).
+Wolf, Werner
+2005 “Intermediality.” In Routledge Encyclopedia of Narrative Theory, edited by David Herman,
+Manfred Jahn, and Marie-Laure Ryan, 252 – 56 (London: Routledge).
+Yacobi, Tamar
+1995 “Pictorial Models and Narrative Ekphrasis,” Poetics Today 16, no. 4: 599 – 649.
+1997 “Verbal Frames and Ekphrastic Figuration.” In Interart Poetics: Essays on the Interrelations of
+the Arts and Media, edited by Ulla-Britta Lagerroth, Hans Lund, and Erik Hedling, 35 – 46
+(Amsterdam: Rodopi).
+2013 “Ekphrastic Double Exposure and the Museum Book of Poetry,” Poetics Today 34, nos.
+1 – 2: 1 – 52.
+Rippl
+† The Cultural Work of Ekphrasis
+285
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/265/528860/0390265.pdf by Georgia Tech Library user on 26 December 2025

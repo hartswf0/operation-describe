@@ -1,0 +1,1077 @@
+# {AssetDropper
+# Source: Li et al. - 2025 - AssetDropper Asset Extraction via Diffusion Models with Reward-Driven Optimization.pdf
+# BibTeX key: li_assetdropper_2025
+# Zotero dir: 3290
+# Extracted chars: 55919
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+.
+.
+Latest updates: hps://dl.acm.org/doi/10.1145/3721238.3730731
+.
+.
+RESEARCH-ARTICLE
+AssetDropper: Asset Extraction via Diﬀusion Models with Reward-
+Driven Optimization
+LANJIONG LI, The Hong Kong University of Science and Technology (Guangzhou),
+Guangzhou, Guangdong, China
+.
+GUANHUA ZHAO, Peking University, Beijing, China
+.
+LINGTING ZHU, The University of Hong Kong, Hong Kong, Hong Kong
+.
+ZEYU CAI, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou,
+Guangdong, China
+.
+LEQUAN YU, The University of Hong Kong, Hong Kong, Hong Kong
+.
+JIAN ZHANG, Peking University, Beijing, China
+.
+View all
+.
+.
+Open Access Support provided by:
+.
+The Hong Kong University of Science and Technology (Guangzhou)
+.
+The University of Hong Kong
+.
+Peking University
+.
+PDF Download
+3721238.3730731.pdf
+14 January 2026
+Total Citations: 0
+Total Downloads: 2793
+.
+.
+Published: 10 August 2025
+.
+.
+Citation in BibTeX format
+.
+.
+SIGGRAPH Conference Papers '25:
+Special Interest Group on Computer
+Graphics and Interactive Techniques
+Conference Conference Papers
+August 10 - 14, 2025
+BC, Vancouver, Canada
+.
+.
+Conference Sponsors:
+SIGGRAPH
+SIGGRAPH Conference Papers '25: Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers (August 2025)
+hps://doi.org/10.1145/3721238.3730731
+ISBN: 9798400715402
+.
+
+
+── PAGE 2 ──
+AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven
+Optimization
+LANJIONG LI∗, The Hong Kong University of Science and Technology (Guangzhou), China
+GUANHUA ZHAO∗, Peking University, China
+LINGTING ZHU∗†, The University of Hong Kong, Hong Kong
+ZEYU CAI, The Hong Kong University of Science and Technology (Guangzhou), China
+LEQUAN YU, The University of Hong Kong, Hong Kong
+JIAN ZHANG, Peking University, China
+ZEYU WANG‡, The Hong Kong University of Science and Technology (Guangzhou), China and The Hong Kong University
+of Science and Technology, Hong Kong
+Used as a mockup for 2D images
+. . .
+Used as a texture for 3D models
+Fig. 1. The application scenarios of AssetDropper, a novel model designed to extract assets from user-specified image regions. The extracted assets can
+seamlessly be applied to various downstream tasks in design and visualization workflows, e.g., 2D mockup creation and 3D model texturing.
+Recent research on generative models has primarily focused on creating
+product-ready visual outputs; however, designers often favor access to stan-
+dardized asset libraries, a domain that has yet to be significantly enhanced
+by generative capabilities. Although open-world scenes provide ample raw
+∗Equal contribution
+†Project lead
+‡Corresponding author
+Authors’ Contact Information: Lanjiong Li, The Hong Kong University of Science
+and Technology (Guangzhou), Guangzhou, China, lli746@connect.hkust-gz.edu.cn;
+Guanhua Zhao, Peking University, School of Electronic and Computer Engineering,
+Shenzhen, China, 2301212814@stu.pku.edu.cn; Lingting Zhu, The University of Hong
+Kong, Hong Kong, Hong Kong, ltzhu99@connect.hku.hk; Zeyu Cai, The Hong Kong
+University of Science and Technology (Guangzhou), Guangzhou, China, zcai701@
+connect.hkust-gz.edu.cn; Lequan Yu, The University of Hong Kong, Hong Kong, Hong
+Kong, lqyu@hku.hk; Jian Zhang, Peking University, School of Electronic and Computer
+Engineering, Shenzhen, China, zhangjian.sz@pku.edu.cn; Zeyu Wang, The Hong Kong
+University of Science and Technology (Guangzhou), Guangzhou, China and The Hong
+Kong University of Science and Technology, Hong Kong, Hong Kong, zeyuwang@ust.
+hk.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+SIGGRAPH Conference Papers ’25, Vancouver, BC, Canada
+© 2025 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-1540-2/25/08
+https://doi.org/10.1145/3721238.3730731
+materials for designers, efficiently extracting high-quality, standardized as-
+sets remains a challenge. To address this, we introduce AssetDropper, the
+first generative framework designed to extract any asset from reference im-
+ages, providing artists with an open-world asset palette. Our model adeptly
+extracts a front view of selected subjects from input images, effectively han-
+dling complex scenarios such as perspective distortion and subject occlusion.
+We establish a synthetic dataset of more than 200,000 image-subject pairs
+and a real-world benchmark with thousands more for evaluation, facilitating
+the exploration of future research in downstream tasks. Furthermore, to
+ensure precise asset extraction that aligns well with the image prompts,
+we employ a pre-trained reward model to achieve a closed loop with feed-
+back. We design the reward model to perform an inverse task that pastes
+the extracted assets back into the reference sources, which assists training
+with additional consistency and mitigates hallucination. Extensive experi-
+ments show that, with the aid of reward-driven optimization, AssetDropper
+achieves the state-of-the-art results in asset extraction. Our code and dataset
+are available at https://github.com/Lanjiong-Li/AssetDropper.
+CCS Concepts: • Computing methodologies; • Artificial intelligence;
+Additional Key Words and Phrases: asset extraction, diffusion models, reward
+design, synthetic data
+ACM Reference Format:
+Lanjiong Li, Guanhua Zhao, Lingting Zhu, Zeyu Cai, Lequan Yu, Jian Zhang,
+and Zeyu Wang. 2025. AssetDropper: Asset Extraction via Diffusion Models
+with Reward-Driven Optimization. In Special Interest Group on Computer
+Graphics and Interactive Techniques Conference Conference Papers (SIGGRAPH
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 3 ──
+2
+•
+Lanjiong Li, Guanhua Zhao, Lingting Zhu, Zeyu Cai, Lequan Yu, Jian Zhang, and Zeyu Wang
+Conference Papers ’25), August 10–14, 2025, Vancouver, BC, Canada. ACM,
+New York, NY, USA, 11 pages. https://doi.org/10.1145/3721238.3730731
+1
+Introduction
+Generative methods, particularly those based on diffusion mod-
+els [Hertz et al. 2024; Ho et al. 2020; Liu et al. 2024a; Rombach et al.
+2022; Song et al. 2020; Tewel et al. 2024], have achieved remarkable
+success in translating the vivid imaginations of users into tangible
+visual outputs. However, much existing research has concentrated
+on producing ready-to-use visual outputs, assisted with control-
+lable branches that handle image prompts [Mou et al. 2024; Ye et al.
+2023; Zhang et al. 2023a]. Despite these advances, these methods
+fall short in meeting the practical needs of user-driven creation
+within real-world workflows. Standardized asset libraries support
+designers by providing versatile resources applicable across various
+fields, including advertising, game development, and educational
+content creation. However, integrating generative models with stan-
+dardized asset libraries remains an area under active exploration.
+Currently, if users wish to extract assets from real-world images
+for their subsequent design needs, they rely on traditional software
+tools like Photoshop for tasks such as image editing and segmenta-
+tion. This process is not only labor-intensive but also heavily reliant
+on the skills of the artist, often resulting in content of lower quality
+characterized by distortions and occlusions, as illustrated in Fig. 2.
+These issues necessitate time-consuming post-processing, under-
+scoring the need for more efficient and user-friendly asset extraction
+methods.
+Existing generative AI techniques fail to achieve effective asset
+extraction, primarily due to their limited control capabilities. While
+diffusion models enhanced with ControlNet [Zhang et al. 2023a] or
+IP-Adapter [Ye et al. 2023] can generate images aligned with spatial,
+style, or subject controls, such guidance remains insufficient for
+practical asset extraction, particularly in scenarios involving dis-
+tortions and occlusions commonly encountered in asset extraction
+tasks. An alternative approach is to frame asset extraction as an im-
+age editing problem, where the source image is modified to produce
+the desired content. Recent advances in universal generation meth-
+ods, such as InstructPix2Pix [Brooks et al. 2023] and OmniGen [Xiao
+et al. 2024], shed light on any-form image creation based on human
+instructions. However, their performance remains unsatisfactory
+for our specific tasks, underscoring the need for a tailored solution.
+We approach this task by developing a task-specific diffusion
+model tailored for asset extraction, which takes the source image
+and its corresponding mask as input. This is a relatively feasible
+and somewhat mature solution, as it builds upon a growing body
+of research in image customization [Chen et al. 2024a] and image-
+based virtual try-on (VTON) [Choi et al. 2021, 2024; Ge et al. 2021;
+Issenhuth et al. 2020; Morelli et al. 2023], which can be viewed as the
+inverse of our target task. While extensive engineering efforts can
+lead to promising results, the performance remains far from perfect,
+primarily due to two key challenges: 1) the inherent difficulty of the
+task, as the assets of interest may appear in arbitrary locations with
+varying distortions within the source image, and 2) the extracted as-
+set often fails to align with human intentions, partly due to the high
+randomness of the model and the lack of consistency regularization.
+Fig. 2. Illustration of the manual segmentation workflow. Users manually
+draw Bezier curves using the pen tool to segment the asset.
+Accordingly, we introduce several designs specifically tailored to
+address these two challenges. 1) The dataset issue is critical, as it
+significantly impacts the effectiveness and generalizability of the
+model. However, obtaining paired data of source images and their
+corresponding standardized assets is challenging and expensive.
+While we can repurpose VTON datasets by treating them as inverse
+tasks, they are limited to human clothing and fail to cover the diver-
+sity of standardized assets encountered in real-world scenarios. To
+address this, we developed a large-scale synthetic dataset including
+200k pairs of images and standardized assets. Specifically, we col-
+lected over 10k standardized assets and simulated a realistic lighting
+environment in Blender. To emulate various extraction scenarios,
+we projected these assets onto commonly used meshes from daily
+life and rendered images from multiple angles, thereby constructing
+a comprehensive paired dataset, assisted with VTON datasets for
+enhancing generalizability. 2) Aligning generative models with hu-
+man intentions is a key focus. Recent studies [Li et al. 2024; Liang
+et al. 2024] propose post-training approaches to fine-tune models
+to better align with human preferences. A major challenge in asset
+extraction is the lack of consistency, which can result in outputs that
+deviate significantly from expectations. To address this, we adopt a
+reward-driven optimization method to enhance consistency during
+model training. We hypothesize that an extracted asset is “good” if
+it can be seamlessly reattached to the source image using a mask,
+facilitated by another generative model. Our design is inspired by
+ControlNet++ [Li et al. 2024], which employs a discriminative model
+to improve condition consistency. However, a key distinction in our
+approach is the absence of a discriminative model. Instead, we first
+propose to use a generative model to provide feedback supervision,
+enabling more effective alignment with human intentions.
+This paper explores high-quality and high-fidelity asset extrac-
+tion from reference images, as illustrated in Fig. 1. Given a photo
+captured via a mobile device, users can instantly obtain a ready-to-
+use asset for their creative projects by simply selecting a region of
+interest. This approach offers a more efficient solution that seam-
+lessly integrates into real-world creation workflows. Drawing an
+analogy to the dropper tool in Photoshop, we name our method As-
+setDropper, reflecting its capability to extract desired assets directly
+from in-the-wild images.
+This paper makes the following contributions:
+• We propose the first generative framework, AssetDropper, to
+extract any asset with high quality and fidelity from reference
+images. Experimental results demonstrate that our method
+achieves state-of-the-art performance.
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 4 ──
+AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization
+•
+3
+C
+xr
+xm
+xe
+m
+y r,
+xa,0
+0
+y r, tc
+xa,t
+Fig. 3. Overview of the AssetDropper framework. For the input reference image 𝒙r, we obtain the asset’s mask 𝑚through Grounding DINO, and further
+obtain the masked image 𝒙m and the edge map 𝒙e of the asset through the mask. The corresponding standardized asset is denoted by 𝒙a. Networks with the
+same color represent the same model (blue for SDXL UNet, red for SDXL-Inpainting UNet). We first use FeatureNet, a UNet that encodes the low-level features
+of the input 𝒙r, 𝒎, and 𝒙e. We then use IP-Adapter to encode high-level semantics of the masked image 𝒙m. ExtractNet is the main UNet that serves as our
+generator, processing noisy data 𝒙a,𝑡. A detailed text prompt of the asset is provided by GPT-4o for both FeatureNet and ExtractNet, where [V] denotes the
+subject, e.g., “a surreal fusion of cherries and skulls, blending natural and macabre elements.” We train a model with the same architecture as AssetDropperNet
+to perform the inverse task, reattaching the extracted asset back to the reference image while masking the inpainted area. This model is then used as our
+pre-trained reward model.
+• We construct a Standardized Asset Palette Dataset and a
+benchmark for the asset extraction task, exploring a new
+AI-assisted workflow for user-driven creation.
+• We introduce a reward-driven optimization method for As-
+setDropper to enhance consistency and align the generated
+assets with human preferences. To the best of our knowledge,
+this is the first work to employ a generative model as the
+reward model for image-based diffusion models.
+2
+Related Work
+2.1
+Diffusion-Based Generative Models
+Diffusion models [Ho et al. 2020; Sohl-Dickstein et al. 2015; Song
+and Ermon 2019] have achieved great success in visual content
+generation. Although text-to-image (T2I) diffusion models possess
+powerful capabilities to generate high-quality images from text
+prompts, natural language inherently lacks the fine-grained control
+needed for detailed image synthesis. To address this limitation, var-
+ious methods have been proposed to integrate conditional control
+into T2I diffusion models [Chen et al. 2024b; Gal et al. 2022; Ho
+and Salimans 2022; Kumari et al. 2023; Qin et al. 2023; Wang et al.
+2024; Zhang et al. 2023a,b]. In this paper, we customize an image-
+conditioned diffusion model for extracting assets from reference
+images and demonstrate that it significantly enhances adaptability
+to real-world scenarios. This approach allows for more effective
+asset extraction that meets the specific requirements and variations
+encountered in practical applications.
+2.2
+Image-Based Virtual Try-On
+Virtual try-on technology focuses on generating realistic images of
+a target individual wearing a specific garment through image-based
+techniques. Early approaches like GAN-based virtual try-on [Choi
+et al. 2021; Ge et al. 2021; Lee et al. 2022; Xiel et al. 2023] utilize a two-
+stage strategy: first deforming the garment to conform to the target
+person’s body and then fusing the warped garment with the indi-
+vidual’s image using a try-on generator. These approaches, which
+often leverage dense flow maps [Zhou et al. 2016] for precise defor-
+mation and employ techniques such as normalization or distillation
+to address misalignment [Choi et al. 2021; Ge et al. 2021; Issenhuth
+et al. 2020], still face limitations when handling arbitrary human
+images with complex backgrounds or intricate poses. With the suc-
+cess of diffusion models in generative tasks [Ho et al. 2020; Lim et al.
+2023], recent research has increasingly resorted to these models for
+virtual try-on applications. For instance, TryOnDiffusion [Zhu et al.
+2023] utilizes two parallel UNet networks for garment transforma-
+tion, demonstrating the potential of diffusion models in this domain.
+Subsequent research has approached virtual try-on as an image
+inpainting problem based on examples [Yang et al. 2023]. These
+studies fine-tune inpainting diffusion models [Choi et al. 2024; Kim
+et al. 2024; Morelli et al. 2023] on virtual try-on datasets to generate
+high-quality images for virtual try-on applications. However, these
+methods still face challenges such as significant loss of spatial in-
+formation and inaccuracies in garment warping. These issues are
+consistent with the challenges faced in our asset extraction task,
+which requires the effective and precise handling of the spatial and
+geometric information of the objects from which the assets are
+extracted.
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 5 ──
+4
+•
+Lanjiong Li, Guanhua Zhao, Lingting Zhu, Zeyu Cai, Lequan Yu, Jian Zhang, and Zeyu Wang
+2.3
+Visual Reward Models
+Diffusion-based models are generally trained on extensive datasets,
+which endow them with robust generalization capabilities. However,
+to tailor these models to specific tasks or to meet precise human-
+centric requirements, post-training adjustments are often necessary.
+This process enables them to respond accurately to human-level
+instructions for versatile content generation [Brooks et al. 2023; Lin
+et al. 2024]. Beyond simple fine-tuning of existing and additional
+branches, methods that incorporate reward-based objectives are
+garnering significant attention [Black et al. 2023a; Liu et al. 2025;
+Prabhudesai et al. 2024; Xu et al. 2023]. Reward models, which pro-
+vide feedback through automated processes or based on human
+preferences, are increasingly used to evaluate how well the out-
+puts of generative models align with human expectations [Wu et al.
+2023; Xu et al. 2023]. The feedback scores from these models guide
+the generative processes toward producing outputs that exhibit
+higher quality and greater controllability. Additionally, pre-trained
+vision models are frequently employed as reward models [Black
+et al. 2023b; Li et al. 2024; Prabhudesai et al. 2024]. These models
+offer more granular and objective control targets, closely approxi-
+mating human feedback levels. In this paper, AssetDropper utilizes
+a diffusion-based reward model, which significantly enhances the
+quality and human-preferred aesthetics of the assets extracted, sur-
+passing the performance of the original model.
+3
+Methodology
+3.1
+Preliminaries
+Latent Diffusion Models (LDMs). The LDM [Rombach et al. 2022]
+operates as a two-stage diffusion framework that includes an autoen-
+coder E and a UNet-based noise predictor. The following formula
+can represent the optimization process:
+L = E𝒛𝑡,𝒄,𝑡,𝝐∼N(0,𝐼) (||𝝐−𝝐𝜽(𝒛𝑡,𝑡, 𝒄)||2
+2),
+(1)
+where 𝒛𝑡represents the noisy version of 𝒛0, the target data, at
+timestep 𝑡. 𝒄denotes the condition information, and 𝝐𝜽represents
+the noise prediction with condition 𝒄.
+Virtual Try-On. Virtual try-on [Choi et al. 2024; Zhu et al. 2023]
+involves two main components: a garment conditioning module and
+a person image synthesis module. The garment conditioning module
+encodes the garment information via simple layers or a parallel
+UNet branch, gathering the feature for injection. The person image
+synthesis module generates the final try-on image, with the guidance
+of human pose and garment feature. Normally the person image
+synthesis module is built upon UNet architecture and initialized
+with Stable Diffusion [Podell et al. 2023; Rombach et al. 2022] for
+strong generative priors. The denoising supervision (Formula 1)
+fine-tune and optimize the main components with the garment
+image and human information (e.g., human pose, body mask, and
+masked human image) as condition 𝒄. The virtual try-on framework,
+particularly the approach outlined in [Choi et al. 2024], can be re-
+targeted for our task and offer a promising foundation. In detail, we
+can use the garment conditioning module for attending source image
+information and also optimize SDXL backbone for synthesizing the
+asset image. We detail our problem formulation and tailored designs
+in the following sections.
+3.2
+Problem Formulation
+Given an image with a selected region indicating the asset to ex-
+tract, we aim to produce a standardized asset with high fidelity and
+quality. Previous work [Affara et al. 2016] attempted to extract only
+window assets from urban images using image rectification and seg-
+mentation algorithms. However, this method lacks generalizability
+and generative capability, and thus fails to meet the requirements of
+our problem setting. A key challenge that remains unaddressed is
+dealing with noise, primarily from distortion and occlusion, requir-
+ing a mapping from noisy images to standardized assets. Learning
+such a mapping from 2D data alone is highly challenging, and accu-
+rate 3D information is often unavailable. To address this, we design
+a principled solution, aided by data curation and reward-driven
+optimization to fulfill this task.
+Fig. 4. Pipeline of paired training data construction. We use High Dynamic
+Range Images (HDRI) to simulate the realistic ambient lighting, and then
+render images from virtual cameras sampled from the front hemisphere.
+3.2.1
+Dataset. Paired data is needed for asset extraction training.
+Our ultimate goal is to construct paired data consisting of real-
+world images and their corresponding standardized asset images.
+To achieve this, we first collected and generated over 10,000 stan-
+dardized asset images. Then, we created a scene in Blender with
+realistic environmental lighting through High Dynamic Range Im-
+ages (HDRI) and imported several commonly seen meshes in daily
+life. These include meshes with flat surfaces as well as those with
+curved surfaces of varying degrees. Using UV projection, we mapped
+the asset images onto these meshes. Finally, we rendered the real-
+world images from random angles, with the VTON dataset together
+forming a comprehensive dataset with 200,000 paired samples of
+real-world images and their corresponding standardized asset im-
+ages, called the Standardized Asset Palette Dataset (SAP). Fig. 4
+shows this process.
+3.2.2
+Benchmark. Given the lack of quantitative evaluation, it is
+imperative to establish a benchmark for asset extraction. To ensure
+reliable assessment, we collected a diverse set of images from open-
+source platforms and constructed data through synthetic methods,
+annotated with detailed text instructions and high-quality target
+masks. To cover different scenarios, our data consists of two types: 1)
+Real-World VTON dataset (SAP-Real), and 2) Synthetic dataset (SAP-
+Syn). The resulting SAP benchmark comprises a total of 212,557
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 6 ──
+AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization
+•
+5
+image-instruction-mask data samples. The dataset is further divided
+into two parts: the training set and the test set, which contain 191,301
+and 21,256 data samples, respectively. We trained our model on both
+SAP-Real and SAP-Syn to achieve better robustness. The test set
+is also split into SAP-Real and SAP-Syn to evaluate the model’s
+performance under different scenarios and conditions.
+3.3
+AssetDropperNet
+AssetDropperNet performs asset extraction from a source image
+with its corresponding mask. Its design is similar to preliminary
+virtual try-on systems using generative modeling techniques, but
+they aim at the opposite objectives. We denote 𝒙r as the reference
+image of the extracted asset, 𝒎as the mask of the asset region
+which is generated using GroundingDINO [Liu et al. 2024b], 𝒙e as
+the edge map of the extracted asset, and 𝒙a as the image of the
+asset. To better leverage the rich prior knowledge of text-to-image
+diffusion models, we introduce GPT-4o [OpenAI 2024] to provide
+captions that describe the details of the assets. Our primary goal is
+to estimate the asset 𝒙′a from the reference image 𝒙r. We treat asset
+extraction as an example-based image inpainting problem [Yang
+et al. 2023]. The components include:
+FeatureNet. We use the UNet in Stable Diffusion XL (SDXL) [Podell
+et al. 2023] as an encoder to extract low-level features of the asset.
+We concatenate the latent of three inputs, including: 1) 𝒙r, the source
+image, 2) the resized mask 𝒎of the asset region, and 3) the edge
+map 𝒙e of the asset. These latents are aligned in spatial dimensions
+and are concatenated in the channel axis. We inflate the input con-
+volutional layer of the UNet to six channels with a parameter copy.
+We pass the inputs through the frozen pre-trained UNet encoder to
+obtain the intermediate representation.
+Image Prompt Adapter. IP-Adapter [Ye et al. 2023] is used to cap-
+ture the high-level semantics of the asset. We extract features using
+the frozen CLIP image encoder [Ilharco et al. 2021] and fine-tune
+feature projection layers and cross-attention layers initialized with
+a pre-trained IP-Adapter. To accurately extract the features of the
+asset, we input the masked image 𝒙m = 𝒎⊙𝒙r into the IP-Adapter.
+ExtractNet. The SDXL-Inpainting UNet model serves as the main
+generator, producing the noise prediction of the extracted asset
+𝒚. The features extracted by FeatureNet are integrated with the
+self-attention layers of ExtractNet, while the cross-attention layers
+handle features from the IP-Adapter and the text prompt.
+In the training stage, the input of the ExtractNet is the latent asset
+E(𝒙a). Therefore, we adjust the convolutional layer of the UNet to
+four channels with a parameter copy for initialization.
+3.4
+Reward-Driven Optimization
+3.4.1
+Reward Model Design. Inspired by ControlNet++ [Li et al.
+2024], we aim to design a reward process to better align the gener-
+ated asset 𝒙a with the input reference image 𝒙r. Given the absence of
+a suitable existing model for additional supervision, it is necessary
+to design and implement a new reward model R. To begin with,
+an ideal model can be a feed-forward with single-step inference to
+perform the reverse task of our content extraction. However, both
+Fig. 5. Capability of our reward model. Our reward model reattaches the
+asset to the reference image within the masked area.
+GAN-based and single-step diffusion models fall short in perform-
+ing the task with robust and high-quality results. Consequently, we
+train a diffusion-based model tailored to generate the asset in the ref-
+erence image, akin to virtual try-on. Although this model achieves
+satisfactory results, its multi-step inference process renders it im-
+practical for end-to-end training within AssetDropper when used
+as a reward model. To address this, we employ several estimation
+techniques to enable feasible training using the inpainting network
+for reward guidance, which will be discussed in detail later in this
+section. Fig. 5 illustrates the effectiveness of our trained reward
+model in maintaining high fidelity and quality after reattaching the
+asset.
+Extract
+Net
+Single-Step Sampling
+2000
+4000
+6000
+Final Result
+Lreward
+Reward
+Model
+STEPS
+w/o
+xa,0
+xa,t
+xa,0
+Fig. 6. Visualization of the reward fine-tuning effects. The quality of the
+generated result improves over reward fine-tuning steps.
+3.4.2
+Efficient Reward Fine-Tuning Strategy. To achieve the pixel-
+space cycle consistency loss, we need to obtain the final output
+of the diffusion model, which requires multiple denoising steps.
+This introduces two potential issues: 1) The normal reverse process
+required in sampling makes training infeasible due to time and
+GPU memory consumption. 2) The reward model needs to provide
+effective supervision, indicating that the painting task cannot be
+overly challenging or simple. For the first issue, we adopt the same
+one-step efficient reward strategy as ControlNet++. The prediction
+of the AssetDropperNet is used to estimate a clean version of the
+asset image 𝒙′
+a,0, i.e., the input of the reward model. Fig. 6 illustrates
+this process. We can predict the clean image 𝒙′
+a,0 by performing
+single-step sampling given the input, i.e., the ground-truth data with
+sampled noise 𝒙a,𝑡:
+𝒙′
+a,0 = 𝒙a,𝑡−√1 −𝛼𝑡𝝐𝜽(𝒙a,𝑡, 𝒙r, 𝒎, 𝒙e, 𝒄,𝑡)
+√𝛼𝑡
+.
+(2)
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 7 ──
+6
+•
+Lanjiong Li, Guanhua Zhao, Lingting Zhu, Zeyu Cai, Lequan Yu, Jian Zhang, and Zeyu Wang
+For the second issue, the key idea is to control the noisy level of the
+input data, including the asset and the masked reference image. For
+the estimated clean asset, which is the output of AssetDropperNet,
+as this estimation is lossy, we only include the reward loss when the
+timestep 𝑡of the AssetDropperNet is small enough, i.e., 𝑡≤𝑡thres,
+unless the image is blurry and the task of inpainting is too difficult.
+For the reference image, as the noise can be controlled to produce the
+noisy version image of a proper noise level, we select the timestep
+𝑡c, with trials. As the diffusion-based InpaintNet requires a reverse
+process for sampling, we also predict the clean reference image 𝑦′
+r,0
+with estimation by performing single-step sampling:
+𝒚′
+r,0 =
+𝒚r,𝑡c −√︁1 −𝛼𝑡c 𝝐𝜽(𝒚r,𝑡c, 𝒙′
+a,0, 𝒎, 𝒄,𝑡c)
+√𝛼𝑡c
+.
+(3)
+We can then calculate the pixel-space cycle consistency loss with
+the estimated output 𝒚′
+r,0 and the original reference image 𝒙r:
+Lreward = L(𝒙r,𝒚′
+r,0) = L(𝒙r, R(𝒙′
+a,0,𝒚r,𝑡c)).
+(4)
+We integrate the reward loss with the original diffusion training
+loss Ltrain:
+Ltotal =
+(
+Ltrain + 𝜆· Lreward,
+if 𝑡≤𝑡thres,
+Ltrain,
+otherwise.
+(5)
+4
+Experiments
+We evaluate AssetDropper with both synthetic data and real-world
+images across various scenarios. We introduce the implementation
+details and experimental setup in Sec. 4.1 and present the main
+comparison in Sec. 4.2 and Sec. 4.3. Finally, we show results of
+ablation studies and user studies in Sec. 4.4.
+4.1
+Experimental Setup
+4.1.1
+Implementation Details. We first train AssetDropperNet and
+the reward model separately, both using a learning rate of 1 × 10−6
+and a batch size of 8 for 120 epochs. It takes 80 hours to train each
+model on eight A800 GPUs. When fine-tuning AssetDropperNet
+with the reward model, we use a learning rate of 1 × 10−7 and
+a batch size of 1, training for 20,000 steps on eight A800 GPUs
+in 2 hours. During reward fine-tuning, we set the 𝑡thres to 300 for
+AssetDropperNet’s input. In addition, we set 𝜆to 1.0 and add noise to
+the reference image input of the reward model with a fixed timestep
+𝑡𝑐= 150. We achieve the best results by tuning 𝑡thres and 𝜆. When
+these values are too small, the reward has no optimization effect;
+when they are too large, the generated images collapse. We also
+find that performing some preprocessing on the input images may
+improves the output quality, such as enlarging the target region or
+applying super-resolution.
+4.1.2
+Baselines. We compare our method with a wide range of pos-
+sible solutions for the asset extraction task. An ideal solution would
+employ universal generative models that follow human instructions,
+e.g., InstructPix2Pix [Brooks et al. 2023] and OmniGen [Xiao et al.
+2024]. We include OmniGen in our comparison to demonstrate the
+limitations of current omni-generation methods for our task. An-
+other approach, akin to human manipulation processes, involves
+using novel view generation models such as Zero123++ [Shi et al.
+Fig. 7. Qualitative comparison with OmniGen and Zero123++. The prompt
+used in OmniGen is “The pattern in <img><|Reference Image|></img> is
+painted on a whiteboard.” We use Zero123++ to generate multiple additional
+perspectives of the reference image and select the frontal view. Then, we
+utilize SAM to extract the asset portions from the results of Zero123++ to
+obtain the visualization results.
+2023] to produce front-view images, coupled with segmentation
+models like SAM [Kirillov et al. 2023] to extract the subject. Further-
+more, we also compare with other popular Image-to-Image frame-
+works and fine-tune them for our task. Specifically, we fine-tune
+InstructPix2Pix [Brooks et al. 2023], and adapter-based fine-tuned
+models for controllable generation, ControlNet [Zhang et al. 2023a]
+and T2I-Adapter [Mou et al. 2024]. All three approaches were fine-
+tuned on the SAP training dataset using the pre-trained weights of
+SDXL for a fair comparison, with a consistent image resolution of
+512 × 512 for all output.
+4.1.3
+Evaluation Metrics. To perform a comprehensive quantita-
+tive evaluation, we assessed high-level semantic similarity between
+generated images and reference images by utilizing the CLIP image
+similarity score [Radford et al. 2021]. Additionally, to rigorously
+evaluate the photorealism of the generated images, we computed
+the Fréchet Inception Distance (FID) [Heusel et al. 2017] and Kernel
+Inception Distance (KID) [Bińkowski et al. 2018] scores. The metric
+measures FID on the 299×299 center-cropped patches of each image
+to evaluate high-resolution details. We calculate these metrics on
+1,000 samples from both the SAP-Syn and SAP-Real test datasets.
+These scores indicate the visual quality and diversity of generated
+images compared to real-world distributions.
+4.2
+Qualitative Comparison
+We compare our method with the general visual generation model
+OmniGen [Xiao et al. 2024] and the novel view synthesis model
+Zero123++ [Shi et al. 2023]. As shown in Fig. 7, OmniGen can follow
+editing instructions but struggles with fine-grained comprehension,
+resulting in inaccuracies in asset extraction. Zero123++, on the other
+hand, suffers from low resolution in novel view generation, leading
+to blurrier outputs when SAM is used for asset extraction.
+As shown in Fig. 10 and Fig. 11, we compare the visualization
+results of our method with other approaches to the SAP-Syn and
+SAP-Real datasets. T2I-Adapter captures asset outlines but struggles
+with color accuracy and structural consistency, leading to distortions.
+ControlNet achieves better edge precision but fails to reproduce
+vibrant colors and fine details. InstructPix2Pix performs poorly in
+this task, producing blurry, distorted results and unwanted textures
+outside the asset. In contrast, our method without the reward mech-
+anism better preserves overall shape and structure but lacks color
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 8 ──
+AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization
+•
+7
+Table 1. Quantitative comparison of different methods evaluated on the SAP-Syn (synthetic data) and SAP-Real (real-world data) datasets.
+Method
+Dataset
+FID ↓
+KID ↓
+CLIP-I ↑
+T2I-Adapter
+SAP-Syn
+106.19
+0.0274
+0.9164
+InstructPix2Pix
+142.24
+0.0590
+0.8966
+ControlNet
+105.09
+0.0300
+0.9141
+Ours w/o Reward & w/o Edge map
+62.41
+0.0019
+0.9707
+Ours w/o Reward & w/ Edge map
+60.33
+0.0017
+0.9634
+Ours w/ Reward & w/ Edge map
+50.36
+0.0016
+0.9729
+T2I-Adapter
+SAP-Real
+96.12
+0.0278
+0.9164
+InstructPix2Pix
+132.75
+0.0592
+0.8970
+ControlNet
+93.68
+0.0312
+0.9150
+Ours w/o Reward & w/o Edge map
+49.78
+0.0015
+0.9625
+Ours w/o Reward & w/ Edge map
+49.48
+0.0014
+0.9639
+Ours w/ Reward & w/ Edge map
+48.71
+0.0013
+0.9673
+fidelity and detail. With the reward mechanism, our method signifi-
+cantly improves in both color and detail restoration, outperforming
+all baselines and demonstrating the effectiveness of our reward
+design. Furthermore, our approach generalizes well to generated
+images, as shown on 2D and multiview 3D data from FLUX [Labs
+2023] and MV-Adapter [Huang et al. 2024].
+4.3
+Quantitative Comparison
+As shown in Tab. 1, our method outperforms other image-to-image
+methods across all evaluation metrics. For the SAP-Syn dataset, our
+method achieves an FID score of 60.33 without reward and 50.36
+with reward, significantly lower than T2I-Adapter, InstructPix2Pix,
+and ControlNet. Similarly, for the SAP-Real dataset, our method
+achieves an FID score of 49.48 without reward and 48.71 with reward,
+again outperforming the other methods. These results demonstrate
+the superiority of our method in generating high-quality images
+with better alignment to the target attributes.
+User Study Results with Actual Error Bars
+Methods
+Consistency and Quality
+T2I
+0
+1
+2
+3
+4
+4.22
+4.37
+4.65
+4.42
+IP2P
+Scores
+ControlNet
+Ours w/o
+Ours w/
+5
+1.86
+1.18
+2.13
+1.68
+1.04
+2.31
+Consistency
+Quality
+Fig. 8. Result of our user study. Among all methods, ours w/ achieves the
+highest scores in both consistency and quality, demonstrating its superior
+overall performance.
+AI Generated Content
+Our Results
+Fig. 9. Applications of AssetDropper across different scenarios. The first
+two images are 2D images generated by FLUX, while the third image is
+one view selected from 3D multi-view images generated by MV-Adapter. In
+these scenarios, our model can still complete the task with high quality.
+4.4
+Analysis
+4.4.1
+Ablation Study. We conduct an ablation study to evaluate the
+impact of the reward model and the use of edge maps in AssetDrop-
+perNet. We adopt FID scores, KID scores, and image similarity scores
+as evaluation metrics. As shown in Tab. 1, incorporating edge maps
+during training and applying the reward strategy in post-training
+both lead to noticeable improvements in performance. Fig. 10 and
+Fig. 11 present the qualitative results with and without the reward
+model, further demonstrating that the reward model plays a critical
+role in enhancing the performance of AssetDropperNet, particularly
+in preserving the fidelity of complex assets.
+4.4.2
+User Study. To evaluate the performance of our proposed
+method, we conduct a comprehensive user study focusing on two
+key aspects: 1) the consistency between the generated images and
+the reference images, and 2) the perceived quality of the generated
+images. We recruited 25 participants for the user study. Each partic-
+ipant evaluated the outputs of different methods on a shared set of
+10 image groups, where higher scores indicate better performance.
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 9 ──
+8
+•
+Lanjiong Li, Guanhua Zhao, Lingting Zhu, Zeyu Cai, Lequan Yu, Jian Zhang, and Zeyu Wang
+As shown in Fig. 8, our model achieves much higher user prefer-
+ences in maintaining the consistency and quality of generated assets
+compared to baseline approaches.
+5
+CONCLUSION
+This paper has presented AssetDropper, a novel diffusion model
+framework for asset extraction, particularly in in-the-wild scenarios.
+To tackle challenges like generalization, distortions, and occlusions,
+we incorporate two key components: dataset curation and reward-
+driven optimization, both tailored for asset extraction. Extensive
+experiments across diverse datasets demonstrate that our approach
+preserves asset details and generates high-fidelity images. We fur-
+ther showcase its potential in real-world settings, highlighting its
+practical applicability and effectiveness. However, our model may
+struggle with severe occlusions or views where excessive infor-
+mation is lost. Future work includes leveraging temporal priors
+from video models to further enhance the quality and investigating
+broader applications.
+Acknowledgments
+We thank Qianxi Liu for assisting with figure creation and for
+the valuable feedback. We thank Yifu Technology (Guangzhou)
+Co., Ltd for providing part of the dataset. This work was partially
+supported by Guangzhou Basic Research Scheme #2024A04J4229,
+Guangzhou Industrial Information and Intelligent Key Laboratory
+Project #2024A03J0628, the Research Grants Council of Hong Kong
+(C5055-24G and T45-401/22-N), and the National Natural Science
+Foundation of China (No. 62201483).
+References
+Lama Affara, Liangliang Nan, Bernard Ghanem, and Peter Wonka. 2016. Large Scale
+Asset Extraction for Urban Images. In Computer Vision – ECCV 2016, Bastian Leibe,
+Jiri Matas, Nicu Sebe, and Max Welling (Eds.). Springer International Publishing,
+Cham, 437–452.
+Mikołaj Bińkowski, Danica J Sutherland, Michael Arbel, and Arthur Gretton. 2018.
+Demystifying MMD Gans. arXiv preprint arXiv:1801.01401 (2018).
+Kevin Black, Michael Janner, Yilun Du, Ilya Kostrikov, and Sergey Levine. 2023a. Train-
+ing Diffusion Models with Reinforcement Learning. arXiv preprint arXiv:2305.13301
+(2023).
+Kevin Black, Michael Janner, Yilun Du, Ilya Kostrikov, and Sergey Levine. 2023b. Train-
+ing Diffusion Models with Reinforcement Learning. arXiv preprint arXiv:2305.13301
+(2023).
+Tim Brooks, Aleksander Holynski, and Alexei A. Efros. 2023. Instructpix2pix: Learning
+to Follow Image Editing Instructions. In 2023 IEEE/CVF Conference on Computer
+Vision and Pattern Recognition (CVPR). 18392–18402. doi:10.1109/CVPR52729.2023.
+01764
+Minghao Chen, Iro Laina, and Andrea Vedaldi. 2024b. Training-Free Layout Control
+with Cross-Attention Guidance. In 2024 IEEE/CVF Winter Conference on Applications
+of Computer Vision (WACV). 5331–5341. doi:10.1109/WACV57701.2024.00526
+Xi Chen, Lianghua Huang, Yu Liu, Yujun Shen, Deli Zhao, and Hengshuang Zhao.
+2024a. AnyDoor: Zero-Shot Object-Level Image Customization. In 2024 IEEE/CVF
+Conference on Computer Vision and Pattern Recognition (CVPR). 6593–6602. doi:10.
+1109/CVPR52733.2024.00630
+Seunghwan Choi, Sunghyun Park, Minsoo Lee, and Jaegul Choo. 2021. Viton-Hd:
+High-Resolution Virtual Try-on via Misalignment-Aware Normalization. In 2021
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 14126–
+14135. doi:10.1109/CVPR46437.2021.01391
+Yisol Choi, Sangkyung Kwak, Kyungmin Lee, Hyungwon Choi, and Jinwoo Shin.
+2024.
+Improving Diffusion Models for Authentic Virtual Try-on in the Wild.
+arXiv:2403.05139 [cs.CV] https://arxiv.org/abs/2403.05139
+Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H Bermano, Gal Chechik,
+and Daniel Cohen-Or. 2022. An Image Is Worth One Word: Personalizing Text-to-
+Image Generation Using Textual Inversion. arXiv preprint arXiv:2208.01618 (2022).
+Yuying Ge, Yibing Song, Ruimao Zhang, Chongjian Ge, Wei Liu, and Ping Luo. 2021.
+Parser-Free Virtual Try-on via Distilling Appearance Flows. In 2021 IEEE/CVF Con-
+ference on Computer Vision and Pattern Recognition (CVPR). 8481–8489. doi:10.1109/
+CVPR46437.2021.00838
+Amir Hertz, Andrey Voynov, Shlomi Fruchter, and Daniel Cohen-Or. 2024. Style Aligned
+Image Generation via Shared Attention. In 2024 IEEE/CVF Conference on Computer
+Vision and Pattern Recognition (CVPR). 4775–4785. doi:10.1109/CVPR52733.2024.
+00457
+Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp
+Hochreiter. 2017. Gans Trained by a Two Time-Scale Update Rule Converge to a
+Local Nash Equilibrium. In Proceedings of the 31st International Conference on Neural
+Information Processing Systems (Long Beach, California, USA) (NIPS’17). Curran
+Associates Inc., Red Hook, NY, USA, 6629–6640.
+Jonathan Ho, Ajay Jain, and Pieter Abbeel. 2020. Denoising Diffusion Probabilistic
+Models. In Proceedings of the 34th International Conference on Neural Information
+Processing Systems (Vancouver, BC, Canada) (NIPS ’20). Curran Associates Inc., Red
+Hook, NY, USA, Article 574, 12 pages.
+Jonathan Ho and Tim Salimans. 2022. Classifier-Free Diffusion Guidance. arXiv preprint
+arXiv:2207.12598 (2022).
+Zehuan Huang, Yuan-Chen Guo, Haoran Wang, Ran Yi, Lizhuang Ma, Yan-Pei Cao,
+and Lu Sheng. 2024. MV-Adapter: Multi-View Consistent Image Generation Made
+Easy. arXiv preprint arXiv:2412.03632 (2024).
+Gabriel Ilharco, Mitchell Wortsman, Nicholas Carlini, Rohan Taori, Achal Dave, Vaishaal
+Shankar, Hongseok Namkoong, John Miller, Hannaneh Hajishirzi, Ali Farhadi, and
+Ludwig Schmidt. 2021. OpenCLIP. doi:10.5281/zenodo.5143773
+Thibaut Issenhuth, Jérémie Mary, and Clément Calauzènes. 2020. Do Not Mask What
+You Do Not Need to Mask: A Parser-Free Virtual Try-on. In Computer Vision –
+ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings,
+Part XX (Glasgow, United Kingdom). Springer-Verlag, Berlin, Heidelberg, 619–635.
+doi:10.1007/978-3-030-58565-5_37
+Jeongho Kim, Gyojung Gu, Minho Park, Sunghyun Park, and Jaegul Choo. 2024. Stable
+VITON: Learning Semantic Correspondence with Latent Diffusion Model for Virtual
+Try-On. In 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR). 8176–8185. doi:10.1109/CVPR52733.2024.00781
+Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura
+Gustafson, Tete Xiao, Spencer Whitehead, Alexander C. Berg, Wan-Yen Lo, Piotr Dol-
+lár, and Ross Girshick. 2023. Segment Anything. In 2023 IEEE/CVF International Con-
+ference on Computer Vision (ICCV). 3992–4003. doi:10.1109/ICCV51070.2023.00371
+Nupur Kumari, Bingliang Zhang, Richard Zhang, Eli Shechtman, and Jun-Yan Zhu.
+2023. Multi-Concept Customization of Text-to-Image Diffusion. In 2023 IEEE/CVF
+Conference on Computer Vision and Pattern Recognition (CVPR). 1931–1941. doi:10.
+1109/CVPR52729.2023.00192
+Black Forest Labs. 2023. FLUX. https://github.com/black-forest-labs/flux.
+Sangyun Lee, Gyojung Gu, Sunghyun Park, Seunghwan Choi, and Jaegul Choo. 2022.
+High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Condi-
+tions. In Computer Vision – ECCV 2022: 17th European Conference, Tel Aviv, Israel,
+October 23–27, 2022, Proceedings, Part XVII (Tel Aviv, Israel). Springer-Verlag, Berlin,
+Heidelberg, 204–219. doi:10.1007/978-3-031-19790-1_13
+Ming Li, Taojiannan Yang, Huafeng Kuang, Jie Wu, Zhaoning Wang, Xuefeng Xiao, and
+Chen Chen. 2024. ControlNet++: Improving Conditional Controls with Efficient
+Consistency Feedback. In Computer Vision – ECCV 2024: 18th European Confer-
+ence, Milan, Italy, September 29–October 4, 2024, Proceedings, Part VII (Milan, Italy).
+Springer-Verlag, Berlin, Heidelberg, 129–147. doi:10.1007/978-3-031-72667-5_8
+Youwei Liang, Junfeng He, Gang Li, Peizhao Li, Arseniy Klimovskiy, Nicholas Carolan,
+Jiao Sun, Jordi Pont-Tuset, Sarah Young, Feng Yang, Junjie Ke, Krishnamurthy Dj
+Dvijotham, Katherine M. Collins, Yiwen Luo, Yang Li, Kai J Kohlhoff, Deepak Ra-
+machandran, and Vidhya Navalpakkam. 2024. Rich Human Feedback for Text-to-
+Image Generation. In 2024 IEEE/CVF Conference on Computer Vision and Pattern
+Recognition (CVPR). 19401–19411. doi:10.1109/CVPR52733.2024.01835
+Sungbin Lim, Eunbi Yoon, Taehyun Byun, Taewon Kang, Seungwoo Kim, Kyungjae Lee,
+and Sungjoon Choi. 2023. Score-Based Generative Modeling Through Stochastic
+Differential Equations. In Proceedings of the 37th International Conference on Neural
+Information Processing Systems (New Orleans, LA, USA) (NIPS ’23). Curran Associates
+Inc., Red Hook, NY, USA, Article 1645, 14 pages.
+Weifeng Lin, Xinyu Wei, Renrui Zhang, Le Zhuo, Shitian Zhao, Siyuan Huang, Junlin Xie,
+Yu Qiao, Peng Gao, and Hongsheng Li. 2024. PixWizard: Versatile Image-to-Image
+Visual Assistant with Open-Language Instructions. arXiv preprint arXiv:2409.15278
+(2024).
+Chang Liu, Haoning Wu, Yujie Zhong, Xiaoyun Zhang, Yanfeng Wang, and Weidi Xie.
+2024a. Intelligent Grimm - Open-ended Visual Storytelling via Latent Diffusion
+Models. In 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR). 6190–6200. doi:10.1109/CVPR52733.2024.00592
+Shilong Liu, Zhaoyang Zeng, Tianhe Ren, Feng Li, Hao Zhang, Jie Yang, Qing Jiang,
+Chunyuan Li, Jianwei Yang, Hang Su, Jun Zhu, and Lei Zhang. 2024b. Grounding
+DINO: Marrying DINO with Grounded Pre-training for Open-Set Object Detection.
+In Computer Vision – ECCV 2024: 18th European Conference, Milan, Italy, September
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 10 ──
+AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization
+•
+9
+29–October 4, 2024, Proceedings, Part XLVII (Milan, Italy). Springer-Verlag, Berlin,
+Heidelberg, 38–55. doi:10.1007/978-3-031-72970-6_3
+Tao Liu, Huafeng Kuang, and Xianming Lin. 2025. Aligning Text-to-Image Models Using
+Human Feedback. In ICASSP 2025 - 2025 IEEE International Conference on Acoustics,
+Speech and Signal Processing (ICASSP). 1–5. doi:10.1109/ICASSP49660.2025.10888279
+Davide Morelli, Alberto Baldrati, Giuseppe Cartella, Marcella Cornia, Marco Bertini,
+and Rita Cucchiara. 2023. LaDI-VTON: Latent Diffusion Textual-Inversion Enhanced
+Virtual Try-On. In Proceedings of the 31st ACM International Conference on Multime-
+dia (Ottawa ON, Canada) (MM ’23). Association for Computing Machinery, New
+York, NY, USA, 8580–8589. doi:10.1145/3581783.3612137
+Chong Mou, Xintao Wang, Liangbin Xie, Yanze Wu, Jian Zhang, Zhongang Qi, and
+Ying Shan. 2024. T2I-Adapter: Learning Adapters to Dig Out More Controllable
+Ability for Text-to-Image Diffusion Models. In Proceedings of the AAAI Conference
+on Artificial Intelligence, Vol. 38. 4296–4304.
+OpenAI. 2024. Hello GPT-4o. https://openai.com/index/hello-gpt-4o/, 2024a. (2024).
+Dustin Podell, Zion English, Kyle Lacey, Andreas Blattmann, Tim Dockhorn, Jonas
+Müller, Joe Penna, and Robin Rombach. 2023. SDXL: Improving Latent Diffusion
+Models for High-Resolution Image Synthesis. arXiv preprint arXiv:2307.01952 (2023).
+Mihir Prabhudesai, Anirudh Goyal, Deepak Pathak, and Katerina Fragkiadaki.
+2024. Aligning Text-to-Image Diffusion Models with Reward Backpropagation.
+arXiv:2310.03739 [cs.CV] https://arxiv.org/abs/2310.03739
+Can Qin, Shu Zhang, Ning Yu, Yihao Feng, Xinyi Yang, Yingbo Zhou, Huan Wang,
+Juan Carlos Niebles, Caiming Xiong, Silvio Savarese, Stefano Ermon, Yun Fu, and Ran
+Xu. 2023. Unicontrol: A Unified Diffusion Model for Controllable Visual Generation
+in the Wild. In Proceedings of the 37th International Conference on Neural Information
+Processing Systems (New Orleans, LA, USA) (NIPS ’23). Curran Associates Inc., Red
+Hook, NY, USA, Article 1862, 32 pages.
+Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini
+Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, et al. 2021.
+Learning Transferable Visual Models from Natural Language Supervision. In Inter-
+national conference on machine learning. PMLR, 8748–8763.
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer.
+2022. High-Resolution Image Synthesis with Latent Diffusion Models. In 2022
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 10674–
+10685. doi:10.1109/CVPR52688.2022.01042
+Ruoxi Shi, Hansheng Chen, Zhuoyang Zhang, Minghua Liu, Chao Xu, Xinyue Wei,
+Linghao Chen, Chong Zeng, and Hao Su. 2023. Zero123++: A Single Image to
+Consistent Multi-View Diffusion Base Model. arXiv preprint arXiv:2310.15110 (2023).
+Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, and Surya Ganguli.
+2015. Deep Unsupervised Learning Using Nonequilibrium Thermodynamics. In
+Proceedings of the 32nd International Conference on International Conference on
+Machine Learning - Volume 37 (Lille, France) (ICML’15). JMLR.org, 2256–2265.
+Jiaming Song, Chenlin Meng, and Stefano Ermon. 2020. Denoising Diffusion Implicit
+Models. arXiv preprint arXiv:2010.02502 (2020).
+Yang Song and Stefano Ermon. 2019. Generative Modeling by Estimating Gradients of
+the Data Distribution. Curran Associates Inc., Red Hook, NY, USA.
+Yoad Tewel, Omri Kaduri, Rinon Gal, Yoni Kasten, Lior Wolf, Gal Chechik, and Yuval
+Atzmon. 2024. Training-Free Consistent Text-to-Image Generation. ACM Trans.
+Graph. 43, 4, Article 52 (July 2024), 18 pages. doi:10.1145/3658157
+Xudong Wang, Trevor Darrell, Sai Saketh Rambhatla, Rohit Girdhar, and Ishan Misra.
+2024. Instancediffusion: Instance-Level Control for Image Generation. In 2024
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 6232–6242.
+doi:10.1109/CVPR52733.2024.00596
+Xiaoshi Wu, Yiming Hao, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, and Hong-
+sheng Li. 2023. Human Preference Score v2: A Solid Benchmark for Evaluating
+Human Preferences of Text-to-Image Synthesis. arXiv preprint arXiv:2306.09341
+(2023).
+Shitao Xiao, Yueze Wang, Junjie Zhou, Huaying Yuan, Xingrun Xing, Ruiran Yan,
+Shuting Wang, Tiejun Huang, and Zheng Liu. 2024. OmniGen: Unified Image
+Generation. arXiv preprint arXiv:2409.11340 (2024).
+Zhenyu Xiel, Zaiyu Huang, Xin Dong, Fuwei Zhao, Haoye Dong, Xijin Zhang, Feida
+Zhu, and Xiaodan Liang. 2023. GP-VTON: Towards General Purpose Virtual Try-On
+via Collaborative Local-Flow Global-Parsing Learning. In 2023 IEEE/CVF Conference
+on Computer Vision and Pattern Recognition (CVPR). 23550–23559. doi:10.1109/
+CVPR52729.2023.02255
+Jiazheng Xu, Xiao Liu, Yuchen Wu, Yuxuan Tong, Qinkai Li, Ming Ding, Jie Tang, and
+Yuxiao Dong. 2023. ImageReward: Learning and Evaluating Human Preferences
+for Text-to-Image Generation. In Proceedings of the 37th International Conference on
+Neural Information Processing Systems (New Orleans, LA, USA) (NIPS ’23). Curran
+Associates Inc., Red Hook, NY, USA, Article 700, 33 pages.
+Binxin Yang, Shuyang Gu, Bo Zhang, Ting Zhang, Xuejin Chen, Xiaoyan Sun, Dong
+Chen, and Fang Wen. 2023. Paint by Example: Exemplar-Based Image Editing with
+Diffusion Models. In 2023 IEEE/CVF Conference on Computer Vision and Pattern
+Recognition (CVPR). 18381–18391. doi:10.1109/CVPR52729.2023.01763
+Hu Ye, Jun Zhang, Sibo Liu, Xiao Han, and Wei Yang. 2023. Ip-Adapter: Text Com-
+patible Image Prompt Adapter for Text-to-Image Diffusion Models. arXiv preprint
+arXiv:2308.06721 (2023).
+Lvmin Zhang, Anyi Rao, and Maneesh Agrawala. 2023a. Adding Conditional Control
+to Text-to-Image Diffusion Models. In 2023 IEEE/CVF International Conference on
+Computer Vision (ICCV). 3813–3824. doi:10.1109/ICCV51070.2023.00355
+Tianjun Zhang, Yi Zhang, Vibhav Vineet, Neel Joshi, and Xin Wang. 2023b. Controllable
+Text-to-Image Generation with GPT-4. arXiv preprint arXiv:2305.18583 (2023).
+Tinghui Zhou, Shubham Tulsiani, Weilun Sun, Jitendra Malik, and Alexei A Efros. 2016.
+View Synthesis by Appearance Flow. In Computer Vision–ECCV 2016: 14th European
+Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part IV
+14. Springer, 286–301.
+Luyang Zhu, Dawei Yang, Tyler Zhu, Fitsum Reda, William Chan, Chitwan Saharia,
+Mohammad Norouzi, and Ira Kemelmacher-Shlizerman. 2023. TryOnDiffusion: A
+Tale of Two UNets. In 2023 IEEE/CVF Conference on Computer Vision and Pattern
+Recognition (CVPR). 4606–4615. doi:10.1109/CVPR52729.2023.00447
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 11 ──
+10
+•
+Lanjiong Li, Guanhua Zhao, Lingting Zhu, Zeyu Cai, Lequan Yu, Jian Zhang, and Zeyu Wang
+Fig. 10. Qualitative results in SAP real-world test dataset. Other methods can only roughly preserve the semantics of the reference image but fail to maintain
+consistency. In contrast, our method maintains a high level of consistency, achieving the goal of asset extraction.
+Fig. 11. Qualitative comparison in SAP synthetic test dataset. For the synthetic test dataset, we selected three different meshes corresponding to three varying
+levels of surface curvature. Similar as the results on SAP-Real, our method achieves asset extraction results that are close to the ground truth.
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.
+
+
+── PAGE 12 ──
+AssetDropper: Asset Extraction via Diffusion Models with Reward-Driven Optimization
+•
+11
+Fig. 12. Qualitative results on in-the-wild images. For each image block, the first row is the input reference image, and the second row is the output of
+AssetDropper.
+SIGGRAPH Conference Papers ’25, August 10–14, 2025, Vancouver, BC, Canada.

@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WorldText Reader — OPERATION DESCRIBE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ══ THEME TOKENS ══════════════════════════════════════════════════ */
+:root {
+  /* Light mode */
+  --bg:           #f7f5f1;
+  --bg-paper:     #fffffe;
+  --surface:      #f0ede8;
+  --surface2:     #e9e6e0;
+  --border:       #ddd9d2;
+  --border-light: #edeae5;
+  --text:         #2c2926;
+  --text-mid:     #6b6560;
+  --text-dim:     #a09890;
+  --text-bright:  #1a1714;
+  --accent:       #8b5e3c;
+  --accent-soft:  #f0e8df;
+  --link-wiki:       #1756a0;
+  --link-wiki-bg:    #deeaf8;
+  --link-wiki-line:  #1756a0;
+  --link-src:        #5a6878;
+  --link-src-bg:     #eaedf1;
+  --shadow:          rgba(0,0,0,0.06);
+
+  /* species hues (work on both modes) */
+  --c-world:          #b5633a;
+  --c-synthesis:      #7c52c0;
+  --c-entity:         #2d6a8a;
+  --c-concept:        #4a8a3a;
+  --c-bridge:         #8a7a2a;
+  --c-distinction:    #2a8a80;
+  --c-conflict:       #8a2a3d;
+  --c-threshold:      #8a6020;
+  --c-atmosphere:     #6a8a20;
+  --c-ritual:         #2a408a;
+  --c-epoch:          #8a4a20;
+  --c-place:          #2a8a50;
+  --c-galaxy:         #8a6a10;
+  --c-system:         #702ab5;
+  --c-constellation:  #1a7aa8;
+  --c-fragment:       #a05520;
+  --c-taxonomy:       #1a9040;
+  --c-question:       #9a1a40;
+  --c-flow:           #408a20;
+  --c-memory:         #1a6a50;
+  --c-region:         #7a5020;
+  --c-scene:          #502a9a;
+  --c-infrastructure: #1a6a8a;
+  --c-governance:     #6a6a10;
+  --c-source:         #5a5a6a;
+  --c-cosmology:      #8a6a10;
+}
+
+[data-theme="dark"] {
+  --bg:           #0f1013;
+  --bg-paper:     #14161c;
+  --surface:      #1a1d24;
+  --surface2:     #22262f;
+  --border:       #2e333d;
+  --border-light: #252930;
+  --text:         #ccc8be;
+  --text-mid:     #7a7570;
+  --text-dim:     #55524e;
+  --text-bright:  #ece8e0;
+  --accent:       #c49a65;
+  --accent-soft:  #2a2218;
+  --link-wiki:       #5aaae8;
+  --link-wiki-bg:    #17273a;
+  --link-wiki-line:  #5aaae8;
+  --link-src:        #7a8898;
+  --link-src-bg:     #1e2530;
+  --shadow:          rgba(0,0,0,0.3);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ══ TOPBAR ══════════════════════════════════════════════════════════ */
+#topbar {
+  height: 46px;
+  background: var(--bg-paper);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  gap: 12px;
+  flex-shrink: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3px var(--shadow);
+}
+
+.logo {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+#breadcrumb {
+  flex: 1;
+  font-size: 12px;
+  color: var(--text-dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#breadcrumb .bc-section { color: var(--text-dim); }
+#breadcrumb .bc-sep { color: var(--border); }
+#breadcrumb .bc-current { color: var(--text); font-weight: 500; }
+
+.tb-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  transition: all 0.12s;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  color: var(--text-mid);
+  letter-spacing: 0.01em;
+}
+.tb-btn:hover { background: var(--surface); color: var(--text); }
+
+#double-bar-btn {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  font-weight: 600;
+}
+#double-bar-btn:hover {
+  background: var(--accent);
+  color: var(--bg-paper);
+}
+
+#theme-btn {
+  font-size: 14px;
+  padding: 5px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-mid);
+  transition: all 0.12s;
+}
+#theme-btn:hover { background: var(--surface2); }
+
+/* ══ LAYOUT ══════════════════════════════════════════════════════════ */
+#main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* ══ LEFT SIDEBAR ════════════════════════════════════════════════════ */
+#sidebar {
+  width: 240px;
+  min-width: 240px;
+  background: var(--bg-paper);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: width 0.2s, min-width 0.2s, opacity 0.2s;
+}
+#sidebar.collapsed { width: 0; min-width: 0; opacity: 0; pointer-events: none; border-right: none; }
+
+#search-box {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+#search {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 6px 10px 6px 28px;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.15s;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 9px center;
+}
+#search:focus { border-color: var(--accent); }
+#search::placeholder { color: var(--text-dim); }
+
+#nav { flex: 1; overflow-y: auto; padding: 6px 0 20px; }
+#nav::-webkit-scrollbar { width: 3px; }
+#nav::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.sec-head {
+  padding: 10px 12px 3px;
+  font-family: 'Inter', sans-serif;
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+.sec-head:hover { color: var(--text-mid); }
+.sec-head .arrow { transition: transform 0.15s; font-size: 8px; }
+.sec-head.coll .arrow { transform: rotate(-90deg); }
+
+.sec-items { }
+.sec-items.hidden { display: none; }
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px 4px 14px;
+  cursor: pointer;
+  transition: background 0.09s;
+  color: var(--text-mid);
+  font-size: 12px;
+  line-height: 1.3;
+  border-left: 2px solid transparent;
+}
+.nav-item:hover { background: var(--surface); color: var(--text); }
+.nav-item.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-left-color: var(--accent);
+  font-weight: 500;
+}
+.nav-item .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; opacity: 0.7; }
+.nav-item.active .dot { opacity: 1; }
+.nav-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+
+/* ══ READER CENTER ════════════════════════════════════════════════════ */
+#reader-wrap {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background: var(--bg);
+  min-width: 0;
+}
+
+#reader {
+  width: 100%;
+  max-width: 740px;
+  overflow-y: auto;
+  padding: 48px 44px 100px;
+}
+#reader::-webkit-scrollbar { width: 4px; }
+#reader::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+/* ── MARKDOWN ── */
+#content {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 19.5px;
+  line-height: 1.72;
+  color: var(--text);
+}
+
+#content h1 {
+  font-size: 30px; font-weight: 500; color: var(--text-bright);
+  margin-bottom: 4px; line-height: 1.18; letter-spacing: -0.015em;
+}
+#content h2 {
+  font-size: 20px; font-weight: 500; color: var(--text-bright);
+  margin: 38px 0 12px; padding-bottom: 7px;
+  border-bottom: 1px solid var(--border);
+}
+#content h3 {
+  font-size: 17px; font-weight: 400; font-style: italic; color: var(--text-bright);
+  margin: 26px 0 8px;
+}
+#content h4 {
+  font-family: 'Inter', sans-serif; font-size: 10.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim);
+  margin: 22px 0 6px;
+}
+#content p { margin-bottom: 15px; }
+#content strong { color: var(--text-bright); font-weight: 500; }
+#content em { font-style: italic; }
+#content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+
+#content a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1.5px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  transition: all 0.12s;
+}
+#content a:hover {
+  border-bottom-color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+/* ── WIKI-LINKS: internal navigation ────────────────────────────── */
+#content a.wl {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.84em;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--link-wiki);
+  text-decoration: none;
+  background: var(--link-wiki-bg);
+  border: 1px solid color-mix(in srgb, var(--link-wiki) 35%, transparent);
+  border-radius: 4px;
+  padding: 1px 7px 2px 5px;
+  margin: 0 1px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: baseline;
+  position: relative;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+#content a.wl:hover {
+  background: var(--link-wiki);
+  color: #fff;
+  border-color: var(--link-wiki);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--link-wiki) 30%, transparent);
+}
+
+/* source-links: citation style (greyer, more compact) */
+#content a.wl.wl-src {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72em;
+  font-weight: 400;
+  color: var(--link-src);
+  background: var(--link-src-bg);
+  border-color: color-mix(in srgb, var(--link-src) 30%, transparent);
+  padding: 1px 6px 2px;
+  letter-spacing: -0.01em;
+}
+#content a.wl.wl-src:hover {
+  background: var(--link-src);
+  color: #fff;
+  border-color: var(--link-src);
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--link-src) 30%, transparent);
+}
+
+/* missing links: visible but clearly broken */
+#content .wl-missing {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82em;
+  font-weight: 400;
+  color: var(--text-dim);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--text-dim) 50%, transparent);
+  opacity: 0.7;
+  cursor: not-allowed;
+  background: var(--surface2);
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin: 0 1px;
+}
+
+#content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 4px 0 4px 20px;
+  margin: 20px 0;
+  color: var(--text-mid);
+  font-style: italic;
+}
+#content blockquote strong { color: var(--text); font-style: normal; }
+
+#content code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1px 5px;
+  color: var(--accent);
+}
+#content pre {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 18px 20px;
+  overflow-x: auto;
+  margin: 18px 0;
+}
+#content pre code { background: none; border: none; padding: 0; font-size: 12px; color: var(--text-mid); }
+
+#content ul, #content ol { margin: 10px 0 10px 22px; }
+#content li { margin-bottom: 5px; }
+#content li > p { margin-bottom: 4px; }
+
+#content table {
+  width: 100%; border-collapse: collapse;
+  margin: 20px 0; font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-paper);
+  border-radius: 6px; overflow: hidden;
+  border: 1px solid var(--border);
+}
+#content th {
+  text-align: left; padding: 9px 14px;
+  background: var(--surface);
+  color: var(--text-bright); font-weight: 600;
+  font-size: 10.5px; letter-spacing: 0.07em; text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+}
+#content td { padding: 8px 14px; border-bottom: 1px solid var(--border-light); vertical-align: top; }
+#content tr:last-child td { border-bottom: none; }
+
+.species-badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 3px 9px; border-radius: 20px;
+  margin-bottom: 18px;
+  border: 1px solid;
+}
+
+/* ── PAGE FOOTER / NAV ── */
+.page-footer {
+  margin-top: 56px; padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex; align-items: center; gap: 16px;
+  flex-wrap: wrap;
+}
+.page-footer a {
+  font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--accent); text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  padding: 5px 12px; border-radius: 4px;
+  background: var(--accent-soft);
+  transition: all 0.12s;
+}
+.page-footer a:hover { background: var(--accent); color: var(--bg-paper); border-color: var(--accent); }
+.page-footer .path {
+  font-family: 'JetBrains Mono', monospace; font-size: 10px;
+  color: var(--text-dim); margin-left: auto;
+}
+
+/* ── EMPTY STATE ── */
+#empty-state {
+  text-align: center; padding: 80px 40px;
+  max-width: 480px; margin: 0 auto;
+}
+#empty-state h2 {
+  font-family: 'EB Garamond', serif; font-size: 26px; font-weight: 400;
+  margin-bottom: 10px; color: var(--text);
+}
+#empty-state p {
+  font-family: 'EB Garamond', serif; font-size: 16px; color: var(--text-mid);
+}
+#empty-state .stats {
+  display: flex; justify-content: center; gap: 20px;
+  margin: 24px 0; flex-wrap: wrap;
+}
+#empty-state .stat {
+  font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim);
+}
+#empty-state .stat span { display: block; font-size: 22px; font-family: 'EB Garamond', serif; color: var(--accent); margin-bottom: 2px; letter-spacing: 0; }
+#empty-state .epigraph { margin-top: 40px; font-style: italic; opacity: 0.6; font-size: 15px; line-height: 1.6; }
+#empty-state .hint { margin-top: 20px; font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--text-dim); letter-spacing: 0.08em; }
+
+/* ══ RIGHT PANEL: CONNECTIONS ═════════════════════════════════════════ */
+#connections {
+  width: 260px;
+  min-width: 260px;
+  background: var(--bg-paper);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: width 0.2s, min-width 0.2s;
+}
+#connections.collapsed { width: 0; min-width: 0; border-left: none; }
+
+#conn-header {
+  padding: 12px 14px 10px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  display: flex; align-items: center; justify-content: space-between;
+}
+#conn-header h3 {
+  font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim);
+}
+#conn-toggle-btn {
+  background: none; border: none; cursor: pointer;
+  color: var(--text-dim); font-size: 13px; padding: 1px 4px;
+  border-radius: 3px; transition: all 0.1s;
+}
+#conn-toggle-btn:hover { background: var(--surface2); color: var(--text); }
+
+#conn-body { flex: 1; overflow-y: auto; padding: 10px 0 20px; }
+#conn-body::-webkit-scrollbar { width: 3px; }
+#conn-body::-webkit-scrollbar-thumb { background: var(--border); }
+
+.conn-section { padding: 0 14px; margin-bottom: 18px; }
+.conn-section-label {
+  font-family: 'Inter', sans-serif; font-size: 9px; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--text-dim); margin-bottom: 7px;
+  display: flex; align-items: center; gap: 6px;
+}
+.conn-section-label .conn-count {
+  background: var(--surface2); border-radius: 9px;
+  padding: 1px 6px; font-size: 9px;
+}
+
+.conn-item {
+  display: flex; align-items: flex-start; gap: 7px;
+  padding: 5px 6px; margin: 1px 0;
+  cursor: pointer; border-radius: 4px;
+  transition: background 0.1s;
+  border: 1px solid transparent;
+}
+.conn-item:hover { background: var(--surface); border-color: var(--border-light); }
+.conn-item .c-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  flex-shrink: 0; margin-top: 5px;
+}
+.conn-item .c-info { flex: 1; min-width: 0; }
+.conn-item .c-label {
+  font-size: 11.5px; color: var(--text); line-height: 1.3;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.conn-item .c-species {
+  font-size: 9px; color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.06em;
+}
+.conn-item .c-arrow {
+  font-size: 9px; color: var(--text-dim); flex-shrink: 0; margin-top: 5px;
+}
+.conn-item:hover .c-arrow { color: var(--accent); }
+
+.conn-empty { padding: 10px 6px; font-size: 11px; color: var(--text-dim); font-style: italic; }
+
+/* backlink indicator */
+.bl-pill {
+  font-size: 9px; font-family: 'JetBrains Mono', monospace;
+  background: var(--surface2); border-radius: 3px; padding: 1px 4px;
+  color: var(--text-dim); letter-spacing: 0.04em;
+}
+
+/* loading spinner inline */
+.loading-spinner {
+  display: inline-block; width: 10px; height: 10px;
+  border: 1.5px solid var(--border); border-top-color: var(--accent);
+  border-radius: 50%; animation: spin 0.7s linear infinite;
+  vertical-align: middle;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ══ HISTORY OVERLAY ══════════════════════════════════════════════════ */
+#history-overlay {
+  display: none; position: fixed; inset: 0; z-index: 200;
+  background: rgba(0,0,0,0.3); backdrop-filter: blur(2px);
+  align-items: center; justify-content: center;
+}
+#history-overlay.open { display: flex; }
+#history-modal {
+  background: var(--bg-paper); border: 1px solid var(--border);
+  border-radius: 10px; box-shadow: 0 12px 40px var(--shadow);
+  width: 380px; max-height: 68vh; display: flex; flex-direction: column;
+  overflow: hidden;
+}
+#history-modal h3 {
+  padding: 16px 18px 12px;
+  font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+}
+#history-modal h3 button {
+  background: none; border: none; cursor: pointer; color: var(--text-dim);
+  font-size: 15px; transition: color 0.1s;
+}
+#history-modal h3 button:hover { color: var(--text); }
+#history-list { overflow-y: auto; padding: 8px 0; }
+.h-item {
+  padding: 7px 18px; cursor: pointer; font-size: 13px;
+  color: var(--text-mid); border-left: 3px solid transparent;
+  transition: all 0.1s; display: flex; align-items: center; gap: 8px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.h-item:hover { background: var(--surface); color: var(--text); }
+.h-item .h-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+
+/* ══ READING PROGRESS ═════════════════════════════════════════════════ */
+#progress-bar {
+  height: 2px; background: var(--accent);
+  position: fixed; top: 46px; left: 0; z-index: 99;
+  transition: width 0.1s; width: 0%;
+}
+</style>
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<!-- ─── TOPBAR ─────────────────────────────────────────────────── -->
+<div id="topbar">
+  <div class="logo">Operation Describe · WorldText</div>
+  <div id="breadcrumb"><span class="bc-section">select a page</span></div>
+  <div style="display:flex;gap:6px;align-items:center;flex-shrink:0">
+    <button class="tb-btn" onclick="toggleSidebar()">☰ Index</button>
+    <button class="tb-btn" onclick="openHistory()">↩ History</button>
+    <button class="tb-btn" onclick="toggleConnections()" id="conn-btn">⟶ Links</button>
+    <button id="theme-btn" onclick="toggleTheme()" title="Toggle light/dark">☀</button>
+    <a class="tb-btn" id="double-bar-btn" href="double-bar.html" target="_blank">⬛ Double-Bar</a>
+  </div>
+</div>
+
+<!-- ─── MAIN ───────────────────────────────────────────────────── -->
+<div id="main">
+
+  <!-- LEFT SIDEBAR -->
+  <div id="sidebar">
+    <div id="search-box">
+      <input id="search" type="text" placeholder="Search pages… (press /)">
+    </div>
+    <div id="nav"></div>
+  </div>
+
+  <!-- CENTER READER -->
+  <div id="reader-wrap">
+    <div id="reader">
+      <div id="empty-state">
+        <h2>WorldText Reader</h2>
+        <div class="stats">
+          <div class="stat"><span>374</span>Pages</div>
+          <div class="stat"><span>26</span>Species</div>
+          <div class="stat"><span>708</span>Sources</div>
+          <div class="stat"><span>26</span>Bridges</div>
+        </div>
+        <p class="epigraph">"To describe was once to stand outside and look in.<br>Now to describe is to generate,<br>and to generate is to describe."</p>
+        <div class="hint">← choose a page from the index · / to search</div>
+      </div>
+      <div id="content" style="display:none"></div>
+    </div>
+  </div>
+
+  <!-- RIGHT PANEL: CONNECTIONS -->
+  <div id="connections">
+    <div id="conn-header">
+      <h3>Connections</h3>
+      <button id="conn-toggle-btn" onclick="toggleConnections()">✕</button>
+    </div>
+    <div id="conn-body">
+      <div style="padding:20px 14px;font-size:11px;color:var(--text-dim);font-style:italic;text-align:center;">
+        Open a page to see its linkage network.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── HISTORY MODAL ─────────────────────────────────────────── -->
+<div id="history-overlay" onclick="closeHistory(event)">
+  <div id="history-modal">
+    <h3>Reading History <button onclick="closeHistoryModal()">✕</button></h3>
+    <div id="history-list"></div>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════════════
+// COSMOS INDEX
+// ══════════════════════════════════════════════════════════════════
+const SECTIONS = [
+  { key:'cosmology', label:'Cosmology', color:'var(--c-cosmology)', pages:[
+    {slug:'README',path:'worldtext/README.md',label:'README'},
+    {slug:'cosmology',path:'worldtext/cosmology.md',label:'Cosmology'},
+    {slug:'atlas',path:'worldtext/atlas.md',label:'Atlas'},
+    {slug:'chronicle',path:'worldtext/chronicle.md',label:'Chronicle'},
+  ]},
+  { key:'syntheses', label:'Syntheses', color:'var(--c-synthesis)', pages:[
+    {slug:'imagetext-to-worldtext-synthesis',path:'worldtext/syntheses/imagetext-to-worldtext-synthesis.md',label:'Imagetext to Worldtext'},
+    {slug:'description-has-always-been-inference',path:'worldtext/syntheses/description-has-always-been-inference.md',label:'Description Has Always Been Inference'},
+    {slug:'rosetta-stone',path:'worldtext/syntheses/rosetta-stone.md',label:'The Rosetta Stone'},
+    {slug:'kiki-or-bouba',path:'worldtext/syntheses/kiki-or-bouba.md',label:'Kiki or Bouba'},
+    {slug:'thick-prompt',path:'worldtext/syntheses/thick-prompt.md',label:'The Thick Prompt'},
+    {slug:'four-strata',path:'worldtext/syntheses/four-strata.md',label:'Four Strata'},
+    {slug:'thick-description-of-diffusion',path:'worldtext/syntheses/thick-description-of-diffusion.md',label:'Thick Description of Diffusion'},
+    {slug:'thick-description-of-operative-ekphrasis',path:'worldtext/syntheses/thick-description-of-operative-ekphrasis.md',label:'Thick Description of Operative Ekphrasis'},
+    {slug:'cohen-case-thick-description',path:'worldtext/syntheses/cohen-case-thick-description.md',label:'The Cohen Case'},
+    {slug:'grandmother-cells-and-enargeia',path:'worldtext/syntheses/grandmother-cells-and-enargeia.md',label:'Grandmother Cells & Enargeia'},
+    {slug:'punishment-of-marsyas',path:'worldtext/syntheses/punishment-of-marsyas.md',label:'Punishment of Marsyas'},
+    {slug:'assemblage-problem',path:'worldtext/syntheses/assemblage-problem.md',label:'The Assemblage Problem'},
+    {slug:'finding-light-in-dark-matter',path:'worldtext/syntheses/finding-light-in-dark-matter.md',label:'Finding Light in Dark Matter'},
+    {slug:'politics-of-the-threshold',path:'worldtext/syntheses/politics-of-the-threshold.md',label:'Politics of the Threshold'},
+    {slug:'citation-network',path:'worldtext/syntheses/citation-network.md',label:'Citation Network'},
+    {slug:'dark-matter-audit',path:'worldtext/syntheses/dark-matter-audit.md',label:'Dark Matter Audit'},
+    {slug:'synthesis-initial-compilation',path:'worldtext/syntheses/synthesis-initial-compilation.md',label:'Initial Compilation'},
+    {slug:'worldtype-verification',path:'worldtext/syntheses/worldtype-verification.md',label:'World-Type Verification'},
+    {slug:'placeholder-audit',path:'worldtext/syntheses/placeholder-audit.md',label:'Placeholder Audit'},
+  ]},
+  { key:'worlds', label:'Worlds', color:'var(--c-world)', pages:[
+    {slug:'world-operative-ekphrasis',path:'worldtext/worlds/world-operative-ekphrasis.md',label:'Operative Ekphrasis'},
+    {slug:'world-classical-ekphrasis',path:'worldtext/worlds/world-classical-ekphrasis.md',label:'Classical Ekphrasis'},
+    {slug:'world-thick-description',path:'worldtext/worlds/world-thick-description.md',label:'Thick Description'},
+    {slug:'world-prompt-craft',path:'worldtext/worlds/world-prompt-craft.md',label:'Prompt Craft'},
+    {slug:'world-latent-space',path:'worldtext/worlds/world-latent-space.md',label:'Latent Space'},
+    {slug:'world-intermediality',path:'worldtext/worlds/world-intermediality.md',label:'Intermediality'},
+    {slug:'world-shield-of-achilles',path:'worldtext/worlds/world-shield-of-achilles.md',label:'Shield of Achilles'},
+    {slug:'world-world-models',path:'worldtext/worlds/world-world-models.md',label:'World Models'},
+    {slug:'world-digital-poetics',path:'worldtext/worlds/world-digital-poetics.md',label:'Digital Poetics'},
+    {slug:'world-academic-ekphrasis',path:'worldtext/worlds/world-academic-ekphrasis.md',label:'Academic Ekphrasis'},
+    {slug:'world-embodied-description',path:'worldtext/worlds/world-embodied-description.md',label:'Embodied Description'},
+    {slug:'world-oral-formulaic-generation',path:'worldtext/worlds/world-oral-formulaic-generation.md',label:'Oral-Formulaic Generation'},
+    {slug:'world-thin-research',path:'worldtext/worlds/world-thin-research.md',label:'Thin Research'},
+    {slug:'world-latent-wrestling',path:'worldtext/worlds/world-latent-wrestling.md',label:'Latent Wrestling'},
+  ]},
+  { key:'concepts', label:'Concepts', color:'var(--c-concept)', pages:[
+    {slug:'concept-worldtext',path:'worldtext/concepts/concept-worldtext.md',label:'Worldtext'},
+    {slug:'concept-imagetext',path:'worldtext/concepts/concept-imagetext.md',label:'Imagetext'},
+    {slug:'concept-platform-realism',path:'worldtext/concepts/concept-platform-realism.md',label:'Platform Realism'},
+    {slug:'concept-viscosity',path:'worldtext/concepts/concept-viscosity.md',label:'Viscosity'},
+    {slug:'concept-abundance',path:'worldtext/concepts/concept-abundance.md',label:'Abundance'},
+    {slug:'concept-seamless-vs-exposed',path:'worldtext/concepts/concept-seamless-vs-exposed.md',label:'Seamless vs. Exposed'},
+    {slug:'concept-text-as-control-signal',path:'worldtext/concepts/concept-text-as-control-signal.md',label:'Text as Control Signal'},
+    {slug:'concept-context-stack',path:'worldtext/concepts/concept-context-stack.md',label:'Context Stack'},
+    {slug:'concept-bio-inference',path:'worldtext/concepts/concept-bio-inference.md',label:'Bio-Inference'},
+    {slug:'concept-latent-third',path:'worldtext/concepts/concept-latent-third.md',label:'Latent Third'},
+    {slug:'concept-pictorial-third',path:'worldtext/concepts/concept-pictorial-third.md',label:'Pictorial Third'},
+    {slug:'concept-reactive-ekphrasis',path:'worldtext/concepts/concept-reactive-ekphrasis.md',label:'Reactive Ekphrasis'},
+    {slug:'concept-science-of-describing',path:'worldtext/concepts/concept-science-of-describing.md',label:'Science of Describing'},
+    {slug:'concept-synthetic-camera',path:'worldtext/concepts/concept-synthetic-camera.md',label:'Synthetic Camera'},
+  ]},
+  { key:'bridges', label:'Bridges', color:'var(--c-bridge)', pages:[
+    {slug:'bridge-phantasia-to-latent-space',path:'worldtext/bridges/bridge-phantasia-to-latent-space.md',label:'Phantasia → Latent Space'},
+    {slug:'bridge-synesthesia-to-multimodal-embedding',path:'worldtext/bridges/bridge-synesthesia-to-multimodal-embedding.md',label:'Synesthesia → Multimodal Embedding'},
+    {slug:'bridge-context-window-to-thick-description',path:'worldtext/bridges/bridge-context-window-to-thick-description.md',label:'Context Window → Thick Description'},
+    {slug:'bridge-misrepresentation-to-hallucination',path:'worldtext/bridges/bridge-misrepresentation-to-hallucination.md',label:'Misrepresentation → Hallucination'},
+    {slug:'bridge-paragone-to-alignment',path:'worldtext/bridges/bridge-paragone-to-alignment.md',label:'Paragone → Alignment'},
+    {slug:'bridge-progymnasmata-to-prompts',path:'worldtext/bridges/bridge-progymnasmata-to-prompts.md',label:'Progymnasmata → Prompts'},
+    {slug:'bridge-distant-writing-to-digital-ekphrasis',path:'worldtext/bridges/bridge-distant-writing-to-digital-ekphrasis.md',label:'Distant Writing → Digital Ekphrasis'},
+    {slug:'bridge-co-prompting-to-ekphrastic-performance',path:'worldtext/bridges/bridge-co-prompting-to-ekphrastic-performance.md',label:'Co-Prompting → Ekphrastic Performance'},
+    {slug:'bridge-assemblage-to-training-data',path:'worldtext/bridges/bridge-assemblage-to-training-data.md',label:'Assemblage → Training Data'},
+    {slug:'bridge-unknowing-to-diffusion',path:'worldtext/bridges/bridge-unknowing-to-diffusion.md',label:'Unknowing → Diffusion'},
+  ]},
+  { key:'entities', label:'Entities', color:'var(--c-entity)', pages:[
+    {slug:'entity-mitchell',path:'worldtext/entities/entity-mitchell.md',label:'W. J. T. Mitchell'},
+    {slug:'entity-heffernan',path:'worldtext/entities/entity-heffernan.md',label:'James Heffernan'},
+    {slug:'entity-geertz',path:'worldtext/entities/entity-geertz.md',label:'Clifford Geertz'},
+    {slug:'entity-bajohr',path:'worldtext/entities/entity-bajohr.md',label:'Hannes Bajohr'},
+    {slug:'entity-watson-hartsoe',path:'worldtext/entities/entity-watson-hartsoe.md',label:'Watson Hartsoe'},
+    {slug:'entity-jay-bolter',path:'worldtext/entities/entity-jay-bolter.md',label:'Jay David Bolter'},
+    {slug:'entity-homer',path:'worldtext/entities/entity-homer.md',label:'Homer'},
+    {slug:'entity-webb',path:'worldtext/entities/entity-webb.md',label:'Ruth Webb'},
+    {slug:'entity-krieger',path:'worldtext/entities/entity-krieger.md',label:'Murray Krieger'},
+    {slug:'entity-cluver',path:'worldtext/entities/entity-cluver.md',label:'Claus Clüver'},
+    {slug:'entity-louvel',path:'worldtext/entities/entity-louvel.md',label:'Liliane Louvel'},
+    {slug:'entity-bal',path:'worldtext/entities/entity-bal.md',label:'Mieke Bal'},
+    {slug:'entity-ha-schmidhuber',path:'worldtext/entities/entity-ha-schmidhuber.md',label:'Ha & Schmidhuber'},
+    {slug:'entity-lindley-whitham',path:'worldtext/entities/entity-lindley-whitham.md',label:'Lindley & Whitham'},
+    {slug:'entity-roland-meyer',path:'worldtext/entities/entity-roland-meyer.md',label:'Roland Meyer'},
+    {slug:'entity-hito-steyerl',path:'worldtext/entities/entity-hito-steyerl.md',label:'Hito Steyerl'},
+    {slug:'entity-amanda-wasielewski',path:'worldtext/entities/entity-amanda-wasielewski.md',label:'Amanda Wasielewski'},
+    {slug:'entity-harun-farocki',path:'worldtext/entities/entity-harun-farocki.md',label:'Harun Farocki'},
+    {slug:'entity-fabian-offert',path:'worldtext/entities/entity-fabian-offert.md',label:'Fabian Offert'},
+    {slug:'entity-bateson',path:'worldtext/entities/entity-bateson.md',label:'Gregory Bateson'},
+    {slug:'entity-iser',path:'worldtext/entities/entity-iser.md',label:'Wolfgang Iser'},
+    {slug:'entity-fish',path:'worldtext/entities/entity-fish.md',label:'Stanley Fish'},
+    {slug:'entity-ogilvie',path:'worldtext/entities/entity-ogilvie.md',label:'Brian Ogilvie'},
+    {slug:'entity-brosch',path:'worldtext/entities/entity-brosch.md',label:'Renate Brosch'},
+  ]},
+  { key:'galaxies', label:'Galaxies', color:'var(--c-galaxy)', pages:[
+    {slug:'galaxies',path:'worldtext/galaxies/galaxies.md',label:'All Galaxies'},
+    {slug:'galaxy-of-ekphrastic-worlds',path:'worldtext/galaxies/galaxy-of-ekphrastic-worlds.md',label:'Ekphrastic Worlds'},
+    {slug:'galaxy-of-thick-description-worlds',path:'worldtext/galaxies/galaxy-of-thick-description-worlds.md',label:'Thick Description Worlds'},
+    {slug:'galaxy-of-generative-ai-worlds',path:'worldtext/galaxies/galaxy-of-generative-ai-worlds.md',label:'Generative AI Worlds'},
+    {slug:'galaxy-of-intermedial-worlds',path:'worldtext/galaxies/galaxy-of-intermedial-worlds.md',label:'Intermedial Worlds'},
+  ]},
+  { key:'systems', label:'Systems', color:'var(--c-system)', pages:[
+    {slug:'system-classical-ekphrasis',path:'worldtext/systems/system-classical-ekphrasis.md',label:'Classical Ekphrasis'},
+    {slug:'system-operative-ekphrasis',path:'worldtext/systems/system-operative-ekphrasis.md',label:'Operative Ekphrasis'},
+    {slug:'system-thick-description',path:'worldtext/systems/system-thick-description.md',label:'Thick Description'},
+    {slug:'system-prompt-engineering',path:'worldtext/systems/system-prompt-engineering.md',label:'Prompt Engineering'},
+    {slug:'system-world-models',path:'worldtext/systems/system-world-models.md',label:'World Models'},
+    {slug:'system-intermediality',path:'worldtext/systems/system-intermediality.md',label:'Intermediality'},
+  ]},
+  { key:'distinctions', label:'Distinctions', color:'var(--c-distinction)', pages:[
+    {slug:'distinction-description-generation',path:'worldtext/distinctions/distinction-description-generation.md',label:'Description / Generation'},
+    {slug:'distinction-word-image',path:'worldtext/distinctions/distinction-word-image.md',label:'Word / Image'},
+    {slug:'distinction-thick-thin',path:'worldtext/distinctions/distinction-thick-thin.md',label:'Thick / Thin'},
+    {slug:'distinction-seamless-exposed',path:'worldtext/distinctions/distinction-seamless-exposed.md',label:'Seamless / Exposed'},
+    {slug:'distinction-intent-distribution',path:'worldtext/distinctions/distinction-intent-distribution.md',label:'Intent / Distribution'},
+    {slug:'distinction-navigation-production',path:'worldtext/distinctions/distinction-navigation-production.md',label:'Navigation / Production'},
+    {slug:'distinction-human-machine',path:'worldtext/distinctions/distinction-human-machine.md',label:'Human / Machine'},
+    {slug:'distinction-sequential-connectionist',path:'worldtext/distinctions/distinction-sequential-connectionist.md',label:'Sequential / Connectionist'},
+    {slug:'distinction-actual-notional',path:'worldtext/distinctions/distinction-actual-notional.md',label:'Actual / Notional'},
+    {slug:'distinction-craft-engineering',path:'worldtext/distinctions/distinction-craft-engineering.md',label:'Craft / Engineering'},
+    {slug:'distinction-representation-performance',path:'worldtext/distinctions/distinction-representation-performance.md',label:'Representation / Performance'},
+    {slug:'distinction-stasis-movement',path:'worldtext/distinctions/distinction-stasis-movement.md',label:'Stasis / Movement'},
+    {slug:'distinction-surface-depth',path:'worldtext/distinctions/distinction-surface-depth.md',label:'Surface / Depth'},
+    {slug:'distinction-cultural-memory-statistical-memory',path:'worldtext/distinctions/distinction-cultural-memory-statistical-memory.md',label:'Cultural / Statistical Memory'},
+  ]},
+  { key:'conflicts', label:'Conflicts', color:'var(--c-conflict)', pages:[
+    {slug:'conflict-paragone',path:'worldtext/conflicts/conflict-paragone.md',label:'Paragone'},
+    {slug:'conflict-description-vs-generation',path:'worldtext/conflicts/conflict-description-vs-generation.md',label:'Description vs. Generation'},
+    {slug:'conflict-abundance-vs-platform-realism',path:'worldtext/conflicts/conflict-abundance-vs-platform-realism.md',label:'Abundance vs. Platform Realism'},
+    {slug:'conflict-human-vs-machine-authorship',path:'worldtext/conflicts/conflict-human-vs-machine-authorship.md',label:'Human vs. Machine Authorship'},
+    {slug:'conflict-craft-vs-engineering',path:'worldtext/conflicts/conflict-craft-vs-engineering.md',label:'Craft vs. Engineering'},
+    {slug:'conflict-representation-vs-performance',path:'worldtext/conflicts/conflict-representation-vs-performance.md',label:'Representation vs. Performance'},
+    {slug:'conflict-canon-vs-expansion',path:'worldtext/conflicts/conflict-canon-vs-expansion.md',label:'Canon vs. Expansion'},
+    {slug:'conflict-apollo-marsyas',path:'worldtext/conflicts/conflict-apollo-marsyas.md',label:'Apollo vs. Marsyas'},
+  ]},
+  { key:'thresholds', label:'Thresholds', color:'var(--c-threshold)', pages:[
+    {slug:'threshold-prompt-to-image',path:'worldtext/thresholds/threshold-prompt-to-image.md',label:'Prompt → Image'},
+    {slug:'threshold-word-image-border',path:'worldtext/thresholds/threshold-word-image-border.md',label:'Word / Image Border'},
+    {slug:'threshold-thin-to-thick',path:'worldtext/thresholds/threshold-thin-to-thick.md',label:'Thin → Thick'},
+    {slug:'threshold-actual-notional',path:'worldtext/thresholds/threshold-actual-notional.md',label:'Actual / Notional'},
+    {slug:'threshold-human-machine',path:'worldtext/thresholds/threshold-human-machine.md',label:'Human / Machine'},
+    {slug:'threshold-noise-to-signal',path:'worldtext/thresholds/threshold-noise-to-signal.md',label:'Noise → Signal'},
+    {slug:'threshold-sequential-connectionist',path:'worldtext/thresholds/threshold-sequential-connectionist.md',label:'Sequential / Connectionist'},
+    {slug:'threshold-publication-gate',path:'worldtext/thresholds/threshold-publication-gate.md',label:'Publication Gate'},
+  ]},
+  { key:'atmospheres', label:'Atmospheres', color:'var(--c-atmosphere)', pages:[
+    {slug:'atmosphere-ekphrastic-longing',path:'worldtext/atmospheres/atmosphere-ekphrastic-longing.md',label:'Ekphrastic Longing'},
+    {slug:'atmosphere-latent-uncanny',path:'worldtext/atmospheres/atmosphere-latent-uncanny.md',label:'Latent Uncanny'},
+    {slug:'atmosphere-hermeneutic-density',path:'worldtext/atmospheres/atmosphere-hermeneutic-density.md',label:'Hermeneutic Density'},
+    {slug:'atmosphere-prompt-anxiety',path:'worldtext/atmospheres/atmosphere-prompt-anxiety.md',label:'Prompt Anxiety'},
+    {slug:'atmosphere-scholarly-pressure',path:'worldtext/atmospheres/atmosphere-scholarly-pressure.md',label:'Scholarly Pressure'},
+    {slug:'atmosphere-semiotic-vertigo',path:'worldtext/atmospheres/atmosphere-semiotic-vertigo.md',label:'Semiotic Vertigo'},
+  ]},
+  { key:'fragments', label:'Fragments', color:'var(--c-fragment)', pages:[
+    {slug:'fragment-turning-hearing-into-sight',path:'worldtext/fragments/fragment-turning-hearing-into-sight.md',label:'Turning Hearing into Sight'},
+    {slug:'fragment-blunt-sword',path:'worldtext/fragments/fragment-blunt-sword.md',label:'The Blunt Sword'},
+    {slug:'fragment-audens-barbed-wire',path:'worldtext/fragments/fragment-audens-barbed-wire.md',label:"Auden's Barbed Wire"},
+    {slug:'fragment-twelve-lighthouses',path:'worldtext/fragments/fragment-twelve-lighthouses.md',label:'Twelve Lighthouses'},
+    {slug:'fragment-see-it-yourself-first',path:'worldtext/fragments/fragment-see-it-yourself-first.md',label:'See It Yourself First'},
+  ]},
+  { key:'epochs', label:'Epochs', color:'var(--c-epoch)', pages:[
+    {slug:'epoch-ancient-rhetoric',path:'worldtext/epochs/epoch-ancient-rhetoric.md',label:'Ancient Rhetoric (800 BCE–500 CE)'},
+    {slug:'epoch-paragone-revival',path:'worldtext/epochs/epoch-paragone-revival.md',label:'Paragone Revival (1766–1994)'},
+    {slug:'epoch-intermedial-turn',path:'worldtext/epochs/epoch-intermedial-turn.md',label:'Intermedial Turn (1997–2018)'},
+    {slug:'epoch-thick-description-diffusion',path:'worldtext/epochs/epoch-thick-description-diffusion.md',label:'Thick Description Diffusion (1973–2020)'},
+    {slug:'epoch-operative-collapse',path:'worldtext/epochs/epoch-operative-collapse.md',label:'Operative Collapse (2022–present)'},
+  ]},
+  { key:'places', label:'Places', color:'var(--c-place)', pages:[
+    {slug:'place-latent-space',path:'worldtext/places/place-latent-space.md',label:'Latent Space'},
+    {slug:'place-shield-surface',path:'worldtext/places/place-shield-surface.md',label:'Shield Surface'},
+    {slug:'place-balinese-cockfight',path:'worldtext/places/place-balinese-cockfight.md',label:'Balinese Cockfight'},
+    {slug:'place-prompt-interface',path:'worldtext/places/place-prompt-interface.md',label:'Prompt Interface'},
+    {slug:'place-diffusion-pipeline',path:'worldtext/places/place-diffusion-pipeline.md',label:'Diffusion Pipeline'},
+    {slug:'place-digital-canvas',path:'worldtext/places/place-digital-canvas.md',label:'Digital Canvas'},
+    {slug:'place-museum-of-words',path:'worldtext/places/place-museum-of-words.md',label:'Museum of Words'},
+    {slug:'place-gallery-wall',path:'worldtext/places/place-gallery-wall.md',label:'Gallery Wall'},
+    {slug:'place-seminar-room',path:'worldtext/places/place-seminar-room.md',label:'Seminar Room'},
+    {slug:'place-pdf-margin',path:'worldtext/places/place-pdf-margin.md',label:'PDF Margin'},
+    {slug:'place-peer-review-gate',path:'worldtext/places/place-peer-review-gate.md',label:'Peer Review Gate'},
+    {slug:'place-dream-environment',path:'worldtext/places/place-dream-environment.md',label:'Dream Environment'},
+    {slug:'place-nighthawks-diner',path:'worldtext/places/place-nighthawks-diner.md',label:'Nighthawks Diner'},
+    {slug:'place-calligraphic-mark-sheet',path:'worldtext/places/place-calligraphic-mark-sheet.md',label:'Calligraphic Mark Sheet'},
+  ]},
+  { key:'rituals', label:'Rituals', color:'var(--c-ritual)', pages:[
+    {slug:'ritual-prompting',path:'worldtext/rituals/ritual-prompting.md',label:'Prompting'},
+    {slug:'ritual-ekphrastic-description',path:'worldtext/rituals/ritual-ekphrastic-description.md',label:'Ekphrastic Description'},
+    {slug:'ritual-thick-inscription',path:'worldtext/rituals/ritual-thick-inscription.md',label:'Thick Inscription'},
+    {slug:'ritual-diffusion-sampling',path:'worldtext/rituals/ritual-diffusion-sampling.md',label:'Diffusion Sampling'},
+    {slug:'ritual-annotation',path:'worldtext/rituals/ritual-annotation.md',label:'Annotation'},
+    {slug:'ritual-peer-review',path:'worldtext/rituals/ritual-peer-review.md',label:'Peer Review'},
+    {slug:'ritual-citation',path:'worldtext/rituals/ritual-citation.md',label:'Citation'},
+    {slug:'ritual-canon-formation',path:'worldtext/rituals/ritual-canon-formation.md',label:'Canon Formation'},
+    {slug:'ritual-benchmarking',path:'worldtext/rituals/ritual-benchmarking.md',label:'Benchmarking'},
+  ]},
+  { key:'scenes', label:'Scenes', color:'var(--c-scene)', pages:[
+    {slug:'scene-carrot-uprising',path:'worldtext/scenes/scene-carrot-uprising.md',label:'Carrot Uprising'},
+    {slug:'scene-shadowplay-installation',path:'worldtext/scenes/scene-shadowplay-installation.md',label:'Shadowplay Installation'},
+    {slug:'scene-webbs-seminar-1999',path:'worldtext/scenes/scene-webbs-seminar-1999.md',label:"Webb's Seminar (1999)"},
+  ]},
+  { key:'memories', label:'Memories', color:'var(--c-memory)', pages:[
+    {slug:'memory-spitzers-redefinition',path:'worldtext/memories/memory-spitzers-redefinition.md',label:"Spitzer's Redefinition"},
+    {slug:'memory-enargeia-storehouse',path:'worldtext/memories/memory-enargeia-storehouse.md',label:'The Enargeia Storehouse'},
+    {slug:'memory-paragone-ghost',path:'worldtext/memories/memory-paragone-ghost.md',label:'The Paragone Ghost'},
+  ]},
+  { key:'flows', label:'Flows', color:'var(--c-flow)', pages:[
+    {slug:'flow-prompt-image-loop',path:'worldtext/flows/flow-prompt-image-loop.md',label:'Prompt-Image Loop'},
+    {slug:'flow-reclassification-cascade',path:'worldtext/flows/flow-reclassification-cascade.md',label:'Reclassification Cascade'},
+  ]},
+  { key:'regions', label:'Regions', color:'var(--c-region)', pages:[
+    {slug:'region-platform-mean',path:'worldtext/regions/region-platform-mean.md',label:'Platform Mean'},
+    {slug:'region-attractor-basins',path:'worldtext/regions/region-attractor-basins.md',label:'Attractor Basins'},
+  ]},
+  { key:'questions', label:'Questions', color:'var(--c-question)', pages:[
+    {slug:'question-ekphrastic-singularity',path:'worldtext/questions/question-ekphrastic-singularity.md',label:'The Ekphrastic Singularity'},
+    {slug:'question-thick-description-of-ai',path:'worldtext/questions/question-thick-description-of-ai.md',label:'Thick Description of AI'},
+    {slug:'question-paragone-after-collapse',path:'worldtext/questions/question-paragone-after-collapse.md',label:'Paragone After Collapse'},
+    {slug:'question-prompt-as-ritual',path:'worldtext/questions/question-prompt-as-ritual.md',label:'Prompt as Ritual'},
+    {slug:'question-world-model-as-ekphrasis',path:'worldtext/questions/question-world-model-as-ekphrasis.md',label:'World Model as Ekphrasis'},
+    {slug:'question-atmospheric-latent-space',path:'worldtext/questions/question-atmospheric-latent-space.md',label:'Atmospheric Latent Space'},
+  ]},
+  { key:'constellations', label:'Constellations', color:'var(--c-constellation)', pages:[
+    {slug:'constellation-paragone',path:'worldtext/constellations/constellation-paragone.md',label:'Paragone'},
+    {slug:'constellation-semiotic-collapse',path:'worldtext/constellations/constellation-semiotic-collapse.md',label:'Semiotic Collapse'},
+    {slug:'constellation-description-density',path:'worldtext/constellations/constellation-description-density.md',label:'Description Density'},
+  ]},
+  { key:'infrastructures', label:'Infrastructures', color:'var(--c-infrastructure)', pages:[
+    {slug:'infrastructure-clip-embedding',path:'worldtext/infrastructures/infrastructure-clip-embedding.md',label:'CLIP Embedding'},
+    {slug:'infrastructure-progymnasmata',path:'worldtext/infrastructures/infrastructure-progymnasmata.md',label:'Progymnasmata'},
+    {slug:'infrastructure-training-corpus',path:'worldtext/infrastructures/infrastructure-training-corpus.md',label:'Training Corpus'},
+  ]},
+  { key:'taxonomies', label:'Taxonomies', color:'var(--c-taxonomy)', pages:[
+    {slug:'world-types',path:'worldtext/taxonomies/world-types.md',label:'World Types (master)'},
+    {slug:'operative-ekphrasis-world',path:'worldtext/taxonomies/operative-ekphrasis-world.md',label:'Operative Ekphrasis World'},
+    {slug:'paragone-representation-world',path:'worldtext/taxonomies/paragone-representation-world.md',label:'Paragone-Representation World'},
+    {slug:'thick-description-world',path:'worldtext/taxonomies/thick-description-world.md',label:'Thick Description World'},
+    {slug:'latent-space-navigation-world',path:'worldtext/taxonomies/latent-space-navigation-world.md',label:'Latent Space Navigation World'},
+    {slug:'prompt-craft-world',path:'worldtext/taxonomies/prompt-craft-world.md',label:'Prompt Craft World'},
+    {slug:'intermedial-threshold-world',path:'worldtext/taxonomies/intermedial-threshold-world.md',label:'Intermedial Threshold World'},
+    {slug:'shield-artifact-world',path:'worldtext/taxonomies/shield-artifact-world.md',label:'Shield Artifact World'},
+    {slug:'hallucinated-environment-world',path:'worldtext/taxonomies/hallucinated-environment-world.md',label:'Hallucinated Environment World'},
+    {slug:'academic-governance-world',path:'worldtext/taxonomies/academic-governance-world.md',label:'Academic Governance World'},
+    {slug:'semiotic-collapse-world',path:'worldtext/taxonomies/semiotic-collapse-world.md',label:'Semiotic Collapse World'},
+  ]},
+  { key:'governance', label:'Governance', color:'var(--c-governance)', pages:[
+    {slug:'governance-peer-review',path:'worldtext/governance/governance-peer-review.md',label:'Peer Review'},
+  ]},
+];
+
+// ── Lookup maps ──────────────────────────────────────────────────
+const slugColor = {}; // slug → css color var
+const slugPath  = {}; // slug → file path
+const slugLabel = {}; // slug → human label
+const slugSect  = {}; // slug → section key
+
+SECTIONS.forEach(s => {
+  s.pages.forEach(p => {
+    slugColor[p.slug] = s.color;
+    slugPath[p.slug]  = p.path;
+    slugLabel[p.slug] = p.label;
+    slugSect[p.slug]  = s.key;
+  });
+});
+
+// ── Link graph: slug → Set of slugs it links to ──────────────────
+const linkGraph = {}; // built dynamically as pages are fetched
+
+// ── Prefix → directory map for dynamic resolution ────────────────
+// Wikilinks like [[source-X]] → worldtext/sources/X.md
+// Wikilinks like [[synthesis-X]] → existing slug X (strip prefix)
+const PREFIX_DIR = {
+  'source':         'worldtext/sources',
+  'sources':        'worldtext/sources',
+};
+// synthesis & other prefixes that are just aliases to existing slugs
+const PREFIX_STRIP = [
+  'synthesis-', 'thick-description-of-', 'cohen-case-',
+  'worldtype-', 'dark-matter-', 'placeholder-', 'citation-',
+];
+
+function resolveLink(raw) {
+  // raw = the slug text from [[...]] after splitting /path → last segment
+  // 1. Direct hit
+  if (slugPath[raw]) return { slug: raw, path: slugPath[raw], label: slugLabel[raw], dynamic: false };
+
+  // 2. prefix-strip aliases (synthesis-rosetta-stone → rosetta-stone)
+  for (const pfx of PREFIX_STRIP) {
+    if (raw.startsWith(pfx)) {
+      const bare = raw.slice(pfx.length);
+      if (slugPath[bare]) return { slug: bare, path: slugPath[bare], label: slugLabel[bare], dynamic: false };
+    }
+  }
+
+  // 3. source- prefix → dynamic file path (source-bajohr-2024-x → worldtext/sources/bajohr-2024-x.md)
+  for (const [pfx, dir] of Object.entries(PREFIX_DIR)) {
+    const pfxDash = pfx + '-';
+    if (raw.startsWith(pfxDash)) {
+      const filename = raw.slice(pfxDash.length);
+      const path = `${dir}/${filename}.md`;
+      const label = raw; // will be overridden in caller by rawLabel if present
+      // Register dynamically so future references resolve
+      if (!slugPath[raw]) {
+        slugPath[raw]  = path;
+        slugLabel[raw] = filename.replace(/-/g, ' ');
+        slugColor[raw] = 'var(--c-source)';
+        slugSect[raw]  = 'sources';
+      }
+      return { slug: raw, path: slugPath[raw], label: slugLabel[raw], dynamic: true };
+    }
+  }
+
+  // 4. Bare source filename without prefix (e.g. [[bajohr-2024-operative-ekphrasis]])
+  // try wordtext/sources/SLUG.md
+  const dynPath = `worldtext/sources/${raw}.md`;
+  // Optimistic: register and return — will 404 gracefully if it doesn't exist
+  // Only do this for slugs that look like source citations (author-year pattern)
+  if (/^[a-z]+-\d{4}/.test(raw)) {
+    if (!slugPath[raw]) {
+      slugPath[raw]  = dynPath;
+      slugLabel[raw] = raw.replace(/-/g, ' ');
+      slugColor[raw] = 'var(--c-source)';
+      slugSect[raw]  = 'sources';
+    }
+    return { slug: raw, path: slugPath[raw], label: slugLabel[raw], dynamic: true };
+  }
+
+  return null; // truly unresolvable
+}
+
+// ══════════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════════
+let currentSlug    = null;
+let navHistory     = [];
+let sidebarVisible = true;
+let connVisible    = true;
+
+// ══════════════════════════════════════════════════════════════════
+// SIDEBAR BUILD
+// ══════════════════════════════════════════════════════════════════
+function buildNav() {
+  const nav = document.getElementById('nav');
+  nav.innerHTML = '';
+  SECTIONS.forEach(s => {
+    const hd = document.createElement('div');
+    hd.className = 'sec-head';
+    hd.innerHTML = `<span>${s.label}</span><span style="display:flex;gap:6px;align-items:center"><span style="opacity:0.5;font-size:9px">${s.pages.length}</span><span class="arrow">▾</span></span>`;
+    hd.addEventListener('click', () => { hd.classList.toggle('coll'); items.classList.toggle('hidden'); });
+    nav.appendChild(hd);
+
+    const items = document.createElement('div');
+    items.className = 'sec-items';
+    s.pages.forEach(p => {
+      const el = document.createElement('div');
+      el.className = 'nav-item';
+      el.dataset.slug = p.slug;
+      el.dataset.q    = p.label.toLowerCase() + ' ' + p.slug;
+      el.innerHTML = `<span class="dot" style="background:${s.color}"></span><span class="nav-label">${p.label}</span>`;
+      el.addEventListener('click', () => loadPage(p.slug));
+      items.appendChild(el);
+    });
+    nav.appendChild(items);
+  });
+}
+
+function filterNav(q) {
+  q = q.toLowerCase().trim();
+  document.querySelectorAll('.nav-item').forEach(el => {
+    el.style.display = (!q || el.dataset.q.includes(q)) ? '' : 'none';
+  });
+}
+
+document.getElementById('search').addEventListener('input', e => filterNav(e.target.value));
+
+// ══════════════════════════════════════════════════════════════════
+// MARKDOWN RENDERER
+// ══════════════════════════════════════════════════════════════════
+function renderMd(md) {
+  const foundLinks = new Set();
+
+  // 1. Protect code blocks
+  const codeBlocks = [];
+  md = md.replace(/```[\s\S]*?```/g, m => {
+    const inner = m.replace(/^```[^\n]*\n?/, '').replace(/```$/, '');
+    codeBlocks.push(`<pre><code>${esc(inner)}</code></pre>`);
+    return `\x00CODE${codeBlocks.length-1}\x00`;
+  });
+  const inlines = [];
+  md = md.replace(/`([^`]+)`/g, (_, c) => {
+    inlines.push(`<code>${esc(c)}</code>`);
+    return `\x00INL${inlines.length-1}\x00`;
+  });
+
+  // 2. Escape raw HTML *before* we generate tags!
+  md = md.replace(/&(?!amp;|lt;|gt;|#)/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+  // 3. Wiki-links
+  md = md.replace(/\[\[([^\]]+)\]\]/g, (_, inner) => {
+    const parts   = inner.split('|');
+    const rawSlug = parts[0].trim().split('/').pop().replace(/\.md$/, '');
+    const resolved = resolveLink(rawSlug);
+    // The text has already been HTML-escaped, so `label` is safe to inject directly.
+    const label   = parts[1] ? parts[1].trim()
+                  : (resolved ? (slugLabel[resolved.slug] || resolved.label) : rawSlug);
+
+    if (resolved) {
+      foundLinks.add(resolved.slug);
+      const isSrc = resolved.dynamic && (resolved.slug.startsWith('source-') || /^[a-z]+-\d{4}/.test(resolved.slug));
+      if (isSrc) {
+        return `<a class="wl wl-src" href="#${resolved.slug}" onclick="loadPage('${resolved.slug}');return false;" title="source: ${resolved.slug}">§ ${label}</a>`;
+      }
+      return `<a class="wl" href="#${resolved.slug}" onclick="loadPage('${resolved.slug}');return false;">↗ ${label}</a>`;
+    }
+    return `<span class="wl-missing" title="${rawSlug.replace(/"/g, '&quot;')}">✕ ${label}</span>`;
+  });
+
+  // 4. Regular Links
+  md = md.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, txt, url) => {
+    if (url.endsWith('.md') || url.startsWith('worldtext/')) {
+      const slug = url.split('/').pop().replace(/\.md$/, '');
+      return `<a class="wl" href="#${slug}" onclick="loadPage('${slug}');return false;">↗ ${txt}</a>`;
+    }
+    return `<a href="${url}" target="_blank" rel="noopener">${txt}</a>`;
+  });
+
+  // 5. Tables
+  md = md.replace(/((?:\|[^\n]+\|\n?)+)/g, block => {
+    const rows = block.trim().split('\n');
+    if (rows.length < 2) return block;
+    const cells = r => r.split('|').slice(1,-1).map(c => c.trim());
+    const hdr = cells(rows[0]);
+    if (!rows[1].match(/^\|[\s|:-]+\|$/)) return block;
+    let t = '<table><thead><tr>'+hdr.map(h=>`<th>${h}</th>`).join('')+'</tr></thead><tbody>';
+    rows.slice(2).forEach(r => { t += '<tr>'+cells(r).map(c=>`<td>${c}</td>`).join('')+'</tr>'; });
+    return t + '</tbody></table>';
+  });
+
+  // 6. Headings
+  md = md.replace(/^#### (.+)$/gm, '<h4>$1</h4>');
+  md = md.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+  md = md.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+  md = md.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+
+  // 7. HR
+  md = md.replace(/^---+$/gm, '<hr>');
+
+  // 8. Blockquotes (using &gt; because > is already escaped)
+  md = md.replace(/^&gt; ?(.*)$/gm, '<bq>$1</bq>');
+  md = md.replace(/((?:<bq>.*<\/bq>\n?)+)/g, m => '<blockquote>'+m.replace(/<\/?bq>/g,'').replace(/\n+$/,'')+'</blockquote>');
+
+  // 9. Bold/Italic
+  md = md.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
+  md = md.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  md = md.replace(/(?<!\w)\*(.+?)\*(?!\w)/g, '<em>$1</em>');
+  md = md.replace(/__(.+?)__/g, '<strong>$1</strong>');
+
+  // 10. Lists
+  md = md.replace(/^[ \t]*[-*+] (.+)$/gm, '<li>$1</li>');
+  md = md.replace(/^[ \t]*\d+\. (.+)$/gm, '<li>$1</li>');
+  md = md.replace(/((?:<li>[\s\S]*?<\/li>\n?)+)/g, m => '<ul>'+m+'</ul>');
+
+  // 11. Paragraphs
+  const paras = md.split(/\n\n+/);
+  const BLOCK = /^<(h[1-6]|ul|ol|li|table|blockquote|pre|hr|div)/i;
+  md = paras.map(p => {
+    p = p.trim();
+    if (!p) return '';
+    if (BLOCK.test(p) || p.startsWith('\x00CODE')) return p;
+    return `<p>${p.replace(/\n/g,' ')}</p>`;
+  }).join('\n');
+
+  // 12. Restore code
+  codeBlocks.forEach((b,i) => { md = md.replace(`\x00CODE${i}\x00`, b); });
+  inlines.forEach((b,i)    => { md = md.replace(`\x00INL${i}\x00`, b); });
+
+  return { html: md, links: foundLinks };
+}
+
+function esc(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ══════════════════════════════════════════════════════════════════
+// CONNECTIONS PANEL
+// ══════════════════════════════════════════════════════════════════
+function connItemHTML(slug, arrow) {
+  if (!slugPath[slug]) return '';
+  const color = getComputedColor(slugColor[slug]);
+  const label = slugLabel[slug] || slug;
+  const sect  = slugSect[slug] || '?';
+  return `<div class="conn-item" onclick="loadPage('${slug}')">
+    <span class="c-dot" style="background:${slugColor[slug]}"></span>
+    <div class="c-info">
+      <div class="c-label">${label}</div>
+      <div class="c-species">${sect}</div>
+    </div>
+    <span class="c-arrow">${arrow}</span>
+  </div>`;
+}
+
+function getComputedColor(cssVar) {
+  // Just return the var — browser resolves it
+  return cssVar;
+}
+
+function renderConnections(slug, outLinks) {
+  if (!connVisible) return;
+  const body = document.getElementById('conn-body');
+
+  // Backlinks: all slugs whose linkGraph set contains current slug
+  const backlinks = [];
+  Object.entries(linkGraph).forEach(([src, targets]) => {
+    if (src !== slug && targets.has(slug)) backlinks.push(src);
+  });
+
+  // Outgoing (already in linkGraph[slug])
+  const outgoing = [...(linkGraph[slug] || [])].filter(s => slugPath[s]);
+
+  let html = '';
+
+  // Breadcrumb: from history
+  if (navHistory.length > 0) {
+    const prev = navHistory[navHistory.length - 1];
+    html += `<div class="conn-section">
+      <div class="conn-section-label">From</div>
+      ${connItemHTML(prev, '↑ came from')}
+    </div>`;
+  }
+
+  // Backlinks
+  html += `<div class="conn-section">
+    <div class="conn-section-label">
+      Linked here <span class="conn-count">${backlinks.length}</span>
+      ${backlinks.length === 0 ? '<span class="loading-spinner"></span>' : ''}
+    </div>
+    ${backlinks.length > 0
+      ? backlinks.map(s => connItemHTML(s, '→')).join('')
+      : '<div class="conn-empty">Building index…</div>'}
+  </div>`;
+
+  // Outgoing links
+  html += `<div class="conn-section">
+    <div class="conn-section-label">
+      Links out <span class="conn-count">${outgoing.length}</span>
+    </div>
+    ${outgoing.length > 0
+      ? outgoing.map(s => connItemHTML(s, '→')).join('')
+      : '<div class="conn-empty">No outgoing links found.</div>'}
+  </div>`;
+
+  body.innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// LOAD PAGE
+// ══════════════════════════════════════════════════════════════════
+async function loadPage(slug) {
+  const path = slugPath[slug];
+  if (!path) { console.warn('Unknown slug:', slug); return; }
+
+  // Track history
+  if (currentSlug && currentSlug !== slug) {
+    navHistory.push(currentSlug);
+    if (navHistory.length > 40) navHistory.shift();
+  }
+
+  currentSlug = slug;
+  window.location.hash = slug;
+
+  // Nav active state
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+  const activeEl = document.querySelector(`.nav-item[data-slug="${slug}"]`);
+  if (activeEl) { activeEl.classList.add('active'); activeEl.scrollIntoView({ block:'nearest' }); }
+
+  // Breadcrumb
+  const section = SECTIONS.find(s => s.pages.some(p => p.slug === slug));
+  const page    = section?.pages.find(p => p.slug === slug);
+  const bc = document.getElementById('breadcrumb');
+  bc.innerHTML = section
+    ? `<span class="bc-section">${section.label}</span><span class="bc-sep">›</span><span class="bc-current">${page?.label || slug}</span>`
+    : `<span class="bc-current">${slug}</span>`;
+
+  // Show loading connections state early
+  if (connVisible) {
+    document.getElementById('conn-body').innerHTML = `<div style="padding:20px 14px;font-size:11px;color:var(--text-dim);text-align:center"><span class="loading-spinner"></span> loading…</div>`;
+  }
+
+  // Fetch MD
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const md = await res.text();
+    const { html, links } = renderMd(md);
+
+    // Store in link graph
+    linkGraph[slug] = links;
+
+    const color = slugColor[slug] || 'var(--c-source)';
+    const sect  = section?.key || 'page';
+
+    const content = document.getElementById('content');
+    const empty   = document.getElementById('empty-state');
+    empty.style.display  = 'none';
+    content.style.display = '';
+
+    content.innerHTML = `
+      <div class="species-badge" style="color:${color};border-color:color-mix(in srgb,${color} 30%,transparent);background:color-mix(in srgb,${color} 8%,transparent)">${sect}</div>
+      ${html}
+      <div class="page-footer">
+        <a href="double-bar.html" target="_blank">⬛ View in Double-Bar</a>
+        <span class="path">${path}</span>
+      </div>
+    `;
+
+    document.getElementById('reader').scrollTop = 0;
+
+    // Render connections (outgoing now known)
+    renderConnections(slug, links);
+
+    // Background: eagerly fetch hub pages to build backlink index
+    backgroundIndex(slug);
+
+  } catch(e) {
+    console.error(e);
+    document.getElementById('content').style.display = '';
+    document.getElementById('empty-state').style.display = 'none';
+    document.getElementById('content').innerHTML =
+      `<p style="color:var(--text-dim);font-style:italic">Could not load <code>${path}</code>. Make sure the page is served from a local server (not file://).</p>`;
+  }
+}
+
+// ══════════════════════════════════════════════════════════════════
+// BACKGROUND INDEXER — fetches high-link pages to build backlinks
+// ══════════════════════════════════════════════════════════════════
+// Priority pages for seeding the backlink graph on first visit
+const HUB_SLUGS = [
+  'atlas','cosmology','chronicle',
+  'rosetta-stone','kiki-or-bouba','imagetext-to-worldtext-synthesis',
+  'world-operative-ekphrasis','world-classical-ekphrasis','world-thick-description',
+  'four-strata','thick-prompt','description-has-always-been-inference',
+  'grandmother-cells-and-enargeia','assemblage-problem','citation-network',
+];
+
+let indexedSlugs  = new Set();
+let indexingQueue = [];
+
+async function backgroundIndex(currentSlug) {
+  // Build a priority queue: hubs + sections of current slug's section
+  const section = SECTIONS.find(s => s.pages.some(p => p.slug === currentSlug));
+  const peers = section ? section.pages.map(p => p.slug) : [];
+
+  const queue = [...new Set([...HUB_SLUGS, ...peers])].filter(s => !indexedSlugs.has(s) && s !== currentSlug);
+
+  for (const slug of queue.slice(0, 20)) {
+    if (indexedSlugs.has(slug)) continue;
+    indexedSlugs.add(slug);
+    try {
+      const res = await fetch(slugPath[slug]);
+      if (!res.ok) continue;
+      const md = await res.text();
+      const found = new Set();
+      const re = /\[\[([^\]]+)\]\]/g;
+      let m;
+      while ((m = re.exec(md)) !== null) {
+        const s = m[1].split('|')[0].trim().split('/').pop().replace(/\.md$/,'');
+        if (slugPath[s]) found.add(s);
+      }
+      linkGraph[slug] = found;
+    } catch(_) {}
+  }
+
+  // Re-render connections after indexing
+  if (currentSlug === window.location.hash.replace('#','')) {
+    renderConnections(currentSlug, linkGraph[currentSlug] || new Set());
+  }
+}
+
+// ══════════════════════════════════════════════════════════════════
+// READING PROGRESS
+// ══════════════════════════════════════════════════════════════════
+document.getElementById('reader').addEventListener('scroll', function() {
+  const pct = this.scrollTop / (this.scrollHeight - this.clientHeight) * 100;
+  document.getElementById('progress-bar').style.width = Math.min(100, pct) + '%';
+});
+
+// ══════════════════════════════════════════════════════════════════
+// THEME TOGGLE
+// ══════════════════════════════════════════════════════════════════
+function toggleTheme() {
+  const html  = document.documentElement;
+  const isDark = html.dataset.theme === 'dark';
+  html.dataset.theme  = isDark ? 'light' : 'dark';
+  document.getElementById('theme-btn').textContent = isDark ? '☀' : '☾';
+  localStorage.setItem('wt-theme', html.dataset.theme);
+}
+
+// Restore saved theme
+(function() {
+  const saved = localStorage.getItem('wt-theme');
+  if (saved === 'dark') {
+    document.documentElement.dataset.theme = 'dark';
+    document.getElementById('theme-btn').textContent = '☾';
+  }
+})();
+
+// ══════════════════════════════════════════════════════════════════
+// SIDEBAR & CONNECTIONS TOGGLE
+// ══════════════════════════════════════════════════════════════════
+function toggleSidebar() {
+  sidebarVisible = !sidebarVisible;
+  document.getElementById('sidebar').classList.toggle('collapsed', !sidebarVisible);
+}
+
+function toggleConnections() {
+  connVisible = !connVisible;
+  document.getElementById('connections').classList.toggle('collapsed', !connVisible);
+  document.getElementById('conn-btn').style.opacity = connVisible ? '1' : '0.5';
+  if (connVisible && currentSlug) renderConnections(currentSlug, linkGraph[currentSlug] || new Set());
+}
+
+// ══════════════════════════════════════════════════════════════════
+// HISTORY MODAL
+// ══════════════════════════════════════════════════════════════════
+function openHistory() {
+  document.getElementById('history-overlay').classList.add('open');
+  const list = document.getElementById('history-list');
+  if (navHistory.length === 0) {
+    list.innerHTML = '<div style="padding:16px 18px;font-size:12px;color:var(--text-dim);font-style:italic">No history yet.</div>';
+    return;
+  }
+  list.innerHTML = [...navHistory].reverse().map(slug => {
+    const color = slugColor[slug] || 'var(--text-dim)';
+    const label = slugLabel[slug] || slug;
+    return `<div class="h-item" onclick="loadPage('${slug}');closeHistoryModal()">
+      <span class="h-dot" style="background:${color}"></span>${label}
+    </div>`;
+  }).join('');
+}
+
+function closeHistory(e) {
+  if (e.target === document.getElementById('history-overlay')) closeHistoryModal();
+}
+function closeHistoryModal() {
+  document.getElementById('history-overlay').classList.remove('open');
+}
+
+// ══════════════════════════════════════════════════════════════════
+// KEYBOARD SHORTCUTS
+// ══════════════════════════════════════════════════════════════════
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && e.target.tagName !== 'INPUT') {
+    e.preventDefault();
+    document.getElementById('search').focus();
+  }
+  if (e.key === 'Escape') {
+    document.getElementById('history-overlay').classList.remove('open');
+    document.getElementById('search').blur();
+    document.getElementById('search').value = '';
+    filterNav('');
+  }
+  if (e.altKey && e.key === 'ArrowLeft' && navHistory.length > 0) {
+    const prev = navHistory.pop();
+    loadPage(prev);
+  }
+});
+
+// ══════════════════════════════════════════════════════════════════
+// HASH ROUTER
+// ══════════════════════════════════════════════════════════════════
+function routeHash() {
+  const hash = window.location.hash.replace('#','');
+  if (hash && slugPath[hash]) loadPage(hash);
+}
+window.addEventListener('hashchange', routeHash);
+
+// ══════════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════════
+buildNav();
+routeHash();
+if (!window.location.hash) {
+  setTimeout(() => loadPage('README'), 80);
+}
+</script>
+</body>
+</html>

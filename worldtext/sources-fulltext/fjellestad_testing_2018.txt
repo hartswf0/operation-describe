@@ -1,0 +1,976 @@
+# Testing the Limits
+# Source: Fjellestad - 2018 - Testing the Limits.pdf
+# BibTeX key: fjellestad_testing_2018
+# Zotero dir: 3109
+# Extracted chars: 62689
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Testing the Limits:
+Leanne Shapton’s Ekphrastic Assemblage
+Danuta Fjellestad
+Uppsala University
+Abstract
+It is common to claim that the recent surge in scholarship on ekphrasis
+has been stimulated by the pervasive presence of the image in what is broadly — if
+vaguely — referred to as “new media.” However, also in the “old” medium of print and
+its primary embodiment, the codex, images now circulate with unparalleled intensity.
+The rich presence of images in contemporary fiction galvanizes anew the question of
+ekphrastic practices and word-image interactions: what is the “visual-textual” contract
+in the case of novels in which images are reproduced? What patterns of mobility are
+there between image and text? How exactly does the narrative engage with the image
+that is embedded in it? These questions inform my analysis of how ekphrasis is reshaped
+in a highly unorthodox novel, Important Artifacts and Personal Property from the Collection of
+Lenore Doolan and Harold Morris, Including Books, Street Fashion, and Jewelry (2009) by Leanne
+Shapton. Accentuating its own visuality, the novel systematically sets words against the
+reproduced pictures, playfully testing the limits of ekphrasis. Above all, Important Arti-
+facts raises the question of the logic that binds the succession of images and the related
+ekphrastic moments. My reading is inspired by Liliane Louvel’s (2011) concept of a
+“picture gallery novel,” Tamar Yacobi’s (2013) work on “double exposure,” and Emma
+Kafalenos’s (2012) concern with narrativization of sequences of images. I propose to
+supplement their work with the concept of assemblage as a productive way of speaking
+about “pictured” ekphrasis.
+Keywords
+ekphrastic assemblage, pictured ekphrasis, pictured gallery novels, Leanne
+Shapton
+Poetics Today 39:2 ( June 2018 )
+DOI 10.1215/03335372-4324493
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 2 ──
+The Rise and Challenges of “Pictured” Ekphrasis
+Not all that long ago ekphrasis, this “maddeningly elusive and endlessly tempt-
+ing subject” (Krieger 1967: xiv), appeared—at least to the fashion-sensitive
+academic crowd—to be a somewhat archaic, perhaps even rusty, if not a
+bit moth-eaten concept, even if ekphrasis did of course have its circle of
+committed scholars and important work was undeniably produced. Today
+ekphrasis is enjoying an unprecedented resurgence of critical interest, as
+Renate Brosch states in the introduction to this very issue of Poetic Today
+(see also Clu¨ver 1997: 22; Karastathi 2015: 92; Scott 1994: 404). Undoubtedly
+part and parcel of what W. J. T. Mitchell (1994: 13) has dubbed “the pictorial
+turn,” ekphrastic studies, I believe, finds a special challenge in recent literary
+developments, which simultaneously bolster and contest the unprecedented
+cultural dominance of images. One such development is the extraordinary
+rise of “art thriller” novels in which a real or imagined work of art or artist
+interlocks with secrets, fraud, crime, or conspiracy. Who has not heard of—if
+not read—Girl with a Pearl Earring by Tracy Chevalier (1999), The Da Vinci Code
+by Dan Brown (2003), or The Goldfinch by Donna Tartt (2013)? Also the so-
+called museum poem, that is, an ekphrastic poem accompanied by images,
+has put pressure on conceptualizations of ekphrasis. Two prime examples of
+this genre are the collections With a Poet’s Eye (Adams 1986) and Give Me Your
+Hand (Durcan 1994). But perhaps the most compelling literary trend chal-
+lenging the traditional understanding of ekphrasis as a vivid description of
+a work of art is what is variously referred to as the hybrid, intermedial, or
+multimodal novel (cf. Gibbons 2012; Hallet 2009; Nørgaard 2010; Page
+2010 Sadokierski 2010).1 Just as in museum poems, in novels such as Mark
+Danielewski’s House of Leaves (2000), Jonathan Safran Foer’s Extremely Loud and
+Incredibly Close (2005), or Zachary Thomas Dodson’s Bats of the Republic (2015),
+visually reproduced images intersect with the verbal text. However, while
+in the museum poem the reader encounters reproductions of artworks, the
+range of images in contemporary novels goes far beyond works of art to
+include photographs, maps, diagrams, posters, and so on.2 Importantly, in
+1. Defining ekphrasis has been at the center of intensive debates for a long time. Spitzer (1955:
+218) defines ekphrasis as “the description of an objet d’art by medium of the word”; Krieger
+(1967: 5) as “the imitation in literature of a work of plastic art”; Heffernan (1993: 3) as “a verbal
+representation of a visual representation.” Critical deliberations as to the virtues and short-
+comings of these (and many other) definitions are not likely to abate any time soon. For dis-
+cussions about the various ways in which ekphrasis has been defined see, for instance, Heffernan
+(1993), Mitchell (1994), Wagner (1996), and Yacobi (2013).
+2. In the closing comments of his seminal essay on ekphrastic poetics, W. J. T. Mitchell (1994:
+181) catalogs such kinds of visual representation as “photography, maps, diagrams, movies,
+theatrical spectacles” as energizing ekphrastics. Clu¨ver (1997: 26) proposes that artifacts such
+as posters, photographs, architecture, music, and nonnarrative dance are legitimate sites of
+338
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 3 ──
+the novels I am concerned that the reader/viewer is likely to encounter
+multiple visual inserts. How exactly does the narrative engage with the im-
+ages that are embedded in it? How does the text justify its hospitality to the
+presence of images? What is the “visual-textual” contract that is established?
+If the presence of individual images is narratively justified, what is, then, the
+rationale for the images as a whole? These and similar questions are relevant
+for any novel with multiple instances of “pictured” ekphrasis.3 In what follows
+I focus on a book which, while not unique in offering verbal-visual doublets,
+fashions pictured ekphrasis in particularly provocative ways: Important Artifacts
+and Personal Property from the Collection of Lenore Doolan and Harold Morris, Including
+Books, Street Fashion, and Jewelry (2009) by Leanne Shapton. To signal the broad
+array of pictured ekphrasis and to substantiate my claims about assemblage,
+I briefly discuss two novels which are less extreme but no less engaging than
+Shapton’s: Steve Martin’s An Object of Beauty (2004) and Ransom Riggs’s Miss
+Peregrine’s Home for Peculiar Children (2011). By systematically pointing to im-
+ages’ materiality, all three draw attention to what has been of marginal
+interest to ekphrasis. Pitting ekphrasis against the reproduced image, these
+novels contest the claim that under the pressure of new media, we are witness-
+ing “an inversion of the classical device of ekphrasis . . . Today . . . images are
+given the task . . . of explaining words, rather than the reverse” (Bolter 1996:
+264). Coupling ekphrasis with reproductions of images, these novels raise the
+question of the logic informing the assembly of visual inserts.
+My analysis of ekphrasis in Shapton’s novel as well as the other two texts is
+broadly framed by and in dialogue with Liliane Louvel’s (2011) concept of a
+“picture gallery novel,” Tamar Yacobi’s (2013) work on “double exposure,”
+and Emma Kafalenos’s (2012) concern with narrativization of sequences of
+images. A picture gallery novel, Louvel (2011: 172) proposes, is a novel that is
+“punctuated at intervals by the presence of a painting, a mirror, or one of
+their substitutes.” Focusing on textualized images, Louvel turns to novels such
+as Oscar Wilde’s The Picture of Dorian Gray (1890) and Virginia Woolf’s To the
+Lighthouse (1927) to investigate how the “intermittent blinking” (ibid.: 177) of
+ekphrastic images participates in the creation of rhythm, reconstitutes plot,
+and contributes to structure. In the pictured ekphrasis I am dealing with, the
+ekphrasis. For Louvel (2011: 138) “pictorial variations of the image” include mirrors, maps,
+photography, optical instruments, screens, tableaux vivants, and tapestry. There are even those
+who argue that even typography “lends itself perfectly to ekphrastic . . . reading” (Antonetti
+1999: 41).
+3. By “pictured” ekphrasis I mean ekphrasis that is accompanied by an image, that is, the
+image-plus-word variety of ekphrasis. This term complements Yacobi’s notion of “picture-less”
+(or “image-less”) ekphrasis (2013: 9ff.). I want to express my gratitude to Renate Brosch for
+drawing my attention to it.
+Fjellestad
+† Testing the Limits
+339
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 4 ──
+narrative flow is punctuated twice: by ekphrasis and by a visually reproduced
+image. The question is how exactly the visual interrupts the “neat unfolding
+of the text” (ibid.: 172). By means of what logic(s) are the reproduced images
+bound together, that is, how are they plotted? The twinning of ekphrasis and
+reproduced image that doubly punctuates narrative resonates with Yacobi’s
+ekphrastic “double exposure,” which, she writes, “brings together seemingly
+unrelated artworks, often indeed to unharmonious and unexpected effect”
+(2013: 4); the artworks “jointly evoked by the verbal text [have] no manifest
+similarity between them to unify and explain their juxtaposition” (ibid.: 5). It
+is Yacobi’s rhetoric of plurality, discord, and heterogeneity that is of impor-
+tance to my discussion here. However, even if she evokes a plurality of images,
+Yacobi focuses on doubles only, her object of study being a poem accom-
+panied by a single image. Multiple images in novels, on the other hand, is a
+phenomenon investigated by Kafalenos. Of particular pertinence here is her
+analysis of Italo Calvino’s Castle of Cross Destinies (1977), a novel in which
+an unnamed homodiegetic narrator generates narrative from subsets of
+tarot cards, the images of which are reproduced in the margins of the book.
+Narrativizing these images, Kafalenos (2012: 41) argues, “requires two inter-
+related processes: supplying events and assembling events into a narrative.”
+But what if the homodiegetic narrator does not “plot” the images or if the
+extradiegetic narrator appears to be but a curator of images rather than
+a guide to the “picture gallery,” as is the case in Shapton’s novel?
+I propose that “assemblage” may be a conceptual resource for discussions
+of multiple cases of pictured ekphrasis in novels. As a concept, assemblage has
+three distinct provenances. In fields such as archeology or paleontology,
+assemblage is the classificatory term par excellence; it simply means a group
+of different artifacts (or fossils) found in association with one another. In
+human sciences assemblage has gained new traction thanks to the work of
+Manuel DeLanda, who, building upon Gilles Deleuze and Fe´lix Guattari’s
+comments in A Thousand Plateaus (1987), undertakes to develop a robust theory
+of assemblage in his A New Philosophy of Society: Assemblage Theory and Social
+Complexity (2006).4 In art criticism the use of the concept predates its recent
+sociological currency: it was popularized through its use in the title of the
+1961 exhibition, “The Art of Assemblage,” mounted by the Museum of
+Modern Art in New York, where it referred to all forms of composite art
+and modes of juxtaposition, but in particular signaled a position between
+the broader term of collage and the narrow one of construction (Elderfield
+1992: 7).
+4. For a useful introduction to the rise of the concept of assemblage see Marcus and Saka (2006).
+340
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 5 ──
+Whatever specific work the concept of assemblage is expected to do in the
+various disciplines in which it circulates, it is employed because it challenges
+thinking in terms of organic wholes, emphasizes temporary configurations of
+relationships among heterogeneous entities, evokes materiality, and draws
+attention to processes of coming-together. An object (image) can be taken out
+of a given ensemble, and transferred to another, its meaning emerging
+through a new set of relationships. Finding the notion of assemblage highly
+suggestive, but attempting neither to transfer any single theory of assemblage
+to the study of ekphrasis nor to use assemblage as a strict analytical concept,
+I put it to work in my analysis to signal the process of verbal aggregation of
+visual objects, and the way they are brought together into a constellation
+without any single organizing principle.
+Shapton’s Ensemble of Faux Catalog Captions and Images
+Shapton’s ingenious novel playfully tests the limits and powers of ekphrasis
+through an assemblage of captioned photographs in the manner of an auc-
+tion catalog.5 The mimicry starts with the cover: the long title provides the
+names of the two owners of the objects to be auctioned, Lenore Doolan and
+Harold Morris, the date and place of the sale (February 14, 2009, New York),
+as well as the name of the (fictional) auction house (Strachan & Quinn), but
+the author’s name is nowhere to be found. Inside, the pages imitate the look
+of an auction catalog as well: black-and-white numbered photographs are
+accompanied by captions that identify each “lot” and provide information
+about provenance, condition, size, and estimated price of the object up for
+auction. However, the items to be auctioned are a far cry from artworks; up
+for sale are everyday objects such as clothes, kitchen utensils, sports equip-
+ment, CDs, books, postcards and letters, handwritten notes, and a broad
+variety of bric-a-brac from ceramic figurines to restaurant menus and for-
+tune-cookie messages. This, in a word, is not the Sotheby’s fine arts sale; its
+affinity is with an estate sale or—given that many of the items are little more
+than detritus—an even less glamorous garage sale.
+The text that accompanies each image follows the same basic formula and
+layout. For instance, a photograph of a knife, accompanied by number 1057,
+is presented as follows (Shapton 2009: 23):
+LOT 1057
+A grapefruit knife
+A wood-handled grapefruit knife. Good condition.
+5. For attempts to recover the distinct history of illustrated auction see Elizabeth Pergam (2014).
+Fjellestad
+† Testing the Limits
+341
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 6 ──
+61=2 in. in length.
+$10 – 20
+Similarly, number 1180 links an image of a camera and this entry (ibid.: 67):
+LOT 1180
+A Hasselblad camera
+A Hasselblad 500 C/M single-lens reflex medium-format camera. Used, in
+good condition. Given by Morris to Doolan, Christmas 2004.
+$400– 500
+While the above examples represent the standard formula used throughout
+the novel for the 331 lots (numbered 1001 through 1332, a few of the lots listed
+as “withdrawn”), a majority of the skeletal descriptions are expanded with
+snippets of additional information. Most often the reader is presented with
+fragments of communication between Doolan and Morris or with the notes
+the characters purportedly scrawled to themselves. Such messages, rendered
+in the captions in italics, are either an integral part of a given lot that contains
+other objects, or constitute a lot all by themselves. Let me give a couple of
+typical examples (ibid.: 57 and 66):
+LOT 1148
+Munro, Alice
+Lives of Girls and Women, paperback (Vintage, 2001). Well-used condition, cover is
+torn. Laid in is a note from Morris to Doolan. Reads in part: “I think you’re overreacting.
+I am sorry to have had to miss dinner, truly sorry, and I should have called yes, but it was a work
+party. Please understand, these functions are boringly important . . . ” Dimensions vary.
+$10–15
+LOT 1176
+A handwritten note
+A Chase Manhattan withdrawal receipt. On reverse in Morris’s script is written,
+“Do you still want a boyfriend? ” beneath which is written, in Doolan’s script, “Yes, I want
+a boyfriend with blue eyes,” followed by, in Morris’s script, “And I want an unpredictable
+girlfriend.” 53=4 £ 31=4 in.
+$10–20
+Occasionally, in smaller font, a note is appended at the end of the caption
+(ibid.: 92):
+LOT 1232
+A brown mug
+A broken brown glazed mug stamped “Brickett Davda Made in England” on base.
+$5–7
+Included in lot is a note handwritten by Doolan. Reads: “H I’m so sorry, I know this
+was your favorite. Will get it fixed, I promise.”
+342
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 7 ──
+Such “expanded” captions provide prompts for the reader to see the col-
+lected lots as repositories of a relationship. Scrutinizing the sales items, close-
+reading the captions, and identifying resonances and discrepancies between
+the images and their verbal representations is the condition for uncovering
+the story buried in the discrete lots. Basically, this is a quintessential drama of
+a love affair gone sour. A snapshot image of Lenore Doolan and a passport
+photograph of Harold Morris (itemized as lots 1001 and 1002, respectively)
+open the novel. We learn that Lenore Doolan, a Canadian, age twenty-six,
+writes a food column for the New York Times; Harold “Hal” Morris, an Eng-
+lishman, age thirty-nine, is a globetrotting commercial photographer. The
+two first meet at a Halloween party in 2002, he dressed as Harry Houdini (an
+early nineteenth-century illusionist and stunt performer famous for sensa-
+tional escape acts), and she as Lizzie Borden (a late nineteenth-century Amer-
+ican woman accused of murdering her father and stepmother), as we learn
+from the caption to lot 1005, which is the first photograph in which Morris
+and Doolan are featured together. They fall in love and eventually decide to
+live together. Morris travels widely on a variety of assignments; Doolan is
+promoted in her job. He drinks a lot and forgets dinner parties or birthdays;
+she becomes increasingly frustrated with his lack of commitment, her violent
+outbursts of anger scaring him. Gifts are exchanged as tokens of affection
+or in order to patch up the relationship. A constellation of artifacts that are
+Morris’s gifts to Doolan (a Herme`s beach towel and a watch of the same
+make, an Elsa Schiaparelli astrakhan coat, allegedly once owned by Maria
+Callas, a Hasselblad vintage camera, etc.) bespeak his generosity as a suitor;
+hers may be more modest gifts, like handmade cards or homemade meals,
+but they carefully mark anniversaries and holidays. There are hints about the
+presence of other lovers in Morris’s and Doolan’s lives. There is a likelihood
+of pregnancy. The initially passionate relationship reaches a point beyond
+repair, and in 2006 the couple breaks up. Three years later—ironically
+enough on Valentine’s Day—Doolan’s and Morris’s personal property is
+to be auctioned.
+In repurposing the genre of auction catalog to tell an archetypal story
+about an unhappy love affair, Shapton sparks afresh a number of questions
+about the function of objects in our lives. That personal possessions reveal our
+taste is surely a truism; that memories are lodged in objects is equally well
+known. But what turns detritus into precious mementos and makes trivia
+bearers of affections, anxieties, fears, and hopes? What is the monetary value
+of emotionally precious objects, that is, how is the sentimental worth of
+commodities to be priced? How do gadgets guard or reveal our most intimate
+secrets? If our lives can be told through things, then perhaps our lives are but
+Fjellestad
+† Testing the Limits
+343
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 8 ──
+repositories of things.6 Shapton’s novel urges such questions with particular
+gravity and poignancy exactly because of the systematic use of a formulaic
+way to present the images, that is, of ekphrasis.
+Of course one might ask if we are actually dealing with ekphrasis at all.
+After all, what we encounter in Important Artifacts is definitely not “the imita-
+tion in literature of a work of plastic art” as Krieger (1967: 5) would have it;
+nor is it “a verbal re-presentation of visual art,” as Yacobi (2013: 2–3) pro-
+poses. The “art” part of these definitions of ekphrasis presents a problem, the
+lackluster photographs in Shapton’s novel depicting quotidian objects, not
+artworks. But to put forward such an objection is to disregard the fact that
+Shapton uses the format of the auction catalog as a ruse, that the images
+function within the context of a novel, an aesthetic artifact that “denatu-
+ralizes” the photograph’s indexical relationship to reality and, by extension,
+the object depicted by it. However, denaturalization does not mean erasure:
+when photographic images are embedded in a fictional world, ambiguity and
+confusion flare up as the documentary and the fictional clash.7
+As is the case with the “art” part of ekphrasis, so the verbal representation
+part may also appear to be problematic in Important Artifacts. Although it has
+been argued that titles and captions belong to the domain of ekphrasis (cf.
+Scott 1994 or Clu¨ver 1999), the objection may be raised that Clu¨ver and
+others meant captions in art auction catalogs, not in the catalog for a garage
+sale.8 Moreover, in book-size catalogs of auction houses such as Sotheby’s or
+Christie’s, a short formal presentation of each item is usually enhanced by an
+interpretive text and, often, a bibliography, while the captions in Shapton’s
+novel are strikingly skeletal and perfunctory. This, obviously, is deliberate:
+disguising her novel as a sales catalog in which images are (seemingly) of
+primary importance, Shapton, I want to argue, slyly takes to its extreme the
+ancient premise of ekphrasis as verbally ennobling the visual. In other words,
+Important Artifacts may be read as (mockingly) enacting a paragonal or antag-
+onistic encounter between the verbal and the visual. But of course Shapton’s
+ekphrastic experiment is more complex.
+6. Shapton’s novel can be productively read through the concerns of so-called thing theory,
+which focuses on our enmeshment with the world of things; see in particular Brown (2003,
+2015).
+7. The relation between photography and literature has been the subject of numerous studies.
+Of these, I would like to mention just two foundational volumes, Rabb’s (1995) collection of
+essays and Armstrong’s (1999) investigation of the alliance between realism and photography.
+8. Scott (1994: 403) proposes that “even prose catalogue descriptions or titles of artworks may
+be considered ekphrasis”; according to Clu¨ver (1999: 189) ekphrasis should include “certain
+types of reviews, passages in textbooks, descriptions in auction catalogues or on CD covers, and
+renditions in narratives, plays, and poems.”
+344
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 9 ──
+Like captions in art catalogs, the captions in Shapton’s novel are conveyors
+of information that frames the perception of images. Take lot 1102, for
+instance, which shows a set of four images of cryptic objects. The image is
+made intelligible by the caption, which identifies the obscure objects as “vari-
+ous pieces of beef jerky” (ibid.: 39). However, it is not beef jerky that is on sale
+but Morris’s “artistic” photographs of them. There is yet another twist to the
+verbal-visual transfer of information: what the reader/viewer sees is four
+images, while the caption states that the lot consists of a series of twenty-
+four photographs. Without the caption, the image would not only be mute
+but misleading as well.
+As in conventional ekphrasis that illuminates the viewer’s psychological or
+inner life, in Shapton’s novel even the captions that consist of lists of objects
+give access, however obliquely, to the peculiarities of the two protagonists.
+Lot 1079, for instance, consists of a list of over forty items to be found in
+Doolan’s cosmetics case. The expected assembly of makeup articles, cosmet-
+ics, and toiletries is disrupted by an odd object: a small bottle of Heinz
+ketchup. Resonating with a mention of ketchup in lot 1070, the inclusion
+of the item in a traveling case turns Doolan’s peculiar taste for eating cashews
+with ketchup into an obsession. The list of items in Morris’s corresponding
+cosmetics travel bag (lot 1080) is dominated by an array of pharmaceuticals
+such as Pepto-Bismol, Neosporin, Jarrow Ginko Biloba capsules, Echinacea
+extract, Metagenics somnolin tablets, Tylenol, Dramamine, Sinex, and anti-
+biotic ointment. In conjunction with Morris’s note included in lot 1090 that
+reads “Valium (blue) / Xanax (white) / Cylexa (small white) / Kath” (ibid.: 35),
+Doolan’s partner emerges as a man suffering from a variety of ailments,
+ranging from stomach problems, motion sickness, and eczema to anxiety
+and depression. Perhaps a hypochondriac, Morris is prone to supplement
+prescription drugs with herbal and organic remedies.
+While the captions in Important Artifacts are predominantly quite skeletal,
+book lots cunningly implant narratives that expand, highlight, supplement,
+or contextualize the bare-bones information supplied by ekphrasis. Lot 1258,
+for instance, is identified as “self-help and relationship books” (ibid.: 99). It
+consists of Erich Fromm’s The Art of Loving (1962), Helen Fisher’s Why We Love
+(2004), and Steven Carter and Julia Sokol’s He’s Scared, She’s Scared (1995). The
+lot in itself sends a signal about problems in the Morris-Doolan relationship as
+well as a desire to repair it. Whether it is Morris, Doolan, or both of them who
+explored the books is left unspecified. But the lot signifies beyond the specific
+relation presented in the novel: it is a testimonial to the cultural popularity of
+self-help books, the cult of self-knowledge, the persistent belief that emotions
+and passions can be rationally explained, and the conviction that, given the
+right tools, relationships can be revived. It is noteworthy that the three books
+Fjellestad
+† Testing the Limits
+345
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 10 ──
+offer widely different, even contradictory, approaches to love, which is likely
+to increase rather than assuage perplexity about this story’s central emotion.
+According to Fromm, a renowned psychoanalyst and social philosopher, any
+kind of love—romantic, brotherly, of oneself, or of God—is a skill that has to
+be developed and requires knowledge and effort. Fisher, an anthropologist, is
+interested in the biology of love and attraction; she sees romantic passion as
+hardwired into our brains by millions of years of evolution. Carter and Sokol
+theorize their own experiences, advancing the idea that modern men and
+women are torn between the desire for intimacy and the equally intense need
+for independence; hidden fears of commitment, they claim, sabotage rela-
+tionships. Thus the mere listing of book titles opens up a profusion of narra-
+tive possibilities in the way that intertextuality does. For all that, the caption
+and the accompanying image raise questions such as: is the label “self-help
+and relationship books” adequate? Why would the narrator-cum-curator
+assemble these three books in a single lot? Is it significant or not that the
+book lot comes after a lot that features three pairs of women’s shoes? Why are
+the three books horizontally stacked, their spines facing the reader/viewer,
+while all the other book lots show books in vertical positions? This may sound
+like hairsplitting, but in Shapton’s novel every verbal-visual detail seems to be
+invested with meaning.
+Quite often, ekphrasis-triggered intertextuality is interlaced with pictorial
+intervisuality. Lot 1305 may serve as an example of this verbal-visual dynam-
+ics. The lot is identified as “Moore, Pamela / Chocolates for Breakfast (Long-
+man’s Green and Co., 1957)” (ibid.: 120). The importance of the novel seems
+to be promptly displaced by a note tucked between the book’s pages, in which
+Doolan informs Morris that she suspect she may be pregnant; Morris writes
+back that he needs time to think about the new situation and will call his
+partner from a hotel. The note has climactic significance, yet it is its “vehicle,”
+Moore’s book, that constitutes the lot. The tension between the novel and the
+notes is countered by striking similarities between the stories they tell. First
+published in 1956, Chocolates for Breakfast is an account of a young woman
+learning to navigate a world of sexuality and self-destructive behavior. Moore’s
+depiction of a love affair between a young woman and a much older man
+echoes Shapton’s, as do the themes of alcoholism, isolation, depression, sui-
+cidal thoughts, loneliness, secrets, and the difficulty of being a woman. An
+instantaneous international sensation, a scandal even, Moore’s novel violates
+the taboo on explicit depiction of same-sex sexuality, while Important Artifacts
+defies novelistic conventions. This narrative mise-en-abıˆme has its visual coun-
+terpart. Doolan’s note is only partly sticking out of Moore’s book, which
+seems to enfold, anchor, and protect it. The cover of the novel features the
+upper torso of a young woman sitting at a table, a glass of wine in her hand.
+346
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 11 ──
+Lost in thought, the figure is poignantly lonely. This drawing of the female
+figure reverberates with the photographs of Doolan holding wine glasses,
+looking forlorn even when surrounded by others. In lot 1305, as in many
+other lots, pictured ekphrasis doubles down on itself, and Important Artifacts is
+turned into both an echo chamber and a hall of mirrors.
+But such intricate verbal-visual interactions emerge only gradually, Shap-
+ton’s book thrusting the reader into a world of images with such abandon that
+at first one may wonder if the book is a novel at all. With one exception, every
+single page is dominated by pictures. Occasionally, a single image monopo-
+lizes almost the whole space of a given page; most often there are several
+pictures on a page, the visual congestion of the page enhanced by the fact that
+a single picture may represent several items or may feature other pictorial
+objects such as postcards or photographs. The dominance of the visual seems
+to be augmented by the strategic use of modest-size fonts in captions and by
+page layout—the photographs are often placed at the top of the page or in left-
+hand columns, so that the reader accesses the pictures first. Although text and
+image are systematically linked together via numbers, the captions are seldom
+placed in close proximity to the pictures, which are haphazardly arranged, so
+to tie the image and the word together, the reader’s gaze must crisscross the
+page.9 But this primacy of the visual turns out to be just another ruse.
+While the two media do indeed work together to co-create the intricate
+tapestry of the love affair, ultimately the verbal upstages the visual. In the
+“grapefruit knife” example given above, the relation may appear symmetri-
+cal, but the caption in fact conveys much more information than the picture:
+it identifies the knife as a grapefruit knife, its handle as made of wood, and
+specifies its condition and its size. In fact, all the captions provide information
+not rendered by photographic images, such as color, size, material or, in
+many cases, the brand of the merchandise. Lot 1284 (ibid.: 112–13), for in-
+stance, consists of eighteen bras, each bra identified by its color (black-and-
+yellow, red, red-and-white, etc.), material (nylon, cotton, lace, spandex), and
+brand (Cosabella, Chantal Thomass, Burberry, Huit), none of which can be
+gleaned from the images. Filled with merchandise, the world of Important
+Artifacts uses brand names such as Prada, Herme`s, Dior, Dr. Hauschka, or
+Helmut Lang in a way similar to how references to a Picasso, a Rembrandt,
+or a Warhol function in the world of high art catalogs: both a Picasso and a
+Dior bespeak privilege, luxury, and aesthetic superiority.
+9. The physical positioning of the images in relation to the text is important, because it mobi-
+lizes the gaze of the reader and signals reading paths. On how images and text are woven
+together in Shapton’s novel, see Fjellestad (2015).
+Fjellestad
+† Testing the Limits
+347
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 12 ──
+In some cases the captions identify the objects, but no pictures are linked to
+them. Such “not illustrated” lots are mostly printouts of e-mails and paper
+clippings whose contents are (at least partly) transcribed. Lot 1062 (ibid.: 24),
+for instance, identified as “a handwritten note,” is described as follows: “A
+note on a Post-it dated May 10, 2003. Reads: ‘Lenore, I’m sorry we fought last
+night. I will give you a call from my hotel. H x.’ 3 £ 3 in. Not illustrated. $10–20.”
+Occasionally, visually available information either clashes with the verbal, or
+the image is incomprehensible without the caption, as is the case of lot 1102,
+discussed above. Sometimes hardly anything is visually available. Lot 1105
+is one of the particularly teasing examples in which the verbal is caught in
+a game of hide-and-seek. The image is that of a piece of folded paper. The
+caption reads (ibid.: 41):
+LOT 1105
+A handwritten list
+A list on yellow foolscap paper in Doolan’s hand. Reads: “Pros: Fun, good sex,
+different world, travel, art / Cons: Depressive — drinking? Celebrity fixation, bad breath, always
+traveling, doesn’t care about food, withholding.” Paper is folded in halffive times. 14 £ 81=2 in.
+$10–15
+The only piece of information corroborated by the picture is that a piece of
+paper is folded, but not how many times, what type of paper it is, that it
+contains a list, and so on. The image, that is, withholds what the text provides,
+this blatant disjunction asserting the powers of ekphrasis to turn even the most
+mundane object into an important artifact and thus a (faux) marketable
+commodity.
+While traditionally ekphrasis arrests the narrative flow, in Shapton’s novel
+it often includes signals of temporality: boarding passes for a flight to Venice,
+laid in a Daphne du Maurier novel (lot 1077; ibid.: 29), are dated June 19,
+2003; an invitation to a Halloween party (lot 1106; ibid.: 41) bears the date
+October 31, 2003. Sometimes the temporal unfolding of events is indicated
+by proxy. Lot 1255 (ibid.: 99), for example, consists of a group of business
+cards, on one of which the name Vino Enoteca is given, the person identified
+as “Couples Therapist.”10 That the couple considered seeking professional
+help some time in 2005 is implied by the lot’s positioning between two dated
+lots: lot 1254 (ibid.: 98) is a handwritten letter dated March 19, 2005, and lot
+1256 (ibid.: 99) is a newspaper clipping from September 13, 2005. Ekphrastic
+comments on wear or damage also serve to give the objects a temporal
+dimension; the images themselves only occasionally do so, through the “vin-
+10. I want to thank Elisabeth Herion Sarafidis for her marvelous comments on humor in
+Shapton’s novel; “Vino Enoteca” (wine cellar and shop) is a Pynchonesque type of name for
+a therapist, especially given the fact that Morris is a heavy drinker.
+348
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 13 ──
+tage” look of some clothing items or reproductions of book covers.11 Each
+of the discrete visual units/lots is aimed at potential bidders, but the whole
+sequence requires the reader to weave together snippets of verbal informa-
+tion into a narrative. In this respect, Important Artifacts is quite different from
+Calvino’s novel, in which sequences of images are narrativized by a homo-
+diegetic narrator (Kafalenos 2012).
+The reader of Calvino’s novel watches the character-narrator put together
+a story from subsets of images that all belong to the same tarot pack; the
+reader/viewer of Shapton’s novel is faced with the task of himself or herself
+fitting together an assembly of images dizzying in their heterogeneity. Repeat-
+edly, captions draw the reader’s/viewer’s attention to the fact that the lots
+consist of a series, a collection, or a group of items. Sometimes the items are
+brought together by such generic denominators as “maps,” “tea towels,” or
+“vintage dresses”; often, the lots consist of a haphazard assembly of things.
+The caption of lot 1302 (ibid.: 118), for instance, informs us that we are deal-
+ing with “a group of sale finds” that includes “a vintage hand-knit green-wool
+zippered sweater, child size, ca. 1940. A rainbow necklace. A VHS copy of
+Annie Hall. An oversize plastic die. A heart-shaped brooch.” What can each
+item tell us about the characters? What can the lot as a whole tell us about
+the protagonists’ habits: did they both—or one of them—go to sales on a
+regular basis? Were the objects purchased on one and the same occasion or
+at different sales? If the first was the case, were the items sold together as a
+group or as separate items? Who is the agent deciding on the constellation
+of objects: some earlier owner/seller? the curator of the auction? Like
+objects found at an archeological site, the pictured objects sited/sighted
+in the novel-cum-auction catalog trigger questions but withhold definite
+answers; only partial answers may be teased out when objects are viewed
+in relation with other objects.
+That banal everyday objects are worthy of attention at all, that they are
+important artifacts, that they have value is mediated by ekphrasis. Ekphrasis
+reanimates everyday detritus and turns it into something desirable and mean-
+ingful. More than that: to be narrativized, the images need words. This is an
+ancient premise of ekphrasis on which Important Artifacts builds while simul-
+taneously delighting in the richness of pictures. In its employment of pictured
+ekphrasis Shapton’s text tests novelistic boundaries, ushering in, perhaps, a
+new type of narrative: the ekphrastic novel.
+11. Hal and Lenore give each other numerous first editions of books; without the captions, few
+readers are likely to date the images of the covers.
+Fjellestad
+† Testing the Limits
+349
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 14 ──
+“Pictured” Gallery Novels
+I want to turn now to two less eccentric novels to put Shapton’s refashioning
+of ekphrasis in the broader context of contemporary fiction’s wide-ranging
+preoccupation with word-image interactions, and to substantiate my prop-
+osition that assemblage may be a productive concept for ekphrastics. Both
+in Steve Martin’s An Object of Beauty (2004) and in Ransom Riggs’s Miss
+Peregrine’s Home for Peculiar Children (2011) bewitching images visually puncture
+the narrative, compelling the reader to ponder the function of the visual
+assembly and the logic that structures it. In both novels ekphrasis emphasizes
+images’ materiality and heterogeneity, albeit in different ways. In both, im-
+ages are endowed with powers of agency.
+Set in auction houses, galleries, and museums, An Object of Beauty is highly
+hospitable to verbal representations of works of art, that is, to ekphrasis.
+Indeed, the novel teems with traditional as well as less common variants of
+ekphrasis. The already rich tapestry of ekphrases is made even richer (and
+more complicated) by the presence of twenty-two attention-grabbing full-
+color reproductions of well-known artworks. While integral to the plot, themes,
+and characterization, the visual inserts undercut the narrative’s obsession
+with the physical properties of artworks. Artworks, Martin reminds the read-
+er again and again, are tangible objects, assembled from a variety of materials
+such as paper, cardboard, canvas, silk, porcelain, rusted Corten steel, or felt.
+Their size matters as well: the characters never fail to register, for instance,
+that Giorgio Morandi’s still lives are “no bigger than a tea tray” (Martin 2010
+97), or the “monumental size” of John Singleton Copley’s Watson and the Shark
+(ibid.: 51). From colossal (Richard Serra’s Betwixt the Torus and the Sphere) to
+miniscule (Tom Friedman’s self-portrait carved on an aspirin), the size of the
+artworks’ “bodies” impacts the characters’ response to them. Moreover,
+frames, tangible objects in themselves, shape the characters’ emotional and
+aesthetic reception of works of art. When a small but “sensational” painting
+by Milton Avery is brought to Sotheby’s, the reader is informed that its frame
+is “so ghastly” that it needs to be screened out when the picture is looked at
+(ibid.: 23); reframed, the same Avery instead attracts the buyers’ attention,
+wearing “its new frame like a bridal gown” (ibid.: 33). The physical coordi-
+nates of paintings, we are told, are value-bearers; factoring in “condition,
+size, and subject matter” (ibid.: 16) is necessary to arrive at an estimate of the
+artwork’s monetary worth. In positing an inseparable relation between art’s
+intangible essence and its material substance, the novel twins an aesthetic
+with an economic eye. While this twinning is indisputably part of Martin’s
+critique—satire even—of the vanities of the art market, it remakes ekphrastic
+tradition by centralizing what has traditionally been of marginal interest to it.
+350
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 15 ──
+However, this narrative engagement with frames is not reflected in the
+reproductions, nor is the ekphrastic insistence on the significance of artworks’
+size corroborated by the pictures. The novel’s reader/viewer sees “frame-
+less” images; the Still Life by Morandi, in reality tiny (12 by 16 inches), appears
+to be bigger than the 6 feet 3.87 inches by 58 inches image of Willem de
+Kooning’s Woman I. Least of all are the artworks’ materials available to the
+eye of the reader/viewer. This is brought home with particular force in the
+narrative when a French art collector describes a painting as a special “gou-
+lash” of materials: the stretcher, wooden triangles, nails, canvas, paint, var-
+nish, frame as well as labels and scribbles enable the “miracle” of the picture
+to “reveal” itself:
+Well, first, ephemera and notations on the back of the canvas. Labels indicate
+gallery shows, museum shows, footprints in the snow, so to speak. Then pencil
+scribbles on the stretcher, usually by the artist, usually a title or date. Next the
+stretcher itself. Pine or something. Wooden triangles in the corners so the picture
+can be tapped tighter when the canvas becomes loose. Nails in the wood securing
+the picture to the stretcher. Next, a canvas: linen, muslin, sometimes a panel; then
+the gesso— a primary coat, always white. A layer of underpaint, usually a pastel
+color, then, the miracle, where the secrets are: the paint itself, swished around,
+roughly, gently, layer on layer, thick or thin, not more than a quarter of an inch
+ever — God can happen in that quarter of an inch — the occasional brush hair left
+embedded, colors mixed over each other, tones showing through, sometimes the
+weave of the linen revealing itself. The signature on top of the entire goulash. Then
+varnish is swabbed over the whole. Finally, the frame, translucent gilt or carved
+wood. The whole thing is done. (ibid.: 81)
+It is noteworthy that the speaker verbally assembles the various material
+aspects of a painting in cadences and rhythms with strong erotic undertones:
+the short opening sentences give way to sentence fragments, the rhythm of
+which resonates with sexual arousal to be followed by a long, climactic, sen-
+tence full of adjectives, adverbs, and noun phrases, the commas urging the
+reader to go on in an almost breathless way, the idiom of “miracle,” “secrets,”
+“God” rupturing the focus on material properties and transporting the
+reader into the realm of the sublime. Then comes a return to sentence frag-
+ments and the final short sentence that brings the description to its resolution.
+Yet here, as elsewhere in the novel, the emphasis is on what is invisible to the
+reader/viewer. The reader’s experience of the images is thus dissonant with
+that of the characters; this aspect of artworks’ materiality is transferable
+linguistically but not visually.
+Yet even if the reproductions deceive the reader about the artworks’
+material, size, or frame, they do capture his or her eyes, arresting the flow
+of reading, their “intermittent blinking” (Louvel 2011: 177) artfully enticing
+Fjellestad
+† Testing the Limits
+351
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 16 ──
+the reader/viewer to look for the design that may bring them together, to
+weave “the thread between the various scenes,” to inscribe “a temporality in-
+between the fixity of the paintings,” and to (re)reconstruct a plot (ibid.: 172).
+Nevertheless, no “organic” principle can be found to bring the visual inserts
+together; there is no clear narrative motivation for the constellation of im-
+ages; the images cannot be grouped together under the rubric of type, genre,
+period, or any other category conventionally governing the arrangement of
+artworks. Instead, we are offered an assemblage of heterogeneous images
+interacting with each other in its temporary site, the book.
+While An Object of Beauty focuses on the traditional objects of ekphrasis,
+artworks, Ransom Riggs’s novel Miss Peregrine’s Home for Peculiar Children (2011)
+makes extensive use of vintage photographs.12 The narrator-protagonist
+weaves over forty antique-looking photographic images into the story of
+his adventures, repeatedly drawing the reader’s attention to their presence,
+registering his emotional response to them, and offering prompts as to what
+to look at. His ekphrastic engagement with the photographs varies from a
+mere reference to a relatively detailed description. For instance, one of the
+photographs, the narrator tells us, features “a pair of freakish twins . . .
+dressed in the weirdest costumes” he has ever seen (Riggs 2011: 45). The
+verbal information is barely enough to identify the picture that the narrator
+refers to. Even his second ekphrastic presentation of the twins as “two masked
+ruffle-collared kids who seemed to be feeding each other a coil of ribbon”
+(ibid.: 111) offers little detail; in both cases, the photographic image stands in
+lieu of the traditional “vivid description.” When more extended descriptions
+are offered, the photographic images tend to deviate from them. This is, for
+instance, how the protagonist describes his meeting with the eponymous Miss
+Peregrine: “On an elaborate Persian rug, in a high-backed chair, a distin-
+guished-looking ladysat knitting. She was dressedheadtotoe in black, her hair
+pinned in a perfectly round knot atop her head, with lace gloves and a high-
+collared blouse fastened tightly at her throat” (ibid.: 142). The image next to
+this description corroborates few (if any) of the details the narrator mentions:
+the woman is indeed dressed in black from head to toe and her blouse is
+fastened tightly at the throat, but she is standing in front of a house, holding
+an umbrella, her hands covered by heavy gloves and her hair by a hat with a
+12. A note at the end of Riggs’s book informs the reader that all the pictures are authentic and,
+mostly, reproduced in an unaltered state. The photographs, we read, “were lent from the
+personal archives of ten collectors, people who have spent years and countless hours hunting
+through giant bins of unsorted snapshots at flea markets and antiques malls and yard sales to
+find a transcendent few, rescuing images of historical significance and arresting beauty from
+obscurity — and, most likely, the dump” (2011: 350).
+352
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 17 ──
+veil. Only the physical proximity of the description and the photograph
+encourages the reader to take a leap of faith and link the two.
+The photographs, in other words, cannot be reduced to a merely illustra-
+tive or ornamental function but offer layers of visual experience that interact
+with the verbal narrative in highly complex ways. They also interact with
+each other by virtue of their medial “otherness” from the verbal: each photo-
+graph is reproduced on a separate page; each is displayed against a chocolate-
+brown background, thin double white lines marking the margins of the page.
+Most of the images are themselves framed by white borders typical of antique
+photographs. This complex structure of frames creates the impression of the
+photographs having been glued onto the pages, which makes them stand out
+as material objects, “foreign” to the narrative, their proper home a family
+album. At the same time, however, these doubly “orphaned” material arti-
+facts (they are uncaptioned, their provenance lost to history) are reconfigured
+and charged with meaning exactly because they are embedded in a verbal
+narrative. Renested into the narrative, they are brought together but retain
+their medial distinctiveness.
+The twenty-two color reproductions of artworks in An Object of Beauty and
+the over forty photographs in Miss Peregrine’s Home for Peculiar Children, inter-
+spersed at various points in the narratives, visually punctuate “the symphony
+of reading as a progression,” to use Louvel’s words (ibid. 2011: 174). In
+Important Artifacts, on the other hand, the pictures do not so much punctuate
+as orchestrate reading. In Shapton’s novel the hundreds of images do not
+blink intermittently but stare fixedly at the reader, demanding a return of his
+or her gaze. Rather than “picture gallery” novels, they are pictured gallery novels,
+tantalizing the reader/viewer with a promise that the assembly of images can
+be turned into a coherent narrative. But the promise is never kept. In neither
+of the novels does the presence of (reproduced) images make ekphrasis redun-
+dant; nor is there “an inversion of the classical device of ekphrasis,” that is,
+images are not ubiquitously “given the task . . . of explaining words” (Bolter
+1996: 264). Words and images are interconnected in knottier ways: they may
+complement, contradict, enhance, augment, dislodge, or accentuate each
+other.
+Ekphrastic Heterogeneity as Assemblage
+The variety and complexity of possible interactions between ekphrasis and an
+accompanying reproduction of an artwork is one of Yacobi’s concerns. Ana-
+lyzing museum poems, Yacobi argues that the availability of visual reproduc-
+tions alongside their descriptions brings about “at least four interrelated
+deautomatizing effects vis-a`-vis what is typical in picture-less ekphrasis”
+Fjellestad
+† Testing the Limits
+353
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 18 ──
+(2013: 15). To begin with, there is no need for enargeia, a vivid description of
+the visual image. Second, this minimized demand for verbalizing the visual
+“leaves the museum poet free to select, combine, highlight, defocus, extend
+pictorial elements at will.” Third, since all the details of the artwork are in the
+visual insert, the image may become merely a starting point for the poet, the
+poem “free to go its own way” into realms such as fantasy or verbal play.
+Finally, the quoted image does not have to be subordinate to the verbal;
+instead, it can “counter or even undermine the quoting frame’s dominance”
+(ibid.: 15–17). These points are relevant for pictured ekphrasis in novels
+as well, as I hope my analysis of Important Artifacts, An Object of Beauty, and
+Miss Peregrine’s Home for Peculiar Children has made clear.
+Yacobi’s interest in how ekphrasis functions vis-a`-vis the reproduced image
+rather than what it means resonates with Deleuze and Guattari’s focus on
+functions and relations. Promoting the concept of assemblage when we think
+about books, for instance, they state: “We will never ask what a book means,
+as signified or signifier; we will not look for anything to understand in it. We
+will ask what it functions with, in connection with what other things it does or
+does not transmit intensities, in which other multiplicities its own are inserted
+and metamorphosed” (1987: 4). In pictured ekphrasis, words function with
+and are metamorphosed by images, as Yacobi convincingly shows. However,
+in contradistinction to a museum poem, in the novels I have discussed the
+reader/viewer is faced with a succession of ekphrastic moments and repro-
+duced images not reducible to a single logic. Such “pictured” gallery novels
+function as assemblages.
+While assemblage basically means “a group of objects of different or simi-
+lar types found in close association with one another,” recent attempts to
+think through the concept emphasize heterogeneity, materiality, exchange-
+ability, and multiple functionality. What is at stake is a shift away from think-
+ing in terms of singular entities toward relations. This can of course be found
+in the metaphors of webs, networks, and ecologies. However, assemblage, as
+DeLanda (2006: 8) points out, works against such “organismic” approaches
+in which parts constitute a harmonious whole and are in turn defined entirely
+by the totality of this whole. Instead, DeLanda says, “a component part of an
+assemblage may be detached from it and plugged into a different assemblage
+in which the interactions are different” (ibid.: 10). Importantly, the concept
+of assemblage reconfigures agency as it recognizes objects’ agential powers:
+they affect as much as they are affected.13
+13. Several critics (cf. Hardie and Mckenzie 2007) have pointed out that the translation of the
+French agencement as assemblage obfuscates the question of agency.
+354
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 19 ──
+What I find attractive about assemblage is that it evokes the poetics of
+accumulation without compromising heterogeneity. It offers a way of think-
+ing about dynamic relations between ekphrasis and images: hardly ever are
+images illustrations of ekphrasis; instead, they deviate from their textual
+treatment and claim their own agency. Like objects found in archeological
+sites, the heterogeneous images in the novels under discussion here are enfold-
+ed by the narratives; they interact with one another and with the utterances
+about them (the materials that they are composed of, value judgments, price
+tags). Brought together by virtue of their visuality, they elicit acts of “putting
+together” or “fitting” to explain their relationality. Functioning within the
+context of the story, the images remind the reader that they have been lifted
+from other contexts (galleries, museums, everyday life) in which they were in
+different relations with different images.
+The concept of assemblage, I want to point out, has occasionally been used
+in literary studies. Bruce Morrissette (1979), for instance, mobilizes the term
+to describe Alain Robbe-Grillet’s compositional strategy, involving the inclu-
+sion of preexisting texts, not least his own. Others (Brown 2015; Kafalenos
+2012) have also brought up assemblage, if only in passing. But it is Friedrich
+Nietzsche’s comment about the Iliad that seems to be closest to my thinking
+of constellations of pictured ekphrasis in novels. “The Iliad,” Nietzsche said,
+“is no garland, but an assemblage of flowers” (quoted in Shapiro 2003: 75).
+Admittedly not a new term, assemblage, I hope, can become a meaningful
+addition to the conceptual apparatus of contemporary ekphrastics.
+Works Cited
+Adams, Pat, ed.
+1986 With a Poet’s Eye: A Tate Gallery Anthology (London: Tate Gallery).
+Antonetti, Martin
+1999 “Typographic Ekphrasis: The Description of Typographic Forms in the Nineteenth
+Century,” Word & Image 15: 41 – 53.
+Armstrong, Nancy
+1999 Fiction in the Age of Photography: The Legacy of British Realism (Cambridge, MA: Harvard
+University Press).
+Bolter, Jay David
+1996 “Ekphrasis, Virtual Reality, and the Future of Writing.” In The Future of the Book, edited
+by Geoffrey Nunberg, 253 – 72 (Berkeley: University of California Press).
+Brown, Bill
+2003 A Sense of Things: The Object Matter of American Literature (Chicago: University of Chicago
+Press).
+2015 Other Things (Chicago: University of Chicago Press).
+Clu¨ver, Claus
+1997 “Ekphrasis Reconsidered: On Verbal Representations of Non-Verbal Text.” In Interart
+Poetics: Essays on the Interrelations of the Arts and Media, edited by Lagerroth Ulla-Britta, Hans
+Lund, and Erik Hedling, 19 – 33 (Amsterdam: Rodopi).
+Fjellestad
+† Testing the Limits
+355
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 20 ──
+Clu¨ver, Claus
+1999 “The Musikgedicht: Notes on an Ekphrastic Genre.” In Word and Music Studies: Defining the
+Field, edited by Walter Bernhart, Steven Paul Scher, and Werner Wolf, 187 – 204 (Amster-
+dam: Rodopi).
+DeLanda, Manuel
+2006 A New Philosophy of Society: Assemblage Theory and Social Complexity (London: Continuum).
+Deleuze, Gilles, and Felix Guattari
+1987 A Thousand Plateaus: Capitalism and Schizophrenia, translated by Brian Massumi (Minne-
+apolis: University of Minnesota Press).
+Durcan, Paul
+1994 Give Me Your Hand: Poems Inspired by Paintings in the National Gallery, London (London:
+Macmillan and National Gallery).
+Elderfield, John
+1992 “Preface.” In Essays on Assemblage. Studies in Modern Art 2, edited by John Elderfield (New
+York: Museum of Modern Art).
+Fjellestad, Danuta
+2015 “Nesting — Braiding — Weaving: Photographic Interventions in Three Contemporary
+American Novels.” In Handbook of Intermediality: Literature — Image — Sound — Music, edited
+by Gabriele Rippl, 193 – 218 (Berlin: De Gruyter).
+Gibbons, Alison
+2012 Multimodality, Cognition, and Experimental Literature (New York: Routledge).
+Hallet, Wolfgang
+2009 “The Multimodal Novel. The Integration of Modes and Media in Novelistic Narra-
+tion.” In Narratology in the Age of Cross-disciplinary Narrative Research, edited by Sandra Heinen
+and Roy Sommer, 129 – 53 (Berlin: De Gruyter).
+Heffernan, James A. W.
+1993 Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery (Chicago: University of
+Chicago Press).
+Kafalenos, Emma
+2012 “The Polysemy of Looking: Reading Ekphrasis alongside Images in Calvino’s Castle of
+Crossed Destinies and Vargas Llosa’s In Praise of the Stepmother,” Poetics Today 22: 27 – 57.
+Karastathi, Sylvia
+2015 “Ekphrasis and the Novel/Narrative Fiction.” In Handbook of Intermediality: Literature —
+Image — Sound — Music, edited by Gabriele Rippl, 92 – 112 (Berlin: De Gruyter).
+Krieger, Murray
+1967 “Ekphrasis and the Still Moment in Poetry, or Laokoo¨n Revisited.” In The Poet as Critic,
+edited by F. P. W. McDowell, 3 – 25 (Evanston: Northwestern University Press).
+Louvel, Liliane
+2011 Poetics of the Iconotext, edited by Karen Jacobs, translated by Laurence Petit (Farnham:
+Ashgate).
+Marcus, George E., and Erkan Saka
+2006 “Assemblage,” Theory, Culture & Society 23: 101 – 9.
+Martin, Steve
+2010 An Object of Beauty: A Novel (New York: Grand Central Publishing).
+Mitchell, W. J. T.
+1994 Picture Theory (Chicago: University of Chicago Press).
+Morissette, Bruce
+1979 Intertextual Assemblage in Robbe-Grillet from Topology to Golden Triangle (Fredericton, NB:
+York Press).
+Nørgaard, Nina
+2009 “The Semiotics of Typography in Literary Texts: A Multimodal Approach,” Orbis
+Litterarum 64: 141 – 60.
+356
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025
+
+
+── PAGE 21 ──
+Page, Ruth
+2010 “Introduction.” In New Perspectives on Narrative and Multimodality, edited by Ruth Page,
+1 – 13 (London: Routledge).
+Pergam, Elizabeth
+2014 “Selling Pictures: The Illustrated Auction Catalogue,” Journal of Art Historiography 1:
+1 – 25.
+Rabb, Jane M., ed.
+1995 Literature and Photography: Interactions 1840 – 1990 (Albuquerque: University of New Mex-
+ico Press).
+Riggs, Ransom
+2011 Miss Peregrine’s Home for Peculiar Children (Philadelphia: Quirk Books).
+Sadokierski, Zoe¨
+2010 “Visual Writing: A Critique of Graphic Devices in Hybrid Novels, from a Visual
+Communication Design Perspective.” PhD diss., University of Technology, Sydney.
+Scott, F. Grant
+1994 “Ekphrasis and the Picture Gallery.” In Advances in Visual Semiotics: The Semiotic Web
+1992 – 93, edited by Thomas A. Sebeok and Jean Umiker-Sebeok, 403 – 21 (Berlin: De
+Gruyter).
+Shapiro, Gary
+2003 Archaeologies of Vision: Foucault and Nietzsche on Seeing and Saying (Chicago: University of
+Chicago Press).
+Shapton, Leanne
+2009 Important Artifacts and Personal Property from the Collection of Lenore Doolan and Harold Morris,
+including Books, Street Fashion, and Jewelry (New York: Sarah Crichton Books).
+Spitzer, Leo
+1955 “The Ode on the Grecian Urn, or Content vs. Metagrammar,” Comparative Literature 7:
+203 – 25.
+Wagner, Peter
+1996 “Ekphrasis, Iconotexts, and Intermediality — The State(s) of the Art(s).” In Icons —
+Texts — Iconotexts: Essays on Ekphrasis and Intermediality, edited by Peter Wagner, 1 – 40 (Ber-
+lin: De Gruyter).
+Yacobi, Tamar
+2013 “Ekphrastic Double Exposure and the Museum Book of Poetry,” Poetics Today 34:
+1 – 52.
+Fjellestad
+† Testing the Limits
+357
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/337/528900/0390337.pdf by Georgia Tech Library user on 26 December 2025

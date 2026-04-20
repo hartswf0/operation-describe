@@ -1,0 +1,897 @@
+# Ekphrasis in the Digital Age
+# Source: Brosch - 2018 - Ekphrasis in the Digital Age.pdf
+# BibTeX key: brosch_ekphrasis_2018-1
+# Zotero dir: 3113
+# Extracted chars: 57565
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+Ekphrasis in the Digital Age:
+Responses to Image
+Renate Brosch
+University of Stuttgart
+Abstract
+This introduction briefly surveys the current expansion of ekphrasis in terms
+of genres, visual objects, modes of writing, and cues for reader response. Drawing on
+suggestions from the subsequent individual essays that provide categories for orga-
+nizing the great variety of ekphrases, such as pictured and picture-less, mimetic and
+transformed, notional and actual, abbreviated and described, printed and screen,
+canonical artwork and non-art image, narrative and poetic ekphrasis, the introduction
+further discusses ekphrastic theories with a specific focus on their relevance to its
+practices and cultural functions in the present media ecology. Despite its increasing
+frequency in recent years, theoretical conceptualizations have largely remained com-
+mitted to traditional paradigms, such as competition (“paragone”) and representation
+(Heffernan 1993: 1). What appears to be wanting is a revival of rhetorical and perfor-
+mative understandings of ekphrasis that can augment theoretical conceptualizations
+and bring them into line with the participatory and hybrid practices of ekphrasis today.
+Increasingly, what used to be a central aim of ekphrasis — the description of an art-
+work — has been replaced by modes of rewriting the artwork and in the process ques-
+tioning accepted meanings, values, and beliefs, not just relating to the particular
+artwork in question but referencing the ways of seeing and the scopic regimes of the
+culture at large. Since these changes in writing and reading practices tend toward
+increasing the participation of the reader, a more meta-representational and rhetorical
+conceptualization of ekphrasis is desirable. From a functional perspective, I argue that
+the traditional purpose of ekphrasis to interrogate ways of seeing has acquired new
+urgency in today’s media landscape.
+Keywords
+digital media, ekphrastic theory, performative, response
+Poetics Today 39:2 ( June 2018)
+DOI 10.1215/03335372-4324420
+q 2018 by Porter Institute for Poetics and Semiotics
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 2 ──
+To consider the specifics of ekphrasis at the present time offers a welcome
+opportunity to review some of the commonplaces that remain tenaciously
+attached to ekphrasis studies. The most tedious of these is a “narrow notion”
+( Johnston et al. 2015: 1) of ekphrasis that adheres to its standard definition
+as “the verbal representation of visual representation” (Heffernan 1993: 1).
+Many theorists now feel that a critical revision of this limited idea of “rep-
+resentation of representation” is long overdue (Kennedy 2012: 7). Moreover,
+the narrow concept of ekphrasis foregrounds its intermedial quality by insist-
+ing on the binary opposition between two sign systems. In introducing visual
+culture studies almost three decades ago, W. J. T. Mitchell deconstructed
+the dichotomy of the visual and the verbal, claiming that all meaning arises
+from the interplay of the visual and the verbal and that all media are mixed
+media (Mitchell 1994: 5, 161). If these two modes are always inextricably
+mixed, then the above definition by James Heffernan is reductive. A broader
+view of ekphrasis would take account of an expanded domain of visual images
+available for ekphrastic writing as well as of the fact that it is not a visual
+representation being represented but the perception of a visual image that is
+translated into verbal form (Barbetti 2011: 11).
+By concentrating on recent instances, the present volume shifts the focus
+from a difference between sign systems or characteristic features to an interest
+in adaptive and collaborative processes. It no longer concentrates on rep-
+resentation but rather on cultural performance. This shift in interest and
+interpretive frame is occasioned partly by the changes in ekphrastic practice
+due to digital technologies and by the attendant need to revise theoretical
+considerations. Semiotic or representational considerations are no longer
+adequate to what is going on in a large and multifarious field and should
+give way to conceptualizations of phenomena like ekphrasis not as static
+entities, but as cultural agents with the power to elicit certain effects and to
+perform certain functions. By understanding ekphrasis as a performative
+gesture, we can avoid the need to specify and thus to circumscribe the visual
+content. Such an understanding also productively bypasses the emphasis
+on representation that was foregrounded in Heffernan’s well-known, but
+increasingly contested definition. A performative approach to cultural anal-
+ysis in general understands culture not as a container of works and texts but as
+a fluid network of processes and events made up of embodied practices that
+impact on society. In other words, this approach avoids a purely media-
+centered examination and directs attention to what ekphrastic agency
+achieves for the text, the reader, and the wider cultural field (Brosch 2015).
+226
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 3 ──
+The articles in the present collection share a broad conception of ekphra-
+sis, expanding it beyond the traditional centrality of visual art and literature.1
+In view of this expansion and the corresponding efforts to expand the theoret-
+ical conceptualization, it may be best to imagine a variety of ekphrastic
+occurrences along a spectrum or range of differing degrees and types of visu-
+al input, varieties of reference, and differences in audience address, such as
+Liliane Louvel’s typological contribution provides. David Kennedy’s case
+study of an unusual example also makes suggestions for extending the cat-
+egories of ekphrasis. Thus, one of the assumptions of the present volume is
+that enormous changes have taken place in ekphrastic practice since the
+beginning of the twenty-first century. The variety of instances—in traditional
+as well as “new” media—makes a comprehensive account in the present
+format impossible. Instead, we have brought together critical discussions of
+a wide range of different case studies that diverge in their theoretical assump-
+tions, too. In order to move beyond a limited art-and-highbrow-literature
+framework, many contributions to this volume adopt a functional approach,
+as recommended by Gabriele Rippl in a recent handbook on intermediality
+(Rippl 2015), an approach which explores the cultural work ekphrasis per-
+forms in a particular time and space.
+Taking my cue from Emma Kafalenos’s contribution, I suggest a simple
+definition of ekphrasis that is oriented toward present-day practices: ekphra-
+sis is a literary response to a visual image or visual images. This definition
+eschews the reductive notion of a defining set of formal features. While avoid-
+ing iconographic specification, it recognizes what must be acknowledged
+in the present diversity, that ekphrasis emerges from a mode of articulation
+and its interaction with an audience—hence, the definition’s emphasis on
+performance and response. At the same time, this definition is able to encom-
+pass fully fledged extended instances as well as abbreviated ekphrastic refer-
+ences that emerge as mere traces of a visual art work. It describes a process
+rather than a one-on-one relation, more specifically a response process that
+can take a variety of forms and involve a variety of projections. By naming
+a process rather than a state, it respects the double temporality inherent
+in ekphrastic references to real historical objects. By emphasizing the per-
+formative instead of the mimetic, this definition gestures toward effects at
+the level of reception and audience, factors that need to be taken into
+account more than they have been by traditional theories.2 Such an approach
+relies on an awareness of the audience that looks both ways: toward the
+1. Since each article is preceded by an abstract, there is no need to summarize the individual
+contributions here.
+2. Such an approach was suggested for classical instances of ekphrasis by Simon Goldhill, who
+concludes that ekphrasis is part of a system that functions “to produce a cultivated and cultured
+Brosch
+† Ekphrasis in the Digital Age
+227
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 4 ──
+public domain in which any form of expression must seek resonance as well
+as toward the experiential reading processes in the response to an ekphrastic
+text.
+To examine this experiential quality means to take into account the per-
+suasive function of ekphrasis, its capacity to appeal to an embodied and
+emotional response, and thus to consider questions of address and poetic
+strategy, platforms of transmission, contexts of articulation and effect, just as
+the writers, artists, and other “producers” of ekphrasis themselves do. For a
+comprehensive assessment of functions and effects we need to pay attention
+to response, and this response is first and foremost an embodied cognitive
+reaction (where the “cognitive” includes not only conscious awareness, but
+emotional and pre-verbal states as well). However, the analysis of cognitive
+processes should not be an end in itself, but rather a pathway toward under-
+standing the agency of ekphrasis in the cultural imaginary.
+1. Ekphrasis in the Present Media Landscape
+It is perhaps a curious phenomenon that ekphrasis exerts a continuing fasci-
+nation at the present time, even though the prevalence of images in house-
+hold media would seem to have made description superfluous. The last two
+or three decades have seen an endless supply and demand of images, whose
+ready availability on the World Wide Web changes practices and expec-
+tations regarding the visual. In 1996 Jay David Bolter claimed that “the
+breakout of the visual in contemporary prose and multimedia is a denial of
+ekphrasis. Popular prose and multimedia are striving for the natural sign in the
+realm of the visual rather than through heightened verbal expression” (Bolter
+1996: 265). Recalling an older argument put forward by Murray Krieger,
+Bolter perceives a contemporary dominance of the virtual and the visual.
+Similarly, Marie-Laure Ryan predicted a few years later that ekphrasis would
+become redundant: “in an advanced VR [virtual reality] system there will be
+no need for ekphrasis—the verbal description of a visual artwork—because the
+system will encompass all forms of representation, action and signification”
+(Ryan 2001: 60–61). However, at the present moment, the reverse is the case:
+the frequency of ekphrasis has increased rather than decreased in the last two
+and a half decades. In spite of what is often considered a visual overabun-
+dance on the World Wide Web, ekphrastic occurrences are surprisingly
+citizen of Empire, who knows how . . . to play the game of competitive self-scrutiny as a per-
+former of culture” (Goldhill 2007: 19).
+228
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 5 ──
+prevalent in recent novels, poems, short stories, and in drama, with no signs of
+remission.
+Could it be that ekphrasis, far from being a minor and outmoded phe-
+nomenon in older literary texts, has acquired a particular relevance to our
+current cultural debates? One reason to explain the continuing interest
+in ekphrasis may be the very prevalence of images, given that ekphrasis
+responds to and participates in the culture of images. Something in ekphrasis
+must still speak to its recipients in a way that reproductions do not, and that
+increases their appeal and pertinence. Elizabeth Loizeaux suggests as much
+when she remarks that the availability of images in the digital age has actually
+increased their fascination, or at least that of certain kinds of images (Loi-
+zeaux 2008: 3). This observation can point two ways: on the one hand,
+because images are everywhere, to evoke them is to create a shared knowl-
+edge platform, from which to open communication. Individual memory has
+recourse to almost unlimited storage systems nowadays, which make a vast
+amount of pictorial material recognizable for web users transnationally. This
+aspect of an enlarged cultural memory of images would explain instances of
+ekphrasis that facilitate imagination via abbreviation; the mere mention of an
+iconic image ensures shared visualization. On the other hand, the omnipres-
+ence of visual images would suggest that they are a little-valued resource, as
+is everything that we are free to use without charge or effort. In order to be
+especially noticed, some surplus or boost is necessary such as a surprising
+combination of visual and verbal can provide. This second aspect captures a
+central purpose in ekphrastic writing—the transformation of images to pro-
+duce a sense of novelty and defamiliarization.
+Obviously for recipients in global media society, where images are acces-
+sible everywhere, ekphrasis must have different uses than in former times
+when readers were usually unacquainted with the images described. Today’s
+readerships encounterart descriptions in a situation of the all-pervading avail-
+ability, proliferation, adaptation, and citation of images. The “new media”
+circulate content “across different media systems, competing media econo-
+mies, and national borders” ( Jenkins 2008: 3). New technological opportu-
+nities have brought about new practices and protocols. This is a top-down
+technology- and market-driven process as well as a bottom-up consumer-
+driven one (ibid.: 18). Visual and audiovisual products travel around the
+globe creating migratory images and transcultural horizons of expectation.
+The consumption of mass media throughout the world greatly influences
+modes of reception of verbal as well as visual events. In the digital era vastly
+different media and means of access coexist, while images are constantly
+morphing, shape-shifting, and moving into new contexts. According to
+Henry Jenkins, one of the effects of this proliferation is “convergence,” that
+Brosch
+† Ekphrasis in the Digital Age
+229
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 6 ──
+is, a cultural situation in which producers and users interact in unpredictable
+ways (ibid.: 3).
+Indeed, most commentators have identified interactivity as the distinguish-
+ing characteristic of the new media. In computer-generated graphic environ-
+ments the viewer/user does not simply gaze at a virtual world from outside,
+but is incorporated into it as an active participant through immersive and
+interactive elements. In gaming, for instance, such multisensory experiences
+create habits and expectations in terms of emotional and visual effects, which
+impact on the dynamic between the viewer/user, the object, and its textual
+ekphrasis. The change in media practice has brought about a shift in the
+practice of ekphrasis in the digital age, especially with regard to the inter-
+action between the image and the viewer. In the most digitally informed
+examples of ekphrasis, as discussed in Jolene Mathieson’s article, the user is
+asked to take practical action with respect to the text and/or image onscreen.
+Since the digital era has produced unprecedented levels of interactivity
+with onscreen events, the obsolete notion of a (passive) consumption of mass
+media must be abandoned. Interactivity entails a new power over the image
+by the viewer who can no longer be termed a recipient or consumer, but must
+be understood as an agent in the interrelation: “In the past it was possible to
+talk about paintings in terms of what the paintings did or did not represent.
+Representation linked cultural production to processes of creation and inten-
+tion” (Burnett 2007: 310). This persists, but more sophisticated forms of
+participation have become common, allowing viewers, users, and gamers
+to immerse themselves in a fictional world and to move around in it. In the
+field of media art, the traditional triad of artist, object, and recipient is
+replaced by the creator, an interactive process and the participant audience.
+These practices encourage people to trust their own imaginative strategies
+(ibid.: 331).
+Participation in games, hypertexts, and social media has radically changed
+our relationship with texts, too, as we encounter the possibility of auton-
+omous text production or algorithmic production of fictions (Gervais 2013:
+n.p.). In globalized media culture images proliferate; they transcend histori-
+cal periods by living on and joining new contexts from a different temporal
+origin; they travel across borders and become part of different cultures. The
+amorphous and ephemeral kinds of images that our media make available
+have little to do with a picture in the sense of a finished artifact. The potential
+transformation and distortion of images has a parallel in the demise of the
+permanent and fixed text as salient features of our current cultural communi-
+cation. The copresence of still or animated images has become a standard
+feature of our experience of texts onscreen, as has the presence of distracting
+elements with little or no connection to texts and images being viewed. Media
+230
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 7 ──
+users encounter texts in the worldwide accessibility of the web where they can
+end in the mixing pot of a hypertext or be connected with sound, images, and
+links to informational databases, thus offering choices of transmission and
+digression. Multiple and indeterminate links rather than linear progression
+structure reception in the new media. It stands to reason that the random
+and digressive receptive behavior encouraged by the World Wide Web pro-
+motes different forms of attention as well as different forms of vying for
+attention. In short, the current media landscape encourages increasing pro-
+duction of multimodal hybrids and more participatory modes of addressing
+the audience.
+As Tamar Yacobi puts it, the digital availability of images “significantly
+expands the possibilities of word-image relationships,” weakening the long-
+term dominance of the quoting verbal frame over the visual import and
+improving ekphrastic freedom (Yacobi 2013: 17). It seems to be a widespread
+feature of ekphrasis in the digital age that great liberties are taken in refer-
+encing the visual, especially when the verbal text is accompanied by illus-
+trations. Danuta Fjellestad’s contribution to this volume investigates how
+these “assemblages” test the limits of ekphrasis. Media-savvy audiences are
+more willing to work creatively with limited material and to make far-reach-
+ing connections. Mats Jansson shows in his contribution how readers become
+active participants in making sense of computer-mediated text-image com-
+binations. Due to the influence of digital media, the opposition between what
+is seen and what is imagined may be fading as viewers become habituated to
+virtual reality (Lindhe´ 2015: 7). Recent ekphrastic writing often empowers the
+viewer to hijack images from their global and temporal migration and insert
+them into a different context that modifies or alters their meaning. Ekphrasis
+can create productive misreadings of visual images, changing the value and
+meaning of images in relation to social settings and circumstances. Far from
+being just faithful descriptions, ekphrases exploit the “polysemy of images” to
+become active players in the game of establishing and changing values (Kafa-
+lenos 2012: 27).
+Nobody knows how many billions of images are uploaded every day. The
+internet has multiplied visual events exponentially and the resulting hyper-
+saturation may have diminished images’ capacity to affect viewers. In a sce-
+nario of omnipresent images, where traditional works of art as well as the
+most banal pictures are reproduced in endless variations and adaptations, it
+seems somewhat anachronistic to speak of the power of the image. Ekphrastic
+writing offers surprising possibilities for compensating for the diminishing
+effect of media. It can perform a conservative intervention in the present
+media ecology by recalling an image to memory and reviving cultural knowl-
+edge. It can also transform an image to engage in meaningful ways with the
+Brosch
+† Ekphrasis in the Digital Age
+231
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 8 ──
+present. In this way, ekphrasis can adapt, recalibrate, and recreate the read-
+er’s knowledge. It may be advisable to conceptualize ekphrasis as dialogic
+exchange and interaction, in which different reading frames and world pic-
+tures are correlated.
+2. Theorizing Ekphrasis
+Ekphrasis theory in the past remained notoriously detached from theoretical
+advances in other areas of literary and cultural studies, neglecting some
+important developments in visual culture studies, postcolonial theory, and
+cognitive literary studies. Gabriele Rippl’s article in this collection redresses
+the customary inattention to postcolonial fiction in ekphrasis studies. The
+need for a theoretical reconceptualization is aggravated by some common
+misconceptions and misplaced emphases. The first problem is the myopic
+focus on semiotic difference in traditional theories. Ever since Lessing’s ratio-
+nalist intervention against the ut pictura poesis tradition, emphasis has been
+placed on the difference in sign systems and the contrast between the visual
+and the verbal. Lessing initiated an enduring binary between the two modes
+that has since been prominent in explanations of ekphrasis.
+Twentieth-century ekphrastic theory continued to be haunted by binary
+oppositions: between sign systems, visual and verbal capacities, art and pop-
+ular culture, private and public, cooperation and competition, stasis and
+movement, fantastic and realistic, actual and notional, female and male,
+identity and alterity, permanence and transience. In semiotic parlance the
+difference arises between symbolic and iconic signs, or between conventional
+and “natural” representations, or between temporal and spatial arts. While it
+often pays lip service to the presumed equality between the parts, ekphrastic
+theory commonly emphasizes the competition between two representative
+modes, attributing to it an inherent tension (Kneale 2010: 189). The view of
+the sign systems as two competitors vying for power informs James Heffer-
+nan’s concept of ekphrasis as “paragone,” notwithstanding his equalizing
+definition of it as representation of representation (Heffernan 1993: 1). By
+reducing visual characteristics to the model of language, structuralist and
+semiotic approaches partake of the same implicitly logocentric emphasis on
+difference (cf. Clu¨ver 1997: 26).3
+Whether they result from the premise of interart rivalry or that of semiotic
+differences, these dichotomies in ekphrastic theory are reductive and unhelp-
+3. James Elkins recognizes the power of images and the “failure of words to come to terms with
+them” (Elkins 1998: 2). Yet, he views ekphrasis as a textual version of “retroactive performa-
+tivity,” that is, a deferred reaction to core images that asserts textual authority by rearranging
+their meaning and redefining their appeal for contemporary audiences.
+232
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 9 ──
+ful in dealing with the huge variety of phenomena. Attempts to theorize the
+separateness of the visual and verbal testify to Western ideological commit-
+ments rather than provide insight into a fundamental difference ( Johnston
+et al. 2015: 4). These notions are grounded in implicit assumptions about an
+ideal purity in either sign system, which can only be explained as a historical
+heritage of the conceptual distance between word and image erected in
+the modern age (Boehm 1995: 26). Like all binary oppositions, these breed
+inequalities between their respective poles by aligning them with hierar-
+chical and powerfully gendered values (Hedley 2009: 24). As Mitchell has
+shown, they carry a residue of the iconophobic foundation of Western aes-
+thetic theory that identifies the image as the Other of propositional ratio-
+nality (Mitchell 1986: 46). Initiating visual culture studies’ focus on implicit
+power relations in theory and practice, Mitchell stressed the inherently tex-
+tual nature of ekphrasis and the concomitant subordination of the images to
+verbal frames (ibid.: 3).4 Hence to play down semiotic difference in theoretical
+conceptualization cannot mean to deny that word and image have histori-
+cally been accorded different weight and value, typically mapped onto sexual
+and social difference.
+Historically, the word was ennobled by its association with scripture as
+opposed to the inherently deceptive image. Bruce Holsinger observes that
+ekphrasis has strong claims to being “the most narcissistic mode of literary
+discourse” since it constitutes “a mode in and by which literary language
+gazes at the visual as a lens upon the beauty of its own performance” (Hol-
+singer 2005: 75). Ekphrastic writing, especially when it engages with canonical
+art objects, often reinstates the traditional hierarchies between the verbal and
+the visual in order to question or criticize the value-laden beliefs associated
+with them. One of its most powerful instruments lies in exploiting the contrast
+between two different forms of expression to symbolize or evoke alterity and
+Otherness. The ekphrastic encounter can be used to stage a conflict or an
+attraction between unequal parts and to comment on the cultural inheritance
+of inequality.
+Theoretical logocentrism is no longer adequate to contemporary media
+culture’s displacement of the privileged position of the text. This is evident
+in the innovative poetics at the core of the intermedial poetry interpreted
+by Jessica Bundschuh in this volume. The enduring tradition of more or less
+4. In proclaiming the “pictorial turn,” Mitchell in the 1980s assumed that with the acceptance
+of semiotics, the visual and the verbal would be regarded on a basis of equality, that interpre-
+tation would be concerned with images as much as with texts, and that the visual would be
+accorded the same amount of weight and significance in analysis. In fact, the establishment of
+visual culture studies as a separate academic field of cultural studies was largely a reaction
+against the enduring privilege accorded to texts and verbal representations.
+Brosch
+† Ekphrasis in the Digital Age
+233
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 10 ──
+disguised hierarchy cannot do justice to the plurality of imagistic and picto-
+rial contributions to today’s multimodal hybrids. Instead, one can conceive
+of ekphrasis as a complex interactive process of cooperation. Supplementing
+the ideas of opposites and competition with one of collaboration can help
+us update Mitchell’s unfinished project. According to the insights of neuro-
+science, words and images are alternative but interacting cognitive strategies.
+The writer, the text, the image, and the reader participate in this coopera-
+tion, though none of them singly determines the outcome. Rather, the inter-
+action must be appreciated for its ability to give rise to an epistemological
+blend, a “pictorial third” that emerges through the three-way interaction
+(Louvel 2010: 230). This ekphrastic blend or “third” converges in the perfor-
+mative deictic gesture with which ekphrasis stages an imaginative gaze to
+make something visible that was not visible before (Boehm 1995: 30). Its
+second-order seeing acts persuasively on the individual visualization and,
+at the same time, exposes the cultural determinants that distribute visibility
+and opacity. These qualities of ekphrasis rest less in its ability to represent
+than in its ability to move its audience ( Johnston et al. 2015: 6).
+An “affect-oriented” rather than “object-oriented” approach to ekphrasis
+recalls classical Greek and Roman rhetoric, which was interested in produc-
+ing immediacy (Cheeke 2008: 3). The Greek word “ekphrasis” comes into
+regular usage after its treatment in the Early Empire progymnasmata, where it
+was an exercise in vivid presentation of not only visual art objects, but all sorts
+of things, such as people, places, and animals (Koelb 2006: 2). With the help
+of these elementary rhetorical manuals, students practiced the technique of
+prosopopeia, good oratory (ibid.: 4). Its aim of enargeia goes back to Simonides’s
+and Horace’s ut pictura poesis claim: the power of images is to be replicated in
+the response to words.
+Hence, in classical rhetoric the affective goal of energeia can be arrived at
+through vivacity or enargeia, which produces an emotional effect in the reci-
+pient, who is made to see what is being described. What mattered to the
+ancients was “heightened and credible immediacy” (ibid.: 4). Indeed, the
+ancient court speeches for which these categories were developed aimed to
+turn the assembled citizens into secondary witnesses. The key rhetorical idea
+is to make things visible, and for orators ekphrasis always had the broader
+meaning of enabling the audience to imagine something (Goldhill 2007: 3). It
+is exactly in this imaginative effect that Ruth Webb discovers the enduring
+analogy between ekphrasis and the visual arts: they are alike in what they
+achieve; they “have the power to create an illusion of presence . . . together
+with an awareness of absence” (Webb 2009: 194). As specified by Longinus,
+the rhetorical skill of illusion and semblance that can bring something vividly
+before the eyes is a power to “persuade” and “enslave” (cf. Goldhill 2007: 4).
+234
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 11 ──
+What can be productively recuperated from these ancient notions for a
+functional-operational approach today is the idea of giving readers and
+audiences their due as embodied, sensual, and emotional participants in the
+ekphrastic interaction.
+Before the enormous increase in instances of pictured ekphrasis and the
+general access to images that our media provide, John Hollander proposed a
+distinction regarding the reality status of the visual object of ekphrasis, which
+is either real and existing outside the text or imaginary but visualizable. He
+called the corresponding types “actual” and “notional” ekphrasis (Hollander
+1995: 7). Notional ekphrasis—that is, description of imagined art—was prac-
+tically the only form found in literature until techniques of reproduction and
+opportunities for public display became common.5 These historical changes
+notwithstanding, Hollander regarded the two forms as operating on different
+ontological levels: actual ekphrasis references the real, notional ekphrasis, by
+contrast, belongs to the category of the imaginary; its invention of an image
+to be visualized in the reader’s mind partaking of the same dependence on
+context and convention that any fictional world-making does. Hollander did
+not mention the possibility of a zone of overlap when works of art have been
+lost or become inaccessible and an earlier description written from direct
+experience is now notional in effect. In light of ekphrasis’s long tradition of
+circumventing the attempt at verisimilitude, Hollander perhaps overstated
+the difference, which appears less pertinent to the current media landscape.
+In contrasting “printed ekphrasis” with “computer ekphrasis,” Cecilia
+Lindhe´ suggests that it is no longer appropriate to maintain Hollander’s
+ontological separation between notional and actual ekphrasis. The blurring
+of boundaries is particularly evident in VR environments where the perfor-
+mative element can be acted out in live interactions and where viewers are
+involved spatially and not just visually (Lindhe´ 2015: 10). The current ubiq-
+uity and familiarity of certain images will aid visualization by providing
+prototypes for evoking images even in nonspecific description. Like actual
+ekphrasis, notional ekphrasis is dependent on cultural memory and the store-
+house of images that corresponds to it in the individual mind. But neither
+need respect the schemata and prototypes they evoke; they may also question
+or subvert them.
+The obsolete definition of ekphrasis as “the literary description of works of
+visual art” (Bolter and Grusin 2000: 45) derives from a mistaken identification
+5. A verbal treatment of identifiable paintings became expedient with the display of pictures in
+public exhibition spaces after the founding of the Royal Academy of Art in 1768 and the birth
+of the public museum. The invention of photography and effective print reproduction later
+increased the frequency of such appeals to the readership’s prior knowledge and memory
+(Heffernan 1993: 93).
+Brosch
+† Ekphrasis in the Digital Age
+235
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 12 ──
+of ekphrastic writing with description. But this notion falls short of the diver-
+sity of phenomena labeled ekphrasis, not only in the present day. It does not
+make sense to think of ekphrasis as a purely descriptive mode. This con-
+ception resulted from a convenient transfer of the distinctions in sign systems
+to distinctions in style or mode of expression. Accordingly, from the idea that
+ekphrasis is committed to representing a preexisting visual object, it followed
+necessarily that it is primarily descriptive and hence a static element in an
+otherwise dynamic narrative.6 Lessing’s preference for poetry as a narrative
+art proceeded from the temporal restraint in painting established in the
+Renaissance that prohibited figural simultaneity and hence pictorial narra-
+tivity, on the assumption that in a picture “we are observing a scene through
+the frame from a fixed vantage point at one moment in time” (Steiner 1988:
+23).7 This convention—better known under the label of linear perspective—
+was naturalized by viewers in the Western world. It was Murray Krieger in
+particular who imported Lessing’s distinction into twentieth-century theory,
+regarding ekphrasis as a response to pictorial stasis that creates an arrest or
+“still” point in an event-driven narrative (Krieger 1992: 266).8 John Hollan-
+der also claimed that ekphrasis aspires to a pictorial stasis contrasting with the
+temporal succession of verbal art (Hollander 1995: 6).
+In recent theories, critics have regarded the descriptive function of ekphra-
+sis as largely displaced by more complex and reflexive purposes. For Paola
+Spinozzi, ekphrastic passages should be conceived as sites of narrativity from
+which rewriting and replotting begins (Spinozzi 2006: 230). The Renaissance
+reduction of visual representation to a single moment, which Lessing took for
+granted, liberated ekphrastic writers to invent new plots that enlarge the
+meaning and emotional effect of pictures. And this narrative strategy is still
+relevant in an era of global hypervisuality as it can offer a space of resistance
+to dominant visuality from the viewer’s perspective (Brosch 2008: 195). How-
+ever, narrativity is not the only mode of ekphrastic expression, and it is
+certainly less prominent in poetry than Spinozzi’s argument about ekphrasis
+existing “in symbiosis with narration” suggests (Spinozzi 2006: 229).
+6. Recent narratology rejects such a conventional understanding of description as the delin-
+eation of a static object because it is more often than not impossible to disentangle narrative and
+descriptive elements. Description should be redefined as including narrative and interdepen-
+dent with narrativity (Friedmann 2005: 194).
+7. Because of the prohibition on the repetition of figural subjects, artists had to invent forms like
+frieze, triptych, narrative path, or comic strip in order to achieve narrativity. And spectators
+had to learn the imaginative response to these single-moment-images, to read a single scene in
+the projective manner described by Lessing. They learnt, in other words, to see a depiction of
+momentariness through the lens of narrativity (Steiner 1988: 21).
+8. In a later book, Krieger takes a different approach by claiming that ekphrastic language can
+satisfy the human desire for a natural and unmediated sign (Krieger 1992: 110).
+236
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 13 ──
+Taking the performative conception to its logical conclusion means, how-
+ever, that the dialectic of movement and arrest must retain some validity.
+Although Lessing’s and Krieger’s binary opposition between still art and
+dynamic literature—and by analogy between description and narration—
+has to be abandoned, there remains an important dimension of ekphrasis
+where the idea of a narrative pause is valid and significant, namely on the
+levelof individualreaderly experience.In its conspicuousstagingof an observ-
+er’s gaze, the performative function of ekphrasis appeals to the reader’s pro-
+cessing imagination in a way that suspends attention—an effect that surely
+plays a role in its current resurgence.
+At the level of individual response, the processing of texts involves embod-
+ied, quasi-sensory visualizations that can be related to the separate brain
+areas for action-perception and object-perception respectively (Clark 2008:
+2). Visual elements in texts appeal to embodied experience, they are
+anchored in sensori-motor perceptions of the real world, and their reception
+recalls the experiential parameters of perceptions in everyday life. Ekphrastic
+practices tend to integrate and promote contrasting forms of response to
+visual images. Prominent among these is a focus on a series of emotional
+reactions characterized by visual absorption and arrested attention, such as
+wonder, joy, surprise, and awe. It appears that ekphrasis works for the reader
+by harnessing both the power of the still image and that of dynamic imagi-
+native visualization, since both are effective strategies of capturing attention.
+Introducing a narrative into the presentation of a visual object utilizes the
+appealing qualities of stories, that is, it prompts a dynamic visualization that
+mobilizes the image imaginatively, yields immersive experiences, and grat-
+ifies readers’ desire to make an image their own through embodied imagi-
+nation. Another option of ekphrastic writing is the production of startling
+images that freeze or at least slow down the flow of the receptive process and
+gratify the reader’s desire for close scrutiny and control. Though ekphrasis
+utilizes both these options and is able to combine them, thus mobilizing the
+projecting imagination and evoking the framing control, it is freeze-frame
+images that may be able to make a more lasting and memorable impression
+on the reading mind. Especially for contemporary readers used to the dizzy-
+ing electronic speed of digital information, the contemplative mental space
+created by an ekphrastic slow-down of narrative pace may offer an imagina-
+tive enhancement.
+In short, ekphrasis prompts visualization processes on the part of the read-
+er. On the one hand, this means that it triggers mental images that are
+anchored in sensori-motor perceptions of the real world and can therefore
+elicit an enactive, emotional response. The capacity to visualize relies on the
+experiential parameters of actual orientation in the real world. It is nourished
+Brosch
+† Ekphrasis in the Digital Age
+237
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 14 ──
+by the recollection of images resulting from sensual perception that are stored
+in the writer and reader alike (van Eck 2015: 35). On the other hand, visu-
+alization is grounded in cultural knowledge, a knowledge stored in the mind
+in visual schemata and scripts which are automatically recalled when making
+sense of a text. This aspect of visualization links it to the cultural visuality
+in which each individual participates; it has political implications because
+meaning-making is an activity that always occurs within a preexisting social
+field and within actual power relations (Brosch 2013). In analyzing ekphrastic
+writing, it is advisable to consider how it aims to manipulate embodied
+responses in its efforts to dramatize a moment of viewing. But it is just as
+crucial to scrutinize critical responses, since ekphrasis typically interrogates
+culturally determined habits of seeing.
+Both appellative and critical responses help furnish contemporary ekphra-
+sis with a continued attraction at a time of ubiquitous availability of images.
+An affective embodied resonance can be effectively cued by suggesting a
+mood or feeling associated with the visual object. Ekphrasis often does this
+by inserting an emotionally affected observer confronted with sparse but
+carefully selected details, which serve as building blocks for a personal vision.
+Most ekphrastic passages do not tell us so much what an image looks like
+exactly as describe its affective impact in order to provide tinted lenses that
+may color our own visualization of it. It may be impossible to match the
+transparency of computer images and video games, but literary writing can
+activate a mode of visuality that is emotionally rather than sensuously vivid.
+This goal of ekphrasis, whether pursued by purely textual means or comple-
+mented by illustrations, aims at creating emotional effects that would be
+difficult to replicate by purely visual means.
+Ekphrasis’s most appealing strategy is “writing seeing.” Emma Kafalenos
+refers to this aspect of it in her contribution to this volume, which expands her
+earlier explanation of the inevitable misrepresentation of ekphrasis by includ-
+ing what she calls “perspectival montage.” As Simon Goldhill puts it, what is
+dramatized in ekphrastic poetry is a moment of looking in which description
+is subordinate to the “work of responding” (Goldhill 2007: 2). This emphasis
+on the performance of a gaze seems to me an important addition to the
+concept of ekphrasis. This conceptualization is supported by Jas Elsner
+who understands ekphrasis as both an enabler and an occluder: it enables
+“in helping the viewers it is training to see,” and it occludes “in the veil of
+words with which it screens and obscures the purported visual object” (Elsner
+2007: 68). Given ekphrasis’s “self-awareness of both these qualities (enabling
+and occluding), then one might say that its true subject is not the verbal
+depiction of a visual object but, rather, the verbal enactment of the gaze
+that tries to relate with and penetrate the object” (ibid.: 68).
+238
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 15 ──
+As mentioned earlier, ekphrasis affects not only the individual reader’s
+supplementary imagination, but also addresses a cognitive framework that is
+not entirely personal and subjective but composed of the semantic memory of
+visual images that proliferate in a particular culture. Especially when it deals
+with canonical works of art, ekphrasis runs up against a cultural paradigm
+that cannot be overestimated, namely the gaze of art appreciation practiced
+in the museum since the eighteenth century. As evaluated by Norman Bry-
+son, Western classical perspective constructed a type of gaze that negated and
+suppressed the embodied subjectivity of the viewer and devised a concept of
+subjectivity that depended on “objective” spectatorship. According to Bry-
+son, this type of gaze appropriates and penetrates the seen object while
+remaining aloof in order to extract a “second surface” of meaning from
+behind the appearance of visual art (Bryson 1983: 96). This mode of seeing
+is a discursive and pictorial construction, as far removed from the experiential
+embodied reality of perception as possible. Yet, in spite of its critical rejection,
+ekphrastic writing has made pervasive use of the “vigilant, masterful” Car-
+tesian gaze with its arrested vision (ibid.: 96), in order to stage and address
+patriarchal and imperial ways of seeing in Western culture.9 This model of
+seeing, derived from the legacies of art history, has dominated Western
+culture for so long that ekphrastic writing can depend on its being ingrained
+knowledge. In commenting on the gaze within painting, writing about paint-
+ing can wield a powerful weapon of anti-hierarchical argument (Elsner
+2007: 109).
+The staged gaze in ekphrasis, by directing the affective subjectivity of a
+viewer toward a chosen object, frames and guides the reader’s/visualizer’s
+interpretive gaze. In this way standard constructions of viewing are often vio-
+lently disrupted and disturbed. Frequently the imagined observer explicitly
+refuses to be a representative of conventional ways of seeing and rejects his
+or her culture’s evaluative norms. As numerous studies of classical, medieval,
+and modern ekphrasis have argued, ekphrastic writing has always included a
+transformational element, whether deliberately or not. The particular ten-
+sion and unresolvability inherent in ekphrasis predestines it for intervention
+into conventions and habits of seeing. Today’s breakdown of boundaries
+between high and low and the skepticism about the validity of a canon has
+further promoted transformative ekphrastic writing. By describing the per-
+ception of an image that clashes with its conventional interpretation, mis-
+reads the content, rearranges the meaning, or invents a new one, ekphrasis
+9. As Emily Troscianko points out, the tendency to conceptualize visual and imaginative expe-
+rience as pictorial is an enduring and deep-rooted one. Any attempt to undermine the gaze
+must rely on its familiarity and entails the danger of perpetuating it (Troscianko 2013: 57).
+Brosch
+† Ekphrasis in the Digital Age
+239
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 16 ──
+can question and subvert dominant ways of seeing. These iconoclastic ges-
+tures contribute to contemporary culture, at one and the same time utilizing
+and reinforcing the power of images and undermining their acknowledged
+meanings or messages.
+It appears that one of ekphrasis’s prominent functions in recent literature
+is to interrogate dominant visual regimes: “Literary allusions to pieces of
+visual art necessarily carry, in their very structure, a highly charged self-
+reflexive potential” (Klarer 2005: 133). The meta-representational potential
+that ekphrasis inherently possesses predestines it to disclose the values, belief
+systems, and assumptions underlying our concepts of the verbal and the visual
+and, in particular, to shed light on the historical and cultural contingency of
+ways of seeing, as self-reflexivity can help unravel the status of the visual in a
+literary culture. It may even contribute to an ethical reconceptualization of
+seeing as “intersubjective” and “interpersonal” instead of governed by West-
+ern imperial and patriarchal power structures. Deploying the subversive
+potential of ekphrastic meta-representation, feminist literature and postco-
+lonial writing have exposed and rejected the Othering gaze of existing power
+structures. Ekphrastic writing can stage ways of seeing through subaltern
+perceivers; it can create a distinctive female aesthetic that rejects the patri-
+archal gaze (Hedley 2009: 25), and it can turn the colonial gaze so that Euro-
+centric visual practices are negated (Rippl 2015).
+Any assumed position of power over the production of visuality is subject
+to constant struggle and renegotiation. Ekphrasis can be a means of inter-
+vention in this ongoing power struggle. Writers “resort to it to get the image
+to speak to their own preoccupations” (Hedley 2009: 17). Through their par-
+ticular agendas, ekphrastic writers construct alternative projects for seeing,
+attempting to activate images in order to denaturalize and estrange them,
+often in a way that is humorous and disconcerting at the same time, produc-
+ing new modes of imaginary perception. They can sketch out a new interplay
+between what we obstinately refuse to see and what we desire to see. Thus
+they make the reader confront perceptions of what is customary, normal, and
+taken for granted as well as desirable or disturbing.
+In performing these tasks, ekphrasis can be not only transformative but
+transgressive. Its descriptions of seeing, its delineation of gazes open subjec-
+tivity out into a social world. Ekphrastic writers can transform a personal
+perspective on an object into a new public context of value (Loizeaux 2008:
+5). Hence, ekphrasis is performative not just on the individual but also on the
+social level. By making ways of seeing visible, thereby challenging cultural
+conventions of seeing, ekphrasis can become ethical or political. According
+to David Kennedy, this tendency is complemented by readers, who want
+ekphrasis to function as moral prolepsis by addressing the anxieties of the
+240
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 17 ──
+present moment (Kennedy 2012: 4–5). The global spread of digital mass
+media allows previously marginalized groups to participate in this process
+(Goshe 2011: 17–18). In the global interconnectedness of the digital age,
+ekphrasis can transcend the limited boundaries of nation or social group. It
+remains for us critics to do it justice with an ethical criticism and theory.
+Works Cited
+Barbetti, Claire
+2011 Medieval Visions: A New Discussion of Interarts Theory (New York: Palgrave Macmillan).
+Boehm, Gottfried
+1995 “Bildbeschreibung: U¨ ber die Grenzen von Bild und Sprache.” In Beschreibungskunst —
+Kunstbeschreibung, edited by Gottfried Bo¨hm and Helmut Pfotenhauer, 23 – 40 (Munich:
+Fink).
+Bolter, Jay David
+1996 “Ekphrasis, Virtual Reality, and the Future of Writing.” In The Future of the Book, edited
+by Geoffrey Nunberg, 253 – 72 (Berkeley: University of California Press).
+Bolter, Jay David, and Richard Grusin
+2000 Remediation: Understanding New Media (Cambridge, MA: MIT Press).
+Brosch, Renate
+2008 “Empowering the Spectator: Ekphrasis as Strategic Response to the Power of Images.”
+In Symbolism: An International Annual of Critical Aesthetics 8: Ut Pictura Poesis: Literature and
+Painting, edited by Daniela Carpi, 179 – 196 (Brooklyn: AMS Press).
+2013 “Reading and Visualisation,” Anglistik 24: 169 – 80.
+2015 “Images in Narrative Literature: Cognitive Experience and Iconic Moments.” In Hand-
+book of Intermediality: Literature, Sound, Image, Music, edited by Gabriele Rippl, 343 – 60
+(Berlin: De Gruyter).
+Bryson, Norman
+1983 Vision and Painting: The Logic of the Gaze (Basingstoke: Macmillan Press).
+2001 “Introduction: Art and Intersubjectivity.” In Looking In: The Art of Viewing, edited by
+Mieke Bal, 1 – 40 (London: Routledge).
+Burnett, Ron
+2007 “Projecting Minds.” In MediaArtHistories, edited by Oliver Grau, 309 – 38 (Cambridge,
+MA: MIT Press).
+Cheeke, Stephen
+2008 Writing for Art: The Aesthetics of Ekphrasis (Manchester: Manchester University Press).
+Clark, Andy
+2008 “Perception, Action, and Experience: Unraveling the Golden Braid?” Neuropsychologia
+47, no. 6: 1460 – 68.
+Clu¨ver, Claus
+1997 “Ekphrasis Reconsidered: On Verbal Representations of Non-Verbal Texts.” In Inter-
+art Poetics: Essays on the Interrelations of the Arts and Media, edited by Ulla Britta Lagerroth,
+Hans Lund, and Erik Hedling, 19 – 34 (Amsterdam: Rodopi).
+Elkins, James
+1998 On Pictures and the Words That Fail Them (Cambridge: Cambridge University Press).
+Elsner, Jas
+2007 Roman Eyes: Visuality and Subjectivity in Art and Text (Princeton, NJ: Princeton University
+Press).
+Brosch
+† Ekphrasis in the Digital Age
+241
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 18 ──
+Friedman, Susan Stanford
+2005 “Spatial Poetics and Arundhati Roy’s The God of Small Things.” In A Companion to Narrative
+Theory, edited by James Phelan and Peter J. Rabinowitz, 192 – 205 (Malden, MA: Black-
+well Publishing).
+Gervais, Bertrand
+2013 “Is There a Text on This Screen? Reading in an Era of Hypertextuality.” In A Com-
+panion to Digital Literary Studies, edited by Susan Schreibman and Ray Siemens (Oxford:
+Blackwell),
+digitalhumanities.org/companion/view?docId¼blackwell/9781405148641
+/9781405148641.xml&chunk.id¼ss1 – 5 – 3.
+Goldhill, Simon
+2007 “What Is Ekphrasis for?” Classical Philology 12: 1 – 19.
+Goshe, Bishnupriya
+2011 Global Icons: Apertures to the Popular (Durham, NC: Duke University Press).
+Hedley, Jane
+2009 “Introduction: The Subject of Ekphrasis.” In In the Frame: Women’s Ekphrastic Poetry from
+Marianne Moore to Susan Wheeler, edited by Jane Hedley, Nick Halperin, and Willard Spie-
+gelman, 15 – 40 (Newark: University of Delaware Press).
+Heffernan, James A. W.
+1993 Museum of Words: The Poetics of Ekphrasis from Homer to Ashberry (Chicago: University of
+Chicago Press).
+Hollander, John
+1988 “The Poetics of Ekphrasis,” Word and Image 4: 209 – 19.
+1995 The Gazer’s Spirit: Poems Speaking to Silent Works of Art (Chicago: University of Chicago
+Press).
+Holsinger, Bruce
+2005 “Lollard Ekphrasis: Situated Aesthetics and Literary History,” Journal of Medieval and
+Early Modern Studies 35: 67 – 89.
+Jenkins, Henry
+2008 Convergence Culture: Where Old and New Media Collide (New York: New York University
+Press).
+Johnston, Andrew, Ethan Knapp, and Margitta Rouse, eds.
+2015 “Introduction.” In The Art of Vision: Ekphrasis in Medieval Literature and Culture, 1 – 16
+(Columbus: Ohio State University Press).
+Kafalenos, Emma
+2012 “The Polysemy of Looking: Reading Ekphrasis Alongside Images in Calvino’s Castle of
+Crossed Destinies and Vargas Llosa’s In Praise of the Stepmother,” Poetics Today 33, no. 1: 27 – 57.
+Kennedy, David
+2012 The Ekphrastic Encounter in Contemporary British Poetry and Elsewhere (Farnham: Ashgate
+Publishing).
+Klarer, Mario
+2005 “Ekphrasis.” In Routledge Encyclopedia of Narrative Theory, edited by David Herman,
+Manfred Jahn, and Marie-Laure Ryan, 133 – 34 (London: Routledge).
+Kneale, J. Douglas
+2010 “The Translation of Feelings: Ekphrasis in the Work of W. G. Sebald.” In Rewriting
+Texts — Remaking Images: Interdisciplinary Perspectives, edited by Leslie Boldt, Corrado Feder-
+ici, and Ernesto Virgulti, 187 – 97 (New York: Peter Lang).
+Koelb, Janice Hewlett
+2006 The Poetics of Description: Imagined Places in European Literature (New York: Palgrave Mac-
+millan).
+Krieger, Murray
+1992 [1967] “Ekphrasis or the Still Movement of Poetry; or Laokoo¨n Revisited.” In Ekphrasis.
+The Illusion of the Natural Sign, 263 – 88 (Baltimore: Johns Hopkins University Press).
+242
+Poetics Today 39:2
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025
+
+
+── PAGE 19 ──
+Lindhe´, Cecilia
+2015 “A Visual Sense Is Born in the Fingertips: Towards a Digital Ekphrasis,” Digital Human-
+ities Quarterly 7, digitalhumanities.org/dhq/vol/7/1/000161/000161.html.
+Loizeaux, Elizabeth Bergmann
+2008 Twentieth-Century Poetry and the Arts (Cambridge: Cambridge University Press).
+Louvel, Liliane
+2010 Le tiers pictural: Pour une critique intermediale (Rennes: Presses Universitaires de Rennes).
+Mitchell, W. J. T.
+1986 Iconology: Image, Text, Ideology (Chicago: University of Chicago Press).
+1994 Picture Theory (Chicago: University of Chicago Press).
+Rippl, Gabriele
+2015 “Postcolonial Ekphrasis in the Contemporary Anglophone Indian Novel.” In Handbook
+of Intermediality, edited by Gabriele Rippl, 128 – 55 (Berlin: De Gruyter).
+Ryan, Marie-Laure
+2001 Narrative as Virtual Reality: Immersion and Interactivity in Literature and Electronic Media (Bal-
+timore: Johns Hopkins University Press).
+Spinozzi, Paola
+2006 “Ekphrasis as Portrait: A. S. Byatt’s Fictional and Visual Doppelga¨nger.” In Writing
+Seeing: Essays on Word and Image, edited by Rui Carvalho Homem and Maria de Fatima
+Lambert, 223 – 34 (Amsterdam: Rodopi).
+Steiner, Wendy
+1988 Pictures of Romance: Form against Context in Painting and Literature (Chicago: Chicago Uni-
+versity Press).
+Troscianko, Emily T.
+2013 “Reading Imaginatively: The Imagination in Cognitive Science and Cognitive Literary
+Studies,” Journal of Literary Semantics 42: 181 – 98.
+van Eck, Caroline
+2015 Art, Agency, and Living Presence: From Animated Image to Excessive Object (Leiden: Leiden
+University Press).
+Webb, Ruth
+2009 Ekphrasis, Imagination, and Persuasion in Ancient Rhetorical Practice (Farnham: Ashgate).
+Yacobi, Tamar
+2013 “Ekphrastic Double Exposure and the Museum Book of Poetry,” Poetics Today 34, no. 1:
+1 – 52.
+Brosch
+† Ekphrasis in the Digital Age
+243
+Downloaded from http://read.dukeupress.edu/poetics-today/article-pdf/39/2/225/528829/0390225.pdf by guest on 26 December 2025

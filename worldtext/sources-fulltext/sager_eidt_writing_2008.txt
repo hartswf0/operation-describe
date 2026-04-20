@@ -1,0 +1,949 @@
+# Writing and Filming the Painting: Ekphrasis in Literature and Film.
+# Source: Writing_and_Filming_the_Painting_Ekphrasis_in_Lite..._----_(Chapter_1_Toward_a_Definition_of_Ekphrasis_in_Literature_and_Film).pdf
+# BibTeX key: sager_eidt_writing_2008
+# Zotero dir: 3115
+# Extracted chars: 54648
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+ 
+Chapter 1  
+ 
+Toward a Definition of Ekphrasis  
+in Literature and Film 
+ 
+ 
+ 
+ 
+Introduction 
+ 
+The classical figure of ekphrasis has become an increasingly popular critical 
+concept in recent years. A keyword search on the MLA international 
+bibliography results in 468 articles, book chapters, books, and dissertations, 
+of which 177 were published in the last five years. Whereas traditionally 
+ekphrasis was confined to poems that describe or analyze works of art, it is 
+now generally accepted and used as a term that applies to all literary genres, 
+that is, novel, drama, as well as essay. In spite of the expansion and 
+popularity of this concept, however, it has not yet been applied to film. In the 
+pages to follow I will contend that the concept of ekphrasis is applicable to 
+film as well. Moreover, I will argue that ekphrasis can function as a useful 
+tool to explore many of the issues at heart in the relationship between words 
+and images which are central to the filmic discourse and the hybrid, 
+collaborative nature of the cinematic medium. 
+The term ekphrasis is generally used to refer to works of poetry and prose 
+that talk about or incorporate visual works of art. Definitions of ekphrasis, 
+then, have been anchored traditionally in a particular modality: verbal 
+discourses that directly verbalize one or more visual images, often discussed 
+in terms of a power struggle between author and painter. Film’s relationship 
+with painting, although never discussed in terms of ekphrasis, has similarly 
+been seen in terms of a competition: critics have traditionally rejected film’s 
+ability to do justice to art works and have accused film of not being true to 
+the painting, of fragmenting it.1 As I will show in this chapter as I outline the 
+historical evolution of ekphrasis and current research on film-painting 
+relationships, similar issues are at play in the relationships between literary 
+texts and paintings, and films and paintings, but this connection has so far not 
+been explored. This study investigates that missing dimension.  
+                                                 
+1  
+André Bazin takes up this criticism and argues against it in his “Painting and Cinema”, in 
+What is Cinema? Trans. by Hugh Gray (Berkeley and Los Angeles: U of California P, 
+1967), pp.164-72 (esp. pp. 164-66). 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 2 ──
+Whereas heretofore theorists have used ekphrasis to talk about the visual 
+arts in poetry and prose, they have not identified the relationship between 
+film and painting, or the triad of painting, novel and film, as similarly 
+informed by an “ekphrastic ambition”2 and the ways in which the resultant 
+sender/receiver relationships reshape the reader or viewer perceptions of the 
+artworks depicted. These relationships alter the social power and impact of 
+the depicted art for the reader or viewer. In the chapters that follow I compare 
+the verbal and visual characteristics of film and literary genres that depict art. 
+By applying my expanded definition of ekphrasis as an interpretive tool, I 
+demonstrate how different genres in either modality influence the way the 
+reader or viewer reconstructs the implications of a work of art. In my 
+conclusion I will suggest why, in the age of information and media influence, 
+it becomes increasingly important to think beyond the traditional boundaries 
+between visual and verbal arts as well as between academic disciplines, and I 
+discuss the reason for what could be called critic’s “ekphrastic fear” in films.3 
+ 
+ 
+The Aesthetics of Ekphrasis 
+ 
+The Western discourse on ekphrasis has largely “developed under the 
+auspices of Horace’s comparison ‘ut pictura poesis’,”4  a phrase which has 
+often been misunderstood as an imperative rather than a comparison between 
+the production of visual representations in poetry and in painting. A century 
+after Horace, Plutarch cites a phrase by the 6th-century BCE writer, Simonide 
+of Keos, that takes the comparison even further: “painting is mute poetry and 
+poetry is a speaking picture.”5 Comparisons between poetry and painting are 
+also made in Plato’s Republic (Book X, 605) and Aristotle’s Poetics (9.16-
+21). Plato banned all mimetic art from his Republic, because it makes 
+                                                 
+2  
+Murray Krieger uses this term to describe the desire of the literary arts to “overcome the 
+arbitrariness of the verbal sign by aping the natural sign of the visual arts.” Ekphrasis: The 
+Illusion of the Natural Sign (Baltimore and London: The Johns Hopkins UP, 1992), p. 14. 
+3  
+W.J.T. Mitchell discusses this term as critics’ resistance against ekphrasis and its 
+collapsing of the border between visual and verbal mediation in his “Ekphrasis and the 
+Other,” Picture Theory (Chicago and London: The U of Chicago P, 1994), pp. 154-56. 
+Applied to film, I use this term to describe the resistance to ekphrasis and desire for purity 
+in the two visual genres film and painting. 
+4  
+Antonella Braida, and Giuliana Pieri, introduction, Image and Word: Reflections of Art and 
+literature from the Middle Ages to the Present. (Oxford: European Humanities Research 
+Centre, 2003), pp. 1-14 (p. 3). 
+5  
+Henryk Markiewicz, “Ut Pictura Poesis: A History of the Topos and the Problem”, New 
+Literary History 18.3 (1987), 535-58 (p. 535). 
+ 
+10 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 3 ──
+“phantoms that are very far removed from the truth,” and is thus harmful to 
+the soul.6 Rescuing mimetic art from Plato’s attack, Aristotle develops the 
+parallel between poetry and painting further. He emphasizes that the object of 
+both arts is the imitation of human nature in action, but their means are 
+different: Poetry uses language, rhythm and harmony, while painting uses 
+color and form. 
+Plato’s followers have, for centuries, emphasized the “inferiority” of 
+words to images with regard to their mimetic faithfulness of representation.7 
+The rhetorical device of enargeia was thus a regular scholastic exercise of 
+using words to create such a vivid, visual description that the object is placed 
+before the listener’s or reader’s inner eye.8 Enargeia also encompassed 
+ekphrasis as a form of vivid evocation. Used as a rhetorical device, ekphrasis 
+was defined in terms of its effect on an audience by Theon as “expository 
+speech which vividly brings the subject before our eyes.”9 Like enargeia, 
+ekphrasis marks the desire to overcome the arbitrariness of the verbal sign by 
+aspiring to the natural sign of the visual arts.10 One of the earliest and most 
+famous examples of literary ekphrasis is Homer’s description of Achilles’ 
+shield in book 18 of the Iliad, in which ekphrasis functions as a device to 
+make the listeners re-create the shield in their minds’ eyes.  
+During the Middle Ages, the “ut pictura poesis” formula remained 
+popular, but its terms of comparison began to shift. Writers such as 
+Augustine emphasized the greater difficulty of the reception of poetry, which 
+made it more valuable than painting. Moreover, writing was also considered 
+to be more capable of encompassing spiritual matters, and thus to have 
+“greater moral and religious value” than painting, and to offer “more lasting 
+satisfaction”11. This devaluation of painting is also reflected in its absence 
+from the seven liberal arts, which consisted of the trivium (grammar, rhetoric, 
+and dialectic), and the quadrivium (arithmetic, geometry, astronomy and 
+music). Painting and sculpture were considered manual rather than 
+                                                 
+6  
+The Republic of Plato, ed., transl., and  introd. by Allan Bloom (New York: Basic Books, 
+1968), p. 289. 
+7  
+Murray Krieger, Ekphrasis: The Illusion of the Natural Sign (Baltimore and London: The 
+Johns Hopkins UP, 1992), p. 14. 
+8  
+Cf. Jean H. Hagstrum, The Sister Arts: The Tradition of Literary Pictorialism and English 
+Poetry from Dryden to Gray (Chicago and London: University of Chicago Press, 1958), p. 
+29; Krieger , p. 14. 
+9  
+William H. Race, “Ekphrasis”, in The New Princeton Encyclopedia of Poetry and Poetics, 
+ed. by Alex Preminger and T.V.F. Brogan (Princeton, NJ: Princeton UP, 1993), pp. 320-
+321 (p. 320).  
+10  
+Cf. Krieger, pp. 10-12. 
+11  
+Markiewicz, p. 537. 
+ 
+11
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 4 ──
+intellectual labor and therefore classified with the mechanical arts. In the 
+centuries that followed, painters and sculptors struggled to combat their 
+status as artisans and imitators, rather than artists and creators, and to 
+reaffirm the intellectual nature of their work. 
+One of the first to counter that hierarchy was Leon Battista Alberti, whose 
+treatise on art, Della Pittura (1435), reasserts the painter’s primacy, as it is he 
+who excites the imagination the most (cf. Braida and Pieri 5). Since Alberti, 
+this contest for the representational superiority between the sister arts is know 
+as paragone. In the Renaissance, it was Leonardo da Vinci who reclaimed the 
+prominent place of the visual arts the most fervently in his Paragone (ca. 
+1510), reversing Simonides’ comparison by claiming that if painting is “mute 
+poetry,” then poetry is “blind painting.”12 While Leonardo sought to prove 
+the superiority of the visual arts over poetry, Lessing, in his Laokoon (1766), 
+attempts to reverse that hierarchy by drawing strict boundaries between the 
+representational realms of poetry and painting. Whereas poetry is best suited 
+to represent actions in time due to the temporal nature of its reception, 
+painting can only represent a single pregnant moment in space since it is 
+perceived as a static object. In other words, Lessing distinguishes the creation 
+of mental images in time from the static nature of the physical painting. 
+Because of its ability to excite mental pictures in a temporal sequence, poetry 
+is better able to create an illusion of reality. Thus, although strongly opposed 
+to ekphrasis because of its mingling of painting and poetry, he nevertheless 
+espouses the energetic creation of visual images through language.13 
+Lessing’s notions of time and space have remained fundamental to the 
+analysis of ekphrasis to this day.14 For example, Murray Krieger’s Ekphrasis: 
+The Illusion of the Natural Sign (1992) defines ekphrasis as a device to 
+“interrupt the temporality of discourse, to freeze it during its indulgence in 
+spatial exploration” (p. 7) and his concept of the “ekphrastic principle” 
+includes those poems which seek to emulate the pictorial or sculptural arts by 
+achieving a kind of spatiality. But while ekphrasis for the Greeks implied a 
+visual impact on the mind’s eye of the listener, today the real or fictional art 
+object itself is the occasion for the poem, which seeks to render that visual 
+                                                 
+12  
+Leonardo da Vinci, Leonardo da Vinci’s Paragone: Critical Interpretation with a new 
+Edition of the Text in the Codex Urbinas, ed. Claire J. Farago (Leiden: E.J. Brill, 1992), p. 
+209. 
+13  
+Alexandra Wettlaufer, In the Mind’s Eye: The Visual Impulse in Diderot, Baudelaire and 
+Ruskin (New York and Amsterdam: Rodopi, 2003), pp. 64-66. 
+14  
+Cf. W.J.T. Mitchell, “Space and Time: Lessing’s Laokoon and the Politics of Genre”, 
+Iconology: Image, Text, Ideology  (Chicago and London: U of Chicago P, 1986), pp. 95-
+115 (p. 97). 
+ 
+12 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 5 ──
+object into words. Thus, ekphrasis today is generally defined as “verbal 
+representation of a visual representation.”15  
+This twentieth-century usage was coined by Leo Spitzer in 1955 in an 
+analysis of Keats’ “Ode on a Grecian Urn.” There he defined ekphrasis as 
+“the poetic description of a pictorial or sculptural work of art, which 
+description implies, in the words of Théophile Gautier, ‘une transposition 
+d’art’, the reproduction through the medium of words of sensuously 
+perceptible objets d’art (ut pictura poesis).”16 But inter-art comparisons, that 
+is, comparisons between the arts, had already interested René Wellek, who, 
+in an article in 1941 discusses “The Parallelism between Literature and the 
+Visual Arts.”17 His position is largely a warning against going too far with 
+analogies between the arts and against the confusion of the arts by a simple 
+transference of terms from one art to another. Instead, he argues, critics 
+should look for structural relationships and make use of semiology and their 
+concepts of signs, norms and values in inter-art comparisons.  
+Similar cautions against generalizations and calls for factually grounded 
+structural relationships continued to concern critics throughout the seventies 
+and eighties. In “Art and Literature: A Plea for Humility” (1972) Jean Seznec 
+emphasizes the need for a factual method which looks for actual contacts 
+between art and literature, and pleads for monographic studies of precise, 
+fully documented relationships.18 Likewise, Ulrich Weisstein in his chapter 
+on “Literature and the Visual Arts” in the first MLA publication dedicated to 
+Interrelations of Literature (1982), is primarily concerned with guidelines to 
+make valid inter-art comparisons. Like Seznec, he calls for monographic 
+studies, limited in object and rigorous in form with a precise and narrow 
+choice of topic, and  “conducted in a controlled environment” in order to 
+avoid vast syntheses and generalizations.19 In the same year, Wendy Steiner 
+published The Colors of Rhetoric, in which she proposes and illustrates a 
+structuralist method of inter-art comparisons that seeks parallels while being 
+aware of impossibilities of structural correspondences. Similar to Murray 
+Krieger, Steiner defines ekphrasis as a description of a “pregnant moment in 
+                                                 
+15  
+James A. W. Heffernan, Museum of Words: The Poetics of Ekphrasis from Homer to 
+Ashbery (Chicago and London: University of Chicago Press, 1993), p.  3.  
+16  
+Leo Spitzer, “The ‘Ode on a Grecian Urn,’ or Content vs. Metagrammar”, Comparative 
+Literature 7.3 (1955), 203-25 (p. 207). 
+17  
+René Wellek, “The Parallelism between Literature and the Visual Arts”, English Institute 
+Annual (New York: Columbia UP, 1941), 29-63. 
+18  
+Jean Seznec, “Art and Literature: A Plea for Humility”, New Literary History 3.3 (1972), 
+569-74 (pp. 571-74). 
+19  
+Ulrich Weisstein, “Literature and the Visual Arts”, in  Interrelations of Literature, ed. 
+Baricelli and Gibaldi (New York: MLA, 1982), pp. 251-77 (p. 267). 
+ 
+13
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 6 ──
+painting,” that is as attempt to imitate the visual arts by describing a still 
+moment and thereby halting time.20 
+ 
+ 
+Ekphrasis and Ideology 
+ 
+Whereas these critics have discussed the literature-art relationship largely as 
+an aesthetic one, critics from the late eighties on have tended to see the 
+relationship as socially and ideologically motivated, as a “dialectical struggle 
+in which the opposed terms take on different ideological roles and 
+relationships at different moments in history”.21 W.J.T. Mitchell was one of 
+the first to discuss inter-art comparisons in terms of social relations. By 
+showing how Lessing in his Laokoon connects the difference between 
+painting and poetry to that between men and women and the English and the 
+French influence, Mitchell demonstrates how Lessing’s attempt to establish 
+laws and borders to distinguish the arts is permeated by a rhetoric of political 
+economy and social, gender relations. The laws of genre not only shift into 
+laws of proper behavior for each gender, but moreover function to segregate 
+the arts in “an imperialist design for absorption by the more dominant, 
+expansive art”.22 
+Similarly, Ernest B. Gilman has discussed this “Imperialism of 
+Language” as central to inter-art comparisons since Antiquity, emphasizing 
+that the paragone, or the rivalry between the arts, exists not only between the 
+disciplines, but also between their academic exponents, art historians and 
+literary critics. Alluding to the commonplace of painting as mute poetry and 
+poetry as speaking picture, he concludes that “[i]f the image lurks in the heart 
+of language as its unspeakable other, then critics should be open to the 
+possibility that images harbor a similarly charged connection with language – 
+as an invisible other.”23 Likewise, Grant F. Scott discusses ekphrasis as 
+appropriation of the “visual other” and as an attempt to “transform and 
+master the image by inscribing it.”24 Diverging from critics such as Jean 
+Hagstrum, Leo Spitzer and Murray Krieger, who see ekphrasis as “imitation” 
+                                                 
+20  
+Wendy Steiner, The Colors of Rhetoric (Chicago and London: U of Chicago P, 1982), p. 
+41. 
+21  
+Mitchell, “Space”, p. 98. 
+22  
+Ibid. p. 107. 
+23  
+Ernest B. Gilman, “Interart Studies and the ‘Imperialism’ of Language,” in Art and 
+Literature I, ed. by Wendy Steiner, spec. issue of Poetics Today 10.1 (1989), 5-30 (p.23). 
+24  
+Grant F. Scott, “The Rhetoric of Dilation: Ekphrasis and Ideology”, Word & Image 7.4 
+(1991), 301-10 (p.302). 
+ 
+14 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 7 ──
+of the visual arts, or as “giving voice” to the image, Scott sees it as “a means 
+of […] demonstrating dominance and power.”25 
+Specifically, for critics such as Mitchell and Heffernan, this battle is often 
+played out in terms of race and gender. Ekphrastic texts project the visual as 
+“other to language.”26 In this process of cultural domination, “the self is 
+understood to be an active, speaking, seeing subject, while the ‘other’ is 
+projected as a passive, seen, and (usually) silent object. […] Like the masses, 
+the colonized, the powerless and voiceless everywhere, visual representation 
+cannot represent itself; it must be represented by discourse.”27 The “other” 
+art is thus defined both in terms of racial otherness as the seen vs. the 
+unmarked identity, and in terms of gender as the “expression of a duel 
+between male and female gazes”.28  
+Despite these ideological battles, Mitchell has argued that there is no 
+essential difference between the two arts.29 In other words, neither are the 
+visual arts “inherently spatial, static, corporeal, and shapely,” nor are 
+“arguments, addresses, ideas, and narratives” proper to language. Although 
+the visual and verbal media are different “at the level of sign-types, forms, 
+materials of representation, and institutional traditions,”30 Mitchell 
+emphasizes that semantically, that is, in terms of “expressing intentions and 
+producing effects in a viewer/listener, there is no essential difference between 
+texts and images.”31 Thus, in contrast to the restrictive, cautionary warnings 
+of earlier critics, for Mitchell “the problem is that we have not gone nearly 
+far enough in our exploration of text-image relations.”32 The emphasis has 
+thus not only shifted from an aesthetic to a social focus, but also from 
+moderation to encouragement and excess. 
+However, as Bernhard F. Scholz has shown, the problem today is that 
+there is also an excess of definitions, and that the concept of ekphrasis refers 
+to a range of practices rather than to a distinct corpus or genre of texts. 
+Ekphrasis has been variously defined as a rhetorical figure, that is, in terms of 
+its effect on the listener; as a rhetorical exercise, that is, “as a term for a 
+(descriptive) genre studied in terms of composition and typical subject 
+                                                 
+25  
+Scott. p. 303. 
+26  
+Mitchell, Picture Theory, p. 163. 
+27  
+Ibid., p. 157. 
+28  
+Heffernan, p. 1. 
+29  
+Mitchell, “Space”, p.  98; Picture Theory, pp. 159-62; and “Going Too Far With The Sister 
+Arts”, in Space, Time, Image, Sign: Essays on Literature and the Visual Arts, ed. by James 
+A.W. Heffernan (New York: Peter Lang, 1987), pp. 1-10. 
+30  
+Mitchell, Pictur Theory, p. 161. 
+31  
+Ibid., p. 160. 
+32  
+Mitchell, “Going Too Far”, p. 2. 
+ 
+15
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 8 ──
+matter”;33 as a literary genre, “defined by reference to form and/or subject 
+matter”; a macrostructure, “defined in syntactic terms and in terms of the 
+materials which are ordered by the macrostructure,” like “plot” or “collage”; 
+as an intertextual relation, “defined by its characteristic relation to another 
+text”; or broadly as a mode of writing, “to be contrasted with ‘description’, 
+‘argumentation’ or ‘dialogue’.”34 Each of these possibilities will lead critics 
+to emphasize different features and functions of ekphrasis. In light of this 
+absence of consensus about what constitutes the genre of ekphrasis and how 
+it is to be distinguished from other similar phenomena, Scholz concludes that 
+it might be more fruitful to see it “as complex multi-dimensional multi-
+faceted semiotic phenomenon,” as a “term with a ‘family of meanings’ with 
+each member of that family calling for a separate definition.”35   
+ 
+ 
+Expanding the Definition of Ekphrasis 
+ 
+In fact, as Claus Clüver has argued, “contemporary ekphrastic practices have 
+subverted the traditional relation of the representational visual text to its 
+verbal representation, even to the point of discontinuity.”36 Thus, critics have 
+felt the need to redefine the concept of ekphrasis, for its general definition as 
+“verbal representation of visual representation” has been increasingly 
+perceived as too narrow. Margaret Persin in her book on ekphrasis in 20th-
+century Spanish poetry (1997) has expanded the range of ekphrastic objects, 
+discussing not only poems about paintings but also about “uncanonical art 
+forms such as television, photography, comics, and cinematography.”37 In the 
+same year, Claus Clüver proposes a yet more “radical revision of the concept 
+that would lead to a considerable extension.”38  This extension consists not 
+only in broadening the definition to include as the object of ekphrasis any 
+discourse composed in a non-verbal sign system, but moreover, his proposal 
+                                                 
+33  
+Bernhard F. Scholz., “‘Sub Oculos Subiectio’: Quintilian on Ekphrasis and Enargeia”, in 
+Pictures into Words: Theoretical and Descriptive Approaches to Ekphrasis, ed. by Valerie 
+Robillard and Els Jongeneel (Amsterdam: VU University Press, 1998), pp. 73-99 (p. 73). 
+34  
+Scholz, pp. 73-74. 
+35  
+Ibid, p. 75. 
+36  
+Claus Clüver, “Ekphrasis Reconsidered: On Verbal Representations of Non-Verbal Texts”, 
+in Interart Poetics: Essays on the Interrelations of the Arts and Media, ed. by Ulla-Britta 
+Lagerroth, Hans Lund, and Erik Hedling (Amsterdam and Atlanta: Rodopi, 1997), pp. 19-
+33 (p. 30). 
+37  
+Margaret Persin, Getting the Picture: The Ekphrastic Principle in Twentieth-Century 
+Spanish Poetry (Lewisburg: Bucknell UP; London: Associated UP, 1997), p. 19. 
+38  
+Clüver, “Ekphrasis”, p. 23. 
+ 
+16 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 9 ──
+implies that ekphrasis would also include both the tableau vivant and 
+theatricalization,39 two terms eminently relevant for the notion of filmic 
+ekphrasis.  
+Having expanded the second part of the ekphrastic equation, Clüver 
+proceeds to revise the first part a year later. Rather than “verbal 
+representation” he argues for the term “verbalization” which is less tied to 
+mimesis than the traditional term, yet retains a certain degree of enargeia 
+inherent in and central to ekphrasis.40 Thus, he defines the concept as “the 
+verbalization of real or fictitious texts composed in a non-verbal sign system” 
+(49). Likewise, Tamar Yacobi has shown in various essays that ekphrasis can 
+include a mere allusion to an “ekphrastic model” or an “ekphrastic simile” of 
+no more than one phrase.41 Both generally invoke a pictorial model rather 
+than a specific painting (such as a Last Supper, a Crucifixion), but produce 
+multiple interconnections and cross-references. They thus function as 
+“abbreviated reference to a whole pictorial set of works, which silently refers 
+the reader to the original itself for details and extensions.”42  
+The most radical re-definition, and most significant one for my purposes, 
+has been proposed in 2000 by Siglind Bruhn in her book on Musical 
+Ekphrasis and an article based on the introduction of that book a year later.43 
+She expands Clüver’s definition of ekphrasis to refer to the “representation in 
+one medium of a real or fictitious text composed in another medium.”44 
+Musical ekphrasis can thus transpose either a painting or a literary text, and 
+the individual studies in her book are in fact devoted to both cases. Bruhn’s 
+re-definition is particularly relevant since it contends that the “recreating 
+medium need not always be verbal, but can itself be any of the art forms 
+other than the one in which the primary ‘text’ is cast.”45 In a footnote, she 
+                                                 
+39  
+Clüver, “Ekphrasis”, p. 26. 
+40  
+Claus Clüver, “Quotation, Enargeia, and the Function of Ekphrasis”, in Pictures into 
+Words: Theoretical and Descriptive Approaches to Ekphrasis, ed. by Valerie Robillard and 
+Els Jongeneel (Amsterdam: VU University Press, 1998), pp. 35-52 (p. 45). 
+41  
+Tamar Yacobi, “The Ekphrastic Model: Forms and Functions”, in Pictures into Words: 
+Theoretical and Descriptive Approaches to Ekphrasis, ed. by Valerie Robillard and Els 
+Jongeneel (Amsterdam: VU University Press, 1998), pp. 21-34; “Verbal Frames and 
+Ekphrastic Figuration,” in Interart Poetics: Essays on the Interrelations of the Arts and 
+Media, ed. byUlla-Britta Lagerroth, Hans Lund, and Erik Hedling (Amsterdam and 
+Atlanta: Rodopi, 1997), pp. 35-46. 
+42  
+Yacobi, “Verbal”, p. 42. 
+43  
+Siglind Bruhn, Musical Ekphrasis: Composers Responding to Poetry and Painting 
+(Hillsdale, NY: Pendragon Press, 2000) and “A Concert of Paintings: Musical Ekphrasis in 
+the 20th Century,” Poetics Today 22:3 (2001): 551-605. 
+44  
+Bruhn, Musical, p. 8; “Concert”, p. 559. 
+45  
+Bruhn, Musical, pp. 7-8. 
+ 
+17
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 10 ──
+points out that Claus Clüver, in his article “On Intersemiotic Transposition” 
+has interpreted Charles Demuth’s painting I Saw the Figure Five in Gold as 
+intersemiotic transposition of William Carlos William’s poem “The Great 
+Figure.”46 Not only do the third and fourth lines of the poem provide the title 
+of the painting, but the painting does in fact transpose the poem, including its 
+past tense, into pictorial language. Wendy Steiner, in Pictures of Romance 
+provides another example of the way in which a work of art transposes a 
+novel.47 All of these, as Bruhn emphasizes, are cases of “visual 
+representation of verbal representation,”48 thus reversing Heffernan’s well-
+known definition of ekphrasis.  
+ 
+ 
+The Case for Cinematic Ekphrasis 
+ 
+In spite of these attempts to broaden the concept of ekphrasis, the term has 
+not yet been applied to film as a medium that can transpose a painting. 
+However, one need not go as far as Bruhn’s re-definition to allow for the 
+possibility of visual or filmic ekphrasis. Clüver’s above-cited definition of 
+ekphrasis as “the verbalization of real or fictitious texts composed in a non-
+verbal sign system” would apply equally to poetic ekphrasis as to an 
+ekphrastic passage in the stage directions of a drama or in a screenplay. 
+Elizabeth Drumm in her discussion of “Ekphrasis in Valle-Inclan’s Comedias 
+bárbaras” has shown how ekphrasis is used in the stage directions of that 
+drama. Although the ekphrasis is a mere reference to some vague, 
+unidentified “retratos antiguos” (old portraits), the trilogy as a whole 
+functions as “prolonged ekphrasis of the mute art object.”49 Moreover, 
+ekphrasis in this drama does not privilege language, but rather the “rich 
+ambiguity” and the “persistent and inscrutable presence”50 of the visual 
+image.  
+Ekphrastic passages in such texts as dramas and screenplays will be acted 
+out and dramatized, and thus lose their purely verbal nature. But will they 
+then also lose their potential to be ekphrastic? I would like to extend and 
+                                                 
+46  
+Claus Clüver, “On Intersemiotic Transposition”, in Art and Literature I, ed. by Wendy 
+Steiner, spec. issue of Poetics Today 10.1 (1989), 55-90. 
+47  
+Wendy Steiner, Pictures of Romance: Form Against Context in Painting and Literature. 
+(Chicago: University of Chicago Press, 1988), p. 109. 
+48  
+Bruhn, Musical, p. 8. 
+49  
+Elizabeth Drumm, “Ekphrasis in Valle-Inclán's Comedias bárbaras”, Revista de Estudios 
+Hispánicos 34.2 (2000), 391-407 (p. 391). 
+50  
+Ibid., p. 393. 
+ 
+18 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 11 ──
+combine Clüver’s and Bruhn’s above-mentioned definitions of ekphrasis to 
+explicitly include the quotation and dramatization of texts in another medium 
+to expand the possibilities of visual and cinematographic ekphrasis.51 I 
+therefore define ekphrasis as the verbalization, quotation, or dramatization of 
+real or fictitious texts composed in another sign system.  
+Like Bruhn, then, I argue that ekphrasis need not be purely verbal. If the 
+goal of verbal ekphrasis is to make the reader see, cinematic ekphrasis can 
+also be discussed in terms of its effect on the audience. Filmic ekphrasis 
+allows the viewer to compare the filmic representation or enactment of the art 
+work with the actual work itself, thus creating a synthesis of the two images 
+in the viewer’s mind.  With this audience-oriented goal, ekphrasis is closely 
+tied to reception. But not only does ekphrasis strive for a creative visual 
+effect on the audience, but moreover, it also indicates the writer’s or 
+filmmaker’s interpretation, and thus reception of a work of art or an artist’s 
+oeuvre. As Gisbert Kranz has noted with regard to the ekphrastic poem and in 
+reference to Roman Ingaarden, it is a “concretization of the work of art,” a 
+concretization which comprises both the effect produced by the work of art 
+and the reception by the recipient.52 Analyzing the literary and filmic 
+reception and concretization of a work of art through their ekphrases, we can 
+gain insight into the similarities and differences in the interpretation of 
+famous works of art in high and in popular culture.  
+For this ekphrastic process, this concretization, I prefer to use Bruhn’s 
+term “transmedialization,” which she coins by referring to the existence of 
+the adjective “-medial” in German as well as French.53 Having shown how 
+other terms suggested by literary critics for the ekphrastic process, such as 
+transposition, transformation, or translation, invite misreadings and possess 
+music-specific meanings, she proposes this term as one that adequately 
+captures the essence of that process. While this term seems to convey the 
+same meaning as Clüver’s “intersemiotic transposition” (translation or 
+transmutation), I find “transmedialization” both simpler and more precise. 
+                                                 
+51  
+However, as Clüver has emphasized with regard to ekphrasis of architecture, the existence 
+of ekphrasis in a discourse depends both on how the object is represented, that is, as 
+another representation or merely as object, and on the reception of its representation 
+(“Ekphrasis Reconsidered”, p. 26). Thus, it would be important to distinguish between 
+films that merely show some art works and those in which they fulfill a narrative function. 
+52  
+Gisbert Kranz, Das Bildgedicht. Theorie – Lexikon – Bilbiographie, vol. 1 (Köln and Wien 
+[Cologne and Vienna]: Böhlau Verlag, 1981), p. 158. 
+53  
+Bruhn, Musical, p. 51 
+ 
+19
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 12 ──
+Moreover, its English usage is prefigured in terms such as “intermedial” and 
+“intermediality.”54  
+My own reading of films in the light of the ekphrastic process has 
+benefited from Siglind Bruhn’s analysis of musical ekphrasis, Claus Clüver’s 
+various expansions of literary ekphrasis, and Donna L. Poulton’s discussion 
+of the uses of art in film. None of these investigations, however, touches on 
+the ability of film to transmedialize a work of art by adapting the pictorial 
+into the cinematographic language. In fact, although there are a number of 
+studies on film-painting relationships, none has investigated the possibility of 
+filmic ekphrasis. However, one does not need to go as far as Zahlten and 
+claim that the discourse between art history and film studies has largely been 
+denied.55 For example, Angela Dalle Vacche’s anthology The Visual Turn: 
+Classical Film Theory and Art History documents the “dialogue between the 
+history of art history in the early twentieth century and the history of classical 
+film theory”56 and demonstrates that the boundaries between the two 
+disciplines are beginning to disappear. However, in most of the scholarly 
+practice today, this is not the case. Existing studies on film-art relationships 
+generally center on documentaries about artists.57 If feature films are 
+considered, scholars generally either look at technical similarities between 
+the visual arts and the movies,58 or examine the use of paintings in one 
+                                                 
+54  
+See for example the publication Icons – Texts – Iconotexts: Essays on Ekphrasis and 
+Intermediality, ed. by Peter Wagner (Berlin and New York: Walter de Gruyter, 1996). The 
+terms “intermedial” and “intermediality” are also used by Claus Clüver in his “On 
+Intersemiotic Transposition,” and Valerie Robillard in her “In Pursuit of Ekphrasis (an 
+intertextual approach),”  in Pictures into Words: Theoretical and Descriptive Approaches 
+to Ekphrasis, ed. by Valerie Robillard and Els Jongeneel (Amsterdam: VU University 
+Press, 1998), pp. 53-72. 
+55  
+Johannes Zahlten, “Die Kunsthistoriker und der Film. Historische Aspekte und künftige 
+Möglichkeiten”, in Kunst und Künstler im Film, ed. by Helmut Korte,and Johannes Zahlten 
+(Hameln: Verlag C.W. Niemeyer, 1990), pp. 13-19 (p. 13). 
+56  
+Angela Dalle Vacche, “Introduction: Unexplored Connections in a New Territory”,  in The 
+Visual Turn: Classical Film Theory and Art History (New Brunswick, NJ and London: 
+Rutgers UP, 2003), pp. 1-29 (p. 1). 
+57  
+E.g. Art History and Film: Starting from the Arts: A Symposium, Boston, November 14-16, 
+1991 (New York: Program for Art on Film, 1992); Simon Howard Dizon, The Image 
+Incarnate: On the Documentary Representation of Painting in Film, diss U of Iowa, 2000; 
+Catherine Egan and John Egan, “Films About Artists and Their Audiences”, in The 
+Mediazation of the Arts,  ed. by Catherine Egan, spec. issue of Perspectives on Film 4 
+(1982), 20-30; Günter Minas, Bildende Kunst im Film der Bundesrepublik Deutschland. 
+Ergebnisse ener Bestandsaufnahme (Berlin: G.Minas, 1986); Jens Thiele, Das Kunstwerk 
+im Film (Bern: Herbert Lang; Frankfurt a.M. and München: Peter Lang, 1976). 
+58  
+E.g. Angela Dalle Vacche, Cinema and Painting: How Art Is Used in Film (Austin: U of 
+Texas P, 1996); Anne Hollander, Moving Pictures (New York: Knopf, 1989). 
+ 
+20 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 13 ──
+individual film,59 or focus on the role of the artist as portrayed in bio-pictures 
+about famous painters, rather than on the art works themselves.60  
+ 
+ 
+Film and Painting 
+ 
+Relatively few scholars have attempted to outline the various ways in which 
+paintings can be used in film. Susan Felleman’s Art in the Cinematic 
+Imagination examines a range of ways in which films have incorporated 
+works of art, using “psychoanalytical and feminist theory to uncover the 
+meanings that the incorporation of art has for and in movies.”61 However, her 
+study does not account for different ways in which art may be integrated and 
+used in film, and her examples range from films in which art plays a minor 
+role as background picture to films about artists without differentiating 
+degrees and kinds of filmic appropriation of art.  
+Donna L. Poulton in her 1999 dissertation, Moving Images in Art and 
+Film, has outlined sixteen categories for the intertextual integration of 
+paintings into feature films.62 With her focus on the quotes referring to art 
+works in films, several of the categories she outlines could in fact represent 
+instances of filmic ekphrasis and will be further discussed in Chapter 2. 
+However, of the three categories she analyzes in detail, only one (“Films that 
+directly quote paintings,” i.e. in which paintings are directly shown to the 
+                                                 
+59  
+E.g. Jürgen Paech., “La belle captive (1983). Malerei, Roman, Film (Rene Magritte / Alain 
+Robbe-Grillet)”, in Literaturverfilmungen, ed. by Franz-Josef Albersmeier and Volker 
+Roloff (Frankfurt a.M.: Suhrkamp 1989), pp. 409-436; and Gerd Bauer, “Jean-Luc Godard: 
+Ausser Atem/A Bout de Souffle (Frankreich 1959)”, in Kunst und Künstler im Film, ed. by 
+Helmut Korte and Johannes Zahlten (Hameln: Verlag C.W. Niemeyer, 1990), pp. 111-121. 
+60  
+E.g. Ellen Fischer, “Das Künstlerbild im amerikanischen Spielfilm der 50er und 60er 
+Jahre,“ in Film, Fernsehen, Video und die Künste: Strategien der Intermedialität, ed. by 
+Joachim Paech  (Stuttgart and Weimar: Verlag J.B. Metzler, 1994), pp. 103-113; and John 
+A. Walker, Arts & Artists on Screen (Manchester and New York: Manchester UP, 1993). 
+Helmut 
+Korte’s 
+“Kunstwissenschaft 
+– 
+Medienwissenschaft: 
+Methodologische 
+Anmerkungen zur Filmanalyse”, in Kunst und Künstler im Film, ed. by Helmut Korte and 
+Johannes Zahlten (Hameln: Verlag C.W. Niemeyer, 1990), pp. 21-42 is somewhat of an 
+exception, since it is concerned with methodological problems in the analysis of films 
+about artists, in the course of which he briefly discusses several such films. However, his 
+analysis does not pertain specifically to the transmedialization of the art work  in the film, 
+but rather aims at an overall interpretation of the film. 
+61  
+Susan Felleman, Art in the Cinematic Imagination (Austin: University of Texas Press, 
+2006), p. 2. 
+62  
+Donna Lauren Poulton, Moving Images in Art and Film: The Intertextual and Fluid Use of 
+Painting in Cinema (diss Brigham Young University, 1999). 
+ 
+21
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 14 ──
+viewer) could classify as ekphrastic, while the other two neither require a 
+(real, fictional, or tableau vivant) image to be used, nor do these films 
+provide any verbal discourse about art. 
+In contrast to the films Poulton discusses, fiction features about artists, 
+usually do include some verbal as well as visual representation of artworks.63 
+Yet, John A. Walker, the only scholar so far to have undertaken an extensive 
+analysis of such bio-pictures, claims that in focusing on the biography of an 
+individual artist, these films generally neglect the artwork or interpret it as 
+merely an aspect of the artist’s personality and biography.64 Although this 
+may be true for some biographical features, I contend that this negative 
+assessment can be challenged and qualified by comparing the ekphrastic use 
+of painting in feature films about art and artists with its function in literary 
+texts. 
+Furthermore, I maintain that it is essential for a full understanding of 
+ekphrasis in films to distinguish it from the genre of biographical feature 
+films. Cinematic ekphrasis is neither synonymous with nor a subgroup of bio-
+features, but can occur in other feature films as well. Moreover, my use of the 
+term filmic ekphrasis refers only to particular scenes or sequences, rather 
+than signifying a filmic genre. In contrast to ekphrastic poems, which more 
+easily classify as a genre due to the compact nature of poetry, in most novels, 
+dramas and films, ekphrasis will take up only a quantitatively small aspect of 
+the whole work, insufficient to classify as genre.65 So unlike Bruhn’s claim 
+with regard to ekphrastic music,66 I do not allege that filmic ekphrasis 
+represents a separate genre of films.  
+In his essay “Film and Painting” André Bazin also takes up the criticism 
+against films about art works. Bazin argues that these films are both 
+didactically useful (by bringing the masses to appreciate art and by bringing 
+together high and popular culture) and, by uniting high and popular culture 
+within themselves, a work of art in their own right. As Bazin emphasizes, 
+                                                 
+63  
+Of course there are some exceptions, such as James Ivory’s Surviving Picasso (1996) or 
+Robert Altman’s Vincent and Theo (1990) both of which feature very few representations 
+of paintings and very little of the discussions revolve about art. 
+64  
+Walker, p.19. 
+65  
+Again, there are some exceptions, in which a whole novel or drama could be considered 
+ekphrastic, for example Antonio Buero Vallejo’s drama El sueño de la razón (of which I 
+will discuss only one scene in chapter three), E.T.A. Hoffmann’s novella Prinzessin 
+Brambilla, which is inspired by a series of etchings by Jacques Callot, Gert Hofmann’s Der 
+Blindensturz (1985), a book-length narrative that verbalizes Brueghel’s The Parable of the 
+Blind, and Pierre Ajame’s La laitière de Bordeaux d'après le tableau de Fransisco Goya 
+(1985), a novella inventing the story behind Goya’s Milkmaid of Bordeaux.  
+66  
+Bruhn, Musical, pp. xvii-xix. 
+ 
+22 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 15 ──
+“[t]he film of a painting is an aesthetic symbiosis of screen and painting.”67 
+Moreover, he concludes by comparing films about art, such as Resnais’ 
+Guernica and Van Gogh, or Pierre Kast’s Goya, to “a certain type of literary 
+criticism which is likewise a re-creation – Baudelaire on Delacroix, Valery 
+[sic.] on Baudelaire, Malraux on Greco.”68 What Bazin is here referring to is 
+various cases of ekphrasis that fall between literature and art history. By 
+indicating that films about art are comparable to that type of ekphrasis, Bazin 
+emphasizes that these films are, like their literary counterparts, aesthetically 
+valuable as well as valuable pieces of art criticism, that is, criticism that is 
+itself a work of art.  
+Just like literary ekphrasis, its filmic counterpart also relates to the 
+formal, stylistic aspects of the re-presentation of the art work through 
+cinematographic devices. Unlike the purely verbal nature of most literary 
+ekphrases, however, film has at its disposal verbal, visual and auditory (e.g. 
+background noises, music) means with which to transmedialize a painting. 
+Thus, the discourse of filmic ekphrasis can be constituted by both of the sign 
+systems (the verbal and the visual) that are separate and often in competition 
+in a literary ekphrasis. In other words, filmic ekphrasis reenacts in the 
+cinematographic medium itself the antagonism between word and image that 
+is central to the tradition of ekphrasis. In literary ekphrasis, as in films, it is 
+often the visual elements that revalue or subvert the written/spoken word. 
+Likewise, just as literary ekphrasis often uses the discourse about the image 
+as a self-reflective statement on its own status in comparison to the visual 
+image, so can the insertion of works of art into a film function as a self-
+referential comment on the film as a “moving image” and its relationship to 
+the silent, static image. This is particularly the case with films that embody 
+pictures in tableaux vivants,69 with which film often “seeks to outdo” the 
+static visual representations, and “in the process, it defines its own 
+modalities.”70 
+                                                 
+67  
+Bazin, p. 168. 
+68   Ibid., p. 169. 
+69  
+The tableau vivant, the “static embodiment of well-known paintings by human actors” has 
+a twofold origin, one of which are Diderot’s bourgeois tragedies, “a paradigmatic moment 
+of dramatic intensification during which the actors hold their poses and all motion on the 
+stage ceases.” The other origin is pornographic, derived from an eighteenth-century sex 
+therapist. Cf. Brigitte Peucker, “Filmic Tableau Vivant: Vermeer, Intermediality, and the 
+Real”, in Rites of Realism: Essays on Corporeal Cinema, ed. by Ivone Margulies (Durham, 
+NC and London: Duke UP, 2003), pp. 294-314 (p. 294). 
+70  
+Brigitte Peucker, Incorporating Images: Film and the Rival Arts (Princeton: Princeton UP, 
+1995), p. 6. 
+ 
+23
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 16 ──
+However, as my analyses in the chapters that follow will show, filmic 
+ekphrasis is not only verbal and visual. My analysis will demonstrate that it 
+can also be auditory, thus adding another sign system to the filmic re-
+presentation of a work of art, and potentially further heightening the tension 
+and interconnections between sign systems. Moreover, filmic ekphrasis can 
+forgo all verbal discourse in favor of a purely visual and auditory one, 
+examples of which will be discussed in the following chapters. Thus, an 
+analysis of ekphrastic scenes or sequences in film is linked to questions such 
+as how the various sign systems are interrelated within one medium, if and 
+why film privileges one over the other, and how the various sign systems can 
+interact to interpret another artistic medium.  
+Placing selected feature films about art and artists in the tradition of 
+ekphrasis, I explore what the use of paintings in films implies about the social 
+roles of art. Who speaks about art and in what contexts? How does art 
+function in films to convey social or economic positions? Does the 
+relationship between ekphrasis and social power change from text to film? 
+Comparing filmic treatments of paintings by Vermeer, Rembrandt, and Goya 
+with ekphrases in literary texts, I will examine if and how the medium of 
+ekphrasis (i.e. literary or filmic) alters the representation of the visual arts, in 
+order to show what the similarities or differences imply about issues such as 
+the function of art for the construction of a personal and/or social identity and 
+gender roles. Do writers and filmmakers ascribe the same or different roles to 
+the function of words and images, of speaking and looking? Does the concept 
+of the paragone, the rivalry between words and images, intensify or lose 
+relevance in filmic ekphrasis due to film’s status as a hybrid medium? 
+In order to delineate how depictions of a particular painter’s works differ 
+in literary and cinematic discourse, that is, how the medium shapes the 
+interpretation of a particular work of art, I propose to discuss ekphrases of 
+artworks by well-known painters who are widely represented in literature and 
+film. I believe that the creative process by which a painting is transformed 
+into a poem or a narrative text can usefully be compared to the 
+transformation of a painting to its cinematic rendering. Just as Siglind Bruhn 
+has shown with regard to musical ekphrasis, I allege that the literary and 
+filmic rendering of a painting “correspond to a degree that justifies adapting 
+the terminology of ekphrasis developed in the literary field.”71 In Chapter 
+Two I will therefore develop and discuss a system of ekphrastic categories 
+and discuss how they apply to literary texts as well as to films. With the help 
+of these categories, I describe varying forms and degrees of ekphrasis in 
+                                                 
+71  
+Bruhn, “Concert”, p. 559. 
+ 
+24 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 17 ──
+order to provide and illustrate a vocabulary for analyzing the similarities and 
+differences of ekphrasis in literature and film. This vocabulary refers to ways 
+in which authors and filmmakers can use the visual arts as well as to degrees 
+of involvement with them. In comparing the use of ekphrasis in three literary 
+genres and film, I will show what different types of ekphrasis predominate in 
+each genre and why, and what the predominance of certain categories implies 
+with regard to the relationship between words and images in film and literary 
+texts. As these comparisons will demonstrate, filmic ekphrases often reveal 
+similar power structures as those of literary texts, despite the fact that cinema 
+is a hybrid genre itself. Analyzing the similarities and differences between 
+literary and filmic ekphrasis, then, will provide insight into the various 
+dynamics of words and images in different genres. Furthermore, in discussing 
+ekphrasis as a form of reception, this comparison will also highlight the ways 
+in which popular, well-known works of high art are received in other high art 
+media (poetry, novels, and drama) as well as popular culture (here 
+represented by film).  
+As a segue into the discussion of these categories and their application to 
+film, I discuss the German photographer Thomas Struth’s series of Museum 
+Photographs as examples of ekphrasis represented visually. The following 
+four chapters deal with the representation of selected works of art, and focus 
+on social vs. aesthetic concerns, and issues of gender. In order to minimize 
+the scope and range of my study, and thus the danger of generalizations, I 
+have limited myself not only to a controlled sample of three artists, Goya, 
+Rembrandt, and Vermeer, but even further, to only one work of art or a 
+clearly identifiable group by each: Goya’s Capricho 43: El sueño de la razón 
+produce monstrous, Rembrandt’s self-portraits, and Vermeer’s paintings of 
+single women, particularly Girl with a Pearl Earring and Woman with a 
+Pearl Necklace. 
+The first three analyses largely focus on aesthetic and socio-political 
+concerns, looking at ekphrases on works by Goya and Rembrandt. In chapter 
+three, I discuss how Goya’s Capricho 43, El sueño de la razón produce 
+monstrous, is used in a poem, a drama, and a film. Chapter four continues 
+this analysis of Goya’s etching in a novel and its film version. In all of them, 
+ekphrasis functions as a dramatization of the parallel between private-
+aesthetic and socio-political conflicts and the artist’s ability to control them 
+with his art. In chapter five, on Rembrandt’s self-portraits, I analyze the role 
+of ekphrasis as dramatization of the painter’s self-clarification in a screenplay 
+and a film. Here, I show how the film tends to intensify the screenplay’s 
+interpretation of the artist’s public role play through his self portraits, and 
+uses cinematic re-constructions of those self portraits to create its own 
+ 
+25
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.
+
+
+── PAGE 18 ──
+version of “Rembrandt.” In the last chapter I turn to gender issues. Chapter 
+six examines two novels and films about Vermeer, analyzing how the novels 
+use ekphrasis for female empowerment, whereas the films revert to the 
+traditional male gaze and voice and a more socio-political role of art. In 
+comparing the changes of the film adaptations of Tracy Chevalier’s Girl with 
+a Pearl Earring and Susan Vreeland’s Girl in Hyacinth Blue with regard to 
+degree and kind as well as point of view of the ekphrastic scenes, I show how 
+the films underscore the socio-political implications of art and use ekphrasis 
+to demonstrate male power, while the novels use it as space of female self-
+realization. 
+In the concluding chapter seven I attempt to draw some inferences from 
+the preceding chapters and discuss whether film does in fact appropriate the 
+image by giving it a voice as well as a living body in representing it as a 
+tableau, for example, or whether it allows the image to signify on its own by 
+representing it visually. What are the different implications of purely verbal 
+as opposed to mostly visual ekphrasis? And how do the four different 
+ekphrastic categories (attributive, depictive, interpretive, and dramatic) affect 
+the interpretation of the work of art? In so far as ekphrasis can be said to be a 
+self-reflective genre, to what degree are the four categories self-referential, 
+and what role does the paragone play in visual, filmic ekphrasis? 
+ 
+26 
+Sager, E. L. M. (2008). Writing and filming the painting : Ekphrasis in literature and film. BRILL.
+Created from gatech on 2025-10-28 16:53:12.
+Copyright © 2008. BRILL. All rights reserved.

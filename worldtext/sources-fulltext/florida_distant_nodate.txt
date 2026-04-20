@@ -1,0 +1,1356 @@
+# Distant Writing
+# Source: Florida - Distant Writing.pdf
+# BibTeX key: florida_distant_nodate
+# Zotero dir: 3294
+# Extracted chars: 85303
+# Format: PDF
+============================================================
+
+── PAGE 1 ──
+ 
+Distant Writing: Literary Production in the Age of Artificial Intelligence 
+ 
+Luciano Floridi1,2  
+1 Digital Ethics Center, Yale University, 85 Trumbull Street, CT, 06510, United States 
+2 Department of Legal Studies, University of Bologna, Italy 
+ 
+Abstract 
+This article introduces the concept of “distant writing”, a novel literary practice in 
+which authors act as designers, employing Large Language Models (LLMs) to generate 
+narratives, while retaining creative control through precise prompting and iterative 
+refinement. Unlike Moretti’s distant reading, which uses computational analysis to 
+interpret large corpora of existing texts, distant writing harnesses computational tools 
+(LLMs) to author new narratives, reshaping the literary production process. By 
+examining theoretical frameworks and practical consequences, and running an 
+experiment in distant writing called Encounters, this article argues that distant writing 
+represents a significant evolution in authorship, not replacing but expanding human 
+creativity within a design paradigm. The distinction between writing (close) and 
+“wrAIting” (distant) reveals how LLM-assisted creativity can generate narrative 
+possibilities previously inaccessible, transforming literature’s modal space while 
+challenging traditional notions of authorship, creativity, and literary production. This 
+emerging practice merits critical attention as it shapes future literary landscapes and 
+reconfigures relationships between human creativity and artificial intelligence. 
+ 
+Keywords: distant writing, artificial intelligence, large language models, authorship, 
+narrative design, modal logic, literary production, wrAIting. 
+ 
+
+
+── PAGE 2 ──
+ 
+2
+1. Introduction: The Emergence of Distant Writing 
+Computational approaches to literature have transformed how we analyse and 
+interpret texts for some time. Franco Moretti’s concept of distant reading introduced 
+methodologies for examining vast corpora of literature, revealing macro-level patterns 
+and structures through computational techniques that traditional close reading could 
+hardly discern or not at all (Moretti 2000, 2013, Kirschenbaum 2016, Piper 2018, 
+Ramsay 2011). However, while distant reading represents a computational turn in 
+literary analysis, we are now witnessing the emergence of a parallel phenomenon on 
+the production side: distant writing.1 
+Distant writing refers to a literary creation practice wherein human authors 
+function primarily as narrative designers, while LLMs based on Large Language 
+Models2 (LLMs) perform the actual writing. Unlike traditional authorship, distant 
+writing—also occasionally termed wrAIting3 in this article to distinguish it from close 
+writing (the ordinary kind)—positions the author not as the direct textual producer, but 
+as the architect of narrative possibilities, responsible for specifying requirements, 
+affordances, and constraints, and curating the LLM-generated content. This shift 
+represents not merely a technological intervention in the writing process but a 
+fundamentally different conceptualisation of what it means to author a text. 
+In this article, I examine distant writing as an emerging literary practice, 
+discussing its theory, methodology, and implications for authorship, creativity, and 
+narrative structure. Drawing on recent experiments (Floridi 2025b), I argue that distant 
+writing expands rather than replaces human creativity within a design framework, 
+prompting essential questions about the boundaries and future of literature in an AI-
+driven culture (Floridi 2024, 2025a). 
+ 
+ 
+1 This article could be read as a long commentary to, and discussion of (Flusser 2011). 
+2 Stictly speaking LLMs are the core models (e.g. a version of GPT) that support the user-facing 
+applications (e.g. a version of ChatGPT) built on top of them. In the article, this distinction is 
+unnecessary and I do not use it. Instead, I use LLMs to mean both the models and the applications built 
+on top of them.  
+3 Emmie Hine is right: this neologism is awaful. So I use it sparingly, just to avodi confusion, and I hope 
+it will not catch. 
+
+
+── PAGE 3 ──
+ 
+3
+ 2. From Distant Reading to Distant Writing: Theoretical Frameworks 
+Moretti’s distant reading emerged as a response to the limitations of close reading 
+when faced with the vastness of world literature. As he argued  
+distant reading ... allows you to focus on units that are much smaller or much 
+larger than the text: devices, themes, tropes—or genres and systems (Moretti, 
+2000, p. 57).  
+Through computational analysis, patterns emerge across texts that would otherwise 
+remain invisible to traditional methods of literary analysis. Big data, in essence, reveals 
+micro-patterns that demand specialised tools for their identification and analysis 
+(Floridi 2012a). Distant writing operates on analogous principles but inverts the 
+direction of the computational engagement. Rather than analysing existing texts to 
+identify existing patterns, distant writing designs new patterns—through requirements, 
+affordances, constraints, and other parameters—to instruct computational systems to 
+generate new texts from existing ones. Where distant reading employs computation to 
+expand interpretative options, distant writing uses it to open creative opportunities. 
+Given this inverse relationship, it is important to clarify a key point here that 
+will become more evident later in the article. Moretti accurately defines distant reading 
+in terms of feasibility relative to close reading, characterising it as an interpretative 
+method best suited to tasks that close reading either cannot accomplish or would 
+significantly struggle to achieve. This does not mean distant reading cannot replace 
+close reading, but doing so forfeits its unique advantages. It is comparable to using 
+virtual reality for a concert one could attend in person—a lesser experience. Virtual 
+reality is most valuable when enabling otherwise impossible experiences, not when 
+merely replicating achievable ones (Floridi 2022). Likewise, distant writing enables 
+narratives that would otherwise be impossible or difficult to achieve. This does not 
+mean that an author cannot fruitfully use distant writing to LLM-generate texts that 
+could be produced by close writing, but that this practice would fail to capture what is 
+unique in the process adopted. Like distant reading, distant writing is a matter of 
+expanded feasibility, not just increased efficiency or effectiveness, although the latter 
+features are certainly a crucial part of the success of the LLM-based production of 
+texts. 
+
+
+── PAGE 4 ──
+ 
+4
+The theoretical framework for distant writing draws upon several established 
+domains. Let me anticipate here what I shall discuss in more detail below. From modal 
+logic, it adopts the conception of narrative as a boundless space of possible worlds 
+(Ryan 2006) constrained by coherence rather than mere consistency (Ryan 1991), and 
+narrative structuring principles extensively discussed in narrative theory (Genette 1980, 
+Herman 2002, Ricoeur 1984-1988). From design theory, it borrows the understanding 
+of creativity as a process of exploration within affordances and constraints (Gero 
+1990). And from computational creativity, it takes the notion of the human-computer 
+partnership as generative of possibilities inaccessible to either in isolation (Boden 
+2004). However, distant writing also introduces novel theoretical considerations, like 
+what one might term the “isotropy of the narrative space”: the principle that any 
+narrative domain is equally workable in any direction, provided coherence is 
+maintained. Unlike traditional conceptions of narrative as having preferred directions 
+or natural progressions, distant writing reveals a boundless number of alternative paths 
+in a constructivist sense. This does not mean the paths are already there and only need 
+to emerge. Following a classic distinction in the philosophy of mathematics between 
+boundless and infinite,4 distant writing, as I present it here, accepts boundless (potentially 
+infinite) paths but rejects the existence of actual (completed) infinite paths. There are 
+as many narrative patterns as needed, and more can always be added if our operations 
+require more, but there is no infinite set out there, to be discovered independently of 
+our “writing”. To use one more distinction from the philosophy of mathematics, 
+distant writing is not Platonist, it is Constructivist:5 all stories are created, they are not 
+ 
+4 In the philosophy of mathematics, particularly from the constructivist viewpoint, the terms 
+“infinite” and “boundless” have distinct meanings. “Infinite” typically refers to a completed 
+totality, an actual infinity—something that exists fully realised as a finished entity, e.g., classical 
+mathematics’ set of all natural numbers. “Boundless”, by contrast, denotes a potential 
+infinity—an indefinite process or construction that can always continue further, but is never 
+actually completed or totalised, e.g., the constructivist conception of the natural numbers, 
+where one can always produce the “next” number, but the entire infinite set never exists as a 
+completed whole.  
+5 I must acknowledge here the influence of Michael Dummett’s version of mathematical 
+intuitionism on my way of thinking about narratives, although we never spoke about 
+narratives, only about logical proofs.  
+
+
+── PAGE 5 ──
+ 
+5
+mind-independent realities to be discovered or revealed. The poet may disagree, here 
+is what Jan Skacel wrote:  
+Poets don’t invent poems 
+The poem is somewhere behind 
+It’s been there for a long long time 
+The poet merely discovers it. 
+Jan Skácel was one of the best poets writing in Czech. Milan Kundera cites him and 
+discusses these lines in his essay “Somehere Behind”.6 There we can also read that 
+“novelists draw up the map of existence (italics in the original) by discovering this or that 
+human possibility” (see Part Two). But this is a twofold confusion. Because the writer 
+designs, which is a third category between inventing in one’s own mind and discovering in 
+the outside world. Design is the essential creative category that characterises our time, 
+as the ability to make the inside and the outside relate, like key and locker. And because 
+the writer mistakes, like a mathematician,7 the strength of logic (necessity) for the power of 
+ontology (inevitability). As Hemingway puts it 
+The laws of prose writing are as immutable as those of flight, of mathematics, 
+or physics. (Hemingway 1984), p. 77. 
+Yet the narrative constrains (resistance) and affordances (facilitation) perceived are not 
+of some-thing out there, but of a some-how that forcefully links the relata. Vilém Flusser, 
+one of the greatest Czech philosophers of his generation, understood this better and 
+earlier than most. Let me quote him at length (the original text, in German, was 
+published in 1987): 
+His attitude [the poet’s] to a poem is no longer that of the inspired and intuitive 
+poet but that of an information designer [my italics]. He relies on theories and no 
+longer works empirically. Such an informatic approach to poetry has long been 
+in preparation. […] All our conceptions of poets favored by the muse must 
+ 
+6 Jan Skácel was one of the best poets writing in Czech. I came t know about him thanks to Milan 
+Kundera, who cites and discussed these lines in “Somehere Behind”, Part Five of (Kundera 1988). Much 
+as I admire him and this book in particualr, I disagree that “novelists draw up the map of existenceby 
+discovering this or that human ppossibility. 
+7 The analogy is also Kundera’s, who in Part Four write, discussing his understanding of the structural 
+properties of his work The Joke, that “It was a revelation to me. In other words, that ‘mathematical 
+system’ emerges completely naturally as a form of necessity, with no need for any calculation”.  
+
+
+── PAGE 6 ──
+ 
+6
+yield to a conception of the poet as a language technician. Poetry will be 
+desanctified. […] The new poet, sitting at his terminal and waiting expectantly 
+to see which unanticipated word and sentence formation appear on the screen, 
+is gripped by a creative delirium no less intense than the one a writing poet felt 
+in his struggle with language. Each time a technical threshold is crossed, 
+observers have the sense that technology is getting the upper hand, and each 
+time, it turns out that the new technology opens new creative possibilities. […] 
+On one hand, there will be artificial intelligences that speak, presenting a 
+continuous program of new poems in keeping with their programs. And on 
+the other hand, information designers [my italics] will, with the help of a 
+permutation game, cause poems – coded alphabetically or not – to light up on 
+our screens before us at a breathtaking pace, like some kind of artificial Elliot 
+or Rilke. (Flusser 2011), pp.  75-76 
+Figure 1 summarises the distinctions just introduced that frame the following sections. 
+ 
+ 
+Figure 1: Close and distant reading and writing 
+ 
+ 
+Mode of Engagement
+Reading
+Writing
+Granularity
+Close
+Close Reading
+Human interpreter engages directly 
+with individual texts.
+Focus on nuances, e.g., language, 
+rhetoric, character psychology.
+Exemplified by line-by-line exegesis 
+in traditional literary criticism.
+Close Writing
+Human author composes text directly.
+Emphasis on individual style, voice, 
+and manual revision.
+Traditional authorship process: 
+drafting, editing, and polishing by the 
+writer.
+Distant
+Distant Reading
+Computational analysis of large 
+corpora to detect macro-patterns, 
+e.g., themes, tropes, genre 
+systems. 
+“Big data” methods reveal patterns 
+imperceptible to close reading.
+Distant Writing
+Human as the designer of narrative 
+constraints; sets requirements through 
+prompts; curates AI output. 
+AI (LLMs) as the executor of text. 
+Enables narratives infeasible by close 
+writing alone.
+Inverted Relation
+
+
+── PAGE 7 ──
+ 
+7
+3. Methodology of Distant Writing: Designing through Prompting 
+The methodology of distant writing centres on designing the textual input that 
+generates the desired textual output. This approach reconceives writing as a systematic 
+interrogation: “wrAIting” becomes the art of crafting targeted prompts that guide an 
+LLM toward generating the desired narrative output. The precision of these 
+prompts—the correctness and accuracy of the Socratic maieutic exercised by the 
+authoritative designer to nudge and ultimately force the LLM to generate the desired 
+output—determines the quality of the narrative. Poor prompts yield incoherent texts, 
+while well-crafted prompts may produce sophisticated, thematically consistent literary 
+outcomes. The iterative process, known as progressive refinement,8 leads to the outcome 
+ultimately released by the author, whose approval bears all the intellectual responsibility 
+for the shared content. The methodological process is well known to anyone who has 
+used any LLM, so I shall only briefly summarise it. It typically involves seven stages, 
+although each writer will have their preferred approaches and solutions: 
+1. Conception and Development: this preliminary stage encompasses all activities 
+involved in conceiving and developing the narrative idea. Although interactions 
+with one or more LLMs may offer heuristic assistance here, they remain external 
+to the core distant writing process; at this point, the author simply determines 
+whether adopting distant writing is the most suitable approach to realise the 
+intended narrative. 
+2. Requirements Formulation: establishing the affordances, constraints, and other 
+parameters to guide the narrative generation, including style, themes, characters, 
+and plot elements. 
+3. Prompt Engineering: formulating precise requirements as effective prompts 
+designed to elicit specific responses from the LLM. Prompts can be crafted directly 
+using natural language (NL) or, increasingly, by employing specialised systems that 
+convert NL prompts into formats optimised (markup) for use by LLMs. 
+4. WrAIting: LLM-based generation of text. 
+ 
+8 Progressive refinement is a methodology in computer science and software development 
+where a solution is gradually improved through iterative steps, starting with a basic version 
+and incrementally enhancing it until reaching the desired quality or functionality. 
+
+
+── PAGE 8 ──
+ 
+8
+5. Progressive Refinement: in this iterative process, the author reviews LLM-
+generated text, identifies shortcomings (often with the help of LLMs, see next 
+step), and refines prompts or formulates new ones to address the relevant issues, 
+re-wrAIting the text. The process does not end automatically since further 
+refinements are always possible. Instead, it is the author’s responsibility to 
+terminate it. 
+6. Validation and Verification: using an LLM, possibly a different one, to ensure the 
+generated narrative maintains coherence, plausibility, and adherence to established 
+requirements. Currently, this is more an art than a science, as there are no 
+metrics/benchmarks for this. For example, and at the time of writing, some LLMs, 
+like the Claude series, seem better at writing narratives, while others, like the GPT 
+series, seem better at validating and verifying them, but they still need to be 
+prompted correctly. Hallucinations are always possible, so this is a stage where close 
+reading and a lot of critical thinking become crucial. 
+7. Curation and Assembly: selecting, arranging, and potentially modifying generated 
+content to form a cohesive final work. 
+The process reveals an important distinction between traditional writing and distant 
+writing: the latter operates through a logic of requirements rather than a logic of 
+composition. This is not surprising: the logic of design is the logic of requirements 
+(Floridi 2017b), and in distant writing, the answer required follows the requiring 
+question: the better the latter is, the more the answer is constrained and closer to the 
+original design. To quote Flusser again: 
+All writing orderly, and that leads directly to the contemporary crisis in writing. 
+For there is something mechanical about the ordering, the rows, and machines 
+do this better than people do. One can leave writing, this ordering of signs, to 
+machines I do not mean the sort of machines we already know, for they still 
+require a human being who, by pressing keys arranged on a keyboard, orders 
+textual signs into lines according to rules. I mean grammar machines (my italics), 
+artificial intelligences that take care of this order on their own. Such machines 
+fundamentally perform not only a grammatical but also a thinking function, 
+and as we consider the future of writing and of thinking as such, this might 
+well give us pause for thought. (Flusser 2011), p. 6 
+
+
+── PAGE 9 ──
+ 
+9
+ 
+4. Authorship Reconfigured: The Meta-Author as Responsible Designer 
+In conventional literary production, the author functions as both the conceptual 
+architect and the textual executor: the person who both conceives and writes the work. 
+In distant writing, these functions are decoupled, with the human operating as what 
+might be termed a “meta-author” who designs but does not directly produce the text.  
+Historically, this decoupling has happened before. We find it natural and 
+obvious in architecture, fashion, industrial design, music, and all cases in which the 
+authors are not (although sometimes they can be) the executors of the projects they 
+design. Even in the history of art, great artists like Raphael would sometimes only 
+design or sketch a painting, while the assistants in his workshop would execute it, with 
+perhaps a final touch by Raphael himself. Nowadays, the decoupling is magnified in 
+scope and depth as the effect of a broader trend characterising digital innovation’s 
+cleaving power (Floridi 2017a): the ability of digital technologies to aggregate or 
+disaggregate phenomena that were considered in the past entirely independent or even 
+unrelated—e.g., personal data and personal identity, when talking in terms of data 
+subjects or individual profiles—or so strictly connected to be indivisible—e.g. law and 
+its territoriality. 
+Culturally, the decoupling between text designer and text executor raises 
+challenging questions about authorship, creative agency, attribution, and ownership. 
+For example, to whom should we attribute a work of distant writing? The human 
+designer who established the requirements? The LLM that generated the text? Or 
+perhaps the original authors whose works might have been used to train the model?  
+The concept of a meta-author as a designer of textual content acknowledges 
+the human’s creative input while recognising the distributed nature of agency in distant 
+writing. It suggests a model of authorship that is neither entirely human nor entirely 
+artificial but emerges from the interaction between human intention and agentic 
+capability (Floridi 2025a). I just mentioned that this reconfiguration of authorship 
+parallels developments in other creative fields. The crucial notion here is that of 
+responsibility, not ownership. It is the designer that is accountable for the final text. The 
+comparison to architecture seems particularly apt, as architects have long been 
+recognised as the creative forces behind buildings they never physically constructed 
+
+
+── PAGE 10 ──
+ 
+10 
+but were responsible for. Bernini neither made nor put in place the 284 columns in St 
+Peter’s Square, yet it is unquestionably Bernini’s Colonnade. Distant writing extends 
+this model to literature, positioning the meta-author as a designer whose creative vision 
+is executed through technological means that shift the boundaries of the feasible. 
+Hemingway might have agreed, even if criticising my Baroque choice of Bernini:  
+prose is architecture, not interior decoration, and the Baroque is over 
+(Hemingway 1984), p. 72.  
+There is a final difference worth stressing here: Raphael and Bernini may not have 
+delivered some of their masterpieces had they not been commissioned by Pope Julius 
+II or Pope Alexander VII. On the contrary, digital technology, LLMs included, further 
+empowers individuals to be their own masters. Meta-authors can be their own 
+commissioners. 
+All this means that the so-called “death of the author” as a writer (Barthes 
+1967, Foucault 1969)—even if exaggerated and correctly questionable in its radical 
+interpretations (Hirsch 1967, Fish 1980, Burke 2010, Farrell 2017)—may be followed 
+by the birth of the author as a designer and co-producer of a text, who initiates, 
+supervises and is responsible for the collaborative wrAIting with LLMs, past generations 
+of writers on whose works the LLMs are trained, past as well as potential readers, and 
+at some point past LLMs as well. 
+ 
+5. The Modal Space of Narrative: Boundless Isotropy and Experimentation 
+One of the interesting contributions of distant writing is its reconceptualisation of the 
+narrative space as boundless. While narrative possibilities are inexhaustible, they do 
+not exist until they are realised, and to be realised, they need to comply with 
+requirements of coherence, plausibility, and other parameters established by the meta-
+author. Drawing on modal logic, distant writing shows more clearly what was always 
+obvious, at least implicitly: consistency, that is, the absence of contradiction, is necessary 
+but insufficient. Coherence is also required, understood as the consistent co-presence 
+of meaningful connections. For example, consistency is necessary but insufficient for 
+a meeting between Hamlet (Hamlet) and Caliban (The Tempest), even if an LLM can 
+easily produce the scenario and dialogue in  
+
+
+── PAGE 11 ──
+ 
+11 
+Table 1. 
+ 
+ 
+
+
+── PAGE 12 ──
+ 
+12 
+ 
+Hamlet, the melancholic prince of Denmark, is shipwrecked on Prospero’s 
+enchanted island while fleeing Denmark. Wandering the island, he 
+encounters Caliban, Prospero’s resentful servant, who mistakes Hamlet for 
+another tormenting spirit. 
+Caliban: What cruel spectre art thou, come to plague me further? 
+Hamlet: I am but a man, though burdened by the ghost of my father’s will. And what art 
+thou, this wretched creature, half man, half beast? 
+Caliban: I am the rightful lord of this isle, usurped by a wizard most vile. But thou, pale 
+stranger, art no lord, just a shadow lost as I am. 
+Hamlet: A shadow indeed, for my purpose is as fleeting as the wind. Tell me, monster, 
+dost thou suffer as I do, trapped between action and despair? 
+Caliban: Suffer? Aye, each moment, tormented by the lash of men who call themselves my 
+betters. I curse, I rage, but what fruit bears my wrath? 
+Hamlet: Then we are kin, thou and I, for I curse my fate yet lack the will to end it. 
+ 
+Table 1 Example of LLM-generated Shakespearean dialogue 
+ 
+A narrative must also be plausible regarding features like characters’ ages, times and 
+places of the events, social classes, distances travelled, or financial means. If an LLM 
+is not carefully instructed to curate it, it will fail to implement this, sometimes very 
+subtly.  
+I already mentioned that this understanding of narrative as a modal space aligns 
+with possible worlds theory in literary studies (Pavel 1986, Ryan 1991), but distant 
+writing adds a crucial insight: the isotropy of narrative space. Traditional narrative 
+theories often imply preferred directions or inherent progressions within narrative 
+structures. By contrast, distant writing shows that narrative space can be shaped in any 
+direction desired, similar to how marble can be sculpted freely, provided coherence is 
+maintained. This isotropy has profound implications for literary creation. It suggests 
+that any story is only one possible realisation of a boundless space of narrative 
+possibilities, although not all narratives are genuinely possible. Other patterns can be 
+designed within the same space, and distant writing provides access to these alternative 
+realisations in ways traditional writing cannot, or struggles to do. This introduces a 
+
+
+── PAGE 13 ──
+ 
+13 
+final remark about experimentation. Distant writing can be a powerful tool to navigate 
+possible spaces of narrative development, in at least two ways. 
+Distant writing can test counterfactuals: whether the narrative logic of an 
+existing narrative is robust. For example, one can use it to test whether the narrative 
+logic of Pride and Prejudice holds under perturbation—i.e., to check whether altering 
+constraints, such as character, chronology, or causality, break the internal coherence 
+and consistency of the story. For example, in a variation of Pride and Prejudice, what 
+would follow if Elizabeth accepted Mr. Collins’s proposal? This process uses the LLM 
+not to wrAIte Austen, but to stress-test her text by simulating variant developments. 
+The LLM helps explore narrative counterfactuals that would be impossible or too 
+laborious to model manually, showing where Austen’s plot is flexible or intricately 
+rigid. Ideally 
+the stories are written so tight and so hard that the alteration of a word can 
+throw an entire story out of key. (Hemingway 1984), p. 79 
+However, distant writing can also help explore alternative or unimplemented narrative 
+paths—that is, hypothetical scenarios that are allowed and plausible but unrealised 
+developments—within the existing constraints of a text. Here are four examples 
+(including a counterfactual one) using Emma: 
+1. Counterfactual: “If Frank Churchill had not been secretly engaged to Jane 
+Fairfax, Emma would have fallen in love with him.” This scenario contradicts 
+the story’s actual events, imagining an alternative outcome where Frank’s 
+sincerity leads to a romantic relationship with Emma, altering her path to Mr. 
+Knightley. 
+2. Semifactual: “Even if Mr Elton had not proposed to Emma, Harriet would 
+still have been heartbroken.” This scenario keeps the actual outcome (Harriet’s 
+heartbreak) constant but imagines a change in the cause, suggesting her 
+heartbreak would persist due to her insecurity or misplaced affections. 
+3. Forward-Looking Indicative Hypothetical: “If Mr Knightley were to express 
+his feelings to Emma tomorrow, she would likely realise her own love for him.” 
+This scenario speculates on a plausible future event based on the story’s actual 
+development, without contradicting or altering established facts. 
+
+
+── PAGE 14 ──
+ 
+14 
+3. Open Hypothetical: “What if Emma lived in a modern world where 
+matchmaking was done through dating apps?” This scenario reimagines the 
+story in a speculative context, disconnected from the constraints of the original 
+narrative, exploring how Emma’s meddling might translate to a technological 
+setting. 
+As James Wood writes when discussing Aristotle’s “original formulation of mimesis”: 
+Hypothetical plausibility – probability – is the important and neglected idea, 
+here; probability involves the defence of the credible imagination against the 
+incredible. This is surely why Aristotle writes that a convincing impossibility in 
+mimesis is always preferable to an unconvincing possibility […] Internal 
+consistency and plausibility (what I have called above “coherence”) then 
+become more important than referential  rectitude. (Wood 2008), p. 179. 
+The point is not what “hypothetical plausibility” can be tested, but why it would be 
+interesting to test that rather than another; that is an author’s choice and decision. 
+Writing, and more visibly wrAIting, is ultimate a matter of taking and allocating 
+author’s responsibility. 
+ 
+6. Minor Characters and Network Narratives: The Connected Nature of Fiction 
+Encounters (Floridi 2025b) provides an application of distant writing as the exploration 
+of minor characters from existing literature. By extracting secondary figures from 
+canonical works and placing them coherently in new narrative contexts, distant writing 
+reveals the connected nature of fiction as a single possible directed graph9 where any 
+character can be connected to any other character through a finite number of steps 
+(other encounters). As Frigyes Karinthy famously suggested in Chains (Karinthy 1929), 
+humans are all connected through just a few acquaintances. The degree of separation 
+is likely to be higher than 6 for many characters in the narrative space, but they, too, 
+are all connected; one only needs to design the right meetings.  
+This level of abstraction highlights minor characters as nomina infinita, defined 
+by what they are not. Unlike essential major characters, minor figures represent open 
+ 
+9 In Encounters, the directed graph is a simple directed path, but nothing prevents more complex 
+structures. 
+
+
+── PAGE 15 ──
+ 
+15 
+possibilities, connecting narratives across literary worlds. By focusing on these 
+underdetermined nodes in the narrative network, distant writing can create 
+connections between seemingly disparate literary worlds, revealing that in the narrative 
+space, no single story is entirely disconnected from any other story. Some 
+neighbourhoods of the narrative space are more densely populated than others and 
+cab be more easily exploited. Thus, in Encounters, I experimented with minor characters 
+from English-written novels to deal with an easier case. But more adventurous 
+explorers have the languages and the stories of all humanity at their disposal. Because 
+this connected nature of fiction allows distant writing to create narratives that span 
+across different authors, periods, genres, regions and cultures, weaving together a 
+tapestry of literary references and relationships that can be truly universal. 
+These network narratives represent a form of literary exploration previously 
+difficult or impossible to achieve. Traditional comparative literature might identify 
+influences and parallels between works, but distant writing actively creates new 
+pathways between texts, demonstrating the interconnectedness of the literary 
+landscape through generative rather than analytical means. The positive effect is that 
+distant writing expands the possibility of intertextual reappropriation, the reuse of 
+characters from other works, which authors have exploited to create new and 
+innovative stories about specific, familiar characters, with fresh perspectives or 
+expanded narratives.10 Humanity’s inexhaustible semantic capital (Floridi 2018) is not only 
+unique but also undivided and non-hierarchical, and distant writing can help put it to 
+good use, for creative and hermeneutical purposes, although not unproblematically, as 
+I shall indicate presently.  
+ 
+ 
+10 Famous examples of intertextual reappropriation include: James Joyce reusing Stephen 
+Dedalus, the protagonist of A Portrait of the Artist as a Young Man, as one of the central 
+characters in Ulysses; Jean Rhys reimagining Bertha Mason, the “madwoman in the attic” from 
+Charlotte Brontë’s Jane Eyre, in her novel Wide Sargasso Sea, telling her tragic backstory and 
+humanising her character; Gregory Maguire giving a new perspective to the Wicked Witch of 
+the West from L. Frank Baum’s The Wizard of Oz in Wicked, portraying her as a misunderstood 
+and complex character. And Tom Stoppard focusing on Rosencrantz and Guildenstern, two 
+minor characters from Shakespeare’s Hamlet, in Rosencrantz and Guildenstern Are Dead, 
+presenting the events of Hamlet from their point of view. 
+
+
+── PAGE 16 ──
+ 
+16 
+ 7. Dataprint: The Stylistic Signature of LLMs 
+A significant observation from experiments in distant writing is the emergence of what 
+might be termed an “LLM stylistic signature”: identifiable patterns, rhythms, and 
+structures that characterise texts generated by specific models regardless of the stylistic 
+parameters established in prompts. Regardless of quality, and independently of the 
+specific stylistic choices (e.g., emulating Austen) determined by the human designer, 
+LLMs exhibit common patterns—such as rhythm, narrative structure, distinct ways of 
+initiating, developing, and concluding a story, lexical preferences11—forming an 
+identifiable literary pattern that can be termed their dataprint.12  
+Clearly, the term “voice”, often used to describe human authors, would 
+constitute an inappropriate anthropomorphism (Floridi and Nobre 2024), but it is 
+close in meaning, as it refers to the distinctive and consistent style, tone, and 
+perspective expressed throughout a writer’s works, making their writing recognisably 
+unique. The difference is that “voice” encompasses not only implicit features of which 
+an author may be unaware—for example, recurring thematic interests, underlying 
+beliefs, attitudes, and emotional stances towards the topics they address—but, above 
+all, the deliberate choices an author makes concerning vocabulary, sentence structure, 
+rhythm, or punctuation, which collectively establish their narrative identity. A “voice” 
+manifests through the specific rhetorical strategies, such as figurative language and 
+imagery, that an author habitually employs, contributing significantly to the 
+ 
+11 A classic is the overuse of the verb “to delve” (Juzek and Ward 2024). 
+12 Dataprint is not a neologism, but a technical term in computer science. I am borrowing here 
+to refer to the stylistic signature of an LLM and hence to stylistic traces that can be identified 
+(often through other LLMs) in the output of a distant writing process. This is not far from the 
+original meaning, according to which a dataprint (also known as a data fingerprint or digital 
+fingerprint) is a unique, structured representation derived from a dataset or digital content, 
+typically generated through computational methods such as cryptographic hashing, pattern 
+extraction, or feature encoding. In computer science, dataprint is designed to capture key 
+identifying characteristics or patterns of the data, enabling verification, authentication, 
+comparison, traceability, and detection of alterations without requiring full exposure or 
+reproduction of the original dataset. So dataprints are commonly used in contexts involving 
+data provenance, integrity verification, cybersecurity, plagiarism detection, digital forensics, 
+and machine learning to uniquely characterise data instances, facilitate deduplication, or 
+support anomaly detection. In distant writing, all this remains true, but the emphasis is on 
+style. 
+
+
+── PAGE 17 ──
+ 
+17 
+individuality and coherence of their literary output. Once more, distant writing 
+decouples these two aspects, the intended and unintended sides of an author’s voice. 
+LLMs have no intelligence or mental states, hence no deliberate choices, but they still 
+show unique “wrAIting styles” that transcend the specific stylistic constraints imposed 
+by prompts. Their dataprints do not show personal intent, emotions, or experiences 
+to influence. They are regular, emergent features, often invariant and hence 
+informative, that can identify them as the source of a text and distinguish them from 
+each other. The reader who may be somewhat sceptical may wish to consider that it is 
+because of their dataprints that we can guess, with a high level of probability, whether 
+an LLM has written a text, and how a simple experiment with two LLMs will show 
+that they differ remarkably in style when responding to the same storytelling prompt. 
+AI’s dataprint allows distant reading and computational approaches—
+stylometric analysis, lexical frequency analysis, syntactic complexity measures, and 
+supervised classifiers trained specifically on outputs from different models—to detect 
+and attribute LLM-generated authorship. For example, when not prompted for a 
+specific style, currently the GPT-series dataprint tends to be more lyrical, expansive, and 
+introspective, favouring a nuanced emotional register. It crafts narratives rich with 
+sensory details and elaborate, evocative descriptions, often weaving introspection 
+seamlessly into the storytelling. The prose typically exhibits more complex syntactic 
+patterns and a refined, sophisticated lexicon, underscored by a clear psychological 
+depth. This dataprint prioritises emotional resonance, character-driven plots, and 
+structured narrative arcs designed for emotional gratification. The Claude-series 
+dataprint, by contrast, tends to be more direct, lean, and pragmatic, characterised by 
+economical language and narrative efficiency. It typically employs a minimalist prose, 
+emphasising concise action and forward momentum rather than intricate descriptions 
+or introspective digressions. The storytelling is straightforward, often letting 
+characters’ actions and minimal dialogue imply emotional states, creating immediacy 
+and clarity without extraneous ornamentation. 
+ 
+So how does a dataprint emerge? Since an LLM is not inherently creative or 
+expressive in the same way as a human, its stylistic signature emerges from a 
+combination of its design, training data, and the way it generates responses. Here are 
+the main factors behind a specific stylistic signature: 
+
+
+── PAGE 18 ──
+ 
+18 
+1. Training Data Influence: the corpus of text used to train the LLM shapes its 
+tone, style, and depth of knowledge. For example, an LLM trained on formal 
+academic texts may exhibit a precise, professional tone, while an LLM trained 
+on conversational or creative texts might produce more casual or imaginative 
+responses. 
+2. Output Patterns: LLMs often develop distinct response tendencies based on 
+their architecture and training. These patterns might include vocabulary 
+choices (e.g., formal vs. colloquial language), sentence structure (more or less 
+concise or elaborate sentences), tone consistency (e.g., neutrality, enthusiasm, 
+or empathy), formatting style (e.g., bullet points, numbered lists, or essay-style 
+responses). 
+3. Design and Parameters: these are the design choices of the LLM’s developers, 
+such as its model size, fine-tuning, and use cases, that impact its stylistic 
+signature. For example, the GPT-series often aims for clarity and coherence, 
+making their responses accessible and user-friendly. Models specialised for 
+creative writing might exhibit a more imaginative or poetic style. 
+4. Limitations and Repetitions: repeated stylistic quirks or limitations can also 
+form part of an LLM’s signature, such as a tendency to hedge statements (e.g., 
+“it depends...” or “there are many factors...”), recurrent sentence starters, such 
+as “in summary...” or “for example...”, or an over-reliance on specific 
+structures, like defining concepts before providing details. 
+5. Fine-Tuning and Applications: fine-tuning an LLM for specific industries or 
+tasks can add unique stylistic elements. For example, a legal-focused model 
+may consistently use formal and legalistic language, while a model fine-tuned 
+for creative writing might emphasise metaphor, imagery, and narrative flow. 
+The emergence of LLM stylistic signatures raises intriguing questions about the nature 
+of style itself. Traditional literary theory has often conceived of style as expressing an 
+author’s unique sensibility or worldview (Barthes 1967). But if an LLM can develop a 
+recognisable style without consciousness or intention, perhaps style is better 
+understood as a set of statistical patterns and regularities, some of which are intended 
+and purposefully sought (“voice” in a strict sense), while others are unintended and 
+
+
+── PAGE 19 ──
+ 
+19 
+only emergent (dataprint). Humans have both, but an LLM has no voice, only a 
+dataprint.  
+The implications extend beyond theoretical interest. If LLMs develop 
+increasingly distinctive styles, future literary historians might analyse these 
+computational signatures just as they currently study the styles of human authors. We 
+may eventually speak of “early Claude” versus “late Claude” periods, or identify 
+influences between different LLMs in the same way we trace influences between 
+human writers. 
+ 
+ 8. Creating New Literary Genres: LLMs and the Evolution of Narrative Forms 
+Distant writing not only reconfigures existing literary forms but also creates the 
+conditions for new genres to emerge. Technological changes have often facilitated 
+genre evolution throughout literary history, from the epistolary novel enabled by postal 
+systems to the stream-of-consciousness technique influenced by new psychological 
+theories. Distant writing represents a similar technological catalyst with the potential 
+to generate novel literary forms that would be difficult or impossible to achieve 
+through traditional human writing. 
+One emerging genre might be “multiverse literature” (Booth 2024), texts that 
+explore multiple narrative paths simultaneously rather than sequentially. While 
+hypertext fiction experimented with reader-directed branching narratives, distant 
+writing enables the efficient creation of vast narrative landscapes where countless 
+variations of a story coexist. With distant writing, authors could design works that 
+purposefully explore multiple carvings of the same narrative marble, presenting readers 
+with a cohesive multiverse rather than a single storyline. 
+Another potential genre is what we might call “network narratives”—texts that 
+systematically explore the interconnections between seemingly disparate fictional 
+worlds. The Encounters experiment, bringing together minor characters from different 
+works, represents an early example of this approach. Such narratives could evolve into 
+complex literary ecosystems that map the “connected network” of fiction, creating 
+meta-stories that exist in the spaces between established texts. 
+Distant writing also enables new forms of collaborative authorship that 
+transcend traditional co-writing. “Conversational literature” might emerge as a genre 
+
+
+── PAGE 20 ──
+ 
+20 
+where human designers and LLMs—which could also impersonate dead authors, 
+imagine an interview with Italo Calvino on “mechanical writing”13—engage in 
+structured dialogues that generate narratives through iterative exchanges. Unlike 
+traditional collaborative writing, which typically involves humans working sequentially 
+or in parallel, conversational literature would represent a genuine fusion of human and 
+machine creativity, a dialogue between designer and system that produces texts neither 
+could create independently.  
+The concept of originality itself requires reconsideration in this context. The 
+Romantic notion of originality as ex nihilo creation has long been challenged by 
+postmodern theories of intertextuality, which recognise all texts as “mosaics of 
+quotations” (Kristeva 1980, Hutcheon 1988, Eco 1989). Distant writing makes this 
+intertextuality more explicit and systematic. Besides, attempting to create something 
+entirely new, distant writing can also embrace “deep remixability” (Manovich 2007), 
+simultaneously recombining cultural elements at multiple levels. We saw that this 
+recombinatorial approach to originality shifts emphasis from creating unprecedented 
+content to discovering unprecedented connections. As (Boden 2004) distinguishes 
+between P-creativity (psychological novelty, new to the individual) and H-creativity 
+(historical novelty, new to human history), distant writing introduces what one might 
+call C-creativity: combinatorial novelty that emerges from the systematic exploration of 
+possible connections within the space of narrative coherence. 
+These emerging genres challenge traditional literary categories, like content, 
+form, or effect, by focusing instead on their compositional logic or the human-AI 
+collaborative process. This would represent a fundamental shift in classifying and 
+understanding literary forms, moving from product to process-centred taxonomies. 
+ 
+13 Italo Calvino (1923–1985) was known for his experimental narratives and imaginative 
+literary style. In his essay Cybernetics and Ghosts (1967, collected in (Calvino 1986) he speculates 
+on literature as a combinatorial and computational process, suggesting that machines might 
+one day generate literary works. Calvino’s reflections anticipated contemporary discussions 
+about computational creativity, LLM-generated literature, and mechanical writing. Calvino was 
+an active member of the Oulipo (Ouvroir de Littérature Potentielle), a group of writers and 
+mathematicians who created works using constrained writing techniques. See also (Calvino 
+1987), (Usher 1995). 
+
+
+── PAGE 21 ──
+ 
+21 
+Such a shift would align with an ontology that values relational, network-oriented 
+thinking instead of substantial, mechanical-oriented one (Floridi 2008, 2012b). I 
+defined it elsewhere as post-Vitruvian (Floridi 2024). 
+As these new genres evolve, they may transform readers’ expectations and 
+competencies. Just as modernist literature required readers to develop new interpretive 
+strategies, LLM-generated genres might foster new kinds of literary literacy—abilities 
+to recognise patterns across narrative multiverses, trace connections in network 
+narratives, or appreciate the specific qualities of human-LLM collaborative creation. 
+The originality of distant writing may ultimately lie not only in the texts it produces 
+but also in the new modes of experimental reading it enables. 
+ 
+9. Multiverse Literature: Exploring Narrative Branching at Scale 
+The concept of multiverse literature (Booth 2024) deserves further exploration as a 
+genre enabled by distant writing. While traditional narratives typically follow a single 
+path through a space of possibilities, multiverse literature systematically explores 
+multiple paths simultaneously, presenting not a single story but a coherent system of 
+related stories that branch and converge in complex patterns. Traditional attempts at 
+branching narratives—such as choose-your-own-adventure books, hypertext fiction, 
+or interactive games—have been limited by practical constraints. The labour involved 
+in manually creating multiple narrative branches quickly becomes prohibitive as the 
+number of decision points increases, leading to what game designers call the 
+“combinatorial explosion problem.” Even sophisticated interactive fiction must 
+severely limit the number and significance of branching points to remain manageable. 
+Distant writing fundamentally changes this equation. LLMs can efficiently generate 
+multiple narrative continuations from any given point, enabling the exploration of 
+narrative possibility spaces at previously impossible scales. Multiverse literature 
+exploits the isotropy of narrative space, intentionally designing multiple narrative paths 
+simultaneously and regarding each path as equally valid, rather than privileging a single, 
+linear progression. 
+The structure of multiverse literature might take several forms. The simplest 
+would be a “parallel narratives” approach, where a single premise generates multiple 
+distinct storylines that never converge. More complex would be a “branching and 
+
+
+── PAGE 22 ──
+ 
+22 
+converging” structure, where narratives diverge at key decision points but may later 
+reconverge, creating a network of interconnected possibilities rather than a simple tree. 
+Even more ambitious would be full “quantum narratives” where multiple states exist 
+simultaneously in superposition, with certain elements remaining constant across 
+versions while others vary. 
+What distinguishes LLM-generate multiverse literature from earlier 
+experiments in branching narratives is not just scale but coherence. Rather than 
+presenting disconnected alternative paths, multiverse literature would emphasise the 
+relationships between variants, treating the system of possibilities as a unified work 
+rather than a collection of separate stories. This systemic approach might reveal 
+patterns and structures invisible in any single narrative instantiation, creating a meta-
+level of meaning that emerges from comparing alternatives. 
+The reading experience for multiverse literature would differ significantly from 
+traditional linear reading. Readers might navigate the narrative space through various 
+interfaces—perhaps selecting specific branches to explore, perhaps experiencing 
+multiple versions in parallel, or perhaps following algorithmically generated paths 
+based on their preferences. Like in old hypertextual experiments, the boundaries 
+between author, reader, and text become more fluid, as readers participate in 
+determining which narrative possibilities are actualised in their experience. 
+This form of literature connects to philosophical questions about contingency, 
+necessity, and possibility. As modal logic distinguishes between actual, possible, and 
+necessary, multiverse literature makes these distinctions explicit within a narrative. 
+Some elements might appear in all versions (necessary), others in only some versions 
+(contingent), while still others remaining merely possible, creating a hierarchy of 
+narrative inevitability that traditional storytelling can only implicitly suggest. The 
+implications for characterisation are significant. Characters in LLM-generated 
+multiverse literature would exist not as fixed entities but as possibility spaces—
+collections of potential traits, decisions, and developments that manifest differently 
+across variants. This approach aligns with the previous discussion of minor characters 
+as nomina infinita, defined more by their possibilities than their actualities. In multiverse 
+literature, all characters retain something of this infinitude, never fully determined by 
+any single narrative path. 
+
+
+── PAGE 23 ──
+ 
+23 
+As a critical framework, multiverse literature might draw on quantum physics 
+(Ryan 2006, Booth 2024), modal logic, and possible worlds theory to develop new 
+vocabularies for discussing narrative. Critics might analyse not just what happens in a 
+story but the probability distribution of possible happenings, the phase space of 
+character development, or the strange attractors that pull disparate narrative branches 
+toward common outcomes despite differing paths. 
+While early experiments in multiverse literature might focus on explicitly 
+branching narratives, more sophisticated works could develop subtler approaches to 
+multiplicity—perhaps embedding alternative possibilities within seemingly linear texts, 
+creating palimpsest-like layers of potential meaning, or developing formal techniques 
+for suggesting the ghost-presence of untaken paths within the chosen one. The full 
+artistic potential of this genre remains to be explored as distant writing techniques 
+continue to evolve. 
+ 
+ 10. Pedagogical Implications: Teaching Creative Writing in the Age of LLMs 
+The emergence of distant writing invites reconsidering how creative writing is taught. 
+Traditional creative writing pedagogy has focused primarily on developing skills in 
+direct textual production: crafting sentences, structuring narratives, developing 
+characters, and refining style through practice and revision. Distant writing, however, 
+shifts the emphasis from execution to design, requiring different skills and approaches. 
+In this new paradigm, creative writing education might evolve in several directions.  
+Programs may need to incorporate “prompt engineering” as a core 
+competency, part of a broader shift towards multiliteracies and digital literacy skills 
+essential in contemporary education (Selber 2004, Gee 2007). Since distant science and 
+distant scholarship follow directly from non-fictional distant writing,14 it is already 
+essential to teach students how to formulate effective requirements that guide LLMs 
+toward desired textual outcomes. This approach requires precision in articulating 
+creative intentions, an ability that differs from but complements traditional writing 
+skills. 
+ 
+14 I owe to Jessica Morley this remark.  
+
+
+── PAGE 24 ──
+ 
+24 
+Creative writing pedagogy may increasingly emphasise meta-literary awareness: 
+understanding genre conventions, narrative structures, and stylistic patterns at a 
+systematic level. While traditional writing instruction often teaches these elements 
+implicitly through practice, distant writing requires explicit knowledge of these patterns 
+to design prompts effectively. Students would need to analyse and articulate the 
+structural and stylistic features they wish to reproduce or transform in their work. In 
+short, distant writing requires close writing and reading. 
+The workshop model that has dominated creative writing education since the 
+mid-20th century may evolve toward what we might call a “design studio” approach. 
+Rather than focusing primarily on the critique of finished texts, workshops might 
+evaluate prompt strategies, compare multiple LLM-generated variations of the same 
+prompt, and collaboratively refine prompting techniques. This approach would 
+emphasise process over product, teaching students how to navigate the space of 
+narrative possibilities effectively. 
+Creative writing programs may need to incorporate elements from other 
+design-focused disciplines, such as architecture, game design, or user experience 
+design. Our age is the age of design, and these fields have developed sophisticated 
+methodologies for working with constraints, balancing functional and aesthetic 
+considerations, and designing experiences rather than objects, all skills relevant to the 
+distant writing paradigm. 
+The evaluation of student work may shift from assessing textual quality to 
+assessing design quality. Instructors would consider not just the final text but also the 
+effectiveness of the prompting strategy, the exploration of alternatives, and the 
+curation decisions made in selecting and refining LLM outputs. This represents a 
+significant departure from traditional assessment methods focused primarily on the 
+text itself. 
+Beyond these specific pedagogical shifts, distant writing raises broader 
+questions about the purpose of creative writing education: if LLMs can be used 
+successfully to produce good texts, what unique value remains for human-centred 
+creative writing education? Rather than competing with LLMs capabilities, creative 
+writing programs might focus on developing uniquely human strengths—conceptual 
+
+
+── PAGE 25 ──
+ 
+25 
+originality, design skills, cultural and ethical awareness, and critical judgment—that 
+complement rather than duplicate LLMs functions. 
+The democratising potential of distant writing also challenges the traditional 
+gatekeeping role of creative writing programs. WrAIting might enable more people 
+and empower those already enabled to care more about the novelty and the final result, 
+and less about the execution. If technical proficiency becomes less of a barrier to entry, 
+creative writing education might shift emphasis from teaching basic craft to cultivating 
+more advanced conceptual and critical skills. Of course, this democratisation is always 
+only partial, and its limits raise equity concerns in terms of exacerbating the digital 
+divide. Access to advanced LLM writing tools and the technical literacy required to use 
+them effectively are unequally distributed. Creative writing programs may need to 
+address these disparities to ensure that distant writing technologies expand rather than 
+limit access to literary creation. 
+Finally, creative writing education must grapple with the ethical dimensions of 
+distant writing. Students should understand the provenance of LLMs capabilities—
+including the human-authored texts that form the training data—and develop 
+frameworks for using these tools responsibly. This might include discussions of 
+attribution, originality, cultural appropriation, and the changing value of creative 
+labour in an LLM-mediated environment. 
+Technological change often reveals implicit assumptions within educational 
+practices (Warwick 2018). The emergence of distant writing helps clarify assumptions 
+about authorship, creativity, and literary value embedded in traditional creative writing 
+pedagogy, providing an opportunity to reimagine these practices for a new 
+technological context.  
+ 
+11. Transforming Literary Criticism: New Paradigms for LLM-Generated Texts 
+The emergence of distant writing necessitates new critical approaches that adequately 
+address LLM-generated literature. Traditional literary criticism has developed around 
+assumptions of human authorship, intentionality, and cultural context that may not 
+apply straightforwardly to texts produced through human-AI collaboration. 
+To begin with, distant writing challenges the notion that a text’s meaning is 
+determined and controlled entirely and only by its author’s intentions. When 
+
+
+── PAGE 26 ──
+ 
+26 
+authorship is distributed between human designers and artificial executors (LLMs), the 
+locus of intention becomes ambiguous. Critics may adopt what could be termed design-
+intention criticism, explicitly examining the link between human prompts and LLM-
+generated texts rather than assuming traditional authorial intent.  
+Second, distant writing complicates biographical criticism. The biographical 
+details of human authors have traditionally informed interpretations of their work, but 
+how might we apply similar approaches to texts whose direct producer is an LLM? 
+Perhaps critics will develop methods for analysing the “biography” of LLMs—their 
+training data, architectural evolution, and deployment contexts—as relevant 
+interpretive frameworks. A related challenge will concern versioning, the availability of 
+drafts, annotations, and earlier, modified copies of a text. On the one hand, more could 
+be known if authors were to keep and share their prompts and a complete record of 
+the wrAIting process. On the other hand, the digital is incomparably more fragile and 
+transient than the analogue, so much could easily be lost. 
+Third, LLM-generated literature makes intertextuality more explicit and 
+pervasive, as LLMs are trained on vast corpora, and we have seen that they inevitably 
+echo patterns from their training data. Critics may need to develop new approaches to 
+identifying and interpreting these computational echoes, distinguishing between 
+patterns and features created by the designer, emerging from the wrAIting yet 
+endorsed by the designer, and mere artefacts of the training process. 
+Fourth, distant writing invites the reconsideration and expansion of reader 
+reception theory (Iser 1978, Jauss 1982). LLM-generated texts, shaped largely by 
+computational prompts, foreground the reader’s active role in meaning-making, 
+prompting renewed attention to reader agency, interpretative plurality, and 
+participatory forms of criticism. Reception theory can thus elucidate how readers 
+engage differently with LLM-created literature compared to traditional texts, 
+potentially shifting critical attention from authorial intention toward the diverse ways 
+readers interpret and interact with computationally generated narratives.  
+Finally, distant writing invites a meta-criticism that examines the critical 
+reception of LLM-generated literature itself. How do readers’ and critics’ conceptions 
+about LLMs authorship influence their evaluations? Do they apply different standards 
+to human-written versus LLM-generated texts? The reception of distant writing may 
+
+
+── PAGE 27 ──
+ 
+27 
+reveal as much about human attitudes toward creativity and technology as the texts 
+themselves. As (Hayles 2012) has argued about electronic literature, new textual forms 
+demand new critical approaches. Distant writing requires critics to develop 
+frameworks that can address the unique characteristics of LLM-generated texts while 
+maintaining the historical insights of traditional literary criticism. 
+ 
+12. Ethical Dimensions of Distant Writing: Questions of Attribution, 
+Originality, and Value 
+I have briefly touched upon the new ethical responsibilities of the author as a designer 
+and the ethical challenges that distant writing may generate, in terms of a new, 
+exacerbated digital divide. Other ethical implications of distant writing extend beyond 
+questions of attribution to encompass broader concerns about originality, intellectual 
+property, cultural production, and creative labour, raising profound philosophical 
+questions about technological mediation and responsibility. Here, the issues are well-
+known and not unique to distant writing but to the whole world of LLM-generated 
+content, so I will only sketch them as a reminder. 
+By distributing creative agency among human designers, LLMs, and the 
+authors of the original training texts, distant writing complicates attribution and 
+accountability in literary production. This disruption has practical implications for 
+intellectual property regimes. Copyright law has traditionally protected the expression 
+of ideas rather than ideas themselves, but distant writing blurs this distinction by 
+making the human contribution primarily conceptual rather than expressive. (Boden 
+2010) notes that our legal frameworks for creative work are still rooted in Romantic 
+conceptions of individual genius that may be inadequate for collaborative human-AI 
+creativity. 
+Beyond legal considerations, distant writing raises ethical questions about the 
+nature of creative work and its value. When writing becomes primarily a matter of 
+design rather than execution, how should we value different forms of creative labour? 
+Does the meta-author who designs prompts deserve the same recognition as the 
+traditional author who produces text directly? These questions echo debates in 
+conceptual art about whether the conception or execution of an artwork should be 
+privileged (Goldie and Schellekens 2007). 
+
+
+── PAGE 28 ──
+ 
+28 
+Training data complicates ethics further: since LLMs may use extensive 
+copyrighted texts, distant writing raises critical issues about proper compensation and 
+acknowledgment of original creators. The issue goes beyond the scope of this article 
+but it is crucial. And it leads to a further concern: cultural appropriation. If prompt 
+designers generate texts in the style of authors from historically marginalised groups, 
+for example, without lived experience of the cultural contexts those authors represent, 
+this may constitute a form of digital colonialism, or at least cultural disrespect. Cultural 
+appropriation involves power imbalances that must be critically examined (Coombe 
+1998), and distant writing may exacerbate these imbalances by making cultural styles 
+more easily replicable. 
+Distant writing also raises sustainability concerns due to its reliance on 
+computationally intensive technologies. This is not an issue specific to distant writing, 
+but the significant energy consumption required by training LLMs in general poses 
+environmental challenges, prompting ethical considerations around responsible and 
+sustainable use of resources. Future discourse on distant writing should address these 
+impacts explicitly, balancing creative innovation with ecological responsibility. 
+Lastly, distant writing also raises existential questions about the value we assign 
+to human creativity itself. If LLMs can produce compelling literature based on human 
+prompts, does this diminish the special status we have traditionally assigned to human 
+creative expression? Or does it simply redirect human creativity toward design rather 
+than execution? These questions echo philosophical debates about authenticity and 
+meaning in an increasingly technological world (Taylor 1991). 
+All these questions will become increasingly pressing as distant writing 
+becomes an ordinary experience. The sooner we deal with them, the better. 
+ 
+13. Publishing in the Age of LLMs: Industry Transformations and New 
+Business Models 
+The publishing industry stands at the threshold of significant transformation as distant 
+writing becomes more prevalent, continuing historical patterns of technological 
+disruption and adaptation within publishing practices (Striphas 2009, Bhaskar 2013). 
+Traditional publishing models have been built around identifying, developing, and 
+marketing the work of human authors, individually or collectively, but distant writing 
+
+
+── PAGE 29 ──
+ 
+29 
+introduces new possibilities and challenges that may fundamentally reshape the 
+industry. 
+It is true that distant writing potentially democratises (in the computer science 
+not the political sense of the word) literary production by lowering barriers to entry. 
+Yet, this democratisation could lead to an explosion of new content, challenging 
+publishers’ traditional gatekeeping, selection processes, quality checks, and archival 
+roles. Publishers may need to develop new criteria for evaluating the quality and 
+marketability of texts produced through distant writing. This may lead to a significant 
+shift in the economics of publishing. Traditional royalty models assume one or more 
+authors, who receive compensation based on sales. Distant writing complicates this 
+model by introducing multiple stakeholders: prompt designers, LLM developers, 
+potentially the creators of works used in training data, and potentially readers who may 
+co-design the new texts (see below). Publishers may need to develop more complex 
+compensation models for these distributed contributions (Elkin-Koren 2017). Still part 
+of the economic transformation is that the text production timeline will accelerate 
+significantly. While traditional publishing involves lengthy processes of drafting, 
+editing, and revision, distant writing can potentially generate polished manuscripts 
+more quickly. This acceleration may pressure publishers to streamline their editorial 
+and production processes or risk being outpaced by more agile competitors leveraging 
+LLM capabilities. 
+Distant writing could foster customised publishing, even allowing novels to be 
+rapidly generated or revised based on reader preferences, similar to TV series 
+adaptations.  In that case, publishers might offer personalised versions of texts tailored 
+to individual readers’ preferences or needs. This customisation could transform 
+reading from a mass consumption activity to a more individualised experience (Murray 
+2012). Agile and on-demand publications may become more common. The roles of 
+editors and copywriters may shift from direct textual revision towards designing and 
+optimising effective prompts, and carefully curating LLM-generated narratives. 
+Editors may assume responsibilities akin to film producers, managing and overseeing 
+the overall creative process rather than engaging primarily in manuscript correction. 
+This shift would require editors to develop new skills in prompt engineering and LLM 
+management. This is far from speculative. In 2025, Springer Nature begun offering 
+
+
+── PAGE 30 ──
+ 
+30 
+editorial roles to Subject Matter Experts (SME) to curate Human-Machine 
+Collaboration Books, see Table 2. 
+ 
+1.      SMEs curate relevant research papers. 
+2.      Our AI tool condenses these into Research Highlights. 
+3.      SMEs organize them into a structure guided by you. 
+Your Contributions: 
+1.      Define the book’s topic and table of contents. 
+2.      Edit the TOC and finalize article selection. 
+3.      Fact-check Research Highlights and add 2-page introduction. 
+Benefits: 
+1.      Greater Reach: Broad institutional access. 
+2.      Efficiency: Less time and effort for publication. 
+3.      Speed: Faster production timeline. 
+4.      Technology Exposure: Insights into cutting-edge AI and human creativity. 
+ 
+Table 2 Example of production of a Human-Machine Collaboration Book  
+ 
+Finally, distant writing may give rise to entirely new publishing business models. 
+Publishers might offer subscription services for access to LLM writing tools and 
+services with premium prompts, create marketplaces for effective prompts rather than 
+finished texts, or develop platforms that allow readers to generate their own literature 
+based on specific parameters. These new models would represent a significant 
+departure from traditional publishing approaches centred on the production and 
+distribution of fixed texts. 
+The publishing industry has historically adapted to technological changes, from 
+the printing press to e-books, by transforming its business models and value 
+proposition (Thompson 2021). Distant writing represents a major technological shift, 
+challenging publishers to reconsider how they create and deliver value in an era when 
+the production of written content is increasingly automated and distributed. 
+ 
+14. WrAIting and the Future of Literary Production 
+Looking forward, distant writing represents not just a novel approach to literary 
+creation but potentially a fundamental shift in how written communication is produced 
+more generally. One day, people may wonder how past generations could write all their 
+
+
+── PAGE 31 ──
+ 
+31 
+texts without LLMs doing most of the work. They will look at writing a bit like we 
+think about sewing our own clothes or growing our own vegetables: doable, but not 
+an ordinary practice. 
+Close writing might become an exceptional skill rather than the norm, 
+comparable to home-baking bread in a world of mass-produced goods. In the future, 
+most textual production may involve human-AI collaboration, with humans 
+establishing parameters and LLMs executing the actual writing. Such a shift would not 
+necessarily diminish human creativity but might redirect it toward design rather than 
+execution, with significant consequences which one can only begin to imagine. We live 
+in a culture based on close reading and close writing. If writing becomes wrAIting, 
+hence primarily a matter of design rather than execution, what will happen to the 
+intimate relationship between language and thought that has characterised human 
+expression? If everybody is an architect and nobody a mason, how will this affect our 
+relationship with the processes linked to reflection, understanding, or creative 
+thinking? For millennia, we have become accustomed to thinking through writing. 
+What will happen when we will think through wrAIting? These questions highlight the 
+need for critical engagement with distant writing not merely as a technological 
+innovation but as a cultural and philosophical transformation with far-reaching 
+implications for understanding human expression. Let me close this section by quoting 
+Flusser again: 
+The new computer codes have made us all illiterate again. A new literate cast 
+has a arisen. For most of us, the new writing (computer programmes) is 
+suffused with that kind of mystery that surrounded alphabetic writing before 
+the invention of print. […] We have to try to use a typographic way of thinking 
+to get to grips with post-typographic “writing”.  (Flusser 2011), pp. 55-56 
+ 
+ 15. The Fourth Revolution: Decentralising Human Information Production 
+Distant writing can be positioned within a broader historical context, what I have 
+described in the past as a fourth revolution (Floridi 2014), following the Copernican, 
+Darwinian, and Freudian revolutions that displaced humanity from the centre of 
+physical, biological, and mental spaces. This fourth revolution, which I attribute to 
+Turing, displaces us from the centre of the information space (infosphere). This 
+
+
+── PAGE 32 ──
+ 
+32 
+framing locates distant writing within a larger philosophical shift away from 
+anthropocentric conceptions of information production. As previous revolutions 
+challenged human centrality in various domains, distant writing challenges the 
+assumption that meaningful textual creation must be exclusively human. Drawing on 
+the philosophy of information (Floridi 2010), we can understand distant writing as part 
+of a broader reconfiguration of human-information relationships. In this 
+reconfiguration, humans shift from being the sole producers of meaningful 
+information to being mostly designers, curators, and interpreters within an increasingly 
+complex informational ecosystem that includes artificial agents. This perspective 
+suggests that distant writing is not just a technological development but part of a 
+fundamental philosophical reorientation that requires one to reconsider traditional 
+assumptions about human exceptionalism in creative production. It invites us to 
+explore “distributed morality” (Floridi 2013, 2016) and “distributed creativity” (Literat 
+and Glaveanu 2018, Bruno and Canina 2020, Mejia, D’Ippolito, and Kajikawa 2021), 
+where meaningful creation emerges from networks of human and non-human agents 
+rather than from individual human minds alone. 
+ 
+16. Conclusion: The Bounds and Horizons of Distant Writing 
+Distant writing represents a methodological innovation in literary production and a 
+conceptual challenge to traditional understandings of authorship, creativity, and 
+narrative. Positioning the human as a designer rather than a direct producer of text 
+reconfigures the creative process along lines previously more familiar in fields like 
+architecture or fashion design than in literature. This reconfiguration reveals several 
+valuable new insights about narrative and literary creation. It shows the boundless but 
+constrained nature of narrative possibilities, the isotropy of narrative space, and the 
+connected network structure of fiction. It challenges us to think differently about 
+narratives, stylistic signatures, and the future of literary production. Distant writing 
+should not be perceived as replacing traditional writing but rather as expanding creative 
+possibilities. It provides novel tools for navigating narrative spaces, linking diverse 
+literary universes, and democratising literary production. As with all significant 
+innovations, it inevitably raises complex questions about authorship, creative agency, 
+ownership, and the evolving human-technological relationship. However, these 
+
+
+── PAGE 33 ──
+ 
+33 
+challenges, when they do not translate into illegal practices, should be welcomed as 
+opportunities to understand human nature and predicament more deeply and refine 
+and expand human ambitions and creativity. 
+As we continue exploring the potential of distant writing, we should approach 
+it not with uncritical enthusiasm or reflexive scepticism, but with thoughtful 
+engagement that recognises its possibilities and limitations. The future of literature 
+may involve increasing collaboration between human designers and LLMs, but the 
+value of this collaboration will depend on our ability to develop frameworks that 
+preserve meaningful human creative agency while embracing the expanded 
+possibilities that distant writing offers. In the end, distant writing invites us to 
+reconsider not just how we produce literature but what literature is and might 
+become—a reconsideration that may prove as significant for our understanding of 
+human creativity as Moretti’s distant reading has been for our understanding of literary 
+analysis. Some good news is certain: there is plenty of exciting intellectual work to 
+make the most of and understand distant writing. 
+ 
+Acknowledgements 
+I am very grateful to Emmie Hine, Jessica Morley, and Claudio Novelli for our many 
+conversations on this topic and their insightful comments about previous versions of 
+this article. They keep me on my toes. Kia Nobre is the reason I could write it. All 
+remaining mistakes are mine. 
+ 
+References 
+Barthes, Roland. 1967. “The Death of the Author.”  Aspen no. 5-6. Reprinted in Image-
+Music-Text, translated by Stephen Heath, Hill and Wang, 1977, pp. 142-148. 
+Bhaskar, Michael. 2013. The Content Machine: Towards a Theory of Publishing from the Printing 
+Press to the Digital Network. London: Anthem Press. 
+Boden, M. A. 2004. The Creative Mind: Myths and Mechanisms: Routledge. 
+———. 2010. Creativity and Art: Three Roads to Surprise: Oxford University Press. 
+Booth, P., ed. 2024. Entering the Multiverse: Perspectives on Alternate Universes and Parallel 
+Worlds. London: Taylor & Francis. 
+Bruno, Carmen, and Marita Canina. 2020. “Digital Creativity.” In The Palgrave 
+Encyclopedia of the Possible, 1-7. Cham: Springer International Publishing. 
+Burke, Sean. 2010. The Death and Return of the Author : Criticism and Subjectivity in Barthes, 
+Foucault and Derrida. 3 ed. Edinburgh: Edinburgh University Press. 
+Calvino, Italo. 1986. The Uses of Literature : Essays. San Diego: Harcourt. 
+
+
+── PAGE 34 ──
+ 
+34 
+———. 1987. The Literature Machine: Essays. London: Secker and Warburg. 
+Coombe, R. J. 1998. The Cultural Life of Intellectual Properties: Authorship, Appropriation, 
+and the Law: Duke University Press. 
+Eco, Umberto. 1989. The Open Work. Cambridge, MA: Harvard University Press. 
+Elkin-Koren, N. 2017. “Copyright in the Digital Ecosystem: A User Rights 
+Approach.” In Copyright Law in an Age of Limitations and Exceptions, edited by R. 
+Okediji, 132-168. Cambridge University Press. 
+Farrell, John. 2017. The Varieties of Authorial Intention: Literary Theory Beyond the Intentional 
+Fallacy. Cham: Springer and Palgrave Macmillan. 
+Fish, Stanley Eugene. 1980. Is There a Text in This Class? : The Authority of Interpretive 
+Communities. Cambridge, Mass.: Harvard University Press. 
+Floridi, Luciano. 2008. “A Defence of Informational Structural Realism.”  Synthese 161 
+(2):219-253. 
+———. 2010. The Philosophy of Information. Oxford: Oxford University Press. 
+———. 2012a. “Big Data and Their Epistemological Challenge.”  Philosophy & 
+Technology 25 (4):435-437. 
+———. 2012b. “Semantic Information and the Network Theory of Account.”  
+Synthese 184 (3):431-454. 
+———. 2013. “Distributed Morality in an Information Society.”  Science and Engineering 
+Ethics 19 (3):727-743. 
+———. 2014. The Fourth Revolution: How the Infosphere Is Reshaping Human Reality: Oxford 
+University Press. 
+———. 2016. “Faultless Responsibility: On the Nature and Allocation of Moral 
+Responsibility for Distributed Moral Actions.”  Philosophical Transactions of the 
+Royal Society A: Mathematical, Physical and Engineering Sciences 374 
+(2083):20160112. 
+———. 2017a. “Digital’s Cleaving Power and Its Consequences.”  Philosophy & 
+Technology 30 (2):123-129. 
+———. 2017b. “The Logic of Design as a Conceptual Logic of Information.”  Minds 
+and Machines 27 (3):495-519. 
+———. 2018. “Semantic Capital: Its Nature, Value, and Curation.”  Philosophy & 
+Technology 31 (4):481-497. 
+———. 2022. “Metaverse: A Matter of Experience.”  Philosophy & Technology 35 (3):73. 
+———. 2024. “On the Future of Content in the Age of Artificial Intelligence: Some 
+Implications and Directions.”  Philosophy & Technology 37 (3):112. 
+———. 2025a. “Content Studies: A New Academic Discipline for Analysing, 
+Evaluating, and Designing Content in a Digital and Ai-Driven Age.”  Philosophy 
+& Technology 38 (2):1-17. 
+———. 2025b. Encounters - an Experiment in Distant Writing. 
+Floridi, Luciano, and Anna C. Nobre. 2024. “Anthropomorphising Machines and 
+Computerising Minds: The Crosswiring of Languages between Artificial 
+Intelligence and Brain & Cognitive Sciences.”  Minds and Machines 34 (1):5. 
+Flusser, Vilém. 2011. Does Writing Have a Future? Minneapolis: University of Minnesota 
+Press. German original 1987, this is the Eng. tr. of the second edition, 1989. 
+Foucault, Michel. 1969. “What Is an Author?”  Bulletin de la Société française de philosophie 
+63 (3):73-104. Reprinted in Textual Strategies: Perspectives in Post-
+Structuralist Criticism, edited by Josué V. Harari, Cornell University Press, 
+
+
+── PAGE 35 ──
+ 
+35 
+1979, pp. 141-160. 
+Gee, James Paul. 2007. What Video Games Have to Teach Us About Learning and Literacy. 
+New York: Palgrave Macmillan. 
+Genette, Gérard. 1980. Narrative Discourse: An Essay in Method. Ithaca: Cornell 
+University Press. 
+Gero, J. S. 1990. “Design Prototypes: A Knowledge Representation Schema for 
+Design.”  AI Magazine 11 (4):26-36. 
+Goldie, P., and E. Schellekens. 2007. Philosophy and Conceptual Art: Oxford University 
+Press. 
+Hayles, N. K. 2012. How We Think: Digital Media and Contemporary Technogenesis: 
+University of Chicago Press. 
+Hemingway, Ernest. 1984. On Writing. New York: Scribner. 
+Herman, David. 2002. Story Logic: Problems and Possibilities of Narrative. Lincoln: 
+University of Nebraska Press. 
+Hirsch, E. D. 1967. Validity in Interpretation. New Haven: Yale University Press. 
+Hutcheon, Linda. 1988. A Poetics of Postmodernism: History, Theory, Fiction. London: 
+Routledge. 
+Iser, Wolfgang. 1978. The Act of Reading: A Theory of Aesthetic Response. Baltimore: Johns 
+Hopkins University Press. 
+Jauss, Hans Robert. 1982. Toward an Aesthetic of Reception. Minneapolis: University of 
+Minnesota Press. 
+Juzek, Tom S, and Zina B Ward. 2024. “Why Does Chatgpt” Delve” So Much? 
+Exploring the Sources of Lexical Overrepresentation in Large Language 
+Models.”  arXiv preprint arXiv:2412.11385. 
+Karinthy, Frigyes. 1929. “Chain-Links.” In Everything Is Different, 21-26. https://djjr-
+courses.wdfiles.com/local--files/soc180%3Akarinthy-chain-links/Karinthy-
+Chain-Links_1929.pdf: accessed 25 April 2025. 
+Kirschenbaum, Matthew. 2016. Track Changes: A Literary History of Word Processing. 
+Cambridge, MA: Harvard University Press. 
+Kristeva, J. 1980. Desire in Language: A Semiotic Approach to Literature and Art: Columbia 
+University Press. 
+Kundera, Milan. 1988. The Art of the Novel. New York: Grove Press. 
+Literat, Ioana, and Vlad Petre Glaveanu. 2018. “Distributed Creativity on the Internet: 
+A Theoretical Foundation for Online Creative Participation.”  International 
+Journal of Communication; Vol 12 (2018). 
+Manovich, L. 2007. “Deep Remixability.”  Artifact 1 (2):76-84. 
+Mejia, Cristian, Beatrice D’Ippolito, and Yuya Kajikawa. 2021. “Major and Recent 
+Trends in Creativity Research: An Overview of the Field with the Aid of 
+Computational Methods.”  Creativity and Innovation Management 30 (3):475-497. 
+Moretti, F. 2000. “Conjectures on World Literature.”  New Left Review 1:54-68. 
+———. 2013. Distant Reading: Verso Books. 
+Murray, J. H. 2012. Inventing the Medium: Principles of Interaction Design as a Cultural Practice: 
+MIT Press. 
+Pavel, T. G. 1986. Fictional Worlds: Harvard University Press. 
+Piper, Andrew. 2018. Enumerations: Data and Literary Study. Chicago: University of 
+Chicago Press. 
+Ramsay, Stephen. 2011. Reading Machines: Toward an Algorithmic Criticism. Urbana: 
+
+
+── PAGE 36 ──
+ 
+36 
+University of Illinois Press. 
+Ricoeur, Paul. 1984-1988. Time and Narrative (Vols. 1–3). Chicago: University of 
+Chicago Press. 
+Ryan, Marie-Laure. 1991. Possible Worlds, Artificial Intelligence, and Narrative Theory: 
+Indiana University Press. 
+———. 2006. “From Parallel Universes to Possible Worlds: Ontological Pluralism in 
+Physics, Narratology, and Narrative.”  Poetics Today 27 (4):633-674. 
+Selber, Stuart. 2004. Multiliteracies for a Digital Age. Carbondale: Southern Illinois 
+University Press. 
+Striphas, Ted. 2009. The Late Age of Print: Everyday Book Culture from Consumerism to 
+Control. New York: Columbia University Press. 
+Taylor, C. 1991. The Ethics of Authenticity: Harvard University Press. 
+Thompson, J. B. 2021. Book Wars: The Digital Revolution in Publishing: Polity Press. 
+Usher, Jonathan. 1995. “Calvino and the Computer as Writer/Reader.”  The modern 
+language review:41-54. 
+Warwick, C. 2018. Digital Humanities Pedagogy: Practices, Principles and Politics: Cambridge 
+University Press. 
+Wood, James. 2008. How Fiction Works. London: Jonathan Cape. 
+ 
