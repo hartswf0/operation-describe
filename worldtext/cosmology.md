@@ -55,6 +55,7 @@ The interstitial galaxy connecting all others. Worlds of media theory, intersemi
 8. **[[hallucinated-environment-world]]** — Worlds where AI agents train inside their own generated realities.
 9. **[[academic-governance-world]]** — Worlds governed by peer review, citation, canon formation, and disciplinary legitimacy.
 10. **[[semiotic-collapse-world]]** — Worlds where previously distinct sign systems (text/image, description/production) implode into each other.
+11. **[[operative-ethnography-world]]** — Worlds where configured observation co-produces the field and description re-enters as worldtext.
 
 ---
 
@@ -70,6 +71,8 @@ The interstitial galaxy connecting all others. Worlds of media theory, intersemi
 8. **The Photorealism Problem** — Three new sources (Steyerl, Wasielewski, Meyer) show the seamless path is epistemologically impossible: AI cannot produce indexical images because the [[concept-synthetic-camera]] has no lens. What the seamless path produces is the *appearance* of the real, not the real.
 9. **The Convergence Problem** — If autonomous reactive loops converge to "visual elevator music" (Hintze et al.), the human contribution to operative ekphrasis is not optional — it is constitutive. What exactly is that contribution?
 10. **From Imagetext to Worldtext** — At what point does an interactive 3D environment cease to be "ekphrastic"? The [[concept-worldtext]] extends the operative power of language from pixels to worlds, but the theoretical framework has not yet caught up.
+11. **The Operative Observer** — If the observer co-produces the field, what distinguishes observation from design? Operative ethnography answers: the recursive loop. The observer configures, encounters, traces, describes, and recirculates. The worldtext re-enters the field. ([[world-operative-ethnography]], [[syntheses/operative-ethnography]])
+12. **Synthetic Place** — Is latent space a place? If so, what ontology does it require? Synthetic Place Theory proposes: metastable operative arrangement of topology, affordance, memory, meaning, power, and material support. ([[world-operative-ethnography]])
 
 ---
 
@@ -92,4 +95,4 @@ The interstitial galaxy connecting all others. Worlds of media theory, intersemi
 
 ---
 
-*The cosmos breathes. Every ingest, query, and lint pass changes its shape.*
+*The cosmos breathes. Every ingest, query, and lint pass changes its shape. The operative observer watches while editing conditions. The worldtext re-enters the field.*

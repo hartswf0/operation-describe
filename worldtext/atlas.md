@@ -48,6 +48,11 @@
 | [[world-world-models]] | Neural architectures that simulate environments for agents | hallucinated-environment-world | system-world-models | 2026-04-13 |
 | [[world-digital-poetics]] | Electronic literature, kinetic text, and screen-based ekphrasis | intermedial-threshold-world | system-operative-ekphrasis | 2026-04-13 |
 | [[world-academic-ekphrasis]] | The scholarly apparatus that produces, governs, and circulates ekphrastic theory | academic-governance-world | system-classical-ekphrasis | 2026-04-13 |
+| [[world-embodied-description]] | The body as third term between text and image; gestural and somatic ekphrasis | embodied-description-world | system-thick-description ↔ system-operative-ekphrasis | 2026-04-13 |
+| [[world-oral-formulaic-generation]] | Homer and GPT as the same species of maker; formulaic composition as generative model | oral-formulaic-generation-world | system-classical-ekphrasis ↔ system-world-models | 2026-04-13 |
+| [[world-latent-wrestling]] | The latent space as Arena; deep play, mud literacy, Songline navigation | latent-wrestling-world | galaxy-of-generative-ai-worlds ↔ galaxy-of-thick-description-worlds | 2026-04-17 |
+| [[world-thin-research]] | Diagnosis: HCI invokes thickness but delivers only thin extraction | thin-research-world | system-thick-description | 2026-04-17 |
+| [[world-operative-ethnography]] | Where configured observation selects from latent potential, stages encounter, renders worldtext, and recirculates | operative-ethnography-world | system-thick-description ↔ system-operative-ekphrasis | 2026-04-20 |
 
 ## 🏛️ PLACES
 
@@ -197,7 +202,10 @@ See [[worldtext/taxonomies/world-types.md]] for full taxonomy.
 | [[question-double-bind-mode-collapse]] | Can Bateson's learning levels prevent mode collapse through logical type separation in prompts? | 2026-04-14 |
 | [[question-third-path]] | If hallucination can be culturally productive (Carrot Uprising), is the seamless/exposed fork a false binary? | 2026-04-14 |
 | [[question-eco-ekphrasis]] | What is the material-ecological footprint of operative ekphrasis, and does it enter the ethics of the practice? | 2026-04-14 |
+| [[question-operative-observer]] | What is the difference between participant observation and operative observation, and when does the latter become necessary? | 2026-04-20 |
+| [[question-synthetic-place]] | Is latent space a place? If so, what kind of place — and what ontology does it require? | 2026-04-20 |
+| [[question-worldtext-viscosity]] | Does a persistent worldtext develop its own viscosity, its own platform mean, its own twelve lighthouses? | 2026-04-20 |
 
 ---
 
-*Atlas last compiled: 2026-04-14 (18-paper ingest pass). Next scheduled lint: on next ingest.*
+*Atlas last compiled: 2026-04-20 (operative ethnography ingest). Next scheduled lint: on next ingest.*
