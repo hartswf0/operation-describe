@@ -102,6 +102,7 @@
 | [[entity-iser]] | Wolfgang Iser — gaps, indeterminacy, concretization, the act of reading | entity | world-thick-description + world-operative-ekphrasis | 2026-04-14 |
 | [[entity-fish]] | Stanley Fish — interpretive communities as training distributions | entity | world-thick-description | 2026-04-14 |
 | [[entity-ogilvie]] | Brian Ogilvie — the science of describing, Renaissance natural history | entity | world-thick-description | 2026-04-14 |
+| [[entity-ian-cheng]] | Ian Cheng — worlding, Emissaries, live simulation, world watcher as audience position | entity | world-world-models ↔ world-operative-ethnography | 2026-04-20 |
 
 ## 🔁 RITUALS
 
@@ -170,6 +171,8 @@
 | [[distinction-seamless-exposed]] | seamless / exposed | world-operative-ekphrasis | 2026-04-14 |
 | [[distinction-navigation-production]] | navigation / production | world-operative-ekphrasis | 2026-04-14 |
 | [[distinction-intent-distribution]] | intent / distribution — the new paragone: user will vs. statistical gravity | world-operative-ekphrasis | 2026-04-14 |
+| [[distinction-participant-operative]] | participant observer / operative observer — joins field vs. edits field formation | world-operative-ethnography | 2026-04-20 |
+| [[distinction-trace-feedback]] | trace logic / feedback logic — description follows encounter vs. description re-enters encounter | world-operative-ethnography | 2026-04-20 |
 
 ## ⏳ EPOCHS
 
@@ -211,4 +214,4 @@ See [[worldtext/taxonomies/world-types.md]] for full taxonomy.
 
 ---
 
-*Atlas last compiled: 2026-04-20 (latent interaction design ingest). Next scheduled lint: on next ingest.*
+*Atlas last compiled: 2026-04-20 (synthetic place theory ingest). Next scheduled lint: on next ingest.*
