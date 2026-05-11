@@ -1,0 +1,7 @@
+file '00-whole-shield-gemini/flipbook.mp4'
+file '01-cosmic-gemini/flipbook.mp4'
+file '02-peace-law-gemini/flipbook.mp4'
+file '03-war-ambush-gemini/flipbook.mp4'
+file '04-labors-gemini/flipbook.mp4'
+file '05-cattle-gemini/flipbook.mp4'
+file '06-dance-gemini/flipbook.mp4'

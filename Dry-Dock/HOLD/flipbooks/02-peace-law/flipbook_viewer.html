@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<title>SHIELD FLIPBOOK — 02-peace-law</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#fff;color:#000;font-family:ui-monospace,monospace;height:100vh;display:flex;flex-direction:column}
+.hdr{background:#000;color:#fff;padding:10px 16px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;display:flex;justify-content:space-between;align-items:center}
+.hdr .sub{font-size:9px;opacity:.6}
+.main{flex:1;display:flex;overflow:hidden}
+.view{flex:1;display:flex;align-items:center;justify-content:center;background:#f5f5f5;border-right:2px solid #000;position:relative}
+.view img{max-width:90%;max-height:90%;image-rendering:pixelated}
+.info{position:absolute;bottom:8px;left:8px;font-size:10px;font-weight:900;background:#000;color:#fff;padding:3px 8px}
+.side{flex:0 0 280px;display:flex;flex-direction:column;overflow:hidden}
+.ctrl{padding:10px;border-bottom:2px solid #000}
+.ctrl label{font-size:9px;font-weight:900;text-transform:uppercase;display:block;margin-bottom:4px}
+.ctrl input[type=range]{width:100%;margin:4px 0}
+.ctrl .btns{display:flex;gap:4px;margin-top:6px}
+.ctrl button{flex:1;padding:8px;background:#000;color:#fff;border:0;font:inherit;font-size:10px;font-weight:900;cursor:pointer;text-transform:uppercase}
+.ctrl button:hover{opacity:.7}
+.grid{flex:1;overflow-y:auto;display:grid;grid-template-columns:repeat(5,1fr);gap:1px;padding:1px;background:#000}
+.grid img{width:100%;display:block;cursor:pointer;background:#fff;transition:opacity .1s}
+.grid img:hover{opacity:.7}
+.grid img.on{outline:3px solid #000;outline-offset:-3px}
+</style>
+</head><body>
+<div class="hdr">
+<span>SHIELD FLIPBOOK — 02-peace-law — 64 FRAMES</span>
+<span class="sub">Arrow keys · Space = play · Click thumbnail</span>
+</div>
+<div class="main">
+<div class="view">
+<img id="big" src="frames/frame_000.png" alt="Frame">
+<div class="info" id="lbl">FRAME 0 / 63</div>
+</div>
+<div class="side">
+<div class="ctrl">
+<label>Frame <span id="fnum">0</span> / 63</label>
+<input type="range" id="scrub" min="0" max="63" value="0">
+<div class="btns">
+<button onclick="prev()">◀ PREV</button>
+<button id="playBtn" onclick="togglePlay()">▶ PLAY</button>
+<button onclick="next()">NEXT ▶</button>
+</div>
+</div>
+<div class="grid" id="grid"></div>
+</div>
+</div>
+<script>
+var N=64,cur=0,playing=false,timer=null;
+var grid=document.getElementById('grid');
+for(var i=0;i<N;i++){
+  var img=document.createElement('img');
+  img.src='frames/frame_'+String(i).padStart(3,'0')+'.png';
+  img.dataset.i=i;
+  img.addEventListener('click',function(){go(parseInt(this.dataset.i))});
+  grid.appendChild(img);
+}
+function go(i){
+  cur=Math.max(0,Math.min(N-1,i));
+  document.getElementById('big').src='frames/frame_'+String(cur).padStart(3,'0')+'.png';
+  document.getElementById('scrub').value=cur;
+  document.getElementById('fnum').textContent=cur;
+  document.getElementById('lbl').textContent='FRAME '+cur+' / '+(N-1);
+  grid.querySelectorAll('img').forEach(function(x){x.classList.remove('on')});
+  grid.children[cur].classList.add('on');
+  grid.children[cur].scrollIntoView({block:'nearest'});
+}
+function next(){go(cur+1)}
+function prev(){go(cur-1)}
+function togglePlay(){
+  playing=!playing;
+  document.getElementById('playBtn').textContent=playing?'⏸ STOP':'▶ PLAY';
+  if(playing)timer=setInterval(function(){if(cur>=N-1){togglePlay();return}next()},125);
+  else clearInterval(timer);
+}
+document.getElementById('scrub').addEventListener('input',function(){go(parseInt(this.value))});
+document.addEventListener('keydown',function(e){
+  if(e.key==='ArrowRight')next();
+  if(e.key==='ArrowLeft')prev();
+  if(e.key===' '){e.preventDefault();togglePlay()}
+});
+go(0);
+</script>
+</body></html>

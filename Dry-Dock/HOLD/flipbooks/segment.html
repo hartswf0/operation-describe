@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GRID SEGMENTER — Contact Sheet Frame Extractor</title>
+<style>
+:root{--bk:#000;--wh:#fff;--gold:#c9a84c;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0f;color:#e0e0d8;font-family:var(--mono);height:100vh;display:flex;flex-direction:column;overflow:hidden;user-select:none;-webkit-user-select:none;touch-action:none}
+.hdr{background:#000;padding:8px 16px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #333;flex-shrink:0}
+.hdr h1{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;color:var(--gold)}
+.hdr .sub{font-size:8px;color:#777}
+.toolbar{display:flex;gap:4px;padding:6px 12px;background:#111;border-bottom:2px solid #333;flex-shrink:0;flex-wrap:wrap;align-items:center}
+.toolbar label{font-size:9px;font-weight:900;text-transform:uppercase;color:#999;margin-right:2px}
+.toolbar select,.toolbar input[type=number]{background:#222;color:#e0e0d8;border:1px solid #555;padding:4px 6px;font:inherit;font-size:10px}
+.toolbar input[type=number]{width:50px}
+.toolbar button{padding:6px 12px;border:1px solid #555;background:#222;color:#e0e0d8;font:inherit;font-size:10px;font-weight:900;cursor:pointer;text-transform:uppercase;min-height:32px}
+.toolbar button:hover,.toolbar button:active{background:var(--gold);color:#000;border-color:var(--gold)}
+.toolbar button.primary{background:var(--gold);color:#000;border-color:var(--gold)}
+.toolbar button.snap{background:#4a6;color:#000;border-color:#4a6}
+.toolbar .sep{width:1px;height:20px;background:#333;margin:0 4px}
+
+.main{flex:1;display:flex;overflow:hidden}
+.canvas-wrap{flex:1;overflow:auto;position:relative;background:#1a1a1a;touch-action:none}
+.canvas-wrap canvas{display:block;cursor:crosshair;touch-action:none}
+
+.sidebar{width:300px;flex-shrink:0;border-left:2px solid #333;display:flex;flex-direction:column;overflow:hidden;background:#111}
+.sb-section{padding:8px 10px;border-bottom:1px solid #333}
+.sb-section h3{font-size:9px;font-weight:900;text-transform:uppercase;color:var(--gold);margin-bottom:4px;letter-spacing:.04em}
+.sb-section .info{font-size:10px;color:#888;line-height:1.8}
+.grid-preview{flex:1;overflow-y:auto;padding:4px;display:grid;gap:2px;background:#000}
+.grid-preview img{width:100%;display:block;border:1px solid #333;cursor:pointer}
+.grid-preview img:hover{border-color:var(--gold)}
+
+.status{padding:8px 12px;background:#000;border-top:2px solid #333;font-size:10px;font-weight:900;color:#999;flex-shrink:0;display:flex;justify-content:space-between}
+@media(max-width:800px){.main{flex-direction:column}.sidebar{width:100%;height:40vh;border-left:0;border-top:2px solid #333}.toolbar{gap:3px;padding:4px 8px}.toolbar button{padding:4px 8px;font-size:8px;min-height:28px}}
+</style>
+</head>
+<body>
+<div class="hdr">
+<h1>GRID SEGMENTER — Contact Sheet → Frames</h1>
+<div class="sub">Load image · Auto-detect edges · Adjust grid · Preview · Export</div>
+</div>
+<div class="toolbar">
+<label>Sheet:</label>
+<select id="sheetPick"></select>
+<div class="sep"></div>
+<label>Cols:</label><input type="number" id="nCols" value="5" min="1" max="20">
+<label>Rows:</label><input type="number" id="nRows" value="17" min="1" max="40">
+<button id="btnDetect">⚡ AUTO-DETECT</button>
+<button id="btnUniform">UNIFORM GRID</button>
+<div class="sep"></div>
+<label>Edge:</label>
+<select id="edgeMode">
+<option value="gradient">Gradient</option>
+<option value="canny">Canny</option>
+<option value="none">None</option>
+</select>
+<button id="btnAddH">+ H-LINE</button>
+<button id="btnAddV">+ V-LINE</button>
+<button id="btnEqH" title="Distribute H-lines at equal spacing">⬌ EQ-H</button>
+<button id="btnEqV" title="Distribute V-lines at equal spacing">⬍ EQ-V</button>
+<button id="btnSnap" class="snap" title="Snap all lines to nearest uniform grid position">⊞ SNAP ALL</button>
+<button id="btnClearLines">CLEAR</button>
+<div class="sep"></div>
+<label>Gutter:</label><input type="number" id="nGutter" value="0" min="0" max="50" title="Pixel inset from each grid line (for borders between frames)">
+<div class="sep"></div>
+<button id="btnPreview" class="primary">PREVIEW CELLS</button>
+<button id="btnExport" class="primary">EXPORT JSON</button>
+<label class="toolbar-file" style="padding:5px 10px;border:1px solid #555;background:#222;color:#e0e0d8;font-size:9px;font-weight:900;cursor:pointer;text-transform:uppercase">IMPORT JSON<input type="file" accept=".json" id="btnImport" style="display:none"></label>
+</div>
+
+<div class="main">
+<div class="canvas-wrap" id="canvasWrap">
+<canvas id="mainCanvas"></canvas>
+</div>
+<div class="sidebar">
+<div class="sb-section">
+<h3>Grid Info</h3>
+<div class="info" id="gridInfo">Load a sheet to begin</div>
+</div>
+<div class="sb-section">
+<h3>Cell Preview</h3>
+<div class="info" id="cellInfo">Click PREVIEW to see cells</div>
+</div>
+<div class="grid-preview" id="gridPreview" style="grid-template-columns:repeat(5,1fr)"></div>
+</div>
+</div>
+<div class="status">
+<span id="statusL">Ready</span>
+<span id="statusR">Drag to move · Right-click or Shift+click to delete · Double-click canvas to add line</span>
+</div>
+
+<script>
+const SHEETS = [
+  {id:'00', name:'00 Whole Shield', file:'../00-the-shield.png', cols:5, rows:17},
+  {id:'01', name:'01 Cosmic Design', file:'../01-Construction-and-Cosmic-Design/01-cosmic-gemini.png', cols:5, rows:18},
+  {id:'02', name:'02 Peace & Law', file:'../02-Two-Cities-Peace-and-Law/02-bride-law-Gemini_Generated_Image_6oi6ce6oi6ce6oi6.jpeg', cols:5, rows:13},
+  {id:'03', name:'03 War & Ambush', file:'../03-Two-Cities-War-and-Ambush/Gemini_Generated_Image_2ylbjn2ylbjn2ylb.jpeg', cols:5, rows:17},
+  {id:'04', name:'04 Labors', file:'../04-Labors-of-the-Field/Gemini_Generated_Image_ffbktcffbktcffbk.jpeg', cols:5, rows:17},
+  {id:'05', name:'05 Cattle & Lions', file:'../05-Cattle-Lions-and-Sheep/Gemini_Generated_Image_5kxfd95kxfd95kxf.jpeg', cols:5, rows:18},
+];
+
+// State
+let img = null, W = 0, H = 0;
+let hLines = [], vLines = []; // pixel positions of grid lines
+let dragging = null; // {type:'h'|'v', index}
+let hoveredLine = null; // {type:'h'|'v', index} for highlight
+let edgeData = null; // edge detection result
+
+const canvas = document.getElementById('mainCanvas');
+const ctx = canvas.getContext('2d');
+const wrap = document.getElementById('canvasWrap');
+const pick = document.getElementById('sheetPick');
+const nColsEl = document.getElementById('nCols');
+const nRowsEl = document.getElementById('nRows');
+const gridInfo = document.getElementById('gridInfo');
+const cellInfo = document.getElementById('cellInfo');
+const gridPreview = document.getElementById('gridPreview');
+const statusL = document.getElementById('statusL');
+const statusR = document.getElementById('statusR');
+
+// Populate sheet picker
+SHEETS.forEach((s,i) => {
+  const o = document.createElement('option');
+  o.value = i; o.textContent = s.name;
+  pick.appendChild(o);
+});
+// Also allow file upload
+const fileOpt = document.createElement('option');
+fileOpt.value = 'file'; fileOpt.textContent = '📁 Load from file...';
+pick.appendChild(fileOpt);
+
+pick.onchange = () => {
+  if (pick.value === 'file') {
+    const inp = document.createElement('input');
+    inp.type = 'file'; inp.accept = 'image/*';
+    inp.onchange = e => { if (e.target.files[0]) loadImageFile(e.target.files[0]); };
+    inp.click();
+  } else {
+    const s = SHEETS[+pick.value];
+    nColsEl.value = s.cols;
+    nRowsEl.value = s.rows;
+    loadImageURL(s.file, s.name);
+  }
+};
+
+function loadImageURL(url, name) {
+  const i = new Image();
+  i.onload = () => { img = i; W = i.width; H = i.height; onImageLoaded(name); };
+  i.onerror = () => { statusL.textContent = '⚠ Failed to load — try HTTP server on port 8222'; };
+  i.src = url;
+}
+
+function loadImageFile(file) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    const i = new Image();
+    i.onload = () => { img = i; W = i.width; H = i.height; onImageLoaded(file.name); };
+    i.src = e.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
+function onImageLoaded(name) {
+  canvas.width = W; canvas.height = H;
+  hLines = []; vLines = [];
+  edgeData = null;
+  statusL.textContent = `${name} — ${W}×${H}`;
+  drawAll();
+  gridInfo.textContent = `${W}×${H} · No grid yet — click AUTO-DETECT or UNIFORM`;
+}
+
+// ── EDGE DETECTION ──
+function computeEdges(mode) {
+  if (!img) return;
+  // Draw image to offscreen canvas, get pixel data
+  const oc = document.createElement('canvas');
+  oc.width = W; oc.height = H;
+  const octx = oc.getContext('2d');
+  octx.drawImage(img, 0, 0);
+  const idata = octx.getImageData(0, 0, W, H);
+  const px = idata.data;
+  
+  // Convert to grayscale
+  const gray = new Float32Array(W * H);
+  for (let i = 0; i < W * H; i++) {
+    gray[i] = 0.299 * px[i*4] + 0.587 * px[i*4+1] + 0.114 * px[i*4+2];
+  }
+  
+  if (mode === 'canny') {
+    // Gaussian blur 3x3 then Sobel
+    const blurred = gaussianBlur(gray, W, H);
+    edgeData = sobelEdge(blurred, W, H);
+  } else {
+    edgeData = sobelEdge(gray, W, H);
+  }
+}
+
+function gaussianBlur(gray, w, h) {
+  const out = new Float32Array(w * h);
+  const k = [1,2,1, 2,4,2, 1,2,1];
+  for (let y = 1; y < h-1; y++) {
+    for (let x = 1; x < w-1; x++) {
+      let sum = 0;
+      for (let ky = -1; ky <= 1; ky++)
+        for (let kx = -1; kx <= 1; kx++)
+          sum += gray[(y+ky)*w+(x+kx)] * k[(ky+1)*3+(kx+1)];
+      out[y*w+x] = sum / 16;
+    }
+  }
+  return out;
+}
+
+function sobelEdge(gray, w, h) {
+  // Returns {hEdge, vEdge} — horizontal and vertical edge strength per row/col
+  // hEdge[y] = average horizontal edge strength at row y (for finding h-lines)
+  // vEdge[x] = average vertical edge strength at col x (for finding v-lines)
+  const hEdge = new Float32Array(h);
+  const vEdge = new Float32Array(w);
+  
+  for (let y = 1; y < h-1; y++) {
+    let rowSum = 0;
+    for (let x = 1; x < w-1; x++) {
+      // Sobel vertical kernel (detects horizontal edges)
+      const gy = -gray[(y-1)*w+x-1] - 2*gray[(y-1)*w+x] - gray[(y-1)*w+x+1]
+                 +gray[(y+1)*w+x-1] + 2*gray[(y+1)*w+x] + gray[(y+1)*w+x+1];
+      rowSum += Math.abs(gy);
+    }
+    hEdge[y] = rowSum / (w - 2);
+  }
+  
+  for (let x = 1; x < w-1; x++) {
+    let colSum = 0;
+    for (let y = 1; y < h-1; y++) {
+      const gx = -gray[(y-1)*w+x-1] + gray[(y-1)*w+x+1]
+                 -2*gray[y*w+x-1] + 2*gray[y*w+x+1]
+                 -gray[(y+1)*w+x-1] + gray[(y+1)*w+x+1];
+      colSum += Math.abs(gx);
+    }
+    vEdge[x] = colSum / (h - 2);
+  }
+  
+  return {hEdge, vEdge};
+}
+
+// ── AUTO-DETECT GRID ──
+function autoDetect() {
+  if (!img) return;
+  const mode = document.getElementById('edgeMode').value;
+  if (mode !== 'none') computeEdges(mode);
+  
+  const cols = +nColsEl.value;
+  const rows = +nRowsEl.value;
+  
+  if (edgeData) {
+    // Snap to strongest edge near expected positions
+    vLines = snapLines(edgeData.vEdge, W, cols);
+    hLines = snapLines(edgeData.hEdge, H, rows);
+  } else {
+    // Uniform
+    vLines = []; hLines = [];
+    for (let i = 1; i < cols; i++) vLines.push(Math.round(i * W / cols));
+    for (let i = 1; i < rows; i++) hLines.push(Math.round(i * H / rows));
+  }
+  
+  drawAll();
+  updateInfo();
+  statusL.textContent = `Auto-detected: ${vLines.length+1} cols × ${hLines.length+1} rows`;
+}
+
+function snapLines(edgeSignal, total, nDivisions) {
+  const lines = [];
+  const cellSize = total / nDivisions;
+  const searchRadius = Math.round(cellSize * 0.2);
+  
+  for (let i = 1; i < nDivisions; i++) {
+    const expected = Math.round(i * cellSize);
+    const lo = Math.max(1, expected - searchRadius);
+    const hi = Math.min(edgeSignal.length - 1, expected + searchRadius);
+    let bestIdx = expected, bestVal = -1;
+    for (let j = lo; j < hi; j++) {
+      if (edgeSignal[j] > bestVal) { bestVal = edgeSignal[j]; bestIdx = j; }
+    }
+    lines.push(bestIdx);
+  }
+  return lines;
+}
+
+function uniformGrid() {
+  const cols = +nColsEl.value, rows = +nRowsEl.value;
+  vLines = []; hLines = [];
+  for (let i = 1; i < cols; i++) vLines.push(Math.round(i * W / cols));
+  for (let i = 1; i < rows; i++) hLines.push(Math.round(i * H / rows));
+  drawAll(); updateInfo();
+}
+
+// ── DRAWING ──
+function drawAll() {
+  if (!img) return;
+  ctx.clearRect(0, 0, W, H);
+  ctx.drawImage(img, 0, 0);
+  
+  // Draw edge detection overlay if available
+  if (edgeData && document.getElementById('edgeMode').value !== 'none') {
+    drawEdgeOverlay();
+  }
+  
+  // Draw gutter zones (shaded bands along grid lines)
+  const gutter = +(document.getElementById('nGutter')?.value || 0);
+  if (gutter > 0) {
+    ctx.fillStyle = 'rgba(255,60,60,0.25)';
+    hLines.forEach(y => ctx.fillRect(0, y - gutter, W, gutter * 2));
+    ctx.fillStyle = 'rgba(60,60,255,0.25)';
+    vLines.forEach(x => ctx.fillRect(x - gutter, 0, gutter * 2, H));
+  }
+  
+  // Draw grid lines
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 4]);
+  
+  // Horizontal lines
+  hLines.forEach((y, i) => {
+    const isHovered = hoveredLine && hoveredLine.type === 'h' && hoveredLine.index === i;
+    ctx.strokeStyle = isHovered ? 'rgba(255,100,100,1)' : 'rgba(201,168,76,0.8)';
+    ctx.lineWidth = isHovered ? 3 : 2;
+    ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
+  });
+  
+  // Vertical lines
+  vLines.forEach((x, i) => {
+    const isHovered = hoveredLine && hoveredLine.type === 'v' && hoveredLine.index === i;
+    ctx.strokeStyle = isHovered ? 'rgba(255,100,100,1)' : 'rgba(76,201,201,0.8)';
+    ctx.lineWidth = isHovered ? 3 : 2;
+    ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke();
+  });
+  ctx.setLineDash([]);
+  ctx.lineWidth = 2;
+  
+  // Draw line handles
+  const handleSize = Math.max(14, Math.min(24, W / 30)); // big touch-friendly handles
+  hLines.forEach((y, i) => {
+    const isHovered = hoveredLine && hoveredLine.type === 'h' && hoveredLine.index === i;
+    ctx.fillStyle = isHovered ? 'rgba(255,100,100,0.95)' : 'rgba(201,168,76,0.9)';
+    ctx.fillRect(0, y - handleSize/2, handleSize*2, handleSize);
+    ctx.fillStyle = '#000';
+    ctx.font = `bold ${handleSize}px monospace`;
+    ctx.fillText(`H${i}`, 2, y + handleSize/3);
+  });
+  vLines.forEach((x, i) => {
+    const isHovered = hoveredLine && hoveredLine.type === 'v' && hoveredLine.index === i;
+    ctx.fillStyle = isHovered ? 'rgba(255,100,100,0.95)' : 'rgba(76,201,201,0.9)';
+    ctx.fillRect(x - handleSize/2, 0, handleSize, handleSize*2);
+    ctx.fillStyle = '#000';
+    ctx.font = `bold ${handleSize}px monospace`;
+    ctx.fillText(`V${i}`, x - handleSize/3, handleSize*1.5);
+  });
+}
+
+function drawEdgeOverlay() {
+  // Draw faint edge strength as colored bars along edges
+  const {hEdge, vEdge} = edgeData;
+  const maxH = Math.max(...hEdge) || 1;
+  const maxV = Math.max(...vEdge) || 1;
+  const barW = 4;
+  
+  // Horizontal edge strength (left bar)
+  for (let y = 0; y < H; y++) {
+    const v = hEdge[y] / maxH;
+    ctx.fillStyle = `rgba(201,168,76,${v * 0.6})`;
+    ctx.fillRect(0, y, barW + v * 20, 1);
+  }
+  // Vertical edge strength (top bar)
+  for (let x = 0; x < W; x++) {
+    const v = vEdge[x] / maxV;
+    ctx.fillStyle = `rgba(76,201,201,${v * 0.6})`;
+    ctx.fillRect(x, 0, 1, barW + v * 20);
+  }
+}
+
+// ── INTERACTION ──
+const SNAP_DIST = 25; // generous hit target for touch
+
+// Prevent context menu on canvas
+canvas.addEventListener('contextmenu', e => e.preventDefault());
+
+function hitTestLine(mx, my) {
+  const rect = canvas.getBoundingClientRect();
+  const scaleY = H / rect.height, scaleX = W / rect.width;
+  for (let i = 0; i < hLines.length; i++) {
+    if (Math.abs(my - hLines[i]) < SNAP_DIST * scaleY) return {type:'h', index:i};
+  }
+  for (let i = 0; i < vLines.length; i++) {
+    if (Math.abs(mx - vLines[i]) < SNAP_DIST * scaleX) return {type:'v', index:i};
+  }
+  return null;
+}
+
+function deleteLine(hit) {
+  if (!hit) return;
+  if (hit.type === 'h') hLines.splice(hit.index, 1);
+  else vLines.splice(hit.index, 1);
+  hoveredLine = null;
+  drawAll(); updateInfo();
+  statusL.textContent = `Deleted ${hit.type === 'h' ? 'H' : 'V'}-line`;
+}
+
+canvas.addEventListener('mousedown', e => {
+  const rect = canvas.getBoundingClientRect();
+  const scaleX = W / rect.width, scaleY = H / rect.height;
+  const mx = (e.clientX - rect.left) * scaleX;
+  const my = (e.clientY - rect.top) * scaleY;
+  const hit = hitTestLine(mx, my);
+  
+  // Right-click or shift+click = delete
+  if (e.button === 2 || e.shiftKey) {
+    if (hit) { deleteLine(hit); }
+    return;
+  }
+  
+  // Left-click on line = start drag
+  if (hit) { dragging = hit; return; }
+});
+
+// Double-click on empty space = add nearest line type
+canvas.addEventListener('dblclick', e => {
+  const rect = canvas.getBoundingClientRect();
+  const mx = (e.clientX - rect.left) * (W / rect.width);
+  const my = (e.clientY - rect.top) * (H / rect.height);
+  // If closer to horizontal center, add H-line; else V-line
+  const distToHCenter = Math.abs(mx - W/2) / W;
+  const distToVCenter = Math.abs(my - H/2) / H;
+  if (distToHCenter < distToVCenter) {
+    hLines.push(Math.round(my));
+    hLines.sort((a,b) => a-b);
+    statusL.textContent = `Added H-line at y=${Math.round(my)}`;
+  } else {
+    vLines.push(Math.round(mx));
+    vLines.sort((a,b) => a-b);
+    statusL.textContent = `Added V-line at x=${Math.round(mx)}`;
+  }
+  drawAll(); updateInfo();
+});
+
+canvas.addEventListener('mousemove', e => {
+  const rect = canvas.getBoundingClientRect();
+  const scaleX = W / rect.width, scaleY = H / rect.height;
+  const mx = (e.clientX - rect.left) * scaleX;
+  const my = (e.clientY - rect.top) * scaleY;
+  
+  if (dragging) {
+    if (dragging.type === 'h') {
+      hLines[dragging.index] = Math.max(1, Math.min(H-1, Math.round(my)));
+    } else {
+      vLines[dragging.index] = Math.max(1, Math.min(W-1, Math.round(mx)));
+    }
+    drawAll(); updateInfo();
+  } else {
+    // Hover highlight
+    const newHover = hitTestLine(mx, my);
+    const changed = JSON.stringify(newHover) !== JSON.stringify(hoveredLine);
+    if (changed) {
+      hoveredLine = newHover;
+      canvas.style.cursor = newHover ? (newHover.type === 'h' ? 'ns-resize' : 'ew-resize') : 'crosshair';
+      drawAll();
+    }
+  }
+});
+
+// Touch support
+function getCanvasXY(e) {
+  const rect = canvas.getBoundingClientRect();
+  const touch = e.touches ? e.touches[0] : e;
+  const mx = (touch.clientX - rect.left) * (W / rect.width);
+  const my = (touch.clientY - rect.top) * (H / rect.height);
+  return {mx, my};
+}
+
+canvas.addEventListener('touchstart', e => {
+  e.preventDefault();
+  const {mx, my} = getCanvasXY(e);
+  const hit = hitTestLine(mx, my);
+  if (hit) { dragging = hit; }
+}, {passive: false});
+
+canvas.addEventListener('touchmove', e => {
+  e.preventDefault();
+  if (!dragging) return;
+  const {mx, my} = getCanvasXY(e);
+  if (dragging.type === 'h') hLines[dragging.index] = Math.max(1, Math.min(H-1, Math.round(my)));
+  else vLines[dragging.index] = Math.max(1, Math.min(W-1, Math.round(mx)));
+  drawAll(); updateInfo();
+}, {passive: false});
+
+canvas.addEventListener('touchend', e => {
+  if (dragging) { hLines.sort((a,b)=>a-b); vLines.sort((a,b)=>a-b); }
+  dragging = null;
+  drawAll();
+});
+
+canvas.addEventListener('mouseup', () => {
+  if (dragging) { hLines.sort((a,b)=>a-b); vLines.sort((a,b)=>a-b); }
+  dragging = null;
+});
+canvas.addEventListener('mouseleave', () => { dragging = null; hoveredLine = null; drawAll(); });
+
+// Add lines
+document.getElementById('btnAddH').onclick = () => {
+  hLines.push(Math.round(H / 2));
+  hLines.sort((a,b) => a - b);
+  drawAll(); updateInfo();
+};
+document.getElementById('btnAddV').onclick = () => {
+  vLines.push(Math.round(W / 2));
+  vLines.sort((a,b) => a - b);
+  drawAll(); updateInfo();
+};
+
+// EQUALIZE: Figma-style equal spacing
+function equalizeH() {
+  if (hLines.length < 1 || !H) return;
+  const n = hLines.length + 1; // number of rows
+  hLines = [];
+  for (let i = 1; i < n; i++) hLines.push(Math.round(i * H / n));
+  drawAll(); updateInfo();
+  statusL.textContent = `H-lines equalized: ${n} rows, ${Math.round(H/n)}px each`;
+}
+function equalizeV() {
+  if (vLines.length < 1 || !W) return;
+  const n = vLines.length + 1;
+  vLines = [];
+  for (let i = 1; i < n; i++) vLines.push(Math.round(i * W / n));
+  drawAll(); updateInfo();
+  statusL.textContent = `V-lines equalized: ${n} cols, ${Math.round(W/n)}px each`;
+}
+document.getElementById('btnEqH').onclick = equalizeH;
+document.getElementById('btnEqV').onclick = equalizeV;
+
+// SNAP ALL: snap each line to nearest uniform grid position
+function snapAll() {
+  if (hLines.length > 0) {
+    const n = hLines.length + 1;
+    hLines = hLines.map((y, i) => Math.round((i + 1) * H / n));
+  }
+  if (vLines.length > 0) {
+    const n = vLines.length + 1;
+    vLines = vLines.map((x, i) => Math.round((i + 1) * W / n));
+  }
+  drawAll(); updateInfo();
+  statusL.textContent = `Snapped all lines to uniform grid`;
+}
+document.getElementById('btnSnap').onclick = snapAll;
+
+document.getElementById('btnClearLines').onclick = () => {
+  hLines = []; vLines = []; drawAll(); updateInfo();
+};
+document.getElementById('btnDetect').onclick = autoDetect;
+document.getElementById('btnUniform').onclick = uniformGrid;
+
+// Import JSON grid
+document.getElementById('btnImport').onchange = (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    try {
+      const data = JSON.parse(ev.target.result);
+      if (data.h_lines) hLines = data.h_lines;
+      if (data.v_lines) vLines = data.v_lines;
+      if (data.cols) nColsEl.value = data.cols;
+      if (data.rows) nRowsEl.value = data.rows;
+      drawAll(); updateInfo();
+      statusL.textContent = `Imported grid: ${vLines.length+1}c × ${hLines.length+1}r`;
+    } catch(err) { statusL.textContent = '⚠ Invalid JSON'; }
+  };
+  reader.readAsText(file);
+};
+
+// ── PREVIEW CELLS (with gutter inset) ──
+document.getElementById('btnPreview').onclick = () => {
+  if (!img) return;
+  const xs = [0, ...vLines, W].sort((a,b) => a-b);
+  const ys = [0, ...hLines, H].sort((a,b) => a-b);
+  const g = +(document.getElementById('nGutter')?.value || 0);
+  const cols = xs.length - 1;
+  gridPreview.style.gridTemplateColumns = `repeat(${Math.min(cols, 5)}, 1fr)`;
+  gridPreview.innerHTML = '';
+  
+  let count = 0;
+  const oc = document.createElement('canvas');
+  const octx = oc.getContext('2d');
+  
+  for (let r = 0; r < ys.length - 1; r++) {
+    for (let c = 0; c < xs.length - 1; c++) {
+      // Apply gutter inset
+      const x0 = xs[c] + (c > 0 ? g : 0);
+      const y0 = ys[r] + (r > 0 ? g : 0);
+      const x1 = xs[c+1] - (c < cols-1 ? g : 0);
+      const y1 = ys[r+1] - (r < ys.length-2 ? g : 0);
+      const cw = x1 - x0, ch = y1 - y0;
+      if (cw < 5 || ch < 5) continue;
+      
+      oc.width = cw; oc.height = ch;
+      octx.drawImage(img, x0, y0, cw, ch, 0, 0, cw, ch);
+      
+      const thumb = document.createElement('img');
+      thumb.src = oc.toDataURL('image/png');
+      thumb.title = `Cell [${r},${c}] ${cw}×${ch} @ (${x0},${y0})${g ? ' gutter='+g : ''}`;
+      gridPreview.appendChild(thumb);
+      count++;
+    }
+  }
+  cellInfo.textContent = `${count} cells · ${cols}c × ${ys.length-1}r` + (g ? ` · gutter ${g}px` : '');
+};
+
+// ── EXPORT JSON ──
+document.getElementById('btnExport').onclick = () => {
+  if (!img) return;
+  const xs = [0, ...vLines, W].sort((a,b) => a-b);
+  const ys = [0, ...hLines, H].sort((a,b) => a-b);
+  const g = +(document.getElementById('nGutter')?.value || 0);
+  const cols = xs.length - 1, rows = ys.length - 1;
+  
+  const cells = [];
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < cols; c++) {
+      const x0 = xs[c] + (c > 0 ? g : 0);
+      const y0 = ys[r] + (r > 0 ? g : 0);
+      const x1 = xs[c+1] - (c < cols-1 ? g : 0);
+      const y1 = ys[r+1] - (r < rows-1 ? g : 0);
+      cells.push({row: r, col: c, x: x0, y: y0, w: x1-x0, h: y1-y0});
+    }
+  }
+  
+  const sheetIdx = pick.value !== 'file' ? +pick.value : -1;
+  const data = {
+    sheet: sheetIdx >= 0 ? SHEETS[sheetIdx].id : 'custom',
+    image_width: W, image_height: H,
+    gutter: g,
+    h_lines: hLines.slice().sort((a,b) => a-b),
+    v_lines: vLines.slice().sort((a,b) => a-b),
+    cols: vLines.length + 1,
+    rows: hLines.length + 1,
+    cells: cells
+  };
+  
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `grid_${data.sheet}.json`;
+  a.click();
+  statusL.textContent = `Exported grid_${data.sheet}.json — ${cells.length} cells`;
+};
+
+function updateInfo() {
+  const xs = [0, ...vLines, W].sort((a,b) => a-b);
+  const ys = [0, ...hLines, H].sort((a,b) => a-b);
+  const cols = vLines.length + 1;
+  const rows = hLines.length + 1;
+  
+  const cw = [];
+  for (let i = 0; i < xs.length-1; i++) cw.push(xs[i+1]-xs[i]);
+  const ch = [];
+  for (let i = 0; i < ys.length-1; i++) ch.push(ys[i+1]-ys[i]);
+  
+  const cwMin = Math.min(...cw), cwMax = Math.max(...cw), cwAvg = Math.round(cw.reduce((a,b)=>a+b,0)/cw.length);
+  const chMin = Math.min(...ch), chMax = Math.max(...ch), chAvg = Math.round(ch.reduce((a,b)=>a+b,0)/ch.length);
+  const cwSpread = cwMax - cwMin;
+  const chSpread = chMax - chMin;
+  
+  gridInfo.innerHTML = `<b>${cols}c × ${rows}r = ${cols*rows} cells</b><br>` +
+    `Col W: ${cwMin}–${cwMax} (avg ${cwAvg}, spread ${cwSpread})<br>` +
+    `Row H: ${chMin}–${chMax} (avg ${chAvg}, spread ${chSpread})<br>` +
+    `<span style="color:${cwSpread<5?'#4c4':'#c94'}">Col uniformity: ${cwSpread<5?'●':'○'} ${cwSpread}px</span> ` +
+    `<span style="color:${chSpread<10?'#4c4':'#c94'}">Row uniformity: ${chSpread<10?'●':'○'} ${chSpread}px</span>`;
+  nColsEl.value = cols;
+  nRowsEl.value = rows;
+}
+
+// ── KEYBOARD ──
+document.addEventListener('keydown', e => {
+  if (e.key === 'd' || e.key === 'D') autoDetect();
+  if (e.key === 'u' || e.key === 'U') uniformGrid();
+  if (e.key === 'p' || e.key === 'P') document.getElementById('btnPreview').click();
+  if (e.key === 'e') equalizeH();
+  if (e.key === 'E') equalizeV();
+  if (e.key === 'x' || e.key === 'X') document.getElementById('btnExport').click();
+});
+
+// Load first sheet
+pick.value = 0;
+pick.onchange();
+</script>
+</body>
+</html>

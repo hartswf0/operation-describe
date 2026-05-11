@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE COMPILED SHIELD — A Worldtext Process Viewer</title>
+<meta name="description" content="Process viewer for operative ekphrasis: Homer's Shield of Achilles through source, prompt, BEFLIX code, contact sheet, and vision model.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;background:#fff;color:#000}
+
+/* HEADER */
+.hdr{height:56px;background:#000;color:#fff;display:flex;align-items:center;padding:0 16px;justify-content:space-between;border-bottom:3px solid #000}
+.hdr h1{font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+.hdr .sub{font-size:9px;opacity:.6;text-transform:uppercase;letter-spacing:.05em}
+
+/* TAB BAR */
+.tabs{display:flex;height:36px;border-bottom:3px solid #000;background:#fff}
+.tab{flex:1;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;border-right:1px solid #000;background:#fff;color:#000;border:none;border-right:1px solid #000;transition:background .1s}
+.tab:last-child{border-right:0}
+.tab:hover{background:#eee}
+.tab.on{background:#000;color:#fff}
+
+/* PANELS */
+.panels{height:calc(100% - 92px);overflow:hidden;position:relative}
+.panel{position:absolute;inset:0;overflow-y:auto;padding:0;display:none}
+.panel.on{display:block}
+.panel::-webkit-scrollbar{width:8px}
+.panel::-webkit-scrollbar-thumb{background:#000}
+
+/* CONTENT BLOCKS */
+.claim{background:#000;color:#fff;padding:20px 24px;font-size:12px;line-height:1.7;font-weight:700;border-bottom:3px solid #000}
+.claim em{font-style:normal;opacity:.6}
+
+.block{padding:20px 24px;border-bottom:2px solid #000}
+.block h2{font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px;border-bottom:2px solid #000;padding-bottom:6px}
+.block h3{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;margin:16px 0 8px}
+.block p{font-size:12px;line-height:1.7;margin-bottom:10px}
+
+/* CODE DISPLAY */
+.codeWrap{background:#f5f5f5;border:2px solid #000;padding:12px;max-height:400px;overflow-y:auto;font-size:10px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;margin:10px 0}
+.codeWrap.loading{color:#888;font-style:italic}
+
+/* IMAGE GRIDS */
+.imgRow{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin:10px 0;border:2px solid #000}
+.imgRow.triple{grid-template-columns:1fr 1fr 1fr}
+.imgCard{position:relative;background:#f5f5f5;overflow:hidden}
+.imgCard img{display:block;width:100%;height:auto}
+.imgCard .cap{padding:6px 8px;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.04em;border-top:2px solid #000;background:#fff}
+.imgCard.missing{display:flex;align-items:center;justify-content:center;min-height:120px;background:#eee;font-size:10px;font-weight:900;color:#888}
+
+/* BRANCH LABELS */
+.branchLabel{display:inline-block;padding:2px 8px;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;border:2px solid #000;margin-bottom:8px}
+.branchLabel.a{background:#000;color:#fff}
+.branchLabel.b{background:#fff;color:#000}
+
+/* CHAIN DIAGRAM */
+.chain{display:flex;flex-wrap:wrap;gap:0;align-items:stretch;margin:16px 0;border:2px solid #000}
+.chain .step{flex:1;min-width:100px;padding:10px;text-align:center;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.04em;border-right:2px solid #000;display:flex;flex-direction:column;justify-content:center;gap:4px}
+.chain .step:last-child{border-right:0}
+.chain .step .arrow{font-size:14px;opacity:.4}
+.chain .step.highlight{background:#000;color:#fff}
+
+/* SECTION CARDS */
+.secCards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px;margin:10px 0;border:2px solid #000}
+.secCard{background:#fff;padding:12px;border-right:2px solid #000;cursor:pointer;transition:background .1s}
+.secCard:hover{background:#f5f5f5}
+.secCard:last-child{border-right:0}
+.secCard .num{font-size:16px;font-weight:900;margin-bottom:4px}
+.secCard .name{font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}
+
+/* LOAD BUTTON */
+.loadBtn{display:block;width:100%;padding:12px;background:#000;color:#fff;border:0;font:inherit;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;margin:8px 0}
+.loadBtn:hover{opacity:.8}
+
+/* SECTION DETAIL VIEW */
+.secDetail{border:2px solid #000;margin:10px 0;padding:0}
+.secDetail .secH{background:#000;color:#fff;padding:8px 12px;font-size:11px;font-weight:900;text-transform:uppercase}
+.secDetail .secB{padding:12px}
+
+/* PAPER MAP */
+.paperMap{margin:10px 0}
+.paperRow{display:grid;grid-template-columns:80px 1fr 1fr;border-bottom:1px solid #000;min-height:40px}
+.paperRow.hdr{font-weight:900;font-size:9px;text-transform:uppercase;background:#000;color:#fff;border-bottom:2px solid #000}
+.paperRow>div{padding:8px 10px;font-size:11px;display:flex;align-items:center}
+.paperRow>div:not(:last-child){border-right:1px solid #000}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+    <div>
+        <h1>THE COMPILED SHIELD</h1>
+        <div class="sub">A Worldtext Process Viewer for Operative Ekphrasis</div>
+    </div>
+    <div class="sub">Hartsoe &amp; Bolter · 2026</div>
+</div>
+
+<div class="tabs" id="tabs">
+    <button class="tab on" data-t="thesis">Thesis</button>
+    <button class="tab" data-t="source">Source</button>
+    <button class="tab" data-t="compile">Compile</button>
+    <button class="tab" data-t="execute">Execute</button>
+    <button class="tab" data-t="rehydrate">Rehydrate</button>
+    <button class="tab" data-t="paper">Paper</button>
+</div>
+
+<div class="panels">
+
+<!-- ═══ THESIS ═══ -->
+<div class="panel on" id="p-thesis">
+    <div class="claim">
+        "This is not AI illustrating Homer. This is Homeric ekphrasis used as a test system for description becoming world."
+    </div>
+    <div class="block">
+        <h2>The Compilation Chain</h2>
+        <p>The paper's empirical claim rests on a single pipeline. The Shield of Achilles—often invoked as the origin of Western ekphrasis—is not treated as an image prompt. It is treated as a <strong>compilation problem</strong>.</p>
+        <div class="chain">
+            <div class="step"><span>Source Text</span><span class="arrow">→</span></div>
+            <div class="step"><span>Prompt Grammar</span><span class="arrow">→</span></div>
+            <div class="step highlight"><span>BEFLIX Code</span><span class="arrow">→</span></div>
+            <div class="step"><span>ABC-Flix Viewer</span><span class="arrow">→</span></div>
+            <div class="step"><span>Contact Sheet</span><span class="arrow">→</span></div>
+            <div class="step"><span>Vision Model</span><span class="arrow">→</span></div>
+            <div class="step"><span>Paper Argument</span></div>
+        </div>
+    </div>
+    <div class="block">
+        <h2>Core Theoretical Claims</h2>
+        <p>"The direct image prompt gives us the shield as surface. The compilation pipeline gives us the shield as process."</p>
+        <p>"The contact sheet is the missing middle between imagetext and worldtext."</p>
+        <p>"BEFLIX is a symbolic bottleneck: it forces description to become inspectable temporal structure."</p>
+        <p>"ABC-Flix is the interpreter: it turns symbolic commands into visible time."</p>
+        <p>"The vision model does not originate the world; it rehydrates a skeleton already shaped by source, prompt, code, and contact sheet."</p>
+    </div>
+    <div class="block">
+        <h2>Neurosymbolic Resonance</h2>
+        <p>The key concept is the preservation of structure across two generative regimes:</p>
+        <p><strong>1. Neural / Probabilistic:</strong> LLMs, Gemini, image models, latent interpolation, platform realism.</p>
+        <p><strong>2. Symbolic / Deterministic:</strong> BEFLIX code, ABC-Flix execution, frame-by-frame dot-matrix rendering, inspectable coordinates.</p>
+        <p>The same Homeric shield-world survives across both regimes as: zones, operations, motion, sequence, world-structure.</p>
+    </div>
+    <div class="block">
+        <h2>Two Branches</h2>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;border:2px solid #000">
+            <div style="padding:12px">
+                <span class="branchLabel a">Branch A — Whole Shield</span>
+                <p>The entire Homeric passage compiled as one BEFLIX animation. 85 frames, one contact sheet, one vision image.</p>
+            </div>
+            <div style="padding:12px;border-left:2px solid #000">
+                <span class="branchLabel b">Branch B — Six Scenes</span>
+                <p>The passage segmented into six zones. Each compiled, executed, and rehydrated independently. Six pipelines, six contact sheets.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══ SOURCE ═══ -->
+<div class="panel" id="p-source">
+    <div class="claim">
+        "The Shield of Achilles is not simply an image inside a poem. It is a compressed worldtext."
+        <em> — Cosmos, two cities, law, war, agriculture, cattle, sheep, dance, Ocean rim.</em>
+    </div>
+    <div class="block">
+        <h2>Whole Shield Source (a-full-source.md)</h2>
+        <span class="branchLabel a">Branch A</span>
+        <p>The complete Buckley (1851) translation, presented as a single unbroken text—the way a whole-shield prompt would consume it.</p>
+        <div class="codeWrap loading" id="src-full">Loading a-full-source.md…</div>
+    </div>
+    <div class="block">
+        <h2>Segmented Shield Source (a-source.md)</h2>
+        <span class="branchLabel b">Branch B</span>
+        <p>The same text divided into six named zones, each of which becomes a separate compilation unit.</p>
+        <div class="codeWrap loading" id="src-seg">Loading a-source.md…</div>
+    </div>
+</div>
+
+<!-- ═══ COMPILE ═══ -->
+<div class="panel" id="p-compile">
+    <div class="claim">
+        "BEFLIX is a symbolic bottleneck: it forces description to become inspectable temporal structure."
+    </div>
+    <div class="block">
+        <h2>The Prompt (a-prompt.md)</h2>
+        <p>This is a compiler instruction, not a request for a pretty image. It specifies a target language (BEFLIX-128), a grid (128×96), intensity levels (0–7), and cinematic constraints.</p>
+        <div class="codeWrap loading" id="src-prompt">Loading a-prompt.md…</div>
+    </div>
+    <div class="block">
+        <h2>Compiled Output — BEFLIX Code</h2>
+        <p>Select a section to load its BEFLIX code. Each file is the output of passing the source text through the prompt grammar.</p>
+        <div class="secCards" id="codeCards"></div>
+        <div class="codeWrap" id="codeDisplay" style="min-height:200px">← Select a section above to load its BEFLIX code</div>
+        <button class="loadBtn" id="openInAbcFlix" style="display:none" onclick="openAbc()">▶ OPEN IN ABC-FLIX VIEWER</button>
+    </div>
+</div>
+
+<!-- ═══ EXECUTE ═══ -->
+<div class="panel" id="p-execute">
+    <div class="claim">
+        "ABC-Flix is the interpreter: it turns symbolic commands into visible time."
+        <em> — The contact sheet is visible time and the missing middle between imagetext and worldtext.</em>
+    </div>
+    <div class="block">
+        <h2>Contact Sheets — Whole Shield</h2>
+        <span class="branchLabel a">Branch A</span>
+        <div class="imgRow">
+            <div class="imgCard">
+                <img src="00-the-shield-ABC_SHEET_85f.png" alt="Whole shield contact sheet, 85 frames" loading="lazy">
+                <div class="cap">00 — Whole Shield · 85 frames · Contact Sheet</div>
+            </div>
+            <div class="imgCard">
+                <img src="00-the-shield.png" alt="Whole shield vision model output" loading="lazy">
+                <div class="cap">00 — Whole Shield · Vision Model Rehydration</div>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <h2>Contact Sheets — Six Scenes</h2>
+        <span class="branchLabel b">Branch B</span>
+        <div class="imgRow triple">
+            <div class="imgCard">
+                <img src="01-Construction-and-Cosmic-Design/01-cosmic-design.png" alt="Section 01 contact sheet" loading="lazy">
+                <div class="cap">01 · Cosmic Design · Contact Sheet</div>
+            </div>
+            <div class="imgCard">
+                <img src="02-Two-Cities-Peace-and-Law/ABC_SHEET_60f (2).png" alt="Section 02 contact sheet" loading="lazy">
+                <div class="cap">02 · Peace &amp; Law · 60 frames</div>
+            </div>
+            <div class="imgCard">
+                <img src="03-Two-Cities-War-and-Ambush/ABC_SHEET_78f.png" alt="Section 03 contact sheet" loading="lazy">
+                <div class="cap">03 · War &amp; Ambush · 78 frames</div>
+            </div>
+            <div class="imgCard">
+                <img src="04-Labors-of-the-Field/ABC_SHEET_76f.png" alt="Section 04 contact sheet" loading="lazy">
+                <div class="cap">04 · Labors · 76 frames</div>
+            </div>
+            <div class="imgCard">
+                <img src="05-Cattle-Lions-and-Sheep/05-cattle-and-lions.png" alt="Section 05 contact sheet" loading="lazy">
+                <div class="cap">05 · Cattle &amp; Lions · Contact Sheet</div>
+            </div>
+            <div class="imgCard">
+                <img src="06-Dance-and-Ocean-Rim/06-dance.png" alt="Section 06 contact sheet" loading="lazy">
+                <div class="cap">06 · Dance &amp; Ocean Rim · Contact Sheet</div>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <button class="loadBtn" onclick="window.open('abc-flix-pro-viewer.html','_blank')">▶ OPEN ABC-FLIX PRO VIEWER</button>
+    </div>
+</div>
+
+<!-- ═══ REHYDRATE ═══ -->
+<div class="panel" id="p-rehydrate">
+    <div class="claim">
+        "The vision model does not originate the world; it rehydrates a skeleton already shaped by source, prompt, code, and contact sheet."
+    </div>
+    <div class="block">
+        <h2>Vision Model Rehydrations</h2>
+        <p>Each contact sheet was fed to Gemini as a visual prompt. The model interprets the dot-matrix skeleton and produces a material image. The image is the afterimage—not the proof.</p>
+        <div class="imgRow triple">
+            <div class="imgCard">
+                <img src="01-Construction-and-Cosmic-Design/01-cosmic-gemini.png" alt="01 Gemini rehydration" loading="lazy">
+                <div class="cap">01 · Cosmic Design · Gemini</div>
+            </div>
+            <div class="imgCard">
+                <img src="02-Two-Cities-Peace-and-Law/02-bride-law-Gemini_Generated_Image_6oi6ce6oi6ce6oi6.jpeg" alt="02 Gemini rehydration" loading="lazy">
+                <div class="cap">02 · Peace &amp; Law · Gemini</div>
+            </div>
+            <div class="imgCard">
+                <img src="03-Two-Cities-War-and-Ambush/Gemini_Generated_Image_2ylbjn2ylbjn2ylb.jpeg" alt="03 Gemini rehydration" loading="lazy">
+                <div class="cap">03 · War &amp; Ambush · Gemini</div>
+            </div>
+            <div class="imgCard">
+                <img src="04-Labors-of-the-Field/Gemini_Generated_Image_ffbktcffbktcffbk.jpeg" alt="04 Gemini rehydration" loading="lazy">
+                <div class="cap">04 · Labors · Gemini</div>
+            </div>
+            <div class="imgCard">
+                <img src="05-Cattle-Lions-and-Sheep/Gemini_Generated_Image_5kxfd95kxfd95kxf.jpeg" alt="05 Gemini rehydration" loading="lazy">
+                <div class="cap">05 · Cattle &amp; Lions · Gemini</div>
+            </div>
+            <div class="imgCard missing">
+                ⚠ 06 · Dance &amp; Ocean Rim · NO GEMINI IMAGE
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <h2>Whole Shield — Full Pipeline</h2>
+        <p>The complete shield, compiled and rehydrated as a single unit:</p>
+        <div class="imgRow">
+            <div class="imgCard">
+                <img src="00-the-shield-ABC_SHEET_85f.png" alt="Contact sheet" loading="lazy">
+                <div class="cap">Contact Sheet (symbolic) → </div>
+            </div>
+            <div class="imgCard">
+                <img src="00-the-shield.png" alt="Vision output" loading="lazy">
+                <div class="cap">→ Vision Rehydration (neural)</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══ PAPER ═══ -->
+<div class="panel" id="p-paper">
+    <div class="claim">
+        "The direct image prompt gives us the shield as surface. The compilation pipeline gives us the shield as process."
+    </div>
+    <div class="block">
+        <h2>Where This Evidence Sits in the Paper</h2>
+        <p>The paper "From Imagetext to Worldtext: Generative AI as Operative Ekphrasis" moves through five argument stages. The Compiled Shield provides the empirical hinge at stages 3–5.</p>
+        <div class="paperMap">
+            <div class="paperRow hdr"><div>§</div><div>Section</div><div>Shield Evidence</div></div>
+            <div class="paperRow"><div>§1</div><div>Introduction</div><div>—</div></div>
+            <div class="paperRow"><div>§2</div><div>Operative Ekphrasis and the Imagetext</div><div>Bajohr's "collapse" → the shield as imagetext</div></div>
+            <div class="paperRow" style="background:#f5f5f5"><div><strong>§3</strong></div><div><strong>Prompting as Performance and Thick Description</strong></div><div><strong>The prompt (a-prompt.md) as thick description. The BEFLIX grammar as compiled ekphrasis.</strong></div></div>
+            <div class="paperRow" style="background:#f5f5f5"><div><strong>§4</strong></div><div><strong>The Shield as Performance and Process</strong></div><div><strong>Homer describes process, not product. BEFLIX enacts the same: frame-by-frame, zone-by-zone.</strong></div></div>
+            <div class="paperRow"><div>§5</div><div>The Shield and the Natural Sign</div><div>Krieger's "illusion of the natural sign" → platform realism vs. symbolic skeleton</div></div>
+            <div class="paperRow" style="background:#f5f5f5"><div><strong>§6</strong></div><div><strong>The Shield as Worldtext</strong></div><div><strong>The shield is not an image. It is a compressed world model: zones, rules, memory, consequence. The contact sheet proves it.</strong></div></div>
+            <div class="paperRow"><div>§7</div><div>Conclusion</div><div>Worldtext = description that compiles into rules, memory, affordance, and consequence</div></div>
+        </div>
+    </div>
+    <div class="block">
+        <h2>The Argument Chain</h2>
+        <div class="chain">
+            <div class="step"><span>Ancient Ekphrasis</span><span style="font-size:8px;opacity:.5">makes mental image</span></div>
+            <div class="step"><span>Operative Ekphrasis</span><span style="font-size:8px;opacity:.5">makes computed image</span></div>
+            <div class="step"><span>Thick Prompting</span><span style="font-size:8px;opacity:.5">makes iterative process</span></div>
+            <div class="step highlight"><span>Compiled Workflow</span><span style="font-size:8px;opacity:.5">makes inspectable code</span></div>
+            <div class="step"><span>Worldtext</span><span style="font-size:8px;opacity:.5">makes rules + consequence</span></div>
+        </div>
+        <p>The BEFLIX/ABC-Flix pipeline is the empirical hinge. It proves that the shield can be treated not as an image prompt but as a compilation problem.</p>
+    </div>
+</div>
+
+</div><!-- /panels -->
+
+<script>
+/* ── TAB SWITCHING ─────────────────────────────────────────── */
+var tabs = document.querySelectorAll('.tab');
+var panels = document.querySelectorAll('.panel');
+tabs.forEach(function(t) {
+    t.addEventListener('click', function() {
+        tabs.forEach(function(x) { x.classList.remove('on'); });
+        panels.forEach(function(x) { x.classList.remove('on'); });
+        t.classList.add('on');
+        var p = document.getElementById('p-' + t.dataset.t);
+        if (p) p.classList.add('on');
+    });
+});
+
+/* ── LOAD TEXT FILES ───────────────────────────────────────── */
+function loadText(url, targetId, maxLines) {
+    var el = document.getElementById(targetId);
+    if (!el) return;
+    fetch(url).then(function(r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.text();
+    }).then(function(text) {
+        var lines = text.split('\n');
+        if (maxLines && lines.length > maxLines) {
+            text = lines.slice(0, maxLines).join('\n') + '\n\n… [' + (lines.length - maxLines) + ' more lines]';
+        }
+        el.textContent = text;
+        el.classList.remove('loading');
+    }).catch(function(e) {
+        el.textContent = '⚠ Could not load ' + url + ' (' + e.message + ')\n\nTo load files, run: python3 -m http.server\nin the HOLD directory, then open http://localhost:8000/COMPILED_SHIELD_PROCESS_VIEWER.html';
+        el.classList.remove('loading');
+    });
+}
+
+loadText('a-full-source.md', 'src-full');
+loadText('a-source.md', 'src-seg');
+loadText('a-prompt.md', 'src-prompt');
+
+/* ── BEFLIX CODE CARDS ─────────────────────────────────────── */
+var SECTIONS = [
+    { num: '00', name: 'Whole Shield', file: '00-the-shield-abc-macro (16).txt' },
+    { num: '01', name: 'Cosmic Design', file: '01-Construction-and-Cosmic-Design/01-cosmic-abc-macro (19).txt' },
+    { num: '02', name: 'Peace & Law', file: '02-Two-Cities-Peace-and-Law/02-brides-lawabc-macro (13).txt' },
+    { num: '03', name: 'War & Ambush', file: '03-Two-Cities-War-and-Ambush/03-cities-war-abc-macro (14).txt' },
+    { num: '04', name: 'Labors', file: '04-Labors-of-the-Field/04-labors-abc-macro (15).txt' },
+    { num: '05', name: 'Cattle & Lions', file: '05-Cattle-Lions-and-Sheep/05-lion-abc-macro (18).txt' },
+    { num: '06', name: 'Dance & Rim', file: '06-Dance-and-Ocean-Rim/06_DANCE_abc-macro (17).txt' }
+];
+
+var cardsEl = document.getElementById('codeCards');
+var currentCodeFile = null;
+
+SECTIONS.forEach(function(s, i) {
+    var card = document.createElement('div');
+    card.className = 'secCard';
+    card.innerHTML = '<div class="num">' + s.num + '</div><div class="name">' + s.name + '</div>';
+    card.addEventListener('click', function() {
+        currentCodeFile = s.file;
+        var display = document.getElementById('codeDisplay');
+        display.textContent = 'Loading ' + s.file + '…';
+        display.classList.add('loading');
+        document.getElementById('openInAbcFlix').style.display = 'block';
+        loadText(s.file, 'codeDisplay', 200);
+    });
+    cardsEl.appendChild(card);
+});
+
+/* ── OPEN IN ABC-FLIX ──────────────────────────────────────── */
+function openAbc() {
+    window.open('abc-flix-pro-viewer.html', '_blank');
+}
+</script>
+</body>
+</html>

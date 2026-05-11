@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>COMPILATION RESONANCE — Operative Ekphrasis Process Paper</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;font-family:monospace}
+
+/* SPLIT PANE */
+.split{display:flex;height:100%}
+.left{flex:0 0 50%;height:100%;overflow-y:auto;background:#f9f6f0;color:#1a1a1a;padding:40px 32px 80px;font-family:'EB Garamond',Georgia,serif;border-right:3px solid #000}
+.right{flex:0 0 50%;height:100%;overflow-y:auto;background:#0a0a0f;color:#e0e0d8;font-family:'JetBrains Mono',monospace}
+
+/* LEFT — PAPER */
+.left::-webkit-scrollbar{width:6px}
+.left::-webkit-scrollbar-thumb{background:#ccc}
+.paperH{font-size:22px;font-weight:600;margin:32px 0 12px;line-height:1.3}
+.paperS{font-size:17px;font-weight:500;margin:28px 0 10px;border-bottom:1px solid #ddd;padding-bottom:6px}
+.paperHR{border:none;border-top:1px solid #ddd;margin:20px 0}
+.paperA{font-size:14px;margin:8px 0}
+.paperP{font-size:15px;line-height:1.8;margin:10px 0;text-align:justify;hyphens:auto}
+.rt{cursor:pointer;border-bottom:2px solid #c9a84c;transition:background .15s}
+.rt:hover{background:rgba(201,168,76,.2)}
+.rt.active{background:rgba(201,168,76,.35);padding:0 2px}
+
+/* RIGHT — PIPELINE */
+.right::-webkit-scrollbar{width:6px}
+.right::-webkit-scrollbar-thumb{background:#333}
+.rHdr{background:#000;padding:12px 16px;border-bottom:2px solid #333;position:sticky;top:0;z-index:10}
+.rHdr h1{font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;color:#fff;margin-bottom:6px}
+
+/* ZONE TABS */
+.zTabs{display:flex;flex-wrap:wrap;gap:2px}
+.zt{background:#111;color:#777;border:1px solid #333;padding:4px 8px;font:inherit;font-size:9px;font-weight:700;cursor:pointer;text-transform:uppercase}
+.zt.on{background:#c9a84c;color:#000;border-color:#c9a84c}
+.zt:hover{color:#fff}
+
+/* VIEW TABS */
+.vTabs{display:flex;gap:0;margin:0;border-bottom:2px solid #333}
+.vt{flex:1;padding:8px;text-align:center;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;background:#0a0a0f;color:#555;border:none;border-right:1px solid #222}
+.vt.on{color:#c9a84c;border-bottom:2px solid #c9a84c}
+.vt:hover{color:#aaa}
+.vPanel{display:none;padding:16px}
+.vPanel.on{display:block}
+
+/* PIPELINE VIEW */
+.pipeStep{border:1px solid #333;margin:10px 0;overflow:hidden}
+.pipeH{background:#1a1a1a;padding:8px 12px;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;color:#c9a84c;display:flex;justify-content:space-between}
+.pipeB{padding:12px}
+.pipeCode{background:#111;border:1px solid #222;padding:10px;font-size:10px;line-height:1.5;max-height:300px;overflow-y:auto;white-space:pre-wrap;word-wrap:break-word;color:#aaa}
+.pipeCode.loading{color:#555;font-style:italic}
+.pipeImg{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.pipeImg img{width:100%;height:auto;display:block}
+.pipeCap{font-size:8px;font-weight:700;text-transform:uppercase;color:#555;padding:4px 6px;text-align:center;background:#111}
+.pipeBlend{position:relative;overflow:hidden}
+.pipeBlend img{display:block;width:100%}
+.blendSlider{position:absolute;top:0;left:50%;width:50%;height:100%;overflow:hidden;border-left:2px solid #c9a84c}
+.blendSlider img{position:absolute;top:0;right:0;width:200%;height:100%;object-fit:cover}
+.blendHandle{position:absolute;top:0;bottom:0;width:2px;background:#c9a84c;cursor:ew-resize}
+
+/* BEFLIX CANVAS */
+.bflixWrap{text-align:center;margin:8px 0}
+.bflixWrap canvas{border:1px solid #333;image-rendering:pixelated;background:#000}
+.bflixBtn{background:#1a1a1a;color:#aaa;border:1px solid #333;padding:6px 12px;font:inherit;font-size:9px;cursor:pointer;margin:4px}
+.bflixBtn:hover{color:#fff}
+
+/* COMIC PAGE */
+.comic-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px}
+.comic-cell{background:#111;border:1px solid #333;overflow:hidden}
+.comic-label{padding:6px 8px;font-size:9px;font-weight:900;text-transform:uppercase;color:#c9a84c;border-bottom:1px solid #333}
+.comic-pair{display:grid;grid-template-columns:1fr 1fr;gap:1px}
+.comic-img{position:relative}
+.comic-img img{display:block;width:100%;height:auto}
+.comic-cap{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.8);color:#888;font-size:7px;font-weight:900;text-align:center;padding:2px;text-transform:uppercase}
+.comic-img.missing{display:flex;align-items:center;justify-content:center;min-height:80px;background:#1a1a1a;color:#555;font-size:9px;font-weight:900}
+
+/* TIMELINE */
+.tl-track{display:flex;gap:2px;overflow-x:auto;padding-bottom:8px}
+.tl-zone{flex:0 0 180px;background:#111;border:1px solid #333;padding:8px;text-align:center}
+.tl-label{font-size:20px;font-weight:900;color:#c9a84c}
+.tl-name{font-size:8px;font-weight:700;text-transform:uppercase;color:#777;margin-bottom:8px}
+.tl-step img{width:100%;height:auto;border:1px solid #333;margin-bottom:4px}
+.tl-step.missing{min-height:60px;background:#1a1a1a;display:flex;align-items:center;justify-content:center;color:#555;font-size:10px;border:1px solid #333}
+.tl-arrow{color:#c9a84c;font-size:14px;margin:4px 0}
+
+/* PRINT */
+@media print{
+  .split{display:block}
+  .left{display:none}
+  .right{width:100%;overflow:visible;background:#fff;color:#000}
+  .comic-grid{grid-template-columns:repeat(2,1fr)}
+  .comic-label{color:#000}
+  .pipeCap{color:#000}
+}
+</style>
+</head>
+<body>
+<div class="split">
+
+<!-- LEFT: PAPER -->
+<div class="left" id="paper">
+<h2 class="paperH">From Imagetext to Worldtext: Generative AI as Operative Ekphrasis</h2>
+<p class="paperA"><strong>By Watson Hartsoe &amp; Jay David Bolter</strong></p>
+<hr class="paperHR">
+<h3 class="paperS">Abstract</h3>
+<p class="paperP">Generative AI platforms use prompts to create images, videos, and interactive media. The act of prompting can be understood as a new form of ekphrasis — the ancient literary practice of vivid description. The crucial difference is that unlike traditional ekphrastic poetry and prose, the ekphrasis of prompting is, as Hannes Bajohr has argued, &quot;operative&quot;: the text not only describes an image but generates it, collapsing the traditional distinction between the verbal and the visual. Prompt and image together constitute an imagetext, which W. J. T. Mitchell and others have suggested has always been an imagined goal of ekphrasis. Yet this paper argues that the imagetext is already being exceeded. As generative systems move from still images to<span class="rt" data-z="03">war</span>d video, simulation, and interactive environments, the critical problem shifts from whether language can produce images to whether language can help constitute worlds. This paper proposes **worldtext** as a threshold concept for this transition. The argument develops through three linked ideas: operative ekphrasis, thick prompting, and worldtext. It then turns to Homer&#x27;s <span class="rt" data-z="00">Shield of Achilles</span> as a pre-computational model of world-bearing description — not merely a famous ekphrastic object, but a compressed world-system whose structure anticipates the architecture of contemporary world models.</p>
+<hr class="paperHR">
+<h3 class="paperS">1. The Operative Turn and the Obsolescence of the Imagetext</h3>
+<p class="paperP">The old ekphrastic question asked whether words could make readers see. Generative AI appears to answer yes: the word becomes the picture. However, that answer is already obsolete. The decisive shift is not from word to image but from word to world model. Prompting is becoming a cumulative, procedural, and increasingly spatial practice in which description no longer points at a world from outside. Description helps constitute the world&#x27;s operating conditions.</p>
+<p class="paperP">To grasp this shift, we must first dismantle a specific critical history. For the better part of the twentieth century, the dominant theoretical framework for ekphrasis was governed by a profound and deliberate narrowing of the concept. As established by Leo Spitzer&#x27;s influential 1955 analysis of John Keats&#x27;s &quot;Ode on a Grecian Urn,&quot; ekphrasis was strictly redefined as the &quot;poetic description of a pictorial or sculptural work of art.&quot; This formalist constraint, later codified by James A. W. Heffernan as the &quot;verbal representation of visual representation,&quot; effectively concealed the original operativity of the ancient rhetorical practice. By restricting ekphrasis to the verbal representation of a static visual artifact, twentieth-century literary criticism forced the concept into a rigid medial boundary, emphasizing the friction, intermedial tension, and ultimate impossibility of perfectly translating visuality into text. This era produced rich analyses of literary pictorialism and spatial form, yet it fundamentally obscured the productive, world-building capacity of the word.</p>
+<p class="paperP">However, as classical scholars and rhetoricians have demonstrated, the ancient Greek definition of ekphrasis, rooted in the *progymnasmata* — the foundational rhetorical exercises of antiquity — did not require a work of art as its subject. As Ruth Webb (1999) has shown, ancient ekphrasis was defined not by its object but by its function: *enargeia*, or vividness, and its operative capacity to bring a subject — whether a battle, a person, or a place — before the eyes of the audience. It was a technology of production, not merely of representation. The digital age catalyzed a gradual return to this performative understanding long before the arrival of modern large language models. As Renate Brosch argues, digital ekphrasis operates as a &quot;performative strategy&quot; that transforms language into something dynamically experienced and inhabitable. In the context of multimodal AI, the description of a visual object is no longer a rhetorical illusion but a literal, computational execution.</p>
+<p class="paperP">Three terms organize this paper&#x27;s argument. *Operative ekphrasis*, following Bajohr (2024), names the first threshold: the moment when textual description became computationally executable, collapsing what had been a semiotic gap between word and image into a single generative operation. In the multidimensional latent space of a diffusion model, words and images are mapped into the same mathematical vectors. *Thick prompting*, drawing on Clifford Geertz&#x27;s (1973) concept of thick description, names the practice through which users negotiate the layered cultural codes already embedded in generative models. *Worldtext* names the threshold now emerging: the point at which operative ekphrasis extends beyond the generated image and to<span class="rt" data-z="03">war</span>d the generated world — an environment that persists in time, responds to interaction, and is governed by constraints that function less like captions and more like constitutions.</p>
+<p class="paperP">The <span class="rt" data-z="00">Shield of Achilles</span> is the hinge between these concepts. The shield is not the first great ekphrasis. It is a miniature world model. Homer&#x27;s description does not only render an object; it organizes a cosmos of <span class="rt" data-z="03">war</span>, labor, law, agriculture, <span class="rt" data-z="06">dance</span>, weather, sea, and divine making. The shield is therefore the bridge between operative ekphrasis and worldtext: a described artifact that already behaves like a world-bearing system.</p>
+<p class="paperP">Worldtext is not a rival term for world model. Worldtext names the moment when description becomes an interface to a world model. That distinction matters because it keeps the humanistic question alive inside the technical one: not simply *how* does the model generate a world, but *what kind of world* does the description authorize?</p>
+<hr class="paperHR">
+<h3 class="paperS">2. Prompting as Performance and Thick Description</h3>
+<p class="paperP">Prompting is a process, even when it begins with a single exchange of word and image. A user writes a prompt; the system returns an image. But the simplicity of this exchange is deceptive, because users seldom stop there. They revise the prompt, regenerate the image, change the medium, add a reference image, alter a style, or ask the model to explain how the prompt should be rewritten. The operative unit is therefore not the single prompt. The operative unit is the loop. Oppenlaender (2022–2024) documents this loop as a co-creative ecosystem of iterative experimentation. PromptMagician (Lin et al., 2024) formalizes the diagnostic cycle: users inspect returned images, identify where the model defaulted, and compose the next prompt against what they learned.</p>
+<p class="paperP">This performative character links operative ekphrasis to the older rhetorical tradition of the *progymnasmata*. In that tradition, ekphrasis was not primarily a finished literary object. It was an exercise in vividness, delivery, and rhetorical force — meant to be performed before an audience and judged by its capacity to make something absent appear. As Quintilian insisted (*Inst. Or.* 6.2), generation must begin first in the orator&#x27;s imagination. Twentieth-century literary criticism, by contrast, often treated ekphrasis through the finished poem: the &quot;well-wrought urn,&quot; to use Cleanth Brooks&#x27;s famous phrase, becomes an emblem of completed verbal art. Operative ekphrasis shifts the emphasis back to<span class="rt" data-z="03">war</span>d process. The prompt is not a finished urn. It is an instruction, a performance score, a speculative command.</p>
+<p class="paperP">Understanding the constraints of this environment fundamentally changes how one must approach prompting. A prompt does not enter an empty machine. It enters a system already thick with captions, images, styles, genres, metadata, interface defaults, safety constraints, platform habits, and cultural residues. As Roland Meyer has argued in his analysis of &quot;platform realism,&quot; the operative space of generative models is composed of invisible flows of contextual data and the blind statistical processing of bil<span class="rt" data-z="05">lions</span> of pre-existing image-text pairs. The visible world enters the latent space not as a direct simulation but as a faint, mathematically distorted echo mediated by massive, structurally biased training datasets. The aesthetics produced by these systems are governed by a paradigm that privileges the &quot;sayable&quot; over the &quot;visible&quot;: visual output is entirely dependent on what can be formulated in text. Recent research into the alignment of large language models has demonstrated that relying on superficial demographic proxies fails to capture the deeply nuanced nature of human cultures; AI systems must produce &quot;thick outputs&quot; that reflect deeper cultural meanings grounded in user-provided context and intent (Orlowski et al., 2025).</p>
+<p class="paperP">We suggest the term *thick prompting* for this increasingly layered practice. The term deliberately echoes Clifford Geertz&#x27;s &quot;thick description&quot; (1973), but the point is not to import anthropology wholesale into prompt engineering. Geertz is useful here because he treats description as an engagement with layered codes rather than as a neutral recording of surface behavior. A wink, a twitch, and a parody of a wink may look similar, but they belong to different symbolic orders. Description becomes thick when it tries to account for those orders. Prompting becomes thick for a related reason: a prompt probes a model&#x27;s accumulated semantic, visual, stylistic, and cultural associations. The user writes into a system already saturated with prior images, texts, genres, clichés, historical styles, and platform conventions. The prompt must therefore negotiate with layers of latent coding.</p>
+<p class="paperP">The difference between thin and thick prompting is not length but situated pressure.</p>
+<p class="paperP">A thin prompt says: &quot;Make Achilles&#x27; shield.&quot;</p>
+<p class="paperP">A thick prompt says: &quot;Make the shield as a worked bronze world being fabricated scene by scene, not as a fantasy emblem. Let the surface hold sky, city, field, law, <span class="rt" data-z="06">dance</span>, harvest, <span class="rt" data-z="03">war</span>, and <span class="rt" data-z="06">Ocean</span> as an ordered cosmos. Avoid heroic poster composition. Treat the shield as a world-bearing artifact whose scenes imply motion, institutions, labor, ritual, and fate.&quot;</p>
+<p class="paperP">The thin prompt treats the model as a vending machine. It names a subject and trusts the system&#x27;s defaults. But the defaults are never neutral. The model fills silence with what it has learned to expect: generic gloss, familiar compositions, inherited clichés, dominant visual styles, and platform-friendly compromises. Simonen et al. (2025) demonstrate this empirically: when prompts fail to grip the system, default images recur across unrelated inputs. The archive always goes first. The thick prompt gives the system enough organized constraint to move the result away from generic visual habit and to<span class="rt" data-z="03">war</span>d a specific world of relations. It tells the model what to preserve, what to resist, what to foreground, and what to suppress. It does not trust the default. It prunes the default.</p>
+<p class="paperP">As prompting has developed into a community of practice, this score has become increasingly elaborate. Skilled practitioners rarely rely on a single phrase. They prompt iteratively, test variants, use images to generate images, combine verbal and visual constraints, and compose prompts as structured files, scripts, or code. Even before generative AI, digital media theorists were arguing for the multimodality or intermediality of digital ekphrasis (Brosch, 2018) as well as for ekphrasis as performance. Metaprompting — the writing of prompts that generate or revise other prompts — makes explicit what is already implicit in much generative practice: the prompt is no longer simply a sentence addressed to a machine (Zhang, Yuan, and Yao, 2025). It is a procedural apparatus for producing further acts of description.</p>
+<p class="paperP">This is why there is no final perfect prompt. Generative models are probabilistic rather than symbolic rule books. Prompting them is therefore approximate, iterative, and open-ended. The prompter does not retrieve a known object from a database. The prompter performs a series of operations on a field of possibility. Each output reveals another mismatch between user intention and model tendency. Each revision becomes another test of the relation between description and production.</p>
+<p class="paperP">The crucial point is not that prompting is &quot;creative&quot; or &quot;participatory&quot; — that claim is too weak. The crucial point is that prompting shifts ekphrasis away from the finished artifact and to<span class="rt" data-z="03">war</span>d the conditions of generation. A prompt does not evoke an image. It probes a model. It discovers a platform&#x27;s defaults. It exposes the distance between what the user says and what the system can operationalize. In thick prompting, description becomes a way of steering generation. The image is not the product. The image is feedback. Thick prompting names this unfinished condition: ekphrasis after the image has become feedback.</p>
+<hr class="paperHR">
+<h3 class="paperS">3. The Shield of Achilles as Worldtext</h3>
+<p class="paperP">The <span class="rt" data-z="00">Shield of Achilles</span> should not enter this argument as a famous example. It should enter as the model.</p>
+<p class="paperP">As classical scholars have remarked, the shield occupies a position both within and beyond the narrative of the poem (Taplin, 1980). The *Iliad* narrates a brief period in the tenth and final year of the Trojan War. The shield, however, does not depict that <span class="rt" data-z="03">war</span>. It gathers a whole Homeric world: earth, sky, sea, <span class="rt" data-z="01">constellations</span>, cities, fields, <span class="rt" data-z="04">vineyard</span>s, <span class="rt" data-z="06">dance</span>s, lawsuits, marriages, <span class="rt" data-z="03">ambush</span>es, harvests, and war. Its rim is <span class="rt" data-z="06">Ocean</span>, the boundary of the world itself. The shield is an object made for Achilles, but the object bears a cosmos.</p>
+<p class="paperP">Homer&#x27;s text does not depict a picture. It depicts a world. The shield has cosmology (earth, sky, sea, sun, moon, <span class="rt" data-z="01">constellations</span>). It has governance (a legal dispute adjudicated in a public assembly). It has ecology (plowing, harvest, <span class="rt" data-z="04">vineyard</span>, <span class="rt" data-z="05">cattle</span> herding). It has culture (a wedding procession, festive dancing). And it has a boundary condition — the great river of <span class="rt" data-z="06">Ocean</span> at the rim, the edge beyond which the world-model has no data. These are not merely scenes arranged on a surface. They are the constitutive elements of a world: the physics that govern it, the social order that organizes it, the productive cycles that sustain it, the rituals that celebrate it, and the limit that defines where it ends.</p>
+<p class="paperP">This compression reverses the relation between macrocosm and microcosm. The Trojan War is only one episode within the larger Greek epic universe. Yet Homer places an image of that universe on a shield inside the <span class="rt" data-z="03">war</span>. The whole world appears within the weapon of one man. The shield is therefore both artifact and model: a made thing that contains the conditions under which many other things — war, peace, marriage, judgment, labor, <span class="rt" data-z="06">dance</span> — can appear together. It is not merely descriptive. It is constitutive. It tells us what kind of world the poem believes can exist.</p>
+<p class="paperP">Homer&#x27;s description also renders process rather than product. As Lessing analyzed centuries ago, Homer avoids static description by rendering making as it unfolds in time. Scene follows scene. Region joins region. The shield accumulates a world through fabrication. Hephaestus makes the shield scene by scene; Homer makes the shield line by line. The ekphrasis is constructive, not merely representational. Following Albert Lord (1960), the oral-formulaic tradition was itself a generative system, producing probabilistic variants of inherited materials rather than identical copies. Both Homer and the generative model work through inherited material under constraint.</p>
+<p class="paperP">This distinction — between depicting a scene and specifying a world — maps onto a distinction now emerging within generative AI research: the distinction between an *image model* and a *world model*. An image model (DALL·E, Midjourney, Stable Diffusion) takes a text prompt and generates a static two-dimensional image. The prompt specifies a scene; the model renders it. The output is an imagetext in Mitchell&#x27;s sense: word and image merged into a single artifact. But the output is flat. It has no physics. It has no temporal extension. Nothing in it moves, decays, or responds to further input.</p>
+<p class="paperP">A world model is a fundamentally different kind of system. In the machine learning literature, the term originates with Ha and Schmidhuber (2018), who proposed that intelligent agents learn compressed spatiotemporal representations of their environments — internal simulations that allow the agent to predict, plan, and act without direct sensory access to the world at every moment. A world model is not a picture of the world. It is a predictive engine for the world — a learned model of how states succeed one another in time, how actions produce consequences, and how the environment responds to intervention. Crucially, Ha and Schmidhuber&#x27;s architecture comprises three core components: a Vision model that compresses high-dimensional observations into a compact latent vector, a Memory model that predicts future states as probability distributions, and a Controller that maps the current vision and memory states to action. Homer&#x27;s shield anticipates this tripartite structure. The visual descriptions of the metalwork parallel the Vision model, providing the sensory surface. The procedural algorithms of the harvest, the battle, and the trial function as the Memory model, predicting how the environment changes over time. The <span class="rt" data-z="03">war</span>rior who carries the shield, or the audience who visualizes it, functions as the Controller, learning to navigate the complexities of mortal life by exploring the world generated by the artifact.</p>
+<p class="paperP">The concept has since been extended from reinforcement learning to generative systems. LeCun (2022) proposed world models as the foundation for a new architecture of machine intelligence, and recent work at Google DeepMind (Genie and Genie 2; Bruce et al., 2024) and at World Labs demonstrates that generative systems can now produce not just images but navigable, interactive, spatiotemporal environments from text or image prompts. Genie 2 is an 11-billion parameter foundation world model that generates an endless variety of action-controllable, playable 3D environments from a single text or image prompt. It maintains visual consistency while simulating the consequences of user actions and can even model and predict the behavior of other agents within the generated environment. Similarly, World Labs has developed systems predicated on &quot;Spatial Intelligence&quot; that construct highly detailed 3D scenes with depth, lighting, geometry data, and exportable meshes from text prompts.</p>
+<p class="paperP">The shift from image model to world model recapitulates the shift from imagetext to worldtext. An image model generates an imagetext: a prompt produces a scene. A world model generates a worldtext: a prompt produces an environment — one that persists in time, responds to interaction, and is governed by learned or specified constraints. The worldtext is not a bigger imagetext. It is a qualitatively different object. The imagetext merges word and image into a single artifact. The worldtext merges word, image, space, time, interaction, and governance into a single environment. Moretti (1996) had already named this ambition in his reading of the epic, calling it directly a &quot;world text&quot; — a textual artifact compressing a totality of social relations onto a single bounded surface.</p>
+<p class="paperP">Image generation asked: what can a sentence make visible? World generation asks: what can a sentence make habitable?</p>
+<p class="paperP">The shield already stages this distinction. Homer does not only describe what the shield looks like. He describes how its scenes unfold. The scenes imply movement. The wedding procession moves. The <span class="rt" data-z="06">dance</span>rs turn. The farmers cut. The armies clash. The legal dispute unfolds. The harvest advances. The ocean surrounds. The shield&#x27;s world is not frozen; it is in motion. But the shield also clarifies why the probabilistic is not sufficient. The world on the shield is both dreamed and legislated. The visual richness of the scenes — golden vines, silver fish, dancers in fine linen — is poetic and evocative, activating the listener&#x27;s imagination. But the structure of the world — cosmology at center, <span class="rt" data-z="06">Ocean</span> at rim, human society organized between — is architectural and rule-governed. Homer&#x27;s shield is a neurosymbolic hybrid avant la lettre (cf. Garcez and Lamb, 2023). The emerging world models exhibit the same structure: they generate surfaces probabilistically while relying on deterministic engines for physics, collision, and spatial consistency. They dream the world&#x27;s appearance and legislate the world&#x27;s behavior.</p>
+<p class="paperP">Thick prompting is a key aspect of these world model generators. Even if the user provides only a short verbal prompt, the generator depends on an elaborate set of system prompts that provide context to guide and constrain the model, not to mention sophisticated procedural programming to provide physics and interactivity. These system prompts are the constitution of the worldtext — the governing instructions that specify what the world permits, what it forbids, what it defaults to, and how it responds to user input. The user&#x27;s prompt is the thin surface; the system prompt stack is the thick infrastructure beneath it. Description becomes powerful not when it depicts surfaces but when it organizes conditions.</p>
+<p class="paperP">The prompt is not sovereign. The prompt is one operator among many. It collaborates with system prompts, training data, latent visual conventions, safety filters, physics engines, interface affor<span class="rt" data-z="06">dance</span>s, and procedural rules. Worldtext names the hanging-together of these elements. It gives us a way to study not only what the generated world looks like but how description becomes one component in a larger world-making apparatus.</p>
+<p class="paperP">The shield is not a world because it can be navigated computationally. It is a world because it organizes a totality of relations. A world is not a larger image. A world is an image under conditions: rules, durations, permissions, refusals, paths, boundaries, memory, and consequence. Without consequence, worldtext is only scenery with ambition.</p>
+<p class="paperP">The analogy should remain controlled. Current world-model platforms do not yet fulfill the fantasy of complete verbal world creation. The genie is out of the bottle, but the world is not yet stable. Generated worlds remain partial, inconsistent, platform-bound, and heavily dependent on hidden scaffolding. The apparent magic of &quot;word to world&quot; is therefore supported by an immense technical and symbolic infrastructure. That infrastructure is exactly why worldtext matters. It does not name a fantasy fulfilled. It names a threshold crossed.</p>
+<hr class="paperHR">
+<h3 class="paperS">4. Conclusion: Where Ekphrasis No Longer Ends</h3>
+<p class="paperP">Ekphrasis once asked whether words could make an audience see. Operative ekphrasis asks what happens when words make images. Worldtext asks the next question: what happens when words help generate worlds?</p>
+<p class="paperP">This paper has traced a single operation across three thresholds. The first threshold is ancient: the *progymnasmata* taught students to perform language that produces visual experience in the listener&#x27;s mind. That threshold was concealed by the modern narrowing of ekphrasis from production to representation and recovered by Bajohr&#x27;s concept of operative ekphrasis. The second threshold is contemporary: generative AI materializes the ekphrastic operation computationally, collapsing word and image into the latent space of a multimodal model. Prompt and image form the imagetext that Mitchell theorized but could not yet see built. The third threshold is emergent: as generative systems move from image models to world models, operative ekphrasis extends beyond the image and to<span class="rt" data-z="03">war</span>d the environment. The prompt becomes not a description of a scene but a specification of a world&#x27;s operating conditions.</p>
+<p class="paperP">Homer&#x27;s <span class="rt" data-z="00">Shield of Achilles</span> makes all three thresholds visible in a single artifact. The shield is ekphrasis because it turns language into vivid visual experience. It is imagetext because it merges verbal description and imagined visual form into a single compound. And it is worldtext because it does not depict a scene but specifies a world — a world with cosmology, governance, ecology, culture, and a boundary condition. The shield is the ancient figure for the contemporary transition.</p>
+<p class="paperP">Thick prompting names the practice that links these thresholds. It explains how users negotiate the layered cultural codes embedded in generative models by revising, constraining, probing, and steering their outputs. In image generation, thick prompting helps produce more determinate images. In world generation, thick prompting begins to specify the conditions under which an environment can persist and change. Thick prompting is the bridge between operative ekphrasis and worldtext because it shows how description becomes operational structure.</p>
+<p class="paperP">But the fantasy remains unstable. The prompt does not become a natural sign. The prompt does not transparently become the world. It enters a model trained on prior images, captions, styles, defaults, and procedures. The resulting world is not pure creation. It is cumulative. It is platformed. It is made from the sediment of other descriptions and other images. A generated world needs more than appearance; it needs consequence. As Davis (2015) argues, the desire to speak worlds into being carries theological residue that generative interfaces have made frictionless without making innocent. The politics of a worldtext do not appear only in its visible content. They appear in affor<span class="rt" data-z="06">dance</span>s: what the world allows, what it remembers, what it makes easy, what it makes impossible, what it treats as natural, and what it renders unthinkable. Homer&#x27;s shield already stages this. What is present — marriage, law, agriculture, dance — is a claim about what belongs together. What is absent — slavery, disease, famine — is a claim about what the available grammar renders unimaginable.</p>
+<p class="paperP">The concepts introduced here — operative ekphrasis, thick prompting, imagetext, worldtext — are likely to grow and diverge as the technologies develop. We do not expect these concepts to remain stable. We expect them to be productive — to open doors for work that we cannot foresee. The paper stops where the door opens, not because there is nothing more to say, but because there is too much.</p>
+<p class="paperP">Operative ekphrasis names the first threshold: description becomes image-making. Worldtext names the next: description begins to operate on world models. For now, the <span class="rt" data-z="00">Shield of Achilles</span> lets us see the continuity between an ancient ekphrastic ambition and a contemporary technical one — the desire for words not merely to picture a world but to make one available. Once the image can be entered, the old question returns in a harsher form: what kind of life has the description authorized?</p>
+<p class="paperP">Human beings once asked language to preserve the world. Now they ask language to generate one. The wish has changed less than we think.</p>
+</div>
+
+<!-- RIGHT: PIPELINE -->
+<div class="right">
+<div class="rHdr">
+<h1>COMPILATION RESONANCE — Pipeline Forge</h1>
+<div class="zTabs" id="zTabs"><button class="zt on" data-z="00">00 Whole Shield</button><button class="zt" data-z="01">01 Cosmic Design</button><button class="zt" data-z="02">02 Peace & Law</button><button class="zt" data-z="03">03 War & Ambush</button><button class="zt" data-z="04">04 Labors</button><button class="zt" data-z="05">05 Cattle & Lions</button><button class="zt" data-z="06">06 Dance & Rim</button></div>
+</div>
+<div class="vTabs">
+<button class="vt on" data-v="pipeline">Pipeline</button>
+<button class="vt" data-v="comic">Comic Page</button>
+<button class="vt" data-v="timeline">Timeline</button>
+</div>
+
+<!-- PIPELINE VIEW -->
+<div class="vPanel on" id="v-pipeline">
+<div class="pipeStep">
+<div class="pipeH"><span>① SEMANTIC SOURCE</span><span id="zLabel">ZONE 00</span></div>
+<div class="pipeB"><div class="pipeCode" id="pSrc">Text without headings
+
+Create the shield described below. Make the image as faithful and detailed as possible. 
+
+&quot;First of all he formed a shield, both large and solid, adorning it all over; and around it he threw a shining border, triple, glittering; and from it [suspended] a silver belt. Five were the folds of the shield itself; but on it he formed many ornaments with cunning skill. On it he wrought the earth, and the heaven, and the sea, the unwearied sun, and the full moon; on it also, all the constellations with which the heaven is crowned, the Pleiades, the Hyades, and the might of Orion, and the Bear, which they also call by the appellation of the Wain, which there revolves, and watches Orion; but it alone is without a share of the baths of the ocean.&quot;
+&quot;On it also he fashioned two beautiful cities of articulate-speaking men. In the one, indeed, were marriages and feasts; and they were conducting the brides from their chambers through the city with brilliant torches, and many a bridal song was raised. The young men were dancing in a circle, and among them flutes and lyres gave forth their sounds; and the women standing, each at her portals, admired. But the people were assembled in the forum, for there a strife had arisen, and two men strove for the ransom-money of a slain man; the one affirmed that he had paid all, appealing to the people, but the other denied that he had received any thing; and both wished to find a termination [of the dispute] before a judge. The people shouted to both, supporters on either side; and the heralds reined in the people; but the elders sat upon polished stones in a sacred circle, and held in their hands the staves of the loud-shouting heralds; with these then they arose, and adjudged in turn. But there lay in the midst two talents of gold, to give to him who should pronounce a judgment the most correctly.&quot;
+&quot;But around the other city sat two armies of people, glittering in arms; and a plan was agreeable …</div></div>
+</div>
+<div class="pipeStep">
+<div class="pipeH"><span>② PROMPT ENGINE</span><span>a-prompt.md</span></div>
+<div class="pipeB"><div class="pipeCode">You are a BEFLIX-128 animation composer. You generate frame-by-frame animation code for a 128-wide x 96-tall monochrome dot-matrix grid.
+
+COMMANDS (output ONLY these, one per line):
+  CLR v           — Fill entire grid with intensity v
+  PNT x y w h v   — Paint rectangle at (x,y) with width w, height h, intensity v
+  LIN x1 y1 x2 y2 v — Draw line from (x1,y1) to (x2,y2) in intensity v
+  REC n           — Record current grid state as n frames (higher n = longer hold)
+  SHF dx dy n     — Shift all pixels by (dx,dy) and record n frames
+
+INTENSITY: 0=White(no dot) 1=Tiny dot 2-3=Small 4-5=Medium 6=Large 7=Full black dot
+
+CINEMATIC RULES:
+1. Build each frame from scratch using CLR then layered PNT/LIN. Do NOT rely only on SHF.
+2. Use REC with VARYING values: REC 1 for fast action, REC 3-5 for holds, REC 8-15 for pauses.
+3. Layer multiple PNT commands per frame for depth. Use intensity variation for shading.
+4. Move objects smoothly: change x,y by small increments (1-4 pixels) for fluid motion.
+5. Use LIN for outlines, contours, and fine details. Use PNT for mass and fills.
+6. At least 8-12 distinct visual states. Total REC should sum to 40-120 frames.
+7. Use intensity gradient: value 1-2 for background haze, 4-5 for midground, 6-7 for foreground detail.
+8. Think cinematically: establish, build, climax, resolve.
+
+OUTPUT: Use C for comment lines. Output ONLY raw BEFLIX code. NO markdown. NO backticks.</div></div>
+</div>
+<div class="pipeStep">
+<div class="pipeH"><span>③ SYMBOLIC CODE (B-FLIX)</span><span id="codeLabel"></span></div>
+<div class="pipeB">
+<div class="pipeCode loading" id="pCode">Select a zone to load BEFLIX code…</div>
+<div class="bflixWrap">
+<canvas id="bflix" width="128" height="96" style="width:384px;height:288px"></canvas>
+<div><button class="bflixBtn" onclick="renderBflix()">▶ RENDER FIRST FRAME</button>
+<button class="bflixBtn" onclick="window.open('abc-flix-pro-viewer.html')">OPEN ABC-FLIX</button></div>
+</div>
+</div>
+</div>
+<div class="pipeStep">
+<div class="pipeH"><span>④ CONTACT SHEET (DETERMINISTIC)</span><span>The missing middle</span></div>
+<div class="pipeB"><img id="pSheet" src="00-the-shield-ABC_SHEET_85f.png" style="width:100%;border:1px solid #333" alt="Contact sheet"></div>
+</div>
+<div class="pipeStep">
+<div class="pipeH"><span>⑤ VISION REHYDRATION (PROBABILISTIC)</span><span>The afterimage</span></div>
+<div class="pipeB">
+<div class="pipeImg">
+<div><img id="pSheet2" src="00-the-shield-ABC_SHEET_85f.png" alt="Skeleton"><div class="pipeCap">Symbolic Skeleton</div></div>
+<div><img id="pFlesh" src="00-the-shield.png" alt="Vision"><div class="pipeCap">Neural Flesh</div></div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- COMIC PAGE VIEW -->
+<div class="vPanel" id="v-comic">
+<div style="padding:8px 0;font-size:10px;font-weight:900;color:#c9a84c;text-transform:uppercase;text-align:center;border-bottom:1px solid #333;margin-bottom:8px">
+NEUROSYMBOLIC RESONANCE — CONTACT SHEETS × VISION REHYDRATIONS — PRINT THIS PAGE (Ctrl+P)
+</div>
+<div class="comic-grid"><div class="comic-cell">
+<div class="comic-label">00 · Whole Shield</div>
+<div class="comic-pair">
+<div class="comic-img"><img src="00-the-shield-ABC_SHEET_85f.png" alt="Contact Sheet"><div class="comic-cap">SYMBOLIC</div></div><div class="comic-img"><img src="00-the-shield.png" alt="Vision"><div class="comic-cap">NEURAL</div></div></div></div><div class="comic-cell">
+<div class="comic-label">01 · Cosmic Design</div>
+<div class="comic-pair">
+<div class="comic-img"><img src="01-Construction-and-Cosmic-Design/01-cosmic-design.png" alt="Contact Sheet"><div class="comic-cap">SYMBOLIC</div></div><div class="comic-img"><img src="01-Construction-and-Cosmic-Design/01-cosmic-gemini.png" alt="Vision"><div class="comic-cap">NEURAL</div></div></div></div><div class="comic-cell">
+<div class="comic-label">02 · Peace & Law</div>
+<div class="comic-pair">
+<div class="comic-img"><img src="02-Two-Cities-Peace-and-Law/ABC_SHEET_60f (2).png" alt="Contact Sheet"><div class="comic-cap">SYMBOLIC</div></div><div class="comic-img"><img src="02-Two-Cities-Peace-and-Law/02-bride-law-Gemini_Generated_Image_6oi6ce6oi6ce6oi6.jpeg" alt="Vision"><div class="comic-cap">NEURAL</div></div></div></div><div class="comic-cell">
+<div class="comic-label">03 · War & Ambush</div>
+<div class="comic-pair">
+<div class="comic-img"><img src="03-Two-Cities-War-and-Ambush/ABC_SHEET_78f.png" alt="Contact Sheet"><div class="comic-cap">SYMBOLIC</div></div><div class="comic-img"><img src="03-Two-Cities-War-and-Ambush/Gemini_Generated_Image_2ylbjn2ylbjn2ylb.jpeg" alt="Vision"><div class="comic-cap">NEURAL</div></div></div></div><div class="comic-cell">
+<div class="comic-label">04 · Labors</div>
+<div class="comic-pair">
+<div class="comic-img"><img src="04-Labors-of-the-Field/ABC_SHEET_76f.png" alt="Contact Sheet"><div class="comic-cap">SYMBOLIC</div></div><div class="comic-img"><img src="04-Labors-of-the-Field/Gemini_Generated_Image_ffbktcffbktcffbk.jpeg" alt="Vision"><div class="comic-cap">NEURAL</div></div></div></div><div class="comic-cell">
+<div class="comic-label">05 · Cattle & Lions</div>
+<div class="comic-pair">
+<div class="comic-img"><img src="05-Cattle-Lions-and-Sheep/05-cattle-and-lions.png" alt="Contact Sheet"><div class="comic-cap">SYMBOLIC</div></div><div class="comic-img"><img src="05-Cattle-Lions-and-Sheep/Gemini_Generated_Image_5kxfd95kxfd95kxf.jpeg" alt="Vision"><div class="comic-cap">NEURAL</div></div></div></div><div class="comic-cell">
+<div class="comic-label">06 · Dance & Rim</div>
+<div class="comic-pair">
+<div class="comic-img"><img src="06-Dance-and-Ocean-Rim/06-dance.png" alt="Contact Sheet"><div class="comic-cap">SYMBOLIC</div></div><div class="comic-img missing">⚠ NO IMAGE</div></div></div></div>
+</div>
+
+<!-- TIMELINE VIEW -->
+<div class="vPanel" id="v-timeline">
+<div style="padding:8px 0;font-size:10px;font-weight:900;color:#c9a84c;text-transform:uppercase;text-align:center;border-bottom:1px solid #333;margin-bottom:8px">
+COMPILATION TIMELINE — SOURCE → CODE → CONTACT SHEET → VISION IMAGE
+</div>
+<div class="tl-track"><div class="tl-zone">
+<div class="tl-label">00</div>
+<div class="tl-name">Whole Shield</div>
+<div class="tl-step"><img src="00-the-shield-ABC_SHEET_85f.png" alt="Sheet"></div>
+<div class="tl-arrow">→</div><div class="tl-step"><img src="00-the-shield.png" alt="Vision"></div></div><div class="tl-zone">
+<div class="tl-label">01</div>
+<div class="tl-name">Cosmic Design</div>
+<div class="tl-step"><img src="01-Construction-and-Cosmic-Design/01-cosmic-design.png" alt="Sheet"></div>
+<div class="tl-arrow">→</div><div class="tl-step"><img src="01-Construction-and-Cosmic-Design/01-cosmic-gemini.png" alt="Vision"></div></div><div class="tl-zone">
+<div class="tl-label">02</div>
+<div class="tl-name">Peace & Law</div>
+<div class="tl-step"><img src="02-Two-Cities-Peace-and-Law/ABC_SHEET_60f (2).png" alt="Sheet"></div>
+<div class="tl-arrow">→</div><div class="tl-step"><img src="02-Two-Cities-Peace-and-Law/02-bride-law-Gemini_Generated_Image_6oi6ce6oi6ce6oi6.jpeg" alt="Vision"></div></div><div class="tl-zone">
+<div class="tl-label">03</div>
+<div class="tl-name">War & Ambush</div>
+<div class="tl-step"><img src="03-Two-Cities-War-and-Ambush/ABC_SHEET_78f.png" alt="Sheet"></div>
+<div class="tl-arrow">→</div><div class="tl-step"><img src="03-Two-Cities-War-and-Ambush/Gemini_Generated_Image_2ylbjn2ylbjn2ylb.jpeg" alt="Vision"></div></div><div class="tl-zone">
+<div class="tl-label">04</div>
+<div class="tl-name">Labors</div>
+<div class="tl-step"><img src="04-Labors-of-the-Field/ABC_SHEET_76f.png" alt="Sheet"></div>
+<div class="tl-arrow">→</div><div class="tl-step"><img src="04-Labors-of-the-Field/Gemini_Generated_Image_ffbktcffbktcffbk.jpeg" alt="Vision"></div></div><div class="tl-zone">
+<div class="tl-label">05</div>
+<div class="tl-name">Cattle & Lions</div>
+<div class="tl-step"><img src="05-Cattle-Lions-and-Sheep/05-cattle-and-lions.png" alt="Sheet"></div>
+<div class="tl-arrow">→</div><div class="tl-step"><img src="05-Cattle-Lions-and-Sheep/Gemini_Generated_Image_5kxfd95kxfd95kxf.jpeg" alt="Vision"></div></div><div class="tl-zone">
+<div class="tl-label">06</div>
+<div class="tl-name">Dance & Rim</div>
+<div class="tl-step"><img src="06-Dance-and-Ocean-Rim/06-dance.png" alt="Sheet"></div>
+<div class="tl-arrow">→</div><div class="tl-step missing">⚠</div></div></div>
+</div>
+
+</div>
+</div>
+
+<script>
+var ZONES = [{"id": "00", "name": "Whole Shield", "code": "00-the-shield-abc-macro (16).txt", "sheet": "00-the-shield-ABC_SHEET_85f.png", "flesh": "00-the-shield.png"}, {"id": "01", "name": "Cosmic Design", "code": "01-Construction-and-Cosmic-Design/01-cosmic-abc-macro (19).txt", "sheet": "01-Construction-and-Cosmic-Design/01-cosmic-design.png", "flesh": "01-Construction-and-Cosmic-Design/01-cosmic-gemini.png"}, {"id": "02", "name": "Peace & Law", "code": "02-Two-Cities-Peace-and-Law/02-brides-lawabc-macro (13).txt", "sheet": "02-Two-Cities-Peace-and-Law/ABC_SHEET_60f (2).png", "flesh": "02-Two-Cities-Peace-and-Law/02-bride-law-Gemini_Generated_Image_6oi6ce6oi6ce6oi6.jpeg"}, {"id": "03", "name": "War & Ambush", "code": "03-Two-Cities-War-and-Ambush/03-cities-war-abc-macro (14).txt", "sheet": "03-Two-Cities-War-and-Ambush/ABC_SHEET_78f.png", "flesh": "03-Two-Cities-War-and-Ambush/Gemini_Generated_Image_2ylbjn2ylbjn2ylb.jpeg"}, {"id": "04", "name": "Labors", "code": "04-Labors-of-the-Field/04-labors-abc-macro (15).txt", "sheet": "04-Labors-of-the-Field/ABC_SHEET_76f.png", "flesh": "04-Labors-of-the-Field/Gemini_Generated_Image_ffbktcffbktcffbk.jpeg"}, {"id": "05", "name": "Cattle & Lions", "code": "05-Cattle-Lions-and-Sheep/05-lion-abc-macro (18).txt", "sheet": "05-Cattle-Lions-and-Sheep/05-cattle-and-lions.png", "flesh": "05-Cattle-Lions-and-Sheep/Gemini_Generated_Image_5kxfd95kxfd95kxf.jpeg"}, {"id": "06", "name": "Dance & Rim", "code": "06-Dance-and-Ocean-Rim/06_DANCE_abc-macro (17).txt", "sheet": "06-Dance-and-Ocean-Rim/06-dance.png", "flesh": ""}];
+var currentZone = ZONES[0];
+var loadedCode = '';
+
+/* ZONE SWITCHING */
+document.querySelectorAll('.zt').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.zt').forEach(function(x){x.classList.remove('on')});
+    b.classList.add('on');
+    var z = ZONES.find(function(z){return z.id===b.dataset.z});
+    if(!z) return;
+    currentZone = z;
+    document.getElementById('zLabel').textContent = 'ZONE '+z.id+' — '+z.name;
+    document.getElementById('codeLabel').textContent = z.code;
+    document.getElementById('pSheet').src = z.sheet;
+    document.getElementById('pSheet2').src = z.sheet;
+    if(z.flesh){document.getElementById('pFlesh').src=z.flesh}
+    else{document.getElementById('pFlesh').src=''}
+    // Load source
+    if(z.id==='00'){
+      fetch('a-full-source.md').then(function(r){return r.text()}).then(function(t){
+        document.getElementById('pSrc').textContent=t.substring(0,2000)+'…';
+      }).catch(function(){});
+    }else{
+      fetch('a-source.md').then(function(r){return r.text()}).then(function(t){
+        var idx=parseInt(z.id)-1;
+        var secs=t.split(/(?=The (?:Construction|Two Cities|Labors|Cattle|Dance))/);
+        document.getElementById('pSrc').textContent=(secs[idx]||t).substring(0,2000);
+      }).catch(function(){});
+    }
+    // Load code
+    var cel=document.getElementById('pCode');
+    cel.textContent='Loading '+z.code+'…';
+    cel.classList.add('loading');
+    fetch(z.code).then(function(r){return r.text()}).then(function(t){
+      loadedCode=t;
+      var lines=t.split('\n');
+      cel.textContent=lines.slice(0,150).join('\n')+'\n\n… ['+lines.length+' total lines]';
+      cel.classList.remove('loading');
+    }).catch(function(e){
+      cel.textContent='⚠ Could not load (run python3 -m http.server in HOLD/)';
+      cel.classList.remove('loading');
+    });
+  });
+});
+
+/* VIEW SWITCHING */
+document.querySelectorAll('.vt').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.vt').forEach(function(x){x.classList.remove('on')});
+    document.querySelectorAll('.vPanel').forEach(function(x){x.classList.remove('on')});
+    b.classList.add('on');
+    var p=document.getElementById('v-'+b.dataset.v);
+    if(p)p.classList.add('on');
+  });
+});
+
+/* RESONATE TRIGGERS */
+document.querySelectorAll('.rt').forEach(function(s){
+  s.addEventListener('click',function(){
+    var z=s.dataset.z;
+    document.querySelectorAll('.rt').forEach(function(x){x.classList.remove('active')});
+    s.classList.add('active');
+    var btn=document.querySelector('.zt[data-z="'+z+'"]');
+    if(btn)btn.click();
+  });
+});
+
+/* BEFLIX RENDERER */
+function renderBflix(){
+  if(!loadedCode)return;
+  var canvas=document.getElementById('bflix');
+  var ctx=canvas.getContext('2d');
+  var W=128,H=96;
+  var grid=new Uint8Array(W*H);
+  var GRAYS=[255,220,190,160,128,96,48,0];
+  var lines=loadedCode.split('\n');
+  for(var i=0;i<lines.length&&i<8000;i++){
+    var ln=lines[i].trim();
+    if(!ln||ln[0]==='C'||ln[0]===';'||ln[0]==='@')continue;
+    var p=ln.split(/\s+/);
+    var cmd=p[0];
+    if(cmd==='CLR'){grid.fill(parseInt(p[1])||0)}
+    else if(cmd==='PNT'){
+      var x=parseInt(p[1]),y=parseInt(p[2]),w=parseInt(p[3]),h=parseInt(p[4]),v=parseInt(p[5]);
+      for(var dy=0;dy<h&&dy<H;dy++)for(var dx=0;dx<w&&dx<W;dx++){
+        var px=x+dx,py=y+dy;
+        if(px>=0&&px<W&&py>=0&&py<H)grid[py*W+px]=v;
+      }
+    }
+    else if(cmd==='LIN'){
+      var x0=parseInt(p[1]),y0=parseInt(p[2]),x1=parseInt(p[3]),y1=parseInt(p[4]),v=parseInt(p[5]);
+      var ddx=Math.abs(x1-x0),ddy=Math.abs(y1-y0);
+      var sx=x0<x1?1:-1,sy=y0<y1?1:-1,err=ddx-ddy;
+      for(var s=0;s<500;s++){
+        if(x0>=0&&x0<W&&y0>=0&&y0<H)grid[y0*W+x0]=v;
+        if(x0===x1&&y0===y1)break;
+        var e2=2*err;
+        if(e2>-ddy){err-=ddy;x0+=sx}
+        if(e2<ddx){err+=ddx;y0+=sy}
+      }
+    }
+    else if(cmd==='REC')break;
+  }
+  var img=ctx.createImageData(W,H);
+  for(var j=0;j<W*H;j++){
+    var g=GRAYS[grid[j]||0];
+    img.data[j*4]=g;img.data[j*4+1]=g;img.data[j*4+2]=g;img.data[j*4+3]=255;
+  }
+  ctx.putImageData(img,0,0);
+}
+
+/* AUTO-LOAD ZONE 00 CODE */
+document.querySelector('.zt[data-z="00"]').click();
+</script>
+</body>
+</html>

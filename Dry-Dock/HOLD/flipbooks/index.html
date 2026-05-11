@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SHIELD FLIPBOOK HUB — BEFLIX × GEMINI</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a0a0f;color:#e0e0d8;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;height:100vh;display:flex;flex-direction:column;overflow:hidden}
+
+.hdr{background:#000;color:#fff;padding:8px 16px;display:flex;justify-content:space-between;align-items:center;flex-shrink:0;border-bottom:2px solid #333}
+.hdr h1{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}
+.hdr .sub{font-size:8px;color:#777}
+
+.zBar{display:flex;border-bottom:3px solid #333;flex-shrink:0;background:#111}
+.zBtn{flex:1;padding:7px 4px;text-align:center;font:inherit;font-size:8px;font-weight:900;text-transform:uppercase;letter-spacing:.03em;cursor:pointer;border:none;border-right:1px solid #333;background:#111;color:#777;transition:all .1s}
+.zBtn:last-child{border-right:0}
+.zBtn.on{background:#c9a84c;color:#000}
+.zBtn:hover{color:#fff}
+
+.main{flex:1;display:flex;overflow:hidden}
+
+.pane{flex:1;display:flex;flex-direction:column;overflow:hidden}
+.pane+.pane{border-left:3px solid #333}
+.paneLabel{padding:5px 10px;font-size:8px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;text-align:center;flex-shrink:0;border-bottom:2px solid #333}
+.pane.bflix .paneLabel{background:#000;color:#fff}
+.pane.gem .paneLabel{background:#1a1a1a;color:#c9a84c}
+.viewer{flex:1;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.pane.bflix .viewer{background:#f5f5f5}
+.pane.gem .viewer{background:#0a0a0f}
+.viewer img{max-width:95%;max-height:95%;image-rendering:auto}
+.pane.bflix .viewer img{image-rendering:pixelated}
+.fInfo{position:absolute;bottom:4px;left:4px;padding:2px 6px;font-size:8px;font-weight:900}
+.pane.bflix .fInfo{background:#000;color:#fff}
+.pane.gem .fInfo{background:#c9a84c;color:#000}
+.noData{color:#555;font-size:11px;font-weight:900;text-transform:uppercase}
+.ctrl{padding:6px 8px;flex-shrink:0;display:flex;align-items:center;gap:4px;border-top:2px solid #333;background:#111}
+.ctrl input[type=range]{flex:1;accent-color:#c9a84c}
+.ctrl button{padding:5px 8px;border:0;font:inherit;font-size:9px;font-weight:900;cursor:pointer;text-transform:uppercase}
+.pane.bflix .ctrl button{background:#fff;color:#000}
+.pane.gem .ctrl button{background:#c9a84c;color:#000}
+.ctrl button:hover{opacity:.7}
+.ctrl span{font-size:9px;font-weight:900;min-width:50px;text-align:center}
+.thumbs{height:56px;overflow-x:auto;overflow-y:hidden;display:flex;gap:1px;padding:1px;flex-shrink:0;border-top:1px solid #333;background:#000}
+.thumbs img{height:100%;width:auto;cursor:pointer;opacity:.4;transition:opacity .1s}
+.thumbs img:hover,.thumbs img.on{opacity:1}
+
+.links{flex-shrink:0;display:flex;border-top:2px solid #333;background:#111}
+.links button{flex:1;padding:6px;text-align:center;font:inherit;font-size:8px;font-weight:900;text-transform:uppercase;color:#777;background:#111;border:none;border-right:1px solid #333;cursor:pointer}
+.links button:hover{color:#fff;background:#222}
+.links button:last-child{border-right:0}
+</style>
+</head>
+<body>
+<div class="hdr">
+<h1>SHIELD FLIPBOOK HUB — SYMBOLIC × NEURAL</h1>
+<div class="sub">BEFLIX (left) · Gemini (right) · ←→ scrub · Space play · ↑↓ zone</div>
+</div>
+<div class="zBar" id="zBar"></div>
+<div class="main">
+<div class="pane bflix">
+<div class="paneLabel" id="bLabel">SYMBOLIC — BEFLIX DOT-MATRIX</div>
+<div class="viewer"><img id="bBig" alt=""><div class="fInfo" id="bInfo">—</div></div>
+<div class="ctrl">
+<button onclick="bPrev()">◀</button>
+<button id="bPlayBtn" onclick="bToggle()">▶</button>
+<button onclick="bNext()">▶</button>
+<input type="range" id="bScrub" min="0" max="0" value="0">
+<span id="bCount">0/0</span>
+</div>
+<div class="thumbs" id="bThumbs"></div>
+</div>
+<div class="pane gem">
+<div class="paneLabel" id="gLabel">NEURAL — GEMINI REHYDRATION</div>
+<div class="viewer" id="gViewer"><img id="gBig" alt=""><div class="fInfo" id="gInfo">—</div></div>
+<div class="ctrl">
+<button onclick="gPrev()">◀</button>
+<button id="gPlayBtn" onclick="gToggle()">▶</button>
+<button onclick="gNext()">▶</button>
+<input type="range" id="gScrub" min="0" max="0" value="0">
+<span id="gCount">0/0</span>
+</div>
+<div class="thumbs" id="gThumbs"></div>
+</div>
+</div>
+<div class="links">
+<button onclick="openF('b','mp4')">BEFLIX MP4</button>
+<button onclick="openF('b','gif')">BEFLIX GIF</button>
+<button onclick="openF('b','html')">BEFLIX VIEWER</button>
+<button onclick="openF('g','mp4')">GEMINI MP4</button>
+<button onclick="openF('g','gif')">GEMINI GIF</button>
+<button onclick="openF('g','html')">GEMINI VIEWER</button>
+</div>
+
+<script>
+// ALL FRAME COUNTS BAKED IN — NO FETCH NEEDED
+var ZONES=[
+{id:'00',name:'Whole Shield',bDir:'00-whole-shield',bN:89,gDir:'00-whole-shield-gemini',gN:84},
+{id:'01',name:'Cosmic Design',bDir:'01-cosmic',bN:89,gDir:'01-cosmic-gemini',gN:89},
+{id:'02',name:'Peace & Law',bDir:'02-peace-law',bN:64,gDir:'02-peace-law-gemini',gN:64},
+{id:'03',name:'War & Ambush',bDir:'03-war-ambush',bN:84,gDir:'03-war-ambush-gemini',gN:84},
+{id:'04',name:'Labors',bDir:'04-labors',bN:84,gDir:'04-labors-gemini',gN:84},
+{id:'05',name:'Cattle & Lions',bDir:'05-cattle',bN:89,gDir:'05-cattle-gemini',gN:89},
+{id:'06',name:'Dance & Rim',bDir:'06-dance',bN:89,gDir:null,gN:0}
+];
+
+var zi=0,bCur=0,gCur=0,bN=0,gN=0;
+var bPlay=false,gPlay=false,bTmr=null,gTmr=null;
+
+function pad(i){return String(i).padStart(3,'0')}
+function fSrc(dir,i){return dir+'/frames/frame_'+pad(i)+'.png'}
+
+// Build zone tabs
+var zb=document.getElementById('zBar');
+ZONES.forEach(function(z,i){
+  var b=document.createElement('button');
+  b.className='zBtn'+(i===0?' on':'');
+  b.textContent=z.id+' '+z.name;
+  b.onclick=function(){loadZone(i)};
+  zb.appendChild(b);
+});
+
+function buildThumbs(el,dir,n,goFn){
+  el.innerHTML='';
+  for(var i=0;i<n;i++){
+    var img=document.createElement('img');
+    img.src=fSrc(dir,i);
+    img.dataset.i=i;
+    img.onclick=function(){goFn(parseInt(this.dataset.i))};
+    el.appendChild(img);
+  }
+}
+
+function loadZone(idx){
+  if(bPlay)bToggle();if(gPlay)gToggle();
+  zi=idx;bCur=0;gCur=0;
+  var z=ZONES[idx];
+  bN=z.bN;gN=z.gN;
+
+  document.querySelectorAll('.zBtn').forEach(function(b,i){b.classList.toggle('on',i===idx)});
+  document.getElementById('bLabel').textContent='SYMBOLIC — '+z.id+' '+z.name+' — BEFLIX ('+bN+' frames)';
+  document.getElementById('gLabel').textContent='NEURAL — '+z.id+' '+z.name+' — GEMINI '+(gN?'('+gN+' frames)':'⚠ NONE');
+
+  document.getElementById('bScrub').max=Math.max(0,bN-1);
+  buildThumbs(document.getElementById('bThumbs'),z.bDir,bN,bGo);
+  bGo(0);
+
+  document.getElementById('gScrub').max=Math.max(0,gN-1);
+  if(gN&&z.gDir){
+    document.getElementById('gBig').style.display='';
+    document.getElementById('gInfo').style.display='';
+    buildThumbs(document.getElementById('gThumbs'),z.gDir,gN,gGo);
+    gGo(0);
+  }else{
+    document.getElementById('gBig').style.display='none';
+    document.getElementById('gInfo').textContent='⚠ NO GEMINI FLIPBOOK';
+    document.getElementById('gInfo').style.display='';
+    document.getElementById('gThumbs').innerHTML='<div style="padding:16px;color:#555;font-size:10px;font-weight:900">NO GEMINI IMAGE FOR ZONE '+z.id+'</div>';
+    document.getElementById('gCount').textContent='—';
+  }
+}
+
+function bGo(i){
+  if(!bN)return;
+  bCur=Math.max(0,Math.min(bN-1,i));
+  document.getElementById('bBig').src=fSrc(ZONES[zi].bDir,bCur);
+  document.getElementById('bScrub').value=bCur;
+  document.getElementById('bCount').textContent=bCur+'/'+(bN-1);
+  document.getElementById('bInfo').textContent='FRAME '+bCur+'/'+(bN-1);
+  var th=document.getElementById('bThumbs');
+  th.querySelectorAll('img').forEach(function(x,j){x.classList.toggle('on',j===bCur)});
+  if(th.children[bCur])th.children[bCur].scrollIntoView({block:'nearest',inline:'center'});
+}
+function gGo(i){
+  if(!gN)return;
+  gCur=Math.max(0,Math.min(gN-1,i));
+  document.getElementById('gBig').src=fSrc(ZONES[zi].gDir,gCur);
+  document.getElementById('gScrub').value=gCur;
+  document.getElementById('gCount').textContent=gCur+'/'+(gN-1);
+  document.getElementById('gInfo').textContent='FRAME '+gCur+'/'+(gN-1);
+  var th=document.getElementById('gThumbs');
+  th.querySelectorAll('img').forEach(function(x,j){x.classList.toggle('on',j===gCur)});
+  if(th.children[gCur])th.children[gCur].scrollIntoView({block:'nearest',inline:'center'});
+}
+
+function bNext(){bGo(bCur+1)}function bPrev(){bGo(bCur-1)}
+function gNext(){gGo(gCur+1)}function gPrev(){gGo(gCur-1)}
+
+function bToggle(){
+  bPlay=!bPlay;
+  document.getElementById('bPlayBtn').textContent=bPlay?'⏸':'▶';
+  if(bPlay)bTmr=setInterval(function(){if(bCur>=bN-1)bGo(0);else bNext()},125);
+  else clearInterval(bTmr);
+}
+function gToggle(){
+  if(!gN)return;
+  gPlay=!gPlay;
+  document.getElementById('gPlayBtn').textContent=gPlay?'⏸':'▶';
+  if(gPlay)gTmr=setInterval(function(){if(gCur>=gN-1)gGo(0);else gNext()},167);
+  else clearInterval(gTmr);
+}
+
+function openF(s,t){
+  var z=ZONES[zi];
+  var dir=s==='b'?z.bDir:z.gDir;
+  if(!dir)return;
+  if(t==='mp4')window.open(dir+'/flipbook.mp4');
+  if(t==='gif')window.open(dir+'/flipbook.gif');
+  if(t==='html')window.open(dir+'/flipbook_viewer.html');
+}
+
+document.getElementById('bScrub').oninput=function(){bGo(parseInt(this.value))};
+document.getElementById('gScrub').oninput=function(){gGo(parseInt(this.value))};
+
+document.addEventListener('keydown',function(e){
+  if(e.key==='ArrowRight'){bNext();gNext()}
+  if(e.key==='ArrowLeft'){bPrev();gPrev()}
+  if(e.key===' '){e.preventDefault();bToggle();if(gN)gToggle()}
+  if(e.key==='ArrowUp'){e.preventDefault();if(zi>0)loadZone(zi-1)}
+  if(e.key==='ArrowDown'){e.preventDefault();if(zi<ZONES.length-1)loadZone(zi+1)}
+});
+
+loadZone(0);
+</script>
+</body>
+</html>
