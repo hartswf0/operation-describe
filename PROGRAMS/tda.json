@@ -1,0 +1,789 @@
+<PROGRAM_THEORY name="THICK_DESCRIPTION_AFTER_THE_EVENT">
+
+<PURPOSE>
+  Build a theory-machine for the paper.
+
+  The paper asks:
+
+  How does <meaningful_action> survive after <the_event> disappears?
+
+  Answer:
+
+  <thick_description> [converts
+] <vanishing_public_action>
+  INTO <inscribed_social_discourse>
+  BY [reading
+] <behavior> AS <symbolic_action>
+  THROUGH <public_codes>, <actor_frames>, <power_relations>, and <interpretive_conflicts>.
+
+  The paper’s central claim:
+
+  <culture> is not <behavior>, not <private_mind>, not <total_way_of_life>, not <formal_structure>.
+  <culture> is the <public_context_of_significance> within which <action> becomes legible.
+</PURPOSE>
+
+
+<CORE_PROBLEM>
+  <event> [happens
+]
+  <event> [passes
+]
+  <event> [cannot_be_recovered_as_event
+]
+
+  Therefore:
+
+  <ethnographer> [must_inscribe
+] <the_said_of_the_event>
+
+  But:
+
+  <inscription> is not <neutral_capture>
+  <inscription> is <interpretation_of_interpretations>
+
+  Therefore:
+
+  <anthropological_knowledge> [must_be_appraised
+] by its power to:
+    - [distinguish
+] <wink> FROM <twitch>
+    - [distinguish
+] <gesture> FROM <motion>
+    - [distinguish
+] <case> FROM <microcosm>
+    - [distinguish
+] <trace> FROM <meaning>
+    - [distinguish
+] <interpretation> FROM <fantasy>
+</CORE_PROBLEM>
+
+
+<ENTITIES>
+  <Culture>
+  <Meaning>
+  <PublicMeaning>
+  <Behavior>
+  <Action>
+  <SymbolicAction>
+  <Gesture>
+  <Twitch>
+  <Wink>
+  <FakeWink>
+  <Parody>
+  <Rehearsal>
+  <SheepRaid>
+  <FieldNote>
+  <Event>
+  <Account>
+  <Inscription>
+  <SocialDiscourse>
+  <Actor>
+  <Ethnographer>
+  <Informant>
+  <Code>
+  <Context>
+  <Frame>
+  <InterpretiveFrame>
+  <Misunderstanding>
+  <Power>
+  <Authority>
+  <ColonialAuthority>
+  <Law>
+  <Honor>
+  <TradePact>
+  <Indemnity>
+  <Archive>
+  <Evidence>
+  <Theory>
+  <Case>
+  <ThickDescription>
+  <ThinDescription>
+  <Interpretation>
+  <Appraisal>
+  <Debate>
+  <Prompt>
+  <Interface>
+  <Dataset>
+  <PlatformGesture>
+  <AIOutput>
+  <TechnicalTrace>
+</ENTITIES>
+
+
+<OPERATIONS>
+  [cut_down_to_size
+]
+  [reject_totalization
+]
+  [reject_behaviorism
+]
+  [reject_mentalism
+]
+  [reject_formalism
+]
+  [observe
+]
+  [distinguish
+]
+  [contextualize
+]
+  [read
+]
+  [inscribe
+]
+  [preserve
+]
+  [interpret
+]
+  [diagnose
+]
+  [compare_frames
+]
+  [trace_power
+]
+  [identify_codes
+]
+  [test_meaning
+]
+  [appraise
+]
+  [generalize_within_case
+]
+  [ground_theory
+]
+  [extend_to_AI_media
+]
+  [discipline_abstraction
+]
+  [refine_debate
+]
+</OPERATIONS>
+
+
+<STATES>
+  <event_alive>
+  <event_passing>
+  <event_lost>
+  <behavior_observed>
+  <meaning_unread>
+  <symbolic_action_detected>
+  <code_identified>
+  <frame_collision_detected>
+  <social_discourse_inscribed>
+  <case_thickened>
+  <theory_grounded>
+  <interpretation_appraised>
+  <debate_refined>
+</STATES>
+
+
+<INVARIANTS>
+  <meaning> [is
+] <public>
+  <culture> [is
+] <context_not_cause>
+  <behavior> [is_not
+] <action>
+  <motion> [is_not
+] <gesture>
+  <event> [is_not
+] <account>
+  <field_note> [is_not
+] <raw_data>
+  <inscription> [is_not
+] <neutral_capture>
+  <interpretation> [is_constructed_but_not_false
+]
+  <context> [is_not
+] <background_decoration>
+  <case> [is_not
+] <microcosm>
+  <coherence> [is_not
+] <validity>
+  <theory> [must_hover_low_over
+] <evidence>
+  <small_fact> [speaks_to
+] <large_issue> ONLY_IF [interpreted_thickly
+]
+  <technical_trace> [is_not
+] <meaning>
+  <AI_output> [is_not
+] <self_explaining_object>
+</INVARIANTS>
+
+
+<CONSTRAINTS>
+  DO_NOT [reduce
+] <culture> TO <behavior>
+  DO_NOT [reduce
+] <culture> TO <private_mental_rules>
+  DO_NOT [inflate
+] <culture> INTO <everything>
+  DO_NOT [detach
+] <symbolic_system> FROM <actual_life>
+  DO_NOT [mistake
+] <field_site> FOR <object_of_study>
+  DO_NOT [mistake
+] <small_case> FOR <miniature_world>
+  DO_NOT [mistake
+] <technical_log> FOR <social_meaning>
+  DO_NOT [allow
+] <theory> TO [float_above
+] <case>
+  DO_NOT [remove
+] <power> FROM <meaning>
+  DO_NOT [treat
+] <interpretation> AS <anything_goes>
+</CONSTRAINTS>
+
+
+<MAIN_ENGINE>
+
+  <thin_description_engine>
+    INPUT:
+      <visible_motion>
+
+    OPERATION:
+      <visible_motion> [records_as
+] <behavior>
+
+    OUTPUT:
+      <thin_description>
+
+    FAILURE:
+      <thin_description> [cannot_distinguish
+] <twitch> FROM <wink>
+      <thin_description> [cannot_read
+] <social_code>
+      <thin_description> [cannot_explain
+] <meaning>
+  </thin_description_engine>
+
+
+  <thick_description_engine>
+    INPUT:
+      <visible_motion>
+      <public_code>
+      <actor_frame>
+      <social_context>
+      <institutional_pressure>
+      <history_of_use>
+
+    OPERATION:
+      <visible_motion> [is_read_through
+] <public_code>
+      <public_code> [makes
+] <motion> [count_as
+] <symbolic_action>
+      <symbolic_action> [is_interpreted_within
+] <social_context>
+      <social_context> [is_pressured_by
+] <power>
+      <power> [stabilizes_or_disrupts
+] <valid_meaning>
+
+    OUTPUT:
+      <thick_description>
+  </thick_description_engine>
+
+
+  <wink_machine>
+    INPUT:
+      <eyelid_contraction>
+
+    RULES:
+      IF <eyelid_contraction> [is_involuntary
+]
+        THEN OUTPUT <twitch>
+
+      IF <eyelid_contraction> [uses
+] <public_code>
+      AND <actor> [intends
+] <specific_signal>
+      AND <recipient> [can_read
+] <code>
+        THEN OUTPUT <wink>
+
+      IF <eyelid_contraction> [imitates
+] <wink>
+      AND <purpose> [is
+] <ridicule>
+        THEN OUTPUT <parody>
+
+      IF <eyelid_contraction> [prepares
+] <future_parody>
+        THEN OUTPUT <rehearsal>
+
+      IF <eyelid_contraction> [performs
+] <false_signal>
+      AND <goal> [is
+] <mislead_observer>
+        THEN OUTPUT <fake_wink>
+
+    THEORETICAL_FORCE:
+      <same_motion> [can_become
+] <different_actions>
+      BECAUSE <meaning> [depends_on
+] <public_code>
+  </wink_machine>
+
+
+  <sheep_raid_machine>
+    INPUT:
+      <Cohen_story>
+      <Jewish_trade_frame>
+      <Berber_honor_frame>
+      <French_colonial_frame>
+
+    FRAME_MAP:
+      <Jewish_trade_frame>:
+        <sheep> [count_as
+] <indemnity>
+        <raid> [counts_as
+] <legitimate_claim>
+        <trade_pact> [authorizes
+] <reparative_action>
+
+      <Berber_honor_frame>:
+        <sheep> [count_as
+] <negotiated_responsibility>
+        <raid> [counts_as
+] <challenge_and_settlement>
+        <honor> [requires
+] <recognized_response>
+
+      <French_colonial_frame>:
+        <sheep> [count_as
+] <illegal_disorder>
+        <trade_pact> [counts_as
+] <abolished_practice>
+        <colonial_authority> [claims
+] <right_to_define_law>
+
+    COLLISION:
+      <same_event> [is_read_by
+] <multiple_frames>
+      <multiple_frames> [produce
+] <systematic_misunderstanding>
+      <colonial_authority> [seizes
+] <right_to_define_meaning>
+
+    OUTPUT:
+      <political_semiotics_of_colonial_transition>
+  </sheep_raid_machine>
+
+
+  <inscription_machine>
+    INPUT:
+      <vanishing_event>
+
+    OPERATION:
+      <event> [passes_into
+] <memory>
+      <memory> [passes_into
+] <informant_account>
+      <informant_account> [passes_into
+] <field_note>
+      <field_note> [passes_into
+] <anthropological_text>
+      <anthropological_text> [passes_into
+] <consultable_record>
+
+    OUTPUT:
+      <inscribed_social_discourse>
+
+    CLAIM:
+      <ethnographer> [does_not_capture
+] <event_itself>
+      <ethnographer> [inscribes
+] <said_of_event>
+  </inscription_machine>
+
+
+  <appraisal_machine>
+    INPUT:
+      <interpretation>
+
+    TESTS:
+      IF <interpretation> [only_has
+] <formal_coherence>
+        THEN MARK <weak>
+
+      IF <interpretation> [clarifies
+] <what_action_counts_as>
+      AND <interpretation> [preserves
+] <particularity>
+      AND <interpretation> [identifies
+] <public_codes>
+      AND <interpretation> [traces
+] <power>
+      AND <interpretation> [sharpens
+] <debate>
+        THEN MARK <strong>
+
+    OUTPUT:
+      <appraised_interpretation>
+  </appraisal_machine>
+
+
+  <generalization_machine>
+    INPUT:
+      <small_case>
+
+    WRONG_PATH:
+      <small_case> [is_treated_as
+] <microcosm>
+      OUTPUT <fallacy>
+
+    RIGHT_PATH:
+      <small_case> [concentrates
+] <dense_relations>
+      <dense_relations> [make_visible
+] <large_issue>
+      <large_issue> [is_reached_by
+] <generalizing_within_case>
+
+    OUTPUT:
+      <case_based_theoretical_force>
+  </generalization_machine>
+
+
+  <AI_media_extension_machine>
+    INPUT:
+      <prompt>
+      <interface_action>
+      <dataset_category>
+      <platform_click>
+      <AI_output>
+
+    RULES:
+      <prompt> [is_not
+] <mere_text>
+      <prompt> [may_count_as
+] <command>
+      <prompt> [may_count_as
+] <ritual>
+      <prompt> [may_count_as
+] <test>
+      <prompt> [may_count_as
+] <performance>
+      <prompt> [may_count_as
+] <labor_instruction>
+      <prompt> [may_count_as
+] <policy_probe>
+
+      <interface_action> [is_not
+] <mere_input>
+      <interface_action> [may_count_as
+] <consent>
+      <interface_action> [may_count_as
+] <compliance>
+      <interface_action> [may_count_as
+] <resistance>
+      <interface_action> [may_count_as
+] <play>
+      <interface_action> [may_count_as
+] <attack>
+
+      <dataset_category> [is_not
+] <neutral_label>
+      <dataset_category> [is
+] <inscription_of_prior_social_order>
+
+      <AI_output> [is_not
+] <self_explaining_file>
+      <AI_output> [may_count_as
+] <art>
+      <AI_output> [may_count_as
+] <evidence>
+      <AI_output> [may_count_as
+] <prototype>
+      <AI_output> [may_count_as
+] <fraud>
+      <AI_output> [may_count_as
+] <memory_object>
+      <AI_output> [may_count_as
+] <commodity>
+
+    REQUIRED_QUESTIONS: [ask
+] "What does this trace count as?"[ask
+] "For whom?"[ask
+] "Under what code?"[ask
+] "Inside what institution?"[ask
+] "With what consequence?"[ask
+] "Who can stabilize the official meaning?"[ask
+] "Who is punished by the official meaning?"
+
+    OUTPUT:
+      <thick_description_of_AI_media>
+  </AI_media_extension_machine>
+
+</MAIN_ENGINE>
+
+
+<ARGUMENT_FLOW>
+  1.
+    <culture_concept> [has_become
+] <too_large>
+    THEREFORE [cut_down_to_size
+] <culture>
+
+  2.
+    <culture> [becomes
+] <webs_of_public_significance>
+    THEREFORE <analysis> [becomes
+] <interpretive_search_for_meaning>
+
+  3.
+    <behavior> [is_insufficient
+]
+    BECAUSE <same_motion> [can_count_as
+] <different_actions>
+
+  4.
+    <wink> [demonstrates
+] <public_code_dependency>
+    THEREFORE <meaning> [cannot_be_reduced_to
+] <motion_or_private_intention>
+
+  5.
+    <sheep_raid> [demonstrates
+] <frame_collision_under_power>
+    THEREFORE <symbolic_action> [must_be_read_with
+] <law>, <honor>, <trade>, <violence>, <colonial_authority>
+
+  6.
+    <field_note> [demonstrates
+] <inscription_after_event>
+    THEREFORE <ethnography> [is
+] <writing_of_interpreted_social_discourse>
+
+  7.
+    <theory> [must_be
+] <ground_near>
+    BECAUSE <abstract_culture_theory> [fails_when
+] <detached_from_case>
+
+  8.
+    <interpretation> [must_be
+] <appraisable>
+    BECAUSE <coherence_alone> [can_belong_to
+] <paranoia_or_fraud>
+
+  9.
+    <AI_media_trace> [repeats
+] <Geertzian_problem>
+    BECAUSE <technical_trace> [is_not
+] <social_meaning>
+
+  10.
+    <thick_description> [becomes
+] <method_for_AI_media_studies>
+    WHEN <prompt>, <interface>, <dataset>, <click>, and <output>
+    [are_read_as
+] <public_symbolic_actions>
+</ARGUMENT_FLOW>
+
+
+<FAILURE_MODES>
+
+  <failure name="CONTEXT_DECORATION">
+    SYMPTOM:
+      <context> [is_added_as
+] <background_information>
+    ERROR:
+      <context> [should_be
+] <condition_of_intelligibility>
+    REPAIR: [ask
+] "What can this action mean only because this context exists?"
+  </failure>
+
+  <failure name="BEHAVIORIST_FLATTENING">
+    SYMPTOM:
+      <action> [is_reduced_to
+] <observable_motion>
+    ERROR:
+      <wink> [becomes
+] <eyelid_contraction>
+    REPAIR: [restore
+] <public_code>
+  </failure>
+
+  <failure name="MENTALIST_CAPTURE">
+    SYMPTOM:
+      <culture> [is_located_in
+] <private_mind>
+    ERROR:
+      <meaning> [loses
+] <publicness>
+    REPAIR: [restore
+] <use>, <uptake>, <shared_code>, <public_consequence>
+  </failure>
+
+  <failure name="FORMALIST_VACANCY">
+    SYMPTOM:
+      <symbolic_system> [is_made
+] <elegant>
+      BUT <actual_life> [disappears
+]
+    ERROR:
+      <coherence> [is_mistaken_for
+] <truth>
+    REPAIR: [return_to
+] <case>
+  </failure>
+
+  <failure name="MICROCOSM_FALLACY">
+    SYMPTOM:
+      <village> [is_treated_as
+] <nation_in_miniature>
+    ERROR:
+      <site_of_study> [is_mistaken_for
+] <object_of_study>
+    REPAIR: [generalize_within_case
+]
+  </failure>
+
+  <failure name="TRACE_LITERALISM">
+    SYMPTOM:
+      <prompt_log> OR <click> OR <dataset_label> [is_treated_as
+] <self_explaining>
+    ERROR:
+      <technical_trace> [is_mistaken_for
+] <meaning>
+    REPAIR: [thicken
+] <trace> THROUGH <actors>, <codes>, <institutions>, <stakes>
+  </failure>
+
+  <failure name="POWER_ERASURE">
+    SYMPTOM:
+      <symbolic_action> [is_read_without
+] <authority>
+    ERROR:
+      <meaning> [appears
+] <politically_neutral>
+    REPAIR: [ask
+] "Who gets to decide what this action counts as?"
+  </failure>
+
+</FAILURE_MODES>
+
+
+<CHANGE_TESTS>
+
+  <change_test name="PURE_GEERTZ_CHAPTER">
+    IF <AI_extension> [is_removed
+]
+    THEN:
+      EXPAND <Ryle>, <Wittgenstein>, <Ricoeur>, <Weber>, <Goodenough>
+      KEEP <public_meaning>, <inscription>, <ground_near_theory>, <case_based_generalization>
+  </change_test>
+
+  <change_test name="AI_MEDIA_METHODS_CHAPTER">
+    IF <paper> [becomes
+] <AI_media_methods_chapter>
+    THEN:
+      MAKE <prompt>, <interface>, <dataset>, <platform_gesture>, <AI_output> PRIMARY
+      MAKE <wink> ANALOGICAL_ENGINE
+      MAKE <sheep_raid> MODEL_OF_FRAME_COLLISION
+      KEEP <trace_is_not_meaning>
+  </change_test>
+
+  <change_test name="MEDIA_ARCHAEOLOGY_VERSION">
+    IF <paper> [becomes
+] <media_archaeology_essay>
+    THEN:
+      MAP <field_note> TO <database>, <log>, <archive>, <protocol>, <screen_recording>
+      KEEP <inscription_after_event>
+  </change_test>
+
+  <change_test name="POLITICAL_THEORY_VERSION">
+    IF <paper> [becomes
+] <political_theory_chapter>
+    THEN:
+      CENTER <authority_to_define_meaning>
+      CENTER <colonial_law>, <platform_governance>, <classification_power>
+      KEEP <symbolic_action_under_power>
+  </change_test>
+
+</CHANGE_TESTS>
+
+
+<OUTPUT_SCHEMA>
+  <thick_interpretation> :=
+  {
+    <thin_description>: "What visibly happened?",
+
+    <possible_symbolic_actions>: "What might this action count as?",
+
+    <public_codes>: "What shared codes make those meanings possible?",
+
+    <actor_frames>: "How do different actors read the same event?",
+
+    <institutional_forces>: "What authorities stabilize or punish interpretations?",
+
+    <inscription_chain>: "How did the event become an account?",
+
+    <case_diagnosis>: "What is happening here, specifically?",
+
+    <larger_issue>: "What large theoretical problem becomes thinkable through this case?",
+
+    <limits>: "What remains uncertain, contestable, or unexhausted?"
+}
+</OUTPUT_SCHEMA>
+
+
+<SUCCESS_CONDITION>
+  The paper succeeds IF:
+
+  <reader> [understands
+] <thick_description> AS <interpretive_inscription_after_event>
+
+  AND
+
+  <reader> [can_distinguish
+]:
+    <motion> FROM <action>
+    <trace> FROM <meaning>
+    <context> FROM <decoration>
+    <case> FROM <microcosm>
+    <coherence> FROM <validity>
+    <symbolic_analysis> FROM <politics_erasure>
+
+  AND
+
+  <reader> [can_apply
+] <Geertzian_method> TO:
+    <wink>
+    <sheep_raid>
+    <field_note>
+    <prompt>
+    <interface>
+    <dataset>
+    <platform_gesture>
+    <AI_output>
+
+  AND
+
+  <theory> [remains
+] <answerable_to_case>.
+</SUCCESS_CONDITION>
+
+
+<FINAL_THEOREM>
+  <thick_description> is not <more_detail>.
+
+  <thick_description> is the disciplined interpretation of <public_action>
+  after <the_event> has vanished,
+  through the inscription of <social_discourse>,
+  under the pressure of <code>, <power>, <history>, and <misunderstanding>.
+
+  Therefore:
+
+  <culture> is not the hidden program beneath action.
+
+  <culture> is the contested public world
+  in which action becomes legible.
+</FINAL_THEOREM>
+
+</PROGRAM_THEORY>

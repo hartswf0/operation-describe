@@ -1,0 +1,514 @@
+<PROGRAM_THEORY name="USE_AGAINST_MEANING" version="1.1">
+
+<Purpose>
+  <paper> [must-model
+] <philosophical conflict>
+  where
+    <philosophical conflict> :=
+      <use> [claims-to-explain
+] <meaning>
+      while
+      <meaning> [silently-conditions
+] <use>.
+
+  <program theory> [exists-to-produce
+] <argumentative paper>
+  that
+    [preserves
+] <category distinctions>,
+[stages
+] <Ryle-Findlay dispute>,
+[extracts
+] <methodological lesson>,
+[builds
+] <intervention>,
+    and
+    [names
+] <speech> as <performed intentionality>.
+</Purpose>
+
+
+<Core Problem>
+  <ordinary-language philosophy> [disciplines
+] <metaphysical abstraction>
+  by saying:
+    <philosopher> [should-ask-for
+] <use>
+    not
+    <philosopher> [should-ask-for
+] <meaning>.
+
+  But:
+    <use> [cannot-be-described-without
+] <meaning-functions>.
+
+  Therefore:
+    <paper> [must-demonstrate
+]
+      that <use> is not false,
+      but <use> is insufficient when enthroned as total explanation.
+</Core Problem>
+
+
+<Entities>
+  <language> :=
+    <stock>, <fund>, <deposit>, <wherewithal>, <learned resource>.
+
+  <speech> :=
+    <event>, <act>, <performance>, <occasion>, <saying-something>.
+
+  <word> :=
+    <reusable linguistic instrument>.
+
+  <sentence-as-act> :=
+    <authored saying>.
+
+  <use> :=
+    <public employment of linguistic resources>.
+
+  <meaning> :=
+    <intentional orientation of speech toward object, sense, reference, implication, memory, or thought>.
+
+  <grammar> :=
+    <rules of linguistic correctness>.
+
+  <logical-grammar> :=
+    <conditions of possible sense>.
+
+  <language-fault> :=
+    <solecism>, <mispronunciation>, <malapropism>, <ungrammatical construction>.
+
+  <speech-fault> :=
+    <falsehood>, <fallacy>, <absurdity>, <irrelevance>, <self-contradiction>, <category mistake>.
+
+  <Ryle> :=
+    <guardian of category distinction>.
+
+  <Findlay> :=
+    <critic of radical use-doctrine>.
+
+  <Wittgensteinian slogan> :=
+    "Do not ask for meaning; ask for use."
+
+  <performed intentionality> :=
+    <speech-act> [as
+] <public performance carrying intentional direction>.
+</Entities>
+
+
+<Operations>
+  [separate
+] :=
+    <mixed concept> [transforms into
+] {<distinct categories>
+}.
+
+  [test slogan
+] :=
+    <philosophical slogan> [is-forced-through
+] {<examples>, <counterexamples>, <edge cases>
+}.
+
+  [stage dispute
+] :=
+    {<Ryle>, <Findlay>
+} [become
+] <productive tension>.
+
+  [extract rule
+] :=
+    <source argument> [becomes
+] <governing distinction>.
+
+  [detect collapse
+] :=
+    <argument> [is-checked-for
+] <category confusion>.
+
+  [synthesize
+] :=
+    {<Ryle distinction>, <Findlay critique>
+} [produce
+] <performed intentionality>.
+
+  [intervene
+] :=
+    <paper> [changes
+] <how use-theory is understood>.
+</Operations>
+
+
+<Primary Distinctions>
+  D1:
+    <language> != <speech>.
+
+  D2:
+    <word> != <sentence-as-act>.
+
+  D3:
+    <knowing language> != <saying something>.
+
+  D4:
+    <language-fault> != <speech-fault>.
+
+  D5:
+    <grammar> != <logical-grammar>.
+
+  D6:
+    <use> != <meaning>.
+
+  D7:
+    <public criterion> != <total semantic explanation>.
+
+  D8:
+    <intentionality> != <private ghost>.
+
+  D9:
+    <operation> != <understanding>.
+
+  D10:
+    <slogan> != <method>.
+</Primary Distinctions>
+
+
+<Invariants>
+  I1:
+    <paper> [must-never-collapse
+] <language> into <speech>.
+
+  I2:
+    <paper> [must-never-collapse
+] <meaning> into <use>.
+
+  I3:
+    <paper> [must-never-treat
+] <Ryle> as <simple behaviorist>.
+
+  I4:
+    <paper> [must-never-treat
+] <Findlay> as <mystical mentalist>.
+
+  I5:
+    <paper> [must-show
+]
+      <use> [is
+] <evidence surface>
+      not
+      <use> [is
+] <complete ground>.
+
+  I6:
+    <paper> [must-show
+]
+      <speech> [uses
+] <language>
+      but
+      <speech> [is-not
+] <language>.
+
+  I7:
+    <paper> [must-show
+]
+      <grammatically correct utterance> [can-still-be
+] <logically defective>.
+
+  I8:
+    <paper> [must-end-in
+] <theoretical intervention>
+      not
+      <mere summary>.
+</Invariants>
+
+
+<Argument Machine>
+  <source dispute>
+    [feeds
+]
+  <distinction engine>
+    [produces
+]
+  <category map>
+    [enables
+]
+  <slogan test>
+    [exposes
+]
+  <use-doctrine insufficiency>
+    [requires
+]
+  <semantic reconstruction>
+    [yields
+]
+  <performed intentionality>.
+
+
+<Section Logic>
+  <Section 1: Problem>
+    <Wittgensteinian slogan> [appears-as
+] <methodological command>.
+    <paper> [asks
+]:
+      Does <use> explain <meaning>,
+      or does <use> already require <meaning>?
+
+  <Section 2: Ryle>
+    <Ryle> [separates
+] <language> from <speech>.
+    <language> [functions-like
+] <capital>.
+    <speech> [functions-like
+] <trade>.
+    <word> [is
+] <instrument>.
+    <sentence-as-act> [is
+] <performance>.
+
+  <Section 3: Ryle's Fault Taxonomy>
+    <language-fault> [belongs-to
+] <grammar>.
+    <speech-fault> [belongs-to
+] <saying>.
+    <philosophy> [studies
+] <speech-faults>
+      especially
+        <absurdity>,
+        <fallacy>,
+        <category mistake>,
+        <logical impossibility>.
+
+  <Section 4: Findlay>
+    <Findlay> [accepts
+] <much of Ryle>.
+    <Findlay> [attacks
+] <radical use doctrine>.
+    <use> [presupposes
+] {<reference>, <connotation>, <denotation>, <intentionality>
+}.
+    <public operation> [cannot-exhaust
+] <semantic life>.
+
+  <Section 5: Rule-Following>
+    <rule> [cannot-be-reduced-to
+] <formula>.
+    <rule> [cannot-be-reduced-to
+] <past behavior>.
+    <rule> [cannot-be-reduced-to
+] <private object>.
+    <open rule> [requires
+] <grasp of continuation>.
+    <use theory> [strains-at
+] <open-ended understanding>.
+
+  <Section 6: Synthesis>
+    <Ryle> [gives
+] <public-performance discipline>.
+    <Findlay> [gives
+] <intentional-depth correction>.
+    {<Ryle>, <Findlay>
+} [synthesize-as
+] <performed intentionality>.
+
+  <Section 7: Intervention>
+    <paper> [declares
+]:
+      <use> is indispensable.
+      <use> is insufficient.
+      <meaning> is not hidden substance.
+      <meaning> is intentional direction enacted in speech.
+      <speech> is the hinge where <public form> and <thought> meet.
+</Section Logic>
+
+
+<Failure Modes>
+  F1 <Category Collapse>:
+    trigger:
+      <paper> [treats
+] <language> and <speech> as interchangeable.
+    correction: [restore
+] D1.
+
+  F2 <Use Idolization>:
+    trigger:
+      <paper> [claims
+] <use> fully explains <meaning>.
+    correction: [insert
+] <Findlay reversal>.
+
+  F3 <Meaning Mystification>:
+    trigger:
+      <paper> [turns
+] <meaning> into <private ghost>.
+    correction: [define
+] <meaning> as <intentional orientation enacted through speech>.
+
+  F4 <Ryle Flattening>:
+    trigger:
+      <paper> [makes
+] <Ryle> merely anti-meaning.
+    correction: [restore
+] <Ryle> as <category diagnostician>.
+
+  F5 <Findlay Flattening>:
+    trigger:
+      <paper> [makes
+] <Findlay> merely anti-use.
+    correction: [restore
+] <Findlay> as <critic of reduction, not critic of usage study>.
+
+  F6 <No Intervention>:
+    trigger:
+      <paper> [ends-with
+] <summary>.
+    correction: [force
+] <performed intentionality> as final theory.
+
+  F7 <AI Overjump>:
+    trigger:
+      <paper> [moves-too-fast
+] from <ordinary language> to <AI>.
+    correction: [keep
+] <AI> as implication, not foundation.
+</Failure Modes>
+
+
+<Change Tests>
+  CT1:
+    if <target_output> [changes-to
+] <dissertation chapter>,
+    then
+      [expand
+] <literature review>,
+[add
+] <Wittgenstein>, <Austin>, <Sellars>, <Brandom>, <Husserl>,
+[formalize
+] <performed intentionality>,
+[increase
+] <citation density>.
+
+  CT2:
+    if <target_output> [changes-to
+] <conference talk>,
+    then
+      [compress
+] <exposition>,
+[center
+] {<Vici>, <Cheshire Cat>, <dream report>
+},
+[repeat
+] <performed intentionality>,
+[end-with
+] <provocation>.
+
+  CT3:
+    if <target_output> [changes-to
+] <AI/media theory intervention>,
+    then
+      [map
+]
+        <use> -> <operation>,
+        <meaning> -> <understanding>,
+        <speech-act> -> <model output>,
+        <intentionality> -> <contested attribution>.
+      [ask
+]:
+        Can <system behavior> explain <meaning>
+        without smuggling in <human interpretive intentionality>?
+
+  CT4:
+    if <target_output> [changes-to
+] <literature review>,
+    then
+      [organize
+] by {<use theory>, <ordinary language>, <intentionality>, <logical grammar>, <rule-following>
+}.
+</Change Tests>
+
+
+<Program Text>
+  WRITE_PAPER(<source_dispute>) -> <paper>:
+    1. [extract
+] <Ryle distinctions>.
+    2. [extract
+] <Findlay objections>.
+    3. [identify
+] <shared object> := <meaning in speech>.
+    4. [test
+] <Wittgensteinian slogan>.
+    5. [separate
+] <use-as-method> from <use-as-total-theory>.
+    6. [show
+] <Ryle> strengthens <use-as-method>.
+    7. [show
+] <Findlay> breaks <use-as-total-theory>.
+    8. [define
+] <performed intentionality>.
+    9. [compose
+] <paper> according to <Section Logic>.
+    10. [validate
+] <paper> against <Invariants>.
+    11. [repair
+] all <Failure Modes>.
+    12. [return
+] <paper-as-intervention>.
+
+  VALIDATE(<paper>) -> <status>:
+    if <language> == <speech>:
+      return <fail:F1>
+    if <use> == <meaning>:
+      return <fail:F2>
+    if <meaning> == <private ghost>:
+      return <fail:F3>
+    if <Ryle> == <behaviorist caricature>:
+      return <fail:F4>
+    if <Findlay> == <anti-use caricature>:
+      return <fail:F5>
+    if <paper> [lacks
+] <performed intentionality>:
+      return <fail:F6>
+    else:
+      return <intervention-ready>.
+
+  FINAL_THESIS:
+    <use> [is
+] <the visible surface of meaning>.
+    <meaning> [is
+] <intentional direction enacted through speech>.
+    <speech> [is
+] <performed intentionality>.
+    <philosophy> [must-study
+] <use>
+      without
+    [mistaking
+] <use> for the whole of <meaning>.
+</Program Text>
+
+
+<Residual Human Theory>
+  <maintainer> [must-understand
+]:
+    This theory does not reject <use>.
+    This theory rejects <use> as sovereign explanation.
+
+    This theory does not restore <meaning> as occult object.
+    This theory restores <meaning> as enacted intentional direction.
+
+    This theory does not choose <Ryle> over <Findlay>.
+    This theory uses <Ryle> to discipline categories
+    and <Findlay> to discipline reduction.
+
+    The living hinge is:
+      <language-stock> [becomes
+] <speech>
+      when
+      <speaker> [performs
+] <intentional act>
+      through
+      <public form>.
+
+    The paper succeeds only if the reader sees:
+      <use> matters because speech is public,
+      but
+      <meaning> remains because speech is directed.
+</Residual Human Theory>
+
+</PROGRAM_THEORY>

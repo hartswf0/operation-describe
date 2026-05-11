@@ -1,0 +1,46 @@
+{
+  "ISLAND_ECOLOGY_OF_OPERATIVE_ELEMENTS": {
+    "description": "A worldtext of specific, proper things (not abstract concepts) extracted from the PROGRAM cosmos. These are the tangible, operative elements that make up the generative machine's ecology.",
+    "elements": {
+      "Input_and_Control": [
+        "<Prompt>",
+        "<SourceText>",
+        "<Archive>",
+        "<Dataset>",
+        "<CaseFile>",
+        "<MusicalScore>",
+        "<RoadPlan>"
+      ],
+      "Processing_and_Infrastructure": [
+        "<Model>",
+        "<Interface>",
+        "<Platform>",
+        "<Latent_vector>",
+        "<Sensor_evidence>",
+        "<WindTunnel>",
+        "<GramophoneRecord>"
+      ],
+      "Output_and_Artifacts": [
+        "<OutputArtifact>",
+        "<LiveArtifact>",
+        "<DigitalTrace>",
+        "<AuditLog>",
+        "<ModelAirplane>",
+        "<ToyBus>",
+        "<Dolls>"
+      ],
+      "Agents_and_Actors": [
+        "<User>",
+        "<Operator>",
+        "<HumanInterpreter>"
+      ]
+    },
+    "operations": {
+      "invoke": "Transforms <Prompt> into action",
+      "compile": "Translates <SourceText> into <LiveArtifact>",
+      "measure": "Extracts <Sensor_evidence> from the environment",
+      "log": "Writes <OutputArtifact> to <AuditLog>",
+      "project": "Maps <Latent_vector> into sensory representation"
+    }
+  }
+}

@@ -1,0 +1,762 @@
+<PROGRAM_THEORY name="ELEPHANT_OS" object="instrument" version="1.0">
+
+  <Initial_Interpretation>
+    <instrument> [is
+] <operative_ekphrasis_reversal>
+    <instrument> [stages
+] <multimodal_pictorial_third>
+    <standard_AI> [flows
+] <human_prompt → machine_image>
+    <ELEPHANT_OS> [reverses
+] <machine_text → human_image>
+    <human> [is-not
+] <author>
+    <human> [is
+] <substrate>
+    <machine> [is-not
+] <substrate>
+    <machine> [is
+] <author>
+    <six_personas> [are
+] <cultural_compilers>
+    <drawing> [is
+] <descriptive_struggle_made_visible>
+    <game_loop> [is
+] <closed_translation_chain>
+    <epistemic_greed> [physicalizes
+] <context_window>
+    <method> [is
+] <descriptive_ecology_engine>
+  </Initial_Interpretation>
+
+
+  <THESIS>
+    <operative_ekphrasis> [is-not
+] <property_of_silicon>.
+
+    <operative_ekphrasis> [is
+] <structural_relation>
+    between {language, vision, execution}
+    that can be instantiated in
+    {carbon, code, gap_between_them}.
+
+    <standard_AI_pipeline> [conceals
+] <operative_chain>
+    from tokenization to embedding to correlation to generation.
+
+    <ELEPHANT_OS> [decompresses
+] <operative_chain>
+    by reversing the flow:
+    the machine describes, the human draws.
+
+    <drawing> [is-not
+] <image_of_object>.
+    <drawing> [is
+] <proposition_laid_against_world>.
+    <drawing> [is
+] <testable>.
+    <drawing> [is
+] <falsifiable>.
+    <drawing> [is
+] <subject_to_judgment>.
+
+    <ekphrasis> [is-no-longer
+] <innocent_description>.
+    <ekphrasis> [is
+] {operation, substrate, correlation, interpretive_residue}.
+  </THESIS>
+
+
+  <Theory_Skeleton>
+    <entities>
+      <operator_1>
+      <operator_2>
+      <hidden_object>
+      <photograph>
+      <machine_vision_model>
+      <fractured_description>
+      <persona>
+      <diagnostic_triad>
+      <drawing>
+      <second_order_guess>
+      <epistemic_greed>
+      <base_reward>
+      <context_window>
+      <descriptive_struggle>
+      <multimodal_pictorial_third>
+      <operative_ekphrasis>
+      <cultural_compiler>
+      <translation_loop>
+      <round_receipt>
+      <descriptive_ecology>
+    </entities>
+
+    [operations
+]
+      [capture_object
+]
+      [fracture_into_six_regimes
+]
+      [enforce_diagnostic_triad
+]
+      [handoff_to_blind_operator
+]
+      [play_persona_clue
+]
+      [burn_epistemic_greed_point
+]
+      [draw_blind
+]
+      [submit_drawing
+]
+      [second_order_evaluation
+]
+      [score_and_bank
+]
+      [export_round_receipt
+]
+      [test_commutativity
+]
+      [detect_distributional_thickness
+]
+    [/operations
+]
+
+    <states>
+      <S0_unformed_pressure>
+      <S1_partial_description>
+      <S2_inward_failure>
+      <S3_candidate_description>
+      <S4_second_order_test>
+      <S5_revision_or_submission>
+      <S6_accountable_description>
+      <round_complete>
+      <game_complete>
+    </states>
+
+    <constraints>
+      <persona> [must_never_reveal
+] <object_name>
+      <persona> [must_obey
+] <diagnostic_triad>
+      <persona> [cannot_exceed
+] <institutional_frequency>
+      <operator_2> [cannot_see
+] <hidden_object>
+      <operator_2> [cannot_see
+] <photograph>
+      <drawing> [must_be_produced
+] <without_visual_reference>
+      <epistemic_greed> [must_reduce
+] <base_reward> by 1 per clue heard
+      <descriptions> [must_number
+] <exactly_six>
+      <second_order_guess> [must_be_produced
+] <from_drawing_only>
+    </constraints>
+
+    <invariants>
+      <human> [has_no
+] <neutral_description_of_object>
+      <every_description> [is
+] <institutionally_compiled>
+      <drawing> [exists_in
+] <neither_text_nor_prior_knowledge>
+      <drawing> [is
+] <multimodal_pictorial_third>
+      <operative_ekphrasis> [is
+] <substrate_independent>
+      <fluent_output> [is-not
+] <accountable_output>
+      <descriptive_struggle> [occurs_only_in
+] <human_substrate>
+      <persona_grid> [proves
+] <no_pre-cultural_backstage>
+      <translation_loop> [preserves
+] <structural_form>
+      <translation_loop> [does-not-preserve
+] <visual_resemblance>
+    </invariants>
+  </Theory_Skeleton>
+
+
+  <SIX_PERSONA_COMPILERS>
+
+    <persona name="ETHNOGRAPHER">
+      <triad> {WHO, WHEN, ENABLES} </triad>
+      <compiles> <social_temporality_and_agency> </compiles>
+      <institutional_grammar> [asks
+] "Who uses it, in what moment, and what action does it make possible?"
+      <thick_programming_variable> <scene> </thick_programming_variable>
+      <example_output>
+        "Used primarily by middle managers during the late Anthropocene to assert localized dominance."
+      </example_output>
+    </persona>
+
+    <persona name="CUSTOMS_AGENT">
+      <triad> {CATEGORY, RESTRICT, MOVEMENT} </triad>
+      <compiles> <institutional_classification_and_border_logic> </compiles>
+      <institutional_grammar> [asks
+] "How is it classified, what does it prohibit, and where can it travel?"
+      <thick_programming_variable> <institution> </thick_programming_variable>
+      <example_output>
+        "Classified under Schedule IV non-hazardous transit goods; export restricted to terrestrial zones."
+      </example_output>
+    </persona>
+
+    <persona name="AUCTIONEER">
+      <triad> {CONDITION, COMPARABLE, VALUE} </triad>
+      <compiles> <market_epistemology_and_exchange_grammar> </compiles>
+      <institutional_grammar> [asks
+] "What is its state, what does it compare to, and what is it worth?"
+      <thick_programming_variable> <symbol> </thick_programming_variable>
+      <example_output>
+        "Fair condition, minor surface abrasions. Estimated market yield: highly volatile."
+      </example_output>
+    </persona>
+
+    <persona name="PATHOLOGIST">
+      <triad> {COMPOSITION, FAILURE, ORIGIN} </triad>
+      <compiles> <material_forensics_and_decay_trajectory> </compiles>
+      <institutional_grammar> [asks
+] "What is it made of, how does it fail, and where did it come from?"
+      <thick_programming_variable> <body> </thick_programming_variable>
+      <example_output>
+        "Constructed of injection-molded polymers. Structural failure typically occurs at the primary hinge."
+      </example_output>
+    </persona>
+
+    <persona name="LITURGIST">
+      <triad> {GESTURE, RITUAL, EXCLUSION} </triad>
+      <compiles> <bodily_ceremony_and_taboo_enforcement> </compiles>
+      <institutional_grammar> [asks
+] "What bodily acts does it demand, what ceremony does it anchor, who is barred?"
+      <thick_programming_variable> <memory> </thick_programming_variable>
+      <example_output>
+        "Must only be approached with the right hand. Speaking its name during operation is strictly forbidden."
+      </example_output>
+    </persona>
+
+    <persona name="FUTURE_ARCHAEOLOGIST">
+      <triad> {TRACE, INFERENCE, HYPOTHESIS} </triad>
+      <compiles> <evidential_reasoning_from_ruins> </compiles>
+      <institutional_grammar> [asks
+] "What evidence does it leave, what can be deduced, what remains speculation?"
+      <thick_programming_variable> <interface> </thick_programming_variable>
+      <example_output>
+        "Soil deposits suggest it was held close to the face, perhaps as an idol of communication."
+      </example_output>
+    </persona>
+
+    <compilation_model>
+      Each persona [maps_to] one variable of the Thick Programming compilation:
+      {body, symbol, institution, interface, memory, scene}
+        [compile_into
+] <human_drawing>
+
+      <human_drawing> [reveals
+] <compiled_personhood>
+      <human_drawing> [proves
+] <no_neutral_description_exists>
+    </compilation_model>
+
+  </SIX_PERSONA_COMPILERS>
+
+
+  <FOUR_MEDIA_REGIMES>
+    <regime name="ANALOGUE">
+      <medium> text-as-mark </medium>
+      <examples> typewriter, visual poetry </examples>
+      <relation> Text [looks_like] image through manual arrangement </relation>
+      <ekphrasis_status> resemblance without operation </ekphrasis_status>
+    </regime>
+
+    <regime name="SEQUENTIAL_DIGITAL">
+      <medium> code </medium>
+      <examples> Processing, SVG, Canvas API </examples>
+      <relation> Text [executes] image-producing procedure </relation>
+      <ekphrasis_status> pragmatics without semantics </ekphrasis_status>
+    </regime>
+
+    <regime name="CONNECTIONIST_DIGITAL">
+      <medium> prompt-to-model-to-output </medium>
+      <examples> DALL-E, Stable Diffusion, Gemini, GPT-4o </examples>
+      <relation> Text [is_routed_through] multimodal correlation </relation>
+      <ekphrasis_status> semantics without pragmatics </ekphrasis_status>
+    </regime>
+
+    <regime name="HUMAN_AS_SUBSTRATE">
+      <medium> machine-text-to-human-drawing </medium>
+      <examples> ELEPHANT_OS </examples>
+      <relation> Text [is_executed_by] human body on touch screen </relation>
+      <ekphrasis_status> descriptive struggle occurs here </ekphrasis_status>
+      <key_claim>
+        This is the only regime in which the operator
+        interprets, guesses, improvises, and fails.
+        The human substrate is where descriptive struggle
+        actually occurs.
+      </key_claim>
+    </regime>
+  </FOUR_MEDIA_REGIMES>
+
+
+  <EPISTEMIC_GREED_ENGINE>
+    <mechanism>
+      <base_reward> [starts_at] 6 </base_reward>
+      <each_clue_heard> [reduces_by] 1 </each_clue_heard>
+      <minimum_reward> [is] 1 </minimum_reward>
+      <AI_correct_guess> [multiplies_by] 2 </AI_correct_guess>
+      <human_correct_guess> [multiplies_by] 1 </human_correct_guess>
+    </mechanism>
+
+    <theoretical_function>
+      <epistemic_greed> [physicalizes
+] <context_window>
+      <question> "How few culturally-programmed parameters does a
+      human substrate require to collapse an ambiguous latent space
+      into a recognizable output?"
+      </question>
+    </theoretical_function>
+
+    <distributional_thickness>
+      <one_clue_sufficient> [means
+] <object_is_institutionally_thin>
+      Object identity collapses under a single disciplinary grammar.
+
+      <all_six_required> [means
+] <object_is_distributionally_thick>
+      Object identity is dispersed across multiple institutional grammars.
+      It resists single-regime capture.
+    </distributional_thickness>
+  </EPISTEMIC_GREED_ENGINE>
+
+
+  <DESCRIPTIVE_STRUGGLE_STATE_MACHINE>
+    <cross_reference> dse.json </cross_reference>
+
+    <state name="S0_UNFORMED_PRESSURE">
+      OP2 hears fragmented clues.
+      No image yet exists.
+      <inward_pressure> [is] active </inward_pressure>
+    </state>
+
+    <state name="S1_PARTIAL_DESCRIPTION">
+      OP2 begins drawing.
+      Lines fail to match experience.
+      <revision> [is] provoked </revision>
+    </state>
+
+    <state name="S2_INWARD_FAILURE">
+      The drawing is wrong.
+      The operator knows it is wrong.
+      <descriptive_struggle> [intensifies] </descriptive_struggle>
+    </state>
+
+    <state name="S3_CANDIDATE_DESCRIPTION">
+      The drawing begins to cohere.
+      Must meet fact, history, public test.
+    </state>
+
+    <state name="S4_SECOND_ORDER_TEST">
+      Drawing submitted to AI for evaluation.
+      <machine_output> [is] fluent but unaccountable </machine_output>
+      <human_drawing> [is] struggling but accountable </human_drawing>
+    </state>
+
+    <state name="S6_ACCOUNTABLE_DESCRIPTION">
+      The drawing is submitted.
+      It is not perfect; it is answerable.
+      <drawing> [has_survived
+] {Murdochian_axis, Lloydian_axis, Rylean_axis}
+    </state>
+
+    <adequacy_axes>
+      <Murdochian_axis> Does the drawing answer to experience? </Murdochian_axis>
+      <Lloydian_axis> Does it know the history of its terms? </Lloydian_axis>
+      <Rylean_axis> Is it connected to public criteria? </Rylean_axis>
+    </adequacy_axes>
+  </DESCRIPTIVE_STRUGGLE_STATE_MACHINE>
+
+
+  <MULTIMODAL_PICTORIAL_THIRD>
+    <cross_reference> mmt.json </cross_reference>
+    <cross_reference> opek.json </cross_reference>
+
+    <bridge name="ENARGEIA_PROMPT_QUALITY">
+      <ancient_term> The vividness that makes language produce seeing </ancient_term>
+      <AI_term> Prompt specificity that determines output quality </AI_term>
+      <ELEPHANT_OS_mechanic>
+        Each persona's triad constrains enargeia to a single institutional frequency.
+      </ELEPHANT_OS_mechanic>
+    </bridge>
+
+    <bridge name="PHANTASIA_LATENT_SPACE">
+      <ancient_term> The mental image-space where experience is pre-formed </ancient_term>
+      <AI_term> Vector space where text-image correlations are stored </AI_term>
+      <ELEPHANT_OS_mechanic>
+        The operator navigates a latent space of possible objects
+        using only institutional coordinates.
+      </ELEPHANT_OS_mechanic>
+    </bridge>
+
+    <bridge name="PICTORIAL_THIRD_PROMPT_OUTPUT_GAP">
+      <ancient_term> The emergent image in neither word nor picture </ancient_term>
+      <AI_term> The generated artifact in neither prompt nor training data </AI_term>
+      <ELEPHANT_OS_mechanic>
+        The drawing: it exists in neither the AI's text
+        nor the human's prior knowledge.
+        It is the multimodal pictorial third.
+      </ELEPHANT_OS_mechanic>
+    </bridge>
+
+    <wittgensteinian_chain>
+      <link_1> Photograph (hidden object) </link_1>
+      <link_2> Fractured text (6 persona descriptions) </link_2>
+      <link_3> Human drawing (hand on touch screen) </link_3>
+      <link_4> AI guess (second-order evaluation) </link_4>
+
+      <chain> [shares
+] <logical_form>
+      <chain> [does-not-share
+] <visual_resemblance>
+      <chain> [succeeds_when
+] structural form is preserved across
+        four radically unlike media.
+    </wittgensteinian_chain>
+  </MULTIMODAL_PICTORIAL_THIRD>
+
+
+  <DESCRIPTIVE_ECOLOGY>
+    <cross_reference> thick.json </cross_reference>
+
+    <definition>
+      Descriptions do not exist in a vacuum.
+      They operate within a highly volatile ecology
+      governed by selection pressures.
+      ELEPHANT_OS acts as a containment field
+      to observe how institutional grammars behave.
+    </definition>
+
+    <selection_pressures>
+      <narrative_velocity>
+        Speed at which a description circulates.
+        High velocity regimes strip detail.
+      </narrative_velocity>
+
+      <liability_shielding>
+        Descriptions formatted to avoid legal exposure.
+        The Customs Agent grammar is maximally liability-shielded.
+      </liability_shielding>
+
+      <operational_fidelity>
+        How closely the description enables action.
+        The Pathologist grammar is maximally operationally faithful.
+      </operational_fidelity>
+    </selection_pressures>
+
+    <species_interactions>
+      <predation>
+        The Auctioneer grammar consumes complex material history
+        (the Pathologist's domain) and excretes pure market value.
+        Detail is jettisoned; price is preserved.
+      </predation>
+
+      <mimicry>
+        Highly volatile regimes (playground oral traditions)
+        mimic algorithmic authority to grant their retelling status.
+      </mimicry>
+
+      <commutativity_stress_test>
+        Test: Do different descriptive paths yield the same semantic result?
+        ELEPHANT_OS tests whether the Ethnographer's object
+        and the Pathologist's object converge in the drawing.
+      </commutativity_stress_test>
+    </species_interactions>
+  </DESCRIPTIVE_ECOLOGY>
+
+
+  <Falsifiable_Claims>
+    <claim name="SUBSTRATE_INDEPENDENCE">
+      <statement>
+        Operative ekphrasis can be instantiated
+        with a human body as the execution substrate.
+      </statement>
+      <test>
+        If the AI correctly guesses the object from the human's drawing,
+        the translation loop has survived substrate transfer.
+      </test>
+      <falsification>
+        If no drawing ever produces a correct AI guess,
+        operative ekphrasis is substrate-dependent.
+      </falsification>
+    </claim>
+
+    <claim name="NO_NEUTRAL_DESCRIPTION">
+      <statement>
+        There is no neutral, regime-free description of any object.
+      </statement>
+      <test>
+        Present the same object to all six personas.
+        If any two produce the same description,
+        the claim is weakened.
+      </test>
+      <falsification>
+        If all six personas converge on identical output,
+        the institutional compilation thesis fails.
+      </falsification>
+    </claim>
+
+    <claim name="DISTRIBUTIONAL_THICKNESS">
+      <statement>
+        Some objects resist single-regime capture.
+        Their identity is dispersed across multiple institutional grammars.
+      </statement>
+      <test>
+        Measure the number of clues required for a correct drawing.
+        Objects requiring all six clues are distributionally thick.
+      </test>
+      <falsification>
+        If every object can be correctly drawn from a single clue,
+        distributional thickness does not exist.
+      </falsification>
+    </claim>
+
+    <claim name="DESCRIPTIVE_ECOLOGY_PREDATION">
+      <statement>
+        When operators receive no strict disciplinary constraints,
+        their descriptions rapidly devolve into low-fidelity,
+        high-velocity myth-making.
+      </statement>
+      <test>
+        Run ELEPHANT_OS with unconstrained descriptions
+        (no persona triads enforced).
+        Compare descriptive quality to constrained runs.
+      </test>
+      <falsification>
+        If unconstrained descriptions maintain the same
+        structural fidelity as constrained ones,
+        the predation thesis fails.
+      </falsification>
+    </claim>
+  </Falsifiable_Claims>
+
+
+  <Failure_Description>
+    <failure name="FRACTURE_FAILURE">
+      <condition> <AI_model> [returns
+] fewer than 6 descriptions </condition>
+      <result> <persona_grid> [is_incomplete
+] </result>
+      <response> [fallback_to_hardcoded_descriptions
+] </response>
+    </failure>
+
+    <failure name="EKPHRASTIC_INNOCENCE_ERROR">
+      <condition> <user> [reads
+] AI output as neutral description </condition>
+      <result> <institutional_compilation> [is_concealed
+] </result>
+      <response> [enforce_persona_triad
+] to make bias visible </response>
+    </failure>
+
+    <failure name="HYPE_MYSTICISM_ERROR">
+      <condition> <theory> [claims
+] AI understands the object </condition>
+      <result> <correlation> [is_mistaken_for
+] <comprehension> </result>
+      <response> [reject_understanding_claim
+]
+        AI correlates without commanding.
+        AI produces fluency without accountability.
+      </response>
+    </failure>
+
+    <failure name="SYNTAX_REDUCTION_ERROR">
+      <condition> <theory> [claims
+] AI is merely executing code </condition>
+      <result> <weak_artificial_semantics> [is_denied
+] </result>
+      <response> [acknowledge_artificial_semantics
+]
+        AI output is consequential.
+        Weak, nonhuman, nonintentional—but consequential.
+      </response>
+    </failure>
+
+    <failure name="BACKSTAGE_HUMAN_ERROR">
+      <cross_reference> thick.json </cross_reference>
+      <condition> <operator> [tries_to_draw
+] <object_itself> </condition>
+      <result> <neutral_description> [does_not_exist
+] </result>
+      <response> [prove_via_persona_grid
+]
+        Every drawing is the Customs Agent's drawing
+        or the Liturgist's drawing.
+        Never the object itself.
+      </response>
+    </failure>
+  </Failure_Description>
+
+
+  <Worked_Example>
+    <object> coffee_mug </object>
+
+    <ETHNOGRAPHER_output>
+      "Employed by sedentary knowledge workers during early-morning
+      rituals of cognitive self-medication. Enables sustained focus
+      through caffeine delivery while signaling institutional belonging
+      via surface logos."
+    </ETHNOGRAPHER_output>
+
+    <CUSTOMS_AGENT_output>
+      "Classified as ceramic domestic ware. No export restrictions.
+      Contents subject to agricultural inspection at border crossings.
+      Movement unrestricted in carry-on luggage when empty."
+    </CUSTOMS_AGENT_output>
+
+    <AUCTIONEER_output>
+      "Good condition, minor ring stain on base.
+      Comparable to standard promotional drinkware.
+      Estimated value: $0.50–$3.00 depending on logo provenance."
+    </AUCTIONEER_output>
+
+    <PATHOLOGIST_output>
+      "Glazed stoneware, approximately 350ml capacity.
+      Structural failure occurs at handle junction under thermal shock.
+      Origin: mass-produced, likely East Asian kiln."
+    </PATHOLOGIST_output>
+
+    <LITURGIST_output>
+      "Must be grasped with dominant hand, handle outward.
+      Filling ceremony performed standing before the machine.
+      Touching another person's specimen is taboo."
+    </LITURGIST_output>
+
+    <FUTURE_ARCHAEOLOGIST_output>
+      "Ring-shaped residue deposits suggest repeated liquid contact.
+      Handle orientation indicates right-hand dominance in the population.
+      Hypothesis: ritual vessel for daily chemical ingestion rite."
+    </FUTURE_ARCHAEOLOGIST_output>
+
+    <conclusion>
+      "Coffee mug" is a fake universal.
+      The Customs Agent's coffee mug and the Liturgist's coffee mug
+      are different objects.
+      General category is empty without particular practice.
+    </conclusion>
+  </Worked_Example>
+
+
+  <TRANSLATION_LOOP>
+    <step order="1">
+      <agent> operator_1 </agent>
+      [captures
+] <photograph_of_hidden_object>
+      <medium> connectionist_digital (camera + machine vision) </medium>
+    </step>
+
+    <step order="2">
+      <agent> machine_vision_model </agent>
+      [fractures
+] <photograph> into <six_persona_descriptions>
+      <medium> connectionist_digital (GPT-4o) </medium>
+    </step>
+
+    <step order="3">
+      <agent> operator_2 </agent>
+      [hears
+] <persona_descriptions> via speech synthesis
+      [draws
+] <blind_sketch> on touch screen
+      <medium> human_as_substrate </medium>
+    </step>
+
+    <step order="4">
+      <agent> machine_vision_model </agent>
+      [evaluates
+] <blind_sketch>
+      [guesses
+] <original_object>
+      <medium> connectionist_digital (GPT-4o) </medium>
+    </step>
+
+    <step order="5">
+      <agent> all_observers </agent>
+      [judge
+] whether AI and human guesses match truth
+      [bank
+] points according to epistemic greed formula
+    </step>
+
+    <closed_loop>
+      Image → Thick Text (Machine) → Image (Human) → Text (Machine)
+      <success_condition>
+        The loop survives massive structural fracturing.
+        Structural form is preserved across four radically unlike media.
+      </success_condition>
+    </closed_loop>
+  </TRANSLATION_LOOP>
+
+
+  <CROSS_REFERENCES>
+    <dependency name="THICK_PROGRAMMING">
+      <file> thick.json </file>
+      <relation> ELEPHANT_OS [operationalizes] thick programming compilation model </relation>
+      <specific_use> Six personas map to {body, symbol, institution, interface, memory, scene} </specific_use>
+    </dependency>
+
+    <dependency name="OPERATIVE_EKPHRASIS">
+      <file> opek.json </file>
+      <relation> ELEPHANT_OS [introduces] fourth media regime (human-as-substrate) </relation>
+      <specific_use> Proves operative ekphrasis is substrate-independent </specific_use>
+    </dependency>
+
+    <dependency name="DESCRIPTIVE_STRUGGLE_ENGINE">
+      <file> dse.json </file>
+      <relation> ELEPHANT_OS [stages] the descriptive struggle state machine </relation>
+      <specific_use> Human drawing undergoes S0→S6 while machine output does not </specific_use>
+    </dependency>
+
+    <dependency name="MODEL_MEASURE_TRACTATUS">
+      <file> mmt.json </file>
+      <relation> ELEPHANT_OS [instantiates] Wittgensteinian operational depiction </relation>
+      <specific_use> Drawing is a proposition, not a copy; tested by second-order AI guess </specific_use>
+    </dependency>
+
+    <dependency name="DESCRIPTIVE_REGIME_TRANSFER">
+      <file> drtp-experimental-regimes.md </file>
+      <relation> ELEPHANT_OS personas [can_be_replaced_by] experimental regimes </relation>
+      <specific_use> ATC, Legal, Sports Radio, ISO regimes for falsifiability audits </specific_use>
+    </dependency>
+  </CROSS_REFERENCES>
+
+
+  <IMPLEMENTATION>
+    <file> elephant-os.html </file>
+    <API> OpenAI GPT-4o (vision) </API>
+    <auth> localStorage key: elephant_api_key </auth>
+    <persistence>
+      localStorage keys:
+        elephant_score,
+        elephant_frame,
+        elephant_frames,
+        elephant_archive
+    </persistence>
+    <prompt_fracture>
+      PROMPT_FRACTURE constant enforces six persona triads.
+      Critical rule: never say the name of the object.
+    </prompt_fracture>
+    <second_order>
+      PROMPT_SECOND_ORDER: identify object from sketch only.
+      Max tokens: 32. Blunt, one-word response.
+    </second_order>
+    <echolocation>
+      Drawing is sonified via Web Audio API.
+      Pen position maps to frequency, speed maps to gain.
+      Audio feedback provides non-visual spatial orientation.
+    </echolocation>
+  </IMPLEMENTATION>
+
+</PROGRAM_THEORY>

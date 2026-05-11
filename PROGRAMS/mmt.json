@@ -1,0 +1,775 @@
+<PROGRAM_THEORY name="MODEL_MEASURE_TRACTATUS" version="1.0">
+
+  <Initial Interpretation>
+    <program theory problem> :=
+      <paper> [must-transform
+] <Wittgenstein's so-called picture theory>
+      from <flat visual-resemblance doctrine>
+      into <operational model-measure theory of depiction>.
+
+    <real-world activity> :=
+      <scholar> [reconstructs
+] how <propositions>, <models>, <measures>, <scores>, <records>, and <scale systems>
+      [make possible
+] <truth>, <comparison>, <judgment>, and <contact with reality>.
+
+    <central command> :=
+      Do not ask,
+"How does a proposition look like the world?"
+      Ask,
+"What disciplined arrangement lets one system be laid against another and tested?"
+
+    <thesis> :=
+      <Tractatus> [is-not
+] <pure logic detached from machines>.
+      <Tractatus> [contains
+] <a workshop theory of representation>:
+      <logical-form> [emerges-from
+] <correlation>, <measurement>, <projection>, <translation>, <scale>, and <operational use>.
+  </Initial Interpretation>
+
+
+  <Theory Skeleton>
+    <entities> :=
+      {
+        <Wittgenstein>,
+        <Sterrett>,
+        <Tractatus>,
+        <Notebooks>,
+        <Bild>,
+        <Modell>,
+        <picture>,
+        <model>,
+        <measure>,
+        <proposition>,
+        <world>,
+        <fact>,
+        <state-of-affairs>,
+        <possible-world>,
+        <object>,
+        <logical-form>,
+        <correlation>,
+        <projection>,
+        <translation>,
+        <scale>,
+        <dimension>,
+        <dimensionless-ratio>,
+        <physically-similar-system>,
+        <courtroom-model>,
+        <traffic-accident>,
+        <toy-bus>,
+        <dolls>,
+        <road-plan>,
+        <right-of-way>,
+        <fault>,
+        <forensic-reconstruction>,
+        <gramophone-record>,
+        <musical-score>,
+        <sound-wave>,
+        <performance>,
+        <model-airplane>,
+        <wind-tunnel>,
+        <modelmaker-culture>,
+        <measurement-standard>,
+        <anti-anachronism>,
+        <operational-depiction>
+}
+
+    [operations
+] :=
+      {
+    [reread
+    ],
+    [recover
+    ],
+    [historicize
+    ],
+    [de-anachronize
+    ],
+    [correlate
+    ],
+    [project
+    ],
+    [scale
+    ],
+    [measure
+    ],
+    [translate
+    ],
+    [test
+    ],
+    [compare
+    ],
+    [reconstruct
+    ],
+    [stage
+    ],
+    [judge
+    ],
+    [formalize
+    ],
+    [intervene
+    ]
+}
+
+    <states> :=
+      {
+        <flat-picture-theory>,
+        <model-measure-theory>,
+        <visual-resemblance-reading>,
+        <operational-depiction-reading>,
+        <context-as-background>,
+        <context-as-conceptual-evidence>,
+        <toy-object>,
+        <epistemic-instrument>,
+        <static-picture>,
+        <dynamic-model>,
+        <unreadable-Tractatus>,
+        <technically-reanimated-Tractatus>
+}
+
+    <constraints> :=
+      {
+        <no-picture-as-mere-image>,
+        <no-model-as-mere-metaphor>,
+        <no-history-as-decoration>,
+        <no-logic-without-material-practice>,
+        <no-visual-resemblance-collapse>,
+        <no-dimension-object-identity-overclaim>,
+        <no-Sterrett-summary-without-intervention>,
+        <no-courtroom-scene-as-anecdote>,
+        <no-gramophone-example-as-ornament>
+}
+
+    <invariants> :=
+      {
+        <invariant_1>: <picture> [must-be-read-through
+    ] <model>,
+        <invariant_2>: <model> [depicts-by
+    ] <structured correlation>,
+        <invariant_3>: <measure> [touches-reality-through
+    ] <standardized contact>,
+        <invariant_4>: <proposition> [stages
+    ] <possible-state-of-affairs>,
+        <invariant_5>: <logical-form> [is
+    ] <condition-of-projectability>,
+        <invariant_6>: <gramophone-score-sound> [prove
+    ] <form-without-resemblance>,
+        <invariant_7>: <courtroom-model> [binds
+    ] <physical reconstruction> to <normative judgment>,
+        <invariant_8>: <dimensional-analysis> [clarifies
+    ] <lawful combination>,
+        <invariant_9>: <Tractarian-object> [functions-like
+    ] <condition-of-combination>,
+        <invariant_10>: <historical-milieu> [changes
+    ] <philosophical meaning>
+}
+  </Theory Skeleton>
+
+
+  <Assumption Ledger>
+    <assumption id="A1" status="<safe>">
+      <paper> [argues
+] that <picture theory> becomes stronger when reread as <model-measure theory>.
+    </assumption>
+
+    <assumption id="A2" status="<safe>">
+      <Sterrett> [provides
+] <lineage engine> for linking <Wittgenstein>, <engineering models>, <flight>, <dimensions>, and <measurement>.
+    </assumption>
+
+    <assumption id="A3" status="<safe>">
+      <courtroom-accident-model> [is
+] <epistemic apparatus>, not decorative anecdote.
+    </assumption>
+
+    <assumption id="A4" status="<safe>">
+      <gramophone-record> + <score> + <sound-wave> + <performance> [show
+] <logical-form-as-translatability>.
+    </assumption>
+
+    <assumption id="A5" status="<uncertain>">
+      <dimension-object analogy> [is
+] persuasive but contestable.
+      <rule> := Present as <structural analogy>, not <literal identity>.
+    </assumption>
+
+    <assumption id="A6" status="<uncertain>">
+      <reader> [may-not-know
+] <dimensional-analysis>.
+      <rule> := Explain only enough to support <philosophical payoff>.
+    </assumption>
+
+    <assumption id="A7" status="<requires-user-decision>">
+      <final-form> [could-be
+] <dissertation chapter>, <journal article>, <media theory essay>, or <STS intervention>.
+      <default> := <dissertation chapter with article-grade thesis pressure>.
+    </assumption>
+  </Assumption Ledger>
+
+
+  <Operational Description>
+    <archive> [feeds
+] <argument>.
+    <argument> [reframes
+] <concept>.
+    <concept> [reorients
+] <reader>.
+
+    <Sterrett archive> :=
+      {
+        <modelmaker movement>,
+        <model airplanes>,
+        <Boltzmann on models>,
+        <Buckingham physically similar systems>,
+        <courtroom accident miniature>,
+        <gramophone and sound inscription>,
+        <measurement debates>,
+        <Wittgenstein's engineering formation>
+}
+
+    <archive> [transforms into
+] <philosophical claim>:
+      <modelmaker culture> [transforms into
+] <Modell as technical object>.
+      <courtroom miniature> [transforms into
+] <proposition as possible-world apparatus>.
+      <gramophone groove> [transforms into
+] <logical form as operational translation>.
+      <measuring rod> [transforms into
+] <picture as calibrated contact>.
+      <dimensional analysis> [transforms into
+] <objects as lawful combinatorial conditions>.
+
+    <flat-picture-theory> [is-blocked-by
+] <gramophone example>.
+    <visual resemblance> [fails-because
+] <score> [does-not-look-like
+] <sound>.
+    <visual resemblance> [fails-because
+] <groove> [does-not-look-like
+] <symphony>.
+    <visual resemblance> [fails-because
+] <measure> [does-not-look-like
+] <measured object>.
+    <visual resemblance> [fails-because
+] <scale model> [requires
+] <preserved relations>, not copied appearance.
+
+    <operational depiction> [requires
+]:
+      <element-correlation>
+      + <combinatorial constraint>
+      + <projection rule>
+      + <translation procedure>
+      + <validity condition>.
+
+    <courtroom-model> [performs
+] <operational depiction>:
+      <dolls> [correlate-with
+] <persons>.
+      <vehicles> [correlate-with
+] <cars and buses>.
+      <road-plan> [correlates-with
+] <locality>.
+      <positions> [correlate-with
+] <phases of accident>.
+      <traffic-rules> [constrain
+] <legal possibility>.
+      <motion-paths> [constrain
+] <physical possibility>.
+      <model-arrangement> [projects
+] <possible-state-of-affairs>.
+      <court> [tests
+] <claim against reality and responsibility>.
+
+    <gramophone-system> [performs
+] <operational depiction>:
+      <score> [through trained musician
+] [becomes
+] <performance>.
+      <groove> [through machine
+] [becomes
+] <sound>.
+      <sound-wave> [through inscription
+] [becomes
+] <record>.
+      <unlike media> [share
+] <logical form> because <operations> [translate
+] them.
+
+    <measurement-system> [performs
+] <operational depiction>:
+      <measure> [touches
+] <object> at <graduated contact points>.
+      <unit-standard> [stabilizes
+] <comparison>.
+      <correlation> [allows
+] <picture> to [reach
+] <reality>.
+      <misalignment> [produces
+] <failed depiction>.
+
+    <dimensional-system> [performs
+] <operational depiction>:
+      <quantities> [combine-according-to
+] <dimensions>.
+      <dimensionless-ratios> [establish
+] <physical similarity>.
+      <model-system> [can-speak-about
+] <target-system>.
+      <scale> [becomes
+] <logic of disciplined transformation>.
+
+    <Tractatus> [is-reread-as
+]:
+      <logic> [with
+] <workshop conditions>.
+      <form> [with
+] <technical media>.
+      <truth> [with
+] <model-based testing>.
+      <representation> [with
+] <measurement contact>.
+  </Operational Description>
+
+
+  <Failure Description>
+    <failure id="F1" name="VISUAL_RESEMBLANCE_COLLAPSE">
+      <symptom> := <paper> [says
+] "picture" but [means
+] "image."
+      <damage> := <argument> [becomes
+] weak cliché.
+      <repair> := Return to <model>, <measure>, <projection>, and <operation>.
+    </failure>
+
+    <failure id="F2" name="CONTEXT_DECORATION">
+      <symptom> := <modelmaker history> [sits-beside
+] <philosophy> without changing it.
+      <damage> := <chapter> [becomes
+] antiquarian.
+      <repair> := Every historical scene must [alter
+] a philosophical concept.
+    </failure>
+
+    <failure id="F3" name="TOY_BUS_TRIVIALIZATION">
+      <symptom> := <courtroom miniature> [is-treated-as
+] <cute anecdote>.
+      <damage> := <possible-world logic> and <ethics of judgment> [disappear
+].
+      <repair> := Treat <toy-bus> as <forensic proposition>.
+    </failure>
+
+    <failure id="F4" name="STERRETT_PARAPHRASE">
+      <symptom> := <paper> [only-summarizes
+] <Sterrett>.
+      <damage> := <intervention> [fails
+].
+      <repair> := Use <Sterrett> to build <operational depiction> as a transferable theory.
+    </failure>
+
+    <failure id="F5" name="DIMENSION_ANALOGY_OVERLOAD">
+      <symptom> := <objects> [are-declared-identical-to
+] <dimensions>.
+      <damage> := <claim> [overreaches
+].
+      <repair> := State: <dimensions> [provide
+] <structural analogy> for <objects as combinatorial conditions>.
+    </failure>
+
+    <failure id="F6" name="MEDIA_THEORY_DRIFT">
+      <symptom> := <chapter> [forgets
+] <Tractatus> while discussing media.
+      <damage> := <Wittgenstein argument> [dissolves
+].
+      <repair> := Every media object must [return-to
+] <proposition>, <picture>, <measure>, or <logical form>.
+    </failure>
+
+    <failure id="F7" name="ABSTRACT_FOG">
+      <symptom> := <operational depiction> [sounds
+] poetic but [lacks
+] rules.
+      <damage> := <reader> [cannot-use
+] concept.
+      <repair> := Define five features: <correlation>, <constraint>, <projection>, <mediation>, <validity>.
+    </failure>
+  </Failure Description>
+
+
+  <Change Test>
+    <scenario id="C1" name="philosophy_article">
+      <change> :=
+        <paper> [must-tighten
+] <argumentative sequence>.
+      <modify> :=
+        {
+          <add> close reading of Tractatus 2.12,
+    2.1511-2.1515,
+    4.011,
+    4.014,
+          <add> objection section,
+          <reduce> cinematic prose,
+          <increase> claims about logical form, objects, and sense
+}
+    </scenario>
+
+    <scenario id="C2" name="media_theory_chapter">
+      <change> :=
+        <paper> [must-amplify
+] <technical media>.
+      <modify> :=
+        {
+          <add> gramophone as media-theoretical hinge,
+          <add> inscription and playback,
+          <add> model as medium,
+          <increase> comparison to sound studies and media archaeology
+}
+    </scenario>
+
+    <scenario id="C3" name="STS_chapter">
+      <change> :=
+        <paper> [must-emphasize
+] <institutions of proof>.
+      <modify> :=
+        {
+          <add> courts,
+          <add> expert witnesses,
+          <add> standards bureaus,
+          <add> model clubs,
+          <add> authority to validate similarity
+}
+    </scenario>
+
+    <scenario id="C4" name="AI_simulation_bridge">
+      <change> :=
+        <paper> [must-connect
+] <model-measure theory> to <AI world models>.
+      <modify> :=
+        {
+          <add> simulation as operational depiction,
+          <add> model validity and projection rules,
+          <add> synthetic media as gramophone-like translation system,
+          <add> ethical question of false but persuasive models
+}
+    </scenario>
+  </Change Test>
+
+
+  <Implementation Plan>
+    <paper_structure> :=
+      {
+        <section_1>: "The Toy Bus Was Not a Toy",
+        <section_2>: "Against the Flat Picture",
+        <section_3>: "The Forgotten World of Model Engineers",
+        <section_4>: "1914 and Physically Similar Systems",
+        <section_5>: "Courtroom Forensics and Possible Worlds",
+        <section_6>: "Gramophone Logic",
+        <section_7>: "Measurement as Contact",
+        <section_8>: "The Anti-Anachronism Machine",
+        <section_9>: "Operational Depiction",
+        <section_10>: "Logical Form Has a Workshop"
+}
+
+    <argument_pipeline> :=
+      <toy bus>
+      [opens
+] <problem of depiction>
+      [forces
+] <Bild-to-Modell shift>
+      [requires
+] <modelmaker history>
+      [connects
+] <scale to similarity>
+      [connects
+] <forensics to judgment>
+      [connects
+] <gramophone to translation>
+      [connects
+] <measure to contact>
+      [produces
+] <operational depiction>
+      [returns
+] <Tractatus as workshop logic>.
+
+    <section_rule> :=
+      For each <section>:
+        <historical object> [must-yield
+] <philosophical consequence>.
+  </Implementation Plan>
+
+
+  <Program Text>
+    <paper_argument>
+
+      <opening_move>
+        <toy-bus> [interrupts
+] <canonical picture theory>.
+        <miniature accident> [is-not
+] <illustration>.
+        <miniature accident> [is
+] <proposition in material form>.
+        <courtroom table> [becomes
+] <logical workspace>.
+      </opening_move>
+
+      <core_reversal>
+        <picture> [does-not-mean
+] <visual copy>.
+        <picture> [means
+] <model capable of projection>.
+        <model> [does-not-mean
+] <metaphor>.
+        <model> [means
+] <arrangement whose elements can be correlated with reality>.
+      </core_reversal>
+
+      <central_definition>
+        <operational-depiction> :=
+          <arrangement> [counts-as
+] <depiction>
+          WHEN
+            <elements> [correlate-with
+] <things>
+            AND <arrangements> [obey
+] <constraints>
+            AND <projection-rule> [links
+] <model> to <world>
+            AND <operation> [allows
+] <testing or translation>
+            AND <validity-condition> [distinguishes
+] <fit> from <failure>.
+      </central_definition>
+
+      <first_proof>
+        <courtroom-model> [shows
+] <proposition-as-possible-world>.
+        <dolls>, <vehicles>, <roads>, <rules>, <sightlines>, and <trajectories>
+        [compose
+] <claim about what happened or could have happened>.
+        <truth> [is-tested-through
+] <arranged possibility>.
+      </first_proof>
+
+      <second_proof>
+        <gramophone-record> + <score> + <sound-wave> + <performance>
+        [show
+] <logical-form-without-visual-resemblance>.
+        <shared form> [is
+] <translatability across operations>.
+      </second_proof>
+
+      <third_proof>
+        <measure> [shows
+] <representation-as-contact>.
+        <picture> [reaches
+] <reality>
+        not by resemblance,
+        but by <calibrated correlation>.
+      </third_proof>
+
+      <fourth_proof>
+        <physically-similar-system> [shows
+] <scale-as-logic>.
+        <model> [represents
+] <target>
+        when <relevant relations> [are-preserved
+].
+        <dimension> [clarifies
+] how <combination> [can-be-lawful-before-content>.
+      </fourth_proof>
+
+      <ontology_move>
+        <Tractarian-object> [is-not
+    ] <ordinary thing>.
+        <Tractarian-object> [functions-as
+    ] <condition of possible combination>.
+        <dimension> [models
+    ] this role:
+          not as identity,
+          but as <formal analogy>.
+      </ontology_move>
+
+      <method_move>
+        <anti-anachronism> [is-not
+    ] <background research>.
+        <anti-anachronism> [is
+    ] <concept repair>.
+        <archive> [does-not decorate
+    ] <argument>.
+        <archive> [changes
+    ] what <Bild>, <Modell>, <measure>, and <logical-form> mean.
+      </method_move>
+
+      <intervention>
+        <analytic-philosophy> [flattened
+    ] <picture theory>
+        by [forgetting
+    ] <model shop>, <wind tunnel>, <courtroom>, <gramophone>, and <measurement standard>.
+        <paper> [restores
+    ] these as <conditions of intelligibility>.
+      </intervention>
+
+      <final_claim>
+        <logical-form> [has
+    ] <a workshop>.
+        It is not <image>.
+        It is not <mental copy>.
+        It is not <ornamental analogy>.
+        It is <disciplined projectability>:
+          the capacity of one arranged system
+          to be laid against another
+          and judged true,
+    false, fitting, failing, possible, or impossible.
+      </final_claim>
+
+    </paper_argument>
+  </Program Text>
+
+
+  <Theory-Code Mapping>
+    <types>
+      <entity> := recurring conceptual object in the paper.
+      <operation> := argumentative or interpretive action.
+      <state> := reader's interpretive condition.
+      <constraint> := rule preventing weak reading.
+      <invariant> := claim that must survive every revision.
+    </types>
+
+    <functions>
+      [recover
+    ] := brings <historical milieu> into argument.
+      [reread
+    ] := changes <canonical concept>.
+      [correlate
+    ] := links <model element> to <world element>.
+      [project
+    ] := turns <arrangement> into <possible-state-of-affairs>.
+      [translate
+    ] := moves between unlike media while preserving form.
+      [measure
+    ] := produces contact through standard.
+      [intervene
+    ] := names what the paper changes in the field.
+    </functions>
+
+    <classes>
+      <OperationalDepiction> :=
+        {
+          <element-correlation>,
+          <combinatorial-constraint>,
+          <projection-rule>,
+          <operational-mediation>,
+          <validity-condition>
+    }
+
+      <ModelMeasureTheory> :=
+        {
+          <picture-as-model>,
+          <model-as-correlated-arrangement>,
+          <measure-as-contact>,
+          <logical-form-as-projectability>
+    }
+
+      <AntiAnachronismMachine> :=
+        {
+          <archive>,
+          <historical vocabulary>,
+          <technical practice>,
+          <concept repair>
+    }
+    </classes>
+
+    <tests>
+      <test id="T1">
+        PASS IF <picture> [never-collapses-into
+    ] <mere visual resemblance>.
+      </test>
+
+      <test id="T2">
+        PASS IF <courtroom-model> [does
+    ] philosophical work.
+      </test>
+
+      <test id="T3">
+        PASS IF <gramophone-example> [proves
+    ] <form-without-resemblance>.
+      </test>
+
+      <test id="T4">
+        PASS IF <dimension-object analogy> [is
+    ] strong but not literalized.
+      </test>
+
+      <test id="T5">
+        PASS IF <historical context> [changes
+    ] <meaning of concept>.
+      </test>
+
+      <test id="T6">
+        PASS IF <reader> [exits-with
+    ] <model-measure theory>, not <picture theory cliché>.
+      </test>
+    </tests>
+
+    <comments>
+      <style_command> :=
+        Write like <logic> has grease under its fingernails.
+        Keep <precision>.
+        Keep <archive>.
+        Keep <pressure>.
+        No decorative context.
+        No soft summary.
+        Every object must cut.
+    </comments>
+
+    <configuration>
+      <mode> := <dissertation-chapter-engine>.
+      <density> := <high>.
+      <tone> := <forensic>, <technical>, <combative>, <synthetic>.
+      <primary_intervention> := <picture theory becomes model-measure theory>.
+      <secondary_intervention> := <history of technology becomes necessary to philosophy of logic>.
+      <tertiary_intervention> := <representation becomes operational depiction>.
+    </configuration>
+  </Theory-Code Mapping>
+
+
+  <Residual Human Theory>
+    <uncaptured_by_program>
+      <paper> [still-requires
+    ] <judgment> about how much history the reader can bear before the philosophical line blurs.
+      <paper> [still-requires
+    ] <judgment> about how far to push <dimension-object analogy>.
+      <paper> [still-requires
+    ] <judgment> about whether <operational depiction> is presented as:
+        <Wittgenstein reconstruction>,
+        <Sterrett extension>,
+        <media theory concept>,
+        or <general theory of representation>.
+    </uncaptured_by_program>
+
+    <maintainer_warning>
+      Do not let <model> become metaphor.
+      Do not let <measure> become ornament.
+      Do not let <history> become scenery.
+      Do not let <logical-form> float away from <operation>.
+    </maintainer_warning>
+
+    <final_residue>
+      <logical-form> [cannot-be-fully-said
+    ].
+      <paper> [can-only-stage
+    ] the conditions under which the reader sees it:
+        <toy-bus>,
+        <measure>,
+        <gramophone>,
+        <scale-model>,
+        <dimension>,
+        <proposition>.
+      The reader must perform the final [translation
+    ].
+    </final_residue>
+  </Residual Human Theory>
+
+</PROGRAM_THEORY>

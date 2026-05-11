@@ -1,0 +1,735 @@
+<PROGRAM_THEORY id="EXECUTABLE_SEMANTICS" source="From Word Models to World Models">
+
+  <Initial Interpretation>
+    <program_theory_problem>
+      Build a system in which <language> [does-not-answer-directly
+] but instead [constructs
+] <executable_world_model_operations>.
+      The program must model how <utterance> [becomes
+] <condition>, <query>, <definition>, <revision>, or <world_model>.
+    </program_theory_problem>
+
+    <real_activity>
+      <human_or_machine> [receives
+] <language>
+      <language> [selects-or-builds
+] <world_model>
+      <world_model> [supports
+] <inference>
+      <inference> [returns
+] <belief>, <answer>, <prediction>, <simulation>, or <failure_trace>
+    </real_activity>
+
+    <governing_claim>
+      <LLM> [is
+] <translator>
+      <probabilistic_program> [is
+] <thought_substrate>
+      <inference_engine> [is
+] <reasoning_site>
+      <trace> [is
+] <accountability_surface>
+    </governing_claim>
+
+    <forbidden_confusion>
+      <fluent_text> [must-not-be-confused-with
+] <reasoning>
+      <prediction_of_words> [must-not-be-confused-with
+] <world_model>
+      <tool_calling> [must-not-be-confused-with
+] <cognitive_architecture>
+    </forbidden_confusion>
+  </Initial Interpretation>
+
+
+  <Theory Skeleton>
+
+    <entities>
+      <Utterance> := "natural language input: observation, question, definition, instruction, story, rule, or domain description"
+      <SpeechAct> := "the operational role an utterance plays"
+      <MeaningFunction> := "translator from <Utterance> to <ProgramExpression>"
+      <LLMTranslator> := "amortized neural translator used by <MeaningFunction>"
+      <ProgramExpression> := "executable expression in <ProbabilisticLanguageOfThought>"
+      <ProbabilisticLanguageOfThought> := "symbolic-probabilistic language for possible worlds"
+      <WorldModel> := "generative model containing entities, priors, relations, dynamics, concepts, and constraints"
+      <Condition> := "expression that constrains possible worlds"
+      <Query> := "expression that asks for posterior information"
+      <Definition> := "expression that adds a new concept, predicate, function, relation, or abstraction"
+      <Revision> := "expression that edits an existing world model"
+      <PossibleWorld> := "one sampled or represented world consistent with the model"
+      <PriorBelief> := "distribution before new language is applied"
+      <PosteriorBelief> := "distribution after conditioning"
+      <InferenceEngine> := "procedure that computes, samples, or approximates posterior answers"
+      <SimulationModule> := "renderer, physics engine, planner, graphics system, or domain-specific engine"
+      <Trace> := "visible record of translation, conditions, queries, assumptions, inference method, and output"
+      <Failure> := "localized breakdown in translation, model fit, inference, simulation, or concept coverage"
+    </entities>
+
+    [operations
+]
+      [Classify
+] := <Utterance> -> <SpeechAct>
+      [Translate
+] := <Utterance> + <WorldModelContext> -> <ProgramExpression>
+      [Validate
+] := <ProgramExpression> + <WorldModel> -> <valid | invalid | unsafe | underspecified>
+      [ConditionWorld
+] := <Condition> + <WorldModel> -> <ConditionedWorldModel>
+      [QueryWorld
+] := <Query> + <ConditionedWorldModel> -> <PosteriorAnswer>
+      [DefineConcept
+] := <Definition> + <WorldModel> -> <ExtendedWorldModel>
+      [ReviseModel
+] := <Revision> + <WorldModel> -> <RevisedWorldModel>
+      [ConstructModel
+] := <DomainDescription> -> <WorldModel>
+      [Simulate
+] := <WorldModel> + <SimulationModule> -> <WorldTrajectory>
+      [Infer
+] := <WorldModel> + <Query> -> <PosteriorBelief>
+      [ExposeTrace
+] := <ProgramExpression> + <WorldModel> + <InferenceResult> -> <Trace>
+      [LocalizeFailure
+] := <Failure> -> <repair_target>
+    [/operations
+]
+
+    <states>
+      <RawLanguage>
+      <ClassifiedSpeechAct>
+      <TranslatedExpression>
+      <ValidatedExpression>
+      <RejectedExpression>
+      <UnconditionedWorld>
+      <ConditionedWorld>
+      <QueriedWorld>
+      <ExtendedWorld>
+      <RevisedWorld>
+      <ConstructedWorld>
+      <SimulatedWorld>
+      <InferredBelief>
+      <AnsweredState>
+      <FailedState>
+      <RepairableState>
+    </states>
+
+    <constraints>
+      <C1> <LLMTranslator> [may-translate
+] but [must-not-be-final-authority
+].
+      <C2> <ProgramExpression> [must-be-visible
+] before trust is assigned.
+      <C3> <WorldModel> [must-preserve
+] uncertainty unless inference justifies collapse.
+      <C4> <Condition> [must-constrain
+] worlds, not overwrite them silently.
+      <C5> <Query> [must-not-mutate
+] the world model.
+      <C6> <Definition> [must-leave
+] a durable conceptual trace.
+      <C7> <Revision> [must-record
+] what was changed and why.
+      <C8> <SimulationModule> [must-declare
+] simplifications and scope.
+      <C9> <InferenceEngine> [must-report
+] method, approximation status, and failure.
+      <C10> <Answer> [must-be-derived-from
+] <WorldModel>, not raw fluency.
+    </constraints>
+
+    <invariants>
+      <I1> <meaning> [is
+] <executable_relation_to_possible_worlds>.
+      <I2> <understanding> [requires
+] <translation> + <world_model> + <inference>.
+      <I3> <language> [can
+] <condition> | <query> | <define> | <revise> | <construct>.
+      <I4> <reasoning> [must-have
+] inspectable intermediate representation.
+      <I5> <failure> [must-have
+] address: translation, concept, model, inference, simulation, assumption, or output.
+      <I6> <world_model> [is
+] theory, not reality.
+      <I7> <fluency> [is-not
+] evidence of valid inference.
+      <I8> <trace> [is
+] the political and epistemic accountability surface.
+    </invariants>
+  </Theory Skeleton>
+
+
+  <Assumption Ledger>
+    <assumption status="safe">
+      <Utterance> can be operationalized as a request to condition, query, define, revise, or construct a model.
+    </assumption>
+
+    <assumption status="safe">
+      <LLMTranslator> is strongest when used as broad-coverage language-to-code translator.
+    </assumption>
+
+    <assumption status="safe">
+      <ProbabilisticLanguageOfThought> can represent uncertain worlds better than plain text continuation.
+    </assumption>
+
+    <assumption status="safe">
+      Separating <translation> from <inference> increases inspectability.
+    </assumption>
+
+    <assumption status="uncertain">
+      Open-domain world-model construction can be made reliable without human review.
+    </assumption>
+
+    <assumption status="uncertain">
+      Dynamically generated probabilistic programs can support efficient inference at scale.
+    </assumption>
+
+    <assumption status="uncertain">
+      Human cognition is accurately modeled by language-to-program translation rather than by a looser interaction between language, perception, memory, and action.
+    </assumption>
+
+    <assumption status="requires-user-decision">
+      Choose backend: <Church>, <WebPPL>, <Gen>, <Pyro>, <Stan>, <ProbLog>, or custom DSL.
+    </assumption>
+
+    <assumption status="requires-user-decision">
+      Choose review mode: <auto_execute>, <sandbox_only>, <human_approval>, or <formal_validation>.
+    </assumption>
+
+    <assumption status="requires-user-decision">
+      Choose priority: <cognitive_plausibility>, <engineering_robustness>, <interpretability>, <expressive_power>, or <pedagogical_clarity>.
+    </assumption>
+  </Assumption Ledger>
+
+
+  <Operational Description>
+
+    <pipeline>
+      <Utterance> [enters
+] <RawLanguage>
+      <RawLanguage> [Classify
+] <SpeechAct>
+      <RawLanguage + WorldModelContext> [Translate
+] <ProgramExpression>
+      <ProgramExpression> [Validate
+] <ValidatedExpression | RejectedExpression>
+
+      <ValidatedExpression + SpeechAct:condition> [ConditionWorld
+] <ConditionedWorld>
+      <ValidatedExpression + SpeechAct:query> [QueryWorld
+] <PosteriorAnswer>
+      <ValidatedExpression + SpeechAct:define> [DefineConcept
+] <ExtendedWorld>
+      <ValidatedExpression + SpeechAct:revise> [ReviseModel
+] <RevisedWorld>
+      <ValidatedExpression + SpeechAct:construct> [ConstructModel
+] <ConstructedWorld>
+
+      <WorldModel + Query> [Infer
+] <PosteriorBelief>
+      <WorldModel + SimulationModule> [Simulate
+] <WorldTrajectory>
+      <PosteriorBelief + ProgramExpression + Assumptions> [ExposeTrace
+] <Trace>
+    </pipeline>
+
+    <condition_logic>
+      <observation_utterance> [translates_into
+] <Condition>
+      <Condition> [filters
+] <PossibleWorlds>
+      <PossibleWorlds> [become
+] <PosteriorBelief>
+    </condition_logic>
+
+    <query_logic>
+      <question_utterance> [translates_into
+] <Query>
+      <Query> [selects
+] <target_variable_or_relation>
+      <InferenceEngine> [computes
+] <PosteriorAnswer>
+    </query_logic>
+
+    <definition_logic>
+      <definition_utterance> [translates_into
+] <Definition>
+      <Definition> [adds
+] <Concept>
+      <Concept> [becomes_available_to
+] <future_translation_and_inference>
+    </definition_logic>
+
+    <construction_logic>
+      <domain_description> [translates_into
+] <WorldModel>
+      <WorldModel> [defines
+] {entities, priors, relations, dynamics, possible_queries
+}
+      <future_utterances> [become_interpretable_within
+] <WorldModel>
+    </construction_logic>
+
+    <simulation_logic>
+      <scene_or_agent_language> [conditions
+] <WorldModel>
+      <WorldModel> [calls
+] <SimulationModule>
+      <SimulationModule> [returns
+] <trajectory_or_rendered_state_or_plan>
+      <trajectory_or_rendered_state_or_plan> [supports
+] <answer>
+    </simulation_logic>
+
+    <accountability_logic>
+      <Answer> [must-carry
+] <Trace>
+      <Trace> [must-show
+] {utterance, speech_act, program_expression, world_model_fragment, assumptions, inference_method, uncertainty, failures
+}
+    </accountability_logic>
+
+  </Operational Description>
+
+
+  <Failure Description>
+
+    <failure name="False Fluency">
+      <condition>
+        <LLMTranslator> [generates
+] <Answer> without <ProgramExpression> or <WorldModel>.
+      </condition>
+      <response>
+        Block answer.
+        Require translation.
+        Emit <FailureTrace target="architecture_violation">.
+      </response>
+    </failure>
+
+    <failure name="Bad Translation">
+      <condition>
+        <ProgramExpression> [does-not-match
+] <Utterance>.
+      </condition>
+      <response>
+        Surface expression.
+        Mark confidence low.
+        Request repair or run alternate translations.
+      </response>
+    </failure>
+
+    <failure name="Missing Concept">
+      <condition>
+        <Utterance> [references
+] <Concept> absent from <WorldModel>.
+      </condition>
+      <response>
+        Ask whether to define concept.
+        Attempt <DefineConcept>.
+        Otherwise emit <FailureTrace target="concept_gap">.
+      </response>
+    </failure>
+
+    <failure name="Model Mismatch">
+      <condition>
+        <WorldModel> [cannot-represent
+] domain implied by <Utterance>.
+      </condition>
+      <response>
+        Emit <FailureTrace target="world_model_gap">.
+        Propose model extension or replacement.
+      </response>
+    </failure>
+
+    <failure name="Inference Collapse">
+      <condition>
+        <InferenceEngine> [cannot-compute
+] answer efficiently or coherently.
+      </condition>
+      <response>
+        Report approximation failure.
+        Switch inference method if available.
+        Narrow query or simplify model.
+      </response>
+    </failure>
+
+    <failure name="Simulation Overclaim">
+      <condition>
+        <SimulationModule> [returns
+] toy result but <Answer> [presents
+] real-world certainty.
+      </condition>
+      <response>
+        Mark output as model-bound.
+        Report simplifications.
+        Preserve uncertainty.
+      </response>
+    </failure>
+
+    <failure name="Hidden Politics">
+      <condition>
+        <WorldModel> [encodes
+] contested assumptions as neutral structure.
+      </condition>
+      <response>
+        Expose assumptions.
+        Allow alternate model variants.
+        Require human review for sensitive domains.
+      </response>
+    </failure>
+
+  </Failure Description>
+
+
+  <Change Test>
+
+    <scenario name="If backend changes">
+      <change>
+        <ProbabilisticLanguageOfThought> [changes-from
+] <Church> [to
+] <Gen_or_Pyro_or_ProbLog>
+      </change>
+      <must_change>
+        <syntax>
+        <validator>
+        <translation_examples>
+        <inference_adapter>
+      </must_change>
+      <must_not_change>
+        <separation_of_translation_and_inference>
+        <trace_requirement>
+        <condition_query_define_revision_model>
+      </must_not_change>
+    </scenario>
+
+    <scenario name="If domain becomes open-world">
+      <change>
+        <WorldModel> [changes-from
+] <toy_domain> [to
+] <open_domain>
+      </change>
+      <must_change>
+        <model_retrieval>
+        <dynamic_model_synthesis>
+        <human_review>
+        <assumption_tracking>
+        <failure_localization>
+      </must_change>
+      <must_not_change>
+        <fluency_must_not_replace_world_model>
+      </must_not_change>
+    </scenario>
+
+    <scenario name="If system becomes a humanities analysis tool">
+      <change>
+        <Program> [changes-from
+] <AI_reasoning_engine> [to
+] <cultural_world_model_inspector>
+      </change>
+      <must_change>
+        <output_focus> [moves-from
+] <answers> [to
+] <assumptions_and_worlds>
+        <Trace> [becomes
+] <critical_object>
+      </must_change>
+      <must_not_change>
+        <meaning_is_judged_by_world_it_constructs>
+      </must_not_change>
+    </scenario>
+
+    <scenario name="If safety requirements increase">
+      <change>
+        <auto_execute> [changes-to
+] <sandbox_plus_human_approval>
+      </change>
+      <must_change>
+        <validator>
+        <review_interface>
+        <execution_policy>
+        <audit_log>
+      </must_change>
+      <must_not_change>
+        <program_expression_visibility>
+        <world_model_accountability>
+      </must_not_change>
+    </scenario>
+
+  </Change Test>
+
+
+  <Implementation Plan>
+    <modules>
+      <InputLayer>
+        responsibility: "capture raw utterance and preserve it as evidence"
+      </InputLayer>
+
+      <SpeechActClassifier>
+        responsibility: "map utterance to condition/query/define/revise/construct"
+      </SpeechActClassifier>
+
+      <MeaningTranslator>
+        responsibility: "use LLM as context-sensitive translator into probabilistic program expressions"
+      </MeaningTranslator>
+
+      <ExpressionValidator>
+        responsibility: "check syntax, symbols, types, safety, and domain fit"
+      </ExpressionValidator>
+
+      <WorldModelStore>
+        responsibility: "store current generative model, priors, definitions, conditions, revisions, and assumptions"
+      </WorldModelStore>
+
+      <InferenceEngine>
+        responsibility: "compute posterior distributions, answers, predictions, plans, or failure reports"
+      </InferenceEngine>
+
+      <SimulationAdapter>
+        responsibility: "connect world model to renderer, physics engine, planner, graphics system, or domain engine"
+      </SimulationAdapter>
+
+      <TraceReporter>
+        responsibility: "emit visible reasoning trace and uncertainty"
+      </TraceReporter>
+
+      <RepairLoop>
+        responsibility: "revise bad translations, missing concepts, failed inference, or flawed model assumptions"
+      </RepairLoop>
+    </modules>
+
+    <data_flow>
+      <Utterance>
+        -> <SpeechAct>
+        -> <ProgramExpression>
+        -> <ValidatedExpression>
+        -> <WorldModelTransition>
+        -> <InferenceOrSimulation>
+        -> <Answer>
+        -> <Trace>
+    </data_flow>
+  </Implementation Plan>
+
+
+  <Program Text type="pseudocode">
+
+    SYSTEM ExecutableSemanticsEngine:
+
+      INPUT:
+        utterance: Utterance
+        world_model: WorldModel
+
+      OUTPUT:
+        Answer | Trace | Failure
+
+      PROCEDURE:
+
+        raw := preserve(utterance)
+
+        speech_act := Classify(raw)
+
+        expression := Translate(
+          utterance = raw,
+          context = world_model.visible_context,
+          target_language = ProbabilisticLanguageOfThought
+        )
+
+        validation := Validate(expression, world_model)
+
+        IF validation.status != valid:
+          RETURN Failure(
+            kind = "RejectedExpression",
+            utterance = raw,
+            expression = expression,
+            reason = validation.reason,
+            repair_target = validation.target
+          )
+
+        IF speech_act == condition:
+          world_model := ConditionWorld(world_model, expression)
+          RETURN Trace(
+            state = "ConditionedWorld",
+            utterance = raw,
+            expression = expression,
+            world_model_delta = latest_condition(world_model),
+            assumptions = world_model.assumptions
+          )
+
+        IF speech_act == query:
+          posterior := Infer(world_model, expression)
+          RETURN Trace(
+            state = "AnsweredState",
+            utterance = raw,
+            expression = expression,
+            answer = posterior.answer,
+            uncertainty = posterior.distribution,
+            inference_method = posterior.method,
+            assumptions = world_model.assumptions
+          )
+
+        IF speech_act == define:
+          world_model := DefineConcept(world_model, expression)
+          RETURN Trace(
+            state = "ExtendedWorld",
+            utterance = raw,
+            expression = expression,
+            new_concept = extract_symbol(expression),
+            world_model_delta = latest_definition(world_model)
+          )
+
+        IF speech_act == revise:
+          world_model := ReviseModel(world_model, expression)
+          RETURN Trace(
+            state = "RevisedWorld",
+            utterance = raw,
+            expression = expression,
+            revision = latest_revision(world_model),
+            assumptions = world_model.assumptions
+          )
+
+        IF speech_act == construct:
+          new_world_model := ConstructModel(raw)
+          RETURN Trace(
+            state = "ConstructedWorld",
+            utterance = raw,
+            world_model = new_world_model,
+            assumptions = new_world_model.assumptions,
+            limits = new_world_model.limits
+          )
+
+        RETURN Failure(
+          kind = "UnclassifiedSpeechAct",
+          utterance = raw,
+          reason = "Language could not be assigned an operational role."
+        )
+
+  </Program Text>
+
+
+  <Theory-Code Mapping>
+
+    <types>
+      <Utterance> -> string plus metadata
+      <SpeechAct> -> enum(condition, query, define, revise, construct)
+      <ProgramExpression> -> parsed AST or code string
+      <WorldModel> -> probabilistic program plus definitions, priors, conditions, modules, and history
+      <PosteriorBelief> -> distribution object
+      <Trace> -> structured audit record
+      <Failure> -> typed diagnostic object
+    </types>
+
+    <functions>
+      [Classify
+] -> classify_speech_act()
+      [Translate
+] -> translate_to_program_expression()
+      [Validate
+] -> validate_expression()
+      [ConditionWorld
+] -> add_condition()
+      [QueryWorld
+] -> run_query()
+      [DefineConcept
+] -> add_definition()
+      [ReviseModel
+] -> apply_revision()
+      [ConstructModel
+] -> synthesize_world_model()
+      [Simulate
+] -> run_simulation_adapter()
+      [Infer
+] -> run_inference()
+      [ExposeTrace
+] -> build_trace()
+    </functions>
+
+    <classes>
+      <LLMTranslator> -> handles prompt construction, translation candidates, confidence, and repair suggestions
+      <WorldModelStore> -> owns domain model, conditions, definitions, assumptions, and revision history
+      <InferenceEngine> -> owns sampling, exact inference, SMC, MCMC, or custom inference
+      <SimulationAdapter> -> wraps renderer, planner, physics engine, or domain-specific simulator
+      <TraceReporter> -> emits inspectable representation of meaning and reasoning
+      <RepairLoop> -> localizes and repairs failure
+    </classes>
+
+    <tests>
+      <test name="no_raw_fluent_answer">
+        A query requiring reasoning must not return answer text without <ProgramExpression> and <Trace>.
+      </test>
+
+      <test name="condition_changes_posterior">
+        Relevant observations must alter posterior beliefs.
+      </test>
+
+      <test name="query_no_mutation">
+        Queries must not mutate conditions or definitions.
+      </test>
+
+      <test name="define_extends_future_language">
+        Defined concepts must be usable in later translations and queries.
+      </test>
+
+      <test name="bad_translation_rejected">
+        Invalid expressions must return <Failure>, not improvised prose.
+      </test>
+
+      <test name="simulation_scope_visible">
+        Simulation-backed answers must report simplifications and model limits.
+      </test>
+
+      <test name="trace_contains_assumptions">
+        Every nontrivial answer must expose priors, definitions, conditions, and inference method.
+      </test>
+    </tests>
+
+    <comments>
+      "The LLM translates; it does not govern inference.""The world model is an executable theory, not reality.""All answers must be accountable to visible intermediate representation.""Toy domains demonstrate architecture, not total coverage.""Failure is useful only if localized."
+    </comments>
+
+    <configuration>
+      <PPL_BACKEND> := Church | WebPPL | Gen | Pyro | Stan | ProbLog | CustomDSL
+      <INFERENCE_METHOD> := rejection_sampling | MCMC | SMC | exact | variational | custom
+      <EXECUTION_MODE> := auto | sandbox | human_review | disabled
+      <TRACE_LEVEL> := minimal | standard | full | forensic
+      <REPAIR_MODE> := none | llm_suggest | human_edit | automatic_retry
+      <SIMULATION_MODULES> := renderer | physics | planner | kinship | causal | social_agent
+    </configuration>
+
+  </Theory-Code Mapping>
+
+
+  <Residual Human Theory>
+
+    <what_code_cannot_capture>
+      <human_pragmatics> exceeds simple translation.
+      <cultural_meaning> exceeds formal predicates.
+      <social_concepts> may be politically contested.
+      <world_models> simplify reality.
+      <priors> encode judgment.
+      <simulation> can clarify but also distort.
+      <interpretability> requires human literacy, not just visible code.
+    </what_code_cannot_capture>
+
+    <maintainer_must_understand>
+      <LLM_output> is never automatically <thought>.
+      <ProgramExpression> is a hypothesis about meaning.
+      <WorldModel> is an argument about what exists and what matters.
+      <InferenceResult> is conditional on the model.
+      <Trace> is the site where trust, critique, and repair happen.
+    </maintainer_must_understand>
+
+    <final_axiom>
+      <ExecutableSemantics> :=
+        <Utterance> [must-construct
+] <InspectableWorldOperation>;
+        <InspectableWorldOperation> [must-enter
+] <WorldModel>;
+        <WorldModel> [must-support
+] <Inference>;
+        <Inference> [must-return
+] <AnswerWithTrace>;
+        <AnswerWithTrace> [must-remain-open-to
+] <HumanRevision>.
+    </final_axiom>
+
+  </Residual Human Theory>
+
+</PROGRAM_THEORY>

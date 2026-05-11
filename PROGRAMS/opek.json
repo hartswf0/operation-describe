@@ -1,0 +1,1410 @@
+<PROGRAM_THEORY name="OPERATIVE_EKPHRASIS_AFTER_AI">
+
+<Initial_Interpretation>
+  <paper> :=
+    <argument-machine> [for transforming
+] <ekphrasis>
+    from <verbal representation of image>
+    into <computational operation where text produces image>.
+
+  <real_activity> :=
+    <scholar> [studies
+] how <multimodal AI> changes the relation between <text>, <image>, <meaning>, and <technical substrate>.
+
+  <central_problem> :=
+    <classical humanities concept> [meets
+] <machine-learning system>
+    and must [revise
+] its own assumptions.
+
+  <core_question> :=
+    What happens to <ekphrasis> when <words> no longer merely [describe
+] <images>,
+    but [generate
+] them through <model operations>?
+
+  <core_thesis> :=
+    <multimodal AI> [does not simply translate
+] <text> into <image>;
+    it [routes
+] both through <shared artificial semantics>,
+    thereby [weakening
+] the inherited <text/image distinction> at the level of <technical substrate>.
+</Initial_Interpretation>
+
+
+<Theory_Skeleton>
+
+  <entities>
+    <Ekphrasis>
+    <ClassicalEkphrasis>
+    <OperativeEkphrasis>
+    <Text>
+    <Image>
+    <Word>
+    <Prompt>
+    <Code>
+    <Model>
+    <Interface>
+    <Output>
+    <GeneratedImage>
+    <VisualPoem>
+    <AnaloguePoem>
+    <SequentialDigitalPoem>
+    <ConnectionistAIPoem>
+    <Typewriter>
+    <ShellScript>
+    <DALL-E>
+    <CLIP>
+    <EmbeddingSpace>
+    <FeatureSpace>
+    <LatentSpace>
+    <MultimodalModel>
+    <ArtificialSemantics>
+    <HumanSemantics>
+    <Syntax>
+    <Pragmatics>
+    <Representation>
+    <Performance>
+    <Operation>
+    <TechnicalSubstrate>
+    <Dataset>
+    <TrainingArchive>
+    <CriticalAIStudies>
+    <MediaSpecificity>
+    <SubstrateAwareAesthetics>
+    <HumanInterpreter>
+    <EkphrasticHope>
+    <EkphrasticFear>
+    <MultimodalPictorialThird>
+  </entities>
+
+  [operations
+]
+    [describe
+]
+    [represent
+]
+    [evoke
+]
+    [arrange
+]
+    [execute
+]
+    [generate
+]
+    [correlate
+]
+    [embed
+]
+    [translate
+]
+    [collapse
+]
+    [differentiate
+]
+    [stress-test
+]
+    [revise
+]
+    [interpret
+]
+    [route-through
+]
+    [surface
+]
+    [hide
+]
+    [produce
+]
+    [perform
+]
+    [read
+]
+    [classify
+]
+    [compare
+]
+    [mediate
+]
+    [condition
+]
+    [return
+]
+  [/operations
+]
+
+  <states>
+    <word-image-separated>
+    <word-image-rivalrous>
+    <word-image-performative>
+    <word-image-operational>
+    <text-as-mark>
+    <text-as-code>
+    <text-as-prompt>
+    <image-as-object>
+    <image-as-output>
+    <image-as-surface-evidence>
+    <syntax-without-semantics>
+    <pragmatics-without-semantics>
+    <semantics-without-pragmatics>
+    <artificial-semantics-active>
+    <medium-specific>
+    <medium-collapsed>
+    <human-readable>
+    <machine-operable>
+    <conceptually-stable>
+    <conceptually-stressed>
+    <conceptually-revised>
+  </states>
+
+  <constraints>
+    <anti_hype_constraint>:
+      <argument> must not [claim
+] <AI> [understands
+] like <human>.
+
+    <anti_dismissal_constraint>:
+      <argument> must not [reduce
+] <multimodal AI> to <mere syntax>.
+
+    <substrate_constraint>:
+      Every major <claim> must [pass-through
+] at least one of: {<media object>, <operation>, <interface>, <technical substrate>
+}.
+
+    <regime_constraint>:
+      <analogue>, <sequential digital>, and <connectionist digital>
+      must remain [distinguished
+].
+
+    <semantic_constraint>:
+      <ArtificialSemantics> must remain <weak>, <nonhuman>, <nonintentional>, and <consequential>.
+
+    <critical_constraint>:
+      <aesthetic analysis> must remain [connected-to
+]
+      {<training archive>, <capital>, <labor>, <bias>, <infrastructure>, <power>
+}.
+
+    <ekphrastic_constraint>:
+      <OperativeEkphrasis> applies only when <text> [causally-produces
+] <image>.
+  </constraints>
+
+  <invariants>
+    <I01>:
+      <Ekphrasis> [concerns
+] <relation between text and image>.
+
+    <I02>:
+      <ClassicalEkphrasis> [depends-on
+] <word-image distinction>.
+
+    <I03>:
+      <OperativeEkphrasis> [requires
+] <text> [to produce
+] <image>, not merely [describe
+] it.
+
+    <I04>:
+      <AnaloguePoem> [produces
+] <image-effect> through <bodily-mechanical arrangement>.
+
+    <I05>:
+      <SequentialDigitalPoem> [produces
+] <image-output> through <executable code>.
+
+    <I06>:
+      <ConnectionistAIPoem> [produces
+] <image-output> through <learned cross-modal correlation>.
+
+    <I07>:
+      <SequentialDigitalMedium> [has
+] <technical pragmatics> without <machine semantics>.
+
+    <I08>:
+      <ConnectionistDigitalMedium> [has
+] <artificial semantics> without <explicit command pragmatics>.
+
+    <I09>:
+      <GeneratedImage> must be [read-through
+]
+      {<prompt>, <model>, <dataset>, <interface>, <output>, <human interpretation>
+}.
+
+    <I10>:
+      <ArtificialSemantics> is not <HumanSemantics>.
+
+    <I11>:
+      <HumanInterpreter> remains necessary because <operation> does not exhaust <meaning>.
+
+    <I12>:
+      <text/image collapse> occurs at <model-level>, not necessarily at <cultural-experience-level>.
+  </invariants>
+
+</Theory_Skeleton>
+
+
+<Assumption_Ledger>
+
+  <A01 status="safe">
+    <paper> [aims-to
+] [produce
+] a theoretical intervention in <CriticalAIStudies>.
+  </A01>
+
+  <A02 status="safe">
+    <OperativeEkphrasis> [names
+] the shift from <representation> to <operation>.
+  </A02>
+
+  <A03 status="safe">
+    <visual poetry> [functions-as
+] the test archive for <text/image relations>.
+  </A03>
+
+  <A04 status="safe">
+    <DALL-E>, <CLIP>, and related <multimodal models> [operate-through
+] learned cross-modal representations.
+  </A04>
+
+  <A05 status="safe">
+    <ArtificialSemantics> [names
+] a weak, nonhuman form of technical meaning.
+  </A05>
+
+  <A06 status="safe">
+    <AI-generated images> should be interpreted through <technical substrate>, not surface aesthetics alone.
+  </A06>
+
+  <A07 status="safe">
+    <connectionist digitality> differs enough from <sequential digitality> to require a separate theoretical category.
+  </A07>
+
+  <A08 status="safe">
+    <machine learning> can [stress-test
+] humanistic categories without replacing humanistic interpretation.
+  </A08>
+
+  <A09 status="safe">
+    <artificial semantics> may be politically consequential even without human understanding.
+  </A09>
+
+  <A10 status="uncertain">
+    <paper> may need stronger development of <dataset politics>, <labor>, and <capital>.
+  </A10>
+
+  <A11 status="requires-user-decision">
+    <paper> may become either <journal article>, <dissertation chapter>, or <theoretical-method section>.
+  </A11>
+
+  <A12 status="safe">
+    <tone> should remain <scholarly>, <forensic>, <anti-hype>, <substrate-aware>, and <conceptually dense>.
+  </A12>
+
+</Assumption_Ledger>
+
+
+<Operational_Description>
+
+  <ClassicalEkphrasis>
+    [begins-as
+]
+  <verbal representation of visual representation>.
+
+  <ClassicalEkphrasis>
+    [requires
+]
+  <word-image-separated>.
+
+  <word-image-separated>
+    [generates
+]
+  {<EkphrasticHope>, <EkphrasticFear>
+}.
+
+  <EkphrasticHope>
+    [says
+]
+  <words can make us see>.
+
+  <EkphrasticFear>
+    [says
+]
+  <words and images must remain separate>.
+
+  <visual poetry>
+    [pressures
+]
+  <word-image-separated>.
+
+  <AnaloguePoem>
+    [uses
+]
+  <Text-as-mark>.
+
+  <HumanHand>
+    [operates
+]
+  <Typewriter>.
+
+  <Typewriter>
+    [arranges
+]
+  <letters>.
+
+  <letters>
+    [produce
+]
+  <visual field>.
+
+  <AnaloguePoem>
+    [reveals
+]
+  <text becoming image through arrangement>.
+
+  <AnaloguePoem>
+    [does-not-yet-satisfy
+]
+  <OperativeEkphrasis>.
+
+  <SequentialDigitalPoem>
+    [introduces
+]
+  <Code>.
+
+  <Code>
+    [executes
+]
+  <image-producing procedure>.
+
+  <image-producing procedure>
+    [outputs
+]
+  <GeneratedImage>.
+
+  <SequentialDigitalPoem>
+    [satisfies
+]
+  <OperativeEkphrasis>.
+
+  <SequentialDigitalMedium>
+    [has
+]
+  <Syntax>.
+
+  <Syntax>
+    [enables
+]
+  <Execution>.
+
+  <Execution>
+    [produces
+]
+  <ImageOutput>.
+
+  <SequentialDigitalMedium>
+    [lacks
+]
+  <machine-internal semantics>.
+
+  <SequentialDigitalMedium>
+    [therefore-enters
+]
+  <pragmatics-without-semantics>.
+
+  <ConnectionistDigitalMedium>
+    [introduces
+]
+  <Model>.
+
+  <Model>
+    [is-trained-on
+]
+  {<text-data>, <image-data>, <caption-image pairs>, <cultural archives>
+}.
+
+  <TrainingArchive>
+    [conditions
+]
+  <Model>.
+
+  <Model>
+    [learns
+]
+  <cross-modal correlation>.
+
+  <cross-modal correlation>
+    [forms
+]
+  <EmbeddingSpace>.
+
+  <EmbeddingSpace>
+    [routes
+]
+  {<Text>, <Image>
+}.
+
+  <Prompt>
+    [enters
+]
+  <Interface>.
+
+  <Interface>
+    [passes
+]
+  <Prompt>
+    into
+  <MultimodalModel>.
+
+  <MultimodalModel>
+    [maps
+]
+  <Prompt>
+    into
+  <latent representation>.
+
+  <latent representation>
+    [conditions
+]
+  <image generation>.
+
+  <image generation>
+    [returns
+]
+  <GeneratedImage>.
+
+  <GeneratedImage>
+    [appears-to
+]
+  <HumanInterpreter>.
+
+  <HumanInterpreter>
+    [reads
+]
+  <GeneratedImage>
+    as
+  <surface evidence of model-world>.
+
+  <ConnectionistDigitalMedium>
+    [therefore-enters
+]
+  <semantics-without-pragmatics>.
+
+  <ArtificialSemantics>
+    [emerges-when
+]
+  <text-image correlation>
+    [is-stabilized-inside
+]
+  <Model>.
+
+  <ArtificialSemantics>
+    [is-not
+]
+  <HumanUnderstanding>.
+
+  <ArtificialSemantics>
+    [is-not
+]
+  <mere syntax>.
+
+  <ArtificialSemantics>
+    [forces
+]
+  <Ekphrasis>
+    [to-revise-into
+]
+  <OperativeEkphrasis>.
+
+  <OperativeEkphrasis>
+    [becomes
+]
+  <method>.
+
+  <method>
+    [asks
+]
+  {
+    "What operation links <text> to <image>?",
+    "What substrate carries the operation?",
+    "Where does meaning enter?",
+    "Where does command disappear?",
+    "What does the interface hide?",
+    "What archive trained the relation?",
+    "What politics are encoded in the generated surface?",
+    "What still requires human interpretation?"
+}.
+
+</Operational_Description>
+
+
+<Failure_Description>
+
+  <failure id="F01_AI_HYPE">
+    <condition>:
+      <argument> [claims
+] <AI> [understands
+] like <human>.
+    <response>: [downgrade
+] <semantics> to <ArtificialSemantics>.
+      [mark
+] it as <weak>, <nonhuman>, <nonintentional>, <technical>.
+  </failure>
+
+  <failure id="F02_AI_DISMISSAL">
+    <condition>:
+      <argument> [claims
+] <AI> [is only
+] <empty syntax>.
+    <response>: [restore
+] distinction between <SequentialDigitalMedium> and <ConnectionistDigitalMedium>.
+      [show
+] <cross-modal correlation>.
+  </failure>
+
+  <failure id="F03_MEDIUM_FLATTENING">
+    <condition>:
+      <argument> [treats
+] <analogue>, <sequential digital>, and <connectionist digital> [as equivalent
+].
+    <response>: [rebuild
+] <three media regimes>.
+  </failure>
+
+  <failure id="F04_SURFACE_AESTHETICISM">
+    <condition>:
+      <GeneratedImage> [is interpreted without
+] {<prompt>, <model>, <dataset>, <interface>
+}.
+    <response>: [require
+] <substrate-aware reading>.
+  </failure>
+
+  <failure id="F05_CONCEPTUAL_OVEREXTENSION">
+    <condition>:
+      <OperativeEkphrasis> [is applied to
+] any generic <text-image relation>.
+    <response>: [enforce
+] causal rule:
+        <text> must [produce
+] <image> through <operation>.
+  </failure>
+
+  <failure id="F06_POLITICAL_THINNING">
+    <condition>:
+      <argument> [ignores
+] {<training data>, <labor>, <capital>, <bias>, <infrastructure>
+}.
+    <response>: [route
+] <aesthetic claim> through <CriticalAIStudies>.
+  </failure>
+
+  <failure id="F07_TECHNICAL_NAIVETE">
+    <condition>:
+      <paper> [uses
+] <model architecture> only metaphorically.
+    <response>: [qualify
+] claims.
+      [anchor
+] claims in <operation>.
+  </failure>
+
+  <failure id="F08_HUMANITIES_DEFENSIVENESS">
+    <condition>:
+      <humanistic concept> [refuses
+] [revision
+].
+    <response>: [stress-test
+] <concept> against <machine operation>.
+  </failure>
+
+  <failure id="F09_MACHINE_DETERMINISM">
+    <condition>:
+      <technical system> [is allowed to define
+] <meaning completely>.
+    <response>: [restore
+] <HumanInterpreter>.
+      [restore
+] <cultural context>.
+  </failure>
+
+  <failure id="F10_PROMPT_BOX_MYSTIFICATION">
+    <condition>:
+      <Prompt> [appears as
+] magical bridge from <word> to <image>.
+    <response>: [expose
+] chain:
+        <prompt> -> <tokenization> -> <embedding> -> <model correlation> -> <generation> -> <image output>.
+  </failure>
+
+</Failure_Description>
+
+
+<Change_Test>
+
+  <scenario id="C01_VIDEO_GENERATION">
+    <question>
+      What changes if <image> becomes <video>?
+    </question>
+
+    <changed_entities>
+      <Image> -> <MovingImage>
+      <GeneratedImage> -> <GeneratedVideo>
+      <Ekphrasis> -> <CinephrasticOperation>
+      <spatial output> -> <temporal-spatial output>
+    </changed_entities>
+
+    <changed_operations>
+      [generate
+] must include <duration>, <motion>, <continuity>, <shot logic>, <frame coherence>.
+      [interpret
+] must include <editing>, <camera movement>, <sequence>, <temporal rhythm>.
+    </changed_operations>
+
+    <preserved_invariants>
+      <text> still [produces
+] <visual output>.
+      <technical substrate> still [matters
+].
+      <artificial semantics> still [mediates
+] <prompt-output relation>.
+    </preserved_invariants>
+  </scenario>
+
+  <scenario id="C02_SOUND_GENERATION">
+    <question>
+      What changes if <image> becomes <sound>?
+    </question>
+
+    <changed_entities>
+      <Image> -> <Sound>
+      <VisualPoem> -> <SoundPoem>
+      <GeneratedImage> -> <GeneratedAudio>
+      <EmbeddingSpace> -> <audio-text representational space>
+    </changed_entities>
+
+    <changed_operations>
+      [correlate
+] must link <text> with <audio features>.
+      [generate
+] must produce <waveform>, <voice>, <music>, or <soundscape>.
+    </changed_operations>
+
+    <preserved_invariants>
+      <prompt> still [routes-through
+] <model>.
+      <output> still [requires
+] <substrate-aware reading>.
+      <human meaning> still [exceeds
+] <model correlation>.
+    </preserved_invariants>
+  </scenario>
+
+  <scenario id="C03_REJECT_ARTIFICIAL_SEMANTICS">
+    <question>
+      What changes if <ArtificialSemantics> is rejected?
+    </question>
+
+    <changed_entities>
+      <ArtificialSemantics> -> <StatisticalCrossModalOperativity>
+      <meaning claim> -> <correlation claim>
+    </changed_entities>
+
+    <consequence>
+      <paper> loses its strongest distinction between <sequential code> and <connectionist model>.
+    </consequence>
+
+    <repair>
+      Replace "AI means weakly" with:
+      <AI> [correlates
+] <text> and <image> operationally in ways that alter <ekphrasis>.
+    </repair>
+  </scenario>
+
+  <scenario id="C04_DISSERTATION_CHAPTER">
+    <question>
+      What changes if <paper> becomes <dissertation chapter>?
+    </question>
+
+    <changed_structure>
+      [expand
+] <CriticalAIStudies context>.
+      [add
+] <dataset politics>.
+      [add
+] <labor and infrastructure>.
+      [add
+] <case-study comparison>.
+      [add
+] <methodological bridge> to <narrative>, <memory>, or <cultural systems>.
+    </changed_structure>
+
+    <preserved_core>
+      <OperativeEkphrasis> remains the <conceptual engine>.
+    </preserved_core>
+  </scenario>
+
+</Change_Test>
+
+
+<Implementation_Plan>
+
+  <section id="S01_PROMPT_BOX">
+    <function>
+      [open
+] with <prompt box> as theoretical scene.
+      [state
+] that <words> now [generate
+] <images>.
+    </function>
+  </section>
+
+  <section id="S02_CLASSICAL_EKPHRASIS">
+    <function>
+      [define
+] <ClassicalEkphrasis>.
+      [establish
+] <word-image distinction>.
+      [introduce
+] <ekphrastic hope> and <ekphrastic fear>.
+    </function>
+  </section>
+
+  <section id="S03_VISUAL_POETRY_ARCHIVE">
+    <function>
+      [compare
+] <AnaloguePoem>, <SequentialDigitalPoem>, <ConnectionistAIPoem>.
+      [show
+] three ways <text> [becomes
+] <image>.
+    </function>
+  </section>
+
+  <section id="S04_OPERATIVE_EKPHRASIS">
+    <function>
+      [define
+] <OperativeEkphrasis>.
+      [shift
+] from <representation> to <operation>.
+    </function>
+  </section>
+
+  <section id="S05_SEQUENTIAL_DIGITALITY">
+    <function>
+      [analyze
+] <code>.
+      [describe
+] <pragmatics-without-semantics>.
+    </function>
+  </section>
+
+  <section id="S06_CONNECTIONIST_DIGITALITY">
+    <function>
+      [analyze
+] <model>.
+      [describe
+] <artificial-semantics>.
+    </function>
+  </section>
+
+  <section id="S07_MULTIMODAL_COLLAPSE">
+    <function>
+      [show
+] how <EmbeddingSpace> [routes
+] <Text> and <Image>.
+      [argue
+] <text/image distinction> [collapses
+] at <model-level>.
+    </function>
+  </section>
+
+  <section id="S08_CRITICAL_AI_METHOD">
+    <function>
+      [turn
+] <OperativeEkphrasis> into <method>.
+      [connect
+] <aesthetic analysis> to <training archive>, <power>, <interface>, <infrastructure>.
+    </function>
+  </section>
+
+  <section id="S09_CONCLUSION">
+    <function>
+      [return
+] to <Ekphrasis>.
+      [state
+] <end of ekphrastic innocence>.
+      [preserve
+] <HumanInterpreter>.
+    </function>
+  </section>
+
+</Implementation_Plan>
+
+
+<Program_Text>
+
+  <ArgumentProgram name="OperativeEkphrasisAfterAI">
+
+    <load>
+      <ClassicalEkphrasis>
+      <VisualPoetryArchive>
+      <SequentialDigitality>
+      <ConnectionistDigitality>
+      <CriticalAIStudies>
+    </load>
+
+    <initialize>
+      <Text> := <medium of words, code, prompts, marks>
+      <Image> := <medium of visual surfaces, files, outputs, generated forms>
+      <Ekphrasis> := <relation between Text and Image>
+    </initialize>
+
+    <step id="01">
+      <Ekphrasis>
+        [starts-as
+]
+      <verbal representation of image>.
+    </step>
+
+    <step id="02">
+      <ClassicalEkphrasis>
+        [requires
+]
+      <Text> [to remain distinct from
+] <Image>.
+    </step>
+
+    <step id="03">
+      <distinction Text/Image>
+        [produces
+]
+      {<EkphrasticHope>, <EkphrasticFear>
+}.
+    </step>
+
+    <step id="04">
+      <VisualPoetryArchive>
+        [tests
+]
+      <distinction Text/Image>.
+    </step>
+
+    <step id="05">
+      <AnaloguePoem>
+        [maps
+]
+      <Text-as-mark>
+        into
+      <Image-effect>
+        through
+      <manual arrangement>.
+    </step>
+
+    <step id="06">
+      <AnaloguePoem>
+        [shows
+]
+      <text can look like image>.
+    </step>
+
+    <step id="07">
+      <AnaloguePoem>
+        [does-not-show
+]
+      <text operationally producing image>.
+    </step>
+
+    <step id="08">
+      <SequentialDigitalPoem>
+        [introduces
+]
+      <Code>.
+    </step>
+
+    <step id="09">
+      <Code>
+        [executes
+]
+      <procedure>.
+    </step>
+
+    <step id="10">
+      <procedure>
+        [produces
+]
+      <ImageOutput>.
+    </step>
+
+    <step id="11">
+      <SequentialDigitalPoem>
+        [activates
+]
+      <OperativeEkphrasis>.
+    </step>
+
+    <step id="12">
+      <OperativeEkphrasis>
+        [is-defined-as
+]
+      <Text> [causally producing
+] <Image> through <technical operation>.
+    </step>
+
+    <step id="13">
+      <SequentialDigitalMedium>
+        [contains
+]
+      <syntax>.
+    </step>
+
+    <step id="14">
+      <syntax>
+        [enables
+]
+      <execution>.
+    </step>
+
+    <step id="15">
+      <execution>
+        [creates
+]
+      <technical pragmatics>.
+    </step>
+
+    <step id="16">
+      <SequentialDigitalMedium>
+        [lacks
+]
+      <machine-internal semantics>.
+    </step>
+
+    <step id="17">
+      <SequentialDigitalMedium>
+        [enters-state
+]
+      <pragmatics-without-semantics>.
+    </step>
+
+    <step id="18">
+      <ConnectionistDigitalMedium>
+        [introduces
+]
+      <MultimodalModel>.
+    </step>
+
+    <step id="19">
+      <MultimodalModel>
+        [is-trained-on
+]
+      {<TextData>, <ImageData>, <CaptionImagePairs>, <CulturalArchive>
+}.
+    </step>
+
+    <step id="20">
+      <TrainingArchive>
+        [conditions
+]
+      <ModelWorld>.
+    </step>
+
+    <step id="21">
+      <MultimodalModel>
+        [learns
+]
+      <cross-modal correlations>.
+    </step>
+
+    <step id="22">
+      <cross-modal correlations>
+        [stabilize-as
+]
+      <EmbeddingSpace>.
+    </step>
+
+    <step id="23">
+      <EmbeddingSpace>
+        [places
+]
+      <Text> and <Image>
+        into
+      <shared computational field>.
+    </step>
+
+    <step id="24">
+      <Prompt>
+        [enters
+]
+      <Interface>.
+    </step>
+
+    <step id="25">
+      <Interface>
+        [hides
+]
+      <model operations>.
+    </step>
+
+    <step id="26">
+      <Prompt>
+        [is-routed-through
+]
+      <MultimodalModel>.
+    </step>
+
+    <step id="27">
+      <MultimodalModel>
+        [conditions
+]
+      <ImageGeneration>.
+    </step>
+
+    <step id="28">
+      <ImageGeneration>
+        [returns
+]
+      <GeneratedImage>.
+    </step>
+
+    <step id="29">
+      <GeneratedImage>
+        [appears-as
+]
+      <visual answer to text>.
+    </step>
+
+    <step id="30">
+      <visual answer to text>
+        [conceals
+]
+      <training archive and model correlation>.
+    </step>
+
+    <step id="31">
+      <ConnectionistDigitalMedium>
+        [enters-state
+]
+      <semantics-without-pragmatics>.
+    </step>
+
+    <step id="32">
+      <ArtificialSemantics>
+        [is-defined-as
+]
+      <weak nonhuman nonintentional meaning generated by cross-modal correlation>.
+    </step>
+
+    <step id="33">
+      <ArtificialSemantics>
+        [is-not
+]
+      <HumanSemantics>.
+    </step>
+
+    <step id="34">
+      <ArtificialSemantics>
+        [is-not
+]
+      <mere syntax>.
+    </step>
+
+    <step id="35">
+      <ArtificialSemantics>
+        [revises
+]
+      <Ekphrasis>.
+    </step>
+
+    <step id="36">
+      <Text/Image distinction>
+        [collapses
+]
+      at
+      <model-level>.
+    </step>
+
+    <step id="37">
+      <Text/Image distinction>
+        [persists
+]
+      at
+      <human-cultural-interface-level>.
+    </step>
+
+    <step id="38">
+      <GeneratedImage>
+        [must-be-read-through
+]
+      {<Prompt>, <Model>, <Dataset>, <Interface>, <Output>, <HumanInterpreter>
+}.
+    </step>
+
+    <step id="39">
+      <SubstrateAwareAesthetics>
+        [replaces
+]
+      <surface-only aesthetics>.
+    </step>
+
+    <step id="40">
+      <OperativeEkphrasis>
+        [becomes
+]
+      <CriticalAIStudies method>.
+    </step>
+
+    <step id="41">
+      <CriticalAIStudies method>
+        [asks
+]
+      {
+    "What produced this image?",
+    "What text activated it?",
+    "What model mediated it?",
+    "What archive trained it?",
+    "What interface concealed the operation?",
+    "What politics shaped the correlation?",
+    "What remains for human interpretation?"
+}.
+    </step>
+
+    <step id="42">
+      <HumanInterpreter>
+        [returns
+]
+      <cultural meaning>.
+    </step>
+
+    <step id="43">
+      <paper>
+        [concludes
+]
+      <Ekphrasis> is no longer innocent description;
+      it is <operation>, <substrate>, <correlation>, and <interpretive residue>.
+    </step>
+
+  </ArgumentProgram>
+
+</Program_Text>
+
+
+<Theory_Code_Mapping>
+
+  <types>
+    <Ekphrasis>:
+      inherited category governing <text-image relation>.
+
+    <ClassicalEkphrasis>:
+      version based on <description>, <representation>, and <medium difference>.
+
+    <OperativeEkphrasis>:
+      revised version based on <text producing image through operation>.
+
+    <MediaRegime>:
+      comparative type containing: {<AnalogueMedium>, <SequentialDigitalMedium>, <ConnectionistDigitalMedium>
+}.
+
+    <ArtificialSemantics>:
+      weak technical meaning produced by <cross-modal correlation>.
+
+    <GeneratedImage>:
+      visible output of hidden <model operation>.
+
+    <HumanInterpreter>:
+      agent who restores <history>, <culture>, <judgment>, and <meaning>.
+  </types>
+
+  <functions>
+    [define
+]:
+      assigns theoretical meaning to <OperativeEkphrasis> and <ArtificialSemantics>.
+
+    [compare
+]:
+      distinguishes <AnaloguePoem>, <SequentialDigitalPoem>, and <ConnectionistAIPoem>.
+
+    [classify
+]:
+      places media examples into <media regimes>.
+
+    [execute
+]:
+      models <sequential digital operation>.
+
+    [correlate
+]:
+      models <connectionist multimodal operation>.
+
+    [generate
+]:
+      transforms <Prompt> into <GeneratedImage>.
+
+    [interpret
+]:
+      returns <GeneratedImage> to <HumanInterpreter>.
+
+    [guard
+]:
+      blocks <AI hype>, <AI dismissal>, <medium flattening>, and <surface aestheticism>.
+  </functions>
+
+  <classes>
+    <AnalogueVisualPoetry>:
+      implements <manual arrangement>.
+
+    <SequentialDigitalPoetry>:
+      implements <code execution>.
+
+    <ConnectionistAIPoetry>:
+      implements <prompt-model-output generation>.
+
+    <CriticalAIStudies>:
+      implements <power-aware interpretation>.
+
+    <SubstrateAwareAesthetics>:
+      implements <reading across prompt, model, dataset, interface, output>.
+  </classes>
+
+  <tests>
+    <test id="T01_NO_HYPE">
+      if <argument> [claims
+] <AI> [understands like human>
+      then [fail
+    ] and [restore
+    ] <ArtificialSemantics>.
+    </test>
+
+    <test id="T02_NO_DISMISSAL">
+      if <argument> [claims
+    ] <AI> [is only syntax>
+      then [fail
+        ] and [restore
+        ] <ConnectionistDigitalMedium>.
+    </test>
+
+    <test id="T03_OPERATION_REQUIRED">
+      if <text> [does not causally produce
+        ] <image>
+      then <OperativeEkphrasis> [does not apply
+        ].
+    </test>
+
+    <test id="T04_THREE_REGIMES">
+      if <analogue>, <sequential>, and <connectionist> [collapse into one category
+        ]
+      then [fail
+        ] and [rebuild
+        ] <media regime distinction>.
+    </test>
+
+    <test id="T05_SUBSTRATE_REQUIRED">
+      if <GeneratedImage> [is interpreted without
+        ] <Prompt> or <Model> or <Dataset> or <Interface>
+      then [fail
+        ] and [require
+        ] <SubstrateAwareAesthetics>.
+    </test>
+
+    <test id="T06_HUMAN_INTERPRETER_REQUIRED">
+      if <machine operation> [exhausts
+        ] <meaning>
+      then [fail
+        ] and [restore
+        ] <HumanInterpreter>.
+    </test>
+  </tests>
+
+  <comments>
+    <comment>
+      <paper> is not about whether AI images are good.
+      It is about what AI image generation does to the theory of <text> and <image>.
+    </comment>
+
+    <comment>
+      <prompt box> is not merely an interface.
+      It is a compressed theory of <operative ekphrasis>.
+    </comment>
+
+    <comment>
+      <GeneratedImage> is not the whole artifact.
+      It is the visible surface of a longer operation.
+    </comment>
+
+    <comment>
+      <ArtificialSemantics> must stay weak.
+      Its weakness prevents hype; its consequence prevents dismissal.
+    </comment>
+  </comments>
+
+  <configuration>
+    <tone>:
+      <scholarly>, <forensic>, <anti-hype>, <substrate-aware>, <conceptually dense>.
+
+    <archive>: {<visual poetry>, <software studies>, <CriticalAIStudies>, <machine learning architecture>
+        }.
+
+    <argumentative_mode>:
+      <genealogical>, <comparative>, <theoretical>, <technical-humanistic>.
+
+    <forbidden_moves>: {
+        <AI mysticism>,
+        <medium purism>,
+        <surface-only aesthetics>,
+        <syntax-only reduction>,
+        <humanities without technical substrate>,
+        <technical explanation without cultural interpretation>
+        }.
+
+    <desired_output>:
+      <revised humanistic concept>.
+  </configuration>
+
+</Theory_Code_Mapping>
+
+
+<Residual_Human_Theory>
+
+  <R01>
+    <code-like theory> cannot capture the felt uncanniness of watching <words> become <images>.
+  </R01>
+
+  <R02>
+    <program structure> cannot fully contain the historical density of <ekphrasis>.
+  </R02>
+
+  <R03>
+    <ArtificialSemantics> remains a provocation; it must be handled carefully.
+  </R03>
+
+  <R04>
+    <GeneratedImage> circulates socially after generation; this circulation exceeds <model operation>.
+  </R04>
+
+  <R05>
+    <HumanInterpreter> brings memory, discipline, desire, politics, and judgment.
+  </R05>
+
+  <R06>
+    <CriticalAIStudies> must keep asking who paid for, trained, labeled, deployed, and benefits from the system.
+  </R06>
+
+  <R07>
+    <OperativeEkphrasis> must not become a loose metaphor.
+    It only applies when <text> [produces
+        ] <image> through <operation>.
+  </R07>
+
+  <R08>
+    <text/image collapse> is not total.
+    It is a <model-level collapse> under a <human-level persistence>.
+  </R08>
+
+  <R09>
+    The final question remains:
+    What must <humanities concepts> become when <machines> begin performing the relations those concepts once only described?
+  </R09>
+
+</Residual_Human_Theory>
+
+</PROGRAM_THEORY>

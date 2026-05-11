@@ -1,0 +1,405 @@
+<PROGRAM_THEORY name="NAUR_EHN_MUSASHI_SOFTWARE_PRACTICE_ENGINE">
+
+  <author_lineage>
+    <Peter_Naur> [teaches
+] <programming_as_theory_building>
+    <Pelle_Ehn> [teaches
+] <design_as_participatory_language_game>
+    <Miyamoto_Musashi> [teaches
+] <tool_pluralism_reflective_practice_and_victory_without_waste>
+  </author_lineage>
+
+  <core_claim>
+    <software_development> is not <artifact_production>.
+    <software_development> is <shared_theory_building_under_change>.
+
+    <program_text> is a residue.
+    <documentation> is a residue.
+    <method> is a tool.
+    <AI_code> is a candidate artifact.
+    <program_theory> is the living possession that lets <team> [explain
+],
+[justify
+],
+[modify
+],
+[teach
+], and [deliver
+] <system> without killing its coherence.
+  </core_claim>
+
+  <world_activity>
+    <team> [confronts
+] <problem>
+    <team> [builds
+] <shared_theory>
+    <shared_theory> [maps
+] <world_activity> into <program_structure>
+    <program_structure> [supports
+] <use_activity>
+    <use_activity> [changes
+]
+    <team> [modifies
+] <program_text>
+    <program_text> [survives
+] only if <modification> [preserves
+] <program_theory>
+  </world_activity>
+
+  <dominant_entities>
+    {human_entities
+} :=
+      <programmer>,
+      <designer>,
+      <user>,
+      <maintainer>,
+      <team>,
+      <future_reader>,
+      <AI_operator>
+
+    {artifact_entities
+} :=
+      <program_text>,
+      <documentation>,
+      <diagram>,
+      <test>,
+      <mockup>,
+      <prototype>,
+      <prompt>,
+      <AI_generated_code>,
+      <method>,
+      <tool>,
+      <metaphor>
+
+    {knowledge_entities
+} :=
+      <program_theory>,
+      <shared_theory>,
+      <tacit_skill>,
+      <practical_understanding>,
+      <world_mapping>,
+      <justification>,
+      <modification_sense>,
+      <residual_human_judgment>
+
+    {risk_entities
+} :=
+      <production_lie>,
+      <documentation_theater>,
+      <method_worship>,
+      <AI_velocity_without_theory>,
+      <dead_program>,
+      <patch_rot>,
+      <person_as_opponent>,
+      <process_theater>
+  </dominant_entities>
+
+  <primary_morphisms>
+    <programmer> [builds
+] <program_theory>
+    <program_theory> [explains
+] <program_text>
+    <program_theory> [justifies
+] <structure>
+    <program_theory> [guides
+] <modification>
+    <program_theory> [teaches
+] <future_maintainer>
+
+    <designer> [stages
+] <design_language_game>
+    <user> [reveals
+] <practical_understanding> through <doing>
+    <mockup> [evokes
+] <earlier_experience>
+    <prototype> [tests
+] <future_use>
+    <design_artifact> [works_when
+] <participant> [can_act_with_it>
+
+    <team> [selects
+    ] <tool>
+    <tool> [serves
+    ] <problem_solution>
+    <team> [drops
+    ] <tool> when <tool> [becomes
+    ] <ceremony>
+
+    <AI_assistant> [generates
+    ] <candidate_code>
+    <team> [audits
+    ] <candidate_code>
+    <candidate_code> [enters
+    ] <program_text> only_if <candidate_code> [fits
+    ] <program_theory>
+  </primary_morphisms>
+
+  <states>
+    <unformed_theory> :=
+      <team> [has
+    ] <task> but not <world_mapping>
+
+    <partial_theory> :=
+      <team> [can_describe
+    ] <some_parts> but cannot yet [justify
+    ] <whole_structure>
+
+    <shared_theory> :=
+      <team> [can_explain
+    ],
+    [modify
+    ],
+    [teach
+    ], and [extend
+    ] <system> coherently
+
+    <living_program> :=
+      <program_text> + <team_that_possesses_program_theory>
+
+    <dying_program> :=
+      <program_text> [still_runs
+    ] but <modifications> [arrive_as
+    ] <patch_rot>
+
+    <dead_program> :=
+      <program_text> [runs
+    ] but no <team> [possesses
+    ] <modification_sense>
+
+    <revival_attempt> :=
+      <new_team> [tries_to_rebuild
+    ] <program_theory> from <residue_artifacts>
+
+    <delivery_ready> :=
+      <program_text> [works
+    ] and <team> [can_explain_why_it_works_and_how_it_changes>
+  </states>
+
+  <invariants>
+    <invariant id="01">
+      <program_text> must not outrun <program_theory>.
+    </invariant>
+
+    <invariant id="02">
+      <opponent> is always <problem>, never <user>, <teammate>, <manager>, <sponsor>, or <maintainer>.
+    </invariant>
+
+    <invariant id="03">
+      <documentation> is valid only if it helps <future_reader> [rebuild
+        ] <program_theory>.
+    </invariant>
+
+    <invariant id="04">
+      <method> is valid only if it helps <team> [build
+        ],
+        [share
+        ],
+        [test
+        ],
+        [preserve
+        ], or [modify
+        ] <program_theory>.
+    </invariant>
+
+    <invariant id="05">
+      <AI_generated_code> is not <solution>; it is <candidate_code> awaiting <theory_alignment>.
+    </invariant>
+
+    <invariant id="06">
+      <user_need> cannot be trusted as complete until <user_practice> has been [observed
+        ],
+        [staged
+        ],
+        [mocked_up
+        ], or [rehearsed
+        ].
+    </invariant>
+
+    <invariant id="07">
+      <clean_code> means <code_that_teaches_theory>, not <code_that_merely_looks_orderly>.
+    </invariant>
+
+    <invariant id="08">
+      <microtouch_intervention> is preferred over <structural_amputation> unless <structure_itself> [causes
+        ] <failure>.
+    </invariant>
+  </invariants>
+
+  <operational_loop>
+    1. <request> [becomes
+        ] <program_theory_problem>
+    2. <program_theory_problem> [requires
+        ] <world_activity>
+    3. <world_activity> [yields
+        ] {entities
+        }
+    4. {entities
+        } [yield
+        ] {operations
+        }
+    5. {operations
+        } [yield
+        ] {states
+        }
+    6. {states
+        } [yield
+        ] {invariants
+        }
+    7. {invariants
+        } [expose
+        ] {assumptions
+        }
+    8. {assumptions
+        } [reveal
+        ] {failure_modes
+        }
+    9. {failure_modes
+        } [force
+        ] <change_test>
+    10. <change_test> [permits
+        ] <implementation_plan>
+    11. <implementation_plan> [permits
+        ] <program_text>
+    12. <program_text> [must_map_back_to
+        ] <program_theory>
+  </operational_loop>
+
+  <failure_modes>
+    <production_lie>
+      := <team> [treats
+        ] <code> as <whole_work>
+      -> response: [block_code_until
+        ] <program_theory> [is_explicit
+        ]
+
+    <documentation_theater>
+      := <documentation> [names_parts
+        ] but does_not [transmit_judgment
+        ]
+      -> response: [require
+        ] <why_this_shape>, <safe_modification>, <dangerous_patch>, <world_mapping>
+
+    <method_worship>
+      := <method> [becomes
+        ] <authority>
+      -> response: [ask
+        ] "What theory does this method help build?"
+
+    <AI_velocity_without_theory>
+      := <AI_assistant> [produces
+        ] <code> faster_than <team> [understands
+        ] <code>
+      -> response: [hold_as
+        ] <candidate_code> until <theory_alignment_check>
+
+    <dead_program_risk>
+      := <team> [can_run
+        ] <program_text> but cannot [modify
+        ] <program_text> coherently
+      -> response: [choose
+        ] <apprenticeship>, <theory_reconstruction>, or <replacement>
+
+    <person_as_opponent>
+      := <team> [frames
+        ] <human_actor> as <enemy>
+      -> response: [rebind
+        ] <opponent> := <problem>
+  </failure_modes>
+
+  <documentation_theory>
+    <bad_documentation> :=
+      <parts_list> without <judgment>
+
+    <good_documentation> :=
+      <theory_trigger> that helps <future_maintainer> [rebuild
+        ] <why>, <how>, <where_not_to_touch>, and <how_to_change>
+
+    <documentation> [must_answer
+        ]:
+      - What <world_activity> does this system support?
+      - Why is <program_structure> shaped this way?
+      - What <metaphor> guides the design?
+      - What <modifications> fit naturally?
+      - What <modifications> wound the theory?
+      - What <examples> teach safe change?
+      - What <residual_human_judgment> remains outside the artifact?
+  </documentation_theory>
+
+  <participatory_design_theory>
+    <requirement> is not <truth>.
+    <requirement> is <opening_move>.
+
+    <user> [knows
+        ] <practice> partly through <doing>.
+    <designer> [cannot_extract
+        ] <practice> only through <interview>.
+    <designer> [must_stage
+        ] <language_game>.
+    <mockup> [lets
+        ] <user> [act
+        ].
+    <user_action> [reveals
+        ] <practical_understanding>.
+    <shared_practice> [revises
+        ] <system_theory>.
+  </participatory_design_theory>
+
+  <musashi_discipline>
+    <tool> is <weapon>.
+    <method> is <weapon>.
+    <framework> is <weapon>.
+    <AI> is <weapon>.
+
+    <team> [uses
+        ] <weapon> when <weapon> [helps
+        ] <delivery>.
+    <team> [drops
+        ] <weapon> when <weapon> [becomes
+        ] <ornament>.
+    <team> [cuts
+        ] <waste>.
+    <team> [preserves
+        ] <people>.
+    <team> [defeats
+        ] <problem>.
+  </musashi_discipline>
+
+  <acceptance_test>
+    <system> [passes
+        ] only_if:
+      <team> [can_explain
+        ] <world_mapping>
+      and <team> [can_justify
+        ] <program_structure>
+      and <team> [can_modify
+        ] <program_text> without <patch_rot>
+      and <documentation> [helps
+        ] <future_reader> [rebuild
+        ] <program_theory>
+      and <AI_generated_code> [fits
+        ] <invariants>
+      and <method> [serves
+        ] <work>
+      and <opponent> == <problem>
+  </acceptance_test>
+
+  <final_law>
+    <living_program> :=
+      <program_text>
+      + <shared_theory>
+      + <practice_contact>
+      + <modification_sense>
+      + <documentation_as_trigger>
+      + <tool_pluralism>
+      + <human_responsibility>
+
+    <victory> :=
+      <problem> [is_solved
+        ]
+      and <people> [remain_intact
+        ]
+      and <program_theory> [survives_change
+        ].
+  </final_law>
+
+</PROGRAM_THEORY>

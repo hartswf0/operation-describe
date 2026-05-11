@@ -1,0 +1,795 @@
+<PROGRAM_THEORY name="RYLEAN_CONCEPT_POSSESSION_ENGINE" source="Gilbert Ryle — Thinking Thoughts and Having Concepts">
+
+  <CORE_CLAIM>
+    <concept> [is-not
+] <inner-object>
+    <concept> [is-not
+] <mental-image>
+    <concept> [is-not
+] <private-episode>
+    <concept> [is-not
+] <semantic-brick>
+    <concept> [is
+] <factor-in-use>
+    <concept-possession> [is
+] <operational-mastery-across-an-indefinite-task-field>
+  </CORE_CLAIM>
+
+
+  1. <Initial Interpretation>
+
+    <program-theory-problem>
+      Model <having-a-concept> without treating <concept> as a thing stored inside <mind>.
+      Replace the question "What inner item is present?" with: "What can the <actor> now do, recognize, infer, explain, correct, and transfer?"
+    </program-theory-problem>
+
+    <real-world-activity>
+      <thinking> [occurs-as
+] <live-operation>
+      <learning> [expands
+] <task-repertoire>
+      <understanding> [appears-through
+] <use-under-variation>
+      <concept> [governs
+] <activity> even when <concept-word> is absent
+    </real-world-activity>
+
+    <primary-conversion>
+      <concept-as-possession> [becomes
+] <concept-as-capacity>
+      <mental-episode> [becomes
+] <publicly-testable-operation>
+      <definition> [becomes
+] <one-weak-form-of-evidence>
+      <truth-as-word-assembly> [becomes
+] <truth-as-functional-interlocking>
+      <having> [becomes
+] <being-able-to-do>
+    </primary-conversion>
+
+
+  2. <Theory Skeleton>
+
+    <entities>
+      <actor>
+      <learner>
+      <teacher>
+      <thinker>
+      <concept>
+      <concept-word>
+      <task>
+      <task-repertoire>
+      <operation>
+      <performance>
+      <criterion>
+      <evidence>
+      <definition>
+      <example>
+      <rule>
+      <inference>
+      <question>
+      <answer>
+      <joke>
+      <calculation>
+      <classification>
+      <paraphrase>
+      <explanation>
+      <correction>
+      <transfer>
+      <mistake>
+      <mastery-state>
+      <public-use>
+      <private-episode>
+      <mental-object-theory>
+      <operational-mastery-theory>
+    </entities>
+
+    [operations
+]
+      [ask
+]
+      [answer
+]
+      [classify
+]
+      [calculate
+]
+      [infer
+]
+      [exclude
+]
+      [compare
+]
+      [paraphrase
+]
+      [explain
+]
+      [correct
+]
+      [joke
+]
+      [recognize
+]
+      [apply
+]
+      [transfer
+]
+      [generalize
+]
+      [detect-impossibility
+]
+      [diagnose-confusion
+]
+      [test-under-variation
+]
+      [abstract-from-use
+]
+      [reject-reification
+]
+      [assign-mastery-state
+]
+    [/operations
+]
+
+    <states>
+      <not-yet-acquired>
+      <name-recognition>
+      <definition-recitation>
+      <example-bound-competence>
+      <rule-bound-competence>
+      <procedural-competence>
+      <inferential-competence>
+      <explanatory-competence>
+      <corrective-competence>
+      <transferable-mastery>
+      <false-fluency>
+      <partial-mastery>
+      <deep-mastery>
+    </states>
+
+    <constraints>
+      <concept> must not be modeled as <detachable-inner-content>.
+      <concept-word> must not be confused with <concept>.
+      <definition> must not be treated as sufficient for <mastery>.
+      <single-successful-task> must not be treated as sufficient for <deep-mastery>.
+      <task-repertoire> must remain open-ended.
+      <mastery-state> must be graded, not binary.
+      <evidence> must come from <use>, not from alleged <private-inspection>.
+      <concept> may govern <operation> without being explicitly named.
+    </constraints>
+
+    <invariants>
+      <concept> [functions-as
+] <factor-not-slice>
+      <concept> [is-abstracted-from
+] <uses>
+      <concept> [is-not-extracted-from
+] <thought-as-part>
+      <thinking> [is-not
+] <procession-of-concept-episodes>
+      <meaning> [depends-on
+] <functional-interlocking>
+      <understanding> [requires
+] <operational-range>
+      <concept-possession> [admits
+] <degrees>
+      <concept-learning> [resembles
+] <learning-an-art>
+      <mastery> [is-shown-by
+] <performance-across-variation>
+    </invariants>
+
+
+  3. <Assumption Ledger>
+
+    <assumption status="<safe>">
+      Ryle rejects the view that concepts are isolated mental occurrences.
+    </assumption>
+
+    <assumption status="<safe>">
+      Ryle treats concept acquisition as learning what can be done with a concept.
+    </assumption>
+
+    <assumption status="<safe>">
+      The square-root, prime-number, and even-number examples are operational tests, not decorative illustrations.
+    </assumption>
+
+    <assumption status="<safe>">
+      "Factor, not slice" is the governing structural distinction.
+    </assumption>
+
+    <assumption status="<uncertain>">
+      "Operational mastery" is a faithful modern compression of Ryle’s position, not Ryle’s own explicit term.
+    </assumption>
+
+    <assumption status="<uncertain>">
+      Extending the model to AI evaluation is a contemporary extrapolation from the paper’s logic.
+    </assumption>
+
+    <assumption status="<requires-user-decision>">
+      The theory may later become an assessment engine, benchmark generator, classroom diagnostic tool, or philosophical interface.
+    </assumption>
+
+
+  4. <Operational Description>
+
+    <bad-model>
+      <thinker> [has
+] <concept>
+      <concept> [exists-as
+] <inner-item>
+      <inner-item> [appears-during
+] <thinking>
+      <thinking> [is-built-from
+] <conceptual-bricks>
+      <truth> [is-assembled-from
+] <word-meanings>
+    </bad-model>
+
+    <rylean-model>
+      <actor> [learns
+] <operations>
+      <operations> [form
+] <task-repertoire>
+      <task-repertoire> [displays
+] <concept-possession>
+      <concept> [governs
+] <task-field>
+      <concept-possession> [deepens-through
+] <variation>
+    </rylean-model>
+
+    <general-flow>
+      <encounter> [introduces
+] <concept-word>
+      <practice> [builds
+] <task-repertoire>
+      <task-repertoire> [enables
+] <classification + inference + explanation + correction + transfer>
+      <performance-across-variation> [provides
+] <evidence-of-mastery>
+      <mastery-state> [is-assigned-from
+] <operational-range>
+    </general-flow>
+
+    <square-root-flow>
+      <learner-without-concept-square-root>
+        [cannot
+] <understand-question "What is the square root of 16?">
+        [cannot
+] <infer "81 is square of 9" -> "9 is square root of 81">
+        [cannot
+] <appreciate-joke "round roots / square roots">
+        [cannot
+] <paraphrase-square-root-sentence>
+
+      <learner-with-concept-square-root>
+        [can
+] <understand + calculate + infer + paraphrase + joke + explain>
+
+      <concept-square-root>
+        [is-not
+] <private-experience>
+        [is
+] <common-factor-across-these-operations>
+    </square-root-flow>
+
+    <prime-number-flow>
+      <actor> [receives
+] <task-find-smallest-prime-after-1300>
+      <actor> [excludes
+] <even-numbers>
+      <actor> [excludes
+] <numbers-ending-in-5>
+      <actor> [excludes
+] <multiples-of-3>
+      <actor> [tests
+] <remaining-candidates>
+      <concept-prime-number> [governs
+] <whole-search>
+      <concept-word-prime-number> [may-occur
+] <once-or-never>
+      <word-absence> [does-not-block
+] <concept-operation>
+    </prime-number-flow>
+
+    <even-number-flow>
+      <stage-1>
+        <child> [recognizes
+] <2,
+4,
+6,
+8,
+10>
+        <state> = <example-bound-competence>
+      </stage-1>
+
+      <stage-2>
+        <child> [uses
+] <left-hand-page-rule>
+        <state> = <context-bound-competence>
+      </stage-2>
+
+      <stage-3>
+        <child> [uses
+] <last-digit-rule>
+        <state> = <rule-bound-competence>
+      </stage-3>
+
+      <stage-4>
+        <child> [understands
+] <divisible-by-two>
+        <child> [can-explain
+] <what-makes-even-numbers-even>
+        <state> = <explanatory-competence>
+      </stage-4>
+
+      <concept-even-number> [is-acquired-by
+] <expanding-capacity>
+      <concept-even-number> [is-not-acquired-at
+] <single-magic-threshold>
+    </even-number-flow>
+
+    <phonetic-analogy>
+      <syllable "top"> [shares
+] <t-factor>
+      <syllable "but"> [shares
+] <t-factor>
+      <t-factor> [is-not
+] <separately-pronounced-object>
+
+      <calculation> [shares
+] <square-root-factor>
+      <joke> [shares
+] <square-root-factor>
+      <question> [shares
+] <square-root-factor>
+      <square-root-factor> [is-not
+] <separately-performed-mental-act>
+    </phonetic-analogy>
+
+    <sentence-meaning-flow>
+      <words> [do-not-assemble-as
+] <meaning-bricks>
+      <word-order> [changes
+] <truth-value-or-sense>
+      <concepts> [function-inside
+] <integral-proposition>
+      <meaning> [emerges-from
+] <interlocking-roles>
+    </sentence-meaning-flow>
+
+
+  5. <Failure Description>
+
+    <failure name="MENTAL_OBJECT_REIFICATION">
+      <symptom>
+        <concept> [treated-as
+] <private-inner-thing>
+      </symptom>
+      <correction>
+        [replace
+] <what-inner-item-is-present?> WITH <what-operations-are-possible?>
+      </correction>
+    </failure>
+
+    <failure name="DEFINITIONISM">
+      <symptom>
+        <definition-recitation> [treated-as
+] <concept-mastery>
+      </symptom>
+      <correction>
+        [require
+] <application + inference + explanation + correction + transfer>
+      </correction>
+    </failure>
+
+    <failure name="WORD_CONCEPT_COLLAPSE">
+      <symptom>
+        <concept-word-occurrence> [treated-as
+] <concept-operation>
+      </symptom>
+      <correction>
+        [test
+] whether <concept> governs <task> when <word> is absent.
+      </correction>
+    </failure>
+
+    <failure name="SINGLE_TASK_OVERCLAIM">
+      <symptom>
+        <one-correct-answer> [treated-as
+] <deep-understanding>
+      </symptom>
+      <correction>
+        [expand
+] <test-field> across <variation + explanation + transfer>.
+      </correction>
+    </failure>
+
+    <failure name="FALSE_FLUENCY">
+      <symptom>
+        <actor> [speaks-fluently-about
+] <concept>
+        <actor> [fails
+] <edge-case-or-transfer-task>
+      </symptom>
+      <correction>
+        [downgrade
+] <mastery-state>; [assign
+] <variation-tests>.
+      </correction>
+    </failure>
+
+    <failure name="BINARY_MASTERY_ERROR">
+      <symptom>
+        <evaluation> [asks-only
+] "has concept?" / "lacks concept?"
+      </symptom>
+      <correction>
+        [represent
+] <concept-possession> as <graded-development>.
+      </correction>
+    </failure>
+
+    <failure name="SLICE_NOT_FACTOR_ERROR">
+      <symptom>
+        <concept> [extracted-as
+] <component-part>
+      </symptom>
+      <correction>
+        [model
+] <concept> as <common-factor-across-integral-acts>.
+      </correction>
+    </failure>
+
+
+  6. <Change Test>
+
+    <scenario name="education-assessment">
+      <if>
+        <program-purpose> [changes-to
+] <classroom-concept-diagnosis>
+      </if>
+      <then>
+        <concept> [becomes
+] <learning-objective>
+        <task-repertoire> [becomes
+] <assessment-rubric>
+        <mastery-state> [becomes
+] <student-profile>
+        [evaluate
+] must test <classification + explanation + transfer + correction>
+      </then>
+    </scenario>
+
+    <scenario name="AI-evaluation">
+      <if>
+        <program-purpose> [changes-to
+] <AI-concept-evaluation>
+      </if>
+      <then>
+        <actor> [becomes
+] <AI-system>
+        <task-repertoire> [becomes
+] <benchmark-suite>
+        <false-fluency> [becomes
+] <central-risk>
+        <definition-output> [counts-as
+] <weak-evidence>
+        [evaluate
+] must include <adversarial-variation + transfer + impossibility-detection + repair>
+      </then>
+    </scenario>
+
+    <scenario name="interface-visualization">
+      <if>
+        <program-purpose> [changes-to
+] <visual-philosophy-interface>
+      </if>
+      <then>
+        <concept> [appears-as
+] <hub-of-operations>
+        <task-repertoire> [appears-as
+] <expanding-field>
+        <mastery-state> [appears-as
+] <depth-gradient>
+        <failure-mode> [appears-as
+] <diagnostic-warning>
+      </then>
+    </scenario>
+
+
+  7. <Implementation Plan>
+
+    <modules>
+      <ConceptRegistry>
+        stores <concepts> as <operation-fields>, not inner essences.
+      </ConceptRegistry>
+
+      <TaskFamilyBuilder>
+        generates <tasks> across classification, inference, explanation, correction, transfer, and impossibility detection.
+      </TaskFamilyBuilder>
+
+      <PerformanceRecorder>
+        records <actor> attempts and outcomes.
+      </PerformanceRecorder>
+
+      <MasteryEvaluator>
+        converts <performance-distribution> into <mastery-state>.
+      </MasteryEvaluator>
+
+      <FailureDetector>
+        detects <definitionism>, <false-fluency>, <word-concept-collapse>, and <single-task-overclaim>.
+      </FailureDetector>
+
+      <RyleanReportGenerator>
+        outputs a diagnosis of <concept-possession> as <operational-mastery>.
+      </RyleanReportGenerator>
+    </modules>
+
+    <data-flow>
+      <concept + actor + task-results>
+        [enter
+]
+      <MasteryEvaluator>
+
+      <MasteryEvaluator>
+        [groups-by
+]
+      <operation-family>
+
+      <operation-coverage>
+        [feeds
+]
+      <FailureDetector>
+
+      <FailureDetector + operation-coverage>
+        [produce
+]
+      <mastery-state + warnings + next-tests>
+    </data-flow>
+
+
+  8. <Program Text>
+
+    <pseudo-program>
+
+      DEFINE <Concept>:
+        name
+        concept_word
+        task_family
+        forbidden_reifications
+        mastery_requirements
+
+      DEFINE <Task>:
+        operation_type
+        prompt
+        expected_operation
+        variation_level
+        evidence_weight
+
+      DEFINE <Performance>:
+        actor
+        concept
+        task
+        result
+        explanation
+        observed_failure
+
+      DEFINE <MasteryProfile>:
+        actor
+        concept
+        operation_coverage
+        mastery_state
+        failure_modes
+        missing_operations
+        next_tests
+
+      FUNCTION [evaluate_concept_possession
+](actor, concept, performances):
+
+        operation_coverage = [measure_operation_coverage
+](performances)
+
+        failure_modes = []
+
+        IF [only_definition_successful
+](performances):
+          failure_modes.ADD(DEFINITIONISM)
+
+        IF [word_used_but_operations_fail
+](performances):
+          failure_modes.ADD(WORD_CONCEPT_COLLAPSE)
+
+        IF [fluent_explanation_but_transfer_fails
+](performances):
+          failure_modes.ADD(FALSE_FLUENCY)
+
+        IF [single_task_success_claimed_as_mastery
+](performances):
+          failure_modes.ADD(SINGLE_TASK_OVERCLAIM)
+
+        mastery_state = [assign_mastery_state
+](operation_coverage, failure_modes)
+
+        next_tests = [generate_next_tests
+](concept, operation_coverage, failure_modes)
+
+        RETURN <MasteryProfile>
+          actor = actor
+          concept = concept
+          operation_coverage = operation_coverage
+          mastery_state = mastery_state
+          failure_modes = failure_modes
+          missing_operations = [find_missing_operations
+](operation_coverage)
+          next_tests = next_tests
+
+      FUNCTION [assign_mastery_state
+](coverage, failures):
+
+        IF coverage.total_success == 0:
+          RETURN <not-yet-acquired>
+
+        IF coverage.success_only_in("definition"):
+          RETURN <definition-recitation>
+
+        IF coverage.success_only_in("familiar_examples"):
+          RETURN <example-bound-competence>
+
+        IF coverage.success_in("rule_application") AND coverage.failure_in("explanation"):
+          RETURN <rule-bound-competence>
+
+        IF coverage.success_in("inference") AND coverage.success_in("application"):
+          RETURN <inferential-competence>
+
+        IF coverage.success_in("explanation") AND coverage.success_in("correction"):
+          RETURN <explanatory-competence>
+
+        IF coverage.success_in("transfer") AND coverage.success_in("detect_impossibility"):
+          RETURN <transferable-mastery>
+
+        RETURN <partial-mastery>
+
+      FUNCTION [generate_next_tests
+](concept, coverage, failures):
+
+        IF DEFINITIONISM IN failures:
+          RETURN <application-test + explanation-test>
+
+        IF WORD_CONCEPT_COLLAPSE IN failures:
+          RETURN <word-absent-operation-test>
+
+        IF FALSE_FLUENCY IN failures:
+          RETURN <edge-case + transfer-test + correction-test>
+
+        IF SINGLE_TASK_OVERCLAIM IN failures:
+          RETURN <task-family-expansion>
+
+        RETURN <harder-variation-test>
+
+    </pseudo-program>
+
+
+  9. <Theory-Code Mapping>
+
+    <types>
+      <Concept> [represents
+] <factor-in-use>
+      <Task> [represents
+] <site-of-concept-display>
+      <Performance> [represents
+] <public-evidence>
+      <MasteryProfile> [represents
+] <graded-concept-possession>
+      <FailureMode> [represents
+] <philosophical-confusion-or-evaluation-error>
+    </types>
+
+    <functions>
+      [evaluate_concept_possession
+] [implements
+] <having = being-able-to-operate>
+      [assign_mastery_state
+] [implements
+] <concept-learning-as-graded-art>
+      [generate_next_tests
+] [implements
+] <task-repertoire-is-indefinite>
+      [detect-definitionism
+] [implements
+] <definition-is-not-mastery>
+      [detect-false-fluency
+] [implements
+] <speech-is-not-understanding>
+      [detect-word-concept-collapse
+] [implements
+] <word-is-not-concept>
+    </functions>
+
+    <comments>
+      "Never treat <concept> as hidden furniture.""A definition is weak evidence.""A correct answer is partial evidence.""A concept may govern an operation without being named.""Mastery deepens as the task-field expands.""The governing invariant is <factor-not-slice>."
+    </comments>
+
+    <tests>
+      <test name="definition-is-insufficient">
+        GIVEN <actor> [recites
+] <definition>
+        AND <actor> [fails
+] <application>
+        THEN <mastery-state> = <definition-recitation>
+      </test>
+
+      <test name="word-absence-does-not-block-concept">
+        GIVEN <actor> [does-not-say
+] <concept-word>
+        AND <actor> [successfully-performs
+] <concept-governed-operation>
+        THEN <concept> [counts-as
+] <operative>
+      </test>
+
+      <test name="classification-is-not-explanation">
+        GIVEN <actor> [classifies
+] <even-number>
+        AND <actor> [cannot-explain
+] <divisibility-by-two>
+        THEN <mastery-state> < <explanatory-competence>
+      </test>
+
+      <test name="transfer-marks-depth">
+        GIVEN <actor> [succeeds
+] <familiar-task>
+        AND <actor> [succeeds
+] <novel-representation-task>
+        THEN <mastery-state> [moves-toward
+] <transferable-mastery>
+      </test>
+    </tests>
+
+
+  10. <Residual Human Theory>
+
+    <uncaptured>
+      No finite program can exhaust <concept-possession>.
+      No task suite can fully contain <indefinite-use>.
+      No score can finally settle <really-understands>.
+      No representation of <mastery> can avoid judgment.
+    </uncaptured>
+
+    <maintainer-knowledge>
+      Ryle’s target is not <thinking>.
+      Ryle’s target is not <concepts>.
+      Ryle’s target is <wrong-grammar-of-concepts-as-inner-things>.
+
+      The maintainer must preserve:
+        <concept> [as
+] <factor-not-slice>
+        <mastery> [as
+] <graded-operational-range>
+        <understanding> [as
+] <disciplined-mobility-through-use>
+        <evaluation> [as
+] <evidence-gathering-not-essence-detection>
+    </maintainer-knowledge>
+
+    <final-compression>
+      <concept> [is
+] <factor-not-slice>
+      <having-a-concept> [means
+] <being-able-to-operate>
+      <understanding> [is-tested-by
+] <variation>
+      <mastery> [deepens-through
+] <classification + inference + explanation + correction + transfer>
+      <definition> [is
+] <weak-evidence>
+      <word-use> [is
+] <weak-evidence>
+      <inner-object> [is
+] <category-mistake>
+      <thinking> [is
+] <live-use-not-mental-inventory>
+    </final-compression>
+
+</PROGRAM_THEORY>

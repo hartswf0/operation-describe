@@ -4,7 +4,7 @@
 > **Scale**: cosmos  
 > **Filed**: 2026-04-20  
 > **Method**: Foundation Stratum — this synthesis lays the tectonic plate beneath the operational triad  
-> **Status**: The theoretical bedrock that the cosmos was built on but had not yet formally ingested. [[world-thin-research]] diagnoses. [[world-latent-wrestling]] fights. [[syntheses/latent-interaction-design]] writes the rules. This synthesis explains *why* the old rules broke.  
+> **Status**: The theoretical bedrock that the cosmos was built on but had not yet formally ingested. [[world-thin-research]] diagnoses. [[world-latent-wrestling]] fights. [[latent-interaction-design]] writes the rules. This synthesis explains *why* the old rules broke.  
 > **Source Papers**: Three papers from `/LATENT SPACE/` constitute the primary evidence:  
 > 1. "The Ontological Rupture of Latent Space" (Bricolage & Humility)  
 > 2. "The Synthetic Ground: Latent Space as Operative Quasi-Place"  
@@ -77,7 +77,7 @@ Interacting with a generative AI model is fundamentally an act of **Latent Brico
 
 The Bricoleur builds a temporary raft out of semantic debris, fully aware that the raft — and the ocean it floats upon — will sink back into formless probability the moment the inference ends.
 
-> **Cosmos anchor.** Latent Bricolage IS [[concept-thick-prompting]] at its philosophical root. The thick prompt is not a technique. It is a wrestling hold executed by a bricoleur against a resistant manifold. The [[ritual-promptlines]] from [[syntheses/latent-interaction-design]] are the Bricoleur's recorded routes — not blueprints, but trace logs of successful improvisations.
+> **Cosmos anchor.** Latent Bricolage IS [[concept-thick-prompting]] at its philosophical root. The thick prompt is not a technique. It is a wrestling hold executed by a bricoleur against a resistant manifold. The [[ritual-promptlines]] from [[latent-interaction-design]] are the Bricoleur's recorded routes — not blueprints, but trace logs of successful improvisations.
 
 ---
 
@@ -96,7 +96,7 @@ Because of this absolute absence of traditional material form, latent space exis
 
 Only through this continuous, dynamic extraction from the abstract void does the model produce something that feels, structurally and experientially, like a place. This is the **operative quasi-place**: not a place, not a void, but an in-between that activates conditionally.
 
-> **Cosmos anchor.** This directly answers [[question-synthetic-place]]: "Is latent space a place? If so, what kind of place — and what ontology does it require?" The answer: it is a quasi-place. It becomes place-like through **operative activation** — the same activation loop described in [[world-operative-ethnography]]'s recursive cycle (configure → encounter → trace → describe → recirculate). The Synthetic Place Theory axioms from [[syntheses/operative-ethnography]] §11 are the formal ontology of the quasi-place.
+> **Cosmos anchor.** This directly answers [[question-synthetic-place]]: "Is latent space a place? If so, what kind of place — and what ontology does it require?" The answer: it is a quasi-place. It becomes place-like through **operative activation** — the same activation loop described in [[world-operative-ethnography]]'s recursive cycle (configure → encounter → trace → describe → recirculate). The Synthetic Place Theory axioms from [[operative-ethnography]] §11 are the formal ontology of the quasi-place.
 
 ### The Four Theoretical Stacks
 
@@ -147,7 +147,7 @@ Ordinary users fight the drift through rigid prompt engineering. The operative e
 
 This drift reveals the **ontological filter**: the process by which training data compression systematically scrubs indexical residue — noise, contradictions, edge cases — producing sanitized, homogenized outputs. The micro-hallucinations, the smoothed-over edge cases, the systematic biases — these are primary artifacts of the ontological filter, revealing the exact shape of the apparatus's worldview.
 
-> **Cosmos anchor.** Ambient drift is the latent-space-level physics that [[concept-platform-realism]] describes at the interface level. The ontological filter is the mechanism that produces [[fragment-twelve-lighthouses]] — the convergence to the statistical mean. Dwelling in the drift is the methodological practice that [[syntheses/latent-interaction-design]] Rule 9 ("Failure Is Data") demands.
+> **Cosmos anchor.** Ambient drift is the latent-space-level physics that [[concept-platform-realism]] describes at the interface level. The ontological filter is the mechanism that produces [[fragment-twelve-lighthouses]] — the convergence to the statistical mean. Dwelling in the drift is the methodological practice that [[latent-interaction-design]] Rule 9 ("Failure Is Data") demands.
 
 ### Micro-Hesitations
 
@@ -157,7 +157,7 @@ In generative AI, micro-hesitations are also produced by the machine. Industry d
 
 For the operative ethnographer, these frictions are not bugs to be optimized away. They are the **primary research surfaces** of the encounter.
 
-> **Cosmos anchor.** Micro-hesitations are the bodily registration of [[concept-viscosity]]. When the body pauses, hovers, recoils — it is sensing viscosity. [[syntheses/latent-interaction-design]] Rule 14 ("The Body Shows Up in Rhythm") formalizes this: "Count attempts. Track reversals. Track reformulations. The body shows up in rhythm, persistence, and correction pressure." Micro-hesitations are how the body shows up.
+> **Cosmos anchor.** Micro-hesitations are the bodily registration of [[concept-viscosity]]. When the body pauses, hovers, recoils — it is sensing viscosity. [[latent-interaction-design]] Rule 14 ("The Body Shows Up in Rhythm") formalizes this: "Count attempts. Track reversals. Track reformulations. The body shows up in rhythm, persistence, and correction pressure." Micro-hesitations are how the body shows up.
 
 ---
 
@@ -181,7 +181,7 @@ Mathematical interpolation between vector clusters to observe transitional logic
 
 The model itself treated as a massive, multimodal archive of compressed human knowledge, historical bias, and cultural residue. Operative ethnography investigates the genealogy of datasets, analyzing how specific cultural histories are compressed, marginalized, or amplified by training.
 
-> **Cosmos anchor.** The trace archive is the computational realization of the [[concept-worldtext]]. The training data IS a worldtext — a compressed, navigable, operative ecology that "re-enters the encounter conditions and alters what can happen next" ([[syntheses/operative-ethnography]] §10). The trace archive concept closes the loop: the worldtext describes a trace archive; the trace archive IS a worldtext.
+> **Cosmos anchor.** The trace archive is the computational realization of the [[concept-worldtext]]. The training data IS a worldtext — a compressed, navigable, operative ecology that "re-enters the encounter conditions and alters what can happen next" ([[operative-ethnography]] §10). The trace archive concept closes the loop: the worldtext describes a trace archive; the trace archive IS a worldtext.
 
 ---
 
@@ -234,8 +234,8 @@ The cosmos's existing triad — Thin Research (diagnosis), Latent Wrestling (are
 
 - [[world-thin-research]] — the diagnosis. This synthesis explains WHY the cathedral was built on the wrong foundation.
 - [[world-latent-wrestling]] — the Arena. Latent Bricolage IS the Arena's survival posture. Mud literacy IS epistemic humility.
-- [[syntheses/latent-interaction-design]] — the operating manual. The 16 rules are the Bricoleur's handbook.
-- [[syntheses/operative-ethnography]] — the recursive loop. Barad's agential cut is the quantum-philosophical foundation of the operative observer.
+- [[latent-interaction-design]] — the operating manual. The 16 rules are the Bricoleur's handbook.
+- [[operative-ethnography]] — the recursive loop. Barad's agential cut is the quantum-philosophical foundation of the operative observer.
 - [[world-operative-ekphrasis]] — the semiotic physics. The allographic insight complicates the seamless/exposed distinction.
 - [[concept-viscosity]] — the physics of the quasi-place. Viscosity IS the felt resistance of the ontological filter.
 - [[concept-platform-realism]] — Meyer's navigational physics. Ambient drift IS platform realism at the latent-space level.
@@ -293,7 +293,7 @@ The cosmos's existing triad — Thin Research (diagnosis), Latent Wrestling (are
 | Geertz, *Interpretation of Cultures* (1973) | [[entity-geertz]], [[world-thick-description]] |
 | Barthes, *Mythologies* (1957) | [[world-latent-wrestling]] — wrestling as spectacle |
 | Scott, *Seeing Like a State* (1998) | [[world-thin-research]] — Techne vs. Metis |
-| Polanyi, *The Tacit Dimension* (1966) | [[syntheses/latent-interaction-design]] — "we can know more than we can tell" |
+| Polanyi, *The Tacit Dimension* (1966) | [[latent-interaction-design]] — "we can know more than we can tell" |
 | Meyer, "Platform Realism" (2024) | [[entity-roland-meyer]], [[concept-platform-realism]] |
 | Steyerl, "Mean Images" (2023) | [[entity-hito-steyerl]] |
 | Offert & Phan, "Latent Space" (2024) | [[entity-fabian-offert]] |

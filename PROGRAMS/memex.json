@@ -1,0 +1,454 @@
+<PROGRAM_THEORY: THE_MEMEX_TEST>
+
+<Initial Interpretation>
+  <paper> := <knowledge-infrastructure diagnostic>
+  <problem> := <civilization> has produced <records> faster than <scholars> can consult, connect, inherit, or judge them.
+  <real_activity> := <scholarship> as [trail-making
+] through <archives>, not [answer-extraction
+] from <databases>.
+  <central_intervention> :=
+    <AI-assisted scholarship> must be judged by <path integrity>, not by <answer fluency>.
+
+  <governing_question>
+    Can a system show not only <what it says>, but <how its path through the record was built>?
+  </governing_question>
+
+  <thesis>
+    <Bush's memex> is not mainly a prophecy of hypertext.
+    It is a theory of <auditable intellectual traversal>.
+    The <trail> is the missing ethical object in contemporary AI scholarship.
+  </thesis>
+
+
+<Theory Skeleton>
+  <entities>
+    <record>
+    <archive>
+    <scholar>
+    <reader>
+    <machine>
+    <memex>
+    <trail>
+    <index>
+    <association>
+    <source>
+    <citation>
+    <annotation>
+    <branch>
+    <evidence>
+    <judgment>
+    <provenance>
+    <retrieval>
+    <generation>
+    <answer>
+    <scaffold>
+    <AI-system>
+    <knowledge-overload>
+    <pathlessness>
+    <memex-test>
+  </entities>
+
+  [operations
+]
+    [record
+]
+    [store
+]
+    [consult
+]
+    [select
+]
+    [retrieve
+]
+    [link
+]
+    [associate
+]
+    [annotate
+]
+    [branch
+]
+    [summarize
+]
+    [generate
+]
+    [cite
+]
+    [compress
+]
+    [audit
+]
+    [contest
+]
+    [inherit
+]
+    [teach
+]
+    [revise
+]
+    [preserve
+]
+    [make-visible
+]
+  [/operations
+]
+
+  <states>
+    <stored>
+    <unconsulted>
+    <selected>
+    <linked>
+    <trailed>
+    <annotated>
+    <branched>
+    <compressed>
+    <generated>
+    <cited>
+    <plausible>
+    <opaque>
+    <auditable>
+    <inheritable>
+    <pathless>
+    <accountable>
+  </states>
+
+  <constraints>
+    <storage> != <knowledge>
+    <retrieval> != <interpretation>
+    <citation> != <provenance>
+    <summary> != <understanding>
+    <link> != <trail>
+    <answer> != <scholarly account>
+    <fluency> != <judgment>
+  </constraints>
+
+  <invariants>
+    I1: <scholarly claim> requires <inspectable evidence path>.
+    I2: <trail> must preserve <sequence>, <selection>, <association>, <annotation>, and <branch>.
+    I3: <AI assistance> becomes <delegation> when <path> disappears.
+    I4: <augmentation> preserves <human relation to evidence>.
+    I5: <knowledge system> fails when it produces <answers> without <recoverable scaffolds>.
+    I6: <memex-test> evaluates <path integrity>, not <output polish>.
+  </invariants>
+
+
+<Assumption Ledger>
+  <safe>
+    <Bush> is read as a theorist of <knowledge overload>, <selection>, and <associative traversal>.
+  </safe>
+
+  <safe>
+    <memex> is defined by <trail-making>, not by <microfilm storage>.
+  </safe>
+
+  <safe>
+    <AI scholarship tools> intensify Bush's problem by producing <synthesis> without necessarily preserving <provenance>.
+  </safe>
+
+  <uncertain>
+    <visible trails> may slow users down; the paper assumes this friction is epistemically valuable when scholarship is the goal.
+  </uncertain>
+
+  <uncertain>
+    Different <AI systems> may expose different layers of <path>; the test must be adaptable.
+  </uncertain>
+
+  <requires-user-decision>
+    Whether final form is <dissertation chapter>, <journal article>, <design manifesto>, or <AI ethics framework>.
+  </requires-user-decision>
+
+
+<Operational Description>
+  <civilization> [produces
+] <expanding record>
+  <expanding record> [creates
+] <knowledge-overload>
+  <knowledge-overload> [exposes
+] <consultation crisis>
+  <consultation crisis> [requires
+] <selection system>
+
+  <index> [files
+] <record> by <fixed class>
+  <association> [moves
+] <reader> by <felt relevance>
+  <memex> [mechanizes
+] <association>
+  <scholar> [builds
+] <trail>
+  <trail> [preserves
+] <path of judgment>
+
+  <AI-system> [retrieves
+] <sources>
+  <AI-system> [generates
+] <answer>
+  <answer> [appears-as
+] <synthesis>
+  <synthesis> [fails-if
+] <path> is hidden
+
+  <memex-test> [asks
+] <AI-system>:
+    show <question>
+    show <query transformations>
+    show <source field>
+    show <selected sources>
+    show <discarded sources>
+    show <associations>
+    show <annotations>
+    show <branches>
+    show <uncertainties>
+    show <final claim>
+
+  <condition: path-visible>
+    [enables
+] <accountable scholarship>
+  </condition>
+
+  <condition: path-hidden>
+    [produces
+] <opaque synthesis>
+    [blocks
+] <scholarly inheritance>
+  </condition>
+
+
+<Failure Description>
+  <failure: STORAGE_CONFUSION>
+    <system> [treats
+] <more stored records> as <more knowledge>.
+    <correction> Reassert <consultation> as the real bottleneck.
+  </failure>
+
+  <failure: RETRIEVAL_CONFUSION>
+    <system> [treats
+] <found source> as <interpreted evidence>.
+    <correction> Require <selection rationale> and <argumentative role>.
+  </failure>
+
+  <failure: CITATION_THEATER>
+    <answer> [contains
+] <citations> but [hides
+] <source path>.
+    <correction> Demand <provenance>, not citation garnish.
+  </failure>
+
+  <failure: LINK_COLLAPSE>
+    <trail> [collapses into
+] <hyperlink>.
+    <correction> Restore <sequence>, <branch>, <annotation>, and <use-history>.
+  </failure>
+
+  <failure: OPAQUE_SYNTHESIS>
+    <AI-system> [outputs
+] <fluent prose> without <auditable route>.
+    <correction> Mark as <pathless>; fail <memex-test>.
+  </failure>
+
+  <failure: DELEGATED_JUDGMENT>
+    <scholar> [receives
+] <answer> without [learning
+] <field traversal>.
+    <correction> Rebuild tool as <augmentation>, not replacement.
+  </failure>
+
+
+<Change Test>
+  <scenario: journal_article>
+    <change>
+      Compress <historical genealogy>.
+      Move <memex-test> earlier.
+      Sharpen <AI critique>.
+    </change>
+  </scenario>
+
+  <scenario: dissertation_chapter>
+    <change>
+      Expand <Bush close reading>.
+      Add <Otlet>, <Wells>, <Engelbart>, <Nelson>, <Web>, <RAG>.
+      Build fuller <media archaeology>.
+    </change>
+  </scenario>
+
+  <scenario: design_manifesto>
+    <change>
+      Convert <memex-test> into <interface requirements>.
+      Add <trail UI>, <source map>, <branch history>, <audit panel>.
+    </change>
+  </scenario>
+
+  <scenario: AI_ethics_framework>
+    <change>
+      Foreground <provenance>, <pedagogy>, <citation integrity>, <institutional accountability>.
+    </change>
+  </scenario>
+
+
+<Implementation Plan>
+  <section_1: After the War, the Record>
+    [frame
+] <Bush> as postwar theorist of <knowledge infrastructure>.
+  </section_1>
+
+  <section_2: Storage Is Not Enough>
+    [distinguish
+] <storage> from <consultation>.
+  </section_2>
+
+  <section_3: Repetitive Thought and Mature Judgment>
+    [separate
+] <mechanizable operation> from <interpretive judgment>.
+  </section_3>
+
+  <section_4: Against Indexing>
+    [oppose
+] <artificial classification> to <associative movement>.
+  </section_4>
+
+  <section_5: Trail as Scholarly Form>
+    [define
+] <trail> as <visible scaffold of inquiry>.
+  </section_5>
+
+  <section_6: From Memex to Hypertext to AI>
+    [trace
+] <memex> -> <hypertext> -> <web> -> <AI retrieval/generation>.
+  </section_6>
+
+  <section_7: Provenance Against Plausibility>
+    [argue
+] <plausible answer> without <path> is epistemically weak.
+  </section_7>
+
+  <section_8: The Memex Test>
+    [formalize
+] <criterion> for scholarly AI.
+  </section_8>
+
+  <section_9: Trail Blazers>
+    [recast
+] <scholar> as <builder of inheritable paths>.
+  </section_9>
+
+  <section_10: Conclusion>
+    [assert
+] <future scholarly AI> must preserve <trail integrity>.
+  </section_10>
+
+
+<Program Text>
+  <paper_program>
+    INPUT:
+      <Bush_1945>
+      <postwar_science>
+      <knowledge_overload>
+      <memex>
+      <hypertext_lineage>
+      <AI_assisted_scholarship>
+
+    PROCESS:
+      1. [read
+] <Bush> as <knowledge-infrastructure theorist>
+      2. [extract
+] <problem>: <record abundance> exceeds <consultation capacity>
+      3. [reject
+] <storage solutionism>
+      4. [identify
+] <selection> as <prime action of use>
+      5. [define
+] <trail> as <associative path through evidence>
+      6. [contrast
+] <trail> with <index>, <link>, <citation>, <summary>
+      7. [map
+] <memex lineage> onto <AI scholarship tools>
+      8. [diagnose
+] <AI answer fluency> as insufficient without <path>
+      9. [formulate
+] <memex-test>
+      10. [intervene
+] by demanding <auditable scholarly AI>
+
+    OUTPUT:
+      <argument>
+        <AI-assisted scholarship> is ethical only when it preserves the
+        <visible, revisable, inheritable trail> by which <answers> are made.
+      </argument>
+
+      <test>
+        A system passes the <memex-test> only if another scholar can follow,
+        inspect, contest, revise, and inherit its route through the record.
+      </test>
+  </paper_program>
+
+
+<Theory-Code Mapping>
+  <types>
+    <record>, <trail>, <source>, <annotation>, <branch>, <AI-system>, <answer>, <provenance>
+    function as the paper's core conceptual data structures.
+  </types>
+
+  <functions>
+    [select
+],
+[associate
+],
+[annotate
+],
+[branch
+],
+[retrieve
+],
+[generate
+],
+[audit
+]
+    function as the paper's main operations.
+  </functions>
+
+  <classes>
+    <memex> := class of tools that preserve <associative trails>.
+    <AI-system> := class of tools that may retrieve/generate but must be tested for <path visibility>.
+    <scholar> := actor responsible for <judgment>, <association>, and <accountability>.
+  </classes>
+
+  <tests>
+    <memex-test> :=
+      IF <system> shows <answer> AND <path>
+      THEN <system> supports <scholarly augmentation>
+      ELSE <system> produces <opaque synthesis>.
+  </tests>
+
+  <comments>
+    <citation theater>, <opaque synthesis>, <retrieval confusion>, and <trail collapse>
+    are not side issues; they are structural failures of scholarly infrastructure.
+  </comments>
+
+  <configuration>
+    output_mode: <dissertation chapter>
+    density: <dense>
+    realism_mode: <hybrid>
+    abstraction_level: <high>
+    intervention_pressure: <high>
+  </configuration>
+
+
+<Residual Human Theory>
+  <uncaptured>
+    The code-form cannot fully capture the historical pressure of 1945:
+    <science> emerging from <war>, seeking a non-destructive task equal to its power.
+  </uncaptured>
+
+  <maintainer_warning>
+    Do not reduce <trail> to <link>.
+    Do not reduce <provenance> to <citation>.
+    Do not reduce <scholarship> to <answer production>.
+    Do not let <AI fluency> impersonate <judgment>.
+  </maintainer_warning>
+
+  <survival_rule>
+    The paper survives revision only if this remains true:
+    <scholarly knowledge> requires <visible paths of selection, association, evidence, and judgment>.
+  </survival_rule>
+
+</PROGRAM_THEORY>

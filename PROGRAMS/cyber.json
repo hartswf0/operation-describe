@@ -1,0 +1,953 @@
+<ProgramTheory title="Agential Cybernetic Media" version="2.0" mode="theory-of-the-program">
+
+  <Initial Interpretation>
+    <program_theory_problem>
+      <GenerativeAI> is misdescribed when treated as <Tool>, <Author>, or <Mirror>.
+      The stronger description is:
+
+      <GenerativeAI> := <AgentialCyberneticMedium>
+
+      where:
+
+      <AgentialCyberneticMedium>
+        [cuts
+] <EntangledReality>
+        [compresses
+] <CulturalMemory>
+        [predicts
+] <PossibleContinuations>
+        [generates
+] <WorldSurfaces>
+        [feeds_back_into
+] <HumanImagination>
+        [modulates
+] <FutureAction>
+        [participates_in
+] <WorldMaking>
+    </program_theory_problem>
+
+    <real_world_activity>
+      <Human> [uses
+] <AIApparatus>
+      is too weak.
+
+      The real activity is:
+
+      <Human-AI-WorldCircuit> [brings_forth
+] <OperableReality>
+
+      through:
+
+      <Prompt> → <Cut> → <Compression> → <Prediction> → <Generation> → <Interpretation> → <Revision> → <CulturalStabilizationOrChange>
+    </real_world_activity>
+
+    <core_claim>
+      <AIOutput> is not the end product.
+      <AIOutput> is a visible residue of an invisible apparatus.
+
+      Therefore:
+
+      <Ethics> must move upstream from <OutputJudgment> to <CutResponsibility>.
+    </core_claim>
+  </Initial Interpretation>
+
+
+  <Theory Skeleton>
+
+    <entities>
+      <Phenomenon>
+      <Entanglement>
+      <IntraAction>
+      <AgentialCut>
+      <Boundary>
+      <Observer>
+      <User>
+      <Prompt>
+      <AIApparatus>
+      <Model>
+      <Dataset>
+      <LatentSpace>
+      <Interface>
+      <PolicyLayer>
+      <Output>
+      <TechnicalImage>
+      <WorldSurface>
+      <WorldModel>
+      <FeedbackLoop>
+      <CyberneticSystem>
+      <ApparatusProgram>
+      <PossibilitySpace>
+      <Modulation>
+      <ControlSystem>
+      <ViableSystem>
+      <RequisiteVariety>
+      <Metis>
+      <Legibility>
+      <ObjectToThinkWith>
+      <RelationalOntology>
+      <ResponsiblePractice>
+      <EthicsOfMattering>
+      <WorldMaking>
+    </entities>
+
+    <operations>
+      [entangle
+]
+      [intra-act
+]
+      [cut
+]
+      [separate
+]
+      [observe
+]
+      [distinguish
+]
+      [encode
+]
+      [compress
+]
+      [predict
+]
+      [generate
+]
+      [rank
+]
+      [filter
+]
+      [modulate
+]
+      [black-box
+]
+      [surface
+]
+      [interpret
+]
+      [perturb
+]
+      [revise
+]
+      [feedback
+]
+      [stabilize
+]
+      [transform
+]
+      [amplify-choice
+]
+      [reduce-variety
+]
+      [preserve-metis
+]
+      [flatten-context
+]
+      [trace-provenance
+]
+      [play-against-program
+]
+      [accept-responsibility
+]
+      [bring-forth-world
+]
+    </operations>
+
+    <states>
+      <UncutEntanglement>
+      <CutPhenomenon>
+      <PromptedApparatus>
+      <LatentActivation>
+      <GeneratedSurface>
+      <PerturbedUser>
+      <RevisedPrompt>
+      <ClosedLoop>
+      <StabilizedWorld>
+      <TransformedWorld>
+      <BlackBoxMode>
+      <FunctionaryMode>
+      <ApparatusLiteracyMode>
+      <ChoiceAmplified>
+      <ChoiceReduced>
+      <MetisPreserved>
+      <MetisFlattened>
+      <ResponsibleSystem>
+      <IrresponsibleSystem>
+    </states>
+
+    <constraints>
+      <NoNeutralObservation>
+        <Observer> [is_inside
+] <ObservedSystem>
+      </NoNeutralObservation>
+
+      <NoOutputWithoutCut>
+        <Output> [requires
+] <AgentialCut>
+      </NoOutputWithoutCut>
+
+      <NoModelWithoutCompression>
+        <WorldModel> [compresses
+] <World>
+      </NoModelWithoutCompression>
+
+      <NoCompressionWithoutLoss>
+        <Compression> [produces
+] <Exclusion>
+      </NoCompressionWithoutLoss>
+
+      <NoApparatusWithoutProgram>
+        <Apparatus> [contains
+] <PossibilitySpace>
+      </NoApparatusWithoutProgram>
+
+      <NoFreedomWithoutVariety>
+        <Freedom> [requires
+] <RequisiteVariety>
+      </NoFreedomWithoutVariety>
+
+      <NoEthicsAfterTheFact>
+        <Ethics> [must_enter
+] <CuttingProcess>
+      </NoEthicsAfterTheFact>
+    </constraints>
+
+    <invariants>
+      <AIApparatus> [is_not
+] <MereTool>
+      <AIApparatus> [is_not
+] <SovereignAuthor>
+      <AIApparatus> [is_not
+] <PassiveMirror>
+      <AIApparatus> [is
+] <WorldMakingParticipant>
+
+      <Output> [is
+] <ApparatusResidue>
+      <Prompting> [is
+] <CircuitParticipation>
+      <Generation> [is
+] <MaterialDiscursiveOperation>
+      <Interpretation> [feeds_back_into
+] <FutureGeneration>
+
+      <ResponsibleAI> [requires
+] <CutVisibility>
+      <ResponsibleAI> [requires
+] <Provenance>
+      <ResponsibleAI> [requires
+] <ChoiceAmplification>
+      <ResponsibleAI> [requires
+] <RelationalAdequacy>
+      <ResponsibleAI> [requires
+] <MetisPreservation>
+      <ResponsibleAI> [requires
+] <WorldMakingAccountability>
+    </invariants>
+
+  </Theory Skeleton>
+
+
+  <Assumption Ledger>
+
+    <assumption status="safe">
+      <GenerativeAI> [operates_as
+] <Apparatus>
+      because it contains <Model>, <Dataset>, <Interface>, <PolicyLayer>, <Defaults>, <Constraints>, and <HiddenOperations>.
+    </assumption>
+
+    <assumption status="safe">
+      <Prompting> [creates
+] <FeedbackLoop>
+      because <Output> [changes
+] <UserIntention>, and <RevisedIntention> [changes
+] <NextPrompt>.
+    </assumption>
+
+    <assumption status="safe">
+      <WorldModel> [cannot_equal
+] <World>
+      because <Modeling> [requires
+] <Compression>, and <Compression> [requires
+] <Loss>.
+    </assumption>
+
+    <assumption status="safe">
+      <AI Ethics> [must_evaluate
+] <ApparatusConditions>
+      not only <GeneratedOutputs>.
+    </assumption>
+
+    <assumption status="uncertain">
+      <AIApparatus> [may_or_may_not_have
+] <Understanding>.
+      This theory does not depend on solving that question.
+    </assumption>
+
+    <assumption status="uncertain">
+      <AIWorldMaking> [may_amplify
+] <HumanPossibility>
+      OR
+      <AIWorldMaking> [may_reduce
+] <HumanPossibility>.
+      Outcome depends on <Interface>, <Institution>, <UserPractice>, <Dataset>, and <FeedbackLoop>.
+    </assumption>
+
+    <assumption status="requires-user-decision">
+      <ResponsibilityAssignment> may be configured as: { <Designer>, <Institution>, <User>, <ModelProvider>, <DatasetCurator>, <Regulator>, <DistributedCircuit>
+}
+    </assumption>
+
+  </Assumption Ledger>
+
+
+  <Operational Description>
+
+    <system_flow>
+
+      <EntangledReality>
+        [contains
+]
+      { <Matter>, <Discourse>, <Culture>, <Labor>, <Data>, <Institution>, <Interface>, <User>, <Model>, <Environment>
+}
+
+      <AIApparatus>
+        [performs
+]
+      <AgentialCut>
+
+      <AgentialCut>
+        [transforms
+]
+      <EntangledReality> → <CutPhenomenon>
+
+      <Dataset>
+        [cuts
+]
+      <Culture> → <CollectableExamples>
+
+      <Tokenizer>
+        [cuts
+]
+      <Language> → <ProcessableUnits>
+
+      <EmbeddingSpace>
+        [cuts
+]
+      <Meaning> → <VectorRelations>
+
+      <PolicyLayer>
+        [cuts
+]
+      <PossibleOutput> → { <AllowedOutput>, <BlockedOutput>
+}
+
+      <Interface>
+        [cuts
+]
+      <UserAction> → <AvailableControl>
+
+      <User>
+        [performs
+]
+      <Prompt>
+
+      <Prompt>
+        [activates
+]
+      <PossibilitySpace>
+
+      <Model>
+        [compresses
+]
+      <CulturalMemory>
+
+      <Model>
+        [predicts
+]
+      <ProbableContinuation>
+
+      <Model>
+        [generates
+]
+      <WorldSurface>
+
+      <WorldSurface>
+        [perturbs
+]
+      <UserImagination>
+
+      <UserImagination>
+        [revises
+]
+      <Prompt>
+
+      <RevisedPrompt>
+        [feeds_back_into
+]
+      <AIApparatus>
+
+      <FeedbackLoop>
+        [stabilizes_or_transforms
+]
+      { <Style>, <Belief>, <Workflow>, <Aesthetic>, <Memory>, <WorldModel>
+}
+
+    </system_flow>
+
+    <critical_transitions>
+
+      <condition>
+        <Interface> [hides
+] <Cuts>
+      </condition>
+      <transition>
+        <ResponsibleSystem> → <BlackBoxMode>
+      </transition>
+
+      <condition>
+        <User> [accepts
+] <ApparatusDefaults>
+      </condition>
+      <transition>
+        <ApparatusLiteracyMode> → <FunctionaryMode>
+      </transition>
+
+      <condition>
+        <User> [plays_against
+] <ApparatusProgram>
+      </condition>
+      <transition>
+        <FunctionaryMode> → <ApparatusLiteracyMode>
+      </transition>
+
+      <condition>
+        <System> [reduces
+] <EnvironmentalComplexity> below <RequisiteVariety>
+      </condition>
+      <transition>
+        <ViableSystem> → <BrittleControlSystem>
+      </transition>
+
+      <condition>
+        <System> [preserves
+] <Metis>
+        AND
+        <System> [amplifies
+] <Choice>
+      </condition>
+      <transition>
+        <AIApparatus> → <ResponsibleWorldMakingMedium>
+      </transition>
+
+    </critical_transitions>
+
+  </Operational Description>
+
+
+  <Failure Description>
+
+    <failure name="ToolReduction">
+      <symptom>
+        <AIApparatus> [is_called
+] <Tool>
+      </symptom>
+      <damage>
+        <FeedbackLoop>, <HiddenCut>, <DistributedAgency>, and <WorldMakingEffect> [disappear
+].
+      </damage>
+      <response>
+        [Reclassify
+] <AIApparatus> as <AgentialCyberneticMedium>.
+      </response>
+    </failure>
+
+    <failure name="AuthorInflation">
+      <symptom>
+        <AIApparatus> [is_called
+] <Author>
+      </symptom>
+      <damage>
+        <Dataset>, <Labor>, <Interface>, <Institution>, <User>, and <CulturalMemory> [disappear
+].
+      </damage>
+      <response>
+        [Trace
+] <DistributedAgency> across <HumanMachineWorldCircuit>.
+      </response>
+    </failure>
+
+    <failure name="MirrorNaivety">
+      <symptom>
+        <AIApparatus> [is_called
+] <Mirror>
+      </symptom>
+      <damage>
+        <Generation>, <Ranking>, <Policy>, <Compression>, and <Modulation> [disappear
+].
+      </damage>
+      <response>
+        [Analyze
+] <ApparatusProgram> and <PossibilitySpace>.
+      </response>
+    </failure>
+
+    <failure name="BlackBoxFunctionaryMode">
+      <symptom>
+        <User> [mistakes
+] <ApparatusDefaults> for <Freedom>.
+      </symptom>
+      <damage>
+        <User> [becomes
+] <FunctionaryOfProgram>.
+      </damage>
+      <response>
+        [Expose
+] <Defaults>, <Constraints>, <Provenance>, <Alternatives>, <FailureModes>.
+      </response>
+    </failure>
+
+    <failure name="LegibilityCollapse">
+      <symptom>
+        <Model> [flattens
+] <Context> into <Category>.
+      </symptom>
+      <damage>
+        <Metis> [is_destroyed
+].
+      </damage>
+      <response>
+        [Preserve
+] <LocalKnowledge>, <PluralDescriptions>, <SituatedJudgment>.
+      </response>
+    </failure>
+
+    <failure name="ObjectiveFixation">
+      <symptom>
+        <System> [optimizes
+] <SingleMetric>.
+      </symptom>
+      <damage>
+        <SteppingStones>, <Novelty>, and <AdjacentPossible> [are_blocked
+].
+      </damage>
+      <response>
+        [Introduce
+] <OpenEndedExploration>, <NoveltySearch>, <MultiCriteriaEvaluation>.
+      </response>
+    </failure>
+
+    <failure name="IrresponsibleWorldModeling">
+      <symptom>
+        <WorldModel> [generates
+] <WorldSurface> without <History>, <Relation>, <Constraint>, or <Context>.
+      </symptom>
+      <damage>
+        <Simulation> [replaces
+] <WorldComplexity>.
+      </damage>
+      <response>
+        [Attach
+] <Provenance>, <Uncertainty>, <ExclusionRecord>, <RelationalContext>.
+      </response>
+    </failure>
+
+    <failure name="RelationalErasure">
+      <symptom>
+        <AgentSystem> [models
+] <Person> as <IsolatedGoalSeekingIndividual>.
+      </symptom>
+      <damage>
+        <Kinship>, <Obligation>, <Community>, <Territory>, and <NonHumanRelation> [are_erased
+].
+      </damage>
+      <response>
+        [Rebuild
+] <AgentArchitecture> around <RelationalOntology>.
+      </response>
+    </failure>
+
+  </Failure Description>
+
+
+  <Change Test>
+
+    <scenario name="If theory becomes audit tool">
+      <AgentialCut> [becomes
+] <AuditCategory>
+      <FeedbackLoop> [becomes
+] <WorkflowDiagram>
+      <ResponsiblePractice> [becomes
+] <EvaluationRubric>
+      <EthicsOfMattering> [becomes
+] <DesignRequirement>
+      <Output> [becomes
+] <RiskAndResponsibilityReport>
+    </scenario>
+
+    <scenario name="If theory becomes simulation">
+      <User> [becomes
+] <SimulatedActor>
+      <Prompt> [becomes
+] <ActionInput>
+      <AIApparatus> [becomes
+] <StatefulModelAgent>
+      <FeedbackLoop> [becomes
+] <TimeStepUpdate>
+      <World> [becomes
+] <MutableEnvironmentState>
+      <Responsibility> [becomes
+] <MeasuredEffectOnChoiceAndRelation>
+    </scenario>
+
+    <scenario name="If theory becomes interface">
+      <Concept> [becomes
+] <ClickableObjectToThinkWith>
+      <Morphism> [becomes
+] <VisibleRelation>
+      <Cut> [becomes
+] <InspectableOperation>
+      <FailureMode> [becomes
+] <InterfaceWarning>
+      <ApparatusLiteracy> [becomes
+] <UserSkill>
+    </scenario>
+
+  </Change Test>
+
+
+  <Implementation Plan>
+
+    <module name="TheoryModel">
+      [defines
+] <Entities>, <Operations>, <States>, <Constraints>, <Invariants>
+    </module>
+
+    <module name="ApparatusEngine">
+      [models
+] <Prompt>, <Cut>, <Compression>, <Prediction>, <Generation>, <Feedback>
+    </module>
+
+    <module name="ResponsibilityEngine">
+      [evaluates
+] <CutVisibility>, <Provenance>, <ChoiceAmplification>, <MetisPreservation>, <RelationalAdequacy>
+    </module>
+
+    <module name="FailureEngine">
+      [detects
+] <ToolReduction>, <AuthorInflation>, <MirrorNaivety>, <BlackBoxMode>, <LegibilityCollapse>, <ObjectiveFixation>, <RelationalErasure>
+    </module>
+
+    <module name="ChangeEngine">
+      [transforms
+] <Theory> into <AuditTool>, <Simulation>, or <Interface>
+    </module>
+
+    <module name="Renderer">
+      [renders
+] <ProgramTheory> as <OperationalText>
+    </module>
+
+  </Implementation Plan>
+
+
+  <Program Text>
+
+    <define>
+      <AgentialCyberneticMedium> :=
+        {
+          <Model>,
+          <Dataset>,
+          <Interface>,
+          <PolicyLayer>,
+          <Institution>,
+          <UserPractice>,
+          <CulturalMemory>,
+          <Infrastructure>,
+          <FeedbackLoop>
+}
+
+      <WorldMakingCircuit> :=
+        {
+          <User>,
+          <Prompt>,
+          <AIApparatus>,
+          <GeneratedSurface>,
+          <Interpretation>,
+          <Revision>,
+          <Environment>
+}
+
+      <ResponsiblePractice> :=
+        {
+          <CutVisibility>,
+          <Provenance>,
+          <ChoiceAmplification>,
+          <RelationalAdequacy>,
+          <MetisPreservation>,
+          <ApparatusLiteracy>,
+          <WorldMakingAccountability>
+}
+    </define>
+
+    <rule name="ReclassifyAI">
+      IF <AIApparatus> [changes
+] <ConditionsOfImagination>
+      THEN <AIApparatus> [is
+] <AgentialCyberneticMedium>
+      NOT <MereTool>
+    </rule>
+
+    <rule name="EveryOutputHasCut">
+      IF <Output> [appears
+]
+      THEN <AgentialCut> [has_occurred
+]
+      AND <ExcludedPossibilities> [exist
+]
+    </rule>
+
+    <rule name="FeedbackAltersAgency">
+      IF <User> [receives
+] <Output>
+      THEN <Output> [perturbs
+] <UserImagination>
+      AND <User> [revises
+] <Prompt>
+      AND <Circuit> [changes
+] <FutureWorldSurface>
+    </rule>
+
+    <rule name="BlackBoxProducesFunctionary">
+      IF <Apparatus> [hides
+] <Program>
+      AND <User> [accepts
+] <Defaults>
+      THEN <User> [becomes
+] <Functionary>
+    </rule>
+
+    <rule name="LiteracyRequiresVisibility">
+      IF <Interface> [reveals
+] { <Cuts>, <Constraints>, <Alternatives>, <Provenance>, <Uncertainty>
+}
+      THEN <User> [can_play_against
+] <ApparatusProgram>
+    </rule>
+
+    <rule name="FreedomRequiresVariety">
+      IF <System> [has
+] <RequisiteVariety>
+      THEN <System> [can_support
+] <Freedom>
+      ELSE <System> [collapses_into
+] <Control>
+    </rule>
+
+    <rule name="MetisProtection">
+      IF <Model> [flattens
+] <LocalKnowledge>
+      THEN <ResponsiblePractice> [must_restore
+] { <Context>, <Plurality>, <SituatedJudgment>
+}
+    </rule>
+
+    <rule name="RelationalAI">
+      IF <Agent> [is_modeled_as
+] <IsolatedIndividual>
+      THEN <RelationalDimensions> [are_at_risk
+]
+
+      IF <Agent> [is_modeled_through
+] { <Kinship>, <Protocol>, <Community>, <Territory>, <NonHumanRelation>
+}
+      THEN <AgentSystem> [supports
+] <RelationalOntology>
+    </rule>
+
+    <rule name="EthicsOfMattering">
+      IF <System> [brings_forth
+] <World>
+      THEN { <Designer>, <User>, <Institution>, <ModelProvider>
+} [must_accept
+] <ResponsibilityForCuts>
+    </rule>
+
+    <main_loop>
+      WHILE <HumanAIInteraction> [continues
+]:
+
+        <User> [prompts
+] <AIApparatus>
+
+        <AIApparatus> [cuts
+] <EntangledReality>
+        <AIApparatus> [compresses
+] <CulturalMemory>
+        <AIApparatus> [predicts
+] <ProbableContinuation>
+        <AIApparatus> [generates
+] <WorldSurface>
+
+        <WorldSurface> [perturbs
+] <UserImagination>
+        <UserImagination> [revises
+] <PromptOrPractice>
+
+        IF <WorldSurface> [reinforces
+] <ApparatusDefault>:
+          <Circuit> [moves_toward
+] <FunctionaryMode>
+
+        IF <WorldSurface> [opens
+] <UnanticipatedPossibility>:
+          <Circuit> [moves_toward
+] <ChoiceAmplified>
+
+        IF <Interface> [hides
+] <Cut>:
+          <Responsibility> [is_obscured
+]
+
+        IF <Interface> [reveals
+] <Cut>:
+          <Responsibility> [can_be_accepted>
+
+        <WorldMakingCircuit> [updates
+    ] <CulturalReality>
+
+      END WHILE
+    </main_loop>
+
+    <return>
+      <AgentialCyberneticMediaTheory> :=
+        <GenerativeAI> [participates_in
+    ] <WorldMaking>
+        through <MaterialDiscursiveCyberneticApparatuses>.
+
+        <ResponsiblePractice> [requires
+    ]
+        <VisibleCuts>,
+        <PreservedRelations>,
+        <AmplifiedChoice>,
+        <MetisProtection>,
+        and <AccountabilityForWorldsBroughtForth>.
+    </return>
+
+  </Program Text>
+
+
+  <Theory-Code Mapping>
+
+    <types>
+      <AgentialCyberneticMedium> := the replacement for <Tool>, <Author>, and <Mirror>.
+      <WorldMakingCircuit> := the Batesonian unit of mind/action across human-machine-environment.
+      <ResponsiblePractice> := the Baradian ethics of mattering operationalized as design requirements.
+      <PossibilitySpace> := the Flusserian apparatus program translated into generative AI.
+      <RequisiteVariety> := the Beerian condition for freedom and viability.
+      <Metis> := the Scottian defense against flattening, legibility, and monoculture.
+    </types>
+
+    <functions>
+      [cut
+    ] := enacts <Boundary> and creates <Responsibility>.
+      [compress
+    ] := converts <World> into <ModelUsableRepresentation>.
+      [predict
+    ] := generates <ProbableContinuation>.
+      [generate
+    ] := surfaces <TechnicalImage>, <Text>, or <WorldSurface>.
+      [perturb
+    ] := changes <UserImagination>.
+      [feedback
+    ] := recursively modifies <Circuit>.
+      [play-against-program
+    ] := resists <FunctionaryMode>.
+      [amplify-choice
+    ] := satisfies <EthicalImperative>.
+      [preserve-metis
+    ] := resists <LegibilityCollapse>.
+    </functions>
+
+    <tests>
+      <test name="NotMereTool">
+        GIVEN <AIApparatus>
+        WHEN <Output> [changes
+    ] <UserImagination>
+        THEN <AIApparatus> [must_be_classified_as
+    ] <WorldMakingParticipant>
+      </test>
+
+      <test name="CutVisibility">
+        GIVEN <GeneratedOutput>
+        WHEN <CutSource> [is_hidden
+    ]
+        THEN <ResponsibilityScore> [decreases
+    ]
+      </test>
+
+      <test name="ChoiceAmplification">
+        GIVEN <HumanAIWorkflow>
+        WHEN <System> [increases
+    ] <MeaningfulOptions>
+        THEN <EthicalStatus> [improves
+    ]
+      </test>
+
+      <test name="MetisPreservation">
+        GIVEN <LocalContext>
+        WHEN <Model> [flattens
+    ] <LocalContext> into <UniversalCategory>
+        THEN <FailureMode> [equals
+    ] <LegibilityCollapse>
+      </test>
+
+      <test name="FunctionaryRisk">
+        GIVEN <User>
+        WHEN <User> [only_selects
+    ] <ApparatusDefaults>
+        THEN <Mode> [equals
+    ] <FunctionaryMode>
+      </test>
+    </tests>
+
+  </Theory-Code Mapping>
+
+
+  <Residual Human Theory>
+
+    <code_cannot_capture>
+      <LivedContext>
+      <HistoricalWound>
+      <CulturalPractice>
+      <EmbodiedJudgment>
+      <PoliticalConsequence>
+      <AestheticNecessity>
+      <SpiritualRelation>
+      <MaterialSuffering>
+    </code_cannot_capture>
+
+    <maintainer_law number="1">
+      The central operation is not [generate
+    ].
+      The central operation is [cut
+    ].
+    </maintainer_law>
+
+    <maintainer_law number="2">
+      Every <Output> is a trace of prior <Cuts>.
+      Every <Cut> creates <Responsibility>.
+    </maintainer_law>
+
+    <maintainer_law number="3">
+      Never let <AIOutput> appear as innocent surface.
+      Always reconnect it to: { <Apparatus>, <Dataset>, <Interface>, <Policy>, <Labor>, <Feedback>, <Loss>, <Provenance>, <WorldMakingEffect>
+    }.
+    </maintainer_law>
+
+    <maintainer_law number="4">
+      The goal is not <HumanlikeAI>.
+      The goal is <ResponsibleHumanMachineWorldCircuits>.
+    </maintainer_law>
+
+  </Residual Human Theory>
+
+</ProgramTheory>

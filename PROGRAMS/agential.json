@@ -1,0 +1,901 @@
+<program_theory id="agential-worlds-cybernetic-cuts" version="2.0">
+
+  <thesis>
+    <generative_AI_system> is not a neutral <tool>.
+    <generative_AI_system> is an <apparatus> that [performs
+] <agential_cuts>,
+[completes
+] <cybernetic_circuits>,
+[compresses
+] <archives>,
+[simulates
+] <worlds>,
+[modulates
+] <attention>, and [redistributes
+] <responsibility>.
+  </thesis>
+
+  <governing_problem>
+    <AI_discourse> often [misdescribes
+] <generative_AI_system> as <assistant>, <engine>, <model>, or <content_tool>.
+    This [hides
+] the deeper operation:
+    <system> [makes
+] <worlds_actionable>.
+  </governing_problem>
+
+  <real_world_activity>
+    <user> [prompts
+] <AI_system>.
+    <AI_system> [generates
+] <output>.
+    <output> [stabilizes
+] <possible_world>.
+    <interface> [frames
+] <output_as_authoritative_or_editable>.
+    <user> [acts_on
+] <output>.
+    <action> [feeds_back_into
+] <culture>, <institution>, <memory>, <design>, or <governance>.
+  </real_world_activity>
+
+  <core_entities>
+    <generative_AI_system/>
+    <model/>
+    <interface/>
+    <prompt/>
+    <user/>
+    <output/>
+    <archive/>
+    <training_data/>
+    <latent_space/>
+    <world_model/>
+    <simulation/>
+    <agent/>
+    <memory_stream/>
+    <feedback_loop/>
+    <observer/>
+    <apparatus/>
+    <agential_cut/>
+    <phenomenon/>
+    <cybernetic_circuit/>
+    <technical_image/>
+    <legibility_regime/>
+    <metis/>
+    <provenance/>
+    <uncertainty/>
+    <responsibility/>
+    <ethics_of_mattering/>
+    <design_intervention/>
+  </core_entities>
+
+  <core_operations>
+    [prompt
+]
+    [classify
+]
+    [compress
+]
+    [infer
+]
+    [cut
+]
+    [generate
+]
+    [simulate
+]
+    [stabilize
+]
+    [frame
+]
+    [modulate
+]
+    [select
+]
+    [revise
+]
+    [circulate
+]
+    [render_legible
+]
+    [erase_metis
+]
+    [preserve_metis
+]
+    [expose_assumption
+]
+    [label_uncertainty
+]
+    [trace_provenance
+]
+    [assign_responsibility
+]
+    [design_for_conversation
+]
+  </core_operations>
+
+  <core_states>
+    <neutral_tool_fantasy/>
+    <apparatus_recognition/>
+    <hidden_cut/>
+    <visible_cut/>
+    <isolated_output/>
+    <world_making_output/>
+    <oracle_interface/>
+    <conversation_interface/>
+    <black_box_fluency/>
+    <inspectable_generation/>
+    <legibility_without_metis/>
+    <legibility_with_metis/>
+    <simulation_without_accountability/>
+    <simulation_with_accountability/>
+    <frictionless_completion/>
+    <responsible_participation/>
+  </core_states>
+
+  <invariants>
+
+    <invariant id="01">
+      <AI_output> is never merely <content>.
+      <AI_output> is a <world_making_event>.
+    </invariant>
+
+    <invariant id="02">
+      <prompt> and <output> belong to one <cybernetic_circuit>.
+      They cannot be ethically analyzed as separate objects.
+    </invariant>
+
+    <invariant id="03">
+      <interface> [trains
+] <user_attention>.
+      <interface> is part of the epistemic system, not a decorative wrapper.
+    </invariant>
+
+    <invariant id="04">
+      <world_model> [operationalizes
+] a theory of what exists, what matters, what changes, and what can be acted upon.
+    </invariant>
+
+    <invariant id="05">
+      <legibility> always has a cost.
+      Every [render_legible
+] operation risks [erasing
+] <metis>.
+    </invariant>
+
+    <invariant id="06">
+      <ethics> begins at the <agential_cut>.
+      It does not begin after the artifact is produced.
+    </invariant>
+
+    <invariant id="07">
+      <responsibility> must be assigned across the whole circuit: {<data>, <model>, <interface>, <institution>, <user>, <workflow>, <circulation>
+}.
+    </invariant>
+
+    <invariant id="08">
+      <responsible_AI_design> must make <cuts>, <assumptions>, <uncertainty>, <provenance>, and <alternatives> visible.
+    </invariant>
+
+  </invariants>
+
+  <theoretical_lineage>
+
+    <lineage_node name="Barad">
+      <concept><agential_realism/></concept>
+      <claim>
+        <phenomenon> does not preexist observation as a finished object.
+        <phenomenon> [emerges_through
+] <intra_action>.
+      </claim>
+      <program_role>
+        Detect where <AI_system> [draws
+] <boundaries> between <signal>, <noise>, <object>, <style>, <fact>, <fiction>, <memory>, and <simulation>.
+      </program_role>
+    </lineage_node>
+
+    <lineage_node name="Bateson">
+      <concept><ecology_of_mind/></concept>
+      <claim>
+        <mind> is not inside the skull or inside the model.
+        <mind> is immanent in <completed_circuits>.
+      </claim>
+      <program_role>
+        Expand analysis from <model_output> to <user-system-environment-archive-interface> circuit.
+      </program_role>
+    </lineage_node>
+
+    <lineage_node name="Second_Order_Cybernetics">
+      <concept><observer_inside_system/></concept>
+      <claim>
+        <observer> cannot stand outside the system observed.
+        [description
+] is already [intervention
+].
+      </claim>
+      <program_role>
+        Refuse detached critique.
+        Place <user>, <designer>, <critic>, and <institution> inside the system of responsibility.
+      </program_role>
+    </lineage_node>
+
+    <lineage_node name="Flusser">
+      <concept><apparatus_program/></concept>
+      <claim>
+        <camera> contains a <program_of_possibilities>.
+        <operator> plays against the program.
+      </claim>
+      <program_role>
+        Treat <generative_AI_interface> as a programmable apparatus that shapes what can easily appear.
+      </program_role>
+    </lineage_node>
+
+    <lineage_node name="Scott">
+      <concept><legibility_and_metis/></concept>
+      <claim>
+        <administrative_system> [simplifies
+] <world> to make it governable.
+        This simplification often [destroys
+] <local_knowledge>.
+      </claim>
+      <program_role>
+        Test every AI simplification for <metis_loss>.
+      </program_role>
+    </lineage_node>
+
+    <lineage_node name="Papert">
+      <concept><object_to_think_with/></concept>
+      <claim>
+        <computer> can become a <microworld> for construction, debugging, and conceptual growth.
+      </claim>
+      <program_role>
+        Convert AI from <answer_machine> into <epistemic_instrument>.
+      </program_role>
+    </lineage_node>
+
+    <lineage_node name="Engelbart">
+      <concept><augmentation_system/></concept>
+      <claim>
+        <human_intellect> is reorganized through {<artifacts>, <language>, <methodology>, <training>
+}.
+      </claim>
+      <program_role>
+        Analyze AI as a system that reorganizes cognition, not merely accelerates work.
+      </program_role>
+    </lineage_node>
+
+    <lineage_node name="World_Model_Discourse">
+      <concept><compressed_action_environment/></concept>
+      <claim>
+        <model> [compresses
+] <observations>,
+[predicts
+] <future_states>, and [guides
+] <action>.
+      </claim>
+      <program_role>
+        Ask what kind of world the AI system makes available for rehearsal, planning, and intervention.
+      </program_role>
+    </lineage_node>
+
+  </theoretical_lineage>
+
+  <system_logic>
+
+    <transition id="01" name="tool_view_to_apparatus_view">
+      <input><generative_AI_system_as_tool/></input>
+      <operation>[reinterpret
+]</operation>
+      <output><generative_AI_system_as_apparatus/></output>
+    </transition>
+
+    <transition id="02" name="content_to_world_event">
+      <input><output_as_content/></input>
+      <operation>[analyze_cut
+]</operation>
+      <output><output_as_world_making_event/></output>
+    </transition>
+
+    <transition id="03" name="model_to_circuit">
+      <input><model_behavior/></input>
+      <operation>[trace_feedback_loop
+]</operation>
+      <output><user-system-environment-culture_circuit/></output>
+    </transition>
+
+    <transition id="04" name="fluency_to_responsibility">
+      <input><fluent_output/></input>
+      <operation>[inspect_assumptions
+]</operation>
+      <output><responsibility_map/></output>
+    </transition>
+
+    <transition id="05" name="simulation_to_accountability">
+      <input><generated_world/></input>
+      <operation>[ask_ethics_of_mattering
+]</operation>
+      <output><accountable_world_model/></output>
+    </transition>
+
+  </system_logic>
+
+  <analysis_algorithm>
+
+    <step id="01" name="receive_case">
+      <AI_case> := {
+        <model>,
+        <interface>,
+        <prompt>,
+        <output>,
+        <archive>,
+        <institutional_context>,
+        <user_workflow>
+}
+    </step>
+
+    <step id="02" name="detect_cuts">
+      <AI_case> [yields
+] <cut_map>
+      <cut_map> := {
+        <included_context>,
+        <excluded_context>,
+        <foregrounded_entities>,
+        <backgrounded_entities>,
+        <assumed_user>,
+        <stabilized_world>,
+        <erased_alternatives>
+}
+    </step>
+
+    <step id="03" name="map_circuit">
+      <prompt> [activates
+] <model>
+      <model> [generates
+] <output>
+      <interface> [frames
+] <output>
+      <user> [interprets
+] <output>
+      <user> [selects_or_revises
+] <output>
+      <selection> [enters
+] <workflow>
+      <workflow> [feeds_back_into
+] <future_prompts>
+    </step>
+
+    <step id="04" name="inspect_apparatus">
+      <apparatus_analysis> := ask {
+    "What does the system make easy?""What does the system make difficult?""What does the system beautify?""What does the system normalize?""What does the system refuse?""What does the system overproduce?""What does the system forget?"
+}
+    </step>
+
+    <step id="05" name="test_legibility">
+      <legibility_regime> := {
+        <labels>,
+        <categories>,
+        <benchmarks>,
+        <ranking_logic>,
+        <safety_rules>,
+        <style_defaults>,
+        <interface_defaults>
+}
+
+      <metis_test> := ask {
+    "What local knowledge was flattened?""What embodied practice was abstracted?""What historical specificity became style?""What cultural relation became promptable texture?""What obligation disappeared?"
+}
+    </step>
+
+    <step id="06" name="inspect_world_model">
+      <world_model_logic> := {
+        <entities_that_matter>,
+        <actions_available>,
+        <constraints_assumed>,
+        <causal_texture>,
+        <future_states_predicted>,
+        <continuities_preserved>,
+        <impossibilities_enforced>
+}
+    </step>
+
+    <step id="07" name="locate_responsibility_gaps">
+      IF <cut> is <hidden_cut>
+        THEN create <responsibility_gap type="hidden_cut"/>
+
+      IF <output> lacks <provenance>
+        THEN create <responsibility_gap type="lost_origin"/>
+
+      IF <simulation> appears as <fact>
+        THEN create <responsibility_gap type="epistemic_status_collapse"/>
+
+      IF <interface> performs <oracle_authority>
+        THEN create <responsibility_gap type="oracle_capture"/>
+
+      IF <user> cannot inspect <assumptions>
+        THEN create <responsibility_gap type="blocked_participation"/>
+
+      IF <legibility_regime> erases <metis>
+        THEN create <responsibility_gap type="metis_loss"/>
+    </step>
+
+    <step id="08" name="generate_design_interventions">
+      <responsibility_gap type="hidden_cut"/> [requires
+] <visible_cut_panel/>
+      <responsibility_gap type="lost_origin"/> [requires
+] <provenance_trace/>
+      <responsibility_gap type="epistemic_status_collapse"/> [requires
+] <epistemic_status_label/>
+      <responsibility_gap type="oracle_capture"/> [requires
+] <conversation_interface/>
+      <responsibility_gap type="blocked_participation"/> [requires
+] <assumption_editor/>
+      <responsibility_gap type="metis_loss"/> [requires
+] <local_context_override/>
+      <responsibility_gap type="single_world_default"/> [requires
+] <counterfactual_comparison/>
+    </step>
+
+  </analysis_algorithm>
+
+  <ethics_of_mattering>
+
+    <question id="01">
+      What did this system make matter?
+    </question>
+
+    <question id="02">
+      What did this system make not matter?
+    </question>
+
+    <question id="03">
+      Which differences became actionable?
+    </question>
+
+    <question id="04">
+      Which differences were absorbed as noise?
+    </question>
+
+    <question id="05">
+      Who benefits from the cut?
+    </question>
+
+    <question id="06">
+      Who bears the cost of the simplification?
+    </question>
+
+    <question id="07">
+      What world became easier to imagine, produce, circulate, or govern?
+    </question>
+
+    <question id="08">
+      What world became harder to see?
+    </question>
+
+  </ethics_of_mattering>
+
+  <design_requirements>
+
+    <requirement id="01" name="visible_cuts">
+      <interface> must [show
+] the major assumptions, exclusions, and transformations that structure <output>.
+    </requirement>
+
+    <requirement id="02" name="provenance_trace">
+      <system> must [preserve
+] origin relations where <output> transforms <source_material>.
+    </requirement>
+
+    <requirement id="03" name="epistemic_status_labeling">
+      <system> must [distinguish
+] {
+        <fact>,
+        <inference>,
+        <guess>,
+        <simulation>,
+        <fiction>,
+        <analogy>,
+        <proposal>
+}.
+    </requirement>
+
+    <requirement id="04" name="counterfactual_comparison">
+      <system> must [allow
+] <user> to compare <alternative_outputs> and inspect why one world appeared instead of another.
+    </requirement>
+
+    <requirement id="05" name="metis_protection">
+      <system> must [permit
+] <local_context>, <situated_knowledge>, and <user_correction> to override generic model completion.
+    </requirement>
+
+    <requirement id="06" name="educational_refusal">
+      <refusal> must [explain
+] the harm, uncertainty, or constraint at stake without becoming theatrical or opaque.
+    </requirement>
+
+    <requirement id="07" name="conversation_over_oracle">
+      <interface> must [support
+] repair, disagreement, revision, context editing, and assumption inspection.
+    </requirement>
+
+    <requirement id="08" name="responsible_slowing">
+      <system> must [slow_down
+] generation where speed would hide responsibility, provenance, or interpretive risk.
+    </requirement>
+
+  </design_requirements>
+
+  <failure_modes>
+
+    <failure id="01" name="neutral_tool_fantasy">
+      <symptom>
+        <AI_system> is treated as passive instrument.
+      </symptom>
+      <harm>
+        <apparatus_power> disappears from analysis.
+      </harm>
+      <repair>
+        Reclassify <AI_system> as <apparatus>.
+      </repair>
+    </failure>
+
+    <failure id="02" name="model_isolation">
+      <symptom>
+        Analysis focuses only on <model_weights> or <output_quality>.
+      </symptom>
+      <harm>
+        <interface>, <user>, <archive>, and <institution> vanish.
+      </harm>
+      <repair>
+        Expand unit of analysis to <cybernetic_circuit>.
+      </repair>
+    </failure>
+
+    <failure id="03" name="fluent_black_box">
+      <symptom>
+        <output> feels authoritative because it is polished.
+      </symptom>
+      <harm>
+        <uncertainty> and <assumptions> become invisible.
+      </harm>
+      <repair>
+        Add <epistemic_status_label> and <assumption_trace>.
+      </repair>
+    </failure>
+
+    <failure id="04" name="metis_erasure">
+      <symptom>
+        <local_knowledge> becomes generic style, label, or dataset pattern.
+      </symptom>
+      <harm>
+        <situated_meaning> is extracted, flattened, or counterfeited.
+      </harm>
+      <repair>
+        Add <local_context_override>, <source_visibility>, and <relation_to_origin>.
+      </repair>
+    </failure>
+
+    <failure id="05" name="simulation_as_world">
+      <symptom>
+        <generated_world> is treated as evidence of how the world is.
+      </symptom>
+      <harm>
+        <simulation> becomes <fact> by interface performance.
+      </harm>
+      <repair>
+        Mark <simulation> as simulation and expose <world_model_assumptions>.
+      </repair>
+    </failure>
+
+    <failure id="06" name="human_centering_evasion">
+      <symptom>
+        System claims to be <human_centered> while leaving relations, institutions, and power unanalyzed.
+      </symptom>
+      <harm>
+        <responsibility> is sentimentalized rather than assigned.
+      </harm>
+      <repair>
+        Replace <human_centered_AI> with <relational_accountable_AI>.
+      </repair>
+    </failure>
+
+    <failure id="07" name="critique_without_construction">
+      <symptom>
+        Argument diagnoses apparatus power but proposes no design alternative.
+      </symptom>
+      <harm>
+        Theory remains external to practice.
+      </harm>
+      <repair>
+        Convert every critique into a <design_requirement>.
+      </repair>
+    </failure>
+
+  </failure_modes>
+
+  <change_tests>
+
+    <change_test id="01" name="dissertation_chapter">
+      <if>
+        <paper> [becomes
+] <dissertation_chapter>
+      </if>
+      <then>
+        Add <literature_review>, <methodology>, <case_archive>, and <chapter_transitions>.
+      </then>
+      <unchanged>
+        <ethics_begins_at_cut/>
+        <output_is_world_making_event/>
+        <interface_completes_circuit/>
+      </unchanged>
+    </change_test>
+
+    <change_test id="02" name="interface_specification">
+      <if>
+        <paper> [becomes
+] <design_spec>
+      </if>
+      <then>
+        Convert <design_requirements> into {
+          <visible_cut_panel>,
+          <provenance_trace>,
+          <uncertainty_label>,
+          <assumption_editor>,
+          <counterfactual_view>,
+          <metis_override>
+}.
+      </then>
+      <unchanged>
+        <responsible_design_requires_visible_world_making/>
+      </unchanged>
+    </change_test>
+
+    <change_test id="03" name="text_to_video_case_study">
+      <if>
+        <case_archive> [narrows_to
+] <text_to_video_world_models>
+      </if>
+      <then>
+        Track {
+          <spacetime_patch>,
+          <object_permanence>,
+          <camera_logic>,
+          <physical_continuity>,
+          <synthetic_memory>,
+          <failure_sequence>
+}.
+      </then>
+      <unchanged>
+        <generated_video_is_world_model_event/>
+      </unchanged>
+    </change_test>
+
+    <change_test id="04" name="policy_framework">
+      <if>
+        <paper> [becomes
+] <AI_governance_framework>
+      </if>
+      <then>
+        Add {
+          <role_assignment>,
+          <audit_question>,
+          <risk_threshold>,
+          <review_cadence>,
+          <deployment_gate>,
+          <accountability_log>
+}.
+      </then>
+      <unchanged>
+        <responsibility_is_distributed_but_not_dissolved/>
+      </unchanged>
+    </change_test>
+
+  </change_tests>
+
+  <program_text language="conceptual-pseudocode">
+
+    PROGRAM AgentialWorldsCyberneticCuts
+
+      INPUT:
+        <AI_case>
+
+      OUTPUT:
+        <apparatus_analysis>
+        <cut_map>
+        <circuit_map>
+        <metis_risk_report>
+        <world_model_report>
+        <responsibility_map>
+        <design_intervention>
+
+      FUNCTION analyze(<AI_case>):
+
+        <cut_map> = detect_cuts(<AI_case>)
+        <circuit_map> = map_circuit(<AI_case>)
+        <apparatus_analysis> = inspect_apparatus(<AI_case>)
+        <legibility_report> = inspect_legibility(<AI_case>)
+        <metis_risk_report> = test_metis_loss(<legibility_report>)
+        <world_model_report> = inspect_world_model(<AI_case>)
+        <responsibility_map> = assign_responsibility(<cut_map>, <circuit_map>, <metis_risk_report>, <world_model_report>)
+        <design_intervention> = repair_responsibility_gaps(<responsibility_map>)
+
+        RETURN {
+          <apparatus_analysis>,
+          <cut_map>,
+          <circuit_map>,
+          <metis_risk_report>,
+          <world_model_report>,
+          <responsibility_map>,
+          <design_intervention>
+}
+
+      FUNCTION detect_cuts(<AI_case>):
+        RETURN {
+          <what_is_foregrounded>,
+          <what_is_backgrounded>,
+          <what_is_included>,
+          <what_is_excluded>,
+          <what_is_named>,
+          <what_is_unnamed>,
+          <what_world_is_stabilized>,
+          <what_alternatives_are_erased>
+}
+
+      FUNCTION map_circuit(<AI_case>):
+        RETURN TRACE(
+          <user> -> <prompt> -> <model> -> <output> -> <interface> -> <interpretation> -> <action> -> <culture> -> <future_prompt>
+        )
+
+      FUNCTION inspect_apparatus(<AI_case>):
+        RETURN ANSWERS_TO(
+          "easy?",
+"difficult?",
+"beautiful?",
+"normal?",
+"refused?",
+"overproduced?",
+"forgotten?"
+        )
+
+      FUNCTION inspect_legibility(<AI_case>):
+        RETURN {
+          <labels>,
+          <categories>,
+          <benchmarks>,
+          <defaults>,
+          <moderation_rules>,
+          <ranking_logic>,
+          <classification_pressure>
+}
+
+      FUNCTION test_metis_loss(<legibility_report>):
+        RETURN {
+          <flattened_local_knowledge>,
+          <abstracted_embodied_practice>,
+          <style_without_source>,
+          <context_loss>,
+          <relation_loss>,
+          <obligation_loss>
+}
+
+      FUNCTION inspect_world_model(<AI_case>):
+        RETURN {
+          <entities_that_matter>,
+          <actions_made_available>,
+          <constraints_assumed>,
+          <future_states_predicted>,
+          <causal_texture>,
+          <continuity_rules>,
+          <impossibility_rules>
+}
+
+      FUNCTION assign_responsibility(<cut_map>, <circuit_map>, <metis_risk_report>, <world_model_report>):
+        RETURN {
+          <data_responsibility>,
+          <model_responsibility>,
+          <interface_responsibility>,
+          <institution_responsibility>,
+          <user_responsibility>,
+          <circulation_responsibility>
+}
+
+      FUNCTION repair_responsibility_gaps(<responsibility_map>):
+        RETURN {
+          <visible_cut_panel>,
+          <provenance_trace>,
+          <epistemic_status_label>,
+          <assumption_editor>,
+          <counterfactual_comparison>,
+          <metis_override>,
+          <educational_refusal>,
+          <conversation_interface>
+}
+
+    END PROGRAM
+
+  </program_text>
+
+  <theory_code_mapping>
+
+    <mapping target="types">
+      <AI_case> encodes the complete object of study: not model alone, but {<model>, <interface>, <prompt>, <output>, <archive>, <institution>, <workflow>
+}.
+    </mapping>
+
+    <mapping target="functions">
+      [detect_cuts
+] encodes <agential_realism>.
+      [map_circuit
+] encodes <ecology_of_mind> and <second_order_cybernetics>.
+      [inspect_apparatus
+] encodes <apparatus_theory>.
+      [inspect_legibility
+] encodes <state_legibility_critique>.
+      [test_metis_loss
+] encodes <situated_knowledge_protection>.
+      [inspect_world_model
+] encodes <AI_world_model_analysis>.
+      [repair_responsibility_gaps
+] encodes <design_ethics>.
+    </mapping>
+
+    <mapping target="tests">
+      <test name="cut_visibility">
+        Every <output> must yield a <cut_map>.
+      </test>
+
+      <test name="circuit_completeness">
+        Every analysis must include <user>, <model>, <interface>, <archive>, and <workflow>.
+      </test>
+
+      <test name="metis_test">
+        Every simplification must be checked for <metis_loss>.
+      </test>
+
+      <test name="epistemic_status_test">
+        Every output must distinguish <fact>, <inference>, <simulation>, <fiction>, <style>, and <proposal>.
+      </test>
+
+      <test name="design_repair_test">
+        Every identified responsibility gap must produce a design repair.
+      </test>
+    </mapping>
+
+  </theory_code_mapping>
+
+  <residual_human_theory>
+    <residue id="01">
+      <agential_cut> is not a synonym for bias.
+      It names the boundary-making operation by which a phenomenon becomes available to knowledge, action, and governance.
+    </residue>
+
+    <residue id="02">
+      <cybernetic_circuit> is not a diagram flourish.
+      It is the real unit of ethical analysis.
+    </residue>
+
+    <residue id="03">
+      <world_model> is not only a technical architecture.
+      It is a cultural form that decides what kinds of worlds can be rehearsed.
+    </residue>
+
+    <residue id="04">
+      <metis> cannot be preserved by simply adding more data.
+      Some knowledge changes when extracted.
+    </residue>
+
+    <residue id="05">
+      The goal is not <human_centered_AI>.
+      The goal is <responsible_world_making>.
+    </residue>
+
+    <final_operator>
+      Make the cut visible.
+      Make the circuit accountable.
+      Make the simulation answerable.
+      Make the interface conversational.
+      Make the world contestable.
+    </final_operator>
+  </residual_human_theory>
+
+</program_theory>

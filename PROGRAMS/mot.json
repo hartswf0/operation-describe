@@ -1,0 +1,1008 @@
+<PROGRAM_THEORY name="THE_MODEL_OF_THE_TRACE" version="1.1">
+
+<Core Thesis>
+  <speech> [vanishes as
+] <event>
+  <writing> [rescues
+] <the-said>
+  <action> [vanishes as
+] <event>
+  <trace> [rescues
+] <the-done>
+
+  <meaning> [does-not-live-inside
+] <intention>
+  <meaning> [survives-as
+] <inscribed-public-consequence>
+
+  <human-science> [studies
+] <meaningful-action-after-it-has-become-readable>
+
+</Core Thesis>
+
+
+1. <Initial Interpretation>
+
+  <program theory problem> :=
+    Build a conceptual machine that explains how <meaningful-action> becomes <interpretable> once it is detached from <agent>, <origin>, <situation>, and <intention>.
+
+  <real-world activity> :=
+    <interpreter> [reads
+] <social-traces>
+    <critic> [tests
+] <competing-meanings>
+    <historian> [reconstructs
+] <action-afterlives>
+    <media-theorist> [reads
+] <digital-artifacts>
+    <institutional-analyst> [exposes
+] <bureaucratic-interpretations>
+
+  <target phenomenon> :=
+    <action> that has escaped its origin and now exists as:
+      <text>
+      <record>
+      <archive>
+      <file>
+      <log>
+      <dataset>
+      <policy>
+      <AI-output>
+      <bureaucratic-category>
+      <historical-event>
+      <institutional-memory>
+
+  <governing question> :=
+    When <event> disappears, what remains readable?
+
+
+2. <Theory Skeleton>
+
+  <entities> :=
+    {
+      <LanguageSystem>,
+      <Discourse>,
+      <SpeechEvent>,
+      <Writing>,
+      <Text>,
+      <TheSaid>,
+      <Author>,
+      <AuthorialIntention>,
+      <Reader>,
+      <World>,
+      <Reference>,
+      <Situation>,
+
+      <MeaningfulAction>,
+      <ActionEvent>,
+      <Agent>,
+      <TheDone>,
+      <Consequence>,
+      <Trace>,
+      <Record>,
+      <Archive>,
+      <Institution>,
+      <History>,
+
+      <DigitalTrace>,
+      <Prompt>,
+      <Model>,
+      <Dataset>,
+      <AIArtifact>,
+      <Platform>,
+      <Circulation>,
+
+      <BureaucraticDecision>,
+      <Category>,
+      <CaseFile>,
+      <Procedure>,
+      <FrozenInterpretation>,
+
+      <Interpretation>,
+      <Guess>,
+      <Explanation>,
+      <Validation>,
+      <RivalReading>,
+      <DefeatCondition>,
+      <PublicMeaning>,
+      <Responsibility>
+}
+
+  [operations
+] :=
+    {
+    [actualize-language-as-discourse
+    ],
+    [fix-discourse-as-text
+    ],
+    [preserve-the-said
+    ],
+    [detach-meaning-from-author
+    ],
+    [detach-reference-from-situation
+    ],
+    [open-world
+    ],
+    [address-unknown-reader
+    ],
+    [perform-action
+    ],
+    [inscribe-action
+    ],
+    [preserve-the-done
+    ],
+    [detach-action-from-agent
+    ],
+    [sediment-action-in-social-time
+    ],
+    [convert-consequence-into-trace
+    ],
+    [convert-trace-into-object-of-interpretation
+    ],
+    [generate-interpretive-guess
+    ],
+    [explain-inner-relations
+    ],
+    [compare-rival-readings
+    ],
+    [validate-probable-meaning
+    ],
+    [defeat-weak-reading
+    ],
+    [reopen-meaning-in-new-context
+    ],
+    [expose-hidden-interpretation
+    ],
+    [assign-responsibility-beyond-intention
+    ],
+    [read-archive-as-active-system
+    ]
+}
+
+  <states> :=
+    {
+      <virtual>,
+      <event-bound>,
+      <spoken>,
+      <vanished>,
+      <fixed>,
+      <written>,
+      <detached>,
+      <circulating>,
+      <archived>,
+      <institutionalized>,
+      <contested>,
+      <validated>,
+      <defeated>,
+      <reopened>,
+      <world-projecting>,
+      <politically-operative>
+}
+
+  <constraints> :=
+    {
+      <intention-is-evidence-not-sovereign>,
+      <context-is-necessary-not-exhaustive>,
+      <trace-is-readable-not-neutral>,
+      <archive-is-active-not-passive>,
+      <data-is-inscription-not-meaning>,
+      <procedure-is-interpretation-not-purity>,
+      <AI-output-is-distributed-trace-not-single-author-text>,
+      <validation-is-probabilistic-not-final>,
+      <interpretive-plurality-is-not-relativism>
+}
+
+  <invariants> :=
+    {
+      <Discourse> [has
+    ] {time, subject, world, addressee
+    },
+      <Text> [fixes
+    ] <TheSaid>,
+      <Text> [exceeds
+    ] <AuthorialIntention>,
+      <Text> [opens
+    ] <World>,
+
+      <MeaningfulAction> [has
+    ] <sense-content>,
+      <Trace> [fixes
+    ] <TheDone>,
+      <Trace> [exceeds
+    ] <AgentIntention>,
+      <Trace> [addresses
+    ] <FutureReader>,
+
+      <Interpretation> [begins-with
+    ] <Guess>,
+      <Explanation> [tests
+    ] <Structure>,
+      <Validation> [compares
+    ] <RivalReadings>,
+      <PublicMeaning> [emerges-through
+    ] <argument>,
+
+      <HumanScienceRigor> [requires
+    ] <disciplined-validation>,
+      <Responsibility> [cannot-hide-behind
+    ] <private-intention>
+}
+
+
+3. <Assumption Ledger>
+
+  <A1 status="safe">
+    <writing> fixes <the-said>, not the living <speech-event>.
+  </A1>
+
+  <A2 status="safe">
+    <social-action> becomes interpretable when it leaves a <trace>.
+  </A2>
+
+  <A3 status="safe">
+    <trace> is the bridge between <Ricoeurian-text> and <human-science-object>.
+  </A3>
+
+  <A4 status="safe">
+    <authorial-intention> and <agent-intention> matter, but they do not govern final meaning.
+  </A4>
+
+  <A5 status="safe">
+    <interpretation> requires both <guessing> and <validation>.
+  </A5>
+
+  <A6 status="safe">
+    <AI-artifacts>, <bureaucratic-records>, and <digital-logs> are contemporary forms of <inscribed-action>.
+  </A6>
+
+  <A7 status="uncertain">
+    The eventual program may become a writing method, classroom model, critique engine, annotation system, or software tool.
+  </A7>
+
+  <A8 status="requires-user-decision">
+    The final implementation target must choose a primary arena:
+      <AI-media-analysis>
+      <bureaucratic-record-analysis>
+      <historical-hermeneutics>
+      <dissertation-methodology>
+      <interpretive-interface>
+  </A8>
+
+
+4. <Operational Description>
+
+  <LanguageSystem> [contains
+] <virtual-code>
+  <Speaker> [actualizes
+] <LanguageSystem> as <Discourse>
+  <Discourse> [appears-as
+] <SpeechEvent>
+  <SpeechEvent> [vanishes-in
+] <time>
+
+  <Writing> [intervenes-in
+] <vanishing>
+  <Writing> [fixes
+] <TheSaid>
+  <TheSaid> [becomes
+] <Text>
+
+  <Text> [detaches-from
+] <Author>
+  <Text> [exceeds
+] <AuthorialIntention>
+  <Text> [detaches-from
+] <OriginalSituation>
+  <Text> [opens
+] <World>
+  <Text> [creates
+] <UnknownReader>
+
+  <Agent> [performs
+] <MeaningfulAction>
+  <MeaningfulAction> [appears-as
+] <ActionEvent>
+  <ActionEvent> [vanishes-in
+] <social-time>
+
+  <Consequence> [carries-forward
+] <TheDone>
+  <Record> [fixes
+] <Consequence>
+  <Archive> [organizes
+] <Record>
+  <Institution> [reuses
+] <Trace>
+  <History> [reinterprets
+] <Trace>
+
+  <MeaningfulAction> [becomes
+] <Trace>
+  <Trace> [becomes
+] <ReadableObject>
+  <ReadableObject> [enters
+] <HumanScience>
+
+  <Interpreter> [encounters
+] <Trace>
+  <Interpreter> [does-not-return-to
+] <pure-origin>
+  <Interpreter> [constructs
+] <Guess>
+  <Guess> [selects
+] <RelevantEvidence>
+  <Explanation> [maps
+] <part-whole-relations>
+  <Validation> [tests
+] <Guess> against <RivalReading>
+  <RivalReading> [may-defeat
+] <Guess>
+  <ValidatedReading> [remains-open-to
+] <FutureInterpretation>
+
+  <Prompt> [contributes-to
+] <AIArtifact>
+  <Model> [contributes-to
+] <AIArtifact>
+  <Dataset> [contributes-to
+] <AIArtifact>
+  <Platform> [contributes-to
+] <AIArtifact>
+  <Circulation> [changes
+] <AIArtifactMeaning>
+  <AIArtifact> [functions-as
+] <DigitalTrace>
+
+  <Form> [captures
+] <Person>
+  <Category> [transforms
+] <Person> into <Case>
+  <Procedure> [presents
+] <Judgment> as <NeutralOperation>
+  <BureaucraticDecision> [functions-as
+] <FrozenInterpretation>
+  <CaseFile> [extends
+] <Decision> across time
+
+  <condition: no-inscription>
+    [blocks
+] <public-readable-action>
+
+  <condition: inscription-present>
+    [enables
+] <interpretation>
+
+  <condition: intention-treated-as-sovereign>
+    [produces
+] <naive-intentionalism>
+
+  <condition: all-readings-treated-as-equal>
+    [produces
+] <interpretive-nihilism>
+
+  <condition: rival-readings-tested>
+    [enables
+] <human-science-rigor>
+
+
+5. <Failure Description>
+
+  <Failure name="NAIVE_INTENTIONALISM">
+    <symptom> :=
+      <reading> [asks-only
+] "What did the author or agent mean?"
+
+    <damage> :=
+      <consequence> [disappears
+]
+      <trace-career> [disappears
+]
+      <public-meaning> [is-reduced-to
+] <private-psychology>
+
+    <correction> :=
+      [read
+] {inscription, detachment, circulation, consequence, world-projection
+}
+  </Failure>
+
+  <Failure name="CONTEXT_PRISON">
+    <symptom> :=
+      <reading> [reduces
+] <trace> to <origin-context>
+
+    <damage> :=
+      <importance> [is-collapsed-into
+] <initial-relevance>
+
+    <correction> :=
+      [ask
+] how <trace> [travels
+] into <new-contexts>
+  </Failure>
+
+  <Failure name="INTERPRETIVE_NIHILISM">
+    <symptom> :=
+      <reading> [claims
+] every interpretation is equally valid
+
+    <damage> :=
+      <validation> [collapses
+]
+      <argument> [collapses
+]
+      <human-science-rigor> [collapses
+]
+
+    <correction> :=
+      [require
+] {evidence, structure, rival-reading, defeat-condition
+}
+  </Failure>
+
+  <Failure name="DATA_POSITIVISM">
+    <symptom> :=
+      <dashboard> [treats
+] <digital-trace> as self-explaining
+
+    <damage> :=
+      <interpretive-frame> [hides-inside
+] <metric>
+
+    <correction> :=
+      [ask
+] what <category>, <model>, or <interface> already interpreted
+  </Failure>
+
+  <Failure name="BUREAUCRATIC_INNOCENCE">
+    <symptom> :=
+      <procedure> [claims
+] neutrality
+
+    <damage> :=
+      <judgment> [hides-inside
+] <form>
+      <power> [hides-inside
+] <classification>
+
+    <correction> :=
+      [read
+] <record> as <institutional-text>
+  </Failure>
+
+  <Failure name="AI_SINGLE_AUTHOR_FALLACY">
+    <symptom> :=
+      <AIArtifact> [is-attributed-to
+] <single-author>
+
+    <damage> :=
+      <distributed-causality> [disappears
+]
+      <platform-power> [disappears
+]
+      <dataset-memory> [disappears
+]
+
+    <correction> :=
+      [map
+] {prompt, model, dataset, interface, policy, circulation, reception
+}
+  </Failure>
+
+  <Failure name="ARCHIVE_STORAGE_FALLACY">
+    <symptom> :=
+      <archive> [is-treated-as
+] <container>
+
+    <damage> :=
+      <archive> [escapes-analysis-as
+] <active-ordering-system>
+
+    <correction> :=
+      [read
+] <archive> as <machine-that-selects-organizes-and-authorizes-traces>
+  </Failure>
+
+
+6. <Change Test>
+
+  <Scenario name="AI_MEDIA_ANALYSIS">
+    <if_requirements_change_to> :=
+      Analyze AI-generated images, text, video, or synthetic memory artifacts.
+
+    <add_entities> :=
+      {<Prompt>, <Model>, <Dataset>, <Interface>, <SafetyLayer>, <GeneratedArtifact>, <CirculationNetwork>
+}
+
+    <add_operations> :=
+      {
+    [map-distributed-authorship
+    ],
+    [compare-prompt-to-public-meaning
+    ],
+    [trace-synthetic-memory-effects
+    ],
+    [test-artifact-against-historical-reference
+    ]
+}
+
+    <preserved_invariant> :=
+      <AIArtifact> [is
+] <trace> not <private-intention>
+  </Scenario>
+
+  <Scenario name="BUREAUCRATIC_RECORD_ANALYSIS">
+    <if_requirements_change_to> :=
+      Analyze welfare files, immigration records, school records, medical classifications, risk scores, or legal documents.
+
+    <add_entities> :=
+      {<CaseFile>, <EligibilityRule>, <RiskScore>, <Appeal>, <AdministrativeCategory>, <InstitutionalReader>
+}
+
+    <add_operations> :=
+      {
+    [locate-hidden-judgment
+    ],
+    [trace-category-consequence
+    ],
+    [read-procedure-as-interpretation
+    ],
+    [map-record-afterlife
+    ]
+}
+
+    <preserved_invariant> :=
+      <BureaucraticDecision> [is
+] <frozen-interpretation>
+  </Scenario>
+
+  <Scenario name="HISTORICAL_EVENT_ANALYSIS">
+    <if_requirements_change_to> :=
+      Analyze revolutions, public scandals, disasters, protests, monuments, or cultural memory.
+
+    <add_entities> :=
+      {<Event>, <Witness>, <Document>, <CounterArchive>, <Commemoration>, <Myth>, <Revision>
+}
+
+    <add_operations> :=
+      {
+    [separate-event-from-afterlife
+    ],
+    [compare-memory-regimes
+    ],
+    [validate-conflicting-historical-readings
+    ],
+    [track-durable-relevance
+    ]
+}
+
+    <preserved_invariant> :=
+      <HistoricalEvent> [becomes-readable-through
+] <trace-and-reinterpretation>
+  </Scenario>
+
+  <Scenario name="DISSERTATION_METHOD">
+    <if_requirements_change_to> :=
+      Turn the theory into a dissertation chapter method.
+
+    <add_entities> :=
+      {<CaseStudy>, <LiteratureReview>, <MethodSection>, <InterpretiveProtocol>, <Counterreading>
+}
+
+    <add_operations> :=
+      {
+    [define-object-as-trace
+    ],
+    [stage-rival-readings
+    ],
+    [validate-probable-interpretation
+    ],
+    [show-world-projection
+    ]
+}
+
+    <preserved_invariant> :=
+      <humanistic-rigor> [comes-from
+] <disciplined-validation>
+  </Scenario>
+
+
+7. <Implementation Plan>
+
+  <modules> :=
+    {
+      <TraceClassifier>: [classifies
+    ] <input> as <text>, <action>, <record>, <AI-artifact>, <bureaucratic-decision>, or <historical-event>,
+
+      <InscriptionAnalyzer>: [finds
+    ] how <event> became <trace>,
+
+      <DetachmentAnalyzer>: [separates
+    ] <meaning> from <intention> without discarding intention,
+
+      <WorldProjectionAnalyzer>: [asks
+    ] what <world> the <trace> opens,
+
+      <AddresseeAnalyzer>: [maps
+    ] who can read, reuse, enforce, or contest the <trace>,
+
+      <InterpretationBuilder>: [constructs
+    ] <guess> from evidence,
+
+      <ExplanationEngine>: [maps
+    ] internal relations among <parts>, <whole>, <context>, <structure>, and <consequence>,
+
+      <ValidationEngine>: [compares
+    ] <guess> against <rival-readings>,
+
+      <FailureDetector>: [flags
+    ] bad interpretation patterns,
+
+      <ReportGenerator>: [outputs
+    ] <validated-reading>
+}
+
+  <data_contract> :=
+    <TraceInput> {
+      artifact_or_action,
+      origin_context,
+      known_intentions,
+      inscription_mechanism,
+      evidence,
+      consequences,
+      circulation_history,
+      rival_readings
+}
+
+  <output_contract> :=
+    <HermeneuticReport> {
+      trace_identity,
+      fixation_mechanism,
+      detachment_analysis,
+      world_projection,
+      addressee_range,
+      interpretive_guess,
+      explanation,
+      validation,
+      rival_reading_results,
+      failure_flags,
+      final_reading,
+      remaining_uncertainties
+}
+
+
+8. <Program Text>
+
+  PROGRAM <HermeneuticTraceInterpreter>
+
+    INPUT:
+      <TraceInput>
+
+    OUTPUT:
+      <HermeneuticReport>
+
+    STEP 1: [classify-input
+]
+      IF <artifact_or_action> is spoken discourse:
+        SET <type> = <SpeechEvent>
+      ELSE IF <artifact_or_action> is written language:
+        SET <type> = <Text>
+      ELSE IF <artifact_or_action> is human deed:
+        SET <type> = <MeaningfulAction>
+      ELSE IF <artifact_or_action> is model-generated media:
+        SET <type> = <AIArtifact>
+      ELSE IF <artifact_or_action> is administrative record:
+        SET <type> = <BureaucraticDecision>
+      ELSE:
+        SET <type> = <TraceCandidate>
+
+    STEP 2: [locate-fixation
+]
+      FIND <inscription_mechanism> IN {
+        writing,
+        recording,
+        archive,
+        database,
+        log,
+        file,
+        interface,
+        policy,
+        law,
+        dataset,
+        institutional-memory,
+        public-circulation
+}
+
+      IF <inscription_mechanism> is absent:
+        RETURN <not-yet-readable-as-public-trace>
+
+    STEP 3: [produce-trace
+]
+      <event> [passes-away
+]
+      <the-said-or-done> [remains
+]
+      CREATE <Trace>
+
+    STEP 4: [demote-intention
+]
+      SET <intention_status> = <evidence-not-sovereign>
+
+      COMPARE:
+        <known_intentions>
+        <trace_structure>
+        <actual_consequences>
+        <circulation_history>
+        <rival_readings>
+
+      IF <known_intentions> contradict <trace_consequences>:
+        MARK <meaning-exceeds-intention>
+
+    STEP 5: [analyze-world-projection
+]
+      ASK:
+        What <world> does this <Trace> open?
+        What <roles> does it create?
+        What <categories> does it stabilize?
+        What <future-actions> does it enable?
+        What <subjects> does it address?
+        What <forms-of-life> does it make thinkable?
+
+    STEP 6: [analyze-address
+]
+      MAP:
+        <original_addressee>
+        <unknown_reader>
+        <institutional_reader>
+        <machine_reader>
+        <public_reader>
+        <future_reader>
+
+      SET <address_range> = all mapped readers
+
+    STEP 7: [generate-guess
+]
+      BUILD <Guess> FROM:
+        <trace_features>
+        <origin_context>
+        <inscription_mechanism>
+        <consequences>
+        <world_projection>
+        <address_range>
+
+      REQUIRE <Guess> to answer: "What does this trace mean now that it has escaped its origin?"
+
+    STEP 8: [explain-structure
+]
+      MAP:
+        <part> [relates-to
+] <whole>
+        <surface> [relates-to
+] <deep-structure>
+        <context> [relates-to
+] <afterlife>
+        <intention> [relates-to
+] <consequence>
+        <record> [relates-to
+] <institution>
+        <artifact> [relates-to
+] <circulation>
+        <category> [relates-to
+] <power>
+
+    STEP 9: [validate
+]
+      FOR EACH <RivalReading>:
+        TEST:
+          Does it explain more evidence?
+          Does it better account for consequences?
+          Does it expose hidden assumptions?
+          Does it better map the world projected?
+          Does it defeat the current guess?
+
+      SELECT <best_reading> WHERE:
+        <evidence_coverage> is strongest
+        <structural_account> is strongest
+        <consequence_account> is strongest
+        <rival_defense> is strongest
+
+      SET <validation_status> = <probable-not-final>
+
+    STEP 10: [detect-failures
+]
+      IF <best_reading> depends only on intention:
+        FLAG <NAIVE_INTENTIONALISM>
+
+      IF <best_reading> reduces meaning to origin context:
+        FLAG <CONTEXT_PRISON>
+
+      IF <best_reading> treats all readings as equal:
+        FLAG <INTERPRETIVE_NIHILISM>
+
+      IF <best_reading> treats data as self-explaining:
+        FLAG <DATA_POSITIVISM>
+
+      IF <best_reading> treats procedure as neutral:
+        FLAG <BUREAUCRATIC_INNOCENCE>
+
+      IF <best_reading> treats AI artifact as single-author text:
+        FLAG <AI_SINGLE_AUTHOR_FALLACY>
+
+      IF <best_reading> treats archive as passive storage:
+        FLAG <ARCHIVE_STORAGE_FALLACY>
+
+    STEP 11: [return-report
+]
+      RETURN <HermeneuticReport> {
+        trace_identity: <type>,
+        fixation_mechanism: <inscription_mechanism>,
+        detachment_analysis: <meaning-exceeds-intention>,
+        world_projection: <world_projection>,
+        addressee_range: <address_range>,
+        interpretive_guess: <Guess>,
+        explanation: <structure_map>,
+        validation: <validation_status>,
+        rival_reading_results: <rival_tests>,
+        failure_flags: <flags>,
+        final_reading: <best_reading>,
+        remaining_uncertainties: <unresolved_questions>
+}
+
+  END PROGRAM
+
+
+9. <Theory-Code Mapping>
+
+  <types>
+    <TraceInput> :=
+      the empirical material submitted to interpretation.
+
+    <Trace> :=
+      the objectified remainder of speech, action, decision, media, or event.
+
+    <HermeneuticReport> :=
+      the disciplined reading of the trace after validation.
+
+  </types>
+
+  <functions>
+    [classify-input
+] :=
+      distinguishes <speech>, <text>, <action>, <AI-artifact>, <bureaucratic-record>, and <historical-event>.
+
+    [locate-fixation
+] :=
+      models Ricoeur's fixation of discourse and extension to action.
+
+    [demote-intention
+] :=
+      prevents <author> or <agent> from becoming sovereign over meaning.
+
+    [analyze-world-projection
+] :=
+      models the movement from <situation> to <world>.
+
+    [generate-guess
+] :=
+      models the first movement of interpretation.
+
+    [explain-structure
+] :=
+      models explanation internal to meaningful signs and traces.
+
+    [validate
+] :=
+      models disciplined argument among probable readings.
+
+    [detect-failures
+] :=
+      prevents the theory from collapsing into intentionalism, positivism, bureaucracy, or relativism.
+  </functions>
+
+  <classes>
+    <HermeneuticTraceInterpreter> :=
+      the whole conceptual machine.
+
+    <InscriptionAnalyzer> :=
+      the module that turns event into trace.
+
+    <ValidationEngine> :=
+      the module that turns guess into disciplined interpretation.
+
+    <FailureDetector> :=
+      the module that protects interpretation from false clarity.
+  </classes>
+
+  <tests>
+    <test_trace_requires_fixation>
+      GIVEN <event>
+      WHEN no <inscription_mechanism> exists
+      THEN return <not-yet-readable-as-public-trace>
+
+    <test_intention_not_sovereign>
+      GIVEN <known_intention>
+      WHEN <trace_consequence> exceeds intention
+      THEN mark <meaning-exceeds-intention>
+
+    <test_rival_readings_required>
+      GIVEN <Guess>
+      WHEN no <RivalReading> is tested
+      THEN flag <weak-validation>
+
+    <test_ai_artifact_distributed>
+      GIVEN <AIArtifact>
+      THEN require {prompt, model, dataset, platform, circulation
+}
+
+    <test_bureaucratic_decision_as_interpretation>
+      GIVEN <BureaucraticDecision>
+      THEN classify <procedure> as possible <FrozenInterpretation>
+
+    <test_archive_active>
+      GIVEN <Archive>
+      THEN analyze selection, organization, exclusion, and authorization
+  </tests>
+
+  <comments>
+    // Meaning survives as trace, not as private intention.
+// A record is not neutral; it is an action with an afterlife.
+// A dataset is not raw memory; it is selected inscription.
+// A bureaucratic category is a frozen reading.
+// An AI artifact has distributed authorship.
+// Validation is not final truth; it is disciplined comparative plausibility.
+  </comments>
+
+  <configuration>
+    require_fixation: true
+    intention_is_evidence_not_authority: true
+    require_world_projection: true
+    require_rival_readings: true
+    require_failure_detection: true
+    allow_multiple_probable_readings: true
+    reject_all_readings_equal: true
+    treat_archives_as_active: true
+    treat_data_as_interpreted: true
+    treat_bureaucracy_as_textual_action: true
+    treat_ai_artifacts_as_distributed_traces: true
+  </configuration>
+
+
+10. <Residual Human Theory>
+
+  <not-captured-by-program>
+    The program can model <world-projection>, but it cannot feel the existential force of a world opening.
+    The program can compare <rival-readings>, but it cannot guarantee ethical judgment.
+    The program can expose <hidden-interpretation>, but it cannot decide alone what justice requires.
+    The program can mark <meaning-exceeds-intention>, but it cannot absolve or condemn without human judgment.
+  </not-captured-by-program>
+
+  <future-maintainer-must-understand>
+    This is not a neutral analysis pipeline.
+    This is a hermeneutic discipline.
+
+    The machine exists to stop weak interpretation from hiding behind:
+      <authorial-intention>
+      <agent-intention>
+      <raw-data>
+      <neutral-procedure>
+      <technical-output>
+      <archival-fact>
+      <context-only-explanation>
+      <single-author-theory>
+
+    The maintained invariant is:
+      <event> [vanishes
+]
+      <trace> [remains
+]
+      <trace> [opens-world
+]
+      <world> [demands-reading
+]
+      <reading> [requires-validation
+]
+      <validation> [remains-revisable
+]
+  </future-maintainer-must-understand>
+
+</PROGRAM_THEORY>

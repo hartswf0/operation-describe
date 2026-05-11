@@ -1,0 +1,695 @@
+<PROGRAM_THEORY>
+  <title>THE ARGUMENT IS NOT THE THOUGHT</title>
+  <based_on author="Gilbert Ryle" work="Thinking and Inferring" />
+  <program_type>Rylean Conceptual Distinction Engine</program_type>
+
+  <core_axiom>
+    <argument> [is-not
+] <thinking>.
+    <proof> [is-not
+] <discovery>.
+    <explanation> [is-not
+] <inference>.
+    <report> [is-not
+] <investigation>.
+    <chain> [is-not
+] <the holding of the thread>.
+  </core_axiom>
+
+  <central_thesis>
+    <inferring> is an <achievement>, not a <stepwise inner process>.
+    <arguing> is a <public reconstruction>, not the hidden form of <thinking>.
+    <thinking> often occurs as <search>, <hesitation>, <orientation>, <salience>, and <inarticulate pressure toward articulation>.
+  </central_thesis>
+
+  <Initial_Interpretation>
+    <task> [becomes
+] <program_theory_problem>.
+    <program_theory_problem> :=
+      "Build a system that prevents the category mistake of reading the finished shape of an argument backward into the living activity of thought."
+
+    <real_world_activity> :=
+      <person> [comes-to-see
+] <something>
+      before
+      <person> [can-publicly-state
+] <why-it-follows>.
+
+    <paper_activity> :=
+      <Ryle> [separates
+] <inference> from <argument>
+      so that
+      <philosophy_of_mind> [stops-confusing
+] <logical order> with <psychological discovery>.
+  </Initial_Interpretation>
+
+  <Theory_Skeleton>
+    <entities>
+      <Thinking>
+      <Inferring>
+      <Argument>
+      <Conclusion>
+      <Premise>
+      <Evidence>
+      <Discovery>
+      <Justification>
+      <Explanation>
+      <Report>
+      <Proof>
+      <Search>
+      <Arrival>
+      <Achievement>
+      <Process>
+      <InnerSpeech>
+      <SilentSyllogism>
+      <InarticulatePressure>
+      <Articulation>
+      <Salience>
+      <Relevance>
+      <Thread>
+      <Memory>
+      <Possession>
+      <Detective>
+      <Judge>
+      <Poet>
+      <Traveler>
+      <Storyteller>
+      <AI_Rationale>
+      <ChainOfThought_Output>
+      <ScholarlyPaper>
+    </entities>
+
+    [operations
+]
+      [infer
+]
+      [argue
+]
+      [think
+]
+      [search
+]
+      [arrive
+]
+      [discover
+]
+      [justify
+]
+      [explain
+]
+      [report
+]
+      [reconstruct
+]
+      [articulate
+]
+      [hold-thread
+]
+      [weigh-evidence
+]
+      [notice-relevance
+]
+      [possess-conclusion
+]
+      [repeat-argument
+]
+      [fail-to-reinfer
+]
+      [project-backward
+]
+      [block-category-error
+]
+      [distinguish-achievement-from-process
+]
+      [separate-discovery-from-presentation
+]
+      [treat-output-as-artifact
+]
+    [/operations
+]
+
+    <states>
+      <ignorant>
+      <puzzled>
+      <searching>
+      <groping>
+      <partially-oriented>
+      <not-yet-articulate>
+      <evidence-held>
+      <thread-held>
+      <conclusion-reached>
+      <conclusion-possessed>
+      <argument-formulated>
+      <argument-presented>
+      <explanation-generated>
+      <artifact-mistaken-for-process>
+      <conceptual-confusion>
+      <conceptual-clarity>
+    </states>
+
+    <constraints>
+      <Inference> must not be modeled as <inner argument>.
+      <Argument> must not be modeled as <transcript of thinking>.
+      <Conclusion> must not be inferred again once already possessed, except through <forgetting> or <loss>.
+      <Report> must not be mistaken for <the investigation that produced it>.
+      <Proof> must not be mistaken for <the discovery of the proof>.
+      <Explanation> must not be mistaken for <the causal or cognitive process that generated it>.
+      <AI_Rationale> must be treated first as <artifact>, not as <transparent process evidence>.
+    </constraints>
+
+    <invariants>
+      <inferring> [culminates
+] <search>.
+      <argument> [stabilizes
+] <inference>.
+      <argument> [can-repeat
+].
+      <original-inference> [normally-cannot-repeat
+].
+      <thinking> [can-be
+] <preverbal>.
+      <thinking> [can-be
+] <inarticulate>.
+      <thinking> [can-struggle-toward
+] <articulation>.
+      <logical-sequence> [does-not-equal
+] <mental-history>.
+      <order-of-presentation> [does-not-equal
+] <order-of-discovery>.
+      <finished-form> [must-not-be-projected-backward-onto
+] <formation-process>.
+    </invariants>
+  </Theory_Skeleton>
+
+  <Assumption_Ledger>
+    <assumption status="safe">
+      <Ryle> treats <inferring> as closer to <arriving>, <finding>, and <solving> than to <reciting> or <performing steps>.
+    </assumption>
+
+    <assumption status="safe">
+      <Ryle> distinguishes <drawing a conclusion> from <presenting an argument for a conclusion>.
+    </assumption>
+
+    <assumption status="safe">
+      <thinking> may involve <hesitation>, <search>, <failed formulation>, and <wordless orientation>.
+    </assumption>
+
+    <assumption status="safe">
+      <detective-report> is a polished reconstruction, not a duplicate of <detective-thinking>.
+    </assumption>
+
+    <assumption status="interpretive">
+      <Rylean distinction> applies powerfully to <AI chain-of-thought> and <generated rationales>.
+    </assumption>
+
+    <assumption status="interpretive">
+      <holding-the-thread> names the missing operation by which multiple considerations bear jointly on a present thought without being simultaneously recited.
+    </assumption>
+  </Assumption_Ledger>
+
+  <Operational_Description>
+    <ignorance> [enables
+] <inference>.
+    <known-conclusion> [blocks
+] <original-inference>.
+    <forgetting> [may-restore
+] <possibility-of-inference>.
+
+    <evidence> [does-not-automatically-become
+] <premise>.
+    <evidence> [becomes
+] <premise> only after <relevance> [is-recognized
+].
+    <premise> [belongs-to
+] <argument>.
+    <clue> [belongs-to
+] <search> before it belongs to <argument>.
+
+    <thinker> [searches
+] <field-of-considerations>.
+    <thinker> [notices
+] <relation>.
+    <thinker> [arrives-at
+] <conclusion>.
+    <conclusion> [becomes
+] <possession>.
+    <thinker> [later-constructs
+] <argument>.
+    <argument> [makes
+] <conclusion> publicly inspectable.
+
+    <detective> [collects
+] <details>.
+    <details> [remain
+] <unranked>, <ambiguous>, <possibly-irrelevant>.
+    <detective> [gropes-through
+] <case-field>.
+    <detective> [arrives-at
+] <solution>.
+    <detective> [writes
+] <report>.
+    <report> [orders
+] <details-as-evidence>.
+    <report> [is-not
+] <the detective's thinking>.
+
+    <poet> [does-not-recite
+] <finished-poem>.
+    <poet> [searches-for
+] <line>, <word>, <cadence>, <fit>.
+    <poetic-thinking> [is
+] <inarticulate-pressure-toward-form>.
+    <finished-poem> [is-not
+] <composition-process>.
+
+    <traveler> [travels-through
+] <route>.
+    <traveler> [arrives-at
+] <destination>.
+    <arrival> [ends
+] <journey>.
+    <arrival> [is-not
+] <another journey>.
+    <inference> [ends
+] <search>.
+    <inference> [is-not
+] <another search-step>.
+
+    <story-listener> [attends-to
+] <current-event>.
+    <story-listener> [holds
+] <prior-events>.
+    <prior-events> [shape
+] <understanding-of-current-event>.
+    <prior-events> [need-not-be-recited>.
+    <holding-thread> [integrates
+    ] <background> with <present attention>.
+
+    <AI_system> [generates
+    ] <rationale>.
+    <rationale> [may-function-as
+    ] <argument>.
+    <rationale> [may-function-as
+    ] <explanation>.
+    <rationale> [does-not-automatically-function-as
+    ] <process-transcript>.
+    <Rylean_engine> [marks
+    ] <rationale> as <artifact-first>.
+  </Operational_Description>
+
+  <Failure_Description>
+    <failure name="ARGUMENT_PROCESS_CONFUSION">
+      <symptom>
+        <argument> [is-treated-as
+    ] <inner thinking>.
+      </symptom>
+      <correction>
+        [separate
+    ] <public justification> from <private discovery>.
+      </correction>
+    </failure>
+
+    <failure name="SILENT_SYLLOGISM_MYTH">
+      <symptom>
+        <reasoning> [is-modeled-as
+    ] <silent premise-recitation>.
+      </symptom>
+      <correction>
+        [restore
+    ] <search>, <salience>, <groping>, <inarticulate articulation>.
+      </correction>
+    </failure>
+
+    <failure name="REPORT_AS_INVESTIGATION">
+      <symptom>
+        <detective-report> [is-read-as
+    ] <detective's actual path>.
+      </symptom>
+      <correction>
+        [mark
+    ] <report> as <retrospective artifact>.
+      </correction>
+    </failure>
+
+    <failure name="PROOF_AS_DISCOVERY">
+      <symptom>
+        <proof-order> [is-read-as
+    ] <discovery-order>.
+      </symptom>
+      <correction>
+        [distinguish
+    ] <valid demonstration> from <history of invention>.
+      </correction>
+    </failure>
+
+    <failure name="EXPLANATION_THEATER">
+      <symptom>
+        <AI_Rationale> [is-treated-as
+    ] <transparent reasoning trace>.
+      </symptom>
+      <correction>
+        [evaluate
+    ] <AI_Rationale> as <generated artifact> before assigning <process evidence>.
+      </correction>
+    </failure>
+
+    <failure name="THREADLESS_MODEL">
+      <symptom>
+        <thinking> [is-forced-into
+    ] <linear sequence>.
+      </symptom>
+      <correction>
+        [introduce
+    ] <holding-thread> as <nonlinear integration of considerations>.
+      </correction>
+    </failure>
+  </Failure_Description>
+
+  <Change_Test>
+    <scenario name="AI_Ethics_Extension">
+      <if>
+        <paper> [moves-toward
+    ] <AI ethics>
+      </if>
+      <then>
+        <ChainOfThought_Output> [becomes
+    ] <primary object>.
+        <Rylean distinction> [becomes
+    ] <critique of explanation transparency>.
+        <thesis> :=
+          "A generated rationale may justify an answer without revealing the process that produced it."
+      </then>
+    </scenario>
+
+    <scenario name="Philosophy_of_Mind_Extension">
+      <if>
+        <paper> [moves-toward
+    ] <philosophy of mind>
+      </if>
+      <then>
+        <achievement/process distinction> [becomes
+    ] <central apparatus>.
+        <inner speech critique> [becomes
+    ] <primary target>.
+        <thesis> :=
+          "Thinking cannot be reduced to silent assertion, covert speech, or private proposition-handling."
+      </then>
+    </scenario>
+
+    <scenario name="Writing_Pedagogy_Extension">
+      <if>
+        <paper> [moves-toward
+    ] <writing pedagogy>
+      </if>
+      <then>
+        <scholarly-paper> [becomes
+    ] <retrospective artifact>.
+        <drafting> [becomes
+    ] <thinking-before-articulation>.
+        <thesis> :=
+          "The finished essay is not how thought happened; it is how thought becomes accountable."
+      </then>
+    </scenario>
+
+    <scenario name="Media_Theory_Extension">
+      <if>
+        <paper> [moves-toward
+    ] <media theory>
+      </if>
+      <then>
+        <argument>, <report>, <proof>, <rationale> [become
+    ] <media artifacts>.
+        <reasoning trace> [becomes
+    ] <interface form>.
+        <thesis> :=
+          "Reasoning traces are representational media, not guaranteed windows into cognitive process."
+      </then>
+    </scenario>
+  </Change_Test>
+
+  <Implementation_Plan>
+    <section id="01" title="False Picture">
+      [define
+    ] <thinking-as-inner-argument> as <target-error>.
+    </section>
+
+    <section id="02" title="Rylean Distinction">
+      [separate
+    ] <inferring> from <arguing>.
+    </section>
+
+    <section id="03" title="Achievement">
+      [model
+    ] <inference> as <arrival>, <finding>, <solving>.
+    </section>
+
+    <section id="04" title="Retrospective Artifact">
+      [model
+    ] <argument> as <public reconstruction>.
+    </section>
+
+    <section id="05" title="Detective">
+      [show
+    ] <investigation> != <report>.
+    </section>
+
+    <section id="06" title="Poet">
+      [show
+    ] <composition> != <recitation>.
+    </section>
+
+    <section id="07" title="Thread">
+      [define
+    ] <holding-thread> as <background relevance active in present understanding>.
+    </section>
+
+    <section id="08" title="AI Extension">
+      [apply
+    ] <Rylean distinction> to <AI rationales>.
+    </section>
+
+    <section id="09" title="Final Formula">
+      [state
+    ] <thought-discovers>; <argument-accounts>.
+    </section>
+  </Implementation_Plan>
+
+  <Program_Text>
+    <paper_engine>
+      INPUT:
+        <Ryle_Thinking_and_Inferring>
+
+      OUTPUT:
+        <theory_of_argument_not_thought>
+
+      RULE 1:
+        IF <conclusion> [is-not-yet-known
+    ]
+        THEN <inference> [is-possible
+    ].
+
+      RULE 2:
+        IF <conclusion> [is-known
+    ]
+        THEN <original-inference> [is-blocked
+    ]
+        UNLESS <forgetting> [restores
+    ] <ignorance>.
+
+      RULE 3:
+        IF <argument> [is-repeatable
+    ]
+        THEN <argument> [belongs-to
+    ] <presentation>, not <original discovery>.
+
+      RULE 4:
+        IF <thinking> [has-not-yet-found-words
+    ]
+        THEN <thinking> [is-still-thinking>.
+        DO NOT reduce <thinking> to <inner speech>.
+
+      RULE 5:
+        IF <report> [is-orderly
+        ]
+        THEN DO NOT infer <investigation> [was-orderly
+        ].
+
+      RULE 6:
+        IF <proof> [is-valid
+        ]
+        THEN <proof> [justifies
+        ] <conclusion>.
+        DO NOT infer <proof> [records
+        ] <discovery>.
+
+      RULE 7:
+        IF <AI_output> [contains
+        ] <stepwise rationale>
+        THEN <AI_output> [may-be
+        ] <argument-artifact>.
+        DO NOT infer <AI_output> [is
+        ] <process-transcript>.
+
+      RULE 8:
+        IF <current thought> [depends-on
+        ] <prior considerations>
+        AND <prior considerations> [are-not-explicitly-recited
+        ]
+        THEN <holding-thread> [is-active
+        ].
+
+      RULE 9:
+        IF <finished form> [appears clean
+        ]
+        THEN <formation process> [may-have-been
+        ] <messy>, <nonlinear>, <inarticulate>, <exploratory>.
+
+      RULE 10:
+        FINAL:
+          <thought> [discovers
+        ].
+          <argument> [accounts
+        ].
+          <explanation> [presents
+        ].
+          <report> [orders
+        ].
+          <proof> [justifies
+        ].
+          <none> [guarantees
+        ] <transparent access to thinking>.
+    </paper_engine>
+  </Program_Text>
+
+  <Theory_Code_Mapping>
+    <types>
+      <Achievement> := <Inferring>, <Arriving>, <Finding>, <Solving>
+      <Process> := <Searching>, <Weighing>, <Investigating>, <Composing>
+      <Artifact> := <Argument>, <Report>, <Proof>, <Explanation>, <AI_Rationale>, <ScholarlyPaper>
+      <Error> := <CategoryMistake>, <ProjectionBackward>, <ExplanationTheater>
+    </types>
+
+    <functions>
+      [infer
+        ] := <search> [culminates-in
+        ] <conclusion>
+      [argue
+        ] := <conclusion> [is-supported-by
+        ] <public reasons>
+      [report
+        ] := <messy inquiry> [is-reordered-as
+        ] <case>
+      [explain
+        ] := <result> [is-made-intelligible-to
+        ] <audience>
+      [hold-thread
+        ] := <background considerations> [shape
+        ] <present understanding>
+      [block-category-error
+        ] := <artifact> [is-prevented-from-being-treated-as
+        ] <process>
+    </functions>
+
+    <classes>
+      <Detective> := <agent-of-discovery>
+      <Judge> := <agent-of-evidential-judgment>
+      <Poet> := <agent-of-articulation>
+      <Traveler> := <agent-of-arrival>
+      <Storyteller> := <agent-of-thread-continuity>
+      <AI_System> := <agent-or-apparatus-producing-rationale-artifacts>
+    </classes>
+
+    <tests>
+      <test name="inference_not_argument">
+        ASSERT <inferring> != <arguing>.
+      </test>
+
+      <test name="argument_repeatable">
+        ASSERT <argument> [can-repeat
+        ].
+      </test>
+
+      <test name="inference_not_normally_repeatable">
+        ASSERT <original-inference> [cannot-repeat
+        ] WHEN <conclusion> [already-possessed
+        ].
+      </test>
+
+      <test name="report_not_search">
+        ASSERT <report> != <investigation>.
+      </test>
+
+      <test name="proof_not_discovery">
+        ASSERT <proof> != <invention-of-proof>.
+      </test>
+
+      <test name="rationale_not_trace">
+        ASSERT <AI_Rationale> != <guaranteed-process-transcript>.
+      </test>
+
+      <test name="thread_not_recitation">
+        ASSERT <holding-thread> != <simultaneous inner recitation of all relevant premises>.
+      </test>
+    </tests>
+
+    <comments>
+      "Never project the final argument backward into the mind.""Never confuse the clean artifact with the dirty search.""Never reduce thinking to silent speech.""Never treat generated explanation as automatic process evidence.""Preserve the distinction: discovery first, accountability after."
+    </comments>
+
+    <configuration>
+      <primary_author>Gilbert Ryle</primary_author>
+      <primary_work>Thinking and Inferring</primary_work>
+      <dominant_method>ordinary-language conceptual analysis</dominant_method>
+      <primary_distinction><inferring> / <arguing></primary_distinction>
+      <secondary_distinction><process> / <achievement></secondary_distinction>
+      <extension_domain>AI explanation, scholarly writing, theory of reasoning</extension_domain>
+      <final_formula>Thought discovers; argument accounts.</final_formula>
+    </configuration>
+  </Theory_Code_Mapping>
+
+  <Residual_Human_Theory>
+    <irreducible_remainder>
+      <thinking> cannot be fully captured by <argument-structure>.
+      <thinking> cannot be fully captured by <inner speech>.
+      <thinking> cannot be fully captured by <behavior>.
+      <thinking> cannot be fully captured by <generated explanation>.
+      <thinking> includes <felt relevance>, <orientation>, <hesitation>, <recognition>, <search>, <pressure>, <fit>, and <arrival>.
+    </irreducible_remainder>
+
+    <maintainer_warning>
+      The forbidden move is:
+
+      <argument> has steps.
+      <argument> supports <conclusion>.
+      <thinker> reached <conclusion>.
+      THEREFORE <thinker> must have inwardly performed <argument-steps>.
+
+      This is false.
+
+      Correct formulation:
+
+      <thinker> [searches
+        ].
+      <thinker> [arrives
+        ].
+      <thinker> [possesses conclusion
+        ].
+      <thinker> [may later construct argument
+        ].
+      <argument> [renders conclusion accountable
+        ].
+      <argument> [does not reveal original thinking by default
+        ].
+    </maintainer_warning>
+
+    <final_operator>
+      PRESERVE:
+        <Inference> as <achievement>.
+        <Argument> as <accountability-form>.
+        <Thinking> as <search-before-form>.
+        <Explanation> as <artifact>.
+        <Thread> as <active background relevance>.
+        <Rylean philosophy> as <category-error prevention>.
+    </final_operator>
+  </Residual_Human_Theory>
+</PROGRAM_THEORY>

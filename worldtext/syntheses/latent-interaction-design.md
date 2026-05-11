@@ -147,7 +147,7 @@ People want a pure position: either the machine is a mere instrument or it is a 
 
 Contact stains judgment, but it also ripens it.
 
-> **Cosmos anchor.** This is the [[conflict-abundance-vs-platform-realism]] from [[world-operative-ekphrasis]]: the tension between Wasielewski's critique of AI abundance as "unnatural images" (Wasielewski, 2024) and Meyer's platform realism that recognizes prompts as navigational acts within a pre-existing distribution (Meyer, 2024). The paper ([[syntheses/from-imagetext-to-worldtext-v2]]) resolves this through the [[distinction-seamless-exposed]]: the seamless path (hiding the medium) and the exposed path (revealing the process). The operative observer cannot take the seamless path. Contact — with its stains and its ripening — is the exposed path by definition.
+> **Cosmos anchor.** This is the [[conflict-abundance-vs-platform-realism]] from [[world-operative-ekphrasis]]: the tension between Wasielewski's critique of AI abundance as "unnatural images" (Wasielewski, 2024) and Meyer's platform realism that recognizes prompts as navigational acts within a pre-existing distribution (Meyer, 2024). The paper ([[from-imagetext-to-worldtext-v2]]) resolves this through the [[distinction-seamless-exposed]]: the seamless path (hiding the medium) and the exposed path (revealing the process). The operative observer cannot take the seamless path. Contact — with its stains and its ripening — is the exposed path by definition.
 
 ---
 
@@ -322,7 +322,7 @@ That is the operating rule:
 - Publish the traces
 - Retest after every update
 
-> **Cosmos anchor.** The encounter trace is the operative ethnography loop ([[world-operative-ethnography]], [[syntheses/operative-ethnography]]) formalized as research instrument: configure → encounter → trace → describe → recirculate. The trace IS the worldtext's smallest unit.
+> **Cosmos anchor.** The encounter trace is the operative ethnography loop ([[world-operative-ethnography]], [[operative-ethnography]]) formalized as research instrument: configure → encounter → trace → describe → recirculate. The trace IS the worldtext's smallest unit.
 
 ---
 
@@ -380,8 +380,8 @@ Or, for the one-liner:
 - [[world-oral-formulaic-generation]] — the Promptline's ancestor. Homer navigated by singing. The template is dead; the songline lives.
 - [[concept-viscosity]] — the material property that gives friction its physics. Without resistance, no learning.
 - [[concept-platform-realism]] — the hydrologic reality: navigation, not command. Meyer's insight as Arena physics.
-- [[syntheses/from-imagetext-to-worldtext-v2]] — the paper's method section. Latent Interaction Design is *how* the worldtext comes into being.
-- [[syntheses/operative-ethnography]] — the formal theory. This synthesis is the operational handbook.
+- [[from-imagetext-to-worldtext-v2]] — the paper's method section. Latent Interaction Design is *how* the worldtext comes into being.
+- [[operative-ethnography]] — the formal theory. This synthesis is the operational handbook.
 
 ---
 

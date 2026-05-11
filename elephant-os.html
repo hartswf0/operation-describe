@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ELEPHANT_OS // Blind Drawing Game</title>
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --text: #000000;
+    --border: #000000;
+    --active: #000000;
+    --active-text: #FFFFFF;
+    --font-mono: 'Courier New', Courier, monospace;
+    --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  * { box-sizing: border-box; margin: 0; padding: 0; touch-action: manipulation; }
+  
+  /* --- IFRAME / ARTIFACT FIX --- */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* ABSOLUTE NO SCROLL */
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+  }
+  
+  #app {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 100%;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-left: 4px solid var(--border);
+    border-right: 4px solid var(--border);
+  }
+  
+  /* --- HEADER & HUD --- */
+  header {
+    padding: 8px 12px;
+    background: var(--bg);
+    border-bottom: 4px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    flex-shrink: 0;
+  }
+  header h1 { font-family: var(--font-mono); font-size: 1.2rem; font-weight: 900; letter-spacing: -1px; text-transform: uppercase; margin: 0; display: flex; align-items: center; gap: 8px; }
+  .hud { display: flex; gap: 6px; }
+  .score-badge { background: var(--active); color: var(--active-text); font-weight: 900; padding: 4px 8px; font-family: var(--font-mono); font-size: 0.8rem; }
+  
+  .btn-icon { background: var(--bg); border: 2px solid var(--border); font-family: var(--font-mono); font-weight: 900; font-size: 1rem; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+  .btn-icon:active { background: var(--active); color: var(--active-text); }
+
+  /* --- A11Y --- */
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+  /* --- VIEWS --- */
+  .view {
+    flex: 1; display: none; flex-direction: column; position: relative;
+    background: var(--bg); min-height: 0; overflow: hidden;
+  }
+  .view.active { display: flex; }
+
+  /* --- TYPOGRAPHY --- */
+  .content-pad { padding: 12px; display: flex; flex-direction: column; gap: 8px; flex: 1; min-height: 0; overflow-y: auto; }
+  h2 { font-weight: 900; font-size: 1.3rem; letter-spacing: -1px; text-transform: uppercase; flex-shrink: 0; margin: 0; }
+  p { font-weight: 900; font-size: 0.85rem; line-height: 1.2; text-transform: uppercase; margin: 0; }
+  .mono-text { font-family: var(--font-mono); font-weight: 900; }
+
+  /* --- UI COMPONENTS --- */
+  button {
+    padding: 12px; border: 4px solid var(--border); background: var(--bg); color: var(--text);
+    font-size: 1.1rem; font-weight: 900; cursor: pointer; font-family: var(--font-mono); text-transform: uppercase;
+    display: flex; justify-content: center; align-items: center; flex-shrink: 0;
+  }
+  button:focus-visible { outline: 4px solid var(--active); outline-offset: -4px; }
+  button:active:not(:disabled) { background: var(--active); color: var(--active-text); }
+  button:disabled { opacity: 0.3; cursor: not-allowed; border-style: dashed; }
+  
+  .btn-primary { background: var(--active); color: var(--active-text); }
+  .btn-primary:active:not(:disabled) { background: var(--bg); color: var(--text); }
+  
+  input[type="text"] {
+    padding: 12px; border: 4px solid var(--border); background: var(--bg); color: var(--text);
+    font-size: 1.1rem; font-weight: 900; width: 100%; outline: none; font-family: var(--font-mono);
+    text-transform: uppercase; flex-shrink: 0; appearance: none; border-radius: 0;
+  }
+  input[type="text"]:focus { background: var(--active); color: var(--active-text); }
+
+  /* --- CAMERA & OVERLAYS --- */
+  #camera-container {
+    flex: 1; position: relative; border-bottom: 4px solid var(--border);
+    background: var(--active); min-height: 0; overflow: hidden;
+  }
+  video { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(100%) contrast(150%); }
+  
+  .solid-overlay {
+    position: absolute; inset: 0; background: var(--active); color: var(--active-text);
+    display: none; flex-direction: column; justify-content: center; align-items: center; z-index: 100; text-align: center; padding: 20px;
+  }
+  .solid-overlay h2 { color: var(--bg); margin-bottom: 12px; }
+  
+  /* Brutalist Loading Animation */
+  .brutal-spinner {
+    width: 40px; height: 40px;
+    background: var(--bg);
+    animation: brutal-blink 0.5s steps(2, start) infinite;
+    margin-bottom: 16px;
+  }
+  @keyframes brutal-blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+
+  /* --- DRAWING (ECHOLOCATION) --- */
+  #canvas-container { flex: 1; position: relative; touch-action: none; background: var(--bg); border-bottom: 4px solid var(--border); min-height: 0; overflow: hidden; }
+  canvas { width: 100%; height: 100%; display: block; cursor: crosshair; }
+  
+  .audio-controls { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; flex-shrink: 0; }
+  .audio-btn { font-size: 0.75rem; padding: 10px 4px; }
+  .audio-btn.playing { background: var(--active); color: var(--active-text); }
+
+  /* --- VISUAL CAPTIONS --- */
+  #visual-caption {
+    background: var(--active); color: var(--active-text); padding: 8px;
+    font-family: var(--font-mono); font-weight: 900; font-size: 0.9rem;
+    text-align: center; border-bottom: 4px solid var(--border);
+    min-height: 48px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+
+  /* --- RESOLUTION MATRIX & SCORECARD --- */
+  .res-layout { display: flex; flex-direction: column; flex: 1 1 0%; min-height: 0; }
+  .res-top { flex: 1 1 0%; display: flex; border-bottom: 4px solid var(--border); min-height: 0; }
+  .res-img-block { flex: 1 1 0%; position: relative; display: flex; flex-direction: column; border-right: 4px solid var(--border); min-height: 0; }
+  .res-img-block:last-child { border-right: none; }
+  .res-img-block img { flex: 1 1 0%; object-fit: contain; width: 100%; height: 100%; filter: grayscale(100%); min-height: 0; display: block; background: var(--bg); }
+  .res-label { background: var(--active); color: var(--active-text); padding: 4px 6px; font-family: var(--font-mono); font-weight: 900; font-size: 0.65rem; text-align: center; flex-shrink: 0; }
+  
+  .res-bottom { display: flex; flex-direction: column; flex: 0 0 auto; padding: 8px; gap: 4px; overflow-y: auto; }
+  .data-row { display: flex; justify-content: space-between; align-items: center; border: 4px solid var(--border); padding: 6px; flex-shrink: 0; }
+  .data-label { font-family: var(--font-mono); font-weight: 900; font-size: 0.75rem; flex-shrink: 0;}
+  .data-value { font-size: 0.9rem; font-weight: 900; text-transform: uppercase; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+  .score-btn { padding: 6px 10px; font-size: 0.8rem; margin-left: 6px; min-width: 90px; flex-shrink: 0;}
+
+  /* Scorecard specific */
+  .score-grid { display: grid; grid-template-columns: 1fr 2fr 1fr; border: 4px solid var(--border); margin-bottom: 8px; }
+  .score-hdr { background: var(--active); color: var(--active-text); font-family: var(--font-mono); font-size: 0.75rem; padding: 4px; font-weight: 900; text-align: center; }
+  .score-cell { padding: 6px; border-top: 2px solid var(--border); border-right: 2px solid var(--border); text-align: center; font-weight: 900; font-size: 0.85rem; display: flex; align-items: center; justify-content: center;}
+  .score-cell:last-child { border-right: none; }
+  
+  #final-rank { text-align: center; font-size: 1.5rem; color: var(--bg); background: var(--active); padding: 12px; margin-bottom: 12px; border: 4px solid var(--border); }
+
+  /* --- ARCHIVE --- */
+  .archive-item { border: 4px solid var(--border); margin-bottom: 12px; display: flex; flex-direction: column; flex-shrink: 0; }
+  .archive-header { background: var(--active); color: var(--active-text); padding: 6px; font-family: var(--font-mono); font-weight: 900; font-size: 0.75rem; display: flex; justify-content: space-between;}
+  .archive-body { padding: 8px; display: flex; flex-direction: column; gap: 4px; }
+
+  /* --- SVG STYLES & HOW-TO ICONS --- */
+  .brutalist-svg { width: 100%; height: auto; display: block; filter: grayscale(100%) contrast(200%); }
+
+  /* --- QUICKSTART CAROUSEL --- */
+  .qs-wrapper {
+    flex: 1; min-height: 0; display: flex; flex-direction: column; overflow: hidden;
+  }
+  .qs-slides {
+    flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0;
+  }
+  .qs-slide {
+    display: none; flex-direction: column; gap: 0;
+    flex: 1; min-height: 0; overflow-y: auto;
+  }
+  .qs-slide.active { display: flex; }
+  .qs-hero {
+    background: var(--active); color: var(--active-text);
+    padding: 20px 16px 16px;
+    border-bottom: 4px solid var(--border);
+    flex-shrink: 0;
+  }
+  .qs-hero .qs-label {
+    font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.15em;
+    opacity: 0.6; margin-bottom: 6px;
+  }
+  .qs-hero h2 {
+    font-size: 1.5rem; letter-spacing: -2px; line-height: 1;
+    color: var(--active-text); text-transform: uppercase;
+  }
+  .qs-hero p {
+    margin-top: 8px; font-size: 0.8rem; line-height: 1.4;
+    opacity: 0.85; text-transform: none; font-weight: 500;
+  }
+  .qs-body { padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .qs-row {
+    border: 3px solid var(--border); display: flex; gap: 0;
+    flex-shrink: 0;
+  }
+  .qs-row-label {
+    background: var(--active); color: var(--active-text);
+    font-family: var(--font-mono); font-size: 0.65rem; font-weight: 900;
+    writing-mode: vertical-lr; text-orientation: mixed; transform: rotate(180deg);
+    padding: 6px 4px; display: flex; align-items: center; justify-content: center;
+    letter-spacing: 0.1em; flex-shrink: 0;
+  }
+  .qs-row-content { padding: 8px 10px; flex: 1; }
+  .qs-row-content p { text-transform: none; font-size: 0.78rem; line-height: 1.35; font-weight: 700; }
+  .qs-row-content .triad {
+    font-family: var(--font-mono); font-size: 0.65rem; color: #555;
+    margin-top: 3px; letter-spacing: 0.05em;
+  }
+  .qs-persona-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 6px; flex-shrink: 0;
+  }
+  .qs-persona {
+    border: 3px solid var(--border); padding: 8px;
+    display: flex; flex-direction: column; gap: 3px;
+  }
+  .qs-persona-name {
+    font-family: var(--font-mono); font-size: 0.7rem; font-weight: 900;
+    text-transform: uppercase;
+  }
+  .qs-persona-triad {
+    font-family: var(--font-mono); font-size: 0.6rem; color: #555;
+  }
+  .qs-persona-desc { font-size: 0.68rem; font-weight: 700; text-transform: none; line-height: 1.25; color: #333; }
+  .qs-score-row {
+    border: 3px solid var(--border); display: flex; flex-shrink: 0;
+  }
+  .qs-score-cell {
+    flex: 1; padding: 10px 8px; border-right: 3px solid var(--border);
+    text-align: center; display: flex; flex-direction: column; gap: 4px;
+  }
+  .qs-score-cell:last-child { border-right: none; }
+  .qs-score-num {
+    font-family: var(--font-mono); font-size: 1.4rem; font-weight: 900; line-height: 1;
+  }
+  .qs-score-label { font-family: var(--font-mono); font-size: 0.55rem; opacity: 0.6; text-transform: uppercase; }
+  .qs-loop {
+    border: 3px solid var(--border); padding: 10px 12px; flex-shrink: 0;
+  }
+  .qs-loop-chain {
+    font-family: var(--font-mono); font-size: 0.68rem; font-weight: 900;
+    letter-spacing: 0.02em; line-height: 1.6; text-transform: uppercase;
+  }
+  .qs-loop-chain span { color: #000; }
+  .qs-loop-chain .arrow { opacity: 0.35; }
+  /* dots */
+  .qs-dots {
+    display: flex; gap: 6px; justify-content: center; align-items: center;
+    padding: 10px; flex-shrink: 0; border-top: 4px solid var(--border);
+    background: var(--bg);
+  }
+  .qs-dot {
+    width: 8px; height: 8px; border: 2px solid var(--border);
+    background: var(--bg); cursor: pointer;
+    transition: background 0.15s;
+  }
+  .qs-dot.active { background: var(--active); }
+  /* footer buttons */
+  .qs-footer {
+    padding: 10px 16px 14px; display: flex; gap: 8px; flex-shrink: 0;
+    border-top: 4px solid var(--border);
+  }
+  .qs-footer button { flex: 1; padding: 14px; font-size: 1rem; }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <header>
+    <h1><button id="btn-about" class="btn-icon" aria-label="About Elephant OS">?</button> ELEPHANT_OS</h1>
+    <div class="hud">
+      <div class="score-badge">RD:<span id="frame-display">1/3</span></div>
+      <div class="score-badge">PT:<span id="score-display">0</span></div>
+    </div>
+  </header>
+
+  <div id="a11y-announcer" class="sr-only" aria-live="assertive" role="status">READY.</div>
+
+  <!-- ABOUT MODAL -->
+  <div id="modal-about" class="solid-overlay">
+    <h2>ELEPHANT_OS</h2>
+    <div style="background:var(--bg); color:var(--text); border: 4px solid var(--border); text-align:left; width:100%; max-width: 400px; margin-bottom: 16px; overflow-y: auto; max-height: 55vh; padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+      <p style="font-family:var(--font-mono); font-size:0.6rem; opacity:0.5; text-transform:uppercase; letter-spacing:0.1em;">Operative Ekphrasis Reversed</p>
+      <p style="font-size:0.82rem; line-height:1.4; text-transform:none; font-weight:700;">In the standard AI pipeline, the human writes a prompt and the machine generates an image. The machine is substrate. The human is author.</p>
+      <p style="font-size:0.82rem; line-height:1.4; text-transform:none; font-weight:700;">ELEPHANT_OS reverses this. The machine describes. The human draws. The human becomes substrate. The machine becomes author.</p>
+      <p style="font-size:0.82rem; line-height:1.4; text-transform:none; font-weight:700;">Six disciplinary experts fracture the object: Ethnographer, Customs Agent, Auctioneer, Pathologist, Liturgist, Future Archaeologist. Each speaks in their own grammar. None reveals the whole truth.</p>
+      <p style="font-family:var(--font-mono); font-size:0.65rem; opacity:0.55; text-transform:none;">After Hartsoe & Bolter (2026). Thick Programming after Geertz (1973). Descriptive Ecology after Murdoch, Lloyd, Ryle.</p>
+      <button id="btn-clear-key" style="margin-top:8px; padding:8px; font-size:0.7rem; width:100%;">CLEAR API KEY</button>
+    </div>
+    <button id="btn-close-about" class="btn-primary" style="width:100%; max-width:400px;">RESUME PROTOCOL</button>
+  </div>
+
+  <!-- API KEY MODAL -->
+  <div id="modal-apikey" class="solid-overlay" style="display:none;">
+    <h2>API KEY REQUIRED</h2>
+    <div style="background:var(--bg); color:var(--text); border: 4px solid var(--border); text-align:left; width:100%; max-width: 400px; margin-bottom: 16px; padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+      <p style="font-size:0.78rem; line-height:1.35; text-transform:none; font-weight:700;">Paste your OpenAI API key below. It is stored only in your browser's localStorage — never sent anywhere except api.openai.com.</p>
+      <input type="password" id="input-apikey" placeholder="sk-..." autocomplete="off" style="padding:12px; border:4px solid var(--border); font-family:var(--font-mono); font-size:0.9rem; font-weight:900; width:100%; box-sizing:border-box;">
+      <p style="font-family:var(--font-mono); font-size:0.6rem; opacity:0.5;">Model: gpt-4o · Vision enabled · Key persists across sessions.</p>
+    </div>
+    <button id="btn-save-key" class="btn-primary" style="width:100%; max-width:400px;">SAVE KEY & START</button>
+  </div>
+
+  <!-- VIEW: HOME (QUICKSTART CAROUSEL) -->
+  <div id="view-home" class="view active" role="main">
+    <div class="qs-wrapper">
+      <div class="qs-slides" id="qs-slides">
+
+        <!-- SLIDE 1: THE REVERSAL -->
+        <div class="qs-slide active">
+          <div class="qs-hero">
+            <div class="qs-label">ELEPHANT_OS // OPERATIVE EKPHRASIS REVERSED</div>
+            <h2>The Machine Describes.<br>You Draw.</h2>
+            <p>In standard AI, you write prompts and the machine generates images. The machine is the substrate. You are the author.<br><br>ELEPHANT_OS flips this. A machine-vision model analyzes a hidden object and writes six fractured descriptions. You must synthesize them into a drawing—without ever seeing the original.</p>
+          </div>
+          <div class="qs-body">
+            <div class="qs-row">
+              <div class="qs-row-label">STANDARD AI</div>
+              <div class="qs-row-content">
+                <p>Human writes prompt → Machine generates image</p>
+                <p class="triad">HUMAN = AUTHOR // MACHINE = SUBSTRATE</p>
+              </div>
+            </div>
+            <div class="qs-row" style="background:var(--active); color:var(--active-text);">
+              <div class="qs-row-label" style="background:var(--bg); color:var(--text);">ELEPHANT_OS</div>
+              <div class="qs-row-content">
+                <p style="color:var(--active-text);">Machine describes object → Human draws from description</p>
+                <p class="triad" style="color:rgba(255,255,255,0.5);">MACHINE = AUTHOR // HUMAN = SUBSTRATE</p>
+              </div>
+            </div>
+            <div class="qs-row">
+              <div class="qs-row-label">THE LOOP</div>
+              <div class="qs-row-content">
+                <p>The drawing is fed back to the AI. If it guesses the original object, the translation loop survived. Ekphrasis is no longer innocent description—it is operation, substrate, and residue.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 2: THE SIX PERSONAS -->
+        <div class="qs-slide">
+          <div class="qs-hero">
+            <div class="qs-label">THE SIX BLIND EXPERTS</div>
+            <h2>Six Grammars.<br>One Object.</h2>
+            <p>The AI fractures its description across six strict disciplinary lenses. Each expert knows everything about their domain—and nothing outside it. There is no neutral description of the elephant.</p>
+          </div>
+          <div class="qs-body">
+            <div class="qs-persona-grid">
+              <div class="qs-persona">
+                <div class="qs-persona-name">Ethnographer</div>
+                <div class="qs-persona-triad">WHO / WHEN / ENABLES</div>
+                <div class="qs-persona-desc">Who uses it, in what moment, and what action does it make possible?</div>
+              </div>
+              <div class="qs-persona">
+                <div class="qs-persona-name">Customs Agent</div>
+                <div class="qs-persona-triad">CATEGORY / RESTRICT / MOVEMENT</div>
+                <div class="qs-persona-desc">How is it classified, what does it prohibit, and where can it travel?</div>
+              </div>
+              <div class="qs-persona">
+                <div class="qs-persona-name">Auctioneer</div>
+                <div class="qs-persona-triad">CONDITION / COMPARABLE / VALUE</div>
+                <div class="qs-persona-desc">What is its state, what does it compare to, and what is it worth?</div>
+              </div>
+              <div class="qs-persona">
+                <div class="qs-persona-name">Pathologist</div>
+                <div class="qs-persona-triad">COMPOSITION / FAILURE / ORIGIN</div>
+                <div class="qs-persona-desc">What is it made of, how does it fail, and where did it come from?</div>
+              </div>
+              <div class="qs-persona">
+                <div class="qs-persona-name">Liturgist</div>
+                <div class="qs-persona-triad">GESTURE / RITUAL / EXCLUSION</div>
+                <div class="qs-persona-desc">What bodily acts does it demand, what ceremony does it anchor, who is barred?</div>
+              </div>
+              <div class="qs-persona">
+                <div class="qs-persona-name">Future Archaeologist</div>
+                <div class="qs-persona-triad">TRACE / INFERENCE / HYPOTHESIS</div>
+                <div class="qs-persona-desc">What evidence does it leave, what can be deduced, what remains speculation?</div>
+              </div>
+            </div>
+            <div class="qs-row" style="margin-top: 4px;">
+              <div class="qs-row-label">RULE</div>
+              <div class="qs-row-content"><p>No persona will say the name of the object. You must draw from bias, not from facts.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SLIDE 3: GREED + LOOP -->
+        <div class="qs-slide">
+          <div class="qs-hero">
+            <div class="qs-label">EPISTEMIC GREED & THE CLOSED LOOP</div>
+            <h2>Every Clue<br>Costs a Point.</h2>
+            <p>You start with a base reward of 6. Each persona you listen to before drawing burns 1 point. Draw early—with fewer clues—to maximise your payout. The less you know, the more you earn.</p>
+          </div>
+          <div class="qs-body">
+            <div class="qs-score-row">
+              <div class="qs-score-cell">
+                <div class="qs-score-num">6</div>
+                <div class="qs-score-label">Base Reward</div>
+              </div>
+              <div class="qs-score-cell">
+                <div class="qs-score-num">−1</div>
+                <div class="qs-score-label">Per Clue Heard</div>
+              </div>
+              <div class="qs-score-cell">
+                <div class="qs-score-num">×2</div>
+                <div class="qs-score-label">If AI Guesses Right</div>
+              </div>
+              <div class="qs-score-cell">
+                <div class="qs-score-num">×1</div>
+                <div class="qs-score-label">If Human Guesses Right</div>
+              </div>
+            </div>
+            <div class="qs-loop">
+              <div class="qs-loop-chain">
+                <span>OP1 snaps photo</span><br>
+                <span class="arrow">↓</span><br>
+                <span>AI fractures into 6 descriptions</span><br>
+                <span class="arrow">↓</span><br>
+                <span>OP2 hears clues, draws blind</span><br>
+                <span class="arrow">↓</span><br>
+                <span>AI + friends guess the drawing</span><br>
+                <span class="arrow">↓</span><br>
+                <span>Truth is revealed. Points are banked.</span>
+              </div>
+            </div>
+            <div class="qs-row">
+              <div class="qs-row-label">YOU NEED</div>
+              <div class="qs-row-content"><p>Two people minimum. One to capture the object (OP1). One to draw blind (OP2). Hand the phone between roles.</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end qs-slides -->
+
+      <!-- DOTS -->
+      <div class="qs-dots">
+        <div class="qs-dot active" id="qs-dot-0"></div>
+        <div class="qs-dot" id="qs-dot-1"></div>
+        <div class="qs-dot" id="qs-dot-2"></div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="qs-footer">
+        <button id="btn-qs-prev" style="flex: 0 0 auto; padding: 14px 16px;">←</button>
+        <button id="btn-qs-next" class="btn-primary" style="flex: 1;">NEXT →</button>
+        <button id="btn-view-archive" style="flex: 0 0 auto; padding: 14px 10px; font-size: 0.75rem;">ARCHIVE</button>
+      </div>
+      <!-- Hidden start button for JS wiring -->
+      <button id="btn-start" class="sr-only" aria-hidden="true">START</button>
+    </div>
+  </div>
+
+  <!-- VIEW: PROBE (CAMERA) -->
+  <div id="view-probe" class="view" role="main">
+    <div id="camera-container">
+      <video id="camera-feed" autoplay playsinline muted aria-hidden="true"></video>
+      <div id="scan-overlay" class="solid-overlay" aria-hidden="true">
+        <div class="brutal-spinner"></div>
+        <h2>STUDYING...</h2>
+        <p class="mono-text">GENERATING PERSONAS</p>
+      </div>
+    </div>
+    <div class="content-pad" style="flex: none; padding: 12px;">
+      <button id="btn-scan" class="btn-primary">SNAP PHOTO</button>
+    </div>
+  </div>
+
+  <!-- VIEW: DEFINE TARGET (OP1) -->
+  <div id="view-define" class="view" role="main">
+    <div class="res-layout">
+      <!-- Image explicitly commanded to shrink if necessary -->
+      <div class="res-img-block" style="border-right: none; border-bottom: 4px solid var(--border);">
+        <div class="res-label">THE REAL THING</div>
+        <img id="define-photo-preview" src="">
+      </div>
+      <!-- Controls explicitly commanded to never shrink -->
+      <div class="content-pad" style="flex: 0 0 auto; justify-content: center; padding-bottom: 24px; overflow-y: visible;">
+        <h2>LOCK IN ANSWER</h2>
+        <p style="font-size: 0.8rem;">TYPE WHAT THIS IS BEFORE YOU PASS.</p>
+        <input type="text" id="input-define-target" placeholder="WHAT IS IT?" autocomplete="off" style="margin-top: 8px;">
+        <button id="btn-lock-target" class="btn-primary" style="margin-top: 8px;">LOCK & PASS</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIEW: DRAW (COMPETING CHANNELS) -->
+  <div id="view-draw" class="view" role="main">
+    <div id="visual-caption" aria-hidden="true">OP2: DO NOT LOOK AT TARGET.</div>
+    <div class="content-pad" style="flex: 0 0 auto; padding-bottom: 8px;">
+      
+      <div style="display: flex; justify-content: space-between; border: 3px solid var(--border); padding: 6px 8px; margin-bottom: 4px; background: var(--active); color: var(--active-text);">
+        <span style="font-family: var(--font-mono); font-weight: 900; font-size: 0.8rem;">PERSONAS USED: <span id="clues-used-display">0</span>/6</span>
+        <span style="font-family: var(--font-mono); font-weight: 900; font-size: 0.8rem;">REWARD BASE: <span id="reward-display">6</span></span>
+      </div>
+
+      <div class="audio-controls" role="group" style="grid-template-columns: 1fr 1fr; gap: 4px;">
+        <button class="audio-btn" data-index="0">1. ETHNOGRAPHER</button>
+        <button class="audio-btn" data-index="1">2. CUSTOMS AGENT</button>
+        <button class="audio-btn" data-index="2">3. AUCTIONEER</button>
+        <button class="audio-btn" data-index="3">4. PATHOLOGIST</button>
+        <button class="audio-btn" data-index="4">5. LITURGIST</button>
+        <button class="audio-btn" data-index="5">6. ARCHAEOLOGIST</button>
+      </div>
+    </div>
+    <div id="canvas-container" style="flex: 1 1 0%; min-height: 0;">
+      <div class="sr-only">Drawing Canvas Active.</div>
+      <canvas id="drawing-canvas"></canvas>
+      <div id="draw-overlay" class="solid-overlay">
+        <div class="brutal-spinner"></div>
+        <h2>WAIT...</h2>
+        <p class="mono-text">AI IS OBSERVING</p>
+      </div>
+    </div>
+    <div class="content-pad" style="flex: 0 0 auto; padding-bottom: 20px; flex-direction: row; gap: 8px;">
+      <button id="btn-undo-drawing" style="flex: 1; font-size: 1rem; padding: 10px;">UNDO</button>
+      <button id="btn-done-drawing" class="btn-primary" style="flex: 2; font-size: 1rem; padding: 10px;">DONE</button>
+    </div>
+  </div>
+
+  <!-- VIEW: GUESS -->
+  <div id="view-guess" class="view" role="main">
+    <div class="res-layout">
+      <div class="content-pad" style="flex: 0 0 auto; justify-content: center; padding-bottom: 8px;">
+        <h2>GUESS</h2>
+        <p style="font-size: 0.8rem;">WHAT WAS THE ORIGINAL OBJECT?</p>
+      </div>
+      
+      <!-- Image explicitly commanded to shrink if necessary -->
+      <div class="res-img-block" style="border-right: none; border-top: 4px solid var(--border); border-bottom: 4px solid var(--border);">
+        <img id="guess-drawing-preview" src="">
+      </div>
+
+      <!-- Controls explicitly commanded to never shrink -->
+      <div class="content-pad" style="flex: 0 0 auto; justify-content: center; padding-top: 16px; padding-bottom: 24px; overflow-y: visible;">
+        <input type="text" id="input-guess" placeholder="WHAT IS IT?" autocomplete="off">
+        <button id="btn-submit-guess" class="btn-primary" style="margin-top: 8px;">SUBMIT GUESS</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIEW: REVEAL & SCORING -->
+  <div id="view-reveal" class="view" role="main">
+    <div class="res-layout">
+      <div class="res-top">
+        <div class="res-img-block" style="flex: 1.2;">
+          <div class="res-label">THE REAL THING</div>
+          <img id="reveal-photo" src="">
+        </div>
+        <div class="res-img-block" style="flex: 1;">
+          <div class="res-label">THE DRAWING</div>
+          <img id="reveal-drawing" src="">
+        </div>
+      </div>
+
+      <div class="res-bottom">
+        <div id="scoring-section" style="display:flex; flex-direction:column; gap:4px;">
+          <div class="data-row" style="background: var(--active); color: var(--active-text);">
+            <span class="data-label">REAL:</span>
+            <span class="data-value" id="reveal-target-def">...</span>
+          </div>
+          
+          <div class="data-row">
+            <div style="display:flex; flex-direction:column; flex: 1; min-width: 0;">
+              <span class="data-label">AI GUESSED:</span>
+              <span class="data-value" id="reveal-ai-guess">...</span>
+            </div>
+            <button id="btn-score-ai" class="score-btn btn-primary">RIGHT (+?)</button>
+          </div>
+          
+          <div class="data-row">
+            <div style="display:flex; flex-direction:column; flex: 1; min-width: 0;">
+              <span class="data-label">FRIEND GUESSED:</span>
+              <span class="data-value" id="reveal-human-guess">...</span>
+            </div>
+            <button id="btn-score-human" class="score-btn btn-primary">RIGHT (+?)</button>
+          </div>
+
+          <div style="display: flex; gap: 4px; margin-top: 4px;">
+            <button id="btn-export-round-receipt" style="flex: 1; padding: 10px; font-size: 0.8rem;">SAVE RECEIPT</button>
+            <button id="btn-next-frame" class="btn-primary" style="flex: 1; padding: 10px; font-size: 0.8rem;">NEXT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIEW: FINAL SCORECARD / RECEIPT -->
+  <div id="view-scorecard" class="view" role="main">
+    <div class="content-pad" style="overflow-y: auto;">
+      <h2>GAME OVER</h2>
+      <h3 id="final-rank"></h3>
+      
+      <div class="score-grid" id="score-matrix" style="margin-top: 8px;">
+        <!-- Injected via JS -->
+      </div>
+      
+      <div class="data-row" style="background: var(--active); color: var(--active-text); margin-bottom: 8px;">
+        <span class="data-label">TOTAL SCORE:</span>
+        <span class="data-value" id="receipt-total-score">0</span>
+      </div>
+    </div>
+    
+    <div style="padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; border-top: 4px solid var(--border);">
+      <div style="display: flex; gap: 8px;">
+        <button id="btn-export-receipt" class="btn-primary" style="flex: 1; padding: 12px; font-size: 0.9rem;">SAVE (PNG)</button>
+        <button id="btn-share-receipt" class="btn-primary" style="flex: 1; padding: 12px; font-size: 0.9rem;">SHARE</button>
+      </div>
+      <button id="btn-restart" style="padding: 12px;">PLAY AGAIN</button>
+    </div>
+  </div>
+
+  <!-- VIEW: ARCHIVE -->
+  <div id="view-archive" class="view" role="main">
+    <div class="content-pad" style="padding-bottom: 0;">
+      <h2>PAST GAMES</h2>
+      <div id="archive-list" style="display: flex; flex-direction: column; overflow-y: auto; flex: 1; margin-top: 8px; gap: 12px;"></div>
+    </div>
+    
+    <div style="padding: 12px 16px; flex-shrink: 0; border-top: 4px solid var(--border);">
+      <button id="btn-archive-home" class="btn-primary" style="width: 100%; padding: 12px;">GO BACK</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ==========================================
+// QUICKSTART CAROUSEL
+// ==========================================
+let qsCurrent = 0;
+const QS_TOTAL = 3;
+const qsSlides = document.querySelectorAll('.qs-slide');
+const qsNextBtn = document.getElementById('btn-qs-next');
+const qsPrevBtn = document.getElementById('btn-qs-prev');
+const qsDots = document.querySelectorAll('.qs-dot');
+
+function qsGoTo(idx) {
+  if (idx < 0 || idx >= QS_TOTAL) return;
+  qsCurrent = idx;
+  qsSlides.forEach((s, i) => s.classList.toggle('active', i === idx));
+  qsDots.forEach((d, i) => d.classList.toggle('active', i === idx));
+  qsPrevBtn.style.opacity = idx === 0 ? '0.25' : '1';
+  qsPrevBtn.disabled = idx === 0;
+  if (idx === QS_TOTAL - 1) {
+    qsNextBtn.innerText = 'START CAMERA →';
+  } else {
+    qsNextBtn.innerText = 'NEXT →';
+  }
+}
+
+qsNextBtn.addEventListener('click', () => {
+  if (qsCurrent < QS_TOTAL - 1) {
+    qsGoTo(qsCurrent + 1);
+  } else {
+    document.getElementById('btn-start').click();
+  }
+});
+
+qsPrevBtn.addEventListener('click', () => qsGoTo(qsCurrent - 1));
+qsDots.forEach((dot, i) => dot.addEventListener('click', () => qsGoTo(i)));
+
+// Touch swipe on carousel
+(function() {
+  const wrapper = document.querySelector('.qs-slides');
+  let startX = 0;
+  wrapper.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+  wrapper.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 50) qsGoTo(qsCurrent + (dx < 0 ? 1 : -1));
+  }, { passive: true });
+})();
+
+qsGoTo(0);
+
+// ==========================================
+// CONFIGURATION & GLOBAL STATE
+
+// ==========================================
+let API_KEY = localStorage.getItem('elephant_api_key') || "";
+const MODEL_NAME = "gpt-4o";
+const OPENAI_URL = "https://api.openai.com/v1/chat/completions";
+
+// --- API KEY GATE ---
+const modalApiKey = document.getElementById('modal-apikey');
+const inputApiKey = document.getElementById('input-apikey');
+const btnSaveKey = document.getElementById('btn-save-key');
+const btnClearKey = document.getElementById('btn-clear-key');
+
+function requireApiKey(onSuccess) {
+  if (API_KEY && API_KEY.startsWith('sk-')) {
+    onSuccess();
+    return;
+  }
+  modalApiKey.style.display = 'flex';
+  btnSaveKey.onclick = () => {
+    const k = inputApiKey.value.trim();
+    if (!k) { alert('KEY REQUIRED.'); return; }
+    API_KEY = k;
+    localStorage.setItem('elephant_api_key', k);
+    modalApiKey.style.display = 'none';
+    onSuccess();
+  };
+}
+
+btnClearKey.addEventListener('click', () => {
+  localStorage.removeItem('elephant_api_key');
+  API_KEY = '';
+  alert('API KEY CLEARED.');
+});
+
+const PROMPT_FRACTURE = `Look at this image. Write EXACTLY SIX short descriptions of it from six completely different perspectives.
+1 (Ethnographer): Describe its social use, temporal context, and the agency it enables (WHO / WHEN / ENABLES).
+2 (Customs Agent): Describe its classification, prohibitions, and movement restrictions (CATEGORY / RESTRICT / MOVEMENT).
+3 (Auctioneer): Describe its state, market position, and comparative worth (CONDITION / COMPARABLE / VALUE).
+4 (Pathologist): Describe its material composition, mode of failure, and provenance (COMPOSITION / FAILURE / ORIGIN).
+5 (Liturgist): Describe the bodily practices, ceremonies, and taboos associated with it (GESTURE / RITUAL / EXCLUSION).
+6 (Future Archaeologist): Describe it as evidence, making deductions and speculations about its past (TRACE / INFERENCE / HYPOTHESIS).
+CRITICAL RULE: Do NOT say the name of the object directly in ANY description. Keep it a mystery!
+Separate the EXACTLY SIX clues with a "|" character. Make them short.`;
+
+const PROMPT_SECOND_ORDER = `You are observing a sketch. Based ONLY on this sketch, identify the object. Reply with exactly one word or short phrase. Be blunt.`;
+
+const MAX_FRAMES = 3;
+
+const State = {
+  score: parseInt(localStorage.getItem('elephant_score') || '0'),
+  currentFrame: parseInt(localStorage.getItem('elephant_frame') || '1'),
+  frames: JSON.parse(localStorage.getItem('elephant_frames') || '[]'),
+  archive: JSON.parse(localStorage.getItem('elephant_archive') || '[]'),
+  currentRound: null, 
+  cameraStream: null
+};
+
+function saveState() {
+  localStorage.setItem('elephant_score', State.score);
+  localStorage.setItem('elephant_frame', State.currentFrame);
+  localStorage.setItem('elephant_frames', JSON.stringify(State.frames));
+  localStorage.setItem('elephant_archive', JSON.stringify(State.archive));
+}
+
+function initRoundState() {
+  State.currentRound = {
+    targetName: "",
+    photoBase64: null,
+    descriptions: Array(6).fill(""),
+    drawingBase64: null,
+    humanGuess: "",
+    aiGuess: "",
+    aiPts: 0,
+    humanPts: 0,
+    playedClues: [],
+    cluesUsed: 0
+  };
+}
+
+const DOM = {
+  views: document.querySelectorAll('.view'),
+  announcer: document.getElementById('a11y-announcer'),
+  scoreDisplay: document.getElementById('score-display'),
+  frameDisplay: document.getElementById('frame-display'),
+  captionBox: document.getElementById('visual-caption'),
+  
+  btnAbout: document.getElementById('btn-about'),
+  modalAbout: document.getElementById('modal-about'),
+  btnCloseAbout: document.getElementById('btn-close-about'),
+
+  btnStart: document.getElementById('btn-start'),
+  btnViewArchive: document.getElementById('btn-view-archive'),
+  
+  video: document.getElementById('camera-feed'),
+  btnScan: document.getElementById('btn-scan'),
+  scanOverlay: document.getElementById('scan-overlay'),
+  
+  definePhotoPreview: document.getElementById('define-photo-preview'),
+  inputDefineTarget: document.getElementById('input-define-target'),
+  btnLockTarget: document.getElementById('btn-lock-target'),
+
+  cluesUsedDisplay: document.getElementById('clues-used-display'),
+  rewardDisplay: document.getElementById('reward-display'),
+  audioBtns: document.querySelectorAll('.audio-btn'),
+  canvas: document.getElementById('drawing-canvas'),
+  btnUndoDrawing: document.getElementById('btn-undo-drawing'),
+  btnDoneDrawing: document.getElementById('btn-done-drawing'),
+  drawOverlay: document.getElementById('draw-overlay'),
+  
+  guessDrawingPreview: document.getElementById('guess-drawing-preview'),
+  inputGuess: document.getElementById('input-guess'),
+  btnSubmitGuess: document.getElementById('btn-submit-guess'),
+  
+  revealTargetDef: document.getElementById('reveal-target-def'),
+  revealPhoto: document.getElementById('reveal-photo'),
+  revealDrawing: document.getElementById('reveal-drawing'),
+  revealAiGuess: document.getElementById('reveal-ai-guess'),
+  revealHumanGuess: document.getElementById('reveal-human-guess'),
+  btnScoreAi: document.getElementById('btn-score-ai'),
+  btnScoreHuman: document.getElementById('btn-score-human'),
+  btnExportRoundReceipt: document.getElementById('btn-export-round-receipt'),
+  btnNextFrame: document.getElementById('btn-next-frame'),
+
+  finalRank: document.getElementById('final-rank'),
+  scoreMatrix: document.getElementById('score-matrix'),
+  receiptTotalScore: document.getElementById('receipt-total-score'),
+  btnExportReceipt: document.getElementById('btn-export-receipt'),
+  btnShareReceipt: document.getElementById('btn-share-receipt'),
+  btnRestart: document.getElementById('btn-restart'),
+
+  btnArchiveHome: document.getElementById('btn-archive-home'),
+  archiveList: document.getElementById('archive-list')
+};
+
+// ==========================================
+// API WRAPPER (EXPONENTIAL BACKOFF)
+// ==========================================
+async function fetchWithBackoff(url, options, maxRetries = 5) {
+  const delays = [1000, 2000, 4000, 8000, 16000];
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      const response = await fetch(url, options);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } catch (err) {
+      if (i === maxRetries - 1) throw err;
+      await new Promise(r => setTimeout(r, delays[i]));
+    }
+  }
+}
+
+// ==========================================
+// A11Y & VISUAL CAPTIONS & MODAL
+// ==========================================
+function updateHUD() {
+  DOM.scoreDisplay.innerText = State.score;
+  DOM.frameDisplay.innerText = `${State.currentFrame}/${MAX_FRAMES}`;
+}
+updateHUD();
+
+function announce(text, updateCaption = false) {
+  DOM.announcer.innerText = text;
+  if (updateCaption) DOM.captionBox.innerText = text.toUpperCase();
+}
+
+function speakAudio(text, onEndCallback) {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.rate = 1.0; utterance.pitch = 0.5;
+    
+    utterance.onstart = () => { announce(text, true); };
+    utterance.onend = () => { 
+      DOM.captionBox.innerText = "OP2: DO NOT LOOK AT TARGET.";
+      if (onEndCallback) onEndCallback(); 
+    };
+    window.speechSynthesis.speak(utterance);
+  } else {
+    announce(text, true);
+    setTimeout(() => {
+      DOM.captionBox.innerText = "OP2: DO NOT LOOK AT TARGET.";
+      if(onEndCallback) onEndCallback();
+    }, 4000);
+  }
+}
+
+DOM.btnAbout.addEventListener('click', () => { DOM.modalAbout.style.display = 'flex'; });
+DOM.btnCloseAbout.addEventListener('click', () => { DOM.modalAbout.style.display = 'none'; });
+
+// ==========================================
+// ECHOLOCATION ENGINE
+// ==========================================
+class EchoSynth {
+  constructor() {
+    this.ctx = null; this.pingOsc = null; this.pingGain = null;
+    this.panner = null; this.filter = null; this.lastPingTime = 0; this.isActive = false;
+  }
+  init() {
+    if (this.ctx) return;
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    this.ctx = new AudioContext();
+
+    this.pingOsc = this.ctx.createOscillator(); this.pingOsc.type = 'triangle';
+    this.filter = this.ctx.createBiquadFilter(); this.filter.type = 'lowpass';
+    
+    if (this.ctx.createStereoPanner) this.panner = this.ctx.createStereoPanner();
+    else this.panner = this.ctx.createGain();
+
+    this.pingGain = this.ctx.createGain(); this.pingGain.gain.value = 0;
+    this.pingOsc.connect(this.filter); this.filter.connect(this.panner);
+    if (this.panner.connect) this.panner.connect(this.pingGain);
+    this.pingGain.connect(this.ctx.destination); this.pingOsc.start();
+  }
+  activate() {
+    if (!this.ctx) this.init();
+    if (this.ctx.state === 'suspended') this.ctx.resume();
+    this.isActive = true;
+  }
+  triggerPing(xRatio, yRatio, speed) {
+    if (!this.isActive || !this.ctx) return;
+    const now = this.ctx.currentTime;
+    const interval = Math.max(0.05, 0.3 - (speed * 0.01));
+    if (now - this.lastPingTime < interval) return;
+    this.lastPingTime = now;
+
+    if (this.panner.pan) this.panner.pan.setTargetAtTime((xRatio * 2) - 1, now, 0.01);
+    this.filter.frequency.setTargetAtTime(200 + ((1 - yRatio) * 3000), now, 0.01);
+    
+    const scale = [261.63, 293.66, 329.63, 392.00, 440.00];
+    this.pingOsc.frequency.setValueAtTime(scale[Math.floor(Math.random() * scale.length)], now);
+
+    this.pingGain.gain.cancelScheduledValues(now);
+    this.pingGain.gain.setValueAtTime(0, now);
+    this.pingGain.gain.linearRampToValueAtTime(0.3, now + 0.02);
+    this.pingGain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+    
+    if (navigator.vibrate) navigator.vibrate(10);
+  }
+  deactivate() { this.isActive = false; }
+}
+const AudioEngine = new EchoSynth();
+
+// ==========================================
+// WORKFLOW
+// ==========================================
+function navigateTo(viewId) {
+  DOM.views.forEach(v => v.classList.remove('active'));
+  document.getElementById(viewId).classList.add('active');
+  
+  if (viewId === 'view-draw') { 
+    AudioEngine.init(); 
+    initCanvas(); 
+    updateRewardDisplay();
+  }
+  if (viewId !== 'view-probe' && State.cameraStream) {
+    State.cameraStream.getTracks().forEach(t => t.stop());
+    State.cameraStream = null;
+  }
+}
+
+// --- INIT ---
+DOM.btnStart.addEventListener('click', () => {
+  requireApiKey(async () => {
+    initRoundState();
+    try {
+      State.cameraStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+      DOM.video.srcObject = State.cameraStream;
+      navigateTo('view-probe');
+      announce("CAMERA ON.");
+    } catch (err) { 
+      alert("CAMERA FAULT. CHECK PERMISSIONS AND RETRY."); 
+      announce("CAMERA FAULT.");
+    }
+  });
+});
+
+// --- CAPTURE & FRACTURE ---
+DOM.btnScan.addEventListener('click', async () => {
+  if (!State.cameraStream) return;
+  DOM.btnScan.disabled = true; DOM.scanOverlay.style.display = 'flex';
+  announce("PROCESSING IMAGE.");
+  
+  await new Promise(resolve => setTimeout(resolve, 50));
+
+  const captureCanvas = document.createElement('canvas');
+  captureCanvas.width = DOM.video.videoWidth; captureCanvas.height = DOM.video.videoHeight;
+  const ctx = captureCanvas.getContext('2d');
+  ctx.filter = 'grayscale(100%) contrast(150%)'; 
+  ctx.drawImage(DOM.video, 0, 0);
+  State.currentRound.photoBase64 = captureCanvas.toDataURL('image/jpeg', 0.8);
+  const base64Data = State.currentRound.photoBase64.split(',')[1];
+  try {
+    const payload = {
+      model: MODEL_NAME,
+      max_tokens: 512,
+      messages: [{
+        role: "user",
+        content: [
+          { type: "text", text: PROMPT_FRACTURE },
+          { type: "image_url", image_url: { url: `data:image/jpeg;base64,${base64Data}`, detail: "low" } }
+        ]
+      }]
+    };
+    const data = await fetchWithBackoff(OPENAI_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Authorization": `Bearer ${API_KEY}` },
+      body: JSON.stringify(payload)
+    });
+
+    let parts = (data.choices?.[0]?.message?.content || "").split('|').map(s => s.trim());
+    if (parts.length < 6) { throw new Error("Fracture Failure"); }
+
+    State.currentRound.descriptions = parts.slice(0, 6);
+    DOM.definePhotoPreview.src = State.currentRound.photoBase64;
+    DOM.inputDefineTarget.value = '';
+    navigateTo('view-define');
+    announce("IMAGE SAVED. TYPE WHAT IT IS.", true);
+  } catch (error) {
+    // Fallback if AI fails or returns fewer than 6 parts
+    State.currentRound.descriptions = [
+      "Used primarily by middle managers during the late Anthropocene to assert localized dominance.",
+      "Classified under Schedule IV non-hazardous transit goods; export restricted to terrestrial zones.",
+      "Fair condition, minor surface abrasions. Estimated market yield: highly volatile.",
+      "Constructed of injection-molded polymers. Structural failure typically occurs at the primary hinge.",
+      "Must only be approached with the right hand. Speaking its name during operation is strictly forbidden.",
+      "Soil deposits suggest it was held close to the face, perhaps as an idol of communication."
+    ];
+    DOM.definePhotoPreview.src = State.currentRound.photoBase64;
+    DOM.inputDefineTarget.value = '';
+    navigateTo('view-define');
+    announce("API FAULT. USING FALLBACK CLUES.", true);
+  } finally {
+    DOM.scanOverlay.style.display = 'none'; DOM.btnScan.disabled = false;
+  }
+});
+
+// --- LOCK TARGET ---
+DOM.btnLockTarget.addEventListener('click', () => {
+  const tName = DOM.inputDefineTarget.value.trim();
+  if (!tName) return alert("TYPE WHAT IT IS FIRST.");
+  
+  State.currentRound.targetName = tName;
+  navigateTo('view-draw');
+  announce("PASS THE PHONE.", true);
+});
+
+// --- AUDIO CONTROLS & GREED MECHANIC ---
+function updateRewardDisplay() {
+  const base = Math.max(1, 7 - Math.max(1, State.currentRound.cluesUsed));
+  DOM.cluesUsedDisplay.innerText = State.currentRound.cluesUsed;
+  DOM.rewardDisplay.innerText = base;
+}
+
+DOM.audioBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const index = parseInt(btn.getAttribute('data-index'));
+    
+    if (!State.currentRound.playedClues.includes(index)) {
+      State.currentRound.playedClues.push(index);
+      State.currentRound.cluesUsed++;
+      updateRewardDisplay();
+    }
+    
+    DOM.audioBtns.forEach(b => b.classList.remove('playing'));
+    btn.classList.add('playing');
+    speakAudio(State.currentRound.descriptions[index], () => { btn.classList.remove('playing'); });
+  });
+});
+
+// --- CANVAS & UNDO ENGINE ---
+let drawCtx, isDrawing = false, lastPt = { x: 0, y: 0, time: 0 };
+let strokeHistory = [];
+
+function saveCanvasState() {
+  strokeHistory.push(DOM.canvas.toDataURL('image/png'));
+  if(strokeHistory.length > 20) strokeHistory.shift();
+}
+
+function initCanvas() {
+  const container = DOM.canvas.parentElement;
+  DOM.canvas.width = container.clientWidth; DOM.canvas.height = container.clientHeight;
+  drawCtx = DOM.canvas.getContext('2d');
+  drawCtx.fillStyle = '#FFFFFF'; drawCtx.fillRect(0, 0, DOM.canvas.width, DOM.canvas.height);
+  drawCtx.strokeStyle = '#000000'; drawCtx.lineWidth = 10; drawCtx.lineCap = 'square';
+  
+  strokeHistory = [];
+  saveCanvasState();
+
+  const start = (e) => { e.preventDefault(); isDrawing = true; lastPt = getPointerPos(e); drawCtx.beginPath(); drawCtx.moveTo(lastPt.x, lastPt.y); AudioEngine.activate(); };
+  const move = (e) => {
+    if(!isDrawing) return; e.preventDefault(); const pt = getPointerPos(e);
+    drawCtx.lineTo(pt.x, pt.y); drawCtx.stroke();
+    const dt = pt.time - lastPt.time;
+    const speed = dt > 0 ? Math.sqrt((pt.x-lastPt.x)**2 + (pt.y-lastPt.y)**2) / dt : 0;
+    AudioEngine.triggerPing(pt.x / DOM.canvas.width, pt.y / DOM.canvas.height, speed);
+    lastPt = pt;
+  };
+  const end = () => { 
+    if(!isDrawing) return; 
+    isDrawing = false; drawCtx.closePath(); AudioEngine.deactivate(); 
+    saveCanvasState();
+  };
+  
+  DOM.canvas.onmousedown = start; DOM.canvas.onmousemove = move; DOM.canvas.onmouseup = end; DOM.canvas.onmouseout = end;
+  DOM.canvas.addEventListener('touchstart', start, {passive: false}); DOM.canvas.addEventListener('touchmove', move, {passive: false}); DOM.canvas.addEventListener('touchend', end);
+}
+
+function getPointerPos(e) {
+  const r = DOM.canvas.getBoundingClientRect();
+  const cX = e.touches ? e.touches[0].clientX : e.clientX;
+  const cY = e.touches ? e.touches[0].clientY : e.clientY;
+  return { x: cX - r.left, y: cY - r.top, time: Date.now() };
+}
+
+DOM.btnUndoDrawing.addEventListener('click', () => {
+  if(strokeHistory.length > 1) {
+    strokeHistory.pop();
+    const img = new Image();
+    img.onload = () => {
+      drawCtx.clearRect(0,0,DOM.canvas.width, DOM.canvas.height);
+      drawCtx.drawImage(img, 0, 0);
+    };
+    img.src = strokeHistory[strokeHistory.length-1];
+  }
+});
+
+// --- TRANSMIT STROKES (SECOND ORDER) ---
+DOM.btnDoneDrawing.addEventListener('click', async () => {
+  window.speechSynthesis.cancel(); AudioEngine.deactivate();
+  State.currentRound.drawingBase64 = DOM.canvas.toDataURL('image/jpeg', 1.0);
+  DOM.btnDoneDrawing.disabled = true; DOM.drawOverlay.style.display = 'flex';
+  
+  await new Promise(r => setTimeout(r, 50));
+  
+  try {
+    const drawBase64 = State.currentRound.drawingBase64.split(',')[1];
+    const payload = {
+      model: MODEL_NAME,
+      max_tokens: 32,
+      messages: [{
+        role: "user",
+        content: [
+          { type: "text", text: PROMPT_SECOND_ORDER },
+          { type: "image_url", image_url: { url: `data:image/jpeg;base64,${drawBase64}`, detail: "low" } }
+        ]
+      }]
+    };
+    const data = await fetchWithBackoff(OPENAI_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Authorization": `Bearer ${API_KEY}` },
+      body: JSON.stringify(payload)
+    });
+    State.currentRound.aiGuess = data.choices?.[0]?.message?.content || "UNKNOWN";
+  } catch (error) { State.currentRound.aiGuess = "ERROR"; } 
+  finally {
+    DOM.drawOverlay.style.display = 'none'; DOM.btnDoneDrawing.disabled = false;
+    DOM.inputGuess.value = ''; 
+    DOM.guessDrawingPreview.src = State.currentRound.drawingBase64;
+    navigateTo('view-guess'); announce("TIME TO GUESS.");
+  }
+});
+
+// --- OBSERVER INPUT & REVEAL ---
+DOM.btnSubmitGuess.addEventListener('click', () => {
+  const guess = DOM.inputGuess.value.trim();
+  if (!guess) return alert("INPUT REQUIRED");
+  State.currentRound.humanGuess = guess;
+  
+  DOM.revealPhoto.src = State.currentRound.photoBase64;
+  DOM.revealDrawing.src = State.currentRound.drawingBase64;
+  DOM.revealTargetDef.innerText = State.currentRound.targetName.toUpperCase();
+  DOM.revealAiGuess.innerText = State.currentRound.aiGuess.toUpperCase();
+  DOM.revealHumanGuess.innerText = guess.toUpperCase();
+  
+  const base = Math.max(1, 7 - Math.max(1, State.currentRound.cluesUsed));
+  const aiValue = base * 2;
+  const humanValue = base * 1;
+  
+  DOM.btnScoreAi.disabled = false; DOM.btnScoreAi.innerText = `RIGHT (+${aiValue})`;
+  DOM.btnScoreHuman.disabled = false; DOM.btnScoreHuman.innerText = `RIGHT (+${humanValue})`;
+
+  if (State.currentFrame >= MAX_FRAMES) {
+    DOM.btnNextFrame.innerText = "FINISH GAME";
+  } else {
+    DOM.btnNextFrame.innerText = "NEXT ROUND";
+  }
+
+  navigateTo('view-reveal');
+  announce("SEE WHO WAS RIGHT.");
+});
+
+// --- SCORING LOGIC ---
+DOM.btnScoreAi.addEventListener('click', () => {
+  if (State.currentRound.aiPts > 0) return;
+  const base = Math.max(1, 7 - Math.max(1, State.currentRound.cluesUsed));
+  const pts = base * 2;
+  State.currentRound.aiPts = pts; State.score += pts; saveState(); updateHUD();
+  DOM.btnScoreAi.disabled = true; DOM.btnScoreAi.innerText = "SCORED";
+});
+
+DOM.btnScoreHuman.addEventListener('click', () => {
+  if (State.currentRound.humanPts > 0) return;
+  const base = Math.max(1, 7 - Math.max(1, State.currentRound.cluesUsed));
+  const pts = base * 1;
+  State.currentRound.humanPts = pts; State.score += pts; saveState(); updateHUD();
+  DOM.btnScoreHuman.disabled = true; DOM.btnScoreHuman.innerText = "SCORED";
+});
+
+DOM.btnExportRoundReceipt.addEventListener('click', async () => {
+  const originalText = DOM.btnExportRoundReceipt.innerText;
+  DOM.btnExportRoundReceipt.innerText = "GENERATING...";
+  DOM.btnExportRoundReceipt.disabled = true;
+  await exportTickets([State.currentRound], `elephant_os_round_${Date.now()}.png`, false);
+  DOM.btnExportRoundReceipt.innerText = originalText;
+  DOM.btnExportRoundReceipt.disabled = false;
+});
+
+// --- ADVANCE FRAME / SCORECARD ---
+DOM.btnNextFrame.addEventListener('click', () => {
+  State.frames.push({...State.currentRound});
+  
+  State.archive.unshift({...State.currentRound, id: Date.now()});
+  if (State.archive.length > 30) State.archive = State.archive.slice(0, 30);
+  
+  saveState();
+
+  if (State.currentFrame >= MAX_FRAMES) {
+    buildScorecard();
+    navigateTo('view-scorecard');
+  } else {
+    State.currentFrame++;
+    saveState();
+    updateHUD();
+    navigateTo('view-home');
+  }
+});
+
+function buildScorecard() {
+  DOM.scoreMatrix.innerHTML = `
+    <div class="score-hdr">RD</div>
+    <div class="score-hdr">TARGET</div>
+    <div class="score-hdr">PT</div>
+  `;
+  
+  State.frames.forEach((fr, idx) => {
+    const pts = fr.aiPts + fr.humanPts;
+    DOM.scoreMatrix.innerHTML += `
+      <div class="score-cell">${idx + 1}</div>
+      <div class="score-cell" style="font-size:0.75rem; text-align:left;">${fr.targetName}</div>
+      <div class="score-cell">${pts}</div>
+    `;
+  });
+  
+  DOM.receiptTotalScore.innerText = State.score;
+  
+  let rank = "EPISTEMIC FAILURE";
+  if (State.score >= 45) rank = "FLAWLESS SYNTHESIS";
+  else if (State.score >= 25) rank = "HIGH EPISTEMIC ALIGNMENT";
+  else if (State.score >= 10) rank = "PARTIAL ALIGNMENT";
+
+  DOM.finalRank.innerText = `RANK: ${rank}`;
+  DOM.finalRank.style.color = State.score >= 10 ? "var(--bg)" : "var(--active-text)";
+}
+
+// --- CYCLE COMPLETE & EXPORT ---
+DOM.btnRestart.addEventListener('click', () => {
+  State.score = 0; State.currentFrame = 1; State.frames = []; 
+  saveState();
+  updateHUD();
+  navigateTo('view-home');
+});
+
+// --- FULL TICKET EXPORT LOGIC ---
+function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+  const words = text.split(' ');
+  let line = '';
+  for(let n = 0; n < words.length; n++) {
+    const testLine = line + words[n] + ' ';
+    const metrics = ctx.measureText(testLine);
+    const testWidth = metrics.width;
+    if (testWidth > maxWidth && n > 0) {
+      ctx.fillText(line, x, y);
+      line = words[n] + ' ';
+      y += lineHeight;
+    } else {
+      line = testLine;
+    }
+  }
+  ctx.fillText(line, x, y);
+  return y + lineHeight;
+}
+
+async function generateReceiptCanvas(rounds, isFinalReceipt = false) {
+  const loadImage = (src) => new Promise(res => { const img = new Image(); img.onload = () => res(img); img.src = src; });
+
+  const tempCanvas = document.createElement('canvas');
+  tempCanvas.width = 640; 
+  tempCanvas.height = 200 + (rounds.length * 1000) + (isFinalReceipt ? 150 : 0);
+  const ctx = tempCanvas.getContext('2d');
+
+  ctx.fillStyle = '#FFFFFF';
+  ctx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+  ctx.fillStyle = '#000000';
+  
+  let y = 40;
+  ctx.font = '900 28px Courier New';
+  ctx.fillText('ELEPHANT_OS // RECEIPT', 20, y);
+  y += 20;
+  ctx.fillRect(20, y, 600, 8);
+  y += 40;
+
+  for (let i = 0; i < rounds.length; i++) {
+    const fr = rounds[i];
+    ctx.font = '900 20px Courier New';
+    ctx.fillText(`ROUND: ${isFinalReceipt ? (i+1) : 'PAST GAME'} | TARGET: ${fr.targetName.toUpperCase()}`, 20, y);
+    y += 25;
+
+    ctx.font = '900 16px Courier New';
+    ctx.fillText('FRACTURED PERSONAS:', 20, y); y += 24;
+    ctx.font = '14px Courier New';
+    
+    const names = ["1.ETHNOGRAPHER", "2.CUSTOMS", "3.AUCTIONEER", "4.PATHOLOGIST", "5.LITURGIST", "6.ARCHAEOLOGIST"];
+    for(let j=0; j<6; j++) {
+      const used = (fr.playedClues && fr.playedClues.includes(j)) ? "[X]" : "[ ]";
+      y = wrapText(ctx, `${used} ${names[j]}: ${fr.descriptions[j] || "VOID"}`, 20, y, 600, 18); y += 8;
+    }
+    
+    y += 10;
+
+    if (fr.photoBase64 && fr.drawingBase64) {
+      try {
+        const img1 = await loadImage(fr.photoBase64);
+        const img2 = await loadImage(fr.drawingBase64);
+        
+        ctx.filter = 'grayscale(100%) contrast(150%)';
+        ctx.drawImage(img1, 20, y, 290, 290);
+        ctx.drawImage(img2, 330, y, 290, 290);
+        ctx.filter = 'none'; 
+        
+        ctx.lineWidth = 4;
+        ctx.strokeRect(20, y, 290, 290);
+        ctx.strokeRect(330, y, 290, 290);
+
+        ctx.fillStyle = '#000';
+        ctx.fillRect(20, y, 140, 28);
+        ctx.fillRect(330, y, 140, 28);
+        ctx.fillStyle = '#FFF';
+        ctx.font = '900 14px Courier New';
+        ctx.fillText('THE REAL THING', 28, y + 18);
+        ctx.fillText('THE DRAWING', 338, y + 18);
+        ctx.fillStyle = '#000';
+        
+        y += 310;
+      } catch(e) { console.error(e); }
+    }
+
+    ctx.font = '900 18px Courier New';
+    ctx.fillText(`AI GUESSED     : ${fr.aiGuess.toUpperCase()} (+${fr.aiPts})`, 20, y); y += 30;
+    ctx.fillText(`FRIEND GUESSED : ${fr.humanGuess.toUpperCase()} (+${fr.humanPts})`, 20, y); y += 30;
+    ctx.fillText(`POINTS THIS ROUND: ${fr.aiPts + fr.humanPts}`, 20, y); y += 40;
+
+    ctx.fillRect(20, y, 600, 4);
+    y += 40;
+  }
+
+  if (isFinalReceipt) {
+    ctx.font = '900 24px Courier New';
+    ctx.fillText(`TOTAL GAME SCORE: ${State.score}`, 20, y);
+    y += 40;
+  }
+
+  const finalCanvas = document.createElement('canvas');
+  finalCanvas.width = 640;
+  finalCanvas.height = y;
+  const fCtx = finalCanvas.getContext('2d');
+  
+  fCtx.fillStyle = '#FFFFFF';
+  fCtx.fillRect(0, 0, finalCanvas.width, finalCanvas.height);
+  fCtx.drawImage(tempCanvas, 0, 0);
+
+  fCtx.lineWidth = 8;
+  fCtx.strokeRect(0, 0, finalCanvas.width, finalCanvas.height);
+  
+  return finalCanvas;
+}
+
+async function downloadCanvas(canvas, filename) {
+  const link = document.createElement('a');
+  link.download = filename;
+  link.href = canvas.toDataURL('image/png', 1.0);
+  link.click();
+}
+
+async function shareCanvas(canvas, filename, text) {
+  if (navigator.share) {
+    canvas.toBlob(async (blob) => {
+      const file = new File([blob], filename, { type: 'image/png' });
+      try {
+        await navigator.share({ title: 'ELEPHANT_OS Receipt', text: text, files: [file] });
+      } catch(e) { console.log('Share aborted', e); }
+    });
+  } else {
+    alert("NATIVE SHARE NOT SUPPORTED. DOWNLOADING INSTEAD.");
+    downloadCanvas(canvas, filename);
+  }
+}
+
+DOM.btnExportReceipt.addEventListener('click', async () => {
+  const originalText = DOM.btnExportReceipt.innerText;
+  DOM.btnExportReceipt.innerText = "GENERATING TICKET...";
+  DOM.btnExportReceipt.disabled = true;
+  const canvas = await generateReceiptCanvas(State.frames, true);
+  downloadCanvas(canvas, `elephant_os_final_receipt_${Date.now()}.png`);
+  DOM.btnExportReceipt.innerText = originalText;
+  DOM.btnExportReceipt.disabled = false;
+});
+
+if (DOM.btnShareReceipt) {
+  DOM.btnShareReceipt.addEventListener('click', async () => {
+    const originalText = DOM.btnShareReceipt.innerText;
+    DOM.btnShareReceipt.innerText = "GENERATING TICKET...";
+    DOM.btnShareReceipt.disabled = true;
+    const canvas = await generateReceiptCanvas(State.frames, true);
+    await shareCanvas(canvas, `elephant_os_final_receipt_${Date.now()}.png`, `I scored ${State.score} points on ELEPHANT_OS!`);
+    DOM.btnShareReceipt.innerText = originalText;
+    DOM.btnShareReceipt.disabled = false;
+  });
+}
+
+window.exportSingleTicket = async function(id) {
+  const item = State.archive.find(fr => fr.id === id);
+  if (!item) return;
+  const canvas = await generateReceiptCanvas([item], false);
+  downloadCanvas(canvas, `elephant_os_ticket_${id}.png`);
+};
+
+window.shareSingleTicket = async function(id) {
+  const item = State.archive.find(fr => fr.id === id);
+  if (!item) return;
+  const canvas = await generateReceiptCanvas([item], false);
+  shareCanvas(canvas, `elephant_os_ticket_${id}.png`, `Check out this round from ELEPHANT_OS: ${item.targetName.toUpperCase()}`);
+};
+
+// --- ARCHIVE LOGIC ---
+function renderArchive() {
+  DOM.archiveList.innerHTML = '';
+  if (State.archive.length === 0) {
+    DOM.archiveList.innerHTML = '<p style="text-align:center;">PAST GAMES EMPTY.</p>';
+    return;
+  }
+  
+  State.archive.forEach(item => {
+    const el = document.createElement('div');
+    el.className = 'archive-item';
+    el.innerHTML = `
+      <div class="archive-header">
+        <span>TARGET: ${item.targetName.toUpperCase()}</span>
+        <span>PTS: ${item.aiPts + item.humanPts}</span>
+      </div>
+      <div style="display:flex; border-bottom: 4px solid var(--border);">
+        <img src="${item.photoBase64}" style="width:50%; aspect-ratio:1; object-fit:cover; border-right: 4px solid var(--border); filter:grayscale(100%);">
+        <img src="${item.drawingBase64}" style="width:50%; aspect-ratio:1; object-fit:cover; filter:grayscale(100%);">
+      </div>
+      <div class="archive-body">
+        <span class="mono-text" style="font-size:0.8rem; margin-top: 4px;">AI GUESSED: ${item.aiGuess.toUpperCase()}</span>
+        <span class="mono-text" style="font-size:0.8rem;">FRIEND GUESSED: ${item.humanGuess.toUpperCase()}</span>
+        <div style="display:flex; gap: 4px; margin-top: 8px;">
+          <button class="btn-primary" style="flex:1; padding: 10px; font-size: 0.8rem;" onclick="exportSingleTicket(${item.id})">SAVE (PNG)</button>
+          <button class="btn-primary" style="flex:1; padding: 10px; font-size: 0.8rem;" onclick="shareSingleTicket(${item.id})">SHARE</button>
+        </div>
+      </div>
+    `;
+    DOM.archiveList.appendChild(el);
+  });
+}
+
+DOM.btnViewArchive.addEventListener('click', () => {
+  renderArchive();
+  navigateTo('view-archive');
+});
+
+DOM.btnArchiveHome.addEventListener('click', () => {
+  navigateTo('view-home');
+});
+
+// --- BOOTSTRAP CHECK ---
+if (State.currentFrame > MAX_FRAMES) {
+  buildScorecard();
+  navigateTo('view-scorecard');
+}
+</script>
+</body>
+</html>

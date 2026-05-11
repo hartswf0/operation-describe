@@ -1,0 +1,718 @@
+<PROGRAM_THEORY name="Design After Cognitivism" version="1.0">
+
+  <THESIS>
+    <computer> is not <mind>.
+    <AI output> is not <understanding>.
+    <language> is not <information transfer>.
+    <design> is not <interface decoration>.
+    <design> is <ontological intervention> in <human practice>.
+
+    The paper’s core program: [destroy
+] <cognitivist fantasy>
+      [recover
+] <situated human action>
+      [rebuild
+] <computational design>
+      as <accountable coordination of commitments, breakdowns, repairs, and responsibilities>.
+  </THESIS>
+
+
+  <CORE_PROBLEM>
+    <cognitivism> [misdescribes
+] <human cognition>
+      as <internal symbol manipulation>.
+
+    <AI ideology> [extends
+] this mistake
+      by treating <machine prediction>
+      as <machine understanding>.
+
+    <design failure> occurs when:
+      <system> [formalizes
+] <human action>
+      without preserving <context>, <judgment>, <commitment>, <breakdown>, or <repair>.
+  </CORE_PROBLEM>
+
+
+  <DOMAIN_ENTITIES>
+    <human>
+    <designer>
+    <computer>
+    <AI system>
+    <interface>
+    <tool>
+    <world>
+    <practice>
+    <language>
+    <utterance>
+    <speech act>
+    <commitment>
+    <request>
+    <promise>
+    <declaration>
+    <refusal>
+    <conversation>
+    <organization>
+    <workflow>
+    <plan>
+    <situated action>
+    <breakdown>
+    <repair>
+    <representation>
+    <prediction>
+    <understanding>
+    <responsibility>
+    <authority>
+    <institution>
+    <trace>
+    <record>
+    <decision>
+    <design ontology>
+  </DOMAIN_ENTITIES>
+
+
+  <THEORETICAL_LINEAGE>
+    <Heidegger> [contributes
+] <ready-to-hand / present-at-hand>.
+    <Austin> [contributes
+] <language as action>.
+    <Searle> [contributes
+] <speech-act structure>.
+    <Maturana and Varela> [contribute
+] <autopoiesis and structural coupling>.
+    <Dreyfus> [contributes
+] <critique of symbolic AI>.
+    <Suchman> [contributes
+] <plans as resources for situated action>.
+    <Wittgenstein> [contributes
+] <meaning as use>.
+    <Dourish> [contributes
+] <embodied interaction>.
+    <Winograd and Flores> [compose
+] these into <new foundation for design>.
+  </THEORETICAL_LINEAGE>
+
+
+  <PRIMARY_OPERATIONS>
+    [formalize
+]
+    [represent
+]
+    [compute
+]
+    [predict
+]
+    [misrecognize
+]
+    [situate
+]
+    [interpret
+]
+    [request
+]
+    [promise
+]
+    [declare
+]
+    [commit
+]
+    [coordinate
+]
+    [breakdown
+]
+    [notice
+]
+    [repair
+]
+    [delegate
+]
+    [authorize
+]
+    [trace
+]
+    [contest
+]
+    [revise
+]
+    [make-visible
+]
+    [make-invisible
+]
+    [distribute-responsibility
+]
+    [support-judgment
+]
+    [simulate-understanding
+]
+    [expose-limits
+]
+    [redesign
+]
+  </PRIMARY_OPERATIONS>
+
+
+  <STATE_MODEL>
+    <smooth-use>
+      := <tool> [withdraws into
+] <practice>.
+
+    <ready-to-hand>
+      := <tool> [is absorbed by
+] <action>.
+
+    <breakdown-state>
+      := <tool> [fails or interrupts
+] <practice>.
+
+    <present-at-hand>
+      := <tool> [becomes visible as
+] <object-of-attention>.
+
+    <repair-state>
+      := <human> [interprets and modifies
+] <broken situation>.
+
+    <commitment-open>
+      := <speech act> [creates
+] <future obligation>.
+
+    <commitment-fulfilled>
+      := <actor> [satisfies
+] <declared condition>.
+
+    <commitment-failed>
+      := <obligation> [remains unmet or contested>.
+
+    <automation-fantasy>
+      := <system> [claims
+    ] <autonomous competence>
+         while [hiding
+    ] <human judgment and responsibility>.
+
+    <accountable-design-state>
+      := <system> [makes visible
+    ] <status>, <source>, <authority>, <uncertainty>, <commitment>, and <repair path>.
+  </STATE_MODEL>
+
+
+  <INVARIANTS>
+    <meaning> [depends on
+    ] <use>.
+    <use> [depends on
+    ] <practice>.
+    <practice> [depends on
+    ] <world>.
+    <world> [is disclosed through
+    ] <action>.
+    <action> [is
+    ] <situated>.
+    <language> [performs
+    ] <social action>.
+    <speech act> [can create
+    ] <commitment>.
+    <commitment> [requires
+    ] <responsibility>.
+    <tool> [is revealed by
+    ] <breakdown>.
+    <breakdown> [requires
+    ] <repair>.
+    <AI prediction> [does not equal
+    ] <understanding>.
+    <generated output> [does not equal
+    ] <authorized decision>.
+    <interface> [distributes
+    ] <power>.
+    <design> [embeds
+    ] <ontology>.
+    <good system> [preserves
+    ] <human judgment>.
+  </INVARIANTS>
+
+
+  <CONSTRAINTS>
+    <computer> must not be modeled as <human mind>.
+    <human> must not be reduced to <information processor>.
+    <language> must not be reduced to <data exchange>.
+    <workflow> must not erase <situated action>.
+    <automation> must not hide <responsibility>.
+    <AI fluency> must not imply <understanding>.
+    <system authority> must remain <traceable>.
+    <breakdown> must remain <visible>.
+    <repair> must remain <available>.
+    <commitment> must remain <contestable>.
+    <design abstraction> must remain accountable to <lived practice>.
+  </CONSTRAINTS>
+
+
+  <TRANSFORMATION_LOGIC>
+    <cognitivist model>
+      [defines
+    ] <cognition>
+      as <symbol manipulation>.
+
+    <symbol manipulation>
+      [requires
+    ] <representation-first ontology>.
+
+    <representation-first ontology>
+      [produces
+    ] <computer-as-mind>.
+
+    <computer-as-mind>
+      [produces
+    ] <AI triumphalism>.
+
+    <AI triumphalism>
+      [produces
+    ] <automation fantasy>.
+
+    <automation fantasy>
+      [hides
+    ] <judgment>, <commitment>, <repair>, and <responsibility>.
+
+    <Winograd-Flores intervention>
+      [breaks
+    ] <computer-as-mind>
+      by [importing
+    ] <phenomenology>, <speech-act theory>, <autopoiesis>, and <situated action>.
+
+    <post-cognitivist design>
+      [redefines
+    ] <computer>
+      as <medium for accountable coordination>.
+  </TRANSFORMATION_LOGIC>
+
+
+  <HEIDEGGER_MODULE>
+    <tool> [in use
+    ] <ready-to-hand>.
+    <tool> [in failure
+    ] <present-at-hand>.
+    <breakdown> [reveals
+    ] <equipmental context>.
+    <equipmental context> [reveals
+    ] <world>.
+    <world> [precedes
+    ] <representation>.
+
+    DESIGN_RULE:
+      Do not design only for <smooth-use>.
+      Design for <breakdown>, <visibility>, <interpretation>, and <repair>.
+  </HEIDEGGER_MODULE>
+
+
+  <SPEECH_ACT_MODULE>
+    <utterance> [is not merely
+    ] <message>.
+    <utterance> [can perform
+    ] <action>.
+
+    <request> [opens
+    ] <possible commitment>.
+    <promise> [creates
+    ] <obligation>.
+    <declaration> [changes
+    ] <institutional state>.
+    <refusal> [blocks
+    ] <expected transition>.
+    <apology> [repairs
+    ] <damaged relation>.
+    <authorization> [transfers
+    ] <permission>.
+
+    DESIGN_RULE:
+      Treat <communication system> as <commitment system>.
+      Track not only <what was said>,
+      but <who is bound>, <to what>, <under what conditions>, and <with what repair path>.
+  </SPEECH_ACT_MODULE>
+
+
+  <AUTOPOIESIS_MODULE>
+    <cognition> [is not
+    ] <mirror of external world>.
+    <cognition> [is
+    ] <effective action in a domain>.
+    <organism> [brings forth
+    ] <world>
+      through <structural coupling>.
+
+    DESIGN_RULE:
+      Do not assume <better representation> automatically means <better understanding>.
+      Evaluate <system> by how it participates in <practice>, not by how mind-like it appears.
+  </AUTOPOIESIS_MODULE>
+
+
+  <SITUATED_ACTION_MODULE>
+    <plan> [does not determine
+    ] <action>.
+    <plan> [serves as
+    ] <resource>.
+    <local context> [reshapes
+    ] <execution>.
+    <actor> [improvises
+    ] within <situation>.
+    <exception> [is not
+    ] <noise>.
+    <exception> [is evidence of
+    ] <real work>.
+
+    DESIGN_RULE:
+      Do not punish <practice> for exceeding <schema>.
+      Preserve <local judgment>, <exception handling>, and <situated repair>.
+  </SITUATED_ACTION_MODULE>
+
+
+  <GENERATIVE_AI_MODULE>
+    <generative AI> [produces
+    ] <fluent output>.
+    <fluent output> [simulates
+    ] <understanding>.
+    <simulation of understanding> [invites
+    ] <delegation>.
+    <delegation> [creates
+    ] <responsibility problem>.
+
+    FAILURE_CONDITION:
+      if <AI output> [is treated as
+    ] <authorized judgment>
+      and <responsibility> [is not traceable
+    ],
+      then <system> enters <responsibility-collapse>.
+
+    DESIGN_RULE:
+      Distinguish:
+        <draft> from <decision>.
+        <recommendation> from <authorization>.
+        <prediction> from <verification>.
+        <summary> from <record>.
+        <assistant output> from <human commitment>.
+  </GENERATIVE_AI_MODULE>
+
+
+  <FAILURE_MODES>
+    <representation-reduction>
+      := <human cognition> [reduced to
+    ] <internal model>.
+
+    <language-data-error>
+      := <speech> [reduced to
+    ] <information transfer>.
+
+    <workflow-formalism>
+      := <situated work> [forced into
+    ] <rigid schema>.
+
+    <magic-interface>
+      := <system> [conceals
+    ] <limits>, <sources>, <uncertainty>, and <transformation>.
+
+    <prediction-understanding-confusion>
+      := <AI fluency> [mistaken for
+    ] <comprehension>.
+
+    <responsibility-collapse>
+      := <machine output> [affects
+    ] <decision>
+         while <human accountability> [becomes obscure>.
+
+    <repair-denial>
+      := <breakdown> [occurs
+        ]
+         but <system> [offers no contestation or revision path>.
+
+    <commitment-flattening>
+      := <promise/request/declaration> [converted into
+            ] <status field>
+         without preserving <social meaning>.
+  </FAILURE_MODES>
+
+
+  <RECOVERY_RULES>
+    if <representation-reduction>: [restore
+            ] <situated action>.
+
+    if <language-data-error>: [restore
+            ] <speech act and commitment>.
+
+    if <workflow-formalism>: [restore
+            ] <exception>, <context>, and <local judgment>.
+
+    if <magic-interface>: [expose
+            ] <source>, <limit>, <uncertainty>, <status>, and <transformation>.
+
+    if <prediction-understanding-confusion>: [separate
+            ] <prediction> from <understanding>.
+
+    if <responsibility-collapse>: [trace
+            ] <authority>, <decision>, <actor>, and <commitment>.
+
+    if <repair-denial>: [provide
+            ] <appeal>, <revision>, <annotation>, <rollback>, or <human escalation>.
+
+    if <commitment-flattening>: [reconnect
+            ] <status> to <speaker>, <obligation>, <condition>, and <consequence>.
+  </RECOVERY_RULES>
+
+
+  <DESIGN_REQUIREMENTS>
+    <system> must display <what kind of act is occurring>.
+    <system> must display <who authorized it>.
+    <system> must display <whether output is draft, suggestion, record, or decision>.
+    <system> must display <what sources or transformations shaped it>.
+    <system> must display <what uncertainty remains>.
+    <system> must display <what commitments are opened or closed>.
+    <system> must display <how breakdown can be repaired>.
+    <system> must preserve <human refusal>.
+    <system> must preserve <human revision>.
+    <system> must preserve <human accountability>.
+  </DESIGN_REQUIREMENTS>
+
+
+  <PROGRAM_FLOW>
+    START:
+      <designer> [encounters
+            ] <computational system>.
+
+    STEP_1: [test
+            ] whether <system> assumes <human-as-information-processor>.
+
+    STEP_2:
+      if true: [mark
+            ] <cognitivist residue>.
+
+    STEP_3: [inspect
+            ] <language model of system>.
+      if <language> [is treated as
+            ] <data only>: [mark
+            ] <language-data-error>.
+
+    STEP_4: [inspect
+            ] <workflow model>.
+      if <workflow> [cannot represent
+            ] <exception or repair>: [mark
+            ] <workflow-formalism>.
+
+    STEP_5: [inspect
+            ] <AI authority>.
+      if <prediction> [is presented as
+            ] <judgment>: [mark
+            ] <prediction-understanding-confusion>.
+
+    STEP_6: [inspect
+            ] <responsibility chain>.
+      if <decision> [cannot be traced to
+            ] <accountable actor>: [mark
+            ] <responsibility-collapse>.
+
+    STEP_7: [redesign
+            ] <system>
+      around <commitment>, <breakdown>, <repair>, <traceability>, and <situated judgment>.
+
+    END:
+      output <accountable coordination medium>.
+  </PROGRAM_FLOW>
+
+
+  <PSEUDOCODE>
+    function EvaluateSystem(system):
+      failures = []
+
+      if system.modelsHumanAs("information_processor"):
+        failures.add(<representation-reduction>)
+
+      if system.treatsLanguageAs("data_transfer"):
+        failures.add(<language-data-error>)
+
+      if system.workflow.blocks("exception_handling"):
+        failures.add(<workflow-formalism>)
+
+      if system.interface.hides([
+                "sources",
+                "limits",
+                "uncertainty",
+                "transformation"
+            ]):
+        failures.add(<magic-interface>)
+
+      if system.aiOutput.isFluent and system.interface.framesAs("understanding"):
+        failures.add(<prediction-understanding-confusion>)
+
+      if system.output.affectsDecision and not system.responsibility.isTraceable:
+        failures.add(<responsibility-collapse>)
+
+      if system.breakdown.hasNoRepairPath:
+        failures.add(<repair-denial>)
+
+      return failures
+
+
+    function RedesignSystem(system, failures):
+      if failures.contains(<representation-reduction>):
+        system.add(<situated-action-model>)
+
+      if failures.contains(<language-data-error>):
+        system.add(<speech-act-awareness>)
+
+      if failures.contains(<workflow-formalism>):
+        system.add(<exception-and-context-layer>)
+
+      if failures.contains(<magic-interface>):
+        system.expose([
+                "sources",
+                "limits",
+                "uncertainty",
+                "transformation"
+            ])
+
+      if failures.contains(<prediction-understanding-confusion>):
+        system.labelOutputs([
+                "draft",
+                "suggestion",
+                "prediction",
+                "verified-record",
+                "authorized-decision"
+            ])
+
+      if failures.contains(<responsibility-collapse>):
+        system.trace([
+                "actor",
+                "authority",
+                "decision",
+                "commitment"
+            ])
+
+      if failures.contains(<repair-denial>):
+        system.enable([
+                "appeal",
+                "revision",
+                "annotation",
+                "rollback",
+                "human-escalation"
+            ])
+
+      return <accountable-coordination-medium>
+
+
+    function DesignAfterCognitivism(system):
+      failures = EvaluateSystem(system)
+      redesignedSystem = RedesignSystem(system, failures)
+      return redesignedSystem
+  </PSEUDOCODE>
+
+
+  <TESTS>
+    <test name="AI output is not understanding">
+      given <fluent AI answer>
+      when <system> presents it to <user>
+      then <system> must label it as <generated output>, not <understanding>.
+    </test>
+
+    <test name="Language creates commitment">
+      given <user request>
+      when <recipient accepts>
+      then <system> must create <commitment-open> with <actor>, <condition>, and <repair path>.
+    </test>
+
+    <test name="Breakdown becomes visible">
+      given <tool failure>
+      when <practice is interrupted>
+      then <system> must expose <cause>, <status>, and <next repair action>.
+    </test>
+
+    <test name="Responsibility remains traceable">
+      given <AI-assisted decision>
+      when <decision affects outcome>
+      then <system> must identify <responsible human or institution>.
+    </test>
+
+    <test name="Plan does not dominate situation">
+      given <workflow plan>
+      when <local exception appears>
+      then <system> must allow <situated override>.
+    </test>
+
+    <test name="Interface is not magic">
+      given <automated result>
+      when <user inspects result>
+      then <system> must reveal <source>, <method>, <uncertainty>, and <limits>.
+    </test>
+  </TESTS>
+
+
+  <CHANGE_SCENARIOS>
+    <scenario name="AI governance chapter">
+      <commitment> [becomes
+            ] <audit trail>.
+      <breakdown> [becomes
+            ] <appeal mechanism>.
+      <repair> [becomes
+            ] <institutional due process>.
+      <design rule> [becomes
+            ] <policy requirement>.
+    </scenario>
+
+    <scenario name="interface design toolkit">
+      <phenomenology> [becomes
+            ] <breakdown checklist>.
+      <speech-act theory> [becomes
+            ] <commitment tracker>.
+      <situated action> [becomes
+            ] <exception-handling design>.
+      <AI critique> [becomes
+            ] <output-status labeling system>.
+    </scenario>
+
+    <scenario name="workflow software critique">
+      <generative AI risk> [moves to background
+            ].
+      <language-action theory> [moves to foreground
+            ].
+      <commitment flattening> [becomes
+            ] primary failure mode.
+      <organizational repair> [becomes
+            ] primary design goal.
+    </scenario>
+
+    <scenario name="generative AI interface critique">
+      <prediction-understanding confusion> [moves to foreground
+            ].
+      <magic interface> [becomes
+            ] primary failure mode.
+      <traceability> [becomes
+            ] primary design invariant.
+      <human authorization> [becomes
+            ] primary safeguard.
+    </scenario>
+  </CHANGE_SCENARIOS>
+
+
+  <FINAL_OUTPUT>
+    <post-cognitivist-design> :=
+      <computational system>
+      that [supports
+            ] <situated human action>
+      by [making visible
+            ] <commitments>, <breakdowns>, <authority>, <uncertainty>, <repair>, and <responsibility>.
+
+    <design_after_cognitivism> :=
+      [refuse
+            ] <computer-as-mind>
+      [build
+            ] <computer-as-accountable-medium>
+      [protect
+            ] <human judgment>
+      [expose
+            ] <machine limits>
+      [preserve
+            ] <repairable worlds>.
+  </FINAL_OUTPUT>
+
+
+  <FINAL_INVARIANT>
+    A system becomes humane
+    not by appearing to understand,
+    but by making its role in human action
+    visible, limited, contestable, repairable, and accountable.
+  </FINAL_INVARIANT>
+
+</PROGRAM_THEORY>

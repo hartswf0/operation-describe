@@ -1,0 +1,677 @@
+<PROGRAM_THEORY name="DESCRIPTIVE_STRUGGLE_ENGINE" version="1.0">
+
+<THESIS>
+  <language> [does-not-become
+] <thought>
+  by being fluent.
+
+  <language> [becomes
+] <thinking-like-description>
+  only when it is made answerable to: {
+    <inward_pressure>,
+    <memory>,
+    <intention>,
+    <metaphor>,
+    <fact>,
+    <history>,
+    <public_criterion>,
+    <correction>,
+    <ethical_consequence>
+}
+
+  <generative_AI> [can-produce
+] <fluent_description>
+  without undergoing
+  <descriptive_struggle>.
+
+  <human_thinking> [is-not
+] <mystical_inner_theatre>.
+  <human_thinking> [is-not
+] <mere_behavior>.
+  <human_thinking> [is
+] <descriptive_accountability_under_pressure>.
+</THESIS>
+
+
+<CORE_PROBLEM>
+  Build a system that distinguishes:
+
+  <fluent_language>
+  from
+  <descriptively_accountable_language>
+
+  and distinguishes:
+
+  <machine_output>
+  from
+  <human_descriptive_struggle>
+
+  without appealing to: {
+    <soul_claim>,
+    <private_theatre_mysticism>,
+    <behaviorist_flattening>,
+    <symbol_manipulation_reduction>
+}
+</CORE_PROBLEM>
+
+
+<ENTITIES>
+  <Description>
+  <Thought>
+  <Language>
+  <Fluency>
+  <MachineOutput>
+  <HumanSpeaker>
+  <GenerativeAI>
+  <InnerExperience>
+  <InwardPressure>
+  <Memory>
+  <Intention>
+  <Metaphor>
+  <Fact>
+  <HistoricalDepth>
+  <NaturalLanguage>
+  <FormalLanguage>
+  <Classification>
+  <Institution>
+  <PublicCriterion>
+  <Correction>
+  <Failure>
+  <Revision>
+  <EthicalConsequence>
+  <DescriptiveAdequacy>
+  <DescriptiveAccountability>
+  <DescriptiveStruggle>
+
+  <MurdochianAxis>
+  <LloydianAxis>
+  <RyleanAxis>
+</ENTITIES>
+
+
+<MORPHISMS>
+  <InwardPressure> [demands
+] <Description>
+  <HumanSpeaker> [attempts
+] <Description>
+  <Description> [partially-fixes
+] <Experience>
+  <Metaphor> [stabilizes
+] <UnclearExperience>
+  <Fact> [resists
+] <BadDescription>
+  <History> [thickens
+] <NaturalLanguage>
+  <Classification> [organizes
+] <Fact>
+  <Institution> [enforces
+] <Classification>
+  <PublicCriterion> [tests
+] <Description>
+  <Failure> [provokes
+] <Revision>
+  <Revision> [deepens
+] <DescriptiveAccountability>
+
+  <GenerativeAI> [generates
+] <MachineOutput>
+  <MachineOutput> [may-display
+] <Fluency>
+  <Fluency> [may-imitate
+] <Thought>
+  <Fluency> [does-not-guarantee
+] <DescriptiveAdequacy>
+
+  <HumanSpeaker> [uses
+] <MachineOutput>
+  <MachineOutput> [becomes
+] <PressureSurface>
+  when
+  <HumanSpeaker> [tests
+] <MachineOutput>
+  against
+  {
+    <experience>,
+    <fact>,
+    <intention>,
+    <memory>,
+    <history>,
+    <consequence>
+}
+</MORPHISMS>
+
+
+<INVARIANTS>
+  <I1>
+    <Language> [does-not-automatically-imply
+] <Thought>.
+
+  <I2>
+    <Thought> [is-not-reducible-to
+] <InnerSpeech>.
+
+  <I3>
+    <Thought> [is-not-reducible-to
+] <ObservableBehavior>.
+
+  <I4>
+    <Description> [must-answer-to
+] <SomethingBeyondItsOwnFluency>.
+
+  <I5>
+    <Metaphor> [can-be
+] <ConceptualInstrument>
+    not merely
+    <Decoration>.
+
+  <I6>
+    <NaturalLanguage> [has
+] <HistoricalDepth>.
+
+  <I7>
+    <Fact> [is-not
+] <RawGivenOnly>;
+    <Fact> [is-shaped-by
+] {<language>, <classification>, <institution>, <history>
+}.
+
+  <I8>
+    <GenerativeAI> [can-simulate
+] <ProductsOfDescriptiveStruggle>
+    without
+    <undergoing> <DescriptiveStruggle>.
+
+  <I9>
+    <HumanDifference> [must-not-depend-on
+] <MysticalInteriorSubstance>.
+
+  <I10>
+    <HumanDifference> [appears-in
+] <VulnerabilityToFailure>.
+</INVARIANTS>
+
+
+<AXES>
+
+  <MurdochianAxis>
+    <concern>
+      <thinking> as <descriptive_struggle>
+      against the false reduction of thought to <inner_words>.
+    </concern>
+
+    <tests>
+      <M1>
+        Does <Description> show pressure from <experience>?
+
+      <M2>
+        Does <Description> preserve force, mood, intention, image, or hesitation?
+
+      <M3>
+        Does <Metaphor> discover something, or merely decorate?
+
+      <M4>
+        Does <Description> register the possibility of failure?
+
+      <M5>
+        Does <Revision> arise because the first wording was inadequate?
+    </tests>
+
+    <failure_if>
+      <Description> [is-only
+] <verbal_content>
+      without
+      {<force>, <color>, <pressure>, <difficulty>, <revision>
+}
+    </failure_if>
+  </MurdochianAxis>
+
+
+  <LloydianAxis>
+    <concern>
+      <thinking_and_language> as entangled with <facts>,
+      where <natural_language> carries history, classification, and institutional force.
+    </concern>
+
+    <tests>
+      <L1>
+        Does <Description> know the history of its terms?
+
+      <L2>
+        Does <Description> distinguish <natural_language_depth>
+        from <formal_language_flatness>?
+
+      <L3>
+        Does <Description> allow <facts> to revise <definitions>?
+
+      <L4>
+        Does <Description> account for <classification> as world-shaping?
+
+      <L5>
+        Does <Description> recognize institutional consequence?
+    </tests>
+
+    <failure_if>
+      <Description> [treats
+] <Fact>
+      as
+      <raw_object_outside_language>
+      or
+      <Description> [treats
+] <Definition>
+      as
+      <timeless_formal_token>
+    </failure_if>
+  </LloydianAxis>
+
+
+  <RyleanAxis>
+    <concern>
+      Prevent the recovery of inwardness from becoming <private_theatre_mysticism>.
+    </concern>
+
+    <tests>
+      <R1>
+        Does <Description> connect to public criteria?
+
+      <R2>
+        Does <Description> connect to practice, conduct, correction, or capacity?
+
+      <R3>
+        Does <Description> avoid treating thought as a hidden object?
+
+      <R4>
+        Does <Description> avoid reducing mind to behavior alone?
+
+      <R5>
+        Does <Description> specify how error could be exposed?
+    </tests>
+
+    <failure_if>
+      <Thought> [is-explained-by
+] <secret_inner_object>
+      or
+      <Thought> [is-erased-into
+] <external_behavior_only>
+    </failure_if>
+  </RyleanAxis>
+
+</AXES>
+
+
+<STATE_MACHINE>
+
+  <S0: UnformedPressure>
+    <experience> exists as pressure, mood, memory, intention, image, or confusion.
+    transition:
+      <HumanSpeaker> [attempts
+] <Description>
+      => <S1: PartialDescription>
+
+  <S1: PartialDescription>
+    <language> begins to fix experience but remains unstable.
+    transition:
+      <Description> [fails
+] <MurdochianAxis>
+      => <S2: InwardFailure>
+    transition:
+      <Description> [passes
+] <MurdochianAxis>
+      => <S3: CandidateDescription>
+
+  <S2: InwardFailure>
+    <words> do not yet answer to the experience.
+    transition:
+      <Failure> [provokes
+] <Revision>
+      => <S1: PartialDescription>
+
+  <S3: CandidateDescription>
+    <Description> has expressive force but must meet fact, history, and public test.
+    transition:
+      <Description> [fails
+] <LloydianAxis>
+      => <S4: FactHistoricalFailure>
+    transition:
+      <Description> [fails
+] <RyleanAxis>
+      => <S5: CriterionFailure>
+    transition:
+      <Description> [passes
+] {<LloydianAxis>, <RyleanAxis>
+}
+      => <S6: DescriptivelyAccountableDescription>
+
+  <S4: FactHistoricalFailure>
+    <Description> lacks historical, classificatory, or factual accountability.
+    transition:
+      <Revision> [adds
+] {<fact>, <history>, <classification>, <institution>
+}
+      => <S3: CandidateDescription>
+
+  <S5: CriterionFailure>
+    <Description> lacks public criteria or correction conditions.
+    transition:
+      <Revision> [adds
+] {<practice>, <criterion>, <test>, <observable_consequence>
+}
+      => <S3: CandidateDescription>
+
+  <S6: DescriptivelyAccountableDescription>
+    <Description> is not perfect;
+    it is answerable.
+    transition:
+      <new_fact> or <new_memory> or <new_consequence>
+      [reopens
+] <Description>
+      => <S1: PartialDescription>
+
+</STATE_MACHINE>
+
+
+<MACHINE_OUTPUT_PATH>
+
+  <GenerativeAI> [receives
+] <Prompt>
+  <Prompt> [conditions
+] <MachineOutput>
+  <MachineOutput> [may-achieve
+] <Fluency>
+
+  if
+    <MachineOutput> [lacks
+] {
+      <inward_pressure>,
+      <memory_debt>,
+      <intention>,
+      <historical_accountability>,
+      <public_correction>,
+      <ethical_consequence>
+}
+  then
+    <MachineOutput> [classified-as
+] <FluentButUnaccountableOutput>
+
+  if
+    <HumanSpeaker> [uses
+] <MachineOutput>
+    as
+    <PressureSurface>
+    and
+    <HumanSpeaker> [subjects
+] <MachineOutput>
+    to
+    {<MurdochianAxis>, <LloydianAxis>, <RyleanAxis>
+}
+  then
+    <MachineOutput> [can-enter
+] <HumanDescriptiveStruggle>
+  but
+    <MachineOutput> [does-not-own
+] <DescriptiveStruggle>
+</MACHINE_OUTPUT_PATH>
+
+
+<ADEQUACY_TESTS>
+
+  <InwardAdequacy>
+    pass_when:
+      <Description> [answers-to
+] {<experience>, <memory>, <intention>, <felt_difficulty>
+}
+    fail_when:
+      <Description> [is
+] <smooth_language_without_pressure>
+
+  <MetaphoricalAdequacy>
+    pass_when:
+      <Metaphor> [reveals-or-stabilizes
+] <otherwise_unavailable_relation>
+    fail_when:
+      <Metaphor> [merely-decorates
+] <already_available_claim>
+
+  <FactualAdequacy>
+    pass_when:
+      <Description> [answers-to
+] {<evidence>, <revision>, <classification_history>
+}
+    fail_when:
+      <Description> [asserts
+] <fact>
+      without
+      <grounding_or_revision_path>
+
+  <PracticalAdequacy>
+    pass_when:
+      <Description> [guides
+] {<recognition>, <action>, <correction>, <further_inquiry>
+}
+    fail_when:
+      <Description> [cannot-be-used-to-correct-anything>
+
+  <EthicalAdequacy>
+    pass_when:
+      <Description> [accounts-for
+    ] <consequence_of_naming>
+    fail_when:
+      <Description> [classifies
+    ] <person_or_world>
+      without
+      <responsibility_for_effect>
+</ADEQUACY_TESTS>
+
+
+<FAILURE_MODES>
+
+  <FluencyConfusion>
+    condition:
+      <Fluency> [mistaken-for
+    ] <Thought>
+    diagnosis:
+      <language_product> has surface competence without demonstrated accountability.
+    response: [mark
+    ] <FluentButUnaccountableOutput>
+
+  <PrivateTheatreRegression>
+    condition:
+      <Thought> [treated-as
+    ] <hidden_inner_object>
+    diagnosis:
+      inwardness has become metaphysical theatre.
+    response: [apply
+    ] <RyleanAxis>
+
+  <BehavioristFlattening>
+    condition:
+      <Thought> [treated-as
+    ] <observable_behavior_only>
+    diagnosis:
+      inward descriptive struggle has been erased.
+    response: [apply
+    ] <MurdochianAxis>
+
+  <MetaphorTheatre>
+    condition:
+      <Metaphor> [sounds-deep
+    ]
+      but
+      <Metaphor> [does-not-clarify
+    ]
+    diagnosis:
+      metaphor is decorative fog.
+    response: [demand
+    ] <conceptual_work>
+
+  <FactlessElegance>
+    condition:
+      <Description> [is-beautiful
+    ]
+      but
+      <Description> [lacks
+    ] <fact_history>
+    diagnosis:
+      style has outrun accountability.
+    response: [apply
+    ] <LloydianAxis>
+
+  <SyntheticAuthority>
+    condition:
+      <MachineOutput> [imitates
+    ] <expert_voice>
+      without
+      <grounded_authority>
+    diagnosis:
+      authority has been simulated as tone.
+    response: [require
+    ] {<source>, <criterion>, <verification>, <human_judgment>
+    }
+
+  <ClicheSubstitution>
+    condition:
+      <ready_phrase> [replaces
+    ] <specific_description>
+    diagnosis:
+      language has avoided the thing.
+    response: [ask
+    ] "What exact pressure is this phrase refusing?"
+
+  <EthicalMisclassification>
+    condition:
+      <Classification> [names
+    ] <subject>
+      without
+      <consequence_awareness>
+    diagnosis:
+      description has become governance without responsibility.
+    response: [trigger
+    ] <EthicalAdequacyReview>
+
+</FAILURE_MODES>
+
+
+<OUTPUT_CLASSES>
+
+  <FluentButUnaccountableOutput>
+    definition:
+      <Description> has linguistic polish
+      but lacks sufficient accountability to experience, fact, practice, or consequence.
+
+  <ExpressiveButUngroundedDescription>
+    definition:
+      <Description> passes <MurdochianAxis>
+      but fails <LloydianAxis>.
+
+  <GroundedButInwardlyFlatDescription>
+    definition:
+      <Description> passes factual checks
+      but fails to register lived pressure, intention, or conceptual struggle.
+
+  <CriterionlessInteriorDescription>
+    definition:
+      <Description> invokes inwardness
+      but cannot be corrected, tested, or publicly situated.
+
+  <DescriptivelyAccountableDescription>
+    definition:
+      <Description> remains revisable
+      and is answerable to {
+        <experience>,
+        <metaphor>,
+        <fact>,
+        <history>,
+        <practice>,
+        <ethics>
+    }
+
+  <DescriptiveStruggle>
+    definition:
+      <process>
+      where
+      <Description> [is-repeatedly-revised
+    ]
+      because
+      <language> [fails-and-is-made-answerable
+    ]
+      to
+      <what-it-tries-to-say>
+</OUTPUT_CLASSES>
+
+
+<REVISION_RULES>
+
+  if <Description> [fails
+    ] <InwardAdequacy>
+  then ask: "What experience, intention, memory, or pressure is this language failing to answer?"
+
+  if <Description> [fails
+    ] <MetaphoricalAdequacy>
+  then ask: "What does this metaphor reveal that literal paraphrase cannot?"
+
+  if <Description> [fails
+    ] <FactualAdequacy>
+  then ask: "What fact, classification history, or institutional practice must this answer to?"
+
+  if <Description> [fails
+    ] <PracticalAdequacy>
+  then ask: "How would this description guide recognition, correction, or action?"
+
+  if <Description> [fails
+    ] <EthicalAdequacy>
+  then ask: "What does this description do to the thing or person it names?"
+
+  if <MachineOutput> [appears
+    ] <authoritative>
+  then ask: "Where is the accountability outside the sentence?"
+</REVISION_RULES>
+
+
+<PROGRAM_PURPOSE>
+  The system exists to defend the difficulty of description.
+
+  It rejects:
+    <fluent_language_as_thought>,
+    <symbol_output_as_understanding>,
+    <mystical_human_exceptionalism>,
+    <behaviorist_erasure>,
+    <metaphor_as_decoration>,
+    <fact_as_raw_given>,
+    <AI_authority_theatre>.
+
+  It preserves:
+    <descriptive_struggle>,
+    <metaphor_as_method>,
+    <facts_with_history>,
+    <public_criteria>,
+    <revision>,
+    <ethical_consequence>,
+    <human_vulnerability_to_failed_language>.
+</PROGRAM_PURPOSE>
+
+
+<FINAL_OPERATOR>
+  <Description> [becomes
+    ] <ThoughtLike>
+  only when
+  <Description> [can-fail
+    ]
+  and
+  <Failure> [matters
+    ].
+
+  <MachineOutput> [becomes-useful
+    ]
+  when
+  <HumanSpeaker> [forces
+    ] it
+  into
+  <DescriptiveAccountability>.
+
+  <HumanThinking> [appears
+    ]
+  not as hidden substance,
+  but as the labor of making words answerable
+  to what they have not yet adequately said.
+</FINAL_OPERATOR>
+
+</PROGRAM_THEORY>

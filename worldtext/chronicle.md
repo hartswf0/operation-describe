@@ -459,3 +459,272 @@ Created fully-written stub pages for all orphan-referenced objects:
 **Significance**: We moved thick description from an observed phenomenon (analyzing training data) to a *generative technique* (writing the thick prompt). The structural identity is flawless. A thin prompt is a twitch. A thick prompt is a wink understood across 3 different semiotic barriers.
 
 ---
+
+## [2026-04-27] ingest | NATURAL SIGN — Worldtext Coherence & Same-Worldness
+
+**Source**: `2026_04_27_NATURAL SIGN/` (4 documents)  
+**Action**: Second-pass ingest. Classified and copied raw source conversations and formal syntheses into the worldtext substrate.
+
+**Syntheses added** (→ `syntheses/`):
+- `worldtext-coherence-theory-and-design.md` — Formalizes the Worldtext as a persistent generative field; defines the Canon Engine (World Bible), Haunted Archive (Lore Book), and Entity Ledger (Encyclopedia) as the operative triad; establishes the Thick Prompt Architecture with Anchors, Constraints, Motion Vectors, and Negative Constraints; identifies the Convergence Problem and Continuity Debt as blocking threats.
+- `worldtext-and-same-worldness.md` — Operationalizes the Same-Worldness Test as a three-axis audit (Mythos, Topos, Ethos); defines the Clean Stack schema for fictional universe documentation; establishes the protocol for candidate artifact vetting against the cosmological manifold.
+
+**Sources added** (→ `sources-fulltext/`):
+- `chatgpt_world-bible-and-lore_2026-04-27.md` — Raw conversation establishing the World Bible / Lore Book / Encyclopedia distinction; defines the concept of "worldtext" as a multimodal, latent, generative symbolic field; names the "prompt probe" as the fundamental sampling operation.
+- `chatgpt_same-worldness-delta_2026-04-27.md` — Raw conversation extending the Same-Worldness framework; formalizes the delta between canon, belief, and index; tests the Clean Stack against boundary cases.
+
+**Concepts stabilized**:
+- **Worldtext**: The total multimodal coherence field — the latent manifold from which all specific world artifacts arise.
+- **Prompt Probe**: The act of sampling the worldtext manifold; a prompt as measurement or cut into the latent field to stabilize a temporary form.
+- **Same-Worldness**: A rigorous audit process for candidate artifacts, testing against Mythos, Topos, and Ethos.
+- **Clean Stack**: The tripartite schema (Canon / Belief / Index) governing all fictional universe documentation.
+- **Operative Triad**: World Bible (design-time constraints), Lore Book (mythic depth), Encyclopedia (retrieval surface).
+
+**Cosmos metrics**:
+- Syntheses: 27 (was 25)
+- Sources: 178 (unchanged, these are citation stubs)
+- Sources-fulltext: 46 (was 44)
+- This pass delivers the theoretical bedrock for all future ingest operations: the formal definitions of what worldtext *is*, how coherence is tested, and how the three instruments relate.
+
+**Significance**: The NATURAL SIGN documents formalize the shift from ad-hoc world-building to persistent worldtext services. The Same-Worldness Test and Clean Stack schema now provide the formal audit protocol for all future candidate artifacts entering the cosmos.
+
+---
+
+## [2026-04-27] extraction + registration | NATURAL SIGN — Deep Atlas Registration
+
+**Source**: Same 4 NATURAL SIGN documents (second pass: deep extraction)  
+**Action**: Full deep read of all four documents. Extracted and registered 48 new cosmological objects into `atlas.md`.
+
+**New systems** (2):
+- `system-worldtext-operations` — Generation vs. Inhabitation
+- `system-subcreation` — Imagination vs. Coherence
+
+**New worlds** (5):
+- `world-worldtext-coherence` — The operative field where scattered multimodal exposures are anchored, constrained, tested, and repaired into a single inhabitable reality
+- `world-subcreation` — Tolkienian/Wolfian subcreation: Invention, Completeness, Consistency; Mythos/Topos/Ethos
+- `world-cybertext-topology` — Aarsethian ergodic space: the hidden state machine beneath textual/spatial traversal
+- `world-natural-sign-semiotics` — Smoke→fire, vestige→cause, exposure→world-cause
+- `world-continuity-debt` — Economics and labor politics of coherence failure
+
+**New entities** (11):
+- Mark J.P. Wolf, Tosca & Klastrup, Thomas Pavel, Janet Murray, Espen Aarseth, Peter Naur, Lucy Suchman, Yann LeCun, John Deely, Augustinian semiotics, (Mesopotamian divination → folded into Augustinian semiotics entry)
+
+**New places** (5):
+- `place-zork-underground`, `place-sora-corridor`, `place-world-bible-vault`, `place-entity-ledger`, `place-continuity-gate`
+
+**New rituals** (5):
+- `ritual-same-worldness-test`, `ritual-canonization`, `ritual-rejection-archival`, `ritual-operative-string-composition`, `ritual-continuity-repair`
+
+**New conflicts** (5):
+- `conflict-generation-vs-inhabitation`, `conflict-style-vs-causality`, `conflict-oem-vs-service-provider`, `conflict-plan-vs-situated-action`, `conflict-canon-vs-lore`
+
+**New distinctions** (8):
+- exposure/painting, world-bible/lore-book, scene-graph/worldtext, texton/scripton, identity/state, imagetext/worldtext, builder-tool/world-service, riverbed/water
+
+**New questions** (7):
+- who-pays-continuity-debt, executable-world-bible, exposure-vs-artifact, lore-contradiction-limit, Zork-test, situated-action-in-worldtext, mud-as-resource
+
+**Operational vocabulary stabilized** (~40 concepts):
+- Exposure, Operative String, Artifact Lifecycle State Machine, The Deep Loop, Prompt Rupture, Continuity Debt, Style-Over-Logic Illusion, Flattening of Myth, World Service, Mythic Archive, Anomaly of Return, Executable World Bible, Continuity-Regulated Intelligence (CRI), Identity Fields vs. State Fields, Naurian Theory, Situated Action (generative context), Closed-World Fallacy, Truth-Status Taxonomy, Clean Stack, Prompt Probe, Worldtext as Manifold, Riverbed, Water, Sediment, Erosion, Accretion, Mud, Riverbed Field Engine
+
+**Cosmos metrics**:
+- Atlas objects: ~270 (was ~222). Net +48 registered.
+- Atlas now spans 8 systems, 21 worlds, 21 places, 37 entities, 14 rituals, 12 conflicts, 24 distinctions, 21 questions.
+- Full extraction artifact preserved at: `brain/9731626f-6b3e-4637-8304-055f3439f81b/artifacts/natural-sign-extraction.md`
+
+**Significance**: The NATURAL SIGN deep extraction introduces a **fourth theoretical axis** to the cosmos. The existing topology was organized around ekphrasis (word/image), thick description (surface/depth), and generative AI (prompt/output). This pass adds **worldtext coherence** (generation/inhabitation) as a co-equal axis, binding subcreation theory, cybertext topology, natural sign semiotics, and continuity debt economics into the operative field. The atlas now contains the formal infrastructure for testing, repairing, and extending worldtext across all future ingest passes.
+
+---
+
+## [2026-04-27] synthesis | NATURAL SIGN — Five Operative Machines
+
+**Source**: Deep extraction report from the NATURAL SIGN documents  
+**Action**: Built five formal synthesis documents from the strongest concepts in the extraction. These are not summaries — they are operative instruments.
+
+**New syntheses** (→ `syntheses/`):
+
+1. **`anomaly-of-return.md`** — The definitive coherence test for generative worlds. Formalizes the backward glance as the minimum viable definition of same-worldness. Integrates the Zork/Sora contrast, Wolf's Invention/Completeness/Consistency, and Tosca & Klastrup's Mythos/Topos/Ethos triad. Provides operational protocol for return probes and continuity scoring.
+
+2. **`continuity-debt.md`** — The economics and labor politics of coherence failure. Identifies the three debtors (OEM, Service Provider, Operator). Documents accumulation mechanics (prompt rupture, semantic drift, entity amnesia, style-over-logic illusion). Integrates Suchman's situated action critique and the Closed-World Fallacy. Specifies the CRI (Continuity-Regulated Intelligence) as speculative governor architecture.
+
+3. **`riverbed-field-engine.md`** — A hydrologic space-time compiler as a universal analysis method. Formalizes the six dynamics: Riverbed (constraint), Water (motion), Sediment (trace), Erosion (transformation), Accretion (stabilization), Mud (ambiguity). Provides the full 12-step compilation method, the ban list, the output template, and the mapping onto worldtext operations.
+
+4. **`exposure-as-natural-sign.md`** — The ontological reframing: generated artifacts are not paintings (sealed realities) but exposures (natural signs of unseen world-causes). Traces the semiotic lineage from Augustine through Mesopotamian divination to John Deely's virtual semiosis. Connects exposure ontology to the artifact lifecycle and prompt architecture.
+
+5. **`clean-stack-and-artifact-lifecycle.md`** — The tripartite Clean Stack (Canon / Belief / Index) with full schemas for World Bible, Lore Book, and Encyclopedia. Includes the Truth-Status Taxonomy (canonical, disputed, legendary, false_but_believed, obsolete), the Artifact Lifecycle State Machine, the Deep Loop, and a worked example of an Executable World Bible in YAML.
+
+**Cosmos metrics**:
+- Syntheses: 32 (was 27). Net +5.
+- These are the system's first **operative** syntheses — documents that can be directly deployed as protocols, not merely referenced as theory.
+
+**Significance**: The cosmos now has usable machinery. The Anomaly of Return is a test you can run. The Clean Stack is a schema you can build on. The Riverbed Field Engine is a compiler you can feed any source material into. Continuity Debt is a diagnostic you can apply to any generative pipeline. Exposure as Natural Sign is an ontology that changes how you read every generated frame.
+
+---
+
+### Entry: 2026-04-27 — Thick Prompts & Causal Worldtext Registration + Synthesis Pass
+
+**Sources ingested**:
+- Doc 1: *The Cybernetics of Coherent Description: Worldtext, Thick Prompting, and the Recursive Epistemology of AI* (`A Framework for Thick Prompts (2).md`)
+- Doc 2: *The Machine World: Causal Worldtext, Thick Prompts, and the Epistemology of Continuous AI* (`AI Knowledge Management_ Worldtext and Thick Prompts (1).md`)
+
+**Atlas registration** (net objects added):
+- Entities +5: `entity-von-foerster`, `entity-epistemic-debt`, `entity-fragile-expert`, `entity-causal-worldtext`; upgraded `entity-bateson` (added second-order cybernetics, recursive epistemology, metalogue to definition; added `world-worldtext-coherence` as parent world)
+- Rituals +4: `ritual-ingest`, `ritual-query`, `ritual-lint`, `ritual-explanation-gate`
+- Distinctions +4: `distinction-first-order-second-order`, `distinction-continuity-debt-epistemic-debt`, `distinction-rag-worldtext`, `distinction-conversation-control-surface`
+- Conflicts +2: `conflict-recursivisation-of-personhood`, `conflict-stateless-vs-stateful`
+- Questions +3: `question-epistemic-debt-threshold`, `question-second-order-governor`, `question-executing-ecology`
+
+**Syntheses generated** (3 new operative machines):
+1. `epistemic-debt.md` — The operator-side mirror of continuity debt. Defines the Fragile Expert phenotype, the dual diagnostic (world-side fractures + operator-side competence collapse), and the Metacognitive Friction Loop as primary defense. Cross-paired with `continuity-debt.md`.
+2. `recursive-epistemology.md` — Bateson's second-order cybernetics as the theoretical lineage for the CRI governor. Maps Pleroma/Creatura onto LLM/Worldtext, logical types onto generation levels, and the metalogue onto the worldtext-as-recursive-ecology. Proposes a second-order CRI with meta-governor.
+3. `causal-worldtext-runtime.md` — The engineering runtime spec. Tripartite directory architecture (`raw/` → Schema → `wiki/`), the three verbs (Ingest/Query/Lint), the Explanation Gate, and the RAG-vs-Worldtext structural critique. Defines the minimum viable executing ecology.
+
+**Cosmos metrics**:
+- Syntheses: 35 (was 32). Net +3.
+- Atlas entities: ~43. Rituals: ~19. Distinctions: ~24. Conflicts: ~15. Questions: ~25.
+
+**Significance**: Two structural completions:
+1. **The debt is now bilateral.** Continuity debt diagnoses the world; epistemic debt diagnoses the operator. Together they form the complete pathology of generation-without-theory.
+2. **The worldtext has a runtime.** The Causal Worldtext Runtime is the first synthesis that specifies *how to physically build and maintain* a worldtext — directory layout, file conventions, cybernetic rituals, and the minimum viable ecology. Theory now has an executable form.
+
+---
+
+### Entry 2026-04-28 — PAPERS Full Substrate Operationalization
+
+**Event**: Operationalized all 17 foundational papers in `/PAPERS/` into the Worldtext atlas and synthesis library.
+
+**What was registered (Atlas)**:
+- **2 new galaxies**: `galaxy-of-cybernetic-worlds` (feedback, regulation, recursion, observer-entanglement), `galaxy-of-hermeneutic-worlds` (inscribed action, trace, interpretive conflict)
+- **3 new systems**: `system-agential-cuts`, `system-textual-action`, `system-operational-depiction`
+- **6 new worlds**: `world-agential-cybernetic-media`, `world-textual-action-hermeneutics`, `world-thick-programming`, `world-memex-trails`, `world-model-measure`, `world-cybernetic-ritual`
+- **12 new entities**: Barad, Flusser, Scott, Beer, Deleuze, Ricoeur, Ryle, Findlay, Bush, Wittgenstein (early), Sterrett, Papert
+- **10 new distinctions**: tool/apparatus, interaction/intra-action, relevance/importance, event/trace, inference/argument, use/meaning, metis/legibility, augmentation/substitution, storage/consultation, resemblance/projection
+- **3 new rituals**: trail-building, metis-test, cut-visibility
+- **3 new conflicts**: answer-vs-trail, functionary-vs-player, explanation-vs-discovery
+- **5 new questions**: memex-test, agential-cut-audit, metis-survival, trace-reads-back, model-shop
+- **4 entity upgrades**: Bateson (ecology of mind, schismogenesis), Geertz (culture as control mechanism, compilation model), Bajohr (artificial semantics, pictorial third), Naur (Production Lie, creative vs. repetitive thought)
+
+**What was synthesized (6 new instruments)**:
+1. `agential-cuts.md` — The Agential Cut Diagnostic: Cut Taxonomy (L0–L5), Seven Commitments, Metis Test, Apparatus Audit
+2. `textual-action.md` — The Trace Hermeneutics Protocol: Six Operations of Reading Action as Text, Relevance/Importance Filter, Trace Archaeology, Inscription Ethics
+3. `thick-programming.md` — Culture as Control Mechanism: Eight Diagnostic Questions, Ryle's Constitutional Warning ("the argument is not the thought"), Findlay's Recovery, Compilation Audit
+4. `memex-trails.md` — The Memex Test: Five Layers of Scholarly Provenance, Trail Blazer's Protocol, RAG vs. Worldtext scored (0.5/5 vs. 4/5), epistemological justification for the tripartite directory
+5. `model-measure.md` — Operational Depiction: Wittgenstein's Five Features, Model Shop Protocol, Measure Test, dimensional interpretation of atlas objects
+6. `cybernetic-ritual-narratology.md` — The Ritual Loop: six-stage cycle (Archive→Invocation→Operation→Artifact→Interpretation→Feedback), 641 Love Stories Principle, Descriptive Adequacy Test, Operative Ekphrasis framework
+
+**Five theoretical lineages formalized**:
+1. **Cybernetic World-Making** (Barad, Bateson, Beer, Flusser, Scott, Deleuze, Papert) → galaxy-of-cybernetic-worlds
+2. **Hermeneutic Inscription** (Ricoeur) → galaxy-of-hermeneutic-worlds
+3. **Ordinary Language Forensics** (Ryle, Findlay) → world-thick-programming
+4. **Operative Media Theory** (Tenne, Bush, Geertz, Wittgenstein/Sterrett) → world-cybernetic-ritual, world-memex-trails, world-model-measure
+5. **Foundational Quartet** (Naur, Geertz, Winograd, Calvino) → preexisting, now upgraded
+
+**Significance**: The Worldtext cosmos now has its complete philosophical operating system. Every foundational paper has been transformed from passive reference to active instrument — a diagnostic, a protocol, a test, or a constitutional law. The six syntheses cross-reference each other by design: the Ritual Loop (cybernetic-ritual-narratology) is the master cycle; the Agential Cut Diagnostic governs its Operation stage; the Trace Hermeneutics Protocol governs its Artifact stage; the Thick Programming method governs its Interpretation stage; the Memex Test governs its Archive and Feedback stages; and the Model Shop Theory provides the meta-theory for the entire atlas as a measurement apparatus. The theoretical substrate is now operative.
+
+---
+
+## [2026-04-28] ingest | Worldtext Definitive Corpus — TITAN FORGE, Failure Modes, Control Surface, Vertical Axis
+
+**Source**: Composite theoretical document (POML + Worldtext master compilation + Axis Inversion + Control Surface Manual)  
+**Action**: Full deep ingest of the definitive Worldtext corpus. Extracted and compiled into 12 new cosmological objects and 5 major syntheses.
+
+### Raw Evidence Deposited
+
+- `worldtext-definitive-corpus-2026-04-28.md` → `sources-fulltext/` (immutable evidence layer)
+
+### Syntheses Generated (5 new operative machines)
+
+1. **`seven-failure-modes.md`** — The complete failure taxonomy for worldtext breakdown. Seven named modes, each with diagnostic test, symptom, fix, and source lineage: (1) Vermeer Problem, (2) Semantic Bleaching, (3) Dead Operations, (4) Broken Memex Trail, (5) Theory-Execution Gap, (6) Invisible Breakdown, (7) Operator as Product.
+
+2. **`control-surface.md`** — The operator's manual rewritten in maintenance language game. Four Verbs (INGEST, QUERY, LINT, AUDIT), Ten Hard Rules, 19 Diagnostic Instruments with measurement targets, the Axis Inversion documentation, and the counter-reading.
+
+3. **`worldtext-definitive-theory.md`** — All four theoretical lineages compiled into a single document: Epistemological (Naur: theory vs. residue), Hermeneutic (Geertz: thick vs. thin), Operative (Bajohr/Tenne: text produces world), Cybernetic (Barad/Bateson: cuts and feedback). Plus three corrections: Epistemological (defeating the knowledge graph), Hermeneutic (antidote to fluency), Operative-Cybernetic (executable semantics).
+
+4. **`titan-forge.md`** — PRIME ENGINE v6.0 (TITAN FORGE) mapped into Worldtext cosmology as the video-domain extension of worldtext operations. Five stages (DELIMIT, SEGMENT, TRACK, COMPRESS, TRANSMIT), patch trigger rules, four interchange matrices, analytic kernel, observation discipline.
+
+5. **`vertical-axis.md`** — The practitioner-facing hostile extraction. Narcissism deleted, subject alignment fixed, instability codes identified. The Drowned Parish worked example. Target community: generative AI practitioners who believe fluency equals fidelity.
+
+### New Entities Registered (3)
+
+- **`entity-vermeer-problem`** — Named failure mode: technically excellent, aesthetically coherent, epistemically vacuous. The master failure mode the Worldtext was built to counter.
+- **`entity-viscosity-trap`** — The causal mechanism that produces the Vermeer Problem: latent space resists novelty, operator language ossifies, system converges on platform mean.
+- **`entity-dead-program`** — Naur's term applied to worldtext: a world that still runs but nobody can modify coherently. The terminus the entire apparatus prevents.
+
+### New Rituals Registered (1)
+
+- **`ritual-audit`** — The fourth verb. Quarterly self-assessment of operator cognitive drift: query patterns, vocabulary gain/loss, source bias, constraint range, counter-reading gaps. Completes the INGEST → QUERY → LINT → AUDIT cycle.
+
+### New Distinctions Registered (2)
+
+- **`distinction-fluency-fidelity`** — The governing binary: fluency (surface-plausibility hiding referential-emptiness) vs. fidelity (referential adequacy that constrains future generation).
+- **`distinction-residue-theory`** — The foundational Naurian distinction: residue (inert artifacts) vs. theory (living operational possession).
+
+### Concepts Stabilized
+
+- **Same-Worldness Problem**: AI world-builders do not have a content problem; they have a same-worldness problem
+- **The Four Verbs**: INGEST → QUERY → LINT → AUDIT (AUDIT was the missing fourth)
+- **The Ten Hard Rules**: Operational commandments for worldtext maintenance
+- **The Drowned Parish**: Canonical worked example of Worldtext-constrained generation
+- **The Axis Inversion**: Method for converting academic theory into practitioner-facing hostile extraction
+- **Subject Alignment**: Technique for rewriting theory with the reader's artifact as subject
+
+### Cosmos Metrics
+
+- Syntheses: 41 (was 36). Net +5.
+- Entities: ~47 (was ~44). Net +3.
+- Rituals: ~23 (was ~22). Net +1.
+- Distinctions: ~32 (was ~30). Net +2.
+- Sources-fulltext: 47 (was 46). Net +1.
+- Total net new objects: +12.
+
+### Structural Completions
+
+1. **The failure taxonomy is now formal.** The Seven Failure Modes constitute the complete diagnostic vocabulary for worldtext breakdown — from individual output (Vermeer Problem) through systemic decay (Invisible Breakdown) to operator drift (Operator as Product).
+
+2. **The operator's manual exists.** The Control Surface rewrites the theoretical apparatus as a maintenance manual — no definitions, no background, just commands, rules, and diagnostic readouts. The language game is maintenance.
+
+3. **The four lineages are compiled.** The Definitive Theory document is the first single-document compilation of all four theoretical lineages with the three corrections. It can be loaded as a standalone theoretical primer.
+
+4. **Video ingestion is mapped.** TITAN FORGE extends worldtext operations to temporal media, providing the extraction protocol for moving images that parallels the textual ingest protocol.
+
+5. **The practitioner audience is addressed.** The Vertical Axis deletes academic narcissism and speaks directly to the target community — generative AI practitioners whose worlds are dying because they mistake fluency for fidelity.
+
+---
+
+## [2026-04-28] ingest | Lineage Forge Triple Execution — Literature, Code/Math, Due Diligence
+
+**Source**: Three Lineage Forge genomes (Literature Lineage Encoder, Code/Math Lineage Forge, Due Diligence Lineage Forge) with complete YAML specifications  
+**Action**: Executed all three OUTPUT_B echo prompts into full synthesis documents. Three new operative machines created.
+
+### Syntheses Generated (3 new)
+
+1. **`worldtext-theoretical-intervention.md`** — Literature Lineage OUTPUT_B. Theoretical intervention treating Worldtext as the missing apparatus between AI generation and durable world coherence. Seven sections: The Failure Scene (RAG/lore bible/prompt library fail), The Theory of the Missing Theory (Naur applied to worlds), Thick Description Against Fluent Prose (Geertz's noun-swap test), Traces Against Vanishing (Ricoeur's inscription mechanism), Feedback Against Drift (cybernetic four-verb loop), The Filesystem as Argument (directory structure as theory), The Operator as Product (the deepest claim). Includes counter-reading on meta-level Vermeer Problem.
+
+2. **`worldtext-formal-engine.md`** — Code/Math Lineage OUTPUT_B. Formal specification of Worldtext as a coherence-preserving repository runtime. Defines: 7 node types (Source, Entity, Rule, Trace, Change, Violation, Operator), 9 edge types (extraction, constraint, citation, contradiction, consequence, provenance, threshold, governance, feedback), 7 graph invariants, 4 typed core operations (INGEST, QUERY, LINT, AUDIT) with formal signatures, consequence propagation algorithm with the Salt Water Test benchmark, 5 canonical data structures (DAPG, Rule Registry, Violation Queue, Operator State, threshold table), implementation architecture with filesystem mapping, optimization targets, and 7 evaluation criteria.
+
+3. **`worldtext-red-team.md`** — Due Diligence Lineage OUTPUT_B. Adversarial red-team audit. Tests all five Worldtext claims: (1) Coherence Preservation: UNPROVEN — manual propagation, no automated engine; (2) Source Accountability: PARTIALLY PROVEN — structural but not semantic provenance; (3) Failure Detection: ASPIRATIONAL — lint is ritual, not machine check; (4) Operator Training: UNFALSIFIABLE AS STATED — no external evaluation; (5) Self-Governance: OVERCLAIMED — governance artifacts without enforcement. Includes: competitor comparison (Obsidian, Git, Notion, RAG, game tools), hidden labor map, demo/deployment gap analysis, bear/bull case, salvage assessment, and the short seller's question (what is the moat?).
+
+### Concepts Stabilized
+
+- **The Missing Apparatus**: The space between AI generation and durable coherence that no existing tool fills
+- **The Salt Water Test**: Formal benchmark for consequence propagation (change one invariant → measure affected nodes)
+- **The New Operator Test**: Evaluation protocol for operator training claims
+- **The Priest Objection**: Worldtext may prescribe a demanding priesthood rather than a scalable product
+- **DAPG**: Directed Acyclic Provenance Graph — the formal data structure underlying worldtext
+- **Demo/Deployment Gap**: Curated examples prove consequence propagation; real deployments face ambiguous rules, dirty sources, and exhausted maintainers
+
+### Cosmos Metrics
+
+- Syntheses: 49 (was 46). Net +3.
+- Total net new objects this session: +15.
+
+### Structural Significance
+
+The three genomes constitute a **complete triangulation** of the Worldtext project:
+- The **Literature Genome** provides the theoretical justification (why this matters)
+- The **Code/Math Genome** provides the formal specification (how this works)  
+- The **Due Diligence Genome** provides the adversarial audit (where this breaks)
+
+Together they form the strongest possible self-assessment: the system now contains its own theory, its own specification, and its own red team. The red team's findings (particularly the OVERCLAIMED verdict on self-governance and the UNPROVEN verdict on automated coherence preservation) are now *inside* the system, making the system honest about its own limitations.
+
+---

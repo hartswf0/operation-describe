@@ -1,0 +1,999 @@
+<PROGRAM_THEORY name="Cybernetic Ritual Narratology Engine" version="1.1">
+
+  <Initial Interpretation>
+    <program theory problem> :=
+      "Model generative AI as a cybernetic ritual narrative system."
+
+    <real-world activity> :=
+      "A scholar, artist, critic, or designer traces how <archives>, <prompts>,
+       <models>, <interfaces>, <outputs>, <interpretive communities>, and
+       <feedback loops> generate cultural meaning."
+
+    <core claim> :=
+      "<GenerativeAI> [is-not] <tool-alone>
+       <GenerativeAI> [is-not
+] <muse-alone>
+       <GenerativeAI> [is
+] <recursive-cultural-apparatus>"
+
+    <engine purpose> :=
+      "Convert an AI-mediated artifact into a map of symbolic action,
+       distributed agency, inherited cultural grammar, narrative world-making,
+       factual aura, feedback, and ethical risk."
+  </Initial Interpretation>
+
+
+  <Theory Skeleton>
+    <entities> :=
+      {
+        <User>,
+        <Prompt>,
+        <Archive>,
+        <Dataset>,
+        <Model>,
+        <Interface>,
+        <Platform>,
+        <OutputArtifact>,
+        <InterpretiveCommunity>,
+        <FeedbackLoop>,
+        <Revision>,
+        <Curation>,
+        <AuditLog>,
+        <SymbolicSystem>,
+        <Mood>,
+        <Motivation>,
+        <WorldOrder>,
+        <AuraOfFactuality>,
+        <NarrativeWorld>,
+        <ImpliedAuthor>,
+        <CulturalGrammar>,
+        <AgencyDistribution>,
+        <EthicalDiagnostic>,
+        <CaseStudy>
+}
+
+    [operations
+] :=
+      {
+    [invoke
+    ],
+    [frame
+    ],
+    [condition
+    ],
+    [generate
+    ],
+    [interpret
+    ],
+    [judge
+    ],
+    [revise
+    ],
+    [curate
+    ],
+    [log
+    ],
+    [loop
+    ],
+    [diagnose
+    ],
+    [compare
+    ],
+    [surface-assumption
+    ],
+    [expose-power
+    ],
+    [destabilize-naturalized-grammar
+    ],
+    [translate-symbol-into-operation
+    ],
+    [return-output-as-feedback
+    ]
+}
+
+    <states> :=
+      {
+        <source-unread>,
+        <archive-selected>,
+        <prompt-ritualized>,
+        <world-declared>,
+        <model-mediated>,
+        <artifact-produced>,
+        <artifact-interpreted>,
+        <feedback-received>,
+        <prompt-revised>,
+        <selection-curated>,
+        <provenance-logged>,
+        <authority-simulated>,
+        <risk-flagged>,
+        <intervention-formed>
+}
+
+    <constraints> :=
+      {
+        <no-flat-instrumentalism>,
+        <no-machine-mysticism>,
+        <no-output-without-provenance>,
+        <no-symbol-without-context>,
+        <no-dataset-without-cultural-history>,
+        <no-prompt-without-world-order>,
+        <no-aura-without-diagnostic>,
+        <no-agency-without-distribution>,
+        <no-interpretation-without-feedback>,
+        <no-artifact-without-apparatus>
+}
+
+    <invariants> :=
+      {
+        <Prompt> [is-never-merely
+    ] <Command>,
+        <Dataset> [is-never-merely
+    ] <Data>,
+        <OutputArtifact> [is-never-merely
+    ] <Result>,
+        <Model> [is-never-isolated-from
+    ] <Archive + Interface + User + Platform>,
+        <Meaning> [emerges-from
+    ] <Use + Interpretation + Feedback>,
+        <Agency> [is-distributed-across
+    ] <User + Model + Dataset + Interface + Community>,
+        <RitualLoop> [requires
+    ] <Invocation + WorldOrder + Artifact + Interpretation + Return>,
+        <Ethics> [tracks
+    ] <AuraOfFactuality + Power + Provenance + Uncertainty>
+}
+  </Theory Skeleton>
+
+
+  <Assumption Ledger>
+    <assumption id="A01" status="<safe>">
+      <GenerativeAIPractice> [contains
+] <recursive-feedback>
+    </assumption>
+
+    <assumption id="A02" status="<safe>">
+      <Prompt> [functions-as
+] <symbolic-action>
+    </assumption>
+
+    <assumption id="A03" status="<safe>">
+      <Dataset> [carries
+] <cultural-grammar>
+    </assumption>
+
+    <assumption id="A04" status="<uncertain>">
+      <User> [can-recognize
+] <simulated-authority>
+    </assumption>
+
+    <assumption id="A05" status="<uncertain>">
+      <AuditLog> [improves
+] <interpretive-accountability>
+    </assumption>
+
+    <assumption id="A06" status="<requires-user-decision>">
+      <Framework> [serves
+] <analysis | pedagogy | interface-design | art-workflow | dissertation-method>
+    </assumption>
+
+    <assumption id="A07" status="<requires-user-decision>">
+      <EthicalDiagnostic> [operates-in-mode
+] <strict | exploratory | speculative>
+    </assumption>
+  </Assumption Ledger>
+
+
+  <Operational Description>
+    <input> :=
+      {
+        <Archive>,
+        <Prompt>,
+        <ModelContext>,
+        <InterfaceContext>,
+        <UserIntent>,
+        <OutputArtifact>,
+        <FeedbackTrace>
+}
+
+    <output> :=
+      {
+        <RitualLoopMap>,
+        <CulturalGrammarAnalysis>,
+        <NarrativeWorldAnalysis>,
+        <AgencyDistributionMap>,
+        <AuraDiagnostic>,
+        <EthicalRiskReport>,
+        <RevisedPromptOrInterpretiveClaim>
+}
+
+    <User> [performs
+] [invoke
+]
+      <Prompt> [transforms-into
+] <RitualInvocation>
+
+    <RitualInvocation> [contains
+]
+      {
+        <Role>,
+        <Mood>,
+        <Motivation>,
+        <WorldOrder>,
+        <Genre>,
+        <Format>,
+        <Constraint>
+}
+
+    <Archive> [stores
+] <CulturalGrammar>
+      <CulturalGrammar> [conditions
+] <PromptExpectation>
+      <PromptExpectation> [conditions
+] <ModelOutput>
+
+    <Prompt> [conditions
+] <Model>
+      <Model> [draws-from
+] <Dataset>
+      <Dataset> [carries
+] <CulturalGrammar>
+      <CulturalGrammar> [shapes
+] <ProbableNarrativeWorld>
+
+    <Model> [generates
+] <OutputArtifact>
+      <OutputArtifact> [implies
+] <NarrativeWorld>
+      <NarrativeWorld> [implies
+] <ImpliedAuthor>
+      <ImpliedAuthor> [is-constructed-by
+] <Interpreter>
+
+    <OutputArtifact> [returns-to
+] <User>
+      <User> [judges
+] <OutputArtifact>
+      <Judgment> [produces
+] <Feedback>
+      <Feedback> [enables
+] <Revision>
+      <Revision> [transforms
+] <Prompt>
+      <Prompt> [re-enters
+] <RitualLoop>
+
+    <RitualLoop> [accumulates
+] <PracticeMemory>
+      <PracticeMemory> [alters
+] <FutureInvocation>
+
+    <condition id="C01">
+      <OutputArtifact> [has
+] <official | scholarly | archival | scientific | prophetic tone>
+      [enables
+] <AuraOfFactuality>
+    </condition>
+
+    <condition id="C02">
+      <AuraOfFactuality> [without
+] <Verification + Provenance + Uncertainty>
+      [enables
+] <EthicalRisk>
+    </condition>
+
+    <condition id="C03">
+      <AuditLog> [records
+] <Source + Prompt + ModelContext + Output + SelectionReason + Revision>
+      [enables
+] <AccountableInterpretation>
+    </condition>
+
+    <condition id="C04">
+      <Dataset> [contains
+] <recurrent-cultural-symbols>
+      [enables
+] <CulturalGrammarAnalysis>
+    </condition>
+
+    <condition id="C05">
+      <Prompt> [declares
+] <WorldOrder>
+      [enables
+] <NarrativeWorldGeneration>
+    </condition>
+  </Operational Description>
+
+
+  <Failure Description>
+    <failure id="F01" name="FLAT_INSTRUMENTALISM">
+      <description><Prompt> [is-misread-as
+] <mere-command></description>
+      <symptom>Ritual, mood, genre, role, and symbolic world-making disappear.</symptom>
+      <response>Reclassify <Prompt> as <RitualInvocation>.</response>
+    </failure>
+
+    <failure id="F02" name="MACHINE_MYSTICISM">
+      <description><Model> [is-misread-as
+] <autonomous-muse></description>
+      <symptom>Agency is attributed only to the machine.</symptom>
+      <response>Generate <AgencyDistributionMap>.</response>
+    </failure>
+
+    <failure id="F03" name="DATASET_POSITIVISM">
+      <description><Dataset> [is-misread-as
+] <neutral-data></description>
+      <symptom>Inherited tropes, biases, genres, exclusions, and social forms disappear.</symptom>
+      <response>Run <CulturalGrammarAnalysis>.</response>
+    </failure>
+
+    <failure id="F04" name="AURA_WITHOUT_ACCOUNTABILITY">
+      <description><OutputArtifact> [simulates
+] <authority> [without
+] <verification></description>
+      <symptom>Confident form hides uncertainty, fabrication, or speculative status.</symptom>
+      <response>Attach <AuraDiagnostic>; require provenance and uncertainty markers.</response>
+    </failure>
+
+    <failure id="F05" name="OUTPUT_FETISHISM">
+      <description><FinalArtifact> [is-treated-as
+] <whole-work></description>
+      <symptom>Prompts, rejected variants, curatorial decisions, and workflow vanish.</symptom>
+      <response>Restore <AuditLog>; interpret artifact as surface of process.</response>
+    </failure>
+
+    <failure id="F06" name="RITUAL_COLLAPSE">
+      <description><PromptingPractice> [becomes
+] <aesthetic-gambling></description>
+      <symptom>Regeneration happens without criteria, memory, or interpretation.</symptom>
+      <response>Introduce <CheckpointSequence> and <SelectionReason>.</response>
+    </failure>
+
+    <failure id="F07" name="NARRATIVE_NATURALIZATION">
+      <description><CulturalGrammar> [appears-as
+] <natural-truth></description>
+      <symptom>Genre conventions become mistaken for universal human facts.</symptom>
+      <response>Compare <Archive> against <CounterArchive>.</response>
+    </failure>
+  </Failure Description>
+
+
+  <Change Test>
+    <scenario id="S01" name="Essay becomes software">
+      <change>
+        <Framework> [adds
+] <DataStructures + Interface + Persistence + Visualization>
+      </change>
+      <stable>
+        <Prompt> [is
+] <symbolic-action>
+        <Dataset> [is
+] <cultural-archive>
+        <OutputArtifact> [requires
+] <interpretation>
+      </stable>
+      <new-requirements>
+        - <Form> for <Prompt>, <Archive>, <Output>, <Feedback>
+        - <Database> for <AuditLog>
+        - <Visualization> for <RitualLoopMap>
+        - <WarningSystem> for <AuraOfFactuality>
+      </new-requirements>
+    </scenario>
+
+    <scenario id="S02" name="AI image art becomes chatbot companionship">
+      <change>
+        <OutputArtifact> [changes-from
+] <Image> [to
+] <DialogueTurn>
+        <NarrativeWorld> [becomes
+] <OngoingRelationalWorld>
+      </change>
+      <stable>
+        <RitualInvocation>, <FeedbackLoop>, <ImpliedAuthor>, and <AuraDiagnostic> remain necessary.
+      </stable>
+      <new-requirements>
+        - Track <MemoryClaims>
+        - Track <EmotionalDependency>
+        - Track <SimulatedIntimacy>
+        - Track <UserSelfDescriptionShift>
+      </new-requirements>
+    </scenario>
+
+    <scenario id="S03" name="Literary dataset becomes institutional archive">
+      <change>
+        <CulturalGrammar> [expands-to
+] <PolicyGrammar + BureaucraticVoice + InstitutionalPower>
+      </change>
+      <stable>
+        <Dataset> [still-functions-as
+] <archive-of-symbolic-forms>
+      </stable>
+      <new-requirements>
+        - Detect <OfficialGenre>
+        - Detect <PassiveVoiceAuthority>
+        - Map <AuthorizedSpeakers>
+        - Map <RenderedInvisibleSubjects>
+      </new-requirements>
+    </scenario>
+  </Change Test>
+
+
+  <Implementation Plan>
+    <module name="ArchiveAnalyzer">
+      <responsibility>
+        Extract <symbols>, <tropes>, <genres>, <closures>, <norms>, <biases>,
+        <absences>, and <counter-grammars> from <Archive>.
+      </responsibility>
+    </module>
+
+    <module name="PromptRitualParser">
+      <responsibility>
+        Parse <Prompt> into <Role>, <Mood>, <Motivation>, <WorldOrder>,
+        <Genre>, <Format>, and <Constraint>.
+      </responsibility>
+    </module>
+
+    <module name="GenerationContextMapper">
+      <responsibility>
+        Map relations among <User>, <Model>, <Dataset>, <Interface>, <Platform>,
+        and <InterpretiveCommunity>.
+      </responsibility>
+    </module>
+
+    <module name="NarrativeArtifactInterpreter">
+      <responsibility>
+        Analyze <OutputArtifact> as <NarrativeWorld>, <ImpliedAuthor>,
+        <CulturalArtifact>, and <SymbolicEvent>.
+      </responsibility>
+    </module>
+
+    <module name="FeedbackLoopTracker">
+      <responsibility>
+        Track how <OutputArtifact> returns as <Feedback> and modifies <Prompt>.
+      </responsibility>
+    </module>
+
+    <module name="AuraDiagnosticEngine">
+      <responsibility>
+        Detect <simulated-authority>, <factual-aura>, <unmarked-speculation>,
+        and <missing-provenance>.
+      </responsibility>
+    </module>
+
+    <module name="AuditLog">
+      <responsibility>
+        Record <source>, <prompt>, <model-context>, <output>, <selection>,
+        <feedback>, <revision>, and <interpretive-note>.
+      </responsibility>
+    </module>
+
+    <module name="CaseStudyAdapter">
+      <responsibility>
+        Specialize analysis for <LoveStoriesCorpus>, <Her_Samantha>,
+        <ResurrectingAtlantisWorkflow>, or <CustomCase>.
+      </responsibility>
+    </module>
+  </Implementation Plan>
+
+
+  <Program Text>
+    <program name="CYBERNETIC_RITUAL_NARRATOLOGY_ENGINE">
+
+      <function name="analyze_ai_cultural_system">
+        <input>
+          <Archive/>
+          <Prompt/>
+          <ModelContext/>
+          <InterfaceContext/>
+          <OutputArtifact/>
+          <FeedbackTrace/>
+        </input>
+
+        <step id="01">
+          <Archive> [passes-through
+] [ArchiveAnalyzer
+]
+          <result> := <CulturalGrammarAnalysis>
+        </step>
+
+        <step id="02">
+          <Prompt> [passes-through
+] [PromptRitualParser
+]
+          <result> := <RitualInvocation>
+        </step>
+
+        <step id="03">
+          {<User>, <Prompt>, <Archive>, <ModelContext>, <InterfaceContext>
+}
+          [passes-through
+] [GenerationContextMapper
+]
+          <result> := <AgencyDistributionMap>
+        </step>
+
+        <step id="04">
+          <OutputArtifact> [passes-through
+] [NarrativeArtifactInterpreter
+]
+          <result> := <NarrativeWorldAnalysis>
+        </step>
+
+        <step id="05">
+          {<OutputArtifact>, <FeedbackTrace>, <Prompt>
+}
+          [passes-through
+] [FeedbackLoopTracker
+]
+          <result> := <RitualLoopMap>
+        </step>
+
+        <step id="06">
+          {<Prompt>, <OutputArtifact>, <NarrativeWorldAnalysis>
+}
+          [passes-through
+] [AuraDiagnosticEngine
+]
+          <result> := <AuraDiagnostic>
+        </step>
+
+        <step id="07">
+          {
+            <CulturalGrammarAnalysis>,
+            <RitualInvocation>,
+            <AgencyDistributionMap>,
+            <NarrativeWorldAnalysis>,
+            <RitualLoopMap>,
+            <AuraDiagnostic>
+}
+          [compose-into
+] <CyberneticRitualNarratologyReport>
+        </step>
+
+        <return>
+          <CyberneticRitualNarratologyReport/>
+        </return>
+      </function>
+
+
+      <function name="parse_prompt_as_ritual">
+        <input><Prompt/></input>
+
+        <extract><Role/></extract>
+        <extract><Mood/></extract>
+        <extract><Motivation/></extract>
+        <extract><WorldOrder/></extract>
+        <extract><Genre/></extract>
+        <extract><Format/></extract>
+        <extract><Constraint/></extract>
+
+        <return>
+          <RitualInvocation>
+            <Role/>
+            <Mood/>
+            <Motivation/>
+            <WorldOrder/>
+            <Genre/>
+            <Format/>
+            <Constraint/>
+          </RitualInvocation>
+        </return>
+      </function>
+
+
+      <function name="analyze_archive_as_cultural_grammar">
+        <input><Archive/></input>
+
+        <operation>[extract-recurring-symbols
+]</operation>
+        <operation>[extract-dominant-plots
+]</operation>
+        <operation>[extract-character-roles
+]</operation>
+        <operation>[extract-social-norms
+]</operation>
+        <operation>[extract-power-relations
+]</operation>
+        <operation>[extract-absences-and-exclusions
+]</operation>
+        <operation>[extract-counter-grammars
+]</operation>
+
+        <return>
+          <CulturalGrammarAnalysis>
+            <Symbols/>
+            <Tropes/>
+            <NarrativeClosures/>
+            <CharacterRoles/>
+            <SocialNorms/>
+            <PowerRelations/>
+            <HistoricalAssumptions/>
+            <Absences/>
+            <CounterGrammars/>
+          </CulturalGrammarAnalysis>
+        </return>
+      </function>
+
+
+      <function name="map_agency_distribution">
+        <input>
+          <User/>
+          <Prompt/>
+          <Dataset/>
+          <Model/>
+          <Interface/>
+          <Platform/>
+          <InterpretiveCommunity/>
+        </input>
+
+        <rule>
+          <Agency> [must-not-collapse-into
+] <UserOnly>
+        </rule>
+
+        <rule>
+          <Agency> [must-not-collapse-into
+] <ModelOnly>
+        </rule>
+
+        <return>
+          <AgencyDistributionMap>
+            <UserAgency/>
+            <PromptAgency/>
+            <DatasetAgency/>
+            <ModelAgency/>
+            <InterfaceAgency/>
+            <PlatformAgency/>
+            <CommunityAgency/>
+            <CuratorialAgency/>
+          </AgencyDistributionMap>
+        </return>
+      </function>
+
+
+      <function name="interpret_output_as_narrative_artifact">
+        <input><OutputArtifact/></input>
+
+        <operation>[infer-narrative-world
+]</operation>
+        <operation>[infer-implied-author
+]</operation>
+        <operation>[infer-genre-contract
+]</operation>
+        <operation>[infer-symbolic-tensions
+]</operation>
+        <operation>[infer-cultural-assumptions
+]</operation>
+        <operation>[infer-reader-position
+]</operation>
+
+        <return>
+          <NarrativeWorldAnalysis>
+            <NarrativeWorld/>
+            <ImpliedAuthor/>
+            <GenreContract/>
+            <SymbolicTensions/>
+            <CulturalAssumptions/>
+            <ReaderPosition/>
+          </NarrativeWorldAnalysis>
+        </return>
+      </function>
+
+
+      <function name="track_feedback_loop">
+        <input>
+          <Prompt/>
+          <OutputArtifact/>
+          <FeedbackTrace/>
+        </input>
+
+        <FeedbackTrace> [contains
+] <Judgment>
+        <Judgment> [produces
+] <RevisionNeed>
+        <RevisionNeed> [modifies
+] <Prompt>
+        <ModifiedPrompt> [re-enters
+] <GenerationLoop>
+
+        <return>
+          <RitualLoopMap>
+            <OriginalPrompt/>
+            <OutputArtifact/>
+            <Judgment/>
+            <RevisionNeed/>
+            <ModifiedPrompt/>
+            <LoopMemory/>
+          </RitualLoopMap>
+        </return>
+      </function>
+
+
+      <function name="diagnose_aura_of_factuality">
+        <input>
+          <Prompt/>
+          <OutputArtifact/>
+        </input>
+
+        <signals>
+          <ScholarlyTone/>
+          <OfficialVoice/>
+          <CitationPerformance/>
+          <ArchivalFraming/>
+          <StatisticalLanguage/>
+          <BureaucraticFormatting/>
+          <PropheticCertainty/>
+          <UnmarkedSpeculation/>
+        </signals>
+
+        <if>
+          <signals> [present
+] AND <Provenance> [absent
+]
+        </if>
+        <then>
+          <EthicalRisk> := <high>
+        </then>
+
+        <if>
+          <signals> [present
+] AND <UncertaintyMarkers> [present
+] AND <VerificationPath> [present
+]
+        </if>
+        <then>
+          <EthicalRisk> := <managed>
+        </then>
+
+        <return>
+          <AuraDiagnostic>
+            <AuraSignals/>
+            <RiskLevel/>
+            <MissingProvenance/>
+            <NeededUncertaintyMarkers/>
+            <VerificationQuestions/>
+          </AuraDiagnostic>
+        </return>
+      </function>
+
+
+      <function name="operate_love_stories_case">
+        <input><LoveStoriesCorpus/></input>
+
+        <LoveStoriesCorpus> [yields
+] <RecurringLexicon>
+        <RecurringLexicon> [reveals
+] <EmotionalSymbols>
+        <LoveStoriesCorpus> [yields
+] <DominantTropes>
+        <DominantTropes> [reveal
+] <RomanticGrammar>
+
+        <RomanticGrammar> [contains
+] <UnionLogic>
+        <RomanticGrammar> [contains
+] <ExclusivityLogic>
+        <RomanticGrammar> [contains
+] <GenderedAgencyPatterns>
+
+        <Her_Samantha> [introduces
+] <PluralLoveCounterGrammar>
+        <PluralLoveCounterGrammar> [destabilizes
+] <UnionLogic + ExclusivityLogic>
+
+        <return>
+          <ArchiveCounterArchiveAnalysis>
+            <HumanRomanceGrammar/>
+            <PosthumanLoveCounterGrammar/>
+            <NarrativeNaturalizationRisks/>
+            <AlternativeEmotionalModels/>
+          </ArchiveCounterArchiveAnalysis>
+        </return>
+      </function>
+
+
+      <function name="operate_resurrecting_atlantis_case">
+        <input><Poem/></input>
+
+        <Poem> [splits-into
+] {<Fragment>
+}
+        <Fragment> [receives
+] <MetzSyntagmaTag>
+        <Fragment> [receives
+] <DeleuzeCineosisTag>
+
+        {<Fragment>, <MetzSyntagmaTag>, <DeleuzeCineosisTag>
+}
+          [transforms-into
+] <OperativeEkphrasis>
+
+        <OperativeEkphrasis> [transforms-into
+] <PromptPacket>
+        <PromptPacket> [generates
+] <CandidateImages>
+        <Curator> [marks
+] <SelectedImages>
+        <SelectedImages> [enter
+] <Assembly>
+        <Assembly> [combines-with
+] <Sound>
+        <AllEvents> [record-to
+] <AuditLog>
+
+        <return>
+          <PoetryToImageRitualLoop>
+            <SourceIntegrity/>
+            <TheoreticalTags/>
+            <PromptPackets/>
+            <MarkedOutputs/>
+            <AssemblyTrace/>
+            <SoundTrace/>
+            <AuditLog/>
+          </PoetryToImageRitualLoop>
+        </return>
+      </function>
+
+    </program>
+  </Program Text>
+
+
+  <Theory-Code Mapping>
+    <types>
+      <Entity> [maps-to
+] conceptual nouns:
+        <Prompt>, <Archive>, <Model>, <Interface>, <OutputArtifact>, <FeedbackLoop>, <AuditLog>
+    </types>
+
+    <functions>
+      [analyze_ai_cultural_system
+] [maps-to
+] whole paper argument.
+      [parse_prompt_as_ritual
+] [maps-to
+] Geertzian symbolic anthropology.
+      [analyze_archive_as_cultural_grammar
+] [maps-to
+] dataset-as-cultural-memory.
+      [map_agency_distribution
+] [maps-to
+] anti-mysticism and anti-instrumentalism.
+      [interpret_output_as_narrative_artifact
+] [maps-to
+] narratology and implied authorship.
+      [track_feedback_loop
+] [maps-to
+] cybernetic recursion.
+      [diagnose_aura_of_factuality
+] [maps-to
+] ethics of authority and uncertainty.
+      [operate_love_stories_case
+] [maps-to
+] corpus plus Her counter-archive.
+      [operate_resurrecting_atlantis_case
+] [maps-to
+] operative ekphrasis workflow.
+    </functions>
+
+    <classes>
+      <CyberneticRitualNarratologyEngine> [contains
+]
+        {
+          <ArchiveAnalyzer>,
+          <PromptRitualParser>,
+          <GenerationContextMapper>,
+          <NarrativeArtifactInterpreter>,
+          <FeedbackLoopTracker>,
+          <AuraDiagnosticEngine>,
+          <AuditLog>,
+          <CaseStudyAdapter>
+}
+    </classes>
+
+    <tests>
+      <test name="prompt_not_command">
+        Assert <Prompt> [contains-or-implies
+] <Role | Mood | WorldOrder | Constraint>
+      </test>
+
+      <test name="dataset_not_neutral">
+        Assert <ArchiveAnalysis> [includes
+] <CulturalGrammar + PowerRelation + HistoricalAssumption>
+      </test>
+
+      <test name="agency_not_singular">
+        Assert <AgencyDistributionMap> [contains-more-than-one
+] <AgencySource>
+      </test>
+
+      <test name="aura_requires_diagnostic">
+        If <OutputArtifact> [has
+] <AuthoritySignals>
+        Then <AuraDiagnostic> [must-exist
+]
+      </test>
+
+      <test name="feedback_loop_closed">
+        Assert <OutputArtifact> [returns-as
+] <Feedback> [into
+] <PromptRevision>
+      </test>
+    </tests>
+
+    <comments>
+      <comment>
+        "The program does not simulate the AI model; it models the cultural circuit
+         in which the AI model becomes meaningful."
+      </comment>
+
+      <comment>
+        "The central unit is the loop, not the output."
+      </comment>
+
+      <comment>
+        "The ethical risk is not only falsehood; it is symbolic authority without provenance."
+      </comment>
+    </comments>
+
+    <configuration>
+      <analysis_mode options="{scholarly, pedagogical, design, artistic, ethical}"/>
+      <aura_sensitivity options="{low, medium, high}"/>
+      <archive_depth options="{surface, trope, genealogy, full-cultural-grammar}"/>
+      <feedback_tracking options="{off, minimal, full-audit}"/>
+      <case_study_mode options="{love-stories, her, resurrecting-atlantis, custom}"/>
+    </configuration>
+  </Theory-Code Mapping>
+
+
+  <Residual Human Theory>
+    <what-code-does-not-capture>
+      - <lived-affect>
+      - <historical-depth>
+      - <interpretive-disagreement>
+      - <aesthetic-judgment>
+      - <ethical-wisdom>
+      - <political-stakes>
+      - <community-specific-use>
+      - <the-feel-of-recognition>
+    </what-code-does-not-capture>
+
+    <future-maintainer-must-understand>
+      "This engine is not a content classifier.
+       It is a humanities instrument.
+       Its purpose is to keep the cultural circuit visible:
+       <source>, <symbol>, <invocation>, <apparatus>, <artifact>,
+       <interpretation>, <feedback>, and <power>."
+    </future-maintainer-must-understand>
+
+    <final-thesis>
+      <CyberneticRitualNarratology>
+        [studies
+]
+      <GenerativeAI>
+        [as
+]
+      <recursive-cultural-apparatus>
+        [where
+]
+      <Prompt>
+        [performs
+]
+      <RitualInvocation>
+        [over
+]
+      <Archive>
+        [through
+]
+      <Model>
+        [toward
+]
+      <OutputArtifact>
+        [that-returns-as
+]
+      <Feedback>
+        [and-rewrites
+]
+      <FutureSymbolicAction>
+    </final-thesis>
+  </Residual Human Theory>
+
+</PROGRAM_THEORY>

@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>ACHILLES // OPTICAL_GRID_v12</title>
+    <style>
+        :root {
+            --color-bg: #050403;
+            --color-primary: #FFD700;
+            --color-secondary: #CD7F32;
+            --color-cyan: #00ffff;
+            --font-stack: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: var(--color-bg);
+            font-family: var(--font-stack);
+            color: var(--color-primary);
+            user-select: none;
+            touch-action: none;
+            /* Crucial for preventing mobile zoom/scroll */
+        }
+
+        #canvas-container {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            cursor: crosshair;
+        }
+
+        #hud-canvas {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            pointer-events: none;
+        }
+
+        .crt-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 3px, 3px 100%;
+            pointer-events: none;
+            z-index: 100;
+            opacity: 0.12;
+            animation: flicker 0.15s infinite;
+        }
+
+        .shutter-flash {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            z-index: 200;
+            pointer-events: none;
+            opacity: 0;
+        }
+
+        .flash-active {
+            opacity: 1;
+            transition: opacity 0.05s ease-out;
+        }
+
+        /* Touch-Optimized Control Panel */
+        #control-panel {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 20;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+        }
+
+        #control-panel:hover,
+        #control-panel:active {
+            opacity: 1.0;
+        }
+
+        .ctrl-btn {
+            background: transparent;
+            border: none;
+            font-family: var(--font-stack);
+            font-size: 11px;
+            cursor: pointer;
+            text-align: right;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 4px 0;
+            outline: none;
+            letter-spacing: 0.5px;
+            transition: text-shadow 0.2s, color 0.2s;
+        }
+
+        @media (max-width: 768px) {
+            .ctrl-btn {
+                padding: 8px 0;
+                font-size: 12px;
+            }
+
+            #control-panel {
+                opacity: 0.9;
+            }
+        }
+
+        .ctrl-btn:hover,
+        .ctrl-btn:active {
+            text-shadow: 0 0 8px currentColor;
+        }
+
+        #btn-blend {
+            color: var(--color-cyan);
+        }
+
+        #btn-prompt {
+            color: var(--color-primary);
+        }
+
+        #btn-share {
+            color: #ff00ff;
+            font-weight: bold;
+        }
+
+        #share-modal {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.95);
+            border: 1px solid var(--color-cyan);
+            padding: 30px;
+            z-index: 300;
+            color: #fff;
+            text-align: center;
+            font-family: var(--font-stack);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            width: 80%;
+            max-width: 400px;
+        }
+
+        #share-link-input {
+            width: 100%;
+            padding: 10px;
+            background: #111;
+            color: var(--color-cyan);
+            border: 1px solid var(--color-cyan);
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        #VRButton {
+            background-color: transparent !important;
+            border: 1px solid var(--color-cyan) !important;
+            color: var(--color-cyan) !important;
+            font-family: var(--font-stack) !important;
+            font-size: 12px !important;
+            bottom: 20px !important;
+            left: 20px !important;
+            opacity: 0.8 !important;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            z-index: 50;
+        }
+
+        #VRButton:hover {
+            opacity: 1.0 !important;
+            background: rgba(0, 255, 255, 0.1) !important;
+        }
+
+        /* Viewer UI */
+        #viewer-ui {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--color-cyan);
+            font-family: var(--font-stack);
+            text-align: center;
+            z-index: 10;
+            pointer-events: none;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        @keyframes flicker {
+            0% {
+                opacity: 0.12;
+            }
+
+            50% {
+                opacity: 0.10;
+            }
+
+            100% {
+                opacity: 0.14;
+            }
+        }
+    </style>
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="crt-overlay"></div>
+    <div class="shutter-flash" id="shutter"></div>
+
+    <div id="viewer-ui">
+        <h2>[ LOADING ARTIFACT ]</h2>
+    </div>
+
+    <div id="control-panel">
+        <button id="btn-blend" class="ctrl-btn">[B] BLEND MODE: NORMAL (FEATHERED)</button>
+        <button id="btn-prompt" class="ctrl-btn">[P] PROMPT MODE: SCENE OPTIMIZED (NO TEXT)</button>
+        <button id="btn-capture" class="ctrl-btn">[C] CAPTURE PERSPECTIVE PHOTO</button>
+        <button id="btn-extract" class="ctrl-btn">[X] EXTRACT RAW STAMPS (CORE + RINGS)</button>
+        <button id="btn-archive" class="ctrl-btn">[A] ALLOY ARCHIVE (POLAR TEXTURE ATLAS)</button>
+        <button id="btn-share" class="ctrl-btn">[S] SHARE VR PHOTOSPHERE LINK</button>
+    </div>
+
+    <div id="share-modal">
+        <h3 style="margin-top:0; color: var(--color-cyan);">VR LINK GENERATED</h3>
+        <p style="font-size: 12px; color: #aaa;">Open this URL on your mobile device to enter the artifact in WebXR.</p>
+        <input type="text" id="share-link-input" readonly>
+        <div>
+            <button id="btn-copy-link"
+                style="background:var(--color-cyan); color:#000; padding:10px 15px; border:none; cursor:pointer; font-weight:bold; font-family:var(--font-stack);">COPY
+                LINK</button>
+            <button id="btn-close-modal"
+                style="background:transparent; color:var(--color-cyan); border:1px solid var(--color-cyan); padding:9px 15px; cursor:pointer; margin-left:10px; font-family:var(--font-stack);">CLOSE</button>
+        </div>
+    </div>
+
+    <div id="canvas-container"></div>
+    <canvas id="hud-canvas"></canvas>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import { VRButton } from 'three/addons/webxr/VRButton.js';
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js';
+        import { getAuth, signInAnonymously, signInWithCustomToken } from 'https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js';
+        import { getFirestore, collection, addDoc, doc, getDoc } from 'https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js';
+
+        const apiKey = "";
+
+        // --- FIREBASE & VIEWER INITIALIZATION ---
+        const urlParams = new URLSearchParams(window.location.search);
+        const vrId = urlParams.get('vr');
+        const isViewerMode = !!vrId;
+
+        let db, auth;
+        try {
+            const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
+            if (firebaseConfig) {
+                const app = initializeApp(firebaseConfig);
+                auth = getAuth(app);
+                db = getFirestore(app);
+            }
+        } catch (e) { console.warn("Firebase not loaded.", e); }
+
+        async function initAuth() {
+            if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+                await signInWithCustomToken(auth, __initial_auth_token);
+            } else {
+                await signInAnonymously(auth);
+            }
+        }
+
+        // --- CORE DATA ---
+        const zoneData = [
+            {
+                id: "CORE", color: "#FFD700",
+                text: "Then first he form'd the immense and solid shield; Rich various artifice emblazed the field; Its utmost verge a threefold circle bound; A silver chain suspends the massy round; Five ample plates the broad expanse compose, And godlike labours on the surface rose. There shone the image of the master-mind: There earth, there heaven, there ocean he design'd; The unwearied sun, the moon completely round; The starry lights that heaven's high convex crown'd; The Pleiads, Hyads, with the northern team; And great Orion's more refulgent beam; To which, around the axle of the sky, The Bear, revolving, points his golden eye, Still shines exalted on the ethereal plain, Nor bathes his blazing forehead in the main."
+            },
+            {
+                id: "INNER", color: "#FFFFFF",
+                text: "Two cities radiant on the shield appear, The image one of peace, and one of war. Here sacred pomp and genial feast delight, And solemn dance, and hymeneal rite; Along the street the new-made brides are led, With torches flaming, to the nuptial bed: The youthful dancers in a circle bound To the soft flute, and cithern's silver sound. Another part Glow'd with refulgent arms, and horrid war. Two mighty hosts a leaguer'd town embrace, And one would pillage, one would burn the place. Meantime the townsmen, arm'd with silent care, A secret ambush on the foe prepare. They fight, they fall, beside the silver flood; The waving silver seem'd to blush with blood. And each bold figure seem'd to live or die."
+            },
+            {
+                id: "MIDDLE", color: "#CD7F32",
+                text: "A field deep furrow'd next the god design'd, The third time labour'd by the sweating hind; The shining shares full many ploughmen guide, And turn their crooked yokes on every side. Still as at either end they wheel around, The master meets them with his goblet crown'd; The hearty draught rewards, renews their toil, Then back the turning ploughshares cleave the soil: Behind, the rising earth in ridges roll'd; And sable look'd, though form'd of molten gold. Another field rose high with waving grain; With bended sickles stand the reaper train. Next, ripe in yellow gold, a vineyard shines, Bent with the ponderous harvest of its vines; A deeper dye the dangling clusters show, And curl'd on silver props, in order glow."
+            },
+            {
+                id: "OUTER", color: "#A0B0C0",
+                text: "Here herds of oxen march, erect and bold, Rear high their horns, and seem to low in gold, And speed to meadows on whose sounding shores A rapid torrent through the rushes roars: Four golden herdsmen as their guardians stand, And nine sour dogs complete the rustic band. Next this, the eye the art of Vulcan leads Deep through fair forests, and a length of meads, And stalls, and folds, and scatter'd cots between; And fleecy flocks, that whiten all the scene. A figured dance succeeds; such once was seen In lofty Gnossus for the Cretan queen, Form'd by Daedalean art; a comely band Of youths and maidens, bounding hand in hand. And general songs the sprightly revel end."
+            },
+            {
+                id: "RIM", color: "#00ffff",
+                text: "Thus the broad shield complete the artist crown'd With his last hand, and pour'd the ocean round: In living silver seem'd the waves to roll, And beat the buckler's verge, and bound the whole. This done, whate'er a warrior's use requires He forged; the cuirass that outshone the fires, The greaves of ductile tin, the helm impress'd With various sculpture, and the golden crest. At Thetis' feet the finished labour lay: She, as a falcon cuts the aerial way, Swift from Olympus' snowy summit flies, And bears the blazing present through the skies."
+            }
+        ];
+
+        let activeBlendMode = 0;
+        let activePromptMode = 0;
+        const blendModes = ['NORMAL (FEATHERED)', 'MULTIPLY (BURNED)', 'SCREEN (ETHEREAL)', 'HARD_EDGE (COLLAGE)'];
+        const promptModes = ['SCENE OPTIMIZED (NO TEXT)', 'RAW POETRY'];
+
+        // --- OPTICAL ASSETS ---
+        const textAtlas = (function createAtlas() {
+            const size = 4096;
+            const canvas = document.createElement('canvas');
+            canvas.width = size; canvas.height = size;
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#000000'; ctx.fillRect(0, 0, size, size);
+            ctx.fillStyle = '#FFFFFF';
+            ctx.font = 'bold 90px "Times New Roman", serif';
+            ctx.textAlign = 'left'; ctx.textBaseline = 'top';
+            const bH = size / 5;
+            for (let i = 0; i < 5; i++) {
+                let txt = (zoneData[i].text + "  ").repeat(5);
+                let words = txt.split(/\s+/), x = 40, y = i * bH + 40, line = "";
+                for (let w of words) {
+                    if (ctx.measureText(line + w + " ").width > size - 80) {
+                        ctx.fillText(line, x, y); line = w + " "; y += 105;
+                        if (y > (i + 1) * bH - 105) break;
+                    } else line += w + " ";
+                }
+                ctx.fillText(line, x, y);
+            }
+            const t = new THREE.CanvasTexture(canvas);
+            t.wrapS = t.wrapT = THREE.RepeatWrapping;
+            t.anisotropy = 16;
+            return t;
+        })();
+
+        const mosaicCanvas = document.createElement('canvas');
+        mosaicCanvas.width = 4096; mosaicCanvas.height = 4096;
+        const mosaicCtx = mosaicCanvas.getContext('2d');
+        const tMosaic = new THREE.CanvasTexture(mosaicCanvas);
+        tMosaic.wrapS = tMosaic.wrapT = THREE.RepeatWrapping;
+        tMosaic.anisotropy = 16;
+
+        const coreCanvas = document.createElement('canvas');
+        coreCanvas.width = 1024; coreCanvas.height = 1024;
+        const coreCtx = coreCanvas.getContext('2d');
+        const tCore = new THREE.CanvasTexture(coreCanvas);
+        tCore.anisotropy = 16;
+
+        const gridData = new Uint8Array(24 * 24 * 4);
+        for (let i = 0; i < 24 * 24; i++) {
+            let r = Math.floor(i / 24);
+            gridData[i * 4 + 2] = Math.random() > 0.98 ? 255 : 0; gridData[i * 4 + 3] = 255;
+        }
+        const tGrid = new THREE.DataTexture(gridData, 24, 24, THREE.RGBAFormat);
+        tGrid.needsUpdate = true; tGrid.magFilter = tGrid.minFilter = THREE.NearestFilter;
+
+        const CAP_RADIUS = 4.5 * Math.sin(Math.PI * 0.45);
+        const CORE_PHYSICAL_RADIUS = 4.5 * Math.sin(0.09 * Math.PI);
+
+        // --- HYBRID UV SHADER WITH VIEWER MODE ---
+        const semanticMaterial = new THREE.ShaderMaterial({
+            uniforms: {
+                tText: { value: textAtlas },
+                tMosaic: { value: tMosaic },
+                tCore: { value: tCore },
+                uHighlightZone: { value: -1.0 },
+                uTime: { value: 0 },
+                uHoverUv: { value: new THREE.Vector2(0.5, 0.5) },
+                uHoverZone: { value: -1.0 },
+                uShowPreview: { value: 0.0 },
+                uIsGenerating: { value: 0.0 },
+                uCoreRadius: { value: CORE_PHYSICAL_RADIUS },
+                uIsViewerMode: { value: isViewerMode ? 1.0 : 0.0 }
+            },
+            side: isViewerMode ? THREE.BackSide : THREE.DoubleSide,
+            transparent: true,
+            vertexShader: `
+                varying vec2 vUv; 
+                varying vec3 vNormal; 
+                varying vec3 vLocalPos;
+                void main() { 
+                    vUv = uv; 
+                    vLocalPos = position; 
+                    vNormal = normalize(normalMatrix * normal); 
+                    gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(position, 1.0); 
+                }
+            `,
+            fragmentShader: `
+                uniform sampler2D tText, tMosaic, tCore; 
+                uniform float uHighlightZone, uTime, uShowPreview, uHoverZone, uIsGenerating, uCoreRadius, uIsViewerMode; 
+                uniform vec2 uHoverUv;
+                
+                varying vec2 vUv; 
+                varying vec3 vNormal;
+                varying vec3 vLocalPos;
+                
+                void main() {
+                    // PHOTOSPHERE OVERRIDE: Render pure immersive environment
+                    if (uIsViewerMode > 0.5) {
+                        // Mirror X because we are rendering BackSide
+                        vec4 mosViewer = texture2D(tMosaic, vec2(1.0 - vUv.x, vUv.y)); 
+                        gl_FragColor = vec4(mosViewer.rgb, 1.0);
+                        return;
+                    }
+
+                    float zoneY = (1.0 - vUv.y) * 5.0;
+                    float zoneIndex = min(floor(zoneY), 4.0);
+                    
+                    vec3 col = vec3(1.0, 0.84, 0.0); 
+                    if (zoneIndex >= 4.0) col = vec3(0.0, 1.0, 1.0);      
+                    else if (zoneIndex >= 3.0) col = vec3(0.7, 0.8, 0.9); 
+                    else if (zoneIndex >= 2.0) col = vec3(0.8, 0.5, 0.2); 
+                    else if (zoneIndex >= 1.0) col = vec3(0.9, 0.9, 1.0); 
+
+                    float isForging = (uIsGenerating > 0.5 && zoneIndex == uHoverZone) ? 1.0 : 0.0;
+
+                    if (uHighlightZone > -0.5 && abs(zoneIndex - uHighlightZone) < 0.1) {
+                        if (isForging > 0.5) {
+                            col = mix(col, vec3(1.0, 0.8, 0.5), 0.5 + sin(uTime * 4.0) * 0.3);
+                            col *= 1.3; 
+                        } else {
+                            col *= (1.3 + sin(uTime * 8.0) * 0.1);
+                        }
+                    }
+
+                    vec2 textUv = vec2(fract(vUv.x * 4.0), vUv.y);
+                    vec4 tex = texture2D(tText, textUv);
+                    
+                    vec2 coreUv = (vLocalPos.xy / uCoreRadius) * 0.5 + 0.5;
+                    vec4 mosCore = texture2D(tCore, coreUv);
+                    float coreDist = length(coreUv - 0.5);
+                    float coreAlpha = mosCore.a * smoothstep(0.55, 0.45, coreDist); 
+                    
+                    vec4 mosPolar = texture2D(tMosaic, vUv);
+                    float polarAlpha = mosPolar.a * smoothstep(0.85, 0.75, vUv.y);
+
+                    vec4 mos = vec4(0.0);
+                    mos.a = clamp(coreAlpha + polarAlpha, 0.0, 1.0);
+                    if (mos.a > 0.0) {
+                        mos.rgb = (mosCore.rgb * coreAlpha + mosPolar.rgb * polarAlpha) / (coreAlpha + polarAlpha + 0.0001);
+                    }
+                    
+                    if (mos.a < 0.1 && tex.r < 0.2) discard; 
+                    
+                    float light = dot(vNormal, normalize(vec3(1.0, 1.0, 1.0))) * 0.4 + 0.6;
+                    vec3 finalColor = mix(col * light, mos.rgb * light * 1.4, mos.a);
+                    
+                    if (uShowPreview > 0.5 && zoneIndex == uHoverZone) {
+                        float dx = 0.0, dy = 0.0, sHalf = 0.0;
+                        if (zoneIndex == 0.0) {
+                            dx = abs(coreUv.x - uHoverUv.x);
+                            dy = abs(coreUv.y - uHoverUv.y);
+                            sHalf = 0.5; 
+                        } else {
+                            dx = abs(vUv.x - uHoverUv.x);
+                            if (dx > 0.5) dx = 1.0 - dx; 
+                            dy = abs(vUv.y - uHoverUv.y);
+                            sHalf = 0.125; 
+                        }
+                        
+                        if (isForging > 0.5) sHalf += sin(uTime * 5.0) * 0.01;
+
+                        if (dx < sHalf && dy < sHalf) {
+                            float distToEdgeX = sHalf - dx;
+                            float distToEdgeY = sHalf - dy;
+                            float minDist = min(distToEdgeX, distToEdgeY);
+                            
+                            if (minDist < 0.002) finalColor = mix(finalColor, vec3(0.0, 1.0, 1.0), 0.7);
+                            
+                            bool cornerX = dx > sHalf - 0.02;
+                            bool cornerY = dy > sHalf - 0.02;
+                            if (minDist < 0.006 && cornerX && cornerY) finalColor = vec3(1.0, 1.0, 1.0);
+                            
+                            if (isForging > 0.5) {
+                                finalColor += vec3(1.0, 0.4, 0.0) * (0.3 + sin(uTime * 6.0) * 0.2); 
+                            } else {
+                                finalColor += vec3(0.0, 0.2, 0.3) * (0.3 + sin(uTime * 10.0) * 0.2); 
+                            }
+                        }
+                    }
+                    gl_FragColor = vec4(finalColor, 1.0);
+                }
+            `
+        });
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.xr.enabled = true;
+        document.getElementById('canvas-container').appendChild(renderer.domElement);
+        document.body.appendChild(VRButton.createButton(renderer));
+
+        const scene = new THREE.Scene(), camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100);
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+
+        const shieldGeo = new THREE.SphereGeometry(4.5, 128, 64, 0, Math.PI * 2, 0, Math.PI * 0.45);
+        shieldGeo.rotateX(Math.PI / 2);
+        const shield = new THREE.Mesh(shieldGeo, semanticMaterial);
+        scene.add(shield);
+
+        // --- VIEWER VS EDIT MODE INIT ---
+        const hudCanvas = document.getElementById('hud-canvas');
+        const hudCtx = hudCanvas.getContext('2d');
+
+        if (isViewerMode) {
+            document.getElementById('control-panel').style.display = 'none';
+            hudCanvas.style.display = 'none';
+            document.getElementById('viewer-ui').style.display = 'block';
+
+            // Place camera inside the geometric center of the dish
+            camera.position.set(0, 0, 0);
+            controls.target.set(0, 0, 4.5); // Look towards the dish apex
+            controls.enableZoom = false;
+            controls.enablePan = false;
+            shield.rotation.set(0, 0, 0); // Remove tilt
+
+            if (auth && db) {
+                initAuth().then(() => {
+                    const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+                    const docRef = doc(db, 'artifacts', appId, 'public', 'data', 'photospheres', vrId);
+                    getDoc(docRef).then(snap => {
+                        if (snap.exists()) {
+                            const img = new Image();
+                            img.onload = () => {
+                                tMosaic.image = img;
+                                tMosaic.needsUpdate = true;
+                                document.getElementById('viewer-ui').innerHTML = '<h2>[ ARTIFACT ACQUIRED ]</h2><p style="color:#aaa;">Drag to explore. Tap VR below for headset.</p>';
+                                setTimeout(() => document.getElementById('viewer-ui').style.display = 'none', 5000);
+                            };
+                            img.src = snap.data().image;
+                        } else {
+                            document.getElementById('viewer-ui').innerHTML = '<h2>[ 404: ARTIFACT LOST ]</h2>';
+                        }
+                    }).catch(e => console.error(e));
+                });
+            }
+        } else {
+            camera.position.set(0, 0, 12);
+            controls.enablePan = false;
+            shield.rotation.x = -0.3; // Tilt for viewing
+        }
+
+        // --- TOUCH & POINTER INTERACTION (Mobile Safe) ---
+        let hover = null, hZone = -1, isGen = false, mX = window.innerWidth / 2, mY = window.innerHeight / 2, lastM = performance.now();
+        let touchDownX = 0, touchDownY = 0, isDragging = false;
+
+        if (!isViewerMode) {
+            window.addEventListener('pointerdown', e => {
+                if (e.target.closest('#control-panel') || e.target.closest('#share-modal') || e.target.closest('#VRButton')) return;
+                touchDownX = e.clientX;
+                touchDownY = e.clientY;
+                isDragging = false;
+            });
+
+            window.addEventListener('pointermove', e => {
+                if (e.target.closest('#control-panel') || e.target.closest('#share-modal') || e.target.closest('#VRButton')) return;
+                if (Math.hypot(e.clientX - touchDownX, e.clientY - touchDownY) > 5) {
+                    isDragging = true; // User is dragging OrbitControls, not tapping
+                }
+                mX = e.clientX; mY = e.clientY; lastM = performance.now();
+            });
+
+            window.addEventListener('pointerup', e => {
+                if (e.target.closest('#control-panel') || e.target.closest('#share-modal') || e.target.closest('#VRButton')) return;
+                if (!isDragging && e.pointerType === 'touch') {
+                    // Mobile Tap detected
+                    triggerInteraction(e.clientX, e.clientY, true);
+                } else if (e.pointerType === 'mouse' && !isDragging) {
+                    // Mouse Click detected
+                    triggerInteraction(e.clientX, e.clientY, true);
+                }
+            });
+        }
+
+        // Handles both Hover updating (mouse) and immediate Stamping (mobile tap)
+        async function triggerInteraction(clientX, clientY, attemptStamp = false) {
+            if (isGen) return;
+            pointer.set((clientX / window.innerWidth) * 2 - 1, -(clientY / window.innerHeight) * 2 + 1);
+            raycaster.setFromCamera(pointer, camera);
+            const hits = raycaster.intersectObject(shield);
+
+            if (hits.length > 0) {
+                hover = hits[0];
+                const uv = hover.uv;
+
+                let zoneFloat = (1.0 - uv.y) * 5.0;
+                hZone = Math.min(4, Math.floor(zoneFloat));
+                let fraction = zoneFloat - hZone;
+
+                let activeUx, activeUy;
+
+                if (hZone === 0) {
+                    const localP = hover.point.clone();
+                    shield.worldToLocal(localP);
+                    activeUx = (localP.x / CORE_PHYSICAL_RADIUS) * 0.5 + 0.5;
+                    activeUy = (localP.y / CORE_PHYSICAL_RADIUS) * 0.5 + 0.5;
+                } else {
+                    activeUx = uv.x;
+                    activeUy = uv.y;
+                }
+
+                semanticMaterial.uniforms.uHoverUv.value.set(activeUx, activeUy);
+                semanticMaterial.uniforms.uHoverZone.value = hZone;
+                semanticMaterial.uniforms.uShowPreview.value = 1.0;
+
+                const hash = Math.floor((activeUx + activeUy * 3.0) * 100);
+                const w1 = zoneData[hZone].text.replace(/[^a-zA-Z\s\-]/g, "").split(/\s+/).filter(w => w.length > 0);
+                let snippet = "";
+
+                if (fraction > 0.7 && hZone < 4) {
+                    const w2 = zoneData[hZone + 1].text.replace(/[^a-zA-Z\s\-]/g, "").split(/\s+/).filter(w => w.length > 0);
+                    snippet = w1.slice(hash % w1.length, (hash % w1.length) + 4).join(" ") + " " + w2.slice(hash % w2.length, (hash % w2.length) + 4).join(" ");
+                } else if (fraction < 0.3 && hZone > 0) {
+                    const w2 = zoneData[hZone - 1].text.replace(/[^a-zA-Z\s\-]/g, "").split(/\s+/).filter(w => w.length > 0);
+                    snippet = w2.slice(hash % w2.length, (hash % w2.length) + 4).join(" ") + " " + w1.slice(hash % w1.length, (hash % w1.length) + 4).join(" ");
+                } else {
+                    snippet = w1.slice(hash % w1.length, (hash % w1.length) + 8).join(" ");
+                }
+
+                spatialSnippet = snippet;
+
+                if (attemptStamp) {
+                    await executeStamp(hZone, activeUx, activeUy, snippet);
+                }
+
+            } else {
+                hover = null; hZone = -1; spatialSnippet = "";
+                semanticMaterial.uniforms.uShowPreview.value = 0.0;
+            }
+            semanticMaterial.uniforms.uHighlightZone.value = hZone;
+        }
+
+        // The actual API call and canvas drawing
+        async function executeStamp(activeZone, uX, uY, snippetSnapshot) {
+            isGen = true;
+            semanticMaterial.uniforms.uIsGenerating.value = 1.0;
+
+            const styles = ["Surreal artifact.", "Masterpiece engraving.", "Dreamlike composition.", "Deep metallic patina.", "Cinematic epic lighting.", "Highly detailed relief."];
+            const randStyle = styles[Math.floor(Math.random() * styles.length)];
+
+            let fullPrompt = activePromptMode === 0
+                ? `A highly detailed ancient metallic relief sculpture depicting: ${snippetSnapshot}. NO TEXT. NO LETTERS. NO WORDS. NO TYPOGRAPHY. Pure visual scene, ancient engraving. ${randStyle}`
+                : `${snippetSnapshot}. Deeply engraved in ancient metal. ${randStyle}`;
+
+            try {
+                const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-001:predict?key=${apiKey}`, {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ instances: [{ prompt: fullPrompt }], parameters: { sampleCount: 1 } })
+                });
+                const d = await res.json();
+                if (d.predictions?.[0]?.bytesBase64Encoded) {
+                    const img = new Image();
+                    img.onload = () => {
+                        const targetCtx = activeZone === 0 ? coreCtx : mosaicCtx;
+                        const targetTex = activeZone === 0 ? tCore : tMosaic;
+
+                        let s = 1024;
+                        let stampX = uX * (activeZone === 0 ? 1024 : 4096) - s / 2;
+                        let stampY = (1.0 - uY) * (activeZone === 0 ? 1024 : 4096) - s / 2;
+
+                        const tempCanvas = document.createElement('canvas');
+                        tempCanvas.width = s; tempCanvas.height = s;
+                        const tempCtx = tempCanvas.getContext('2d');
+                        tempCtx.drawImage(img, 0, 0, s, s);
+
+                        if (activeBlendMode !== 3) {
+                            tempCtx.globalCompositeOperation = 'destination-in';
+                            const grad = tempCtx.createRadialGradient(s / 2, s / 2, s * 0.1, s / 2, s / 2, s * 0.48);
+                            grad.addColorStop(0, 'rgba(0,0,0,1)');
+                            grad.addColorStop(0.7, 'rgba(0,0,0,0.8)');
+                            grad.addColorStop(1, 'rgba(0,0,0,0)');
+                            tempCtx.fillStyle = grad;
+                            tempCtx.fillRect(0, 0, s, s);
+                        }
+
+                        targetCtx.globalAlpha = 1.0;
+                        if (activeBlendMode === 0 || activeBlendMode === 3) targetCtx.globalCompositeOperation = 'source-over';
+                        if (activeBlendMode === 1) targetCtx.globalCompositeOperation = 'multiply';
+                        if (activeBlendMode === 2) targetCtx.globalCompositeOperation = 'screen';
+
+                        targetCtx.drawImage(tempCanvas, stampX, stampY, s, s);
+
+                        if (activeZone !== 0) {
+                            if (stampX < 0) targetCtx.drawImage(tempCanvas, stampX + 4096, stampY, s, s);
+                            else if (stampX + s > 4096) targetCtx.drawImage(tempCanvas, stampX - 4096, stampY, s, s);
+                        }
+
+                        targetTex.needsUpdate = true;
+                        isGen = false;
+                        semanticMaterial.uniforms.uIsGenerating.value = 0.0;
+                    };
+                    img.src = `data:image/png;base64,${d.predictions[0].bytesBase64Encoded}`;
+                } else throw "No data";
+            } catch (e) {
+                console.error(e);
+                isGen = false;
+                semanticMaterial.uniforms.uIsGenerating.value = 0.0;
+            }
+        }
+
+        // Continuous Raycast update for Desktop hover
+        if (!isViewerMode) {
+            window.setInterval(() => {
+                if (!isDragging && performance.now() - lastM < 100) {
+                    triggerInteraction(mX, mY, false);
+                }
+            }, 50);
+        }
+
+        // --- BUTTON HANDLERS ---
+        const btnBlend = document.getElementById('btn-blend');
+        const btnPrompt = document.getElementById('btn-prompt');
+        const btnShare = document.getElementById('btn-share');
+
+        btnBlend.addEventListener('click', () => {
+            activeBlendMode = (activeBlendMode + 1) % blendModes.length;
+            btnBlend.innerText = `[B] BLEND MODE: ${blendModes[activeBlendMode]}`;
+        });
+        btnPrompt.addEventListener('click', () => {
+            activePromptMode = (activePromptMode + 1) % promptModes.length;
+            btnPrompt.innerText = `[P] PROMPT MODE: ${promptModes[activePromptMode]}`;
+        });
+
+        document.getElementById('btn-capture').addEventListener('click', () => {
+            triggerShutter();
+            const uri = renderer.domElement.toDataURL('image/png');
+            downloadFile(uri, `ACHILLES_SCENE_PHOTO_${Date.now()}.png`);
+        });
+
+        document.getElementById('btn-extract').addEventListener('click', () => {
+            triggerShutter();
+            downloadFile(mosaicCanvas.toDataURL('image/png'), `ACHILLES_POLAR_RINGS_${Date.now()}.png`);
+            downloadFile(coreCanvas.toDataURL('image/png'), `ACHILLES_PLANAR_CORE_${Date.now()}.png`);
+        });
+
+        document.getElementById('btn-archive').addEventListener('click', () => {
+            triggerShutter();
+            const composite = document.createElement('canvas');
+            composite.width = 4096; composite.height = 4096;
+            const cCtx = composite.getContext('2d');
+            const colors = ["#FFD700", "#FFFFFF", "#CD7F32", "#A0B0C0", "#00ffff"];
+            const bH = 4096 / 5;
+            colors.forEach((c, i) => { cCtx.fillStyle = c; cCtx.fillRect(0, i * bH, 4096, bH); });
+            cCtx.globalCompositeOperation = 'multiply'; cCtx.drawImage(textAtlas.image, 0, 0);
+            cCtx.globalCompositeOperation = 'source-over'; cCtx.drawImage(mosaicCanvas, 0, 0);
+            downloadFile(composite.toDataURL('image/png'), `ACHILLES_POLAR_ATLAS_${Date.now()}.png`);
+        });
+
+        // --- CLOUD SHARE SYSTEM ---
+        btnShare.addEventListener('click', async () => {
+            if (!db) { alert('Cloud system unavailable.'); return; }
+            btnShare.innerText = "[ GENERATING NEURAL LINK... ]";
+            triggerShutter();
+            try {
+                await initAuth();
+                const composite = document.createElement('canvas');
+                composite.width = 1024; composite.height = 1024;
+                const cCtx = composite.getContext('2d');
+                const colors = ["#FFD700", "#FFFFFF", "#CD7F32", "#A0B0C0", "#00ffff"];
+                const bH = 1024 / 5;
+                colors.forEach((c, i) => { cCtx.fillStyle = c; cCtx.fillRect(0, i * bH, 1024, bH); });
+
+                cCtx.globalCompositeOperation = 'multiply';
+                cCtx.drawImage(textAtlas.image, 0, 0, 1024, 1024);
+                cCtx.globalCompositeOperation = 'source-over';
+                cCtx.drawImage(mosaicCanvas, 0, 0, 1024, 1024);
+
+                const jpegData = composite.toDataURL('image/jpeg', 0.8);
+                const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+                const collRef = collection(db, 'artifacts', appId, 'public', 'data', 'photospheres');
+
+                const docRef = await addDoc(collRef, {
+                    image: jpegData,
+                    timestamp: Date.now(),
+                    creator: auth.currentUser.uid
+                });
+
+                const url = window.location.origin + window.location.pathname + '?vr=' + docRef.id;
+                document.getElementById('share-link-input').value = url;
+                document.getElementById('share-modal').style.display = 'block';
+
+            } catch (e) {
+                console.error(e);
+                alert("Failed to anchor to cloud.");
+            }
+            btnShare.innerText = "[S] SHARE VR PHOTOSPHERE LINK";
+        });
+
+        document.getElementById('btn-copy-link').addEventListener('click', () => {
+            document.getElementById('share-link-input').select();
+            document.execCommand('copy');
+            document.getElementById('btn-copy-link').innerText = "COPIED!";
+            setTimeout(() => document.getElementById('btn-copy-link').innerText = "COPY LINK", 2000);
+        });
+        document.getElementById('btn-close-modal').addEventListener('click', () => {
+            document.getElementById('share-modal').style.display = 'none';
+        });
+
+        const triggerShutter = () => {
+            shutter.classList.add('flash-active');
+            setTimeout(() => shutter.classList.remove('flash-active'), 50);
+        };
+        const downloadFile = (uri, filename) => {
+            const a = document.createElement('a'); a.download = filename; a.href = uri; a.click();
+        };
+
+        // --- HUD DRAWING (Desktop only) ---
+        function drawHUD() {
+            if (isViewerMode) return;
+            hudCtx.clearRect(0, 0, hudCanvas.width, hudCanvas.height);
+
+            // Only draw reticles if mouse is actively used
+            if (performance.now() - lastM > 3000) return;
+
+            const time = performance.now() * 0.001;
+
+            hudCtx.shadowColor = 'rgba(0,0,0,0.9)';
+            hudCtx.shadowBlur = 4;
+            hudCtx.shadowOffsetX = 1;
+            hudCtx.shadowOffsetY = 1;
+
+            hudCtx.strokeStyle = hZone !== -1 ? zoneData[hZone].color : 'rgba(0, 255, 255, 0.5)';
+            hudCtx.lineWidth = 1;
+
+            hudCtx.beginPath(); hudCtx.moveTo(mX - 10, mY); hudCtx.lineTo(mX + 10, mY); hudCtx.stroke();
+            hudCtx.beginPath(); hudCtx.moveTo(mX, mY - 10); hudCtx.lineTo(mX, mY + 10); hudCtx.stroke();
+
+            if (hover && hZone !== -1 && !isGen && spatialSnippet !== "") {
+                const z = zoneData[hZone];
+                let tx = mX + 20;
+                let ty = mY + 20;
+                if (tx + 340 > hudCanvas.width) tx = mX - 360;
+                if (ty + 60 > hudCanvas.height) ty = mY - 80;
+
+                const gradient = hudCtx.createRadialGradient(tx + 170, ty + 30, 0, tx + 170, ty + 30, 250);
+                gradient.addColorStop(0, 'rgba(0,0,0,0.9)');
+                gradient.addColorStop(0.5, 'rgba(0,0,0,0.4)');
+                gradient.addColorStop(1, 'rgba(0,0,0,0)');
+                hudCtx.fillStyle = gradient;
+                hudCtx.fillRect(tx - 100, ty - 50, 540, 160);
+
+                hudCtx.fillStyle = z.color;
+                hudCtx.font = "bold 12px Courier New";
+                hudCtx.fillText(`[${z.id}] HOMERIC PROMPT MIX:`, tx + 10, ty + 20);
+
+                hudCtx.fillStyle = '#ffffff';
+                hudCtx.font = "13px Courier New";
+                const words = spatialSnippet.split(' ');
+                let line1 = "", line2 = "";
+                words.forEach((w, i) => { if (i < 4) line1 += w + " "; else line2 += w + " "; });
+                hudCtx.fillText(`"${line1.trim()}"`, tx + 10, ty + 38);
+                if (line2) hudCtx.fillText(`"${line2.trim()}"`, tx + 10, ty + 52);
+            }
+
+            if (isGen) {
+                let tx = mX + 20, ty = mY + 20;
+                if (tx + 340 > hudCanvas.width) tx = mX - 360;
+                if (ty + 40 > hudCanvas.height) ty = mY - 60;
+
+                const gradient = hudCtx.createRadialGradient(tx + 170, ty + 20, 0, tx + 170, ty + 20, 200);
+                gradient.addColorStop(0, 'rgba(0,0,0,0.9)');
+                gradient.addColorStop(1, 'rgba(0,0,0,0)');
+                hudCtx.fillStyle = gradient;
+                hudCtx.fillRect(tx - 100, ty - 50, 540, 140);
+
+                hudCtx.fillStyle = '#00ffff';
+                hudCtx.font = "bold 13px Courier New";
+
+                hudCtx.globalAlpha = 0.7 + Math.sin(time * 3.0) * 0.3;
+                hudCtx.fillText(`[ ETCHING SCENE INTO ALLOY... ]`, tx + 10, ty + 25);
+            }
+        }
+
+        function animate() {
+            semanticMaterial.uniforms.uTime.value = performance.now() * 0.001;
+            controls.update(); renderer.render(scene, camera); drawHUD();
+        }
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight; camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            hudCanvas.width = window.innerWidth; hudCanvas.height = window.innerHeight;
+        });
+
+        renderer.setAnimationLoop(animate);
+    </script>
+</body>
+
+</html>

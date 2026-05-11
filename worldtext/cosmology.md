@@ -2,7 +2,7 @@
 
 > **Species**: cosmology  
 > **Scale**: cosmos  
-> **Last Revision**: 2026-04-14  
+> **Last Revision**: 2026-04-28  
 
 ---
 

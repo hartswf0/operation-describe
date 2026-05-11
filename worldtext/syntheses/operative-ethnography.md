@@ -51,7 +51,7 @@ The Spitzer narrowing concealed the operative structure of ekphrasis by redefini
 
 ### The Bridge to Thick Description
 
-Geertz's thick description already contained the seed of this insight. The Cohen case ([[syntheses/cohen-case-thick-description]]) demonstrates that the same act — seizing 500 sheep — changes identity at every threshold it crosses. The observer who records only the visible act (Layer 1) produces thin ethnography. The observer who traces how the act is reclassified across institutional frames (Layer 6) produces thick ethnography. But even Geertz stopped short of the radical claim: that the ethnographer's own description is itself a reclassification event — one that recodes the field and changes what can happen next.
+Geertz's thick description already contained the seed of this insight. The Cohen case ([[cohen-case-thick-description]]) demonstrates that the same act — seizing 500 sheep — changes identity at every threshold it crosses. The observer who records only the visible act (Layer 1) produces thin ethnography. The observer who traces how the act is reclassified across institutional frames (Layer 6) produces thick ethnography. But even Geertz stopped short of the radical claim: that the ethnographer's own description is itself a reclassification event — one that recodes the field and changes what can happen next.
 
 Operative ethnography makes this explicit. The description is not after the fact. It is part of the field's ongoing formation.
 
@@ -281,7 +281,7 @@ Synthetic Place Theory is the formal ontology of the [[concept-worldtext]]. The 
 | Metastability | The cosmos "breathes" — every ingest changes its shape (cosmology.md) |
 | Political Form | The [[governance]] page distributes legitimacy; the [[concept-platform-realism]] critique names the politics of the latent space |
 | Material Dependency | GPU clusters, cloud compute, scraping infrastructure (named in [[world-operative-ekphrasis]]) |
-| Epistemic Limit | The cosmos has blind spots ([[syntheses/dark-matter-audit]], [[questions/]]) |
+| Epistemic Limit | The cosmos has blind spots ([[dark-matter-audit]], [[questions/]]) |
 | Worlding | The cosmos does not describe worldtexts; it IS one (the paper's final reflexive argument) |
 | Bricolage + Humility | The [[COSMIC_LAW]] insists: "Never stop at summary when world compilation is possible. Never flatten contradictions." |
 
@@ -351,7 +351,7 @@ Or, in the cosmos's own vocabulary:
 - [[concept-viscosity]] — the physics that makes operative ethnography necessary; without resistance, there would be nothing to observe
 - [[concept-worldtext]] — the output format; operative ethnography produces worldtext, not reports
 - [[concept-platform-realism]] — names the political conditions under which operative ethnography operates: every field has a platform mean
-- [[syntheses/from-imagetext-to-worldtext-v2]] — operative ethnography is the method section that the paper needs. The paper describes the theory. This synthesis describes how the theory was practiced.
+- [[from-imagetext-to-worldtext-v2]] — operative ethnography is the method section that the paper needs. The paper describes the theory. This synthesis describes how the theory was practiced.
 - [[COSMIC_LAW]] — the governing axioms of operative ethnography in the specific case of OPERATION DESCRIBE
 
 ---

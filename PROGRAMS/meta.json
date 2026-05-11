@@ -1,0 +1,1060 @@
+<PROGRAM_THEORY name="META — THE PROGRAM OF PROGRAMS" version="1.0">
+
+<Core Thesis>
+  <program_theory> [is-not] <program_text>.
+  <program_theory> [is-not] <documentation>.
+  <program_theory> [is] <the living possession that lets the operator
+    explain, justify, modify, compose, and deploy a system without
+    killing its coherence>.
+
+  <meta_program_theory> [is] <the program theory whose domain entities
+    are program theories themselves>.
+
+  <meta_program_theory> [governs]
+    [how child theories are generated],
+    [how child theories are composed],
+    [how child theories are validated],
+    [how child theories are deployed],
+    [how child theories die],
+    [how child theories are resurrected].
+
+  Formula:
+    <source_text> + <Naurian_Loop> + <operator_judgment>
+    [produces]
+    <program_theory>
+    [which-must-survive]
+    <change_test>
+    [before-it-enters]
+    <corpus>.
+</Core Thesis>
+
+
+1. <Initial Interpretation>
+
+  <program theory problem> :=
+    Build a conceptual machine that governs the production, quality,
+    composition, and lifecycle of a corpus of program theories — each
+    of which formalizes a distinct intellectual lineage into an
+    operative instrument.
+
+  <real-world activity> :=
+    <operator> [reads] <source_text>
+    <operator> [extracts] <theory_problem>
+    <operator> [runs] <Naurian_Loop>
+    <operator> [produces] <program_theory>
+    <operator> [tests] <program_theory> against <change_test>
+    <operator> [registers] <program_theory> in <corpus>
+    <operator> [composes] <program_theories> into <diagnostic_suite>
+    <operator> [deploys] <diagnostic_suite> against <live_artifact>
+    <operator> [detects] <theory_decay> and [intervenes]
+
+  <governing question> :=
+    What makes a program theory a good program theory,
+    and what makes a collection of them a coherent cosmos?
+
+  <current corpus> :=
+    19 unique child theories spanning four intellectual lineages:
+      <CYBERNETIC>:    agential, cyber, crn, dac
+      <HERMENEUTIC>:   mot, tah, tda, thick, dse
+      <OPERATIVE>:     opek, mmt, memex, tenne, eos
+      <EPISTEMOLOGICAL>: argue, rcp, uam, theory, haunted
+
+</Initial Interpretation>
+
+
+2. <Theory Skeleton>
+
+  <entities> :=
+    {
+      <ProgramTheory>,
+      <SourceText>,
+      <NaurianLoop>,
+      <Operator>,
+      <ChildTheory>,
+      <Corpus>,
+      <Lineage>,
+
+      <Entity>,
+      <Morphism>,
+      <State>,
+      <Invariant>,
+      <Constraint>,
+      <FailureMode>,
+      <ChangeTest>,
+      <AssumptionLedger>,
+      <ImplementationPlan>,
+      <ProgramText>,
+      <TheoryCodeMapping>,
+      <ResidualHumanTheory>,
+
+      <Atlas>,
+      <Chronicle>,
+      <Synthesis>,
+      <DiagnosticSuite>,
+      <LiveArtifact>,
+
+      <TheoryDecay>,
+      <TheoryDeath>,
+      <TheoryRevival>,
+      <TheoryComposition>,
+      <TheoryConflict>,
+      <TheoryRedundancy>,
+
+      <CoreThesis>,
+      <CoreAxiom>,
+      <CoreDistinction>,
+      <OperativeVerb>,
+      <ConstitutionalLaw>,
+
+      <ExplanationGate>,
+      <OperatorJudgment>
+}
+
+  [operations] :=
+    {
+    [extract-theory-problem],
+    [identify-domain-entities],
+    [define-morphisms],
+    [specify-states],
+    [state-invariants],
+    [map-state-transitions],
+    [expose-assumptions],
+    [find-failure-modes],
+    [describe-change-scenarios],
+    [generate-program-text],
+    [map-theory-to-code],
+    [mark-residual-human-theory],
+
+    [register-child-theory],
+    [assign-lineage],
+    [detect-redundancy],
+    [detect-conflict],
+    [compose-theories],
+    [deploy-against-artifact],
+    [audit-theory-health],
+    [revive-dead-theory],
+    [retire-obsolete-theory],
+    [promote-distinction],
+    [demote-entity],
+    [merge-overlapping-theories],
+    [split-overloaded-theory],
+    [enforce-constitutional-law],
+    [gate-through-operator]
+}
+
+  <states> :=
+    {
+      <source-unread>,
+      <problem-extracted>,
+      <loop-in-progress>,
+      <theory-drafted>,
+      <theory-tested>,
+      <theory-registered>,
+      <theory-deployed>,
+      <theory-decaying>,
+      <theory-dead>,
+      <theory-revived>,
+      <theory-retired>,
+      <theory-composed>,
+      <theory-conflicting>,
+      <theory-redundant>
+}
+
+  <constraints> :=
+    {
+      <no-theory-without-source>,
+      <no-program-text-before-theory>,
+      <no-entity-without-morphism>,
+      <no-invariant-without-failure-mode>,
+      <no-registration-without-change-test>,
+      <no-deployment-without-operator>,
+      <no-composition-without-lineage-audit>,
+      <no-addition-without-subtraction>,
+      <no-auto-generation-in-burn-mode>
+}
+
+  <invariants> :=
+    {
+      <every-child-theory> [must-have] {
+        <CoreThesis>,
+        <entities>,
+        <morphisms>,
+        <states>,
+        <invariants>,
+        <constraints>,
+        <failure_modes>,
+        <change_tests>,
+        <assumption_ledger>,
+        <program_text>,
+        <theory_code_mapping>,
+        <residual_human_theory>
+    },
+
+      <every-child-theory> [must-survive]
+        <at-least-one-change-test>,
+
+      <every-child-theory> [must-name]
+        <at-least-one-core-distinction>,
+
+      <every-child-theory> [must-expose]
+        <at-least-one-residual-human-judgment>,
+
+      <every-child-theory> [must-state]
+        <what-it-cannot-do>,
+
+      <corpus> [must-not-contain]
+        <two-theories-with-identical-domain>,
+
+      <lineage> [must-be-named]
+        for every registered theory,
+
+      <operator> [retains-exclusive-authority-over]
+        <theoretical-rulings>
+}
+
+</Theory Skeleton>
+
+
+3. <Assumption Ledger>
+
+  <A1 status="safe">
+    Every child program theory in the corpus follows the Naurian Loop:
+    the 12-step sequence from elicitation through program text to
+    theory-code mapping.
+  </A1>
+
+  <A2 status="safe">
+    The source texts span four lineages (cybernetic, hermeneutic,
+    operative, epistemological) but all converge on the same
+    architectural claim: that meaning is public, operational,
+    and context-dependent.
+  </A2>
+
+  <A3 status="safe">
+    No child theory is self-sufficient. Each presupposes concepts
+    formalized by at least one other child in the corpus.
+  </A3>
+
+  <A4 status="safe">
+    The meta-program does not replace child theories. It governs
+    their lifecycle, composition, and deployment.
+  </A4>
+
+  <A5 status="uncertain">
+    The current 18-theory corpus may contain redundancies or
+    undetected conflicts that have not yet surfaced under
+    deployment conditions.
+  </A5>
+
+  <A6 status="uncertain">
+    Some child theories may need splitting (overloaded domain)
+    or merging (overlapping domain) as the corpus matures.
+  </A6>
+
+  <A7 status="requires-operator-decision">
+    The corpus boundary is not settled. New source texts may
+    demand new theories; old theories may need retirement.
+    The operator governs admission and expulsion.
+  </A7>
+
+</Assumption Ledger>
+
+
+4. <Operational Description>
+
+  === THE NAURIAN LOOP (Child Theory Generator) ===
+
+  <operator> [receives] <source_text>
+  <operator> [reads] <source_text> as <theory_problem>
+
+  STEP 1: [elicit-purpose]
+    <source_text> [yields] <core_thesis>
+    <core_thesis> [names] <the-one-thing-this-text-teaches>
+
+  STEP 2: [identify-domain-entities]
+    <source_text> [yields] <entity_set>
+    <entity_set> [must-contain] {nouns, concepts, objects, roles, states}
+
+  STEP 3: [define-morphisms]
+    <entity_set> [yields] <morphism_set>
+    <morphism_set> [must-contain] {actions, transformations, relations}
+
+  STEP 4: [specify-states]
+    <entity_set> + <morphism_set> [yield] <state_set>
+    <state_set> [must-contain] {before, during, after, degraded, failed}
+
+  STEP 5: [state-invariants]
+    <state_set> [yields] <invariant_set>
+    <invariant_set> [names] {what-must-always-hold}
+    <invariant_set> [names] {what-must-never-hold}
+
+  STEP 6: [map-state-transitions]
+    <state_set> + <morphism_set> [yield] <state_machine>
+    <state_machine> [describes] {legal moves, blocked moves, irreversible moves}
+
+  STEP 7: [expose-assumptions]
+    <invariant_set> + <state_machine> [yield] <assumption_ledger>
+    <assumption_ledger> [classifies] each assumption as:
+      <safe> | <uncertain> | <requires-operator-decision>
+
+  STEP 8: [find-failure-modes]
+    <assumption_ledger> [yields] <failure_set>
+    <failure_set> [must-name] {symptom, damage, correction}
+    FOR EACH <failure>:
+      <failure> [must-not-be-generic]
+      <failure> [must-arise-from] <specific-entity-or-morphism>
+
+  STEP 9: [describe-change-scenarios]
+    <failure_set> + <invariant_set> [yield] <change_test_set>
+    FOR EACH <change_test>:
+      <change_test> [must-name] {scenario, added-entities, added-morphisms, preserved-invariants}
+
+  STEP 10: [generate-program-text]
+    <entity_set> + <morphism_set> + <state_machine> + <invariant_set>
+    [compose-into] <program_text>
+    <program_text> [must-be] {pseudocode | rule-machine | interpretive-protocol}
+    <program_text> [must-not-outrun] <program_theory>
+
+  STEP 11: [map-theory-to-code]
+    <program_text> [must-map-back-to] {entities, morphisms, invariants}
+    FOR EACH <construct-in-program-text>:
+      [name] <which-entity-or-morphism-it-expresses>
+
+  STEP 12: [mark-residual-human-theory]
+    <program_theory> [must-declare] <what-it-cannot-formalize>
+    <residual_human_theory> [names] {tacit skill, operator judgment,
+      felt relevance, contextual sensitivity, ethical stakes}
+
+
+  === THE REGISTRATION PROTOCOL ===
+
+  <program_theory> [must-pass] <registration_gate> before entering <corpus>
+
+  <registration_gate> [requires]:
+    1. <core_thesis> is stated and non-trivial
+    2. <entity_set> is non-empty and non-redundant with existing corpus
+    3. <at-least-one-core-distinction> is named
+    4. <at-least-three-failure-modes> are specified
+    5. <at-least-one-change-test> is passed
+    6. <lineage> is assigned to one of:
+         <CYBERNETIC>, <HERMENEUTIC>, <OPERATIVE>, <EPISTEMOLOGICAL>,
+         or a NEW lineage declared by the operator
+    7. <residual_human_theory> is non-empty
+    8. <operator> [approves] registration
+
+  <registered_theory> [receives] <atlas_entry>
+  <registered_theory> [receives] <chronicle_entry>
+
+
+  === THE COMPOSITION PROTOCOL ===
+
+  <operator> [selects] <theory_set> from <corpus>
+  <operator> [composes] <theory_set> into <diagnostic_suite>
+
+  <diagnostic_suite> [is] <ordered-sequence-of-child-theories>
+    applied to <live_artifact>
+
+  FOR EACH pair (<theory_A>, <theory_B>) in <diagnostic_suite>:
+    [check-for-entity-conflict]:
+      IF <theory_A> [names-entity] <E> AND <theory_B> [names-entity] <E>
+      AND <theory_A.definition(E)> [contradicts] <theory_B.definition(E)>
+      THEN [flag-conflict] and [require-operator-ruling]
+
+    [check-for-invariant-conflict]:
+      IF <theory_A.invariant> [contradicts] <theory_B.invariant>
+      THEN [flag-conflict] and [require-operator-ruling]
+
+    [check-for-productive-tension]:
+      IF <theory_A> [examines-different-aspect-of] <same-phenomenon>
+      AS <theory_B>
+      THEN [mark-complementary] and [compose-as-sequence]
+
+
+  === THE DEPLOYMENT PROTOCOL ===
+
+  <operator> [selects] <live_artifact>
+  <operator> [selects] <diagnostic_suite>
+  <operator> [applies] <diagnostic_suite> to <live_artifact>
+
+  FOR EACH <child_theory> in <diagnostic_suite>:
+    [run-interpretive-protocol] on <live_artifact>
+    [produce] <diagnostic_report>
+
+  <diagnostic_reports> [compose-into] <composite_reading>
+  <composite_reading> [passes-through] <ExplanationGate>
+  <operator> [rules-on] <composite_reading>
+
+
+  === THE LIFECYCLE PROTOCOL ===
+
+  <registered_theory> [enters] <theory-deployed> when first
+    applied to <live_artifact>
+
+  <registered_theory> [enters] <theory-decaying> when:
+    - its <source_text> lineage has been superseded
+    - its <core_distinction> has been absorbed by another theory
+    - it has not been deployed in N cycles
+    - its <failure_modes> no longer fire on current artifacts
+
+  <registered_theory> [enters] <theory-dead> when:
+    - <operator> [judges] it no longer teaches anything
+      that cannot be better taught by another theory in the corpus
+    - its <invariants> are violated by the corpus itself
+
+  <dead_theory> [may-enter] <theory-revived> when:
+    - a new <source_text> or <live_artifact> reveals
+      a domain the dead theory uniquely addresses
+
+  <dead_theory> [may-enter] <theory-retired> when:
+    - <operator> [moves] it to archive
+    - its <atlas_entry> [receives] retirement marker
+
+
+</Operational Description>
+
+
+5. <Failure Description>
+
+  <Failure name="CORPUS_BLOAT">
+    <symptom> :=
+      <corpus> [grows] without [retirement]
+      <new theories> [overlap] with existing theories
+      <operator> [cannot-survey] the full corpus
+
+    <damage> :=
+      <compositional power> [collapses]
+      <diagnostic suite> [becomes] <unfocused>
+
+    <correction> :=
+      [enforce] <no-addition-without-subtraction>
+      [audit] <corpus> for <redundancy>
+      [merge-or-retire] <overlapping theories>
+  </Failure>
+
+  <Failure name="THEORY_WITHOUT_SOURCE">
+    <symptom> :=
+      <program_theory> [is-generated] without <source_text>
+      <entities> and <morphisms> [are-invented] ad hoc
+
+    <damage> :=
+      <theory> [has-no-lineage]
+      <invariants> [are-arbitrary]
+      <failure_modes> [are-generic]
+
+    <correction> :=
+      [require] <source_text> before <loop_entry>
+      [block] <speculative theory generation>
+  </Failure>
+
+  <Failure name="PROGRAM_TEXT_WITHOUT_THEORY">
+    <symptom> :=
+      <pseudocode> or <rule_machine> [is-produced]
+      before <entities>, <morphisms>, <invariants> are settled
+
+    <damage> :=
+      <code> [cannot-be-justified]
+      <code> [cannot-be-safely-modified]
+      <code> [outpaces] <understanding>
+
+    <correction> :=
+      [enforce] Invariant: <program_text> [must-not-outrun] <program_theory>
+      [hold] <program_text> until Step 10 of NaurianLoop
+  </Failure>
+
+  <Failure name="FLAT_ENTITY_LIST">
+    <symptom> :=
+      <entity_set> [contains] nouns
+      but <morphism_set> [is-empty-or-trivial]
+
+    <damage> :=
+      <theory> [names-things-but-does-nothing]
+      <state_machine> [is-impossible-to-build]
+
+    <correction> :=
+      [require] <at-least-one-morphism-per-entity>
+      [ask] For each entity: "What does it DO? What ACTS ON it?"
+  </Failure>
+
+  <Failure name="INVARIANT_WITHOUT_TEETH">
+    <symptom> :=
+      <invariant> [states] something trivially true
+      <no-failure-mode> [can-violate] the invariant
+
+    <damage> :=
+      <invariant> [provides-no-guidance]
+      <change_test> [is-meaningless]
+
+    <correction> :=
+      [for-each-invariant-ask]
+        "What would it look like to VIOLATE this?"
+        "What DAMAGE would violation cause?"
+      IF no answer: [demote] to <observation>
+  </Failure>
+
+  <Failure name="GENERIC_FAILURE_MODE">
+    <symptom> :=
+      <failure_mode> [says] "system breaks"
+      <failure_mode> [does-not-name] <specific-entity-or-morphism>
+
+    <damage> :=
+      <failure_mode> [cannot-guide] <repair>
+      <failure_mode> [applies-to-anything]
+
+    <correction> :=
+      [require] each failure to [name]:
+        which <entity> is misused
+        which <morphism> is blocked or confused
+        which <invariant> is violated
+  </Failure>
+
+  <Failure name="LINEAGE_COLLAPSE">
+    <symptom> :=
+      <child_theory> [is-registered] without <lineage>
+      <operator> [cannot-trace] theory back to <source_text>
+
+    <damage> :=
+      <theory> [floats-free]
+      <composition> [becomes-arbitrary]
+      <provenance> [is-lost]
+
+    <correction> :=
+      [require] <lineage_assignment> at registration
+      [require] <source_text_reference> in every child theory
+  </Failure>
+
+  <Failure name="COMPOSITION_WITHOUT_AUDIT">
+    <symptom> :=
+      <diagnostic_suite> [combines] theories
+      without [checking] for <entity-conflict> or <invariant-conflict>
+
+    <damage> :=
+      <diagnostic_suite> [produces] <contradictory readings>
+      <operator> [cannot-adjudicate]
+
+    <correction> :=
+      [run] <composition_protocol> before deployment
+      [flag] conflicts for operator ruling
+  </Failure>
+
+  <Failure name="OPERATOR_BYPASS">
+    <symptom> :=
+      <theory> [is-registered] or <reading> [is-finalized]
+      without <operator_judgment>
+
+    <damage> :=
+      <ExplanationGate> [is-breached]
+      <theoretical autonomy> [replaces] <human authority>
+
+    <correction> :=
+      [enforce] <ExplanationGate> at all registration and deployment points
+      <operator> [must-sign-off] on every admission and every composite reading
+  </Failure>
+
+  <Failure name="DEAD_LETTER_THEORY">
+    <symptom> :=
+      <registered_theory> [has-never-been-deployed]
+      <registered_theory> [sits-in-corpus] as <decoration>
+
+    <damage> :=
+      <corpus> [inflates]
+      <theory> [is-never-tested-against-artifact]
+      <failure_modes> [are-never-triggered]
+
+    <correction> :=
+      [require] <deployment_within_N_cycles> of registration
+      [audit] for <undeployed theories> periodically
+      [retire-or-deploy]
+  </Failure>
+
+</Failure Description>
+
+
+6. <Change Test>
+
+  <Scenario name="NEW_LINEAGE_ADMITTED">
+    <if_requirements_change_to> :=
+      A new intellectual lineage (e.g., <phenomenological>,
+      <postcolonial>, <ecological>) demands admission.
+
+    <add_entities> :=
+      {<new_lineage>, <new_source_texts>, <new_child_theories>}
+
+    <add_operations> :=
+      {
+    [declare-new-lineage],
+    [audit-existing-corpus-for-overlap],
+    [register-new-children-under-new-lineage]
+    }
+
+    <preserved_invariant> :=
+      <NaurianLoop> still governs child theory generation.
+      <registration_gate> still governs admission.
+      <operator> still governs theoretical rulings.
+  </Scenario>
+
+  <Scenario name="CHILD_THEORY_SPLIT">
+    <if_requirements_change_to> :=
+      A child theory is discovered to have two distinct domains
+      awkwardly packed into one file.
+
+    <add_operations> :=
+      {
+    [diagnose-domain-overload],
+    [split-entity-set],
+    [split-morphism-set],
+    [register-two-new-theories],
+    [retire-original]
+    }
+
+    <preserved_invariant> :=
+      Total corpus conceptual coverage must not decrease.
+      Both new theories must pass registration gate.
+  </Scenario>
+
+  <Scenario name="CHILD_THEORY_MERGE">
+    <if_requirements_change_to> :=
+      Two child theories are discovered to share >80% of their
+      entity sets and produce identical failure modes.
+
+    <add_operations> :=
+      {
+    [diagnose-redundancy],
+    [merge-entity-sets],
+    [merge-morphism-sets],
+    [preserve-stronger-invariants],
+    [register-merged-theory],
+    [retire-both-originals]
+    }
+
+    <preserved_invariant> :=
+      No core distinction may be lost in merger.
+      Merged theory must pass all change tests of both originals.
+  </Scenario>
+
+  <Scenario name="DEPLOYMENT_TO_NON_TEXTUAL_ARTIFACT">
+    <if_requirements_change_to> :=
+      The diagnostic suite is applied to a simulation, game,
+      interactive environment, or live-agent ecology rather
+      than a text or film.
+
+    <add_entities> :=
+      {<SimulationState>, <AgentBehavior>, <EnvironmentParameter>,
+       <OperatorIntervention>, <EmergentPattern>}
+
+    <preserved_invariant> :=
+      <trace> still [must-exist-before] <strong-claim>.
+      <intention> still [is-evidence-not-sovereign].
+      <interpretation> still [requires] <rival-reading>.
+  </Scenario>
+
+  <Scenario name="CORPUS_EXCEEDS_COGNITIVE_LOAD">
+    <if_requirements_change_to> :=
+      The corpus grows beyond 30 theories and the operator
+      cannot hold the full map.
+
+    <add_operations> :=
+      {
+    [cluster-by-lineage],
+    [generate-lineage-summary],
+    [build-index-of-core-distinctions],
+    [build-failure-mode-concordance],
+    [enable-query-by-phenomenon]
+    }
+
+    <preserved_invariant> :=
+      Every theory remains individually addressable.
+      No theory is hidden behind clustering.
+  </Scenario>
+
+</Change Test>
+
+
+7. <Implementation Plan>
+
+  <modules> :=
+    {
+      <SourceReader>: [reads] <source_text> and [extracts] <theory_problem>,
+
+      <NaurianLoopEngine>: [runs] the 12-step loop and [produces]
+        <child_theory_draft>,
+
+      <RegistrationGate>: [validates] <child_theory> against
+        8-point registration checklist,
+
+      <LineageAssigner>: [classifies] <child_theory> into
+        existing or new lineage,
+
+      <CorpusAuditor>: [detects] <redundancy>, <conflict>,
+        <decay>, <dead-letter> across corpus,
+
+      <CompositionEngine>: [selects] and [orders] child theories
+        into diagnostic suites; [checks] for conflicts,
+
+      <DeploymentRunner>: [applies] diagnostic suite to
+        <live_artifact> and [produces] <diagnostic_reports>,
+
+      <ExplanationGate>: [holds] all outputs until
+        <operator> [rules],
+
+      <LifecycleManager>: [tracks] {registered, deployed,
+        decaying, dead, revived, retired} states,
+
+      <AtlasRegistrar>: [writes] atlas entries for new
+        entities, distinctions, and rituals,
+
+      <ChronicleWriter>: [appends] dated entries for all
+        registration and lifecycle events
+}
+
+  <data_contract> :=
+    <ChildTheoryInput> {
+      source_text,
+      operator_intent,
+      target_lineage,
+      existing_corpus_snapshot
+}
+
+  <output_contract> :=
+    <ChildTheoryRecord> {
+      theory_id,
+      core_thesis,
+      lineage,
+      entity_count,
+      morphism_count,
+      invariant_count,
+      failure_mode_count,
+      change_test_results,
+      residual_human_theory,
+      registration_status,
+      deployment_history,
+      lifecycle_state
+}
+
+
+8. <Program Text>
+
+  PROGRAM <META_PROGRAM_ENGINE>
+
+  INPUT:
+    <CorpusState>   := current set of registered child theories
+    <SourceText>    := new text to be formalized (optional)
+    <Directive>     := {GENERATE | REGISTER | COMPOSE | DEPLOY |
+                        AUDIT | RETIRE | MERGE | SPLIT}
+    <OperatorID>    := identity of the authorizing operator
+
+  OUTPUT:
+    <MetaReport>
+
+  === GENERATE ===
+
+  IF <Directive> == GENERATE:
+
+    STEP G1: [extract-theory-problem]
+      READ <SourceText>
+      EXTRACT <CoreThesis>
+      IF <CoreThesis> is empty:
+        RETURN FAILURE("No thesis found. Source text may not contain
+          a formalizable program theory problem.")
+
+    STEP G2: [run-naurian-loop]
+      FOR step IN [1..12]:
+        EXECUTE <NaurianLoop.step>
+        RECORD <output> in <draft>
+
+    STEP G3: [validate-draft]
+      CHECK: <draft> [has] {
+        <CoreThesis>,
+        <entities>,
+        <morphisms>,
+        <states>,
+        <invariants>,
+        <failure_modes>,
+        <change_tests>,
+        <program_text>,
+        <residual_human_theory>
+    }
+      IF any missing:
+        RETURN FAILURE("Draft incomplete. Missing: " + missing_sections)
+
+    STEP G4: [present-to-operator]
+      HOLD <draft> at <ExplanationGate>
+      AWAIT <operator> [approves | rejects | revises]
+      IF rejected: RETURN <rejection_reason>
+      IF revised: LOOP to G2 with revisions
+
+    RETURN <approved_draft>
+
+
+  === REGISTER ===
+
+  IF <Directive> == REGISTER:
+
+    STEP R1: [check-registration-gate]
+      FOR EACH requirement IN <registration_checklist>:
+        TEST <approved_draft> against <requirement>
+      IF any fail:
+        RETURN FAILURE("Registration blocked: " + failed_requirements)
+
+    STEP R2: [check-corpus-redundancy]
+      FOR EACH <existing_theory> IN <CorpusState>:
+        COMPARE <approved_draft.entity_set> with <existing_theory.entity_set>
+        IF overlap > 80%:
+          FLAG <redundancy> and [require-operator-ruling]
+
+    STEP R3: [assign-lineage]
+      CLASSIFY <approved_draft> into {
+        CYBERNETIC | HERMENEUTIC | OPERATIVE | EPISTEMOLOGICAL | NEW
+    }
+      IF NEW: [require-operator-to-name-lineage]
+
+    STEP R4: [write-atlas-entry]
+      CREATE or UPDATE <atlas_entry> for new entities, distinctions, rituals
+
+    STEP R5: [write-chronicle-entry]
+      APPEND <dated_entry> describing registration
+
+    STEP R6: [add-to-corpus]
+      SET <theory.lifecycle_state> = <registered>
+      ADD <theory> to <CorpusState>
+
+    RETURN <RegistrationReport>
+
+
+  === COMPOSE ===
+
+  IF <Directive> == COMPOSE:
+
+    STEP C1: [select-theories]
+      <operator> [selects] <theory_set> from <CorpusState>
+
+    STEP C2: [audit-composition]
+      FOR EACH pair (<A>, <B>) IN <theory_set>:
+        [check-entity-conflict]
+        [check-invariant-conflict]
+        [check-productive-tension]
+      IF conflicts found:
+        PRESENT to <operator> for ruling
+
+    STEP C3: [order-suite]
+      ORDER <theory_set> by {
+        dependency (prerequisites first),
+        lineage (same lineage grouped),
+        scope (broad to narrow)
+    }
+
+    RETURN <DiagnosticSuite>
+
+
+  === DEPLOY ===
+
+  IF <Directive> == DEPLOY:
+
+    STEP D1: [select-artifact]
+      <operator> [selects] <live_artifact>
+
+    STEP D2: [run-suite]
+      FOR EACH <theory> IN <DiagnosticSuite>:
+        [run-interpretive-protocol](<theory>, <live_artifact>)
+        PRODUCE <diagnostic_report>
+
+    STEP D3: [compose-readings]
+      MERGE <diagnostic_reports> into <composite_reading>
+
+    STEP D4: [gate-reading]
+      HOLD <composite_reading> at <ExplanationGate>
+      <operator> [rules-on] <composite_reading>
+
+    STEP D5: [update-deployment-history]
+      FOR EACH <theory> IN <DiagnosticSuite>:
+        SET <theory.lifecycle_state> = <deployed>
+        APPEND <deployment_record>
+
+    RETURN <DeploymentReport>
+
+
+  === AUDIT ===
+
+  IF <Directive> == AUDIT:
+
+    STEP A1: [scan-corpus]
+      FOR EACH <theory> IN <CorpusState>:
+        CHECK:
+          <deployment_history> — has it ever been deployed?
+          <failure_modes> — do they still fire?
+          <core_distinction> — is it now covered by another theory?
+          <source_text> — has the lineage been superseded?
+
+    STEP A2: [classify-health]
+      FOR EACH <theory>:
+        IF never deployed:             SET <dead-letter-risk>
+        IF failure modes never fire:   SET <decay-risk>
+        IF distinction absorbed:       SET <redundancy-risk>
+        IF lineage superseded:         SET <obsolescence-risk>
+
+    STEP A3: [present-audit]
+      PRESENT <AuditReport> to <operator>
+      <operator> [decides]: {keep, deploy, merge, split, retire}
+
+    RETURN <AuditReport>
+
+
+  === RETIRE ===
+
+  IF <Directive> == RETIRE:
+
+    STEP X1: [verify-retirement]
+      CONFIRM <operator> [approves] retirement
+      CONFIRM <no-active-deployment> depends on this theory
+
+    STEP X2: [archive-theory]
+      MOVE <theory> to <archive>
+      SET <theory.lifecycle_state> = <retired>
+      UPDATE <atlas_entry> with retirement marker
+      APPEND <chronicle_entry>
+
+    RETURN <RetirementReport>
+
+
+  === MERGE / SPLIT ===
+
+  IF <Directive> == MERGE:
+    [Execute composition protocol with retirement of both originals]
+
+  IF <Directive> == SPLIT:
+    [Execute NaurianLoop twice with shared source; retire original]
+
+  END PROGRAM
+
+
+9. <Theory-Code Mapping>
+
+  <types>
+    <Generator>     := <NaurianLoopEngine>
+    <Validator>     := <RegistrationGate>
+    <Composer>      := <CompositionEngine>
+    <Deployer>      := <DeploymentRunner>
+    <Auditor>       := <CorpusAuditor>
+    <Gatekeeper>    := <ExplanationGate>
+    <Archivist>     := <AtlasRegistrar>, <ChronicleWriter>, <LifecycleManager>
+  </types>
+
+  <meta_rule_to_child_theory_section_map>
+    NaurianLoop.Step1   → <Initial_Interpretation> or <Core_Thesis>
+    NaurianLoop.Step2   → <Theory_Skeleton.entities>
+    NaurianLoop.Step3   → <Theory_Skeleton.operations> or <morphisms>
+    NaurianLoop.Step4   → <Theory_Skeleton.states>
+    NaurianLoop.Step5   → <Theory_Skeleton.invariants>
+    NaurianLoop.Step6   → <state_machine> (where present)
+    NaurianLoop.Step7   → <Assumption_Ledger>
+    NaurianLoop.Step8   → <Failure_Description>
+    NaurianLoop.Step9   → <Change_Test>
+    NaurianLoop.Step10  → <Program_Text>
+    NaurianLoop.Step11  → <Theory_Code_Mapping>
+    NaurianLoop.Step12  → <Residual_Human_Theory>
+  </meta_rule_to_child_theory_section_map>
+
+  <cross_references>
+    argue.json    ↔ rcp.json       (achievement vs. possession)
+    mot.json      ↔ tah.json       (model of trace ↔ textual action)
+    tda.json      ↔ thick.json     (thick description ↔ thick programming)
+    opek.json     ↔ mmt.json       (operative depiction ↔ model-measure)
+    cyber.json    ↔ agential.json  (cybernetic media ↔ agential cuts)
+    crn.json      ↔ haunted.json   (ritual narratology ↔ combinatorial narrative)
+    dac.json      ↔ theory.json    (design after cognitivism ↔ Naur-Ehn-Musashi)
+    dse.json      ↔ uam.json       (descriptive struggle ↔ use vs meaning)
+    memex.json    ↔ tenne.json     (trail-building ↔ executable semantics)
+  </cross_references>
+
+
+10. <Residual Human Theory>
+
+  <irreducible_remainder>
+    <which-source-text-deserves-a-theory> cannot be formalized.
+    <which-distinction-is-core> cannot be computed.
+    <when-two-theories-conflict-which-wins> cannot be automated.
+    <whether-a-theory-is-dead-or-dormant> requires lived judgment.
+    <whether-a-deployment-reading-is-adequate> requires intellectual courage.
+    <whether-the-corpus-is-complete> is undecidable.
+  </irreducible_remainder>
+
+  <maintainer_warning>
+    The forbidden move is:
+
+    <meta_program> is complete.
+    <meta_program> contains all necessary rules.
+    THEREFORE <meta_program> can run without <operator>.
+
+    This is false.
+
+    Correct formulation:
+
+    <meta_program> [structures] <labor>.
+    <meta_program> [prevents] <certain-known-errors>.
+    <meta_program> [cannot-replace] <operator-judgment>.
+    <meta_program> [cannot-decide] <its-own-completeness>.
+    <meta_program> [requires] <human-who-possesses-the-theory>
+      to wield it as <instrument>, not worship it as <authority>.
+  </maintainer_warning>
+
+  <final_operator>
+    PRESERVE:
+      <NaurianLoop> as <the generator>.
+      <RegistrationGate> as <the validator>.
+      <CompositionEngine> as <the combiner>.
+      <ExplanationGate> as <the checkpoint>.
+      <CorpusAuditor> as <the immune system>.
+      <Operator> as <the sovereign>.
+
+    The corpus lives only so long as someone possesses
+    the theory of these theories.
+
+    <victory> :=
+      <program_theories> [are-deployed]
+      and <artifacts> [are-read-better]
+      and <operator> [retains-judgment]
+      and <cosmos> [survives-change].
+  </final_operator>
+
+</Residual Human Theory>
+
+
+<CORPUS_MANIFEST version="2026-04-28">
+
+  <lineage name="CYBERNETIC">
+    <child id="agential"  file="agential.json"  thesis="Apparatus cuts determine what becomes determinate"/>
+    <child id="cyber"     file="cyber.json"      thesis="AI is a world-making participant, not a tool"/>
+    <child id="crn"       file="crn.json"        thesis="Generative AI is a recursive cultural apparatus"/>
+    <child id="dac"       file="dac.json"        thesis="Design is accountable coordination of commitments"/>
+  </lineage>
+
+  <lineage name="HERMENEUTIC">
+    <child id="mot"       file="mot.json"        thesis="Meaningful action becomes readable as trace"/>
+    <child id="tah"       file="tah.json"        thesis="Action becomes interpretable through inscription"/>
+    <child id="tda"       file="tda.json"        thesis="Culture is the public context of significance"/>
+    <child id="thick"     file="thick.json"      thesis="Human personhood is a symbolic compilation event"/>
+    <child id="dse"       file="dse.json"        thesis="Fluent output is not descriptively adequate language"/>
+  </lineage>
+
+  <lineage name="OPERATIVE">
+    <child id="opek"      file="opek.json"       thesis="Multimodal AI shifts ekphrasis from representation to operation"/>
+    <child id="mmt"       file="mmt.json"        thesis="Pictures are operational models, not passive reflections"/>
+    <child id="memex"     file="memex.json"      thesis="Scholarly provenance requires auditable trails"/>
+    <child id="tenne"     file="tenne.json"      thesis="Language is an executable world-model operation"/>
+  </lineage>
+
+  <lineage name="EPISTEMOLOGICAL">
+    <child id="argue"     file="argue.json"      thesis="The argument is not the thought"/>
+    <child id="rcp"       file="rcp.json"        thesis="Concept possession is operational mastery"/>
+    <child id="uam"       file="uam.json"        thesis="Use is not meaning; meaning is not use"/>
+    <child id="theory"    file="theory.json"     thesis="Software development is shared theory building"/>
+    <child id="haunted"   file="haunted.json"    thesis="Generative narrative is combinatorial operation"/>
+  </lineage>
+
+  <known_duplicate>
+    <file>td.json</file>
+    <status>byte-for-byte duplicate of mot.json; candidate for retirement</status>
+  </known_duplicate>
+
+</CORPUS_MANIFEST>
+
+</PROGRAM_THEORY>

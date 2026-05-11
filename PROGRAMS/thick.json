@@ -1,0 +1,669 @@
+<PROGRAM_THEORY name="THICK_PROGRAMMING" object="paper" version="2.0">
+
+  <Initial_Interpretation>
+    <paper> [is
+] <theory-of-cultural-programming>
+    <paper> [models
+] <human-becoming> as <symbolic-compilation>
+    <human> [is-not
+] <natural essence hidden beneath culture>
+    <human> [is
+] <unfinished animal completed through cultural programs>
+    <culture> [is-not
+] <ornament>
+    <culture> [is
+] <extra-genetic instruction system>
+    <AI> [is-not
+] <break from culture>
+    <AI> [is
+] <intensified symbolic-control apparatus>
+    <method> [is
+] <thick programming>
+    <thick programming> [reads
+] <symbols> by asking what they mean and what they make happen>
+  </Initial_Interpretation>
+
+
+  <Theory_Skeleton>
+    <entities>
+      <human>
+      <unfinished_animal>
+      <culture>
+      <symbol>
+      <program>
+      <control_mechanism>
+      <capacity>
+      <performance>
+      <particularity>
+      <universal_man>
+      <fake_universal>
+      <ritual>
+      <etiquette>
+      <interface>
+      <prompt>
+      <AI_system>
+      <institution>
+      <delegated_agency>
+      <symbolic_instruction>
+      <social_scene>
+      <compiled_personhood>
+      <thick_description>
+      <thick_programming>
+    </entities>
+
+    [operations
+]
+      [reject_backstage_human
+]
+      [detect_fake_universal
+]
+      [descend_into_particularity
+]
+      [replace_stratigraphy_with_system
+]
+      [identify_symbolic_control
+]
+      [transform_capacity_into_performance
+]
+      [format_intention
+]
+      [delegate_symbolic_action
+]
+      [compile_personhood
+]
+      [interpret_meaning
+]
+      [debug_operation
+]
+      [read_interface_as_culture
+]
+      [read_AI_as_cultural_program
+]
+    [/operations
+]
+
+    <states>
+      <abstract_universal_human>
+      <culture_stripped_human>
+      <empty_category>
+      <particular_cultural_scene>
+      <symbolically_ordered_action>
+      <interface_formatted_intention>
+      <AI_mediated_symbolic_loop>
+      <compiled_human_action>
+      <thickly_read_system>
+    </states>
+
+    <constraints>
+      <human> [cannot_be_defined_by
+] <culture_subtraction>
+      <culture> [cannot_be_treated_as
+] <surface_decoration>
+      <particularity> [cannot_be_dismissed_as
+] <local_noise>
+      <universal_category> [cannot_replace
+] <specific_practice>
+      <interface> [cannot_be_treated_as
+] <neutral_tool>
+      <AI_system> [cannot_be_treated_as
+] <outside_culture>
+      <program_metaphor> [cannot_collapse
+] <meaning> into <mechanism>
+    </constraints>
+
+    <invariants>
+      <human> [has_no
+] <pre-cultural_backstage>
+      <culture> [mediates
+] <capacity> into <performance>
+      <symbol> [is
+] <meaningful_and_operational>
+      <particularity> [is
+] <evidence>
+      <interface> [formats
+] <possible_action>
+      <prompt> [is
+] <symbolic_instruction>
+      <AI_output> [is
+] <delegated_semiotic_event>
+      <thick_programming> [must_preserve
+] {meaning, mechanism, embodiment, history, institution
+}
+    </invariants>
+  </Theory_Skeleton>
+
+
+  <Assumption_Ledger>
+    <assumption status="<safe>">
+      <Geertz> [provides
+] <culture_as_control_mechanism>
+    </assumption>
+
+    <assumption status="<safe>">
+      <paper> [extends
+] <symbolic_anthropology> into <AI_interface_theory>
+    </assumption>
+
+    <assumption status="<safe>">
+      <human_action> [emerges_from
+] {body, symbol, institution, memory, scene
+}
+    </assumption>
+
+    <assumption status="<uncertain>">
+      <program_language> [may_overstate
+] <determinacy_of_culture>
+      <correction> [requires
+] <ambiguity, improvisation, refusal, interpretation>
+    </assumption>
+
+    <assumption status="<uncertain>">
+      <AI_prompting> [may_vary_by
+] {platform, user, institution, model, context
+}
+      <correction> [requires
+] <case_specific_analysis>
+    </assumption>
+
+    <assumption status="<requires-user-decision>">
+      <paper_emphasis> [could_shift_toward
+] {anthropology, media_theory, STS, AI_ethics, design_theory
+}
+    </assumption>
+  </Assumption_Ledger>
+
+
+  <Operational_Description>
+    <universal_man_model>
+      <input> <human_without_culture> </input>
+      [operation
+] [strip_culture
+]
+      <output> <abstract_human_essence> </output>
+      <paper_response> [rejects
+] <abstract_human_essence> </paper_response>
+    </universal_man_model>
+
+    <fake_universal_model>
+      <input> {religion, marriage, property, morality, shelter, user, intelligence
+} </input>
+      [operation
+] [generalize_without_particularity
+]
+      <output> <empty_category> </output>
+      <paper_response> [blocks
+] <empty_category> </paper_response>
+    </fake_universal_model>
+
+    <geertzian_model>
+      <input> <unfinished_animal> </input>
+      [operation
+] [supply_symbolic_programs
+]
+      <output> <specific_human_performance> </output>
+    </geertzian_model>
+
+    <culture_model>
+      <culture> [contains
+] {plans, recipes, rules, instructions, symbols, rituals, etiquette, institutions
+}
+      <culture> [governs
+] <behavior>
+      <culture> [orients
+] <experience>
+      <culture> [narrows
+] <general_capacity>
+      <culture> [produces
+] <particular_personhood>
+    </culture_model>
+
+    <interface_model>
+      <interface> [contains
+] {buttons, prompts, menus, defaults, refusals, rankings, notifications
+}
+      <interface> [formats
+] <intention>
+      <interface> [trains
+] <conduct>
+      <interface> [assigns
+] <role>
+      <interface> [produces
+] <user_as_particular_actor>
+    </interface_model>
+
+    <AI_model>
+      <user> [enters
+] <prompt>
+      <prompt> [functions_as
+] <symbolic_instruction>
+      <AI_system> [generates
+] <semiotic_output>
+      <user> [interprets
+] <semiotic_output>
+      <user> [reprompts_or_accepts
+] <semiotic_output>
+      <loop> [produces
+] <delegated_agency>
+    </AI_model>
+
+    <thick_programming_model>
+      <symbolic_scene> [is_read_for
+] <meaning>
+      <symbolic_scene> [is_read_for
+] <operation>
+      <analysis> [asks
+] "What does this mean?"
+      <analysis> [asks
+] "What does this make possible?"
+      <analysis> [asks
+] "What does this forbid?"
+      <analysis> [asks
+] "What conduct does this train?"
+      <analysis> [asks
+] "What kind of person does this system compile?"
+    </thick_programming_model>
+
+    <compilation_model>
+      {<body>, <symbol>, <institution>, <interface>, <memory>, <scene>
+}
+        [compile_into
+] <human_action>
+
+      <human_action> [reveals
+] <compiled_personhood>
+    </compilation_model>
+  </Operational_Description>
+
+
+  <Failure_Description>
+    <failure name="BACKSTAGE_HUMAN_ERROR">
+      <condition> <theory> [assumes
+] <human_before_culture> </condition>
+      <result> <culture> [is_reduced_to
+] <costume> </result>
+      <response> [reject_backstage_human
+] </response>
+    </failure>
+
+    <failure name="EMPTY_UNIVERSAL_ERROR">
+      <condition> <category> [generalizes_without
+] <specific_practice> </condition>
+      <result> <category> [explains
+] <nothing> </result>
+      <response> [descend_into_particularity
+] </response>
+    </failure>
+
+    <failure name="STRATIGRAPHIC_ERROR">
+      <condition> {biology, psychology, society, culture
+} [are_treated_as
+] <separate_layers> </condition>
+      <result> <analysis> [cannot_explain
+] <interdependence> </result>
+      <response> [replace_stratigraphy_with_system
+] </response>
+    </failure>
+
+    <failure name="MECHANISM_REDUCTION_ERROR">
+      <condition> <culture_as_program> [is_read_as
+] <deterministic_code> </condition>
+      <result> <meaning> [is_erased
+] </result>
+      <response> <program> [must_include
+] {interpretation, ambiguity, improvisation, refusal
+} </response>
+    </failure>
+
+    <failure name="INTERFACE_NEUTRALITY_ERROR">
+      <condition> <interface> [is_read_as
+] <mere_tool> </condition>
+      <result> <formatted_intention> [is_missed
+] </result>
+      <response> [read_interface_as_culture
+] </response>
+    </failure>
+
+    <failure name="AI_EXCEPTIONALISM_ERROR">
+      <condition> <AI_system> [is_read_as
+] <outside_history_or_culture> </condition>
+      <result> <analysis> [misses
+] {training_data, platform_norms, prompt_rituals, policy, user_practice
+} </result>
+      <response> [read_AI_as_cultural_program
+] </response>
+    </failure>
+  </Failure_Description>
+
+
+  <Change_Test>
+    <scenario name="AI_ETHICS_ARTICLE">
+      <change> <archive> [shifts_to
+] {model_policy, prompt_logs, recommender_systems, workplace_automation, moderation_interfaces
+} </change>
+      <preserved> <culture> [still
+] [transforms_capacity_into_performance
+] </preserved>
+      <new_pressure> <analysis> [foregrounds
+] <who_controls_symbolic_completion> </new_pressure>
+    </scenario>
+
+    <scenario name="MEDIA_ARCHAEOLOGY_CHAPTER">
+      <change> <archive> [expands_to
+] {ritual, writing, bureaucracy, cinema, software, AI
+} </change>
+      <preserved> <symbolic_systems> [still
+] [govern_behavior
+] </preserved>
+      <new_pressure> <analysis> [foregrounds
+] <historical_sequence_of_programming_forms> </new_pressure>
+    </scenario>
+
+    <scenario name="DESIGN_THEORY_MANIFESTO">
+      <change> <method> [shifts_from
+] <interpretive_analysis> [to
+] <design_principles> </change>
+      <preserved> <interface> [still
+] [formats_intention
+] </preserved>
+      <new_pressure> <designer> [becomes_responsible_for
+] <compiled_personhood> </new_pressure>
+    </scenario>
+  </Change_Test>
+
+
+  <Implementation_Plan>
+    <section id="1" name="No Backstage Human">
+      [operation
+] [reject_backstage_human
+]
+      <claim> <human> [appears_through
+] <culture> </claim>
+    </section>
+
+    <section id="2" name="Fake Universals">
+      [operation
+] [detect_fake_universal
+]
+      <claim> <general_category> [is_empty_without
+] <particular_practice> </claim>
+    </section>
+
+    <section id="3" name="Against Stratigraphy">
+      [operation
+] [replace_stratigraphy_with_system
+]
+      <claim> <human_action> [emerges_from
+] <interdependent_variables> </claim>
+    </section>
+
+    <section id="4" name="Culture as Program">
+      [operation
+] [identify_symbolic_control
+]
+      <claim> <culture> [is
+] <extra-genetic_instruction_system> </claim>
+    </section>
+
+    <section id="5" name="Interface as Cultural Scene">
+      [operation
+] [read_interface_as_culture
+]
+      <claim> <interface> [formats
+] <intention> </claim>
+    </section>
+
+    <section id="6" name="AI as Delegated Semiotic Apparatus">
+      [operation
+] [read_AI_as_cultural_program
+]
+      <claim> <AI> [intensifies
+] <symbolic_delegation> </claim>
+    </section>
+
+    <section id="7" name="Thick Programming">
+      [operation
+] [construct_method
+]
+      <claim> <analysis> [must_read
+] {meaning, operation
+} </claim>
+    </section>
+
+    <section id="8" name="Human as Compilation">
+      [operation
+] [compile_personhood
+]
+      <claim> <human_action> [is
+] <runtime_event> </claim>
+    </section>
+  </Implementation_Plan>
+
+
+  <Program_Text>
+    <algorithm name="THICK_PROGRAMMING">
+
+      <step id="1">
+        <input> <universal_man> </input>
+        [reject_backstage_human
+]
+        <output> <human_as_culturally_situated_performance> </output>
+      </step>
+
+      <step id="2">
+        <input> <fake_universal> </input>
+        [descend_into_particularity
+]
+        <output> <specific_symbolic_scene> </output>
+      </step>
+
+      <step id="3">
+        <input> <stratified_human_model> </input>
+        [replace_stratigraphy_with_system
+]
+        <output> <synthetic_human_model> </output>
+      </step>
+
+      <step id="4">
+        <input> <unfinished_animal> </input>
+        [apply_cultural_program
+]
+        <output> <particular_human> </output>
+      </step>
+
+      <step id="5">
+        <input> <ritual_or_etiquette_or_interface> </input>
+        [identify_symbolic_control
+]
+        <output> <behavior_governance_pattern> </output>
+      </step>
+
+      <step id="6">
+        <input> <prompt> </input>
+        [delegate_symbolic_action
+]
+        <output> <AI_mediated_semiotic_event> </output>
+      </step>
+
+      <step id="7">
+        <input> {<body>, <symbol>, <institution>, <interface>, <memory>, <scene>
+} </input>
+        [compile_personhood
+]
+        <output> <human_action> </output>
+      </step>
+
+      <step id="8">
+        <input> <human_action> </input>
+        [perform_thick_programming
+]
+        <output> <account_of_meaning_and_operation> </output>
+      </step>
+
+    </algorithm>
+
+    <method name="PERFORM_THICK_PROGRAMMING">
+      <question id="1">What symbolic instructions govern this scene?</question>
+      <question id="2">What capacities does the scene assume?</question>
+      <question id="3">What actions does the scene enable?</question>
+      <question id="4">What actions does the scene block?</question>
+      <question id="5">What actions does the scene reward?</question>
+      <question id="6">What actions does the scene punish?</question>
+      <question id="7">What role does the interface assign?</question>
+      <question id="8">What kind of person is being trained?</question>
+      <question id="9">Where does agency move?</question>
+      <question id="10">What remains unprogrammable?</question>
+    </method>
+  </Program_Text>
+
+
+  <Theory_Code_Mapping>
+    <types>
+      <Human> [represents
+] <unfinished_animal>
+      <Culture> [represents
+] <symbolic_control_system>
+      <Program> [represents
+] <instruction_pattern_for_behavior>
+      <Interface> [represents
+] <cultural_scene_with_affordances>
+      <Prompt> [represents
+] <symbolic_instruction>
+      <AI_System> [represents
+] <delegated_semiotic_apparatus>
+      <Thick_Programming> [represents
+] <method_for_reading_meaning_and_operation>
+    </types>
+
+    <functions>
+      [reject_backstage_human
+] [implements
+] <anti-essentialist_argument>
+      [detect_fake_universal
+] [implements
+] <critique_of_empty_categories>
+      [descend_into_particularity
+] [implements
+] <Geertzian_method>
+      [replace_stratigraphy_with_system
+] [implements
+] <synthetic_analysis>
+      [identify_symbolic_control
+] [implements
+] <culture_as_program>
+      [format_intention
+] [implements
+] <interface_theory>
+      [delegate_symbolic_action
+] [implements
+] <AI_prompt_loop>
+      [compile_personhood
+] [implements
+] <human_as_runtime_event>
+    </functions>
+
+    <tests>
+      <test name="NO_BACKSTAGE">
+        <assert> <human> [is_not_found_by
+] <subtracting_culture> </assert>
+      </test>
+
+      <test name="NO_EMPTY_UNIVERSAL">
+        <assert> <category> [must_include
+] <specific_practice> </assert>
+      </test>
+
+      <test name="NO_LAYER_CAKE">
+        <assert> <human_action> [requires
+] <systemic_interdependence> </assert>
+      </test>
+
+      <test name="NO_NEUTRAL_INTERFACE">
+        <assert> <interface> [formats
+] <intention> </assert>
+      </test>
+
+      <test name="NO_AI_OUTSIDE_CULTURE">
+        <assert> <AI_system> [belongs_to
+] <cultural_programming_history> </assert>
+      </test>
+
+      <test name="MEANING_AND_OPERATION">
+        <assert> <thick_programming> [must_read
+] {what_it_means, what_it_does
+} </assert>
+      </test>
+    </tests>
+
+    <comments>
+      <comment> <program> [is
+] <analytic_metaphor>, not <deterministic_reduction> </comment>
+      <comment> <culture> [governs
+] <behavior>, but <does_not_eliminate> <interpretation> </comment>
+      <comment> <AI> [extends
+] <symbolic_delegation>, but <does_not_escape> <history> </comment>
+    </comments>
+
+    <configuration>
+      <mode>theoretical</mode>
+      <density>maximal</density>
+      <archive>{Geertz, symbolic anthropology, cybernetics, AI interfaces, prompt systems, institutions
+}</archive>
+      <style>{synthetic, polemical, methodological, systems-oriented
+}</style>
+      <intervention>high</intervention>
+    </configuration>
+  </Theory_Code_Mapping>
+
+
+  <Residual_Human_Theory>
+    <residue>
+      <human_life> [exceeds
+] <program_model>
+    </residue>
+
+    <residue>
+      <meaning> [exceeds
+] <operation>
+    </residue>
+
+    <residue>
+      <culture> [contains
+] {ambiguity, contradiction, improvisation, refusal, memory, affect
+}
+    </residue>
+
+    <residue>
+      <AI_analysis> [requires
+] <human_judgment>
+    </residue>
+
+    <maintainer_must_know>
+      <Geertz> [matters_because
+] <culture_is_constitutive>
+      <particularity> [matters_because
+] <it_reveals_general_process>
+      <interface> [matters_because
+] <it_formats_conduct>
+      <prompt> [matters_because
+] <it_operationalizes_language>
+      <AI> [matters_because
+] <it_scales_symbolic_delegation>
+      <thick_programming> [matters_because
+] <it_refuses_to_choose_between_meaning_and_mechanism>
+    </maintainer_must_know>
+
+    <final_claim>
+      <human> [is_not
+] <input>
+      <human> [is_not
+] <output>
+      <human> [is
+] <runtime_event>
+      <runtime_event> [occurs_when
+] {body, symbol, institution, interface, memory, scene
+} [compile_into
+] <action>
+    </final_claim>
+  </Residual_Human_Theory>
+
+</PROGRAM_THEORY>

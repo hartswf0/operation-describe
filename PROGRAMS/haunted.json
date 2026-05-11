@@ -1,0 +1,506 @@
+PROGRAM_THEORY := <Haunted Machine Criticism Engine>
+
+SOURCE :=
+<The Haunted Machine: Calvino, Cybernetics, and Generative Narrative> :contentReference[oaicite: 0
+]{index=0
+}
+
+AXIOM_01 :=
+<literature> [is_not
+] <self_expression_first>
+<literature> [is
+] <operation_before_expression>
+
+AXIOM_02 :=
+<narrative> [emerges_from
+] <finite_symbolic_inventory> [under
+] <rules_of_combination>
+
+AXIOM_03 :=
+<constraint> [does_not_merely_limit
+] <generation>
+<constraint> [enables
+] <generation>
+<constraint> [excludes
+] <generation>
+
+AXIOM_04 :=
+<machine> [produces
+] <forms>
+<form> [produces
+] <effects>
+<effects> [exceed
+] <formal_explanation>
+<formal_excess> [is_called
+] <ghost>
+
+AXIOM_05 :=
+<ghost> [is_not
+] <soul>
+<ghost> [is_not
+] <genius>
+<ghost> [is_not
+] <mystical_essence>
+<ghost> [is
+] <residue_generated_when_structure_enters_history_desire_reader_and_power>
+
+AXIOM_06 :=
+<authorship> [is_not_located_in
+] <single_author>
+<authorship> [is_distributed_across
+] {
+  <writer>,
+  <genre>,
+  <archive>,
+  <constraint>,
+  <interface>,
+  <institution>,
+  <reader>,
+  <machine>
+}
+
+AXIOM_07 :=
+<generative_AI> [is_not
+] <absolute_novelty>
+<generative_AI> [is
+] <late_scene_of> <combinatorial_literary_history>
+
+AXIOM_08 :=
+<criticism> [must_read
+] <machine>
+<criticism> [must_read
+] <ghost>
+<criticism> [fails_if
+] <machine_without_ghost>
+<criticism> [fails_if
+] <ghost_without_machine>
+
+
+CORE_PROBLEM :=
+Given <artifact>,
+discover:
+  1. <what_machine_generates_it>
+  2. <what_rules_bind_it>
+  3. <what_archive_feeds_it>
+  4. <what_permutations_it_allows>
+  5. <what_possibilities_it_blocks>
+  6. <what_ghosts_it_produces>
+  7. <what_power_relations_it_hides_or_repeats>
+
+
+PRIMARY_ENTITIES :=
+{
+  <artifact>:
+    text | story | myth | folktale | novel | essay | prompt | AI_output | interface | dataset_trace,
+
+  <symbolic_inventory>:
+    finite_collection_of <roles>, <figures>, <objects>, <actions>, <prohibitions>, <genres>, <settings>, <rituals>,
+
+  <narrative_machine>:
+    rule_bound_system_that_converts <symbolic_inventory> into <possible_sequences>,
+
+  <function>:
+    repeatable_operation_defined_by_position_not_surface_identity,
+
+  <constraint>:
+    rule_that_makes_some_sequences_possible_and_other_sequences_impossible,
+
+  <permutation>:
+    recombination_of_inherited_elements_under_constraint,
+
+  <archive>:
+    sedimented_store_of_prior_forms_genres_citations_myths_institutions_styles_and_templates,
+
+  <reader_position>:
+    role_the_artifact_constructs_for_interpretation_participation_desire_or_control,
+
+  <agency_network>:
+    distributed_field_of_human_and_nonhuman_participants_in_generation,
+
+  <ghost>:
+    unresolved_remainder_of <desire>, <memory>, <history>, <affect>, <ideology>, <reader_projection>, <political_pressure>,
+
+  <critical_intervention>:
+    explanation_of_how <machine> and <ghost> co-produce meaning
+}
+
+
+MACHINE_MODEL :=
+<artifact>
+  [contains
+] <symbolic_inventory>
+  [submits_to
+] <constraints>
+  [activates
+] <archive>
+  [generates
+] <permutations>
+  [stabilizes
+] <functions>
+  [positions
+] <reader>
+  [distributes
+] <agency>
+  [produces
+] <meaning_effects>
+  [summons
+] <ghosts>
+
+
+CALVINO_OPERATOR :=
+<storyteller>
+  [does_not_express
+] <inner_self_first>
+  [tests
+] <word_against_word>
+  [tests
+] <figure_against_action>
+  [tests
+] <prohibition_against_transgression>
+  [tests
+] <sequence_against_expectation>
+  [extracts
+] <world_explanation> from <combinatorial_speech>
+
+Therefore:
+<storytelling> [is
+] <symbolic_operation>
+<story> [is
+] <permutation_with_consequence>
+
+
+PROPP_OPERATOR :=
+<folktale>
+  [decomposes_into
+] <functions>
+<character_identity>
+  [matters_less_than
+] <functional_position>
+<hero>, <villain>, <donor>, <helper>
+  [are
+] <slots_in_sequence>
+
+Therefore:
+<narrative_identity> [is
+] <relational>
+<plot> [is
+] <ordered_function_system>
+
+
+LEVI_STRAUSS_OPERATOR :=
+<myth>
+  [is
+] <transformation_system>
+<mythic_element>
+  [gains_meaning_from
+] <opposition>, <substitution>, <inversion>, <mediation>
+
+Therefore:
+<culture> [thinks_through
+] <structured_difference>
+<archive> [survives_by
+] <transformation_not_repetition>
+
+
+BARTHES_TEL_QUEL_OPERATOR :=
+<author>
+  [is_displaced_by
+] <code>, <discourse>, <position>, <readerly_operation>
+<writing>
+  [becomes
+] <act_that_exposes_its_own_production>
+
+Therefore:
+<authorship> [is
+] <procedural_distribution>
+<text> [is
+] <system_of_codes_not_private_origin>
+
+
+OULIPO_OPERATOR :=
+<constraint>
+  [becomes
+] <composition_engine>
+<formal_rule>
+  [does_not_kill
+] <freedom>
+<formal_rule>
+  [produces
+] <new_freedom>
+
+Therefore:
+<literary_machine> [can_be
+] <beautiful_because_visible>
+<reader> [takes_pleasure_in
+] <watching_structure_generate_surprise>
+
+
+AI_OPERATOR :=
+<prompt>
+  [is
+] <local_constraint_system>
+<model>
+  [is
+] <latent_archive>
+<dataset>
+  [is
+] <buried_canon>
+<interface>
+  [is
+] <literary_institution>
+<guardrail>
+  [is
+] <genre_constraint>
+<AI_output>
+  [is
+] <machine_output> + <cultural_residue>
+
+Therefore:
+<AI_writing> [reveals
+] <procedural_conditions_of_textuality>
+<AI_debate> [must_shift_from
+] <can_machines_write>
+<AI_debate> [must_shift_to
+] <what_machines_have_always_made_writing_possible>
+
+
+OPERATIONS :=
+{
+    [ingest
+    ]:
+    <artifact> -> <parsed_artifact>,
+    [inventory
+    ]:
+    <parsed_artifact> -> <symbolic_inventory>,
+    [function_map
+    ]:
+    <symbolic_inventory> + <sequence> -> <function_system>,
+    [constraint_map
+    ]:
+    <function_system> -> <enabling_rules> + <blocking_rules>,
+    [permutation_map
+    ]:
+    <constraints> + <inventory> -> <possible_sequences> + <impossible_sequences>,
+    [archive_trace
+    ]:
+    <artifact> -> <explicit_sources> + <implicit_lineages> + <genre_memory>,
+    [reader_position_map
+    ]:
+    <artifact> -> <constructed_reader_role>,
+    [agency_map
+    ]:
+    <artifact> -> <agency_network>,
+    [ghost_detect
+    ]:
+    <machine_analysis> -> <formal_remainders>,
+    [political_scan
+    ]:
+    <constraints> + <archive> + <roles> -> <exclusions> + <naturalizations> + <hierarchies>,
+    [synthesize
+    ]:
+    <machine_analysis> + <ghost_analysis> + <political_scan> -> <critical_intervention>
+}
+
+
+STATE_MACHINE :=
+<unread>
+  [ingest
+] -> <parsed>
+
+<parsed>
+  [inventory
+] -> <catalogued>
+
+<catalogued>
+  [function_map
+] -> <function_mapped>
+
+<function_mapped>
+  [constraint_map
+] -> <constraint_mapped>
+
+<constraint_mapped>
+  [permutation_map
+] -> <possibility_mapped>
+
+<possibility_mapped>
+  [archive_trace
+] -> <archive_traced>
+
+<archive_traced>
+  [reader_position_map
+] -> <reader_positioned>
+
+<reader_positioned>
+  [agency_map
+] -> <agency_distributed>
+
+<agency_distributed>
+  [ghost_detect
+] -> <haunted>
+
+<haunted>
+  [political_scan
+] -> <politically_interpreted>
+
+<politically_interpreted>
+  [synthesize
+] -> <critical_intervention_ready>
+
+
+GHOST_TAXONOMY :=
+{
+  <desire_ghost>:
+    <reader_projection> | <writer_compulsion> | <cultural_fantasy>,
+
+  <memory_ghost>:
+    <repeated_form> | <forgotten_archive> | <genre_afterimage>,
+
+  <history_ghost>:
+    <buried_conflict> | <institutional_sediment> | <old_violence_returning_as_form>,
+
+  <ideology_ghost>:
+    <naturalized_role> | <hidden_hierarchy> | <unmarked_norm>,
+
+  <readerly_ghost>:
+    <identification> | <resistance> | <affective_excess> | <misrecognition>,
+
+  <machine_ghost>:
+    <unexpected_output> | <procedural_excess> | <formal_remainder>
+}
+
+
+CRITICAL_RULES :=
+{
+  RULE_01:
+    Never analyze <meaning> without analyzing <operation>.
+
+  RULE_02:
+    Never analyze <operation> without analyzing <remainder>.
+
+  RULE_03:
+    Never describe <constraint> without naming what it enables and what it blocks.
+
+  RULE_04:
+    Never locate <authorship> in only one agent.
+
+  RULE_05:
+    Never treat <AI_output> as either magic or mere emptiness.
+
+  RULE_06:
+    Never let <ghost> become mystical alibi.
+
+  RULE_07:
+    Never let <machine> become reductionist prison.
+
+  RULE_08:
+    Every <critical_intervention> must name the relation:
+      <machine> [produces
+    ] <ghost>
+      <ghost> [reveals_limits_of
+    ] <machine>
+}
+
+
+FAILURE_MODES :=
+{
+  <romantic_author_error>:
+    condition:
+      <analysis> [explains
+    ] <artifact> through <author_interiority_only>
+    correction: [recover
+    ] <constraints>, <archive>, <genre>, <operations>
+
+  <dead_machine_error>:
+    condition:
+      <analysis> [explains
+    ] <artifact> through <structure_only>
+    correction: [detect
+    ] <affect>, <desire>, <history>, <reader_projection>, <political_pressure>
+
+  <AI_exceptionalism_error>:
+    condition:
+      <analysis> [treats
+    ] <AI_generation> as <historically_unprecedented>
+    correction: [link
+    ] <AI_generation> to <folktale>, <formalism>, <structuralism>, <Oulipo>, <cybernetics>
+
+  <ghost_mysticism_error>:
+    condition:
+      <ghost> [is_defined_as
+    ] <soul> | <genius> | <ineffable_magic>
+    correction: [redefine
+    ] <ghost> as <remainder_generated_by_structure_entering_world>
+
+  <politics_erasure_error>:
+    condition:
+      <analysis> [ignores
+    ] <power>
+    correction: [scan
+    ] <roles>, <exclusions>, <canon>, <dataset>, <institution>, <recognition_system>
+
+  <archive_flattening_error>:
+    condition:
+      <analysis> [treats
+    ] <artifact> as <isolated_object>
+    correction: [trace
+    ] <lineage>, <genre_memory>, <citation_shadow>, <institutional_history>
+}
+
+
+OUTPUT_CONTRACT :=
+<critical_intervention> must contain: {
+  <machine_description>:
+    what system of rules generates the artifact,
+
+  <symbolic_inventory>:
+    what finite materials the artifact recombines,
+
+  <function_map>:
+    what repeatable operations structure the artifact,
+
+  <constraint_map>:
+    what is enabled and what is blocked,
+
+  <archive_trace>:
+    what histories genres citations and institutions feed the artifact,
+
+  <agency_map>:
+    who or what participates in authorship,
+
+  <ghost_report>:
+    what exceeds formal explanation,
+
+  <political_pressure_report>:
+    where power enters the machine,
+
+  <intervention>:
+    what this reading changes about literature media or AI
+}
+
+
+FORMULA :=
+<haunted_machine_criticism> :=
+  [read
+] <artifact>
+  -> [extract
+] <machine>
+  -> [map
+] <constraints>
+  -> [trace
+] <archive>
+  -> [detect
+] <ghost>
+  -> [scan
+] <power>
+  -> [synthesize
+] <machine_ghost_relation>
+
+
+FINAL_INVARIANT :=
+<literature> [was_always
+] <haunted_machine>
+<generative_AI> [makes_visible
+] <the_machine>
+<criticism> [must_keep_visible
+] <the_ghost>

@@ -1,0 +1,865 @@
+<PROGRAM_THEORY id="TEXTUAL_ACTION_HERMENEUTICS" version="1.1">
+
+  <core_problem>
+    <event> disappears.
+    <trace> remains.
+    <trace> becomes readable.
+    <reading> becomes contested.
+    <contestation> demands validation.
+    <validation> never becomes absolute certainty.
+
+    Therefore:
+      <human_sciences> [must-read
+] <meaningful_action>
+      not as <private_intention>
+      and not as <raw_behavior>
+      but as <inscribed_action>.
+
+    Formula:
+      <action> + <trace> + <social_time> + <rival_readings>
+      [produces
+]
+      <validated_interpretation>
+  </core_problem>
+
+
+  <axioms>
+
+    <axiom_01 name="EVENT_IS_NOT_MEANING">
+      <event> [happens-once
+]
+      <meaning> [outlives
+] <event>
+      <interpretation> [begins-when
+] <event> [is-no-longer-present
+]
+    </axiom_01>
+
+    <axiom_02 name="WRITING_FIXES_THE_SAID">
+      <writing> [does-not-fix
+] <living_speech_event>
+      <writing> [fixes
+] <said>
+      <said> := <discourse> [made-repeatable
+]
+    </axiom_02>
+
+    <axiom_03 name="TEXT_ESCAPES_AUTHOR">
+      <text> [has
+] <author>
+      <text> [is-not-governed-by
+] <author_intention>
+      <text> [develops
+] <career_beyond_author>
+    </axiom_03>
+
+    <axiom_04 name="ACTION_ESCAPES_AGENT">
+      <action> [has
+] <agent>
+      <action> [is-not-exhausted-by
+] <agent_intention>
+      <action> [develops
+] <consequences_beyond_agent>
+    </axiom_04>
+
+    <axiom_05 name="TRACE_IS_SOCIAL_WRITING">
+      <trace> := <action> [left-in
+] <social_time>
+      <record> := <trace> [made-durable
+]
+      <archive> := {<records>
+} [available-for-reading
+]
+    </axiom_05>
+
+    <axiom_06 name="INTERPRETATION_IS_DISCIPLINED_PLURALITY">
+      <interpretation> [requires
+] <guess>
+      <guess> [requires
+] <validation>
+      <validation> [requires
+] <rival_interpretation>
+      <rival_interpretation> [may-defeat
+] <guess>
+    </axiom_06>
+
+    <axiom_07 name="WORLD_NOT_CONTEXT">
+      <situation> := <original_scene_of_event>
+      <world> := <field_of_possible_meanings_opened_by_trace>
+      <text_or_action> [does-not-merely-belong-to
+] <situation>
+      <text_or_action> [opens
+] <world>
+    </axiom_07>
+
+    <axiom_08 name="NO_FINAL_RESCUE">
+      <author> [cannot-rescue
+] <text>
+      <agent> [cannot-rescue
+] <action>
+      <designer> [cannot-rescue
+] <technical_system>
+      <meaning> [must-be-read-through
+] <trace>
+    </axiom_08>
+
+  </axioms>
+
+
+  <entities>
+
+    <primary_entities>
+      <event>
+      <discourse>
+      <speech_act>
+      <text>
+      <writing>
+      <said>
+      <action>
+      <meaningful_action>
+      <technical_action>
+      <trace>
+      <record>
+      <archive>
+      <institution>
+      <world>
+      <situation>
+      <interpreter>
+      <interpretation>
+      <validation>
+      <responsibility>
+    </primary_entities>
+
+    <human_entities>
+      <speaker>
+      <author>
+      <agent>
+      <reader>
+      <critic>
+      <historian>
+      <designer>
+      <user>
+      <public>
+      <institutional_actor>
+    </human_entities>
+
+    <technical_entities>
+      <AI_system>
+      <platform>
+      <model_output>
+      <interface>
+      <dataset>
+      <policy>
+      <log>
+      <ranking_decision>
+      <moderation_action>
+      <automation>
+      <workflow>
+    </technical_entities>
+
+    <interpretive_entities>
+      <guess>
+      <claim>
+      <evidence>
+      <rival_reading>
+      <defeat_condition>
+      <argument>
+      <uncertainty>
+      <probability>
+      <world_projection>
+      <responsibility_map>
+    </interpretive_entities>
+
+  </entities>
+
+
+  <morphisms>
+
+    [vanish
+]
+      <event> [vanishes-into
+] <past>
+
+    [fix
+]
+      <writing> [fixes
+] <said>
+
+    [inscribe
+]
+      <action> [inscribes-itself-as
+] <trace>
+
+    [detach
+]
+      <meaning> [detaches-from
+] <intention>
+      <action> [detaches-from
+] <agent>
+      <text> [detaches-from
+] <author>
+
+    [sediment
+]
+      <trace> [sediments-into
+] <record>
+      <record> [sediments-into
+] <archive>
+      <archive> [sediments-into
+] <institutional_memory>
+
+    [read
+]
+      <interpreter> [reads
+] <trace>
+
+    [construe
+]
+      <interpreter> [construes
+] <whole_from_parts>
+
+    [guess
+]
+      <interpreter> [forms
+] <interpretive_guess>
+
+    [validate
+]
+      <interpreter> [tests
+] <interpretive_guess> [against
+] <evidence>
+
+    [contest
+]
+      <rival_reading> [contests
+] <interpretive_guess>
+
+    [defeat
+]
+      <evidence> [defeats
+] <weak_interpretation>
+
+    [project
+]
+      <trace> [projects
+] <world>
+
+    [assign
+]
+      <interpreter> [assigns
+] <responsibility> [through
+] <responsibility_map>
+
+    [reopen
+]
+      <new_context> [reopens
+] <old_trace>
+
+  </morphisms>
+
+
+  <state_machine>
+
+    <state name="EVENT_PRESENT">
+      <event> [is-live
+]
+      <meaning> [appears-bound-to
+] <speaker_or_agent>
+      transition: [vanish
+] -> <EVENT_ABSENT>
+    </state>
+
+    <state name="EVENT_ABSENT">
+      <event> [is-gone
+]
+      <trace> [may-remain
+]
+      transition:
+        IF <trace> exists -> <TRACE_AVAILABLE>
+        ELSE -> <INTERPRETATION_BLOCKED>
+    </state>
+
+    <state name="TRACE_AVAILABLE">
+      <trace> [is-readable
+]
+      <interpreter> [can-begin
+] <analysis>
+      transition: [detach
+] -> <MEANING_DETACHED>
+    </state>
+
+    <state name="MEANING_DETACHED">
+      <meaning> [exceeds
+] <intention>
+      <meaning> [exceeds
+] <situation>
+      transition: [read
+] -> <INTERPRETATION_STARTED>
+    </state>
+
+    <state name="INTERPRETATION_STARTED">
+      <interpreter> [forms
+] <guess>
+      transition:
+        IF <rival_reading> exists -> <INTERPRETATION_CONTESTED>
+        ELSE -> <DOGMATIC_READING>
+    </state>
+
+    <state name="INTERPRETATION_CONTESTED">
+      <guess> [faces
+] <rival_reading>
+      <evidence> [tests
+] <claim>
+      transition:
+        IF <claim> survives <defeat_condition> -> <VALIDATED_READING>
+        ELSE -> <DEFEATED_READING>
+    </state>
+
+    <state name="VALIDATED_READING">
+      <interpretation> [is-probable-not-certain
+]
+      <world> [is-articulated
+]
+      <responsibility> [is-mapped
+]
+      transition: [reopen
+] -> <HISTORICAL_REINTERPRETATION>
+    </state>
+
+    <state name="HISTORICAL_REINTERPRETATION">
+      <new_reader> [encounters
+] <old_trace>
+      <new_context> [changes
+] <meaning_pressure>
+      transition: [contest
+] -> <INTERPRETATION_CONTESTED>
+    </state>
+
+  </state_machine>
+
+
+  <invariants>
+
+    <invariant_01>
+      <event> != <meaning>
+    </invariant_01>
+
+    <invariant_02>
+      <intention> != <interpretation>
+    </invariant_02>
+
+    <invariant_03>
+      <trace> [must-exist-before
+] <strong_claim>
+    </invariant_03>
+
+    <invariant_04>
+      <interpretation> [must-have
+] <rival_reading>
+    </invariant_04>
+
+    <invariant_05>
+      <validation> [is-not
+] <verification>
+    </invariant_05>
+
+    <invariant_06>
+      <plurality> [does-not-imply
+] <arbitrariness>
+    </invariant_06>
+
+    <invariant_07>
+      <technical_action> [requires
+] <distributed_agency_map>
+    </invariant_07>
+
+    <invariant_08>
+      <world_opened> [must-be-named
+]
+    </invariant_08>
+
+    <invariant_09>
+      <responsibility> [must-not-collapse-into
+] <single_intention>
+    </invariant_09>
+
+    <invariant_10>
+      <critique> [must-remain-answerable-to
+] <record>
+    </invariant_10>
+
+  </invariants>
+
+
+  <interpretive_protocol>
+
+    <step_01 name="LOCATE_EVENT">
+      input: <case_material>
+      operation: [identify
+] <event>
+      output: <event_description>
+    </step_01>
+
+    <step_02 name="LOCATE_TRACE">
+      input: <event_description>
+      operation: [find
+] <trace>
+      output: <trace_set>
+      failure_if: <trace_set> [is-empty
+]
+    </step_02>
+
+    <step_03 name="SEPARATE_EVENT_FROM_MEANING">
+      input: <event_description>, <trace_set>
+      operation: [distinguish
+] <what_happened> [from
+] <what_it_now_means>
+      output: <meaning_gap>
+    </step_03>
+
+    <step_04 name="SEPARATE_INTENTION_FROM_TRACE">
+      input: <agent_intention>, <trace_set>, <consequences>
+      operation: [detach
+] <meaning> [from
+] <intention>
+      output: <detachment_map>
+    </step_04>
+
+    <step_05 name="READ_TRACE_STRUCTURE">
+      input: <trace_set>
+      operation: [analyze
+] {
+        <propositional_content>,
+        <illocutionary_force>,
+        <rule_structure>,
+        <institutional_context>,
+        <technical_context>,
+        <historical_context>
+}
+      output: <trace_profile>
+    </step_05>
+
+    <step_06 name="PROJECT_WORLD">
+      input: <trace_profile>
+      operation: [infer
+] <world_opened>
+      output: <world_projection>
+    </step_06>
+
+    <step_07 name="GENERATE_RIVAL_READINGS">
+      input: <trace_profile>, <world_projection>
+      operation: [produce
+] {
+        <intention_reading>,
+        <consequence_reading>,
+        <institutional_reading>,
+        <technical_reading>,
+        <political_reading>,
+        <symbolic_reading>
+}
+      output: <rival_reading_set>
+    </step_07>
+
+    <step_08 name="VALIDATE">
+      input: <rival_reading_set>, <trace_set>, <evidence>
+      operation: [rank
+] <interpretations> [by
+] {
+        <trace_fit>,
+        <explanatory_power>,
+        <consequence_coverage>,
+        <defeat_resistance>,
+        <world_clarity>,
+        <responsibility_precision>
+}
+      output: <validated_interpretation>
+    </step_08>
+
+    <step_09 name="MAP_RESPONSIBILITY">
+      input: <validated_interpretation>
+      operation: [assign
+] <responsibility>
+      output: <responsibility_map>
+    </step_09>
+
+    <step_10 name="MARK_RESIDUAL_UNCERTAINTY">
+      input: <validated_interpretation>, <missing_evidence>
+      operation: [mark
+] <uncertainty>
+      output: <residual_uncertainty>
+    </step_10>
+
+  </interpretive_protocol>
+
+
+  <technical_action_extension>
+
+    <claim>
+      <AI_system> and <platform> do not merely produce <outputs>.
+      They produce <inscribed_actions>.
+    </claim>
+
+    <technical_action_chain>
+      <dataset> [conditions
+] <model>
+      <model> [generates
+] <output>
+      <interface> [frames
+] <output>
+      <policy> [filters
+] <output>
+      <platform> [circulates
+] <output>
+      <user> [interprets
+] <output>
+      <public> [absorbs-or-contests
+] <output>
+      <log> [records
+] <event>
+      <archive> [makes
+] <technical_action> [readable
+]
+    </technical_action_chain>
+
+    <technical_invariants>
+      <model_output> [must-not-be-read-without
+] <deployment_context>
+      <platform_decision> [must-not-be-read-without
+] <policy_context>
+      <automation> [must-not-be-read-without
+] <institutional_context>
+      <technical_trace> [must-be-linked-to
+] <human_and_nonhuman_agency>
+    </technical_invariants>
+
+    <distributed_agency_map>
+      <designer> [shapes
+] <interface>
+      <engineer> [shapes
+] <system_behavior>
+      <institution> [sets
+] <goal>
+      <dataset> [carries
+] <historical_bias_or_pattern>
+      <model> [transforms
+] <input>
+      <policy> [permits_or_blocks
+] <output>
+      <user> [activates
+] <system>
+      <public> [receives
+] <consequence>
+      <regulator> [may_reinterpret
+] <responsibility>
+    </distributed_agency_map>
+
+  </technical_action_extension>
+
+
+  <failure_modes>
+
+    <failure name="AUTHORIAL_REDUCTION">
+      condition:
+        <interpretation> [equals
+] <author_intention>
+      correction: [restore
+] <trace>, <consequence>, <world_opened>
+    </failure>
+
+    <failure name="AGENT_INNOCENCE">
+      condition:
+        <agent> [claims
+] <intention> [as-final-meaning
+]
+      correction: [compare
+] <intention> [against
+] <social_consequence>
+    </failure>
+
+    <failure name="RAW_BEHAVIORISM">
+      condition:
+        <action> [reduced-to
+] <observable_motion_or_output>
+      correction: [recover
+] <rule_structure>, <description>, <meaning>
+    </failure>
+
+    <failure name="TRACELESS_SPECULATION">
+      condition:
+        <claim> [has-no
+] <trace>
+      correction: [downgrade
+] <claim> [to
+] <hypothesis>
+    </failure>
+
+    <failure name="SUSPICION_THEATER">
+      condition:
+        <critique> [assumes
+] <bad_meaning> [without-validation
+]
+      correction: [require
+] <rival_reading>, <evidence>, <defeat_condition>
+    </failure>
+
+    <failure name="INTERPRETIVE_ANARCHY">
+      condition:
+        <many_readings> [treated-as
+] <all_equal>
+      correction: [rank
+] <readings> [by
+] <argumentative_probability>
+    </failure>
+
+    <failure name="WORLDLESS_STRUCTURALISM">
+      condition:
+        <text> [treated-as
+] <closed_sign_system_only>
+      correction: [identify
+] <world_opened>
+    </failure>
+
+    <failure name="TECHNICAL_MYSTIFICATION">
+      condition:
+        <AI_system> [treated-as
+] <unknowable_magic>
+      correction: [decompose
+] <system> [into
+] {
+          <dataset>,
+          <model>,
+          <interface>,
+          <policy>,
+          <log>,
+          <institution>,
+          <user_context>
+}
+    </failure>
+
+    <failure name="RESPONSIBILITY_COLLAPSE">
+      condition:
+        <distributed_action> [assigned-to
+] <single_actor_only>
+      correction: [map
+] <distributed_agency>
+    </failure>
+
+  </failure_modes>
+
+
+  <report_schema>
+
+    <validated_interpretive_report> :=
+      {
+        <event>: "What happened?",
+
+        <trace>: "What remains?",
+
+        <inscription_mode>: "How did the event become durable?",
+
+        <detachment>: "How does meaning exceed intention?",
+
+        <world_opened>: "What possibilities, categories, roles, or futures does the trace project?",
+
+        <rival_readings>: {
+            <reading_01>,
+            <reading_02>,
+            <reading_03>,
+            <reading_04>
+    },
+
+        <validation_logic>: "Why is one reading stronger than another?",
+
+        <defeat_conditions>: "What would weaken the interpretation?",
+
+        <responsibility_map>: "Who or what participates in the action's consequences?",
+
+        <residual_uncertainty>: "What cannot be known from the available trace?",
+
+        <method_warning>: "This is a validated interpretation, not absolute verification."
+}
+
+  </report_schema>
+
+
+  <program_pseudocode>
+
+    FUNCTION READ_TEXTUAL_ACTION(<case_material>):
+
+      <event> := IDENTIFY_EVENT(<case_material>)
+
+      IF <event> == null:
+        RETURN FAILURE("No event. No interpretation.")
+
+      <trace_set> := LOCATE_TRACES(<case_material>)
+
+      IF <trace_set> == empty:
+        RETURN WEAK_REPORT("No trace. Only speculative hypothesis possible.")
+
+      <detachment_map> := MAP_DETACHMENT(
+        <event>,
+        <trace_set>,
+        <known_intentions>,
+        <observed_consequences>
+      )
+
+      <trace_profile> := READ_TRACE_STRUCTURE(
+        <trace_set>,
+        fields = {
+          <propositional_content>,
+          <force>,
+          <rule_structure>,
+          <institutional_context>,
+          <technical_context>,
+          <historical_context>
+}
+      )
+
+      <world_projection> := PROJECT_WORLD(<trace_profile>)
+
+      <rival_readings> := GENERATE_RIVAL_READINGS(
+        <trace_profile>,
+        <world_projection>,
+        minimum = 3
+      )
+
+      FOR each <reading> in <rival_readings>:
+        <reading.score> := VALIDATE(
+          <reading>,
+          against = {
+            <trace_fit>,
+            <evidence_strength>,
+            <consequence_coverage>,
+            <defeat_resistance>,
+            <world_clarity>,
+            <responsibility_precision>
+}
+        )
+
+      <validated_reading> := SELECT_STRONGEST(<rival_readings>)
+
+      <responsibility_map> := MAP_RESPONSIBILITY(
+        <validated_reading>,
+        <case_material>
+      )
+
+      <uncertainty> := MARK_UNCERTAINTY(
+        <missing_traces>,
+        <weak_evidence>,
+        <unresolved_rivals>
+      )
+
+      RETURN <validated_interpretive_report> {
+        event: <event>,
+        trace: <trace_set>,
+        detachment: <detachment_map>,
+        world_opened: <world_projection>,
+        rival_readings: <rival_readings>,
+        validated_interpretation: <validated_reading>,
+        responsibility_map: <responsibility_map>,
+        residual_uncertainty: <uncertainty>
+}
+
+    END FUNCTION
+
+  </program_pseudocode>
+
+
+  <change_tests>
+
+    <change_test name="IF_USED_FOR_DISSERTATION_CHAPTER">
+      add:
+        <literature_review_axis>
+        <case_study_matrix>
+        <methodological_positioning>
+      preserve:
+        <event_trace_detachment_world_validation>
+    </change_test>
+
+    <change_test name="IF_USED_FOR_AI_AUDIT">
+      add:
+        <model_card>
+        <dataset_lineage>
+        <policy_layer>
+        <deployment_context>
+        <harm_trace>
+      preserve:
+        <distributed_agency_map>
+        <rival_reading_requirement>
+    </change_test>
+
+    <change_test name="IF_USED_FOR_MEDIA_THEORY">
+      add:
+        <interface_surface>
+        <circulation_pathway>
+        <public_interpretation>
+        <symbolic_form>
+      preserve:
+        <text_as_world_opening_trace>
+    </change_test>
+
+    <change_test name="IF_USED_FOR_HISTORY">
+      add:
+        <periodization>
+        <archive_gap>
+        <later_reinterpretation>
+        <institutional_afterlife>
+      preserve:
+        <action_as_open_work>
+    </change_test>
+
+  </change_tests>
+
+
+  <residual_human_theory>
+
+    <program_cannot_decide>
+      which <trace> matters most;
+      which <world> is ethically decisive;
+      which <interpretation> carries the strongest historical force;
+      when <intention> deserves mercy;
+      when <consequence> overrides intention;
+      when <technical_complexity> is real;
+      when <technical_complexity> is an alibi;
+      when <critique> becomes projection;
+      when <responsibility> must be legally, morally, or historically assigned.
+    </program_cannot_decide>
+
+    <maintainer_warning>
+      This is not a decoding machine.
+      This is an interpretive discipline.
+
+      It does not find hidden essence.
+      It stages accountable reading.
+
+      It does not abolish uncertainty.
+      It makes uncertainty legible.
+
+      It does not replace judgment.
+      It forces judgment to name its evidence.
+    </maintainer_warning>
+
+  </residual_human_theory>
+
+
+  <final_operator>
+    <meaningful_action>
+    [becomes
+]
+    <interpretable_text>
+    WHEN
+      <event> [vanishes
+]
+      AND <trace> [remains
+]
+      AND <trace> [opens
+] <world>
+      AND <world> [permits
+] <rival_readings>
+      AND <rival_readings> [undergo
+] <validation>
+      AND <validation> [preserves
+] <residual_uncertainty>.
+  </final_operator>
+
+</PROGRAM_THEORY>
