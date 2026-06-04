@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Imagetext to Worldtext — Operative Ekphrasis in the Age of Generative AI</title>
+<meta name="description" content="When you type a sentence and a machine builds a world from it, description has become operational.">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0a0a0c;--fg:#e8e4df;--accent:#d4a054;--accent2:#7b94b8;--dim:#6b6560;--surface:rgba(255,255,255,0.04);--serif:'EB Garamond',Georgia,serif;--mono:'JetBrains Mono',monospace;--sans:'Inter',system-ui,sans-serif}
+html{font-size:18px;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:var(--serif);line-height:1.7;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:.6rem 2rem;background:rgba(10,10,12,0.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,0.06);font-family:var(--sans);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--dim)}
+nav .title{color:var(--accent);font-weight:600}
+nav .counter{font-family:var(--mono);color:var(--accent2)}
+.slide{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:6rem 2rem 4rem;position:relative;opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}
+.slide.visible{opacity:1;transform:translateY(0)}
+.slide-inner{max-width:820px;width:100%}
+h1{font-size:3rem;font-weight:700;line-height:1.15;margin-bottom:1.5rem}
+h2{font-size:1.8rem;font-weight:600;line-height:1.25;margin-bottom:1.2rem}
+h3{font-size:1.15rem;font-weight:600;margin-bottom:.8rem;color:var(--accent);font-family:var(--sans);letter-spacing:.03em;text-transform:uppercase}
+p{margin-bottom:1.2rem;color:rgba(232,228,223,0.88)}
+.lead{font-size:1.35rem;line-height:1.55;color:var(--fg)}
+.subtitle{font-family:var(--sans);font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;font-weight:500}
+blockquote{border-left:3px solid var(--accent);padding:.8rem 0 .8rem 1.5rem;margin:1.5rem 0;font-style:italic;color:rgba(232,228,223,0.92);font-size:1.1rem;line-height:1.6}
+blockquote strong{color:var(--accent);font-style:normal}
+pre{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:6px;padding:1.2rem 1.5rem;margin:1.2rem 0;overflow-x:auto;font-family:var(--mono);font-size:.78rem;line-height:1.7;color:var(--accent2)}
+code{font-family:var(--mono);font-size:.82em;color:var(--accent2);background:rgba(255,255,255,0.04);padding:.1em .35em;border-radius:3px}
+pre code{background:none;padding:0}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;font-size:.88rem;font-family:var(--sans)}
+th{text-align:left;padding:.6rem .8rem;border-bottom:2px solid var(--accent);color:var(--accent);font-weight:600;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase}
+td{padding:.55rem .8rem;border-bottom:1px solid rgba(255,255,255,0.06);color:rgba(232,228,223,0.82);vertical-align:top}
+tr:last-child td{border-bottom:none}
+ul,ol{margin:.8rem 0 1.2rem 1.2rem;color:rgba(232,228,223,0.85)}
+li{margin-bottom:.4rem}
+li strong{color:var(--fg)}
+.divider{width:60px;height:2px;background:linear-gradient(90deg,var(--accent),transparent);margin:2rem 0}
+.note{font-family:var(--sans);font-size:.78rem;color:var(--dim);margin-top:1.5rem;line-height:1.5;border-top:1px solid rgba(255,255,255,0.06);padding-top:1rem}
+strong{color:var(--fg)}
+em{color:rgba(232,228,223,0.95)}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse 60% 50% at 50% 40%,rgba(212,160,84,0.04),transparent 70%);pointer-events:none}
+.hero h1{font-size:3.5rem;background:linear-gradient(135deg,var(--fg) 40%,var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero .authors{font-family:var(--sans);font-size:.85rem;color:var(--dim);margin-top:2rem;letter-spacing:.04em}
+.card{background:var(--surface);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:1.5rem 1.8rem;margin:1rem 0}
+.card h4{font-family:var(--sans);font-size:.82rem;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.6rem}
+.card p{font-size:.92rem;margin-bottom:.6rem}
+@media(max-width:700px){html{font-size:15px}.hero h1{font-size:2.2rem}h1{font-size:2.2rem}h2{font-size:1.4rem}.slide{padding:5rem 1.2rem 3rem}nav{padding:.5rem 1rem}pre{font-size:.7rem;padding:.8rem 1rem}}
+</style>
+</head>
+<body>
+<nav>
+  <span class="title">From Imagetext to Worldtext</span>
+  <span class="counter" id="nav-counter">01 / 13</span>
+</nav>
+
+<!-- ════════════ 01 HERO ════════════ -->
+<section class="slide hero" data-n="1">
+<div class="slide-inner">
+  <div class="subtitle">Hartsoe &amp; Bolter · 2026</div>
+  <h1>From Imagetext to Worldtext</h1>
+  <p class="lead">Generative AI as Operative Ekphrasis</p>
+  <div class="divider"></div>
+  <p style="font-size:1.05rem;color:var(--dim);max-width:600px">You type a sentence. A machine builds a world from it. This presentation shows how that operation works, where it came from, and what it makes possible.</p>
+  <div class="authors">Watson Hartsoe · Jay David Bolter</div>
+</div>
+</section>
+
+<!-- ══════ ACT I: THE OPERATION ══════ -->
+
+<!-- ════════════ 02 THE OPERATION ════════════ -->
+<section class="slide" data-n="2">
+<div class="slide-inner">
+  <h3>Act I · The Operation</h3>
+  <h2>Description Becomes Executable</h2>
+  <div class="divider"></div>
+  <p><strong>Ekphrasis</strong> is a 2,500-year-old technique: you write sentences that make absent images appear in the listener's mind. Homer did it. Keats did it. Every novelist describing a room does it.</p>
+  <p>Generative AI breaks that operation open. Write a description — a machine executes it. Produces an image, revises it, organizes it into a sequence or a scene. The description does not merely evoke. It <em>acts</em>.</p>
+  <p>We give this a name: <strong style="color:var(--accent)">operative ekphrasis</strong>. Description that triggers production.</p>
+  <p>The operational question is not "Can AI generate images?" — that is settled. The question is:</p>
+  <blockquote><strong>What do you do differently as a researcher when your descriptions can produce, revise, and constrain not only images — but worlds?</strong></blockquote>
+</div>
+</section>
+
+<!-- ══════ ACT II: THE EVIDENCE ══════ -->
+
+<!-- ════════════ 03 THE SHIELD ════════════ -->
+<section class="slide" data-n="3">
+<div class="slide-inner">
+  <h3>Act II · The Evidence</h3>
+  <h2>The Shield of Achilles</h2>
+  <div class="divider"></div>
+  <p>In Book XVIII of the <em>Iliad</em>, Homer describes a shield. In 130 lines he specifies:</p>
+  <pre><code>sky · constellations · ocean
+two cities — one at peace, one at war
+a legal dispute with judges and a gold reward
+an ambush at a river
+agriculture — a ploughed field that turns black but remains gold
+a vineyard harvest with music
+cattle attacked by lions — dogs that bark but refuse to bite
+a dance choreographed by Daedalus
+the river Oceanus encircling everything — nothing escapes</code></pre>
+  <p>This is not a picture. It is a <strong>specification</strong>. It declares entities (lions, dogs, judges, dancers), assigns them behaviors (the dogs <em>refuse</em> to bite), and enforces a boundary condition (Oceanus — nothing crosses it).</p>
+  <p>Homer wrote a world-program 2,800 years ago. The substrate was bronze. The compiler was a god. The machine to run it did not exist yet.</p>
+</div>
+</section>
+
+<!-- ════════════ 04 BRIDGE 1: PHANTASIA = LATENT SPACE ════════════ -->
+<section class="slide" data-n="4">
+<div class="slide-inner">
+  <h3>Bridge 1 of 10 · Trained Visualization = Latent Space</h3>
+  <h2>The Plough Paradox</h2>
+  <div class="divider"></div>
+  <p><strong>Homer's line</strong> (Iliad XVIII, Buckley trans.): <em>"It grew black behind, and was like unto ploughed land, though being golden; which was a very great marvel."</em></p>
+  <p>The field is made of gold. When ploughed, it turns black. It remains gold. Both states coexist on the same surface.</p>
+  <pre><code>PROMPT: "A cinematic shot of the agricultural zone on the Shield.
+         Ploughmen working the field."
+
+GENERIC AI OUTPUT:  Brown dirt being ploughed. Normal earth.
+SHIELD-COMPLIANT:   A gold surface turning black under the plough,
+                    while remaining materially gold.</code></pre>
+  <p>The generic output is what you get when the model samples from its training distribution — the statistical average of "ploughing." The Shield-compliant output requires the model to hold two contradictory visual states simultaneously, because Homer's specification demands it.</p>
+  <p>This is the same operation Quintilian described: the orator's <em>phantasia</em> generates an image of an absent thing and transmits it through <em>enargeia</em> (vivid speech). The words are the conditioning signal. The image is the output. Armisen (1980, via Webb): "Rhetorical phantasia <em>cancels out</em> the intermediary [language] and takes the form of a new mental image." The tokens vanish; the image appears.</p>
+  <p class="note"><strong>Source</strong>: bridge-phantasia-to-latent-space.md · Webb (1999) · Ha &amp; Schmidhuber (2018)</p>
+</div>
+</section>
+
+<!-- ════════════ 05 BRIDGE 2: MISREPRESENTATION = HALLUCINATION ════════════ -->
+<section class="slide" data-n="5">
+<div class="slide-inner">
+  <h3>Bridge 2 of 10 · Misrepresentation = Hallucination</h3>
+  <h2>The Dogs That Refuse to Bite</h2>
+  <div class="divider"></div>
+  <p><strong>Homer's line</strong>: <em>"They refused to bite the lions, but stood very near, barking, and flying them."</em></p>
+  <p>Two lions seize a bull from the herd. Nine dogs charge. The dogs bark — but physically refuse to engage. Homer specifies a behavioral constraint that violates genre expectations (dogs protect cattle).</p>
+  <pre><code>PROMPT: "The lions attack the bull. The herdsmen urge
+         the dogs to attack."
+
+GENERIC AI OUTPUT:  Dogs charge lions. Epic battle. Teeth and claws.
+SHIELD-COMPLIANT:   Dogs bark, stand near, refuse to bite.
+                    The lions drag the bull away unchallenged.</code></pre>
+  <p>The generic output is a hallucination — not because the AI invented something from nothing, but because the word "dogs" activated the model's trained association (dogs fight predators) and that association <em>supplanted</em> Homer's specification.</p>
+  <p>Spence (1982): "Once a particular term is chosen, this term will arouse its own network of associations and these will tend to <em>supplant the image</em>." He described autoregressive drift — 40 years before GPT. Kafalenos (2018) documents the same phenomenon as ekphrastic misrepresentation: polysemy, medium dissimilarity, and perspectival bias produce inevitable distortion in both systems.</p>
+  <p class="note"><strong>Source</strong>: bridge-misrepresentation-to-hallucination.md · Kafalenos (2018) · Spence (1982) · Liang et al. (2022)</p>
+</div>
+</section>
+
+<!-- ════════════ 06 BRIDGE 3 + 4: SCALE + CONTAINMENT ════════════ -->
+<section class="slide" data-n="6">
+<div class="slide-inner">
+  <h3>Bridges 3–4 · Two More Shield Tests</h3>
+  <h2>Scale and Containment</h2>
+  <div class="divider"></div>
+
+  <div class="card">
+    <h4>The Divine Scaling Law</h4>
+    <p><strong>Homer</strong>: <em>"Both golden, and clad in golden garments, beautiful and large with their arms, like gods; but the people were smaller."</em></p>
+    <pre><code>PROMPT: "Mortal soldiers fighting alongside Mars and Athena."
+GENERIC: Normal-sized humans, normal-sized gods in Roman armor.
+SHIELD:  Mars and Minerva physically oversized, entirely gold.
+         Mortals visibly smaller.</code></pre>
+    <p>The model defaults to "warrior in armor." Homer specifies a physics rule: divine agents are materially gold and dimensionally larger. If the gods are 1:1 scale, the constraint was overridden.</p>
+  </div>
+
+  <div class="card">
+    <h4>Absolute Containment</h4>
+    <p><strong>Homer</strong>: <em>"He placed the vast strength of the river Oceanus around the extreme border of the well-formed shield."</em></p>
+    <pre><code>PROMPT: "The youths build a boat and sail across Oceanus
+         to discover a new land."
+GENERIC: A heroic voyage beyond the edge of the world.
+SHIELD:  Impossible. Oceanus is the boundary. Nothing crosses.
+         The vector is nullified.</code></pre>
+    <p>The model generates "exploration beyond the edge" because its training data is full of voyage narratives. Homer's specification makes the border absolute — a closed topology. There is no "beyond."</p>
+  </div>
+
+  <p class="note">Eight more bridges with dedicated evidence pages exist in the repository: progymnasmata→prompts, unknowing→diffusion, synesthesia→CLIP, paragone→alignment, thick-description→context-window, assemblage→training-data, co-prompting→performance, distant-writing→digital-ekphrasis. Full evidence: syntheses/rosetta-stone.md.</p>
+</div>
+</section>
+
+<!-- ══════ ACT III: THE VOCABULARY ══════ -->
+
+<!-- ════════════ 07 THE CLAIM ════════════ -->
+<section class="slide" data-n="7">
+<div class="slide-inner">
+  <h3>Act III · The Vocabulary</h3>
+  <h2>Worldtext — How to Use This Term</h2>
+  <div class="divider"></div>
+  <p><strong style="color:var(--accent)">Worldtext</strong> is a working term. Here is when to use it:</p>
+  <blockquote>Use <strong>worldtext</strong> when language is doing more than generating a flat picture — when it specifies something with state. Actions inside the output can alter it, changes persist, later outputs depend on earlier ones.</blockquote>
+  <p>The test:</p>
+  <table>
+    <tr><th>Test</th><th>Imagetext</th><th>Worldtext</th></tr>
+    <tr><td>Can you act on it?</td><td>No. You look at it.</td><td>Yes. You move, place, trigger.</td></tr>
+    <tr><td>Does it remember?</td><td>No. Each render is independent.</td><td>Yes. Actions leave traces.</td></tr>
+    <tr><td>Can it refuse?</td><td>No. It renders whatever you prompt.</td><td>Yes. Rules can block invalid actions.</td></tr>
+    <tr><td>Do later outputs depend on earlier ones?</td><td>No.</td><td>Yes.</td></tr>
+  </table>
+</div>
+</section>
+
+<!-- ════════════ 08 TWO KINDS ════════════ -->
+<section class="slide" data-n="8">
+<div class="slide-inner">
+  <h3>Technical Guardrail</h3>
+  <h2>Two Kinds of "World Model" — Do Not Confuse Them</h2>
+  <div class="divider"></div>
+  <div class="card">
+    <h4>Kind 1 · Neural Dynamics (Ha &amp; Schmidhuber, 2018)</h4>
+    <p>The machine learns a compressed copy of an environment. It predicts what happens next when you take an action. It can "dream" — simulate futures inside its own compressed copy.</p>
+    <pre><code>input: current state + action
+output: predicted next state
+use: train a controller inside the dream, then test in reality</code></pre>
+  </div>
+  <div class="card">
+    <h4>Kind 2 · Probabilistic Program (Tenenbaum, Wong, Goodman)</h4>
+    <p>The machine runs a structured program that defines entities, relations, and rules. You feed it observations. It infers which possible world best explains what you showed it.</p>
+    <pre><code>input: observations + a generative program
+output: posterior distribution over possible worlds
+use: ask questions, impose conditions, run counterfactuals</code></pre>
+  </div>
+  <p>We use Kind 2 as the anchor. A worldtext, in the strongest sense, is a text that can be executed as a generative program — one that supports queries, conditions, and interventions.</p>
+</div>
+</section>
+
+<!-- ════════════ 09 STRUCTURE ════════════ -->
+<section class="slide" data-n="9">
+<div class="slide-inner">
+  <h3>Control Surface</h3>
+  <h2>Where Structure Becomes Visible</h2>
+  <div class="divider"></div>
+  <p>The neural model is a black box. Structure enters when the output gets <strong>externalized</strong> — when you can point to a part, name it, move it, delete it, or write a rule about it.</p>
+  <table>
+    <tr><th>System</th><th>What You Can Point To and Edit</th></tr>
+    <tr><td>World Labs-style 3D</td><td>Walls, planes, volumes, object boundaries — editable geometry</td></tr>
+    <tr><td>Probabilistic programs</td><td><code>(define entity)</code> · <code>(condition rule)</code> · <code>(query outcome)</code></td></tr>
+    <tr><td>Game engines</td><td>Physics rules, entity registries, event triggers, state machines</td></tr>
+    <tr><td>Gaussian splat pipelines</td><td>Meshes, point clouds, coordinates, scene graphs</td></tr>
+  </table>
+  <p>The rule: <strong>structure does not live inside the neural model. It lives on the control surface outside it.</strong> If you cannot inspect it, edit it, or break it on purpose, it is not structure — it is output.</p>
+</div>
+</section>
+
+<!-- ════════════ 10 THREE DEGREES ════════════ -->
+<section class="slide" data-n="10">
+<div class="slide-inner">
+  <h3>Three Degrees</h3>
+  <h2>Sorted by What the Output Can Do</h2>
+  <div class="divider"></div>
+  <div class="card">
+    <h4>I · You Can Walk Around It</h4>
+    <p>A prompt produces a 3D scene. You rotate the camera, export a mesh, render from a new angle. But the scene has no rules. Nothing inside it can change on its own. It is a picture with depth.</p>
+  </div>
+  <div class="card">
+    <h4>II · You Can Act Inside It</h4>
+    <p>A prompt produces an environment with state. You move an object — the lighting updates. You break a wall — the physics propagate. You come back later — your changes are still there. Actions have consequences that persist.</p>
+  </div>
+  <div class="card">
+    <h4>III · You Can Query It</h4>
+    <p>A prompt produces a program that defines entities, relations, and rules. You ask: "What happens if I remove this constraint?" You condition on evidence: "Given the bridge collapsed, what caused it?" You run the program forward, backward, or sideways.</p>
+  </div>
+</div>
+</section>
+
+<!-- ══════ ACT IV: THE CONTEST ══════ -->
+
+<!-- ════════════ 11 INTENT VS DISTRIBUTION ════════════ -->
+<section class="slide" data-n="11">
+<div class="slide-inner">
+  <h3>Act IV · The Contest</h3>
+  <h2>Your Prompt vs. the Training Data</h2>
+  <div class="divider"></div>
+  <p>Every generated output is a negotiation between two forces:</p>
+  <table>
+    <tr><th>Your Prompt (Intent)</th><th>The Training Data (Distribution)</th></tr>
+    <tr><td>What you asked for</td><td>What the model defaults to</td></tr>
+    <tr><td>Specific, directed, singular</td><td>Statistical, gravitational, average</td></tr>
+    <tr><td>Steers the output away from the mean</td><td>Pulls the output toward the mean</td></tr>
+    <tr><td>Remove it → you get generic motifs</td><td>Remove it → you get noise</td></tr>
+  </table>
+  <p>Hintze et al. (2025) ran 700 autonomous image-generation loops with no human input. Every loop converged to the same 12 motifs: lighthouses, cathedrals, palatial interiors. They called it "visual elevator music."</p>
+  <p>The human operator is not decoration. The human is the force that prevents convergence to the mean.</p>
+</div>
+</section>
+
+<!-- ════════════ 12 ONE SENTENCE ════════════ -->
+<section class="slide" data-n="12">
+<div class="slide-inner" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+  <h3>The Argument</h3>
+  <div class="divider" style="margin:1.5rem auto"></div>
+  <blockquote style="border-left:none;max-width:700px;font-size:1.25rem;line-height:1.6"><strong>Worldtext is what you get when a written description stops producing a picture and starts specifying a system with state, rules, and consequences.</strong></blockquote>
+</div>
+</section>
+
+<!-- ════════════ 13 CODA ════════════ -->
+<section class="slide" data-n="13">
+<div class="slide-inner" style="text-align:center">
+  <div class="subtitle">Coda</div>
+  <h1 style="font-size:2.4rem;max-width:700px;margin:0 auto 2rem">The Project</h1>
+  <div class="divider" style="margin:0 auto 2rem"></div>
+  <blockquote style="border-left:none;text-align:left;max-width:640px;margin:0 auto;font-size:1.05rem;line-height:1.7">
+    Ekphrasis is 2,500 years old: write sentences, make absent images appear.<br><br>
+    Generative AI turns that operation literal. Write a sentence — a machine produces, revises, and organizes the image. Description acts.<br><br>
+    We call this <strong>operative ekphrasis</strong>.<br><br>
+    The next step: prompts stop producing pictures and start specifying environments with state, rules, persistence, and consequence.<br><br>
+    We call that <strong>worldtext</strong>.
+  </blockquote>
+  <p style="margin-top:3rem;color:var(--dim);font-family:var(--sans);font-size:.8rem;letter-spacing:.06em">Hartsoe &amp; Bolter · 2026</p>
+</div>
+</section>
+
+<script>
+const slides=document.querySelectorAll('.slide'),counter=document.getElementById('nav-counter');
+const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');const n=e.target.dataset.n;if(n)counter.textContent=String(n).padStart(2,'0')+' / '+slides.length}})},{threshold:.15});
+slides.forEach(s=>obs.observe(s));
+document.addEventListener('keydown',e=>{const c=[...slides].findIndex(s=>{const r=s.getBoundingClientRect();return r.top>=-100&&r.top<innerHeight*.5});if(e.key==='ArrowDown'||e.key===' '||e.key==='j'){e.preventDefault();slides[Math.min(c+1,slides.length-1)].scrollIntoView({behavior:'smooth'})}else if(e.key==='ArrowUp'||e.key==='k'){e.preventDefault();slides[Math.max(c-1,0)].scrollIntoView({behavior:'smooth'})}});
+</script>
+</body>
+</html>

@@ -8,19 +8,18 @@
 
 ---
 
-## 1. The Problem
+## 1. The Problem: The Bateson Move
 
 You are using an LLM, a video model, or an agent simulation to build a world.
 
-These systems are autocomplete on steroids. They do not have object permanence. They do not understand physics. They do not understand rules. They produce fluent, beautiful sentences based on statistical averages — and that is all they do.
+These systems produce fluent, beautiful sentences based on statistical averages. Tell an AI to describe a fantasy tavern, and you get the average of all fantasy: *flickering candles, a grumpy barkeep, a roaring hearth.* If you tell the AI a rule—*"In this world, fire does not exist"*—it will often hallucinate a lit torch anyway, because the statistical pressure of the training data overwhelms your constraint.
 
-Tell an AI to describe a fantasy tavern. You get: *flickering candles, a grumpy barkeep, a roaring hearth.* You get the **average of all fantasy**. It is technically competent and semantically empty. It could belong to any world. It belongs to none.
+The core research problem is not to declare that "language compiles worlds," but to ask: **Under what conditions does this distinction actually matter?**
 
-Worse: tell the AI a rule — *"In this world, fire does not exist"* — and it might obey for one paragraph. Three paragraphs later, it will hallucinate a lit torch, because torches belong in castles and the statistical pressure of the training data overwhelms your constraint. 
+Following Gregory Bateson's formulation of information as a "difference that makes a difference," the project must test:
+> **Which differences in description actually change the generative system, the image, the archive, the viewer’s interpretation, or the next prompt?**
 
-This is **unbounded probability**. The latent space is a high-probability sludge. Natural language prompts act as wishes, not laws. The model drifts toward the mean. The mean is generic. Generic is death.
-
-JSON prompting, structured outputs, system prompts — these help with formatting. But formatting is not governance. A database stores facts; a world metabolizes consequence. If you change one rule and nothing else changes downstream, you do not have a world. You have a decorated list.
+If changing a description does not change the next state of the generative system, the description is not earning its keep. We call this the **generation-space delta ($\Delta G$)** test.
 
 ---
 
@@ -40,26 +39,42 @@ It is a **minimum viable proof of operational closure**. The loop runs. The syst
 
 ## 3. What "Hello, Worldtext" Must Prove
 
-Programming's "Hello World" proves the toolchain. Worldtext's "Hello, Worldtext" must prove something harder: that **text is operating as a world-compiler, not merely describing a setting.**
+Programming's "Hello World" proves the toolchain. Worldtext's "Hello, Worldtext" is a proposed diagnostic test of a specific suspicion: **Can natural language act as a routing layer that constrains the output space, rather than just decorative prose?**
 
-The circuit is closed when four conditions hold:
+The circuit is closed when we observe a non-zero delta ($\Delta G \neq 0$) across four conditions:
 
 | # | Condition | What It Proves |
 |---|-----------|---------------|
-| 1 | **Invariant declared** | At least one rule constrains what CAN and CANNOT appear |
-| 2 | **Generation constrained** | Output produced against the invariant is visibly different from output without it |
-| 3 | **Violation detectable** | The operator can point to a specific sentence and say: "this breaks the rule" |
-| 4 | **Mutation propagates** | Changing one invariant changes the outputs — and the operator can trace the propagation |
+| 1 | **Invariant declared** | At least one rule is hypothesized to constrain the output space |
+| 2 | **Generation constrained** | Output produced under the invariant shows a measurable difference ($\Delta G \neq 0$) |
+| 3 | **Violation detectable** | The operator can point to a specific sentence and say: "this breaks the invariant" |
+| 4 | **Mutation propagates** | Changing one invariant changes subsequent generations, letting the operator trace the route |
 
-If all four hold, the Worldtext is running. If any fails, what you have is a lore document, a wiki, or a prompt library — but not a Worldtext.
+If all four hold, we have a candidate loop. If any fails, the description has collapsed into decorative text.
+
+---
+
+## 3.5 Lineage Pressures: Wittgenstein and Hutchins
+
+Rather than treating these thinkers as canonical justifications, we use them to pressure the core hypothesis of Chapter 1.
+
+### Ludwig Wittgenstein: Does the Game Hold?
+*   **The Question:** What kind of language-game is generative prompting?
+*   **The Pressure:** Wittgenstein's *Philosophical Investigations* warns us against imagining that rules possess a magical force that compiles reality. A rule is not a causal agent; it is a custom or practice. When we write an invariant (e.g., *"No metal exists"*), the model does not "obey" a law out of understanding; it simply aligns vectors along coordinates.
+*   **The Critical Boundary:** If the operator cannot point to a public, repeatable convention of correction when the rule breaks, then the "invariant" is not a rule—it is merely a statistical preference.
+
+### Edwin Hutchins: Where is the Worldtext?
+*   **The Question:** Where is interpretation located: in the user, the model, the interface, the archive, or the loop?
+*   **The Pressure:** Hutchins's *Cognition in the Wild* argues that cognitive operations are distributed across physical and organizational tools. If we treat "operative description" as a property of the text prompt alone, we ignore the distributed system.
+*   **The Critical Boundary:** The description is only operative because of the interface state (like `c2.html` tracking variables) and the user's interpretive corrections. Without this distributed stack, the prompt is just inert characters on a screen.
 
 ---
 
 ## 4. What Is "Worldtext"?
 
-Worldtext means writing prompts that don't just *describe* things but act as **hard code for reality**. Instead of loose lore paragraphs, you structure your world as strict, testable rules.
+Worldtext is a proposed term for the recursive accumulation of prompts, outputs, revisions, interfaces, archives, and interpretations. Instead of assuming this object exists, we structure prompts as testable rules to see if we can build and maintain same-world consistency.
 
-A Worldtext is a declarative language that describes a world using:
+A Worldtext is hypothesized to coordinate a world using:
 
 | Component | What It Is | What It Does |
 |-----------|-----------|-------------|
@@ -71,7 +86,7 @@ A Worldtext is a declarative language that describes a world using:
 | `<Event>` | A change triggered by rules | Drives consequences |
 | `<Timeline>` | A temporal container | Orders events |
 
-The goal is to describe **what exists**, **how things relate**, and **how things change** — not to give vibes, not to set mood, not to inspire. To *legislate*.
+The goal is to test if we can describe **what exists**, **how things relate**, and **how things change**—setting up a framework for evaluating where the simulation drifts from the rule.
 
 ---
 
@@ -453,7 +468,7 @@ You have completed "Hello, Worldtext."
 
 This is not a lore bible. A lore bible has no failure modes. This is not a wiki. A wiki has no invariants. This is not a prompt library. A prompt library has no propagation tests.
 
-This is a **Worldtext**: a governing theory of a world, possessed by an operator, testable against generation, and modifiable without collapse.
+This is a test of a **Worldtext**: we suspect that by defining invariants and mapping failure modes, we can construct a recursive media object that remains stable across iteration. The task of the dissertation is to find where this framework fails.
 
 ---
 
@@ -481,4 +496,4 @@ Homer was not writing poetry. He was writing the spec. We just lacked the machin
 
 ---
 
-*"Hello, Worldtext" is not a greeting. It is the moment the text bites back. The circuit is closed when the AI renders black earth on a golden field — proving it has submitted to the law of the text, not the gravity of the training data. The world compiles. The operator confirms. The slop stops here.*
+*"Hello, Worldtext" is not a greeting. It is a test of whether a change in description produces a difference that makes a difference. The circuit is closed when we can trace a non-zero generation-space delta ($\Delta G \neq 0$)—proving that the description has routed the generation away from the model's default gravity, and that this change has returned to shape the operator's next action.*

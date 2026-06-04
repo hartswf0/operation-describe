@@ -173,8 +173,7 @@ A periodic diagnostic for the worldtext system as a whole.
 ## VII. Source Documents
 
 - `PAPERS/geertz.md` — "Thick Programming: The Cultural Compilation of AI"
-- `PAPERS/ryle-00.md` — "Use Against Meaning: Ryle, Findlay, and the Intentionality of Speech"
-- `PAPERS/ryl-01.md` — "The Argument Is Not the Thought"
+- [ryl-01.md](file:///Users/gaia/OPERATION-DESCRIBE/PAPERS/ryl-01.md) — "The Argument Is Not the Thought: Ryle, Inference, and the Myth of Inner Logic"
 
 ---
 

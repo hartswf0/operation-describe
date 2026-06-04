@@ -41,7 +41,7 @@ Now replace "religion" with "generative AI interaction":
 |-----------|--------|-----------|----------------------|
 | **Cybernetic Ritual Narratology** | cyber-03 | AI art-making is a symbolic ritual practice: prompts are invocations, datasets are archives, outputs are narrative artifacts in a feedback loop | Every worldtext operation is a ritual within a cultural system |
 | **Operative Ekphrasis** | tenne.md | Text does not describe images; it *operates* them through shared artificial semantics. The multimodal pictorial third dissolves the text/image binary | The worldtext does not describe its world; it *operates* it — constituting it through symbolic-computational action |
-| **Descriptive Struggle** | desc.md | Machine descriptions must be evaluated not for fluency but for accountability: inward (self-awareness), metaphorical (figural precision), factual (evidence), practical (usefulness), ethical (responsibility) | Every worldtext artifact must survive the Descriptive Adequacy Test |
+| **Descriptive Struggle** | [ryl-01.md](file:///Users/gaia/OPERATION-DESCRIBE/PAPERS/ryl-01.md) | Machine descriptions must be evaluated not for fluency but for accountability: inward (self-awareness), metaphorical (figural precision), factual (evidence), practical (usefulness), ethical (responsibility) | Every worldtext artifact must survive the Descriptive Adequacy Test |
 
 ---
 
@@ -164,7 +164,7 @@ Bajohr's crucial concept: the meaning that neural networks produce is **artifici
 
 ## V. The Descriptive Adequacy Test
 
-From `desc.md`: five dimensions for evaluating whether a worldtext artifact achieves thick description or remains thin.
+From [ryl-01.md](file:///Users/gaia/OPERATION-DESCRIBE/PAPERS/ryl-01.md): five dimensions for evaluating whether a worldtext artifact achieves thick description or remains thin.
 
 | Dimension | Question | Pass Condition |
 |-----------|----------|---------------|
@@ -225,7 +225,7 @@ A periodic check on the health of the ritual loop.
 
 - `PAPERS/cyber-03.md` — "Cybernetic Ritual Narratology: Prompts as Invocations, Datasets as Archives"
 - `PAPERS/tenne.md` — "Operative Ekphrasis and the Multimodal Pictorial Third"
-- `PAPERS/desc.md` — "The Descriptive Struggle: Five Tests for Machine Language"
+- [ryl-01.md](file:///Users/gaia/OPERATION-DESCRIBE/PAPERS/ryl-01.md) — "The Argument Is Not the Thought: Ryle, Inference, and the Myth of Inner Logic"
 - `PAPERS/geertz.md` — "Thick Programming: The Cultural Compilation of AI"
 
 ---

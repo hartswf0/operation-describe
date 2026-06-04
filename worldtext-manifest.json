@@ -1,29 +1,31 @@
 {
-  "generated": "2026-04-14T07:22:34.917Z",
+  "generated": "2026-06-04T21:40:25.886Z",
   "cosmos": "WORLDTEXT — Operative Ekphrasis / Thick Description",
   "stats": {
-    "files": 1073,
-    "totalReferences": 1221,
-    "totalBytes": 4063947,
-    "worldTextPages": 365,
+    "files": 1221,
+    "totalReferences": 2558,
+    "totalBytes": 6974037,
+    "worldTextPages": 514,
     "evidenceEntries": 708,
     "galaxies": 5,
-    "worlds": 12,
+    "worlds": 21,
     "worldTypes": 12
   },
   "files": [
     {
       "path": "cosmos/governance/atlas.md",
       "realPath": "worldtext/atlas.md",
-      "size": 15562,
+      "size": 46677,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-13",
+      "modified": "2026-04-28",
       "refs": [
         "galaxy-of-ekphrastic-worlds",
         "galaxy-of-thick-description-worlds",
         "galaxy-of-generative-ai-worlds",
         "galaxy-of-intermedial-worlds",
+        "galaxy-of-cybernetic-worlds",
+        "galaxy-of-hermeneutic-worlds",
         "constellation-paragone",
         "constellation-semiotic-collapse",
         "constellation-description-density",
@@ -33,6 +35,11 @@
         "system-prompt-engineering",
         "system-world-models",
         "system-intermediality",
+        "system-worldtext-operations",
+        "system-subcreation",
+        "system-agential-cuts",
+        "system-textual-action",
+        "system-operational-depiction",
         "world-classical-ekphrasis",
         "world-operative-ekphrasis",
         "world-thick-description",
@@ -43,6 +50,23 @@
         "world-world-models",
         "world-digital-poetics",
         "world-academic-ekphrasis",
+        "world-embodied-description",
+        "world-oral-formulaic-generation",
+        "world-latent-wrestling",
+        "world-thin-research",
+        "world-operative-ethnography",
+        "world-latent-interaction-design",
+        "world-worldtext-coherence",
+        "world-subcreation",
+        "world-cybertext-topology",
+        "world-natural-sign-semiotics",
+        "world-continuity-debt",
+        "world-agential-cybernetic-media",
+        "world-textual-action-hermeneutics",
+        "world-thick-programming",
+        "world-memex-trails",
+        "world-model-measure",
+        "world-cybernetic-ritual",
         "place-shield-surface",
         "place-seminar-room",
         "place-latent-space",
@@ -57,6 +81,11 @@
         "place-peer-review-gate",
         "place-calligraphic-mark-sheet",
         "place-dream-environment",
+        "place-zork-underground",
+        "place-sora-corridor",
+        "place-world-bible-vault",
+        "place-entity-ledger",
+        "place-continuity-gate",
         "entity-mitchell",
         "entity-heffernan",
         "entity-geertz",
@@ -70,6 +99,47 @@
         "entity-ha-schmidhuber",
         "entity-lindley-whitham",
         "entity-homer",
+        "entity-watson-hartsoe",
+        "entity-jay-bolter",
+        "entity-hito-steyerl",
+        "entity-roland-meyer",
+        "entity-amanda-wasielewski",
+        "entity-harun-farocki",
+        "entity-fabian-offert",
+        "entity-bateson",
+        "entity-iser",
+        "entity-fish",
+        "entity-ogilvie",
+        "entity-ian-cheng",
+        "entity-mark-jp-wolf",
+        "entity-tosca-klastrup",
+        "entity-thomas-pavel",
+        "entity-janet-murray",
+        "entity-espen-aarseth",
+        "entity-peter-naur",
+        "entity-lucy-suchman",
+        "entity-yann-lecun",
+        "entity-john-deely",
+        "entity-augustinian-semiotics",
+        "entity-von-foerster",
+        "entity-epistemic-debt",
+        "entity-fragile-expert",
+        "entity-causal-worldtext",
+        "entity-barad",
+        "entity-flusser",
+        "entity-scott",
+        "entity-beer",
+        "entity-deleuze-control",
+        "entity-ricoeur",
+        "entity-ryle",
+        "entity-findlay",
+        "entity-bush",
+        "entity-wittgenstein-tractatus",
+        "entity-sterrett",
+        "entity-papert",
+        "entity-vermeer-problem",
+        "entity-viscosity-trap",
+        "entity-dead-program",
         "ritual-ekphrastic-description",
         "ritual-prompting",
         "ritual-thick-inscription",
@@ -79,6 +149,19 @@
         "ritual-benchmarking",
         "ritual-citation",
         "ritual-canon-formation",
+        "ritual-same-worldness-test",
+        "ritual-canonization",
+        "ritual-rejection-archival",
+        "ritual-operative-string-composition",
+        "ritual-continuity-repair",
+        "ritual-ingest",
+        "ritual-query",
+        "ritual-lint",
+        "ritual-explanation-gate",
+        "ritual-trail-building",
+        "ritual-metis-test",
+        "ritual-cut-visibility",
+        "ritual-audit",
         "atmosphere-ekphrastic-longing",
         "atmosphere-latent-uncanny",
         "atmosphere-hermeneutic-density",
@@ -99,6 +182,17 @@
         "conflict-representation-vs-performance",
         "conflict-human-vs-machine-authorship",
         "conflict-canon-vs-expansion",
+        "conflict-abundance-vs-platform-realism",
+        "conflict-generation-vs-inhabitation",
+        "conflict-style-vs-causality",
+        "conflict-oem-vs-service-provider",
+        "conflict-plan-vs-situated-action",
+        "conflict-canon-vs-lore",
+        "conflict-recursivisation-of-personhood",
+        "conflict-stateless-vs-stateful",
+        "conflict-answer-vs-trail",
+        "conflict-functionary-vs-player",
+        "conflict-explanation-vs-discovery",
         "distinction-word-image",
         "distinction-description-generation",
         "distinction-thick-thin",
@@ -109,6 +203,35 @@
         "distinction-stasis-movement",
         "distinction-human-machine",
         "distinction-surface-depth",
+        "distinction-seamless-exposed",
+        "distinction-navigation-production",
+        "distinction-intent-distribution",
+        "distinction-participant-operative",
+        "distinction-trace-feedback",
+        "distinction-exposure-painting",
+        "distinction-world-bible-lore-book",
+        "distinction-scene-graph-worldtext",
+        "distinction-texton-scripton",
+        "distinction-identity-state",
+        "distinction-imagetext-worldtext",
+        "distinction-builder-tool-world-service",
+        "distinction-riverbed-water",
+        "distinction-first-order-second-order",
+        "distinction-continuity-debt-epistemic-debt",
+        "distinction-rag-worldtext",
+        "distinction-conversation-control-surface",
+        "distinction-tool-apparatus",
+        "distinction-interaction-intraaction",
+        "distinction-relevance-importance",
+        "distinction-event-trace",
+        "distinction-inference-argument",
+        "distinction-use-meaning",
+        "distinction-metis-legibility",
+        "distinction-augmentation-substitution",
+        "distinction-storage-consultation",
+        "distinction-resemblance-projection",
+        "distinction-fluency-fidelity",
+        "distinction-residue-theory",
         "epoch-ancient-rhetoric",
         "epoch-paragone-revival",
         "epoch-intermedial-turn",
@@ -120,17 +243,45 @@
         "question-paragone-after-collapse",
         "question-prompt-as-ritual",
         "question-world-model-as-ekphrasis",
-        "question-atmospheric-latent-space"
+        "question-atmospheric-latent-space",
+        "question-platform-realism-challenge",
+        "question-convergence-problem",
+        "question-imagetext-to-worldtext",
+        "question-silent-other",
+        "question-reader-as-model",
+        "question-double-bind-mode-collapse",
+        "question-third-path",
+        "question-eco-ekphrasis",
+        "question-operative-observer",
+        "question-synthetic-place",
+        "question-worldtext-viscosity",
+        "question-encounter-trace",
+        "question-water-literacy",
+        "question-who-pays-continuity-debt",
+        "question-executable-world-bible",
+        "question-exposure-vs-artifact",
+        "question-lore-contradiction-limit",
+        "question-zork-test",
+        "question-situated-action-in-worldtext",
+        "question-mud-as-resource",
+        "question-epistemic-debt-threshold",
+        "question-second-order-governor",
+        "question-executing-ecology",
+        "question-memex-test",
+        "question-agential-cut-audit",
+        "question-metis-survival",
+        "question-trace-reads-back",
+        "question-model-shop"
       ],
       "summary": "-----|-----------|------------|--------|---------------| | [[galaxy-of-ekphrastic-worlds]] | All worlds where language renders visual objects present | — | cosmos | 2026-04-13 | | [[galaxy-of-thick-description-worlds]] | All worlds where meaning is made legible through dense semiotic layering | — | "
     },
     {
       "path": "cosmos/governance/chronicle.md",
       "realPath": "worldtext/chronicle.md",
-      "size": 33861,
+      "size": 59444,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-14",
+      "modified": "2026-04-28",
       "refs": [
         "world-classical-ekphrasis",
         "world-operative-ekphrasis",
@@ -166,10 +317,10 @@
     {
       "path": "cosmos/governance/cosmology.md",
       "realPath": "worldtext/cosmology.md",
-      "size": 6607,
+      "size": 9357,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-13",
+      "modified": "2026-04-28",
       "refs": [
         "galaxy-of-ekphrastic-worlds",
         "galaxy-of-thick-description-worlds",
@@ -190,7 +341,19 @@
         "shield-artifact-world",
         "hallucinated-environment-world",
         "academic-governance-world",
-        "semiotic-collapse-world"
+        "semiotic-collapse-world",
+        "operative-ethnography-world",
+        "latent-interaction-design-world",
+        "thick-description-of-diffusion",
+        "conflict-abundance-vs-platform-realism",
+        "concept-abundance",
+        "concept-platform-realism",
+        "concept-synthetic-camera",
+        "concept-worldtext",
+        "world-operative-ethnography",
+        "syntheses/operative-ethnography",
+        "world-latent-interaction-design",
+        "syntheses/latent-interaction-design"
       ],
       "summary": "Cosmology — OPERATION DESCRIBE"
     },
@@ -335,6 +498,26 @@
       "summary": "World-Type Taxonomy"
     },
     {
+      "path": "cosmos/governance/syntheses/agential-cuts.md",
+      "realPath": "worldtext/syntheses/agential-cuts.md",
+      "size": 11985,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [],
+      "summary": "-------|-----------------|----------------------| | **Karen Barad** | Agential realism: cuts are not made by pre-existing subjects on pre-existing objects. The cut *produces* both subject and object. Intra-action, not inter-action. | Every worldtext generation simultaneously produces the artifact an"
+    },
+    {
+      "path": "cosmos/governance/syntheses/anomaly-of-return.md",
+      "realPath": "worldtext/syntheses/anomaly-of-return.md",
+      "size": 5633,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "The Anomaly of Return"
+    },
+    {
       "path": "cosmos/governance/syntheses/assemblage-problem.md",
       "realPath": "worldtext/syntheses/assemblage-problem.md",
       "size": 5073,
@@ -354,6 +537,94 @@
       "summary": "--------|-----------|-------------------| | **Archaeology** | artifacts found in association with one another | Evidence entries sharing a Zotero collection | | **DeLanda/Deleuze** | temporary configurations of heterogeneous entities | Wiki-link networks between WorldText pages | | **Art criticism ("
     },
     {
+      "path": "cosmos/governance/syntheses/causal-worldtext-runtime.md",
+      "realPath": "worldtext/syntheses/causal-worldtext-runtime.md",
+      "size": 13574,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [
+        "entity-name",
+        "continuity-debt",
+        "epistemic-debt",
+        "recursive-epistemology",
+        "clean-stack-and-artifact-lifecycle",
+        "riverbed-field-engine"
+      ],
+      "summary": "Causal Worldtext Runtime"
+    },
+    {
+      "path": "cosmos/governance/syntheses/chapter-01-the-achilles-protocol.md",
+      "realPath": "worldtext/syntheses/chapter-01-the-achilles-protocol.md",
+      "size": 24114,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-06-04",
+      "refs": [
+        "system-worldtext-operations",
+        "syntheses/hello-worldtext",
+        "syntheses/titan-forge",
+        "syntheses/worldtext-formal-engine",
+        "concept-worldtext",
+        "concept-operative-ecologies",
+        "syntheses/thick-description-of-operative-ekphrasis",
+        "syntheses/seven-failure-modes"
+      ],
+      "summary": "CHAPTER 01: THE ACHILLES PROTOCOL"
+    },
+    {
+      "path": "cosmos/governance/syntheses/chapter-02-latent-interaction-design.md",
+      "realPath": "worldtext/syntheses/chapter-02-latent-interaction-design.md",
+      "size": 13835,
+      "ext": "md",
+      "created": "2026-05-27",
+      "modified": "2026-06-04",
+      "refs": [],
+      "summary": "Chapter 2: Latent Interaction Design"
+    },
+    {
+      "path": "cosmos/governance/syntheses/chapter-03-executable-semantics.md",
+      "realPath": "worldtext/syntheses/chapter-03-executable-semantics.md",
+      "size": 8404,
+      "ext": "md",
+      "created": "2026-05-29",
+      "modified": "2026-06-04",
+      "refs": [],
+      "summary": "| :--- | :--- | | **Ludwig Wittgenstein** | Language-games; meaning as use in the stream of life. | Prompts have no static definitions; their meaning is the output distribution they actuate. | | **Ferdinand de Saussure** | Structural linguistics; relational value of signs. | Latent space as a purely"
+    },
+    {
+      "path": "cosmos/governance/syntheses/chapter-04-narrative-control.md",
+      "realPath": "worldtext/syntheses/chapter-04-narrative-control.md",
+      "size": 8650,
+      "ext": "md",
+      "created": "2026-06-04",
+      "modified": "2026-06-04",
+      "refs": [
+        "concept-worldtext",
+        "world-world-models",
+        "world-theory-building",
+        "concept-context-stack",
+        "ripples-perspectival-finitude"
+      ],
+      "summary": "Chapter 4: Narrative Control in Generative Worldtexts"
+    },
+    {
+      "path": "cosmos/governance/syntheses/chapter-05-politics-threshold.md",
+      "realPath": "worldtext/syntheses/chapter-05-politics-threshold.md",
+      "size": 6708,
+      "ext": "md",
+      "created": "2026-06-04",
+      "modified": "2026-06-04",
+      "refs": [
+        "politics-of-the-threshold",
+        "threshold-generation-gate",
+        "threshold-publication-gate",
+        "world-academic-ekphrasis",
+        "synthesis-dissertation-contribution-engine"
+      ],
+      "summary": "Chapter 5: The Politics of the Threshold"
+    },
+    {
       "path": "cosmos/governance/syntheses/citation-network.md",
       "realPath": "worldtext/syntheses/citation-network.md",
       "size": 5994,
@@ -369,6 +640,69 @@
       "summary": "---------------------------|---------------| | Ha/Schmidhuber → Webb (World Models ↔ Enargeia) | \"Grandmother Cells and Enargeia\" | | Kulkarni → Homer (Prompts ↔ Oral Formulae) | Kulkarni source upgrade | | Goehr → Bajohr (Marsyas ↔ CLIP dissolution) | \"Punishment of Marsyas\" | | Fjellestad → Double"
     },
     {
+      "path": "cosmos/governance/syntheses/clean-stack-and-artifact-lifecycle.md",
+      "realPath": "worldtext/syntheses/clean-stack-and-artifact-lifecycle.md",
+      "size": 8763,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "The Clean Stack and Artifact Lifecycle"
+    },
+    {
+      "path": "cosmos/governance/syntheses/cohen-case-thick-description.md",
+      "realPath": "worldtext/syntheses/cohen-case-thick-description.md",
+      "size": 26225,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-thick-description",
+        "world-prompt-craft",
+        "world-operative-ekphrasis",
+        "thick-prompt",
+        "thick-description-of-diffusion",
+        "bridge-context-window-to-thick-description",
+        "kiki-or-bouba",
+        "rosetta-stone",
+        "concept-text-as-control-signal"
+      ],
+      "summary": "The Cohen Case: Eight Paragraphs of Thick Description"
+    },
+    {
+      "path": "cosmos/governance/syntheses/continuity-debt.md",
+      "realPath": "worldtext/syntheses/continuity-debt.md",
+      "size": 7594,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "Continuity Debt"
+    },
+    {
+      "path": "cosmos/governance/syntheses/control-surface.md",
+      "realPath": "worldtext/syntheses/control-surface.md",
+      "size": 9125,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations",
+        "entity-fragile-expert|Fragile Expert"
+      ],
+      "summary": "The Control Surface — Operator's Manual for Worldtext"
+    },
+    {
+      "path": "cosmos/governance/syntheses/cybernetic-ritual-narratology.md",
+      "realPath": "worldtext/syntheses/cybernetic-ritual-narratology.md",
+      "size": 16110,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-06-04",
+      "refs": [],
+      "summary": "--------|--------|-----------|----------------------| | **Cybernetic Ritual Narratology** | cyber-03 | AI art-making is a symbolic ritual practice: prompts are invocations, datasets are archives, outputs are narrative artifacts in a feedback loop | Every worldtext operation is a ritual within a cult"
+    },
+    {
       "path": "cosmos/governance/syntheses/dark-matter-audit.md",
       "realPath": "worldtext/syntheses/dark-matter-audit.md",
       "size": 28030,
@@ -382,12 +716,82 @@
       "summary": "-|-----------|--------|-----------| | C1 | Evidence Preservation — immutable source stratum intact, source summaries trace what changed | HIGH | Taxonomy without evidence = anti-pattern | | C2 | World Compilation — places, entities, rituals, atmospheres, etc. rendered as interlinked pages | HIGH | C"
     },
     {
+      "path": "cosmos/governance/syntheses/description-has-always-been-inference.md",
+      "realPath": "worldtext/syntheses/description-has-always-been-inference.md",
+      "size": 34105,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [],
+      "summary": "Description Has Always Been Inference"
+    },
+    {
+      "path": "cosmos/governance/syntheses/elephant-os.md",
+      "realPath": "worldtext/syntheses/elephant-os.md",
+      "size": 29792,
+      "ext": "md",
+      "created": "2026-05-06",
+      "modified": "2026-05-06",
+      "refs": [
+        "system-operative-ekphrasis",
+        "galaxy-of-ekphrastic-worlds",
+        "galaxy-of-thick-description-worlds",
+        "galaxy-of-generative-ai-worlds",
+        "elephant-os.html",
+        "PROGRAMS/eos.json",
+        "syntheses/punishment-of-marsyas",
+        "elephant_os_conference_abstract.md",
+        "syntheses/four-strata",
+        "syntheses/rosetta-stone",
+        "syntheses/worldtext-theoretical-intervention",
+        "syntheses/thick-prompt",
+        "PROGRAMS/drtp-experimental-regimes.md",
+        "syntheses/worldtext-and-same-worldness",
+        "syntheses/worldtext-and-same-worldness#continuity-debt-and-the-economics-of-the-service-layer-operator",
+        "syntheses/politics-of-the-threshold",
+        "syntheses/worldtext-definitive-theory",
+        "syntheses/worldtext-formal-engine",
+        "syntheses/thick-description-of-diffusion",
+        "syntheses/grandmother-cells-and-enargeia",
+        "syntheses/kiki-or-bouba",
+        "PROGRAMS/thick.json",
+        "PROGRAMS/opek.json",
+        "PROGRAMS/dse.json",
+        "PROGRAMS/mmt.json"
+      ],
+      "summary": "ELEPHANT_OS — Operative Description as Research Method"
+    },
+    {
+      "path": "cosmos/governance/syntheses/epistemic-debt.md",
+      "realPath": "worldtext/syntheses/epistemic-debt.md",
+      "size": 11851,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [
+        "continuity-debt",
+        "clean-stack-and-artifact-lifecycle",
+        "anomaly-of-return"
+      ],
+      "summary": "Epistemic Debt"
+    },
+    {
+      "path": "cosmos/governance/syntheses/exposure-as-natural-sign.md",
+      "realPath": "worldtext/syntheses/exposure-as-natural-sign.md",
+      "size": 5700,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "Exposure as Natural Sign"
+    },
+    {
       "path": "cosmos/governance/syntheses/finding-light-in-dark-matter.md",
       "realPath": "worldtext/syntheses/finding-light-in-dark-matter.md",
-      "size": 13318,
+      "size": 13372,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-13",
+      "modified": "2026-04-14",
       "refs": [
         "world-prompt-craft",
         "world-thick-description",
@@ -395,6 +799,7 @@
         "galaxy-of-generative-ai-worlds",
         "world-shield-of-achilles",
         "world-latent-space",
+        "thick-description-of-operative-ekphrasis",
         "world-oral-formulaic-generation",
         "world-embodied-description"
       ],
@@ -403,7 +808,7 @@
     {
       "path": "cosmos/governance/syntheses/four-strata.md",
       "realPath": "worldtext/syntheses/four-strata.md",
-      "size": 7598,
+      "size": 10608,
       "ext": "md",
       "created": "2026-04-14",
       "modified": "2026-04-14",
@@ -413,9 +818,62 @@
         "world-operative-ekphrasis",
         "world-classical-ekphrasis",
         "distinction-oral-print-digital-ai",
-        "atmosphere-geological-depth"
+        "atmosphere-geological-depth",
+        "entity-bateson",
+        "entity-von-foerster",
+        "concept-reactive-ekphrasis",
+        "concept-bio-inference"
       ],
       "summary": "----------|------------------------|-------------------| | Evidence (Zotero) | Raw observation (o_t) | Stratum 0 | | Source summaries | Encoded latent (z_t) | Stratum I (vivification — making the text \"visible\") | | World/object pages | Compressed model (M) | Stratum II (protection — preserving the "
+    },
+    {
+      "path": "cosmos/governance/syntheses/from-imagetext-to-worldtext-v2.md",
+      "realPath": "worldtext/syntheses/from-imagetext-to-worldtext-v2.md",
+      "size": 50806,
+      "ext": "md",
+      "created": "2026-04-17",
+      "modified": "2026-04-17",
+      "refs": [],
+      "summary": "From Imagetext to Worldtext: Generative AI as Operative Ekphrasis"
+    },
+    {
+      "path": "cosmos/governance/syntheses/from-imagetext-to-worldtext.md",
+      "realPath": "worldtext/syntheses/from-imagetext-to-worldtext.md",
+      "size": 41348,
+      "ext": "md",
+      "created": "2026-04-15",
+      "modified": "2026-04-15",
+      "refs": [],
+      "summary": "From Imagetext to Worldtext: Generative AI as Operative Ekphrasis"
+    },
+    {
+      "path": "cosmos/governance/syntheses/garden-of-phrasal-physics.md",
+      "realPath": "worldtext/syntheses/garden-of-phrasal-physics.md",
+      "size": 24847,
+      "ext": "md",
+      "created": "2026-04-29",
+      "modified": "2026-04-29",
+      "refs": [
+        "syntheses/wittgensteins-waymo",
+        "concept-worldtext|Worldtext",
+        "syntheses/wittgensteins-waymo|Wittgenstein → Geertz → Ha/Schmidhuber → Tenenbaum → Waymo",
+        "entity-geertz|Clifford Geertz",
+        "entity-ha-schmidhuber|Ha & Schmidhuber",
+        "entity-geertz|Geertz",
+        "entity-geertz|Geertzian",
+        "entity-ha-schmidhuber|Ha/Schmidhuber",
+        "syntheses/worldtext-definitive-theory",
+        "syntheses/the-dream-must-transfer",
+        "syntheses/sentences-that-constrain-worlds",
+        "syntheses/hello-worldtext",
+        "concept-worldtext",
+        "entity-geertz",
+        "entity-ha-schmidhuber",
+        "entity-dead-program",
+        "world-latent-space",
+        "distinction-dreaming-perceiving"
+      ],
+      "summary": "The Garden of Phrasal Physics"
     },
     {
       "path": "cosmos/governance/syntheses/grandmother-cells-and-enargeia.md",
@@ -439,14 +897,94 @@
       "summary": "--------------|--------------| | Orator visualizes scene (speaker's imagination) | Training: CLIP learns visual patterns from images | | Language with enargeia sparks mental image in listener | Inference: prompt text activates image-correlated neurons | | Listener \"almost sees\" the subject | GLIDE g"
     },
     {
+      "path": "cosmos/governance/syntheses/hello-worldtext.md",
+      "realPath": "worldtext/syntheses/hello-worldtext.md",
+      "size": 39961,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-29",
+      "refs": [
+        "system-worldtext-operations",
+        "concept-worldtext",
+        "syntheses/worldtext-formal-engine",
+        "world-latent-space|latent space",
+        "entity-dead-program|Naur would call a dead program",
+        "concept-text-as-control-signal",
+        "concept-worldtext|Worldtext",
+        "distinction-describing-generating|descriptions",
+        "entity-vermeer-problem",
+        "distinction-fluency-fidelity|fluency and fidelity",
+        "entity-homer|Homer",
+        "world-shield-of-achilles|Shield of Achilles",
+        "syntheses/chapter-01-the-achilles-protocol",
+        "entity-geertz|Geertz",
+        "world-thick-description|thick description",
+        "entity-vermeer-problem|Vermeer",
+        "syntheses/spatial-language-worldtext-synthesis",
+        "syntheses/worldtext-red-team|the red team",
+        "concept-thick-prompting|the discipline to distrust fluency",
+        "concept-worldtext|worldtext",
+        "world-thick-description|Thick description",
+        "world-theory-building|Programming as Theory Building",
+        "entity-dead-program|Naur's theory",
+        "world-theory-building|Naur lineage",
+        "world-shield-of-achilles|Shield"
+      ],
+      "summary": "Chapter 1: Hello, Worldtext."
+    },
+    {
+      "path": "cosmos/governance/syntheses/imagetext-to-worldtext-synthesis.md",
+      "realPath": "worldtext/syntheses/imagetext-to-worldtext-synthesis.md",
+      "size": 33565,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-classical-ekphrasis",
+        "world-thick-description",
+        "world-prompt-craft",
+        "world-latent-space",
+        "fragment-turning-hearing-into-sight",
+        "memory-spitzers-redefinition",
+        "entity-bateson",
+        "fragment-blunt-sword",
+        "distinction-intent-distribution",
+        "region-platform-mean",
+        "fragment-twelve-lighthouses",
+        "scene-carrot-uprising",
+        "thick-prompt",
+        "flow-reclassification-cascade",
+        "cohen-case-thick-description",
+        "scene-shadowplay-installation",
+        "region-attractor-basins",
+        "fragment-audens-barbed-wire",
+        "concept-context-stack",
+        "concept-platform-realism",
+        "concept-seamless-vs-exposed",
+        "concept-viscosity",
+        "scene-webbs-seminar-1999",
+        "infrastructure-progymnasmata",
+        "memory-enargeia-storehouse",
+        "flow-prompt-image-loop",
+        "infrastructure-clip-embedding",
+        "description-has-always-been-inference",
+        "thick-description-of-operative-ekphrasis"
+      ],
+      "summary": "Synthesis: From Imagetext to Worldtext — The Operative Ground"
+    },
+    {
       "path": "cosmos/governance/syntheses/kiki-or-bouba.md",
       "realPath": "worldtext/syntheses/kiki-or-bouba.md",
-      "size": 18613,
+      "size": 22890,
       "ext": "md",
       "created": "2026-04-14",
       "modified": "2026-04-14",
       "refs": [
         "bridge-context-window-to-thick-description",
+        "concept-bio-inference",
+        "concept-science-of-describing",
+        "entity-bateson",
         "world-classical-ekphrasis",
         "world-operative-ekphrasis",
         "world-prompt-craft",
@@ -456,6 +994,93 @@
         "world-thick-description"
       ],
       "summary": "Synthesis: Kiki or Bouba — The Cybernetic Problem of Cross-Modal Encoding"
+    },
+    {
+      "path": "cosmos/governance/syntheses/latent-interaction-design.md",
+      "realPath": "worldtext/syntheses/latent-interaction-design.md",
+      "size": 32203,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-thin-research",
+        "world-latent-wrestling",
+        "world-operative-ethnography",
+        "world-embodied-description",
+        "world-prompt-craft",
+        "world-latent-interaction-design",
+        "distinction-inventory-sediment",
+        "concept-viscosity",
+        "concept-thick-prompting",
+        "conflict-contact-distance",
+        "atmosphere-moral-altitude",
+        "atmosphere-mud",
+        "distinction-guardrail-hydrology",
+        "concept-platform-realism",
+        "distinction-navigation-production",
+        "world-oral-formulaic-generation",
+        "conflict-astrology-physics",
+        "conflict-domestication-wildness",
+        "world-thick-description",
+        "place-balinese-cockfight",
+        "conflict-abundance-vs-platform-realism",
+        "world-operative-ekphrasis",
+        "from-imagetext-to-worldtext-v2",
+        "distinction-seamless-exposed",
+        "ritual-navigation-challenge",
+        "ritual-prompt-battle",
+        "ritual-promptlines",
+        "operative-ethnography"
+      ],
+      "summary": "Synthesis: Latent Interaction Design — Water Literacy and the End of the Cathedral"
+    },
+    {
+      "path": "cosmos/governance/syntheses/memex-trails.md",
+      "realPath": "worldtext/syntheses/memex-trails.md",
+      "size": 11557,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [],
+      "summary": "--------|-----------|-------------------| | **The Memex** | A mechanized private file and library; desk-sized, with screens, keyboard, and storage | The worldtext directory (raw/ + schema/ + wiki/) | | **The Record** | Everything the owner has seen, read, annotated | raw/ — the unprocessed source ma"
+    },
+    {
+      "path": "cosmos/governance/syntheses/model-measure.md",
+      "realPath": "worldtext/syntheses/model-measure.md",
+      "size": 11738,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [],
+      "summary": "------|-----------|----------------------|----------------------| | **Element Correlation** | Objects in the picture correspond to objects in reality (2.13-2.131) | The toy car corresponds to the real car; the miniature road to the real road | Each entity in the atlas corresponds to a concept in the"
+    },
+    {
+      "path": "cosmos/governance/syntheses/operative-ethnography.md",
+      "realPath": "worldtext/syntheses/operative-ethnography.md",
+      "size": 32508,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-thick-description",
+        "world-latent-wrestling",
+        "world-embodied-description",
+        "world-operative-ethnography",
+        "cohen-case-thick-description",
+        "concept-viscosity",
+        "concept-worldtext",
+        "world-latent-space",
+        "place-latent-space",
+        "governance",
+        "concept-platform-realism",
+        "dark-matter-audit",
+        "questions/",
+        "COSMIC_LAW",
+        "world-oral-formulaic-generation",
+        "from-imagetext-to-worldtext-v2"
+      ],
+      "summary": "Synthesis: Operative Ethnography — From Participant Observation to Worldtext"
     },
     {
       "path": "cosmos/governance/syntheses/placeholder-audit.md",
@@ -508,6 +1133,30 @@
       "summary": "----|---------------------|--------| | Ancient (progymnasmata) | **Vivification** — making listeners into spectators (enargeia) | Webb 1999 | | Renaissance–Modern | **Protection** — words sheltering images from prohibition | Goehr 2010, Krieger 1992 | | Post-Google | **Defamiliarization** — making s"
     },
     {
+      "path": "cosmos/governance/syntheses/recursive-epistemology.md",
+      "realPath": "worldtext/syntheses/recursive-epistemology.md",
+      "size": 10291,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [
+        "continuity-debt",
+        "epistemic-debt",
+        "clean-stack-and-artifact-lifecycle"
+      ],
+      "summary": "Recursive Epistemology and Second-Order Cybernetics"
+    },
+    {
+      "path": "cosmos/governance/syntheses/riverbed-field-engine.md",
+      "realPath": "worldtext/syntheses/riverbed-field-engine.md",
+      "size": 6836,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "------|-----------|------| | **Riverbed** | The stable identity-structure that must stand fast for the source to remain itself | Constraint | | **Water** | The moving variation that flows through the riverbed without breaking identity | Motion | | **Sediment** | Residue left by motion: memory, trace"
+    },
+    {
       "path": "cosmos/governance/syntheses/rosetta-stone.md",
       "realPath": "worldtext/syntheses/rosetta-stone.md",
       "size": 24574,
@@ -532,6 +1181,145 @@
       "summary": "Synthesis: The Rosetta Stone — How Ekphrasis and AI Describe the Same Architecture Without Knowing It"
     },
     {
+      "path": "cosmos/governance/syntheses/sentences-that-constrain-worlds.md",
+      "realPath": "worldtext/syntheses/sentences-that-constrain-worlds.md",
+      "size": 17188,
+      "ext": "md",
+      "created": "2026-04-29",
+      "modified": "2026-04-29",
+      "refs": [
+        "system-worldtext-operations",
+        "syntheses/the-dream-must-transfer",
+        "syntheses/the-dream-must-transfer|The Dream Must Transfer",
+        "concept-worldtext|Worldtext",
+        "syntheses/worldtext-definitive-theory|F4: Theory Without Operation",
+        "entity-dead-program|Naurian",
+        "syntheses/worldtext-definitive-theory|F6: Technocratic Capture",
+        "syntheses/hello-worldtext|Chapter 01",
+        "syntheses/worldtext-definitive-theory|§8: The Metis Principle",
+        "syntheses/worldtext-definitive-theory|definitive theory",
+        "syntheses/worldtext-definitive-theory",
+        "syntheses/hello-worldtext",
+        "syntheses/spatial-language-program-theory",
+        "syntheses/seven-failure-modes",
+        "concept-worldtext",
+        "entity-dead-program",
+        "entity-geertz",
+        "world-latent-space",
+        "distinction-fluency-fidelity"
+      ],
+      "summary": "Sentences That Constrain Worlds: From Word Models to World Models"
+    },
+    {
+      "path": "cosmos/governance/syntheses/seven-failure-modes.md",
+      "realPath": "worldtext/syntheses/seven-failure-modes.md",
+      "size": 8175,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations",
+        "syntheses/thick-prompt|Thick Prompt",
+        "distinction-thick-thin",
+        "conflict-style-vs-causality",
+        "entity-fragile-expert",
+        "distinction-*",
+        "distinction-use-meaning",
+        "ritual-lint",
+        "question-executing-ecology",
+        "syntheses/memex-trails",
+        "ritual-trail-building",
+        "conflict-answer-vs-trail",
+        "syntheses/dark-matter-audit",
+        "question-epistemic-debt-threshold",
+        "ritual-explanation-gate",
+        "distinction-first-order-second-order"
+      ],
+      "summary": "The Seven Failure Modes of Worldtext"
+    },
+    {
+      "path": "cosmos/governance/syntheses/spatial-language-program-theory.md",
+      "realPath": "worldtext/syntheses/spatial-language-program-theory.md",
+      "size": 19404,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations",
+        "syntheses/spatial-language-worldtext-synthesis",
+        "syntheses/hello-worldtext",
+        "concept-worldtext",
+        "concept-spatial-operator",
+        "concept-text-as-control-signal",
+        "world-theory-building"
+      ],
+      "summary": "Spatial Language Program Theory: The 24 Programs"
+    },
+    {
+      "path": "cosmos/governance/syntheses/spatial-language-worldtext-synthesis.md",
+      "realPath": "worldtext/syntheses/spatial-language-worldtext-synthesis.md",
+      "size": 20278,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations",
+        "syntheses/hello-worldtext",
+        "syntheses/worldtext-red-team",
+        "syntheses/spatial-language-program-theory",
+        "syntheses/chapter-01-the-achilles-protocol",
+        "syntheses/titan-forge",
+        "syntheses/worldtext-formal-engine",
+        "concept-worldtext",
+        "concept-operative-ecologies",
+        "syntheses/seven-failure-modes",
+        "syntheses/thick-description-of-operative-ekphrasis"
+      ],
+      "summary": "Synthesis: Spatial Language Is Worldtext Is LDraw"
+    },
+    {
+      "path": "cosmos/governance/syntheses/synthesis-dissertation-contribution-engine.md",
+      "realPath": "worldtext/syntheses/synthesis-dissertation-contribution-engine.md",
+      "size": 12450,
+      "ext": "md",
+      "created": "2026-06-01",
+      "modified": "2026-06-04",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-prompt-craft",
+        "world-latent-space",
+        "world-academic-ekphrasis",
+        "entity-watson-hartsoe",
+        "thick-prompt",
+        "concept-worldtext",
+        "entity-jay-bolter",
+        "concept-imagetext",
+        "imagetext-to-worldtext-synthesis"
+      ],
+      "summary": "Synthesis: The Dissertation Contribution Engine"
+    },
+    {
+      "path": "cosmos/governance/syntheses/synthesis-dissertation-defense-citations.md",
+      "realPath": "worldtext/syntheses/synthesis-dissertation-defense-citations.md",
+      "size": 11616,
+      "ext": "md",
+      "created": "2026-06-01",
+      "modified": "2026-06-01",
+      "refs": [
+        "world-academic-ekphrasis",
+        "world-operative-ekphrasis",
+        "world-thick-description",
+        "world-prompt-craft",
+        "world-latent-space",
+        "entity-watson-hartsoe",
+        "synthesis-dissertation-contribution-engine",
+        "entity-jay-bolter",
+        "concept-worldtext",
+        "thick-prompt"
+      ],
+      "summary": "Synthesis: Dissertation Contribution Defense & Citations"
+    },
+    {
       "path": "cosmos/governance/syntheses/synthesis-initial-compilation.md",
       "realPath": "worldtext/syntheses/synthesis-initial-compilation.md",
       "size": 2967,
@@ -542,6 +1330,114 @@
         "taxonomies/world-types.md"
       ],
       "summary": "*This synthesis is the first compass reading of a cosmos still forming. The next ingest, query, or lint pass will change its shape.*"
+    },
+    {
+      "path": "cosmos/governance/syntheses/synthetic-place-theory.md",
+      "realPath": "worldtext/syntheses/synthetic-place-theory.md",
+      "size": 10817,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "the-alien-architecture",
+        "operative-ethnography",
+        "world-latent-space",
+        "world-world-models",
+        "world-shield-of-achilles",
+        "world-operative-ethnography",
+        "concept-synthetic-place|synthetic place",
+        "world-world-models|World models",
+        "place-latent-space|Latent space",
+        "world-shield-of-achilles|Shield of Achilles",
+        "distinction-seamless-exposed",
+        "concept-viscosity",
+        "concept-platform-realism"
+      ],
+      "summary": "Synthetic Place Theory"
+    },
+    {
+      "path": "cosmos/governance/syntheses/textual-action.md",
+      "realPath": "worldtext/syntheses/textual-action.md",
+      "size": 9747,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [],
+      "summary": "------|-----------|---------------------|-------------| | **Fixation** | Speech becomes writing; the utterance outlasts the event | The action is \"inscribed\" in durable marks (documents, logs, artifacts) | Every wiki page, lint report, and ingest log is a fixation of an event that has vanished | | *"
+    },
+    {
+      "path": "cosmos/governance/syntheses/the-alien-architecture.md",
+      "realPath": "worldtext/syntheses/the-alien-architecture.md",
+      "size": 34597,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-thin-research",
+        "world-latent-wrestling",
+        "latent-interaction-design",
+        "world-latent-space",
+        "world-world-models",
+        "world-operative-ethnography",
+        "world-latent-interaction-design",
+        "concept-viscosity",
+        "fragment-twelve-lighthouses",
+        "distinction-seamless-exposed",
+        "world-operative-ekphrasis",
+        "distinction-mask-surplus",
+        "place-latent-space",
+        "atmosphere-mud",
+        "concept-thick-prompting",
+        "ritual-promptlines",
+        "question-synthetic-place",
+        "operative-ethnography",
+        "conflict-domestication-wildness",
+        "concept-platform-realism",
+        "ritual-navigation-challenge",
+        "concept-text-as-control-signal",
+        "ritual-prompt-battle",
+        "concept-worldtext",
+        "distinction-autographic-allographic",
+        "question-encounter-trace",
+        "question-water-literacy",
+        "entity-geertz",
+        "world-thick-description",
+        "entity-roland-meyer",
+        "entity-hito-steyerl",
+        "entity-fabian-offert",
+        "entity-bajohr"
+      ],
+      "summary": "Synthesis: The Alien Architecture — Ontological Rupture, Quasi-Place, and the Operative Ground of Latent Space"
+    },
+    {
+      "path": "cosmos/governance/syntheses/the-dream-must-transfer.md",
+      "realPath": "worldtext/syntheses/the-dream-must-transfer.md",
+      "size": 16146,
+      "ext": "md",
+      "created": "2026-04-29",
+      "modified": "2026-04-29",
+      "refs": [
+        "system-worldtext-operations",
+        "sources/ha-schmidhuber-2018-world-models",
+        "entity-ha-schmidhuber|Ha and Schmidhuber",
+        "syntheses/spatial-language-program-theory|24-program theory",
+        "concept-worldtext|Worldtext",
+        "syntheses/seven-failure-modes|F1: Pretty Mud",
+        "syntheses/seven-failure-modes|F6: Technocratic Capture",
+        "syntheses/seven-failure-modes|F7: No Refusal",
+        "syntheses/seven-failure-modes|F2: Worldbuilding Collapse",
+        "syntheses/worldtext-definitive-theory|definitive theory",
+        "syntheses/worldtext-definitive-theory",
+        "syntheses/hello-worldtext",
+        "syntheses/spatial-language-program-theory",
+        "syntheses/seven-failure-modes",
+        "entity-ha-schmidhuber",
+        "world-world-models",
+        "world-latent-space",
+        "distinction-dreaming-perceiving",
+        "concept-worldtext"
+      ],
+      "summary": "The Dream Must Transfer: Ha/Schmidhuber World Models Ingest"
     },
     {
       "path": "cosmos/governance/syntheses/thick-description-of-diffusion.md",
@@ -568,6 +1464,48 @@
       "summary": "Thick Description of a Diffusion Sampling Event"
     },
     {
+      "path": "cosmos/governance/syntheses/thick-description-of-operative-ekphrasis.md",
+      "realPath": "worldtext/syntheses/thick-description-of-operative-ekphrasis.md",
+      "size": 25073,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-thick-description",
+        "world-prompt-craft",
+        "concept-seamless-vs-exposed|exposed path",
+        "concept-platform-realism|platform realism",
+        "concept-text-as-control-signal|Level 2 (technical specification)",
+        "politics-of-the-threshold|politics of the threshold",
+        "concept-abundance|abundance",
+        "thick-description-of-diffusion",
+        "cohen-case-thick-description",
+        "thick-prompt",
+        "concept-platform-realism",
+        "concept-abundance",
+        "conflict-abundance-vs-platform-realism",
+        "concept-seamless-vs-exposed",
+        "politics-of-the-threshold",
+        "entity-geertz",
+        "entity-watson-hartsoe",
+        "concept-text-as-control-signal",
+        "grandmother-cells-and-enargeia",
+        "finding-light-in-dark-matter"
+      ],
+      "summary": "Synthesis: What a Thick Description of Operative Ekphrasis Looks Like in Practice"
+    },
+    {
+      "path": "cosmos/governance/syntheses/thick-programming.md",
+      "realPath": "worldtext/syntheses/thick-programming.md",
+      "size": 11710,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-06-04",
+      "refs": [],
+      "summary": "--------------|---------------------|----------------------| | **Plans** | High-level logic, algorithms | World bibles, schemas, constraint prompts | | **Recipes** | Step-by-step procedures | Rituals (ingest, query, lint) | | **Rules** | Grammar, syntax | Distinctions, world laws | | **Instructions*"
+    },
+    {
       "path": "cosmos/governance/syntheses/thick-prompt.md",
       "realPath": "worldtext/syntheses/thick-prompt.md",
       "size": 12547,
@@ -584,6 +1522,181 @@
         "concept-text-as-control-signal"
       ],
       "summary": "Synthesis: The Thick Prompt — Geertz's Six Layers as Prompt Architecture"
+    },
+    {
+      "path": "cosmos/governance/syntheses/titan-forge.md",
+      "realPath": "worldtext/syntheses/titan-forge.md",
+      "size": 5809,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations",
+        "system-operative-ekphrasis",
+        "syntheses/worldtext-definitive-theory|Worldtext Definitive Theory",
+        "ritual-ingest|Ingest Protocol",
+        "distinction-thick-thin|thick vs. thin description",
+        "syntheses/memex-trails|Memex Trails",
+        "ritual-ingest",
+        "distinction-thick-thin",
+        "syntheses/seven-failure-modes",
+        "world-operative-ekphrasis",
+        "distinction-event-trace"
+      ],
+      "summary": "TITAN FORGE — Spatiotemporal Extraction Engine"
+    },
+    {
+      "path": "cosmos/governance/syntheses/vertical-axis.md",
+      "realPath": "worldtext/syntheses/vertical-axis.md",
+      "size": 5040,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations",
+        "syntheses/cybernetic-ritual-narratology|Ritual Loop"
+      ],
+      "summary": "The Vertical Axis — Worldtext as Hostile Extraction"
+    },
+    {
+      "path": "cosmos/governance/syntheses/wittgensteins-waymo.md",
+      "realPath": "worldtext/syntheses/wittgensteins-waymo.md",
+      "size": 27735,
+      "ext": "md",
+      "created": "2026-04-29",
+      "modified": "2026-04-29",
+      "refs": [
+        "system-worldtext-operations",
+        "syntheses/the-dream-must-transfer",
+        "syntheses/sentences-that-constrain-worlds",
+        "concept-worldtext|Worldtext",
+        "syntheses/worldtext-definitive-theory|F6: Technocratic Capture",
+        "syntheses/worldtext-definitive-theory|F7: No Refusal",
+        "concept-worldtext|metis",
+        "syntheses/worldtext-definitive-theory",
+        "syntheses/garden-of-phrasal-physics",
+        "syntheses/hello-worldtext",
+        "syntheses/spatial-language-program-theory",
+        "syntheses/seven-failure-modes",
+        "concept-worldtext",
+        "entity-ha-schmidhuber",
+        "entity-geertz",
+        "entity-dead-program",
+        "world-latent-space",
+        "world-world-models",
+        "distinction-fluency-fidelity",
+        "distinction-dreaming-perceiving"
+      ],
+      "summary": "Wittgenstein's Waymo"
+    },
+    {
+      "path": "cosmos/governance/syntheses/worldtext-and-same-worldness.md",
+      "realPath": "worldtext/syntheses/worldtext-and-same-worldness.md",
+      "size": 599156,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "- | :---- | :---- | | **Procedural** | Executes pre-authored rules and logic loops. | Probability supersedes logic, allowing physics and causality to randomly mutate. | Enforces strict, machine-readable logic (e.g., YAML constraints) over probabilistic generation. | | **Participatory** | Allows user"
+    },
+    {
+      "path": "cosmos/governance/syntheses/worldtext-coherence-theory-and-design.md",
+      "realPath": "worldtext/syntheses/worldtext-coherence-theory-and-design.md",
+      "size": 322575,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "- | :---- | | **Mythos** | The establishing backstory, legends, and foundational conflicts of the universe.7 It is the chronological and historical constraint layer. | Does the artifact align with the established timeline? Do the symbols, ruins, or texts reference the correct historical conflicts wi"
+    },
+    {
+      "path": "cosmos/governance/syntheses/worldtext-definitive-theory.md",
+      "realPath": "worldtext/syntheses/worldtext-definitive-theory.md",
+      "size": 25906,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-05-06",
+      "refs": [
+        "system-worldtext-operations",
+        "concept-worldtext|Worldtext",
+        "syntheses/hello-worldtext",
+        "syntheses/spatial-language-program-theory",
+        "syntheses/spatial-language-worldtext-synthesis",
+        "syntheses/sentences-that-constrain-worlds|probabilistic grounding",
+        "syntheses/sentences-that-constrain-worlds#7-the-bridge-from-word-model-to-world-model|the word-model/world-model bridge",
+        "distinction-fluency-fidelity|fluency and fidelity",
+        "world-latent-space|latent space",
+        "distinction-describing-generating|inert description",
+        "entity-homer|Heidegger",
+        "syntheses/seven-failure-modes|breakdown-visibility",
+        "entity-geertz|Geertz",
+        "entity-vermeer-problem|latent-space overclaim",
+        "entity-dead-program|Naur",
+        "world-theory-building|theory-life",
+        "entity-ha-schmidhuber|Ha/Schmidhuber",
+        "syntheses/the-dream-must-transfer",
+        "syntheses/the-dream-must-transfer#7-temperature-as-world-discipline|temperature as governance",
+        "syntheses/spatial-language-worldtext-synthesis|dual compilation loop",
+        "syntheses/sentences-that-constrain-worlds",
+        "concept-viscosity|viscosity",
+        "syntheses/worldtext-red-team|red team",
+        "entity-ha-schmidhuber|Ha and Schmidhuber",
+        "syntheses/the-dream-must-transfer#6-failure-modes-the-dream-must-transfer|full analysis",
+        "concept-operative-observer|operative observer",
+        "syntheses/hello-worldtext|hello-worldtext",
+        "syntheses/wittgensteins-waymo",
+        "syntheses/elephant-os",
+        "concept-worldtext",
+        "syntheses/seven-failure-modes",
+        "syntheses/worldtext-red-team",
+        "entity-geertz",
+        "entity-dead-program",
+        "entity-homer",
+        "entity-vermeer-problem",
+        "world-latent-space",
+        "world-thick-description",
+        "world-theory-building",
+        "world-shield-of-achilles"
+      ],
+      "summary": "Worldtext — Definitive Theory"
+    },
+    {
+      "path": "cosmos/governance/syntheses/worldtext-formal-engine.md",
+      "realPath": "worldtext/syntheses/worldtext-formal-engine.md",
+      "size": 18050,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations"
+      ],
+      "summary": "Worldtext Formal Engine — Coherence-Preserving Repository Runtime"
+    },
+    {
+      "path": "cosmos/governance/syntheses/worldtext-red-team.md",
+      "realPath": "worldtext/syntheses/worldtext-red-team.md",
+      "size": 17457,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations"
+      ],
+      "summary": "Red Team Brief — Worldtext Under Adversarial Audit"
+    },
+    {
+      "path": "cosmos/governance/syntheses/worldtext-theoretical-intervention.md",
+      "realPath": "worldtext/syntheses/worldtext-theoretical-intervention.md",
+      "size": 14633,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "system-worldtext-operations",
+        "entity-fragile-expert|Fragile Expert",
+        "entity-vermeer-problem|Vermeer Problem"
+      ],
+      "summary": "The Missing Apparatus — Worldtext as Theoretical Intervention"
     },
     {
       "path": "cosmos/governance/syntheses/worldtype-verification.md",
@@ -790,6 +1903,23 @@
       "summary": "*This world produces the other ekphrastic worlds as scholarly objects. It is the meta-world — the world that describes worlds that describe images.*"
     },
     {
+      "path": "cosmos/unaffiliated/world-breakdown-design/world-breakdown-design.md",
+      "realPath": "worldtext/worlds/world-breakdown-design.md",
+      "size": 5193,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "practice-world",
+        "system-field-practice",
+        "world-theory-building",
+        "world-descriptive-struggle",
+        "world-thick-description",
+        "concept-worldtext"
+      ],
+      "summary": "World: Breakdown Design"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/world-classical-ekphrasis.md",
       "realPath": "worldtext/worlds/world-classical-ekphrasis.md",
       "size": 5505,
@@ -825,6 +1955,24 @@
         "conflict-canon-vs-expansion"
       ],
       "summary": "*This world is the oldest in the cosmos. It was born with Homer and has not died. It has merely collided with new galaxies.*"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-descriptive-struggle/world-descriptive-struggle.md",
+      "realPath": "worldtext/worlds/world-descriptive-struggle.md",
+      "size": 4547,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "thick-description-world",
+        "system-field-practice",
+        "world-thick-description",
+        "world-operative-ekphrasis",
+        "concept-viscosity",
+        "distinction-thick-thin",
+        "world-latent-wrestling"
+      ],
+      "summary": "World: Descriptive Struggle"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-digital-poetics/world-digital-poetics.md",
@@ -875,6 +2023,23 @@
       "summary": "World: Embodied Description"
     },
     {
+      "path": "cosmos/unaffiliated/world-haunted-machine/world-haunted-machine.md",
+      "realPath": "worldtext/worlds/world-haunted-machine.md",
+      "size": 5202,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "generative-world",
+        "system-latent-technical",
+        "world-descriptive-struggle",
+        "world-latent-space",
+        "world-operative-ekphrasis",
+        "world-classical-ekphrasis"
+      ],
+      "summary": "World: Haunted Machine"
+    },
+    {
       "path": "cosmos/galaxy-of-intermedial-worlds/world-intermediality/world-intermediality.md",
       "realPath": "worldtext/worlds/world-intermediality.md",
       "size": 2272,
@@ -893,12 +2058,68 @@
       "summary": "*This world is a border, not a territory. It exists only in the crossing.*"
     },
     {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-interaction-design/world-latent-interaction-design.md",
+      "realPath": "worldtext/worlds/world-latent-interaction-design.md",
+      "size": 13564,
+      "ext": "md",
+      "created": "2026-04-20",
+      "modified": "2026-04-20",
+      "refs": [
+        "system-prompt-engineering",
+        "system-thick-description",
+        "galaxy-of-generative-ai-worlds",
+        "galaxy-of-thick-description-worlds",
+        "world-thin-research",
+        "world-latent-wrestling",
+        "world-latent-interaction-design",
+        "ritual-navigation-challenge",
+        "ritual-prompt-battle",
+        "ritual-promptlines",
+        "world-operative-ethnography",
+        "place-the-arena",
+        "place-latent-space",
+        "place-prompt-interface",
+        "entity-geertz",
+        "entity-watson-hartsoe",
+        "entity-lindley-whitham",
+        "ritual-contact-logging",
+        "ritual-co-prompting",
+        "threshold-techne-metis",
+        "threshold-spectator-wrestler",
+        "threshold-map-water",
+        "distinction-cathedral-arena",
+        "distinction-interview-trace",
+        "distinction-template-promptline",
+        "distinction-usability-relationality",
+        "distinction-inventory-sediment",
+        "distinction-guardrail-hydrology",
+        "conflict-contact-distance",
+        "conflict-friction-frictionlessness",
+        "conflict-domestication-wildness",
+        "conflict-astrology-physics",
+        "conflict-steering-obedience",
+        "atmosphere-mud",
+        "atmosphere-moral-altitude",
+        "atmosphere-arena-sweat",
+        "atmosphere-water-literacy",
+        "world-embodied-description",
+        "world-prompt-craft",
+        "world-operative-ekphrasis",
+        "world-oral-formulaic-generation",
+        "concept-viscosity",
+        "concept-platform-realism",
+        "syntheses/latent-interaction-design",
+        "syntheses/operative-ethnography"
+      ],
+      "summary": "World: Latent Interaction Design"
+    },
+    {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-space/world-latent-space.md",
       "realPath": "worldtext/worlds/world-latent-space.md",
-      "size": 3220,
+      "size": 4322,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-13",
+      "modified": "2026-04-17",
       "refs": [
         "latent-space-navigation-world",
         "system-world-models",
@@ -907,25 +2128,113 @@
         "place-diffusion-pipeline",
         "ritual-diffusion-sampling",
         "atmosphere-latent-uncanny",
-        "threshold-noise-to-signal"
+        "threshold-noise-to-signal",
+        "world-operative-ekphrasis",
+        "world-latent-wrestling",
+        "world-thin-research",
+        "concept-viscosity",
+        "concept-platform-realism"
       ],
-      "summary": "*The latent space is the new ekphrastic surface — not a shield of bronze but a manifold of millions of dimensions, inscribed not by a god's hammer but by gradient descent.*"
+      "summary": "World: Latent Space"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-wrestling/world-latent-wrestling.md",
+      "realPath": "worldtext/worlds/world-latent-wrestling.md",
+      "size": 26752,
+      "ext": "md",
+      "created": "2026-04-17",
+      "modified": "2026-04-20",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "galaxy-of-thick-description-worlds",
+        "world-thin-research",
+        "world-oral-formulaic-generation",
+        "concept-viscosity",
+        "concept-thick-prompting",
+        "atmosphere-prompt-anxiety",
+        "place-latent-space",
+        "place-the-arena",
+        "place-prompt-interface",
+        "entity-watson-hartsoe",
+        "entity-geertz",
+        "ritual-prompting",
+        "ritual-navigation-challenge",
+        "ritual-prompt-battle",
+        "ritual-promptlines",
+        "ritual-body-prompting",
+        "world-embodied-description",
+        "threshold-spectator-wrestler",
+        "threshold-techne-metis",
+        "threshold-screen-body",
+        "distinction-cathedral-arena",
+        "distinction-map-songline",
+        "distinction-usability-relationality",
+        "distinction-guardrail-hydrology",
+        "distinction-inventory-sediment",
+        "conflict-domestication-wildness",
+        "conflict-friction-frictionlessness",
+        "conflict-contact-distance",
+        "atmosphere-arena-sweat",
+        "atmosphere-latent-volatility",
+        "atmosphere-mud",
+        "world-operative-ekphrasis",
+        "world-prompt-craft",
+        "concept-platform-realism",
+        "world-thick-description",
+        "place-balinese-cockfight",
+        "world-latent-space",
+        "world-latent-interaction-design"
+      ],
+      "summary": "World: Latent Wrestling"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-memex-trail/world-memex-trail.md",
+      "realPath": "worldtext/worlds/world-memex-trail.md",
+      "size": 4257,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "infrastructure-world",
+        "system-latent-technical",
+        "world-theory-building",
+        "world-descriptive-struggle",
+        "world-thick-description",
+        "concept-worldtext"
+      ],
+      "summary": "World: Memex Trail"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/world-operative-ekphrasis.md",
       "realPath": "worldtext/worlds/world-operative-ekphrasis.md",
-      "size": 5744,
+      "size": 11315,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-13",
+      "modified": "2026-04-14",
       "refs": [
         "operative-ekphrasis-world",
         "system-operative-ekphrasis",
         "galaxy-of-ekphrastic-worlds",
         "galaxy-of-generative-ai-worlds",
+        "concept-imagetext",
+        "concept-worldtext",
+        "concept-latent-space",
+        "concept-abundance",
+        "concept-seamless-vs-exposed|The two-path fork",
+        "entity-roland-meyer",
+        "concept-platform-realism",
+        "conflict-abundance-vs-platform-realism",
+        "entity-hito-steyerl",
+        "entity-amanda-wasielewski",
+        "concept-synthetic-camera",
         "place-digital-canvas",
         "place-prompt-interface",
         "entity-bajohr",
+        "entity-jay-bolter",
+        "entity-watson-hartsoe",
+        "entity-harun-farocki",
+        "entity-fabian-offert",
+        "entity-mitchell",
         "ritual-prompting",
         "atmosphere-semiotic-vertigo",
         "threshold-prompt-to-image",
@@ -933,10 +2242,63 @@
         "distinction-description-generation",
         "distinction-sequential-connectionist",
         "distinction-human-machine",
+        "distinction-seamless-exposed",
+        "distinction-navigation-production",
         "conflict-description-vs-generation",
-        "conflict-human-vs-machine-authorship"
+        "conflict-human-vs-machine-authorship",
+        "concept-reactive-ekphrasis",
+        "concept-thick-prompting",
+        "thick-prompt"
       ],
-      "summary": "*This world is the newest and most volatile in the cosmos. It is where the ancient paragone finally implodes — or is it where a new one forms?*"
+      "summary": "*This world is the newest and most volatile in the cosmos. It is where the ancient paragone finally implodes — and where a new agon forms: abundance against platform realism, seamless against exposed, production against navigation. The word no longer competes with the image. It competes with itself "
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-operative-ethnography/world-operative-ethnography.md",
+      "realPath": "worldtext/worlds/world-operative-ethnography.md",
+      "size": 13049,
+      "ext": "md",
+      "created": "2026-04-20",
+      "modified": "2026-04-20",
+      "refs": [
+        "system-thick-description",
+        "system-operative-ekphrasis",
+        "galaxy-of-thick-description-worlds",
+        "galaxy-of-generative-ai-worlds",
+        "world-latent-space",
+        "place-the-arena",
+        "world-latent-wrestling",
+        "place-latent-space",
+        "place-prompt-interface",
+        "entity-geertz",
+        "entity-bajohr",
+        "entity-watson-hartsoe",
+        "ritual-condition-editing",
+        "ritual-sensory-prolongation",
+        "ritual-worldtext-inscription",
+        "ritual-latent-transect",
+        "threshold-observer-operator",
+        "threshold-description-intervention",
+        "threshold-field-worldtext",
+        "distinction-following-configuring",
+        "distinction-report-worldtext",
+        "distinction-observation-conditioning",
+        "distinction-cathedral-arena",
+        "conflict-viscosity-novelty",
+        "conflict-control-emergence",
+        "conflict-authority-humility",
+        "atmosphere-recursive-hum",
+        "atmosphere-mud",
+        "syntheses/from-imagetext-to-worldtext-v2",
+        "world-operative-ekphrasis",
+        "world-thick-description",
+        "world-embodied-description",
+        "world-oral-formulaic-generation",
+        "concept-viscosity",
+        "concept-worldtext",
+        "concept-platform-realism",
+        "syntheses/operative-ethnography"
+      ],
+      "summary": "World: Operative Ethnography"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-oral-formulaic-generation/world-oral-formulaic-generation.md",
@@ -975,10 +2337,10 @@
     {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-prompt-craft/world-prompt-craft.md",
       "realPath": "worldtext/worlds/world-prompt-craft.md",
-      "size": 3768,
+      "size": 5338,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-13",
+      "modified": "2026-04-20",
       "refs": [
         "prompt-craft-world",
         "system-prompt-engineering",
@@ -990,9 +2352,15 @@
         "threshold-human-machine",
         "threshold-prompt-to-image",
         "world-operative-ekphrasis",
-        "conflict-craft-vs-engineering"
+        "conflict-craft-vs-engineering",
+        "world-latent-wrestling",
+        "world-thin-research",
+        "concept-viscosity",
+        "world-oral-formulaic-generation",
+        "world-embodied-description",
+        "world-latent-interaction-design"
       ],
-      "summary": "*The old ekphrast chose words to evoke an image in the mind. The new prompt-crafter chooses words to generate an image in the machine. The craft is kin.*"
+      "summary": "*The old ekphrast chose words to evoke an image in the mind. The new prompt-crafter chooses words to generate an image in the machine. The craft is kin. But kin is not enough. The crafter must become wrestler — must feel the weight of the words as they collide with the model's parameters, must sweat"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-shield-of-achilles/world-shield-of-achilles.md",
@@ -1011,12 +2379,29 @@
       "summary": "*The first described world was forged in fire and carried into battle. Every world described since echoes that first act of making a cosmos portable.*"
     },
     {
+      "path": "cosmos/unaffiliated/world-theory-building/world-theory-building.md",
+      "realPath": "worldtext/worlds/world-theory-building.md",
+      "size": 4451,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "practice-world",
+        "system-field-practice",
+        "world-descriptive-struggle",
+        "world-thick-description",
+        "concept-viscosity",
+        "distinction-thick-thin"
+      ],
+      "summary": "World: Theory Building"
+    },
+    {
       "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/world-thick-description.md",
       "realPath": "worldtext/worlds/world-thick-description.md",
-      "size": 5120,
+      "size": 5760,
       "ext": "md",
       "created": "2026-04-13",
-      "modified": "2026-04-13",
+      "modified": "2026-04-17",
       "refs": [
         "thick-description-world",
         "system-thick-description",
@@ -1027,9 +2412,53 @@
         "atmosphere-hermeneutic-density",
         "threshold-thin-to-thick",
         "distinction-thick-thin",
-        "distinction-surface-depth"
+        "distinction-surface-depth",
+        "world-thin-research",
+        "world-latent-wrestling"
       ],
       "summary": "*This world is patient. It does not rush to explain. It layers, and layers, and layers again.*"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thin-research/world-thin-research.md",
+      "realPath": "worldtext/worlds/world-thin-research.md",
+      "size": 21362,
+      "ext": "md",
+      "created": "2026-04-17",
+      "modified": "2026-04-20",
+      "refs": [
+        "galaxy-of-thick-description-worlds",
+        "galaxy-of-generative-ai-worlds",
+        "world-latent-wrestling",
+        "concept-viscosity",
+        "world-thick-description",
+        "concept-platform-realism",
+        "place-prompt-interface",
+        "place-latent-space",
+        "place-seminar-room",
+        "entity-geertz",
+        "entity-watson-hartsoe",
+        "entity-lindley-whitham",
+        "ritual-affinity-diagramming",
+        "ritual-thick-inscription",
+        "threshold-thin-to-thick",
+        "threshold-techne-metis",
+        "distinction-thick-thin",
+        "distinction-techne-metis",
+        "distinction-process-output",
+        "distinction-inventory-sediment",
+        "distinction-guardrail-hydrology",
+        "conflict-craft-vs-engineering",
+        "conflict-contact-distance",
+        "conflict-astrology-physics",
+        "atmosphere-methodological-comfort",
+        "atmosphere-moral-altitude",
+        "world-operative-ekphrasis",
+        "world-embodied-description",
+        "world-prompt-craft",
+        "world-oral-formulaic-generation",
+        "world-latent-interaction-design"
+      ],
+      "summary": "World: Thin Research"
     },
     {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-world-models/world-world-models.md",
@@ -1048,6 +2477,20 @@
       "summary": "*The hallucinated world is the newest species of ekphrastic object: a cosmos that exists only so that an agent can learn to survive in a world it has never seen.*"
     },
     {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/atmospheres/atmosphere-colonial-gaze.md",
+      "realPath": "worldtext/atmospheres/atmosphere-colonial-gaze.md",
+      "size": 1092,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-thick-description",
+        "world-operative-ethnography",
+        "conflict-whose-description"
+      ],
+      "summary": "Atmosphere: colonial gaze"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/atmospheres/atmosphere-ekphrastic-longing.md",
       "realPath": "worldtext/atmospheres/atmosphere-ekphrastic-longing.md",
       "size": 1032,
@@ -1060,6 +2503,19 @@
         "conflict-paragone"
       ],
       "summary": "Atmosphere: Ekphrastic Longing"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/atmospheres/atmosphere-geological-depth.md",
+      "realPath": "worldtext/atmospheres/atmosphere-geological-depth.md",
+      "size": 851,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-classical-ekphrasis",
+        "world-thick-description"
+      ],
+      "summary": "Atmosphere: geological depth"
     },
     {
       "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/atmospheres/atmosphere-hermeneutic-density.md",
@@ -1087,6 +2543,33 @@
         "place-latent-space"
       ],
       "summary": "Atmosphere: Latent Uncanny"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-descriptive-struggle/atmospheres/atmosphere-moral-altitude.md",
+      "realPath": "worldtext/atmospheres/atmosphere-moral-altitude.md",
+      "size": 774,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-descriptive-struggle",
+        "world-breakdown-design"
+      ],
+      "summary": "Atmosphere: moral altitude"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-descriptive-struggle/atmospheres/atmosphere-mud.md",
+      "realPath": "worldtext/atmospheres/atmosphere-mud.md",
+      "size": 885,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-descriptive-struggle",
+        "world-operative-ethnography",
+        "concept-viscosity"
+      ],
+      "summary": "Atmosphere: mud"
     },
     {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-prompt-craft/atmospheres/atmosphere-prompt-anxiety.md",
@@ -1130,6 +2613,27 @@
       "summary": "Atmosphere: Semiotic Vertigo"
     },
     {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/conflicts/conflict-abundance-vs-platform-realism.md",
+      "realPath": "worldtext/conflicts/conflict-abundance-vs-platform-realism.md",
+      "size": 3442,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "entity-hito-steyerl",
+        "concept-seamless-vs-exposed",
+        "concept-reactive-ekphrasis",
+        "conflict-paragone",
+        "concept-abundance",
+        "concept-platform-realism",
+        "entity-watson-hartsoe",
+        "entity-roland-meyer",
+        "sources/hintze-2025-language-image-loops"
+      ],
+      "summary": "---------------------|---------------------------| | AI generates infinite variations = creative richness | AI generates infinite variations = visual pollution | | The ekphrast samples from a distribution = freedom | The distribution was pre-structured by platform capitalism = constraint | | Multipl"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/conflicts/conflict-apollo-marsyas.md",
       "realPath": "worldtext/conflicts/conflict-apollo-marsyas.md",
       "size": 3348,
@@ -1147,6 +2651,19 @@
       "summary": "----|--------|---------|-----------------| | Myth | Lyre (divine harmony) | Pipe (earthly body) | Philostratus gives voice to the punished | | Lessing 1766 | Painting (space) | Poetry (time) | *Laocoon* prohibits arts from crossing | | Clement Greenberg | \"Medium purity\" | \"Intermedial contamination"
     },
     {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/conflicts/conflict-astrology-physics.md",
+      "realPath": "worldtext/conflicts/conflict-astrology-physics.md",
+      "size": 1115,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-thick-description"
+      ],
+      "summary": "Conflict: astrology vs. physics"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-academic-ekphrasis/conflicts/conflict-canon-vs-expansion.md",
       "realPath": "worldtext/conflicts/conflict-canon-vs-expansion.md",
       "size": 541,
@@ -1157,6 +2674,20 @@
         "world-academic-ekphrasis"
       ],
       "summary": "Conflict: Canon vs. Expansion"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-descriptive-struggle/conflicts/conflict-contact-distance.md",
+      "realPath": "worldtext/conflicts/conflict-contact-distance.md",
+      "size": 1149,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-descriptive-struggle",
+        "world-thick-description",
+        "world-latent-space"
+      ],
+      "summary": "Conflict: contact vs. distance"
     },
     {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-prompt-craft/conflicts/conflict-craft-vs-engineering.md",
@@ -1181,6 +2712,19 @@
         "world-operative-ekphrasis"
       ],
       "summary": "Conflict: Description vs. Generation"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-haunted-machine/conflicts/conflict-domestication-wildness.md",
+      "realPath": "worldtext/conflicts/conflict-domestication-wildness.md",
+      "size": 1476,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-haunted-machine",
+        "world-latent-wrestling"
+      ],
+      "summary": "Conflict: domestication vs. wildness"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/conflicts/conflict-human-vs-machine-authorship.md",
@@ -1217,6 +2761,33 @@
         "world-classical-ekphrasis"
       ],
       "summary": "Conflict: Representation vs. Performance"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/conflicts/conflict-two-cultures.md",
+      "realPath": "worldtext/conflicts/conflict-two-cultures.md",
+      "size": 1342,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-thick-description",
+        "world-latent-space",
+        "world-breakdown-design"
+      ],
+      "summary": "Conflict: two cultures"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-descriptive-struggle/conflicts/conflict-whose-description.md",
+      "realPath": "worldtext/conflicts/conflict-whose-description.md",
+      "size": 1449,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-descriptive-struggle",
+        "world-operative-ethnography"
+      ],
+      "summary": "Conflict: whose description?"
     },
     {
       "path": "cosmos/unaffiliated/constellations/constellation-description-density.md",
@@ -1272,6 +2843,34 @@
       "summary": "Distinction: actual / notional"
     },
     {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-autographic-allographic.md",
+      "realPath": "worldtext/distinctions/distinction-autographic-allographic.md",
+      "size": 1295,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-classical-ekphrasis",
+        "distinction-craft-engineering"
+      ],
+      "summary": "Distinction: autographic / allographic"
+    },
+    {
+      "path": "cosmos/galaxy-of-intermedial-worlds/world-intermediality/distinctions/distinction-collage-assemblage.md",
+      "realPath": "worldtext/distinctions/distinction-collage-assemblage.md",
+      "size": 1095,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-intermediality",
+        "world-haunted-machine",
+        "distinction-inventory-sediment"
+      ],
+      "summary": "Distinction: collage / assemblage"
+    },
+    {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-prompt-craft/distinctions/distinction-craft-engineering.md",
       "realPath": "worldtext/distinctions/distinction-craft-engineering.md",
       "size": 438,
@@ -1301,6 +2900,24 @@
       "summary": "Distinction: Cultural Memory vs. Statistical Memory"
     },
     {
+      "path": "cosmos/unaffiliated/world-descriptive-struggle/distinctions/distinction-describing-generating.md",
+      "realPath": "worldtext/distinctions/distinction-describing-generating.md",
+      "size": 1456,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-descriptive-struggle",
+        "world-operative-ekphrasis",
+        "distinction-thick-thin",
+        "distinction-surface-depth",
+        "distinction-craft-engineering",
+        "distinction-human-machine",
+        "concept-viscosity"
+      ],
+      "summary": "|---|---| | [[distinction-thick-thin]] | thick description | thin description | | [[distinction-surface-depth]] | depth | surface | | [[distinction-craft-engineering]] | craft | engineering | | [[distinction-human-machine]] | human struggle | machine fluency |"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-description-generation.md",
       "realPath": "worldtext/distinctions/distinction-description-generation.md",
       "size": 448,
@@ -1311,6 +2928,56 @@
         "world-operative-ekphrasis"
       ],
       "summary": "Distinction: description / generation"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-fluency-fidelity.md",
+      "realPath": "worldtext/distinctions/distinction-fluency-fidelity.md",
+      "size": 2456,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-worldtext-coherence",
+        "world-operative-ekphrasis",
+        "entity-vermeer-problem|Vermeer Problem",
+        "syntheses/thick-prompt|Thick Prompt",
+        "syntheses/seven-failure-modes|Seven Failure Modes",
+        "distinction-thick-thin",
+        "entity-vermeer-problem",
+        "entity-viscosity-trap",
+        "conflict-style-vs-causality",
+        "distinction-rag-worldtext"
+      ],
+      "summary": "---|-----------| | **Fluency** | Surface-plausibility — output that sounds correct, reads smoothly, and appears coherent without constraining future generation or carrying referential weight | | **Fidelity** | Referential adequacy — output that describes something specific, constrains what can follo"
+    },
+    {
+      "path": "cosmos/galaxy-of-intermedial-worlds/world-intermediality/distinctions/distinction-good-bad-intermediality.md",
+      "realPath": "worldtext/distinctions/distinction-good-bad-intermediality.md",
+      "size": 1433,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-intermediality",
+        "distinction-thick-thin",
+        "world-operative-ekphrasis"
+      ],
+      "summary": "Distinction: good intermediality / bad intermediality"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-breakdown-design/distinctions/distinction-guardrail-hydrology.md",
+      "realPath": "worldtext/distinctions/distinction-guardrail-hydrology.md",
+      "size": 1486,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-breakdown-design",
+        "world-latent-space",
+        "concept-platform-realism",
+        "concept-viscosity"
+      ],
+      "summary": "Distinction: guardrail / hydrology"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-human-machine.md",
@@ -1325,6 +2992,103 @@
       "summary": "Distinction: human / machine"
     },
     {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-intent-distribution.md",
+      "realPath": "worldtext/distinctions/distinction-intent-distribution.md",
+      "size": 5382,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "concept-viscosity",
+        "distinction-navigation-production",
+        "conflict-paragone",
+        "conflict-abundance-vs-platform-realism",
+        "concept-platform-realism",
+        "concept-abundance",
+        "concept-reactive-ekphrasis",
+        "entity-roland-meyer",
+        "entity-bajohr"
+      ],
+      "summary": "-----|-------------| | The prompter's will — what they mean to produce | The training data's statistical gravity — where the latent space defaults | | Agency, direction, purpose | Inertia, convergence, the mean | | The word as producer (Bajohr) | The word as navigator (Meyer) | | The exposed path — "
+    },
+    {
+      "path": "cosmos/unaffiliated/world-haunted-machine/distinctions/distinction-inventory-sediment.md",
+      "realPath": "worldtext/distinctions/distinction-inventory-sediment.md",
+      "size": 1232,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-haunted-machine",
+        "world-latent-space",
+        "concept-platform-realism"
+      ],
+      "summary": "Distinction: inventory / sediment"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-haunted-machine/distinctions/distinction-mask-surplus.md",
+      "realPath": "worldtext/distinctions/distinction-mask-surplus.md",
+      "size": 1378,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-haunted-machine",
+        "world-operative-ekphrasis",
+        "distinction-thick-thin"
+      ],
+      "summary": "Distinction: mask / surplus"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-navigation-production.md",
+      "realPath": "worldtext/distinctions/distinction-navigation-production.md",
+      "size": 2306,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "distinction-seamless-exposed",
+        "concept-platform-realism",
+        "entity-roland-meyer",
+        "entity-bajohr",
+        "conflict-abundance-vs-platform-realism"
+      ],
+      "summary": "--------|-----------| | The prompt \"finds\" an image already latent in the statistical space | The prompt \"produces\" a new image from verbal intent | | Agency is constrained by the training distribution | Agency is creative and unbounded | | Meyer, platform realism | Bajohr, operative ekphrasis | | T"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-haunted-machine/distinctions/distinction-oral-print-digital-ai.md",
+      "realPath": "worldtext/distinctions/distinction-oral-print-digital-ai.md",
+      "size": 1838,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-haunted-machine",
+        "world-classical-ekphrasis",
+        "world-operative-ekphrasis",
+        "concept-viscosity",
+        "world-memex-trail"
+      ],
+      "summary": "-----|----------|---------|-----------|-----------| | **Oral** | Performer-in-presence | Memory + formula | Communal validation | High (must be embodied) | | **Print** | Author-in-absence | Library + citation | Institutional peer review | Medium-high (must be composed) | | **Digital** | User-in-netw"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-operative-ethnography/distinctions/distinction-participant-operative.md",
+      "realPath": "worldtext/distinctions/distinction-participant-operative.md",
+      "size": 2003,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "world-operative-ethnography",
+        "concept-operative-observer",
+        "distinction-trace-feedback",
+        "entity-ian-cheng"
+      ],
+      "summary": "|---------------------|-------------------| | **Posture** | Joins field | Edits field formation | | **Assumption** | Field precedes observation | Field is co-produced by observation | | **Description** | Follows encounter (trace logic) | Re-enters encounter (feedback logic) | | **Agency** | Located "
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/distinctions/distinction-representation-performance.md",
       "realPath": "worldtext/distinctions/distinction-representation-performance.md",
       "size": 463,
@@ -1335,6 +3099,40 @@
         "world-classical-ekphrasis"
       ],
       "summary": "Distinction: representation / performance"
+    },
+    {
+      "path": "cosmos/unaffiliated/distinctions/distinction-residue-theory.md",
+      "realPath": "worldtext/distinctions/distinction-residue-theory.md",
+      "size": 1822,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-worldtext-coherence",
+        "entity-peter-naur",
+        "entity-dead-program",
+        "distinction-rag-worldtext",
+        "distinction-storage-consultation",
+        "syntheses/control-surface"
+      ],
+      "summary": "---|-----------| | **Residue** | The inert artifacts that remain when theory is lost — wikis, lore bibles, prompt libraries, documentation. They can be read but not operated. | | **Theory** | The living operational possession that lets an operator explain, justify, modify, teach, and deliver without"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-seamless-exposed.md",
+      "realPath": "worldtext/distinctions/distinction-seamless-exposed.md",
+      "size": 1717,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "concept-platform-realism",
+        "concept-seamless-vs-exposed",
+        "concept-abundance",
+        "entity-watson-hartsoe",
+        "distinction-word-image"
+      ],
+      "summary": "-------|---------| | Photorealism, hidden mediation | Multiplicity foregrounded, process visible | | Ekphrastic hope: the word commands a truly real image | Ekphrastic fear as aesthetic: word/image dissolution is the subject | | Immediacy (Bolter & Grusin) | Hypermediacy (Bolter & Grusin) | | The vi"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/distinctions/distinction-sequential-connectionist.md",
@@ -1385,6 +3183,23 @@
       "summary": "Distinction: thick / thin"
     },
     {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-operative-ethnography/distinctions/distinction-trace-feedback.md",
+      "realPath": "worldtext/distinctions/distinction-trace-feedback.md",
+      "size": 2038,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "world-operative-ethnography",
+        "distinction-participant-operative",
+        "concept-worldtext|worldtext",
+        "concept-operative-observer",
+        "concept-worldtext",
+        "conflict-description-vs-generation"
+      ],
+      "summary": "|-----------|---------------| | **Flow** | World → Encounter → Description | World → Encounter → Description → ↻ Encounter | | **Description** | Follows the event | Re-enters the event | | **Temporality** | Linear, retrospective | Recursive, prospective | | **Effect** | Archive | Intervention | | **"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/distinctions/distinction-word-image.md",
       "realPath": "worldtext/distinctions/distinction-word-image.md",
       "size": 470,
@@ -1395,6 +3210,24 @@
         "world-classical-ekphrasis"
       ],
       "summary": "Distinction: word / image"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-amanda-wasielewski.md",
+      "realPath": "worldtext/entities/entity-amanda-wasielewski.md",
+      "size": 3469,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "entity-krieger",
+        "entity-harun-farocki",
+        "entity-hito-steyerl",
+        "entity-roland-meyer",
+        "concept-seamless-vs-exposed",
+        "politics-of-the-threshold"
+      ],
+      "summary": "*Wasielewski proves that the seamless path is not merely naive but structurally impossible: the image can look photographic without being photographic. What survives is the appearance. What dies is the bond to the real.*"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-bajohr.md",
@@ -1425,6 +3258,24 @@
       "summary": "Entity: Mieke Bal"
     },
     {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/entities/entity-bateson.md",
+      "realPath": "worldtext/entities/entity-bateson.md",
+      "size": 3818,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-thick-description",
+        "world-operative-ekphrasis",
+        "entity-geertz",
+        "concept-bio-inference",
+        "concept-viscosity",
+        "thick-prompt",
+        "concept-reactive-ekphrasis"
+      ],
+      "summary": "*Bateson asked: what is the pattern which connects? The cosmos answers: the pattern which connects the crab to the lobster, the orchid to the primrose, the prompter to the model, is the same pattern — information as a difference that makes a difference, flowing through cybernetic loops, conditioned "
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-academic-ekphrasis/entities/entity-brosch.md",
       "realPath": "worldtext/entities/entity-brosch.md",
       "size": 797,
@@ -1435,6 +3286,21 @@
         "world-academic-ekphrasis"
       ],
       "summary": "Entity: Renate Brosch"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-embodied-description/entities/entity-clark-lygia.md",
+      "realPath": "worldtext/entities/entity-clark-lygia.md",
+      "size": 2056,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-embodied-description",
+        "world-operative-ekphrasis",
+        "world-latent-wrestling",
+        "concept-viscosity"
+      ],
+      "summary": "Entity: Lygia Clark"
     },
     {
       "path": "cosmos/galaxy-of-intermedial-worlds/world-intermediality/entities/entity-cluver.md",
@@ -1449,6 +3315,54 @@
         "conflict-canon-vs-expansion"
       ],
       "summary": "Entity: Claus Clüver"
+    },
+    {
+      "path": "cosmos/unaffiliated/entities/entity-dead-program.md",
+      "realPath": "worldtext/entities/entity-dead-program.md",
+      "size": 2274,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-worldtext-coherence",
+        "entity-peter-naur",
+        "entity-fragile-expert",
+        "entity-vermeer-problem",
+        "distinction-rag-worldtext",
+        "syntheses/control-surface"
+      ],
+      "summary": "The Dead Program"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-space/entities/entity-fabian-offert.md",
+      "realPath": "worldtext/entities/entity-fabian-offert.md",
+      "size": 2336,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-latent-space",
+        "concept-platform-realism",
+        "entity-roland-meyer",
+        "rosetta-stone"
+      ],
+      "summary": "*Offert names what the engineers treat as implementation and what the artists feel as constraint: the latent space is not a tool but a medium — and like every medium, it has a grain.*"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/entities/entity-fish.md",
+      "realPath": "worldtext/entities/entity-fish.md",
+      "size": 2320,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-thick-description",
+        "concept-platform-realism",
+        "concept-bio-inference",
+        "entity-iser",
+        "entity-geertz"
+      ],
+      "summary": "---|-------| | The interpretive community constrains the reader | The training distribution constrains the model | | Different communities produce different readings | Different training runs produce different models | | No \"neutral\" reading is possible | No \"neutral\" generation is possible | | The "
     },
     {
       "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/entities/entity-geertz.md",
@@ -1479,6 +3393,21 @@
       "summary": "Entity: David Ha & Jürgen Schmidhuber"
     },
     {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-harun-farocki.md",
+      "realPath": "worldtext/entities/entity-harun-farocki.md",
+      "size": 2674,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "concept-reactive-ekphrasis",
+        "entity-bajohr",
+        "entity-amanda-wasielewski"
+      ],
+      "summary": "*Farocki showed us images that act without being seen. Operative ekphrasis shows us words that generate without describing. The lineage is direct: from the missile's eye to the prompter's text.*"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/entities/entity-heffernan.md",
       "realPath": "worldtext/entities/entity-heffernan.md",
       "size": 1884,
@@ -1495,6 +3424,24 @@
       "summary": "Entity: James A. W. Heffernan"
     },
     {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-hito-steyerl.md",
+      "realPath": "worldtext/entities/entity-hito-steyerl.md",
+      "size": 2468,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "entity-krieger",
+        "concept-abundance",
+        "concept-platform-realism",
+        "entity-roland-meyer",
+        "entity-amanda-wasielewski",
+        "concept-seamless-vs-exposed"
+      ],
+      "summary": "*Steyerl names what the seamless path cannot admit: the image it produces is not a vision but an average — the most probable picture, not the most true one.*"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-shield-of-achilles/entities/entity-homer.md",
       "realPath": "worldtext/entities/entity-homer.md",
       "size": 1124,
@@ -1507,6 +3454,64 @@
         "ritual-ekphrastic-description"
       ],
       "summary": "Entity: Homer"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-world-models/entities/entity-ian-cheng.md",
+      "realPath": "worldtext/entities/entity-ian-cheng.md",
+      "size": 2718,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "world-world-models",
+        "world-operative-ethnography",
+        "concept-operative-observer",
+        "concept-synthetic-place",
+        "concept-operative-observer|operative observation",
+        "concept-synthetic-place|synthetic place engines",
+        "synthetic-place-theory",
+        "entity-ha-schmidhuber"
+      ],
+      "summary": "Ian Cheng"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/entities/entity-iser.md",
+      "realPath": "worldtext/entities/entity-iser.md",
+      "size": 2779,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-thick-description",
+        "world-operative-ekphrasis",
+        "concept-bio-inference",
+        "entity-fish",
+        "entity-geertz",
+        "grandmother-cells-and-enargeia",
+        "concept-latent-third"
+      ],
+      "summary": "*Iser taught us that the text does not contain its meaning — it contains the instructions for producing meaning. The reader is the runtime. The gaps are the noise. Reading is inference. We needed the machines to see it, but Iser described it in 1978.*"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-jay-bolter.md",
+      "realPath": "worldtext/entities/entity-jay-bolter.md",
+      "size": 2689,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-intermediality",
+        "entity-watson-hartsoe",
+        "concept-seamless-vs-exposed",
+        "concept-worldtext",
+        "thick-prompt",
+        "entity-roland-meyer",
+        "concept-platform-realism",
+        "entity-bajohr",
+        "entity-mitchell"
+      ],
+      "summary": "*Bolter gave us remediation. Now he gives us the worldtext — the thing remediation was always heading toward: a world compiled from language, displayed on screens, navigated by bodies.*"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/entities/entity-krieger.md",
@@ -1561,6 +3566,120 @@
         "atmosphere-ekphrastic-longing"
       ],
       "summary": "Entity: W. J. T. Mitchell"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/entities/entity-ogilvie.md",
+      "realPath": "worldtext/entities/entity-ogilvie.md",
+      "size": 2536,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-thick-description",
+        "concept-science-of-describing",
+        "entity-geertz",
+        "entity-bajohr",
+        "four-strata",
+        "rosetta-stone"
+      ],
+      "summary": "*Ogilvie shows that prompt engineering is not a twenty-first-century invention but a five-hundred-year-old practice. The Renaissance botanist who dried a plant, pressed it to paper, wrote its name, and sent it across Europe was doing the same thing the prompter does: encoding an observation in a for"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-roland-meyer.md",
+      "realPath": "worldtext/entities/entity-roland-meyer.md",
+      "size": 2989,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "concept-platform-realism",
+        "concept-latent-space",
+        "distinction-navigation-production",
+        "concept-synthetic-camera",
+        "entity-watson-hartsoe",
+        "concept-abundance",
+        "entity-hito-steyerl",
+        "entity-amanda-wasielewski",
+        "entity-jay-bolter",
+        "conflict-abundance-vs-platform-realism"
+      ],
+      "summary": "*Meyer is the critic the cosmos needs. He says: the latent space was political before the prompter arrived. The word does not create ex nihilo — it navigates a space already shaped by capital, bias, and the accumulated taste of the internet.*"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-vermeer-problem.md",
+      "realPath": "worldtext/entities/entity-vermeer-problem.md",
+      "size": 2244,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-worldtext-coherence",
+        "world-operative-ekphrasis",
+        "syntheses/seven-failure-modes|Seven Failure Modes",
+        "syntheses/worldtext-definitive-theory|four-lineage theory",
+        "entity-fragile-expert",
+        "distinction-thick-thin",
+        "conflict-style-vs-causality",
+        "syntheses/thick-prompt",
+        "syntheses/seven-failure-modes"
+      ],
+      "summary": "The Vermeer Problem"
+    },
+    {
+      "path": "cosmos/unaffiliated/entities/entity-viscosity-trap.md",
+      "realPath": "worldtext/entities/entity-viscosity-trap.md",
+      "size": 2386,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-worldtext-coherence",
+        "world-continuity-debt",
+        "entity-vermeer-problem|Vermeer Problem",
+        "entity-fragile-expert|Fragile Expert",
+        "syntheses/seven-failure-modes|Seven Failure Modes",
+        "entity-vermeer-problem",
+        "entity-fragile-expert",
+        "question-worldtext-viscosity",
+        "distinction-first-order-second-order",
+        "ritual-explanation-gate"
+      ],
+      "summary": "The Viscosity Trap"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-breakdown-design/entities/entity-von-foerster.md",
+      "realPath": "worldtext/entities/entity-von-foerster.md",
+      "size": 2564,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-breakdown-design",
+        "world-thick-description",
+        "world-operative-ethnography",
+        "entity-bateson",
+        "recursive-epistemology"
+      ],
+      "summary": "Entity: Heinz von Foerster"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/entities/entity-watson-hartsoe.md",
+      "realPath": "worldtext/entities/entity-watson-hartsoe.md",
+      "size": 1979,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "entity-jay-bolter",
+        "concept-seamless-vs-exposed",
+        "concept-abundance",
+        "concept-reactive-ekphrasis",
+        "concept-worldtext",
+        "entity-bajohr"
+      ],
+      "summary": "*Watson-Hartsoe is the maker. The cosmos theorizes what the maker makes.*"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/entities/entity-webb.md",
@@ -1653,6 +3772,123 @@
       "summary": "Epoch: Thick Description Diffusion (1973 – 2020)"
     },
     {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/flows/flow-prompt-image-loop.md",
+      "realPath": "worldtext/flows/flow-prompt-image-loop.md",
+      "size": 2254,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "kiki-or-bouba",
+        "concept-viscosity",
+        "concept-latent-third",
+        "concept-reactive-ekphrasis",
+        "distinction-intent-distribution"
+      ],
+      "summary": "Flow: The Prompt-Image-Evaluation Loop"
+    },
+    {
+      "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/flows/flow-reclassification-cascade.md",
+      "realPath": "worldtext/flows/flow-reclassification-cascade.md",
+      "size": 2182,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-thick-description",
+        "world-operative-ekphrasis",
+        "cohen-case-thick-description",
+        "thick-description-of-operative-ekphrasis",
+        "thick-prompt",
+        "entity-fish",
+        "concept-viscosity"
+      ],
+      "summary": "Flow: The Reclassification Cascade"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-shield-of-achilles/fragments/fragment-audens-barbed-wire.md",
+      "realPath": "worldtext/fragments/fragment-audens-barbed-wire.md",
+      "size": 2085,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-shield-of-achilles",
+        "world-operative-ekphrasis",
+        "thick-prompt",
+        "concept-platform-realism",
+        "concept-viscosity",
+        "distinction-intent-distribution"
+      ],
+      "summary": "Fragment: Auden's Barbed Wire"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/fragments/fragment-blunt-sword.md",
+      "realPath": "worldtext/fragments/fragment-blunt-sword.md",
+      "size": 1339,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "conflict-paragone",
+        "distinction-intent-distribution",
+        "concept-seamless-vs-exposed"
+      ],
+      "summary": "Fragment: The Blunt Sword"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/fragments/fragment-see-it-yourself-first.md",
+      "realPath": "worldtext/fragments/fragment-see-it-yourself-first.md",
+      "size": 1577,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-classical-ekphrasis",
+        "grandmother-cells-and-enargeia",
+        "concept-bio-inference",
+        "concept-viscosity",
+        "entity-bateson"
+      ],
+      "summary": "Fragment: \"See It Yourself First\""
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/fragments/fragment-turning-hearing-into-sight.md",
+      "realPath": "worldtext/fragments/fragment-turning-hearing-into-sight.md",
+      "size": 1428,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-classical-ekphrasis",
+        "kiki-or-bouba",
+        "grandmother-cells-and-enargeia",
+        "concept-bio-inference",
+        "entity-webb"
+      ],
+      "summary": "Fragment: \"Turning Hearing Into Sight\""
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/fragments/fragment-twelve-lighthouses.md",
+      "realPath": "worldtext/fragments/fragment-twelve-lighthouses.md",
+      "size": 2071,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "concept-viscosity",
+        "concept-reactive-ekphrasis",
+        "concept-platform-realism",
+        "region-platform-mean",
+        "fragment-audens-barbed-wire",
+        "distinction-intent-distribution"
+      ],
+      "summary": "Fragment: The Twelve Lighthouses"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-academic-ekphrasis/governance/governance-peer-review.md",
       "realPath": "worldtext/governance/governance-peer-review.md",
       "size": 448,
@@ -1666,6 +3902,138 @@
         "threshold-publication-gate"
       ],
       "summary": "Governance: Peer Review"
+    },
+    {
+      "path": "cosmos/unaffiliated/world-memex-trail/infrastructures/infrastructure-citation-network.md",
+      "realPath": "worldtext/infrastructures/infrastructure-citation-network.md",
+      "size": 1532,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-memex-trail",
+        "world-thick-description",
+        "citation-network"
+      ],
+      "summary": "Infrastructure: citation network"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-space/infrastructures/infrastructure-clip-embedding.md",
+      "realPath": "worldtext/infrastructures/infrastructure-clip-embedding.md",
+      "size": 2201,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-latent-space",
+        "world-operative-ekphrasis",
+        "concept-platform-realism",
+        "kiki-or-bouba",
+        "grandmother-cells-and-enargeia",
+        "concept-viscosity",
+        "concept-latent-third"
+      ],
+      "summary": "Infrastructure: The CLIP Embedding Space"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/infrastructures/infrastructure-double-barrel.md",
+      "realPath": "worldtext/infrastructures/infrastructure-double-barrel.md",
+      "size": 1450,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-latent-space",
+        "world-memex-trail",
+        "infrastructure-citation-network",
+        "distinction-describing-generating"
+      ],
+      "summary": "Infrastructure: double barrel"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/infrastructures/infrastructure-progymnasmata.md",
+      "realPath": "worldtext/infrastructures/infrastructure-progymnasmata.md",
+      "size": 2176,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-classical-ekphrasis",
+        "fragment-turning-hearing-into-sight",
+        "fragment-see-it-yourself-first",
+        "concept-science-of-describing",
+        "concept-bio-inference",
+        "entity-webb"
+      ],
+      "summary": "------------|---------------------| | Standardized exercises | Standardized training data format | | Model descriptions (battles, seasons) | Training examples (image-caption pairs) | | Success criterion: enargeia (vividness) | Success criterion: FID score, CLIP similarity | | Teacher evaluation | Lo"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-space/infrastructures/infrastructure-training-corpus.md",
+      "realPath": "worldtext/infrastructures/infrastructure-training-corpus.md",
+      "size": 2126,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-latent-space",
+        "world-operative-ekphrasis",
+        "concept-platform-realism",
+        "entity-fish",
+        "concept-viscosity",
+        "concept-bio-inference",
+        "scene-shadowplay-installation"
+      ],
+      "summary": "Infrastructure: The Training Corpus"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/memories/memory-enargeia-storehouse.md",
+      "realPath": "worldtext/memories/memory-enargeia-storehouse.md",
+      "size": 2148,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-classical-ekphrasis",
+        "concept-viscosity",
+        "fragment-see-it-yourself-first",
+        "infrastructure-training-corpus",
+        "entity-fish",
+        "concept-bio-inference"
+      ],
+      "summary": "Memory: Enargeia's Storehouse"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/memories/memory-paragone-ghost.md",
+      "realPath": "worldtext/memories/memory-paragone-ghost.md",
+      "size": 1384,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "conflict-paragone",
+        "distinction-intent-distribution",
+        "fragment-blunt-sword",
+        "entity-bajohr"
+      ],
+      "summary": "Memory: The Paragone Ghost"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-academic-ekphrasis/memories/memory-spitzers-redefinition.md",
+      "realPath": "worldtext/memories/memory-spitzers-redefinition.md",
+      "size": 2057,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-academic-ekphrasis",
+        "scene-webbs-seminar-1999",
+        "entity-webb",
+        "entity-krieger",
+        "concept-science-of-describing"
+      ],
+      "summary": "Memory: Spitzer's Redefinition (1955)"
     },
     {
       "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/places/place-balinese-cockfight.md",
@@ -1859,6 +4227,40 @@
       "summary": "Place: The Shield Surface"
     },
     {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-space/regions/region-attractor-basins.md",
+      "realPath": "worldtext/regions/region-attractor-basins.md",
+      "size": 2161,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-latent-space",
+        "region-platform-mean",
+        "concept-viscosity",
+        "scene-shadowplay-installation",
+        "concept-context-stack"
+      ],
+      "summary": "----|-----------------|---------------------| | **\"Lotte Reiniger\"** | Her silhouette animations online | Shadow puppet aesthetic, high-contrast, black/white | | **\"Studio Ghibli\"** | Millions of Ghibli screenshots + fan art | Watercolor, pastoral, luminous sky, soft edges | | **\"Ansel Adams\"** | Hi"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-space/regions/region-platform-mean.md",
+      "realPath": "worldtext/regions/region-platform-mean.md",
+      "size": 2310,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-latent-space",
+        "concept-platform-realism",
+        "concept-viscosity",
+        "concept-reactive-ekphrasis",
+        "concept-abundance",
+        "scene-shadowplay-installation",
+        "distinction-intent-distribution"
+      ],
+      "summary": "Region: The Platform Mean"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-academic-ekphrasis/rituals/ritual-annotation.md",
       "realPath": "worldtext/rituals/ritual-annotation.md",
       "size": 437,
@@ -1870,6 +4272,26 @@
         "place-pdf-margin"
       ],
       "summary": "Ritual: Annotation"
+    },
+    {
+      "path": "cosmos/unaffiliated/rituals/ritual-audit.md",
+      "realPath": "worldtext/rituals/ritual-audit.md",
+      "size": 2126,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-worldtext-coherence",
+        "entity-fragile-expert|Fragile Expert",
+        "entity-viscosity-trap|Viscosity Trap",
+        "ritual-lint",
+        "ritual-explanation-gate",
+        "entity-fragile-expert",
+        "entity-viscosity-trap",
+        "distinction-first-order-second-order",
+        "syntheses/control-surface"
+      ],
+      "summary": "Ritual: AUDIT — Self-Assessment of the Operator"
     },
     {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-world-models/rituals/ritual-benchmarking.md",
@@ -1940,6 +4362,21 @@
       "summary": "Ritual: Ekphrastic Description"
     },
     {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-wrestling/rituals/ritual-navigation-challenge.md",
+      "realPath": "worldtext/rituals/ritual-navigation-challenge.md",
+      "size": 1724,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-latent-wrestling",
+        "world-descriptive-struggle",
+        "concept-viscosity",
+        "world-memex-trail"
+      ],
+      "summary": "Ritual: navigation challenge"
+    },
+    {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-academic-ekphrasis/rituals/ritual-peer-review.md",
       "realPath": "worldtext/rituals/ritual-peer-review.md",
       "size": 511,
@@ -1952,6 +4389,20 @@
         "threshold-publication-gate"
       ],
       "summary": "Ritual: Peer Review"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-wrestling/rituals/ritual-prompt-battle.md",
+      "realPath": "worldtext/rituals/ritual-prompt-battle.md",
+      "size": 1387,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-latent-wrestling",
+        "concept-thick-prompting",
+        "ritual-navigation-challenge"
+      ],
+      "summary": "Ritual: prompt battle"
     },
     {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-prompt-craft/rituals/ritual-prompting.md",
@@ -1969,6 +4420,21 @@
       "summary": "Ritual: Prompting"
     },
     {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-latent-wrestling/rituals/ritual-promptlines.md",
+      "realPath": "worldtext/rituals/ritual-promptlines.md",
+      "size": 1698,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-latent-wrestling",
+        "world-prompt-craft",
+        "world-memex-trail",
+        "concept-thick-prompting"
+      ],
+      "summary": "Ritual: promptlines"
+    },
+    {
       "path": "cosmos/galaxy-of-thick-description-worlds/world-thick-description/rituals/ritual-thick-inscription.md",
       "realPath": "worldtext/rituals/ritual-thick-inscription.md",
       "size": 599,
@@ -1982,6 +4448,59 @@
         "threshold-thin-to-thick"
       ],
       "summary": "Ritual: Thick Inscription"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/scenes/scene-carrot-uprising.md",
+      "realPath": "worldtext/scenes/scene-carrot-uprising.md",
+      "size": 2821,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-operative-ekphrasis",
+        "fragment-blunt-sword",
+        "concept-context-stack",
+        "concept-viscosity",
+        "distinction-intent-distribution",
+        "concept-worldtext"
+      ],
+      "summary": "Scene: The Carrot Uprising"
+    },
+    {
+      "path": "cosmos/galaxy-of-generative-ai-worlds/world-prompt-craft/scenes/scene-shadowplay-installation.md",
+      "realPath": "worldtext/scenes/scene-shadowplay-installation.md",
+      "size": 2946,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-prompt-craft",
+        "world-operative-ekphrasis",
+        "concept-viscosity",
+        "concept-platform-realism",
+        "concept-context-stack",
+        "fragment-audens-barbed-wire",
+        "ritual-prompting"
+      ],
+      "summary": "Scene: The Shadowplay Installation"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-academic-ekphrasis/scenes/scene-webbs-seminar-1999.md",
+      "realPath": "worldtext/scenes/scene-webbs-seminar-1999.md",
+      "size": 2927,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "world-academic-ekphrasis",
+        "world-classical-ekphrasis",
+        "fragment-turning-hearing-into-sight",
+        "entity-webb",
+        "entity-krieger",
+        "concept-science-of-describing",
+        "ritual-canon-formation"
+      ],
+      "summary": "Scene: Webb's Seminar Room, 1999"
     },
     {
       "path": "cosmos/galaxy-of-ekphrastic-worlds/world-classical-ekphrasis/systems/system-classical-ekphrasis.md",
@@ -2078,6 +4597,22 @@
         "world-classical-ekphrasis"
       ],
       "summary": "Threshold: Actual / Notional"
+    },
+    {
+      "path": "cosmos/galaxy-of-ekphrastic-worlds/world-operative-ekphrasis/thresholds/threshold-generation-gate.md",
+      "realPath": "worldtext/thresholds/threshold-generation-gate.md",
+      "size": 1814,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-latent-space",
+        "concept-viscosity",
+        "concept-platform-realism",
+        "distinction-describing-generating"
+      ],
+      "summary": "Threshold: generation gate"
     },
     {
       "path": "cosmos/galaxy-of-generative-ai-worlds/world-prompt-craft/thresholds/threshold-human-machine.md",
@@ -3165,6 +5700,23 @@
       "summary": "Source: Prompting meaning: a hermeneutic approach to optimising prompt engineering with ChatGPT"
     },
     {
+      "path": "cosmos/evidence-stratum/source-summaries/hintze-2025-language-image-loops.md",
+      "realPath": "worldtext/sources/hintze-2025-language-image-loops.md",
+      "size": 3300,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "concept-platform-realism",
+        "concept-reactive-ekphrasis",
+        "concept-abundance",
+        "conflict-abundance-vs-platform-realism",
+        "kiki-or-bouba"
+      ],
+      "summary": "*Hintze et al. provide the experiment the cosmos needed: what happens when the human leaves the loop? The answer: twelve lighthouses, forever.*"
+    },
+    {
       "path": "cosmos/evidence-stratum/source-summaries/image-2026-text-as-a-tool-the-effects-of-using-ima.md",
       "realPath": "worldtext/sources/image-2026-text-as-a-tool-the-effects-of-using-ima.md",
       "size": 675,
@@ -4092,6 +6644,25 @@
       "summary": "Source: Conceptual Spaces: The Geometry of Thought - ResearchGate 2026,"
     },
     {
+      "path": "cosmos/evidence-stratum/source-summaries/steyerl-2023-mean-images.md",
+      "realPath": "worldtext/sources/steyerl-2023-mean-images.md",
+      "size": 2767,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "concept-platform-realism",
+        "rosetta-stone",
+        "politics-of-the-threshold",
+        "concept-seamless-vs-exposed",
+        "entity-hito-steyerl",
+        "entity-amanda-wasielewski",
+        "entity-roland-meyer"
+      ],
+      "summary": "*Steyerl's sharpest contribution: the AI image is not a bad photograph or a good hallucination. It is the AVERAGE — the statistical mean of human visual culture. And the average is always, in both senses, mean.*"
+    },
+    {
       "path": "cosmos/evidence-stratum/source-summaries/taplin-1980-shield-of-achilles.md",
       "realPath": "worldtext/sources/taplin-1980-shield-of-achilles.md",
       "size": 2473,
@@ -4347,6 +6918,25 @@
         "world-latent-space"
       ],
       "summary": "Source: MetaTool: Facilitating Large Language Models to Master Tools with Meta-task Augmentation"
+    },
+    {
+      "path": "cosmos/evidence-stratum/source-summaries/wasielewski-2024-unnatural-images.md",
+      "realPath": "worldtext/sources/wasielewski-2024-unnatural-images.md",
+      "size": 3833,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "entity-harun-farocki",
+        "rosetta-stone",
+        "politics-of-the-threshold",
+        "concept-seamless-vs-exposed",
+        "entity-amanda-wasielewski",
+        "entity-hito-steyerl",
+        "entity-roland-meyer"
+      ],
+      "summary": "*Wasielewski asks the question the seamless path cannot answer: if the image was never captured from light, what does its photographic appearance mean? Answer: it means the appearance has become autonomous — a style without a source, a sign without a referent, a photograph without a camera.*"
     },
     {
       "path": "cosmos/evidence-stratum/source-summaries/webb-1999-ekphrasis-ancient-and-modern-the-invent.md",
@@ -4737,6 +7327,144 @@
       "summary": "-------------:|:-------------------:| | t = 0 (deterministic) | Fully \"knowing\" — the poet projects known tropes onto the image | | t = 0.3 (focused) | Guided looking — some structure, some openness | | t = 0.7 (balanced) | Bion's \"capacity to forget\" — structured unknowing | | t = 1.0 (random) | Pu"
     },
     {
+      "path": "cosmos/governance/concepts/concept-abundance.md",
+      "realPath": "worldtext/concepts/concept-abundance.md",
+      "size": 3448,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "galaxy-of-ekphrastic-worlds",
+        "entity-watson-hartsoe",
+        "entity-roland-meyer",
+        "concept-platform-realism",
+        "conflict-abundance-vs-platform-realism",
+        "thick-prompt",
+        "concept-reactive-ekphrasis",
+        "world-operative-ekphrasis",
+        "distinction-seamless-exposed"
+      ],
+      "summary": "----|---------|----------| | **Affirmative** | Generative surplus = creative democratization, exploratory richness, the ekphrast as navigator of possibility | [[entity-watson-hartsoe]] | | **Critical** | Mass overproduction = visual pollution, waste, self-consuming loop, homogenization toward the me"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-bio-inference.md",
+      "realPath": "worldtext/concepts/concept-bio-inference.md",
+      "size": 6168,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-thick-description-worlds",
+        "galaxy-of-generative-ai-worlds",
+        "rosetta-stone",
+        "grandmother-cells-and-enargeia",
+        "concept-text-as-control-signal",
+        "concept-abundance",
+        "concept-reactive-ekphrasis",
+        "concept-platform-realism",
+        "world-thick-description",
+        "entity-iser",
+        "entity-fish"
+      ],
+      "summary": "---------------------|-------------------------------------| | Text (sparse conditioning signal) | Prompt (sparse conditioning signal) | | Prior experience = \"weights\" (life, memory, culture) | Training data = weights (LAION, web corpus) | | **Iser's gaps** = indeterminacy the reader must fill | **G"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-context-stack.md",
+      "realPath": "worldtext/concepts/concept-context-stack.md",
+      "size": 5309,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "concept-viscosity",
+        "concept-platform-realism",
+        "thick-prompt",
+        "concept-worldtext",
+        "entity-bateson",
+        "world-operative-ekphrasis"
+      ],
+      "summary": "----|------|---------|------------------------| | **L0** | Hardware / Model | Architecture, parameter count, training mix | — (substratum, like geology beneath the stratigraphy) | | **L1** | System instruction | Constitutional prompt, persona, tone, refusal rules | **Layer 3 (Code)** — the normative"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-imagetext.md",
+      "realPath": "worldtext/concepts/concept-imagetext.md",
+      "size": 2829,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-ekphrastic-worlds",
+        "galaxy-of-intermedial-worlds",
+        "concept-worldtext",
+        "entity-mitchell",
+        "concept-pictorial-third",
+        "distinction-word-image",
+        "world-operative-ekphrasis"
+      ],
+      "summary": "---|---------| | **imagetext** (no space, no hyphen) | The composite synthetic work — the merged object | | **image-text** (hyphenated) | The relation between the two media — the gap, the suture | | **image/text** (slash) | The rupture, the problematic disjunction |"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-latent-third.md",
+      "realPath": "worldtext/concepts/concept-latent-third.md",
+      "size": 4372,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-intermedial-worlds",
+        "galaxy-of-generative-ai-worlds",
+        "entity-louvel",
+        "world-operative-ekphrasis",
+        "concept-seamless-vs-exposed",
+        "conflict-human-vs-machine-authorship",
+        "concept-bio-inference",
+        "world-latent-space",
+        "grandmother-cells-and-enargeia",
+        "distinction-seamless-exposed"
+      ],
+      "summary": "---|----------|-----------|--------| | **Pictorial third** | Louvel (2018) | The image that arises in the reader's mind between text and picture — neither word nor image but a third thing born from their interaction | Human phenomenology | | **Latent space** | Machine learning | The continuous mathe"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-operative-ecologies.md",
+      "realPath": "worldtext/concepts/concept-operative-ecologies.md",
+      "size": 2073,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "synthetic-place-theory",
+        "concept-synthetic-place",
+        "concept-operative-observer",
+        "concept-context-stack",
+        "concept-spatial-operator|Spatial Operator",
+        "world-operative-ethnography|operative ethnography",
+        "concept-platform-realism",
+        "world-latent-space",
+        "concept-viscosity"
+      ],
+      "summary": "--------|-------------| | **Pre-select** | Determines what *can* appear at all | | **Pre-tune** | Sets what *feels* salient in advance | | **Pre-cut** | Delimits the range of possible action |"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-operative-observer.md",
+      "realPath": "worldtext/concepts/concept-operative-observer.md",
+      "size": 2694,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "world-operative-ethnography",
+        "concept-synthetic-place",
+        "concept-text-as-control-signal",
+        "entity-ian-cheng|Ian Cheng's",
+        "operative-ethnography",
+        "distinction-participant-operative",
+        "entity-ian-cheng"
+      ],
+      "summary": "---|---------|----------------| | **Participant Observation** | Joins field, participates, describes afterward | Field precedes observation | | **Autoethnography** | Takes self as primary field | Self is site of inquiry | | **Synthetic Ethnography** | Couples self with generative system | Experience"
+    },
+    {
       "path": "cosmos/governance/concepts/concept-pictorial-third.md",
       "realPath": "worldtext/concepts/concept-pictorial-third.md",
       "size": 3912,
@@ -4756,6 +7484,137 @@
       "summary": "------|--------------------------|------------------------| | Input | Ekphrastic text | Text prompt | | Mediating system | Reader's mind (cultural memory, imagination) | Neural network (statistical memory, latent space) | | Output | Mental image | Generated image | | Emergent entity | Neither pure t"
     },
     {
+      "path": "cosmos/governance/concepts/concept-platform-realism.md",
+      "realPath": "worldtext/concepts/concept-platform-realism.md",
+      "size": 4748,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "entity-roland-meyer",
+        "distinction-navigation-production",
+        "remediation",
+        "sources/hintze-2025-language-image-loops",
+        "world-operative-ekphrasis",
+        "conflict-abundance-vs-platform-realism",
+        "concept-abundance",
+        "concept-reactive-ekphrasis",
+        "concept-synthetic-camera"
+      ],
+      "summary": "--------|-----------|--------| | **Legibility** | Verbal concept-matching — the image must correspond to the prompt's categories | Images that look like what they are labeled | | **Plausibility** | Statistical approval-maximization — the image must look \"real\" to a generic evaluator | Images that lo"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-reactive-ekphrasis.md",
+      "realPath": "worldtext/concepts/concept-reactive-ekphrasis.md",
+      "size": 4219,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-ekphrastic-worlds",
+        "galaxy-of-generative-ai-worlds",
+        "sources/hintze-2025-language-image-loops",
+        "concept-platform-realism",
+        "concept-abundance",
+        "world-operative-ekphrasis",
+        "kiki-or-bouba"
+      ],
+      "summary": "------|-----------|----------| | Loop structure | Human → AI → Human (open loop with correction) | AI → AI → AI (closed loop, possibly with human checkpoints) | | Tendency | Divergent (human steers away from defaults) | Convergent (attractor basin collapse) | | Authorship | Distributed but human-anc"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-science-of-describing.md",
+      "realPath": "worldtext/concepts/concept-science-of-describing.md",
+      "size": 4800,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-thick-description-worlds",
+        "four-strata",
+        "thick-prompt",
+        "rosetta-stone",
+        "concept-platform-realism",
+        "concept-viscosity"
+      ],
+      "summary": "-------------------------|-------------------| | Fuchs's standardized botanical glossary | System prompt / style guide | | The herbarium specimen (dried plant on paper) | The reference image / ControlNet | | The woodcut illustration (visual verification) | Multimodal feedback loop | | The Republic o"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-seamless-vs-exposed.md",
+      "realPath": "worldtext/concepts/concept-seamless-vs-exposed.md",
+      "size": 4143,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-ekphrastic-worlds",
+        "galaxy-of-generative-ai-worlds",
+        "sources/bolter-watson-worldtext",
+        "entity-hito-steyerl",
+        "entity-amanda-wasielewski",
+        "entity-roland-meyer",
+        "concept-synthetic-camera",
+        "concept-abundance",
+        "concept-platform-realism",
+        "world-operative-ekphrasis",
+        "distinction-seamless-exposed",
+        "entity-watson-hartsoe"
+      ],
+      "summary": "---|----------|------|-------------|-----------------| | **Seamless** | Hide mediation; pursue photorealism | The viewer should not know the image is AI-generated | Ekphrastic hope | Immediacy (Bolter & Grusin) | | **Exposed** | Foreground mediation; reveal process and multiplicity | The viewer shou"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-spatial-operator.md",
+      "realPath": "worldtext/concepts/concept-spatial-operator.md",
+      "size": 2471,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "synthetic-place-theory",
+        "concept-operative-ecologies",
+        "concept-synthetic-place",
+        "place-latent-space",
+        "world-shield-of-achilles",
+        "concept-viscosity"
+      ],
+      "summary": "--------|--------| | **Positions** | Places body, object, and interface relative to each other | | **Modulates distance** | Not just meters but *traversal cost* and *felt proximity* | | **Modulates orientation** | Toward, away, alongside, around | | **Modulates access** | Opens paths, closes paths, "
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-synthetic-camera.md",
+      "realPath": "worldtext/concepts/concept-synthetic-camera.md",
+      "size": 2787,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "entity-roland-meyer",
+        "concept-seamless-vs-exposed",
+        "concept-platform-realism",
+        "entity-amanda-wasielewski",
+        "distinction-navigation-production"
+      ],
+      "summary": "-----|-----------|--------------------| ------------| | **Material camera** | Photography | Indexical — causal bond with the photographed scene | Obeys optics (lens, aperture, focal length) | | **Virtual camera** | 3D rendering (CGI, game engines) | Simulated — follows optical laws within a modeled "
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-synthetic-place.md",
+      "realPath": "worldtext/concepts/concept-synthetic-place.md",
+      "size": 2492,
+      "ext": "md",
+      "created": "2026-04-21",
+      "modified": "2026-04-21",
+      "refs": [
+        "synthetic-place-theory",
+        "concept-viscosity",
+        "concept-platform-realism",
+        "concept-abundance",
+        "place-latent-space",
+        "world-shield-of-achilles",
+        "world-world-models"
+      ],
+      "summary": "Synthetic Place"
+    },
+    {
       "path": "cosmos/governance/concepts/concept-text-as-control-signal.md",
       "realPath": "worldtext/concepts/concept-text-as-control-signal.md",
       "size": 4112,
@@ -4771,6 +7630,61 @@
         "concept-pictorial-third"
       ],
       "summary": "-------|-----------|-------------|-------------| | **Transduce** | Convert energy between sensory modalities | Mimesis (imitation through different medium) | Encoder-decoder architecture | | **Compress** | Reduce high-dimensional experience to sequential signal | Brevitas (condensed expression) | To"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-thick-prompting.md",
+      "realPath": "worldtext/concepts/concept-thick-prompting.md",
+      "size": 2060,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [
+        "world-operative-ekphrasis",
+        "world-prompt-craft",
+        "concept-platform-realism",
+        "concept-viscosity",
+        "distinction-thick-thin",
+        "thick-prompt",
+        "thick-description-of-operative-ekphrasis"
+      ],
+      "summary": "----|------|-------------| | 1 | **Visible act** | What the image shows (subject, composition, action) | | 2 | **Mood/atmosphere** | The feeling the image carries (tone, lighting, emotional register) | | 3 | **Code** | The style tradition or genre convention invoked (art-historical, cinematic, photo"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-viscosity.md",
+      "realPath": "worldtext/concepts/concept-viscosity.md",
+      "size": 4899,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "galaxy-of-generative-ai-worlds",
+        "concept-platform-realism",
+        "concept-abundance",
+        "concept-reactive-ekphrasis",
+        "concept-seamless-vs-exposed",
+        "entity-roland-meyer",
+        "concept-text-as-control-signal"
+      ],
+      "summary": "-------------|----------|------------------|-------------------| | **High viscosity** | Output resists prompt, adheres strictly to priors | Platform-realistic: stock photos, \"visual elevator music,\" the mean | [[concept-platform-realism]] | | **Medium viscosity** | Output balances prompt guidance an"
+    },
+    {
+      "path": "cosmos/governance/concepts/concept-worldtext.md",
+      "realPath": "worldtext/concepts/concept-worldtext.md",
+      "size": 3618,
+      "ext": "md",
+      "created": "2026-04-14",
+      "modified": "2026-04-14",
+      "refs": [
+        "sources/bolter-watson-worldtext",
+        "concept-imagetext",
+        "concept-thick-prompting",
+        "world-operative-ekphrasis",
+        "world-shield-of-achilles",
+        "world-latent-space",
+        "entity-jay-bolter",
+        "entity-watson-hartsoe"
+      ],
+      "summary": "--------|-----------| | 2D, framed, static | 3D, navigable, temporal | | Prompt generates a picture | Prompt compiles an environment | | The viewer sees | The user inhabits | | Mitchell's ekphrastic hope/fear | Beyond hope/fear: the word IS the world | | DALL·E, Midjourney | Interactive AI environme"
     },
     {
       "path": "cosmos/evidence-stratum/fulltext/aaa_table_2018.txt",
@@ -4841,6 +7755,26 @@
       "modified": "2026-04-14",
       "refs": [],
       "summary": "Edward Hopper’s Nighthawks, 1942"
+    },
+    {
+      "path": "cosmos/evidence-stratum/fulltext/chatgpt_same-worldness-delta_2026-04-27.md",
+      "realPath": "worldtext/sources-fulltext/chatgpt_same-worldness-delta_2026-04-27.md",
+      "size": 353691,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "Same-Worldness Delta"
+    },
+    {
+      "path": "cosmos/evidence-stratum/fulltext/chatgpt_world-bible-and-lore_2026-04-27.md",
+      "realPath": "worldtext/sources-fulltext/chatgpt_world-bible-and-lore_2026-04-27.md",
+      "size": 398385,
+      "ext": "md",
+      "created": "2026-04-27",
+      "modified": "2026-04-27",
+      "refs": [],
+      "summary": "World Bible and Lore"
     },
     {
       "path": "cosmos/evidence-stratum/fulltext/cluver_new_2017.txt",
@@ -5181,6 +8115,16 @@
       "modified": "2026-04-14",
       "refs": [],
       "summary": "Ekphrasis, Imagination and Persuasion in Ancient Rhetorical Theory and Practice"
+    },
+    {
+      "path": "cosmos/evidence-stratum/fulltext/worldtext-definitive-corpus-2026-04-28.md",
+      "realPath": "worldtext/sources-fulltext/worldtext-definitive-corpus-2026-04-28.md",
+      "size": 2810,
+      "ext": "md",
+      "created": "2026-04-28",
+      "modified": "2026-04-28",
+      "refs": [],
+      "summary": "Worldtext Definitive Corpus — Raw Source"
     },
     {
       "path": "cosmos/evidence-stratum/fulltext/wright_ekphrasis_2024.txt",

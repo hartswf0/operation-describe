@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dissertation One-Year Roadmap — OPERATION DESCRIBE</title>
+    <meta name="description" content="One-Year Dissertation Roadmap (June 2026 - August 2027) for Watson Hartsoe's project.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #111118;
+            --bg-tertiary: #161622;
+            --bg-card: #14141e;
+            --text-primary: #e8e6e1;
+            --text-secondary: #9d9a93;
+            --text-dim: #5a5852;
+            --accent-gold: #c9a84c;
+            --accent-gold-dim: #8a7235;
+            --accent-gold-light: rgba(201, 168, 76, 0.15);
+            --accent-blue: #4a7fb5;
+            --accent-purple: #7b5ea7;
+            --accent-rose: #b5566a;
+            --accent-teal: #4a9b8e;
+            --accent-green: #6b9e5e;
+            --border-subtle: rgba(201, 168, 76, 0.12);
+            --border-hover: rgba(201, 168, 76, 0.3);
+            --glow-gold: rgba(201, 168, 76, 0.04);
+            --font-serif: 'EB Garamond', Georgia, serif;
+            --font-sans: 'Inter', system-ui, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-attachment: fixed;
+        }
+
+        /* ── GRAIN OVERLAY ── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.025'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 2rem 0;
+            background: var(--bg-secondary);
+            position: relative;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-title {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+        }
+
+        .logo-title span {
+            color: var(--accent-gold);
+            font-style: italic;
+        }
+
+        .logo-subtitle {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-top: 0.25rem;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 0.6rem 1.2rem;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-card);
+            color: var(--text-primary);
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 3px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(201, 168, 76, 0.08);
+        }
+
+        /* ── TABS NAVIGATION ── */
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin: 2rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 1px;
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            padding: 0.75rem 1.25rem;
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.25s;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: var(--accent-gold);
+        }
+
+        .tab-btn.active {
+            color: var(--accent-gold);
+            border-bottom-color: var(--accent-gold);
+            font-weight: 500;
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ── GRID SYSTEM ── */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .grid-half {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background: var(--card-border, var(--accent-gold));
+        }
+
+        .card-title {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card-subtitle {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-gold-dim);
+            margin-bottom: 0.75rem;
+        }
+
+        /* ── INTERACTIVE TIMELINE ── */
+        .timeline {
+            position: relative;
+            padding-left: 2.5rem;
+            margin: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border-subtle);
+        }
+
+        .t-step {
+            position: relative;
+            margin-bottom: 2.5rem;
+        }
+
+        .t-checkbox {
+            position: absolute;
+            left: -2.7rem;
+            top: 0.25rem;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--accent-gold);
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .t-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+
+        .t-title {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .t-checkbox:checked ~ .t-header .t-title {
+            text-decoration: line-through;
+            color: var(--text-dim);
+        }
+
+        .t-date {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--accent-gold);
+            background: var(--bg-tertiary);
+            padding: 0.1rem 0.5rem;
+            border-radius: 2px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .t-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .t-checkbox:checked ~ .t-desc {
+            color: var(--text-dim);
+            opacity: 0.7;
+        }
+
+        .t-desc ul {
+            margin-left: 1.25rem;
+            margin-top: 0.5rem;
+        }
+
+        .t-desc li {
+            margin-bottom: 0.25rem;
+        }
+
+        /* ── DYNAMIC BUDGET CALCULATOR ── */
+        .calc-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .calc-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .calc-select {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            padding: 0.5rem 1rem;
+            outline: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .calc-select:focus {
+            border-color: var(--accent-gold);
+        }
+
+        .calc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+
+        .calc-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            padding: 1rem;
+            border-radius: 2px;
+            text-align: center;
+        }
+
+        .calc-value {
+            font-family: var(--font-mono);
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            font-weight: bold;
+        }
+
+        .calc-label {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* ── RISK MATRIX TABLE ── */
+        .risk-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+
+        .risk-table th {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border-bottom: 2px solid var(--border-subtle);
+        }
+
+        .risk-table td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border-subtle);
+            vertical-align: top;
+        }
+
+        .risk-table tr:hover td {
+            background: rgba(201, 168, 76, 0.01);
+        }
+
+        .risk-name {
+            font-family: var(--font-mono);
+            font-weight: bold;
+            color: var(--accent-rose);
+        }
+
+        /* ── HUD HUD HUD ── */
+        .progress-hud {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 1.5rem;
+            position: sticky;
+            top: 2rem;
+            z-index: 10;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 8px;
+            background: var(--bg-primary);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 0.75rem 0;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-gold-dim), var(--accent-gold));
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .progress-stats {
+            display: flex;
+            justify-content: space-between;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+        }
+
+        /* Copy Block */
+        .copy-block {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 1.25rem;
+            position: relative;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            white-space: pre-wrap;
+            color: var(--text-secondary);
+            margin: 1rem 0;
+            overflow-x: auto;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            font-family: var(--font-mono);
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            padding: 0.25rem 0.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        .copy-btn:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .grid-2 { grid-template-columns: 1fr; }
+            .grid-half { grid-template-columns: 1fr; }
+            .progress-hud { position: relative; top: 0; margin-bottom: 1.5rem; }
+        }
+    </style>
+</head>
+<body onload="initRoadmap()">
+
+    <!-- ═══════════════════ HEADER ═══════════════════ -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-group">
+                    <h1 class="logo-title">ONE-YEAR <span>ROADMAP</span></h1>
+                    <span class="logo-subtitle">Dissertation Map • June 2026 - August 2027</span>
+                </div>
+                <div class="header-nav">
+                    <a href="index.html" class="btn">🪐 Cosmos Home</a>
+                    <a href="dissertation-cockpit.html" class="btn">🛠 Cockpit Setup</a>
+                    <a href="worldtext-reader.html" class="btn">📖 Read Cosms</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════════════ MAIN CONTENT ═══════════════════ -->
+    <main class="container" style="margin-top: 2rem;">
+        <div class="grid-2">
+            
+            <div>
+                <!-- Tabs Menu -->
+                <nav class="tabs">
+                    <button class="tab-btn active" onclick="switchTab(event, 'tab-goals')">🎯 Master Targets</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-summer26')">☀️ Summer 2026 (Propose)</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-fall26')">🍁 Fall 2026 (Defend)</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-execution27')">⚡ Year 2027 (Execute)</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-rhythms')">⌛ Weekly Rhythms</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-risks')">⚠️ Risk Map</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-citations')">🎓 Defense &amp; Citations</button>
+                </nav>
+
+                <!-- ═══════════════════ TAB: MASTER TARGETS ═══════════════════ -->
+                <section id="tab-goals" class="tab-content active">
+                    <div class="grid-half">
+                        <div class="card" style="--card-border: var(--accent-gold);">
+                            <span class="card-subtitle">Summer 2026 Target</span>
+                            <h2 class="card-title">Dissertation Contract &amp; Prep</h2>
+                            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem;">
+                                Compress your agential contribution statement, finalize the committee, draft the proposal prospectus (15-25 pages), and prepare for the defense.
+                            </p>
+                            <div style="background: var(--bg-primary); border: 1px solid var(--border-subtle); padding: 1rem; font-family: var(--font-mono); font-size: 0.8rem; border-radius: 2px;">
+                                <span style="color: var(--accent-gold);">[Summer 2026 Goal]</span><br>
+                                = [formalize] committee<br>
+                                &nbsp;&nbsp;+ [compress] dissertation contribution<br>
+                                &nbsp;&nbsp;+ [draft] proposal prospectus<br>
+                                &nbsp;&nbsp;+ [prepare] fall proposal defense
+                            </div>
+                        </div>
+
+                        <div class="card" style="--card-border: var(--accent-blue);">
+                            <span class="card-subtitle">Fall 2026 - Summer 2027 Target</span>
+                            <h2 class="card-title">Defend &amp; Chapter Assembly</h2>
+                            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem;">
+                                Defend the prospectus, file doctoral candidacy forms, execute the case study chapters, and draft 60-75% of the full manuscript body.
+                            </p>
+                            <div style="background: var(--bg-primary); border: 1px solid var(--border-subtle); padding: 1rem; font-family: var(--font-mono); font-size: 0.8rem; border-radius: 2px;">
+                                <span style="color: var(--accent-blue);">[Next Year Goal]</span><br>
+                                = [defend] proposal<br>
+                                &nbsp;&nbsp;+ [advance] candidacy path<br>
+                                &nbsp;&nbsp;+ [execute] cases / artifact work<br>
+                                &nbsp;&nbsp;+ [draft] 3–4 dissertation chapters<br>
+                                &nbsp;&nbsp;+ [produce] public paper/demo
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="--card-border: var(--accent-purple);">
+                        <h2 class="card-title">The Institutional Framework</h2>
+                        <span class="card-subtitle">Georgia Tech Digital Media Handbook</span>
+                        <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1rem; line-height: 1.7;">
+                            After comps, LMC students identify their Dissertation Chair and two committee members. The oral defense evaluates the candidate's original and intended contributions to the field. Passing the defense secures the committee signatures on the <strong>Dissertation Topic Approval Form</strong>. Admission to Ph.D. candidacy requires completing coursework, passing comps, and filing the <strong>Request for Admission to Candidacy Form</strong>.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════ TAB: SUMMER 2026 ═══════════════════ -->
+                <section id="tab-summer26" class="tab-content">
+                    <div class="card" style="--card-border: var(--accent-gold);">
+                        <h2 class="card-title">June 2026 — Contribution Contraction</h2>
+                        <span class="card-subtitle">Goal: Compress the wild archive into a dissertation shape</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-1" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 1 (June 1–7): Contribution Lock</h3>
+                                    <span class="t-date">June 7</span>
+                                </div>
+                                <div class="t-desc">
+                                    Lock one-sentence contribution + working title.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-2" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 2 (June 8–14): Field/Limit Map</h3>
+                                    <span class="t-date">June 14</span>
+                                </div>
+                                <div class="t-desc">
+                                    Map: Field, limit, intervention, artifact, uptake.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-3" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 3 (June 15–21): Case Selection</h3>
+                                    <span class="t-date">June 21</span>
+                                </div>
+                                <div class="t-desc">
+                                    Choose 2-3 dissertation cases (precursor, spatial, agential method).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-4" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 4 (June 22–30): Committee Matrix</h3>
+                                    <span class="t-date">June 30</span>
+                                </div>
+                                <div class="t-desc">
+                                    Define Chair/member roles + draft first meeting agenda.
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="card-subtitle">June Deliverable Checklist</span>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem;">By June 30, compile:</p>
+                        <div style="background: var(--bg-primary); padding: 1rem; border: 1px solid var(--border-subtle); font-family: var(--font-mono); font-size: 0.8rem; border-radius: 2px;">
+                            &lt;June_Output&gt;<br>
+                            ├── working title<br>
+                            ├── one-sentence contribution<br>
+                            ├── one-page dissertation contract<br>
+                            ├── three core concepts (operative description, worldtext, thick prompting)<br>
+                            ├── 2–3 case studies<br>
+                            ├── committee matrix<br>
+                            └── chair meeting agenda
+                        </div>
+                    </div>
+
+                    <div class="card" style="--card-border: var(--accent-purple);">
+                        <h2 class="card-title">July 2026 — Prospectus Architecture</h2>
+                        <span class="card-subtitle">Goal: Transform contribution map into prospectus zero draft</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-5" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 5 (July 1–7): Abstract</h3>
+                                    <span class="t-date">July 7</span>
+                                </div>
+                                <div class="t-desc">
+                                    Draft 500-word proposal abstract.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-6" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 6 (July 8–14): Literature Clusters</h3>
+                                    <span class="t-date">July 14</span>
+                                </div>
+                                <div class="t-desc">
+                                    Develop 5-cluster literature map:
+                                    <ul>
+                                        <li>Ekphrasis / Imagetext / Media Theory</li>
+                                        <li>Generative AI / Prompting / Authorship</li>
+                                        <li>Worlds / Narrative Systems / Procedural Media</li>
+                                        <li>Cybernetics / Feedback / Recursive Systems</li>
+                                        <li>HCI / RtD / Practice-Based Methods</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-7" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 7 (July 15–21): Method Section</h3>
+                                    <span class="t-date">July 21</span>
+                                </div>
+                                <div class="t-desc">
+                                    Draft thick prompting method section (evidence parameters).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-8" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 8 (July 22–31): Chapter Structure</h3>
+                                    <span class="t-date">July 31</span>
+                                </div>
+                                <div class="t-desc">
+                                    Draft prospectus chapter skeleton (10 chapters + bibliography).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="--card-border: var(--accent-teal);">
+                        <h2 class="card-title">August 2026 — Committee &amp; Proposal-Lock</h2>
+                        <span class="card-subtitle">Goal: Transition to committee-circulatable draft</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-9" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 9 (Aug 1–7): Committee Ask Packet</h3>
+                                    <span class="t-date">Aug 7</span>
+                                </div>
+                                <div class="t-desc">
+                                    Compile 5-7 page packet (contract, abstract, structure, starter bib).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-10" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 10 (Aug 8–14): Chair Review</h3>
+                                    <span class="t-date">Aug 14</span>
+                                </div>
+                                <div class="t-desc">
+                                    Meet Jay for draft review and checklist of required revisions.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-11" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 11 (Aug 15–21): Committee Asks</h3>
+                                    <span class="t-date">Aug 21</span>
+                                </div>
+                                <div class="t-desc">
+                                    Send target role emails and packet to potential committee members.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-s26-12" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Week 12 (Aug 22–31): Prospectus Draft 1</h3>
+                                    <span class="t-date">Aug 31</span>
+                                </div>
+                                <div class="t-desc">
+                                    Freeze cases, bibliography, and formal prospectus draft 1 (25-35 pages).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════ TAB: FALL 2026 ═══════════════════ -->
+                <section id="tab-fall26" class="tab-content">
+                    <div class="card" style="--card-border: var(--accent-rose);">
+                        <h2 class="card-title">September 2026 — Prospectus Drafting</h2>
+                        <span class="card-subtitle">Goal: Polish zero draft into circulation-ready shape</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-f26-1" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Prospectus Revisions</h3>
+                                    <span class="t-date">Sept 15</span>
+                                </div>
+                                <div class="t-desc">
+                                    Stabilize research methodology, compile complete chapter outline, and draft annotated bibliography.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-f26-2" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Lock Defense Target Date</h3>
+                                    <span class="t-date">Sept 30</span>
+                                </div>
+                                <div class="t-desc">
+                                    Synchronize schedules with Chair and members to secure a date in Nov/Dec.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="--card-border: var(--accent-gold);">
+                        <h2 class="card-title">October 2026 — Committee Circulation</h2>
+                        <span class="card-subtitle">Goal: Distribute prospectus and rehearse defense</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-f26-3" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Prospectus Circulation</h3>
+                                    <span class="t-date">Oct 10</span>
+                                </div>
+                                <div class="t-desc">
+                                    Distribute the formal prospectus to committee members (minimum 3 weeks before defense).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-f26-4" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Proposal Presentation Slide Deck</h3>
+                                    <span class="t-date">Oct 25</span>
+                                </div>
+                                <div class="t-desc">
+                                    Compile 20-minute deck: Problem → Field → Limit → Claim → Concepts → Method → Cases → Artifact → Contribution → Timeline.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="--card-border: var(--accent-purple);">
+                        <h2 class="card-title">November / December 2026 — Proposal Defense</h2>
+                        <span class="card-subtitle">Goal: Secure official Topic Approval and Ph.D. Candidacy</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-f26-5" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Prospectus Oral Defense</h3>
+                                    <span class="t-date">Defend</span>
+                                </div>
+                                <div class="t-desc">
+                                    Prove contribution is original, method is credible, and scope is bounded.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-f26-6" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">Form Submissions</h3>
+                                    <span class="t-date">File</span>
+                                </div>
+                                <div class="t-desc">
+                                    Submit signed <strong>Thesis Topic Approval Form</strong> and <strong>Admission to Ph.D. Candidacy Form</strong> to DM Graduate Office.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════ TAB: YEAR 2027 EXECUTION ═══════════════════ -->
+                <section id="tab-execution27" class="tab-content">
+                    <div class="card" style="--card-border: var(--accent-gold);">
+                        <h2 class="card-title">Spring 2027 — Core Writing</h2>
+                        <span class="card-subtitle">Goal: Assemble theoretical and methodological chapters</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-1" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">January: Post-Proposal Reset</h3>
+                                    <span class="t-date">Jan 31</span>
+                                </div>
+                                <div class="t-desc">
+                                    Translate committee feedback into execution steps; freeze final writing schedule.
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-2" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">February: Theory Chapter Draft</h3>
+                                    <span class="t-date">Feb 28</span>
+                                </div>
+                                <div class="t-desc">
+                                    Write 20-30 pages of <strong>Chapter 2: From Imagetext to Worldtext</strong> (defining operative description and worldtext).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-3" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">March: Method Chapter Draft</h3>
+                                    <span class="t-date">Mar 31</span>
+                                </div>
+                                <div class="t-desc">
+                                    Write 20-30 pages of <strong>Chapter 3: Thick Prompting Method</strong> (selection criteria, evidence definitions, logging protocol).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-4" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">April: Case Study 1 Draft</h3>
+                                    <span class="t-date">Apr 30</span>
+                                </div>
+                                <div class="t-desc">
+                                    Write 20-30 pages of <strong>Chapter 4: Shield of Achilles / Operative Ekphrasis</strong> (ancient precursor case).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-5" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">May: Public Validation</h3>
+                                    <span class="t-date">May 31</span>
+                                </div>
+                                <div class="t-desc">
+                                    Submit interim paper, lab talk, or demo day presentation to test ideas externally.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="--card-border: var(--accent-blue);">
+                        <h2 class="card-title">Summer 2027 — Case Studies &amp; Integration</h2>
+                        <span class="card-subtitle">Goal: Finalize remaining cases and compile partial draft</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-6" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">June: Case Study 2 Draft</h3>
+                                    <span class="t-date">June 30</span>
+                                </div>
+                                <div class="t-desc">
+                                    Write 20-30 pages of <strong>Chapter 5: Words Assemble Geometry (WAG)</strong> (spatial operation).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-7" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">July: Case Study 3 / Artifact Chapter</h3>
+                                    <span class="t-date">July 31</span>
+                                </div>
+                                <div class="t-desc">
+                                    Write 20-30 pages of <strong>Chapter 6: Prompt Archive / Practice Logs</strong> (annotated archive, steering guidelines).
+                                </div>
+                            </div>
+                            <div class="t-step">
+                                <input type="checkbox" id="check-27-8" class="t-checkbox" onchange="roadmapCheckChange()">
+                                <div class="t-header">
+                                    <h3 class="t-title">August: Integration Month</h3>
+                                    <span class="t-date">Aug 31</span>
+                                </div>
+                                <div class="t-desc">
+                                    Compile partial draft (60-75% complete), identify holes, and draft conclusion outline.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════ TAB: RHYTHMS ═══════════════════ -->
+                <section id="tab-rhythms" class="tab-content">
+                    <div class="card" style="--card-border: var(--accent-gold);">
+                        <h2 class="card-title">Weekly Rhythms</h2>
+                        <span class="card-subtitle">Rhythmic focus allocation</span>
+                        
+                        <div class="calc-box">
+                            <div class="calc-header">
+                                <h3 style="font-family: var(--font-serif); font-size: 1.1rem; font-weight: 500;">Select Weekly Hours Allocation</h3>
+                                <select id="hourBudgetSelect" class="calc-select" onchange="calculateRhythm()">
+                                    <option value="15" selected>15 Hours / Week</option>
+                                    <option value="20">20 Hours / Week</option>
+                                    <option value="25">25 Hours / Week</option>
+                                </select>
+                            </div>
+
+                            <div class="calc-grid">
+                                <div class="calc-card">
+                                    <div id="val-writing" class="calc-value">6.0</div>
+                                    <div class="calc-label">Writing Drafts</div>
+                                </div>
+                                <div class="calc-card">
+                                    <div id="val-reading" class="calc-value">3.0</div>
+                                    <div class="calc-label">Reading / Lit Map</div>
+                                </div>
+                                <div class="calc-card">
+                                    <div id="val-artifact" class="calc-value">3.0</div>
+                                    <div class="calc-label">Artifact / Archive</div>
+                                </div>
+                                <div class="calc-card">
+                                    <div id="val-diagrams" class="calc-value">2.0</div>
+                                    <div class="calc-label">Diagrams / Synthesis</div>
+                                </div>
+                                <div class="calc-card" style="grid-column: span 1;">
+                                    <div id="val-meeting" class="calc-value">1.0</div>
+                                    <div class="calc-label">Advisor Sync</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="background: var(--bg-tertiary); border-left: 2px solid var(--accent-gold); padding: 1.25rem; font-size: 0.95rem; margin-top: 1rem;">
+                            <strong>The Core Principle:</strong> Extra time does not mean expanding the dissertation. Extra time means making the existing dissertation harder to kill.
+                        </div>
+                    </div>
+
+                    <div class="card" style="--card-border: var(--accent-teal);">
+                        <h2 class="card-title">First 7 Days (June 1–7, 2026)</h2>
+                        <span class="card-subtitle">Kickoff Actions</span>
+                        
+                        <div class="timeline" style="margin-top: 1.5rem;">
+                            <div class="t-step" style="margin-bottom: 1.5rem;">
+                                <div class="t-header"><h3 class="t-title">Day 1: Choose Working Title</h3></div>
+                                <div class="t-desc">Select title from the three options. (Recommended: <i>Operative Description in Generative Media: Worldtext, Thick Prompting, and the Making of Generated Worlds</i>)</div>
+                            </div>
+                            <div class="t-step" style="margin-bottom: 1.5rem;">
+                                <div class="t-header"><h3 class="t-title">Day 2: Write One-Sentence Contribution</h3></div>
+                                <div class="t-desc">Formulate the sentence specifying the theory-method pair.</div>
+                            </div>
+                            <div class="t-step" style="margin-bottom: 1.5rem;">
+                                <div class="t-header"><h3 class="t-title">Day 3: Write One-Page Contract</h3></div>
+                                <div class="t-desc">Map claims, field, method, artifacts, and case studies.</div>
+                            </div>
+                            <div class="t-step" style="margin-bottom: 1.5rem;">
+                                <div class="t-header"><h3 class="t-title">Day 4: Lock Cases</h3></div>
+                                <div class="t-desc">List potential cases and cut down to exactly three.</div>
+                            </div>
+                            <div class="t-step" style="margin-bottom: 1.5rem;">
+                                <div class="t-header"><h3 class="t-title">Day 5: Committee Matrix</h3></div>
+                                <div class="t-desc">Assign specific validation jobs to committee slots.</div>
+                            </div>
+                            <div class="t-step" style="margin-bottom: 1.5rem;">
+                                <div class="t-header"><h3 class="t-title">Day 6: Draft Abstract</h3></div>
+                                <div class="t-desc">Write a 500-word prospectus abstract.</div>
+                            </div>
+                            <div class="t-step" style="margin-bottom: 1.5rem;">
+                                <div class="t-header"><h3 class="t-title">Day 7: Send Chair Meeting Request</h3></div>
+                                <div class="t-desc">
+                                    Send meeting email to Jay. Click below to copy meeting email draft:
+                                    <div class="copy-block">
+                                        <button class="copy-btn" onclick="copyEmailText()">Copy</button>
+                                        <span id="emailText">Subject: Dissertation proposal direction and committee formation
+
+Hi Jay,
+
+I’m working to formalize my dissertation direction and committee this summer, with the goal of moving toward a proposal defense in the fall.
+
+The current working title is:
+
+“Operative Description in Generative Media: Worldtext, Thick Prompting, and the Making of Generated Worlds.”
+
+The core claim is that in generative media systems, description no longer merely represents worlds; it operates systems that generate, revise, and stabilize them. I’m developing this through the concepts of operative description, worldtext, and thick prompting, using a bounded set of practice-based case studies and prompt-output archives.
+
+Could we meet to discuss whether this is proposal-shaped, who would make sense for the committee, and what needs to be completed before circulating a prospectus draft?
+
+Best,
+Watson</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════ TAB: RISKS ═══════════════════ -->
+                <section id="tab-risks" class="tab-content">
+                    <div class="card" style="--card-border: var(--accent-rose);">
+                        <h2 class="card-title">Dissertation Risk Mapping</h2>
+                        <span class="card-subtitle">Scope protections</span>
+                        
+                        <table class="risk-table">
+                            <thead>
+                                <tr>
+                                    <th>Risk</th>
+                                    <th>Meaning</th>
+                                    <th>Prevention / Mitigation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="risk-name">Concept sprawl</td>
+                                    <td>Too many brilliant terms.</td>
+                                    <td>Keep only three: operative description, worldtext, thick prompting.</td>
+                                </tr>
+                                <tr>
+                                    <td class="risk-name">Archive sprawl</td>
+                                    <td>Too many projects/case studies.</td>
+                                    <td>Choose exactly 2–3 cases; appendix the rest.</td>
+                                </tr>
+                                <tr>
+                                    <td class="risk-name">Committee confusion</td>
+                                    <td>Faculty cannot place the project.</td>
+                                    <td>Give each member a role: theory, method, artifact, ethics.</td>
+                                </tr>
+                                <tr>
+                                    <td class="risk-name">Method weakness</td>
+                                    <td>Thick prompting sounds like vibes.</td>
+                                    <td>Define evidence units, logging protocol, selection criteria.</td>
+                                </tr>
+                                <tr>
+                                    <td class="risk-name">Artifact overwhelm</td>
+                                    <td>The making eclipses the argument.</td>
+                                    <td>Every artifact must directly prove the contribution statement.</td>
+                                </tr>
+                                <tr>
+                                    <td class="risk-name">Proposal delay</td>
+                                    <td>No firm chair/committee timeline.</td>
+                                    <td>Schedule chair meeting in June; committee asks in August.</td>
+                                </tr>
+                                <tr>
+                                    <td class="risk-name">Writing avoidance</td>
+                                    <td>Endless mapping without prose.</td>
+                                    <td>Minimum 5 pages/week beginning in July.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- ═══════════════════ TAB: DEFENSE & CITATIONS ═══════════════════ -->
+                <section id="tab-citations" class="tab-content">
+                    <div class="card" style="--card-border: var(--accent-gold);">
+                        <h2 class="card-title">Dissertation Defense &amp; Citations</h2>
+                        <span class="card-subtitle">Preparing to defend the contribution architecture</span>
+                        <p class="form-desc" style="margin-bottom: 1.5rem;">Scholarly justification and literature backing for every node in Watson Hartsoe's dissertation framework.</p>
+
+                        <div class="form-group" style="margin-bottom: 2rem;">
+                            <h3 style="font-family: var(--font-serif); font-size: 1.2rem; color: var(--accent-gold); border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.5rem; margin-bottom: 1rem;">1. Enters Field (Disciplinary Home)</h3>
+                            <ul class="matrix-list is" style="padding-left: 0.5rem; list-style: none;">
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-green);">✓</span>
+                                    <div>
+                                        <strong>Digital Media &amp; Media Studies:</strong> Generative AI is a new class of world-forming media. We extend Mitchell’s concept of the <i>imagetext</i> (the friction and merging of visual/verbal representations) into the computational <i>worldtext</i>.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-blue); margin-top: 0.25rem;">[Cite: Mitchell, W. J. T. (1994). Picture Theory. University of Chicago Press.]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-green);">✓</span>
+                                    <div>
+                                        <strong>HCI &amp; Practice-Based Design:</strong> Creative prompting is an agential design practice, not a mechanical routine. We treat it as steering within high-dimensional vector distributions.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-blue); margin-top: 0.25rem;">[Cite: Zimmerman, Forlizzi, &amp; Evenson (2007). Research through Design in HCI. CHI '07; Gaver, B. (2012). Annotated Portfolios. interactions.]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-green);">✓</span>
+                                    <div>
+                                        <strong>Narrative &amp; Cybernetic Loops:</strong> Human-AI storytelling is a cybernetic feedback loop governed by statistical viscosity.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-blue); margin-top: 0.25rem;">[Cite: Aarseth, E. (1997). Cybertext: Perspectives on Ergodic Literature. JHU Press; Wiener, N. (1948). Cybernetics.]</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom: 2rem;">
+                            <h3 style="font-family: var(--font-serif); font-size: 1.2rem; color: var(--accent-gold); border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.5rem; margin-bottom: 1rem;">2. Responds to Limit (The Scholarly Gap)</h3>
+                            <ul class="matrix-list is-not" style="padding-left: 0.5rem; list-style: none;">
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-rose);">✕</span>
+                                    <div>
+                                        <strong>Confronts: Prompting treated as mere technique.</strong> We show prompting is a cultural, narrative, and epistemic practice.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-rose); margin-top: 0.25rem;">[Cite: Oppenlaender, J. (2024). Prompt Craft as Socio-Technical Art. ACM Comput. Surv.]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-rose);">✕</span>
+                                    <div>
+                                        <strong>Confronts: AI outputs evaluated as isolated content.</strong> We show outputs converge to a default "platform mean" (twelve lighthouses) if not dynamically steered by human agency.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-rose); margin-top: 0.25rem;">[Cite: Hintze, Proschinger Åström, &amp; Schossau (2026). Autonomous Loops and Convergent Lighthouses.]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-rose);">✕</span>
+                                    <div>
+                                        <strong>Confronts: Authorship debates stuck on human vs. machine.</strong> We shift the binary to distributed agential action. The prompter acts as a cybernetic pilot navigating a statistical medium.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-rose); margin-top: 0.25rem;">[Cite: Suchman, L. (1987, 2007). Plans and Situated Actions. Cambridge University Press.]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-rose);">✕</span>
+                                    <div>
+                                        <strong>Confronts: AI ethics reduced to bias, hallucination, and consent.</strong> We expand ethics to examine the politics of the generated world itself—what is stabilized, silenced, or defaulted.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-rose); margin-top: 0.25rem;">[Cite: Bajohr, H. (2024). Platform Realism and the Ethics of Latent Space; Spivak, G. C. (1988). Can the Subaltern Speak?]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-rose);">✕</span>
+                                    <div>
+                                        <strong>Confronts: Media theory lacking vocabulary for executable description.</strong> Modern ekphrasis theory (Spitzer, Heffernan) narrowed ekphrasis to passive artwork description. We recover the ancient production-oriented function.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-rose); margin-top: 0.25rem;">[Cite: Webb, R. (1999, 2009). Ekphrasis, Imagination and Persuasion in Ancient Rhetorical Theory. Ashgate.]</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom: 2rem;">
+                            <h3 style="font-family: var(--font-serif); font-size: 1.2rem; color: var(--accent-gold); border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.5rem; margin-bottom: 1rem;">3. Intervenes Through Method (The Theoretical Wedge)</h3>
+                            <ul class="matrix-list counts" style="padding-left: 0.5rem; list-style: none;">
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-gold);">✦</span>
+                                    <div>
+                                        <strong>Operative Description &amp; Ekphrasis:</strong> Description is the control signal that generates visual space in multi-modal manifold environments.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-gold-dim); margin-top: 0.25rem;">[Cite: Bajohr, H. (2024). Operative Ekphrasis. Digital Rhetoric Journal.]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-gold);">✦</span>
+                                    <div>
+                                        <strong>Thick Prompting:</strong> Anthropological <i>thick description</i> adapted to document the agential loops of creative prompting across six distinct context layers.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-gold-dim); margin-top: 0.25rem;">[Cite: Geertz, C. (1973). The Interpretation of Cultures. Basic Books.]</div>
+                                    </div>
+                                </li>
+                                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+                                    <span style="color: var(--accent-gold);">✦</span>
+                                    <div>
+                                        <strong>Worldtext Narrative Systems:</strong> Spatial systems wrapping text-model generation into coherent, persistent environments.
+                                        <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-gold-dim); margin-top: 0.25rem;">[Cite: Wolf, M. J. P. (2012). Building Imaginary Worlds. Routledge; Aarseth (1997). Cybertext.]</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ═══════════════════ SIDEBAR: PROGRESS HUD ═══════════════════ -->
+            <div>
+                <div class="progress-hud">
+                    <span class="card-subtitle">Roadmap Progress</span>
+                    <h3 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 500; margin-bottom: 0.5rem;">Execution Track</h3>
+                    
+                    <div class="progress-bar-container">
+                        <div id="roadmapProgressBarFill" class="progress-bar-fill"></div>
+                    </div>
+                    
+                    <div class="progress-stats">
+                        <span id="roadmapProgressPercent">0% Done</span>
+                        <span id="roadmapProgressCount">0/20 Milestones</span>
+                    </div>
+
+                    <div style="border-top: 1px solid var(--border-subtle); margin-top: 1.5rem; padding-top: 1.5rem;">
+                        <h4 style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-gold); text-transform: uppercase; margin-bottom: 0.75rem;">Active Target</h4>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+                            June 2026: Lock Contribution Statement, Title, Cases, and Committee Matrix.
+                        </p>
+                    </div>
+
+                    <div style="border-top: 1px solid var(--border-subtle); margin-top: 1.5rem; padding-top: 1.5rem;">
+                        <a href="dissertation-cockpit.html" class="btn btn-primary" style="width: 100%; justify-content: center;">🛠 Open Cockpit</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer>
+        <div class="container">
+            <p class="footer-text">
+                OPERATION DESCRIBE • Dissertation Roadmap compiled 2026 • Advisor: <a href="worldtext-reader.html#entity-jay-bolter">Jay David Bolter</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- ═══════════════════ JAVASCRIPT CODE ═══════════════════ -->
+    <script>
+        function switchTab(evt, tabId) {
+            const tabs = document.getElementsByClassName("tab-content");
+            for (let i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove("active");
+            }
+            const tabButtons = document.getElementsByClassName("tab-btn");
+            for (let i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].classList.remove("active");
+            }
+            document.getElementById(tabId).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+
+        const ROADMAP_IDS = [
+            'check-s26-1', 'check-s26-2', 'check-s26-3', 'check-s26-4',
+            'check-s26-5', 'check-s26-6', 'check-s26-7', 'check-s26-8',
+            'check-s26-9', 'check-s26-10', 'check-s26-11', 'check-s26-12',
+            'check-f26-1', 'check-f26-2', 'check-f26-3', 'check-f26-4',
+            'check-f26-5', 'check-f26-6',
+            'check-27-1', 'check-27-2', 'check-27-3', 'check-27-4',
+            'check-27-5', 'check-27-6', 'check-27-7', 'check-27-8'
+        ];
+
+        function initRoadmap() {
+            ROADMAP_IDS.forEach(id => {
+                const checked = localStorage.getItem('op-road-' + id) === 'true';
+                const el = document.getElementById(id);
+                if (el) el.checked = checked;
+            });
+            updateRoadmapProgress();
+        }
+
+        function roadmapCheckChange() {
+            ROADMAP_IDS.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    localStorage.setItem('op-road-' + id, el.checked);
+                }
+            });
+            updateRoadmapProgress();
+        }
+
+        function updateRoadmapProgress() {
+            let checked = 0;
+            let total = 0;
+            
+            ROADMAP_IDS.forEach(id => {
+                total++;
+                const el = document.getElementById(id);
+                if (el && el.checked) checked++;
+            });
+
+            const percent = Math.round((checked / total) * 100);
+            document.getElementById('roadmapProgressBarFill').style.width = percent + '%';
+            document.getElementById('roadmapProgressPercent').textContent = percent + '% Done';
+            document.getElementById('roadmapProgressCount').textContent = checked + '/' + total + ' Steps';
+        }
+
+        function calculateRhythm() {
+            const hours = parseInt(document.getElementById('hourBudgetSelect').value);
+            
+            // Allocation multipliers
+            // 15 hours budget: 6 write, 3 read, 3 artifact, 2 diagrams, 1 meet
+            // 20 hours budget: 8 write, 4 read, 4 artifact, 2 diagrams, 2 meet
+            // 25 hours budget: 10 write, 5 read, 5 artifact, 3 diagrams, 2 meet
+            let w, r, a, d, m;
+            if (hours === 15) {
+                w = 6.0; r = 3.0; a = 3.0; d = 2.0; m = 1.0;
+            } else if (hours === 20) {
+                w = 8.0; r = 4.0; a = 4.0; d = 2.0; m = 2.0;
+            } else if (hours === 25) {
+                w = 10.0; r = 5.0; a = 5.0; d = 3.0; m = 2.0;
+            }
+
+            document.getElementById('val-writing').textContent = w.toFixed(1);
+            document.getElementById('val-reading').textContent = r.toFixed(1);
+            document.getElementById('val-artifact').textContent = a.toFixed(1);
+            document.getElementById('val-diagrams').textContent = d.toFixed(1);
+            document.getElementById('val-meeting').textContent = m.toFixed(1);
+        }
+
+        function copyEmailText() {
+            const text = document.getElementById('emailText').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Email text copied to clipboard!');
+            }, () => {
+                alert('Failed to copy. Please highlight and copy manually.');
+            });
+        }
+    </script>
+</body>
+</html>
