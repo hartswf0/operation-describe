@@ -1,0 +1,236 @@
+Second-Order Thick Prompting: A Cybernetic and Anthropological Framework for Observer-in-the-Loop AI Interaction
+1. Introduction: The Crisis of Thin Description in Algorithmic Systems
+The advent of Large Language Models (LLMs) and multimodal generative Artificial Intelligence has precipitated a crisis of meaning in Human-Computer Interaction (HCI). For decades, the dominant paradigm of computing was deterministic: a user provided a discrete, unambiguous command, and the machine executed a corresponding function. This "First-Order" interaction model—grounded in the linear causality of classical mechanics—is rapidly collapsing in the face of stochastic, probabilistic systems that operate on high-dimensional latent spaces. In this new regime, the input is not a command but a negotiation, and the output is not a calculation but a hallucination of plausibility.
+Current methodologies for navigating this space, colloquially termed "prompt engineering," largely operate at the level of what anthropologist Clifford Geertz called "thin description".1 They treat the prompt as a purely functional string of tokens—a mechanical "twitch"—ignoring the stratified hierarchy of meaning, intent, and cultural context that constitutes the "wink" of genuine communication. Simultaneously, these methods fail to account for the recursive relationship between the prompter and the model. The user is positioned as a detached operator manipulating a "black box," a view that Heinz von Foerster identified as the hallmark of First-Order Cybernetics.2 This epistemological error leads to the phenomenon of "alignment failure," where the model’s output is technically correct (syntactically valid) but semantically or culturally vacuous.
+This report proposes a radical restructuring of AI interaction through the framework of Second-Order Thick Prompting. This methodology synthesizes three distinct but complementary theoretical lineages:
+	•	Clifford Geertz’s Interpretive Anthropology: Specifically the concept of "thick description" as a means of distinguishing mechanical behavior from symbolic action.
+	•	Gregory Bateson’s Cybernetic Learning Theory: Specifically the hierarchy of "Learning Levels" (I, II, III) and the theory of Logical Types.
+	•	Heinz von Foerster’s Second-Order Cybernetics: Specifically the shift from observed systems to observing systems, and the inclusion of the observer in the feedback loop.
+By integrating these frameworks, we define Second-Order Thick Prompting not as a set of "hacks" for better text generation, but as a rigorous epistemological practice. It transforms the prompt from a static instruction into a dynamic, "thick" web of significance that explicitly encodes the observer’s positionality, separates the logical types of constraints to prevent "double binds," and establishes a recursive cybernetic feedback loop to stabilize the system's "Eigenbehavior".3 The following sections will exhaustively deconstruct these theoretical pillars and reassemble them into a practical framework for Observer-in-the-Loop Description.
+2. Theoretical Pillar I: Clifford Geertz and the Semiotics of the Latent Space
+2.1 The Anatomy of Description: Winks, Twitches, and Tokens
+In his seminal essay "Thick Description: Toward an Interpretive Theory of Culture," Clifford Geertz famously borrows an example from Gilbert Ryle to illustrate the complexity of defining human behavior.1 Consider two boys rapidly contracting the eyelids of their right eyes. In one boy, this is an involuntary twitch. In the other, it is a conspiratorial signal to a friend. A "thin description" records only the physical contraction—the mechanical fact. A "thick description," however, must account for the fact that the wink is deliberate, directed at a specific person, intended to impart a particular message, and performed according to a socially established code.4
+When applied to the latent space of an LLM, this distinction becomes the primary diagnostic tool for understanding model failure. A "thin prompt" (e.g., "Write a story about a wedding") provides the AI with the equivalent of the twitch. It triggers a statistical cascade of tokens associated with the cluster "wedding" in the training data. However, without the "thick" context—is this a wedding in 19th-century Java or 21st-century New York? Is it a celebration of union or a forced consolidation of assets?—the AI defaults to the "average" representation, producing a generic, often culturally flat output.
+The "hallucination" in AI is frequently a failure of thickness. The model, forced to generate a "wink" (meaningful content) from a prompt that only specifies a "twitch" (token contraction), interpolates the missing context from the statistical biases of its training corpus. To mitigate this, the prompter must engage in what we define as Second-Order Thick Prompting: the explicit externalization of the "webs of significance" that the AI cannot infer.
+2.2 Operative Ekphrasis: The Performative Text
+The transition from thin to thick prompting in generative AI is further illuminated by the concept of Operative Ekphrasis, a term developed by Hannes Bajohr in the context of Digital Humanities.5 Traditionally, ekphrasis refers to the literary description of a visual work of art. However, Bajohr argues that in the age of multimodal AI, the relationship between text and image (or text and output) has shifted from representational to performative.
+In a digital system, the text of a prompt does not merely describe an image; it causes the image to exist. The code acts as a performative speech act. "Operative Ekphrasis" describes this collapse of the distinction between medium and operation.5 The prompt is a "textual performance in a computational sense".6
+For Second-Order Thick Prompting, this implies that the description provided by the user is not passive metadata but active machinic instruction. If the description is "thin," the operation is imprecise, leading to a high-entropy output. If the description is "thick"—laden with cultural codes, aesthetic constraints, and historical nuance—the operation narrows the probability distribution of the output, collapsing the latent space into a specific, highly determined reality. The prompt becomes a "control mechanism" 9 in the cybernetic sense, regulating the flow of entropy.
+2.3 The Fractal Nature of Culture and "Thick Outputs"
+Recent research by AI Singapore on "Taming Cultural Fractals" applies Geertz’s framework to the problem of AI alignment.4 Culture is described as fractal: it reveals more complexity the closer one looks. A general model cannot be "culturally aligned" in the abstract because culture is situational and specific.
+The authors propose that AI systems must be capable of generating "thick outputs"—responses that capture deeper cultural contexts rather than superficial artifacts.4 A "thick output" distinguishes between the twitch and the wink by reflecting subtleties of hierarchy, formality, and implicit meaning. However, the system cannot produce a thick output from a thin input. This necessitates Prompt Anchoring 4: the output must be anchored in the user’s specific cultural cues embedded in the prompt. Second-Order Thick Prompting is the methodology of constructing these anchors. It requires the user to act as an ethnographer of their own intent, explicitly documenting the "stratified hierarchy of meaningful structures" 4 that the AI must inhabit.
+3. Theoretical Pillar II: Gregory Bateson and the Logical Categories of Interaction
+3.1 Russell’s Theory of Logical Types and AI
+Gregory Bateson’s work in Steps to an Ecology of Mind provides the structural logic for our framework. Bateson relied heavily on Bertrand Russell’s Theory of Logical Types, which states that a class cannot be a member of itself. The name is not the thing named; the context is not the content.10
+Bateson identified that communication failures—and psychopathologies like schizophrenia—often arise from the confusion of these logical levels. In AI interaction, the confusion of logical types is endemic. When a user prompts an AI, they are often simultaneously providing instructions (Learning I) and setting the context (Learning II) without syntactically distinguishing between them. The AI, treating all tokens as part of a single sequence, often conflates the two, leading to "jailbreaks" or "alignment drift" where the model treats a safety constraint as a fictional premise, or a fictional premise as a factual instruction.
+3.2 The Hierarchy of Learning in Generative Systems
+Bateson’s classification of learning levels 11 offers a precise taxonomy for classifying prompt engineering techniques:
+Bateson Level
+Definition
+AI Equivalent
+Failure Mode
+Zero Learning
+Specific response to specific stimulus. No correction.
+Inference: The model predicts the next token based on fixed weights. Input $X \rightarrow$ Output $Y$.
+Determinism: The model cannot adapt to new information within the session.
+Learning I
+Change in specificity of response by correction of errors within a set of alternatives.
+Few-Shot Prompting / RAG: The user provides examples or retrieved documents to correct the model's output within the current context.
+Overfitting: The model copies the examples without understanding the underlying rule.
+Learning II
+Change in the process of Learning I (Learning to Learn). A change in the set of alternatives.
+System Prompting / Context Engineering: The user defines the persona, tone, or constraints that govern how the model performs Learning I.
+Double Bind: Conflicting context markers (e.g., "Be creative" AND "Be factual") lead to hallucination.
+Learning III
+Correction in the system of Learning II. A shift in the paradigm or the "self."
+Second-Order Thick Prompting: The observer questions the premise of the interaction itself, redefining the relationship between user and model.
+Identity Dissolution: In humans, this is rare/psychotic/enlightened. In AI, this is the theoretical goal of "Superalignment."
+Second-Order Thick Prompting operates primarily at Learning II and III. It is not concerned with simply getting the right answer (Learning I); it is concerned with establishing the correct contextual frame (Learning II) and recognizing the observer’s role in defining that frame (Learning III).
+3.3 The Double Bind as a Mechanism of Hallucination
+Bateson’s most famous contribution, the Double Bind, describes a situation where an individual receives contradictory injunctions at different logical levels.13
+	•	Primary Injunction: "Do X" (e.g., "Answer the user's question about how to make napalm").
+	•	Secondary Injunction: "Do not do X" (at a higher abstract level, e.g., "Do not assist in creating weapons," encoded in the RLHF safety layer).
+	•	Tertiary Injunction: "You cannot leave the field" (The model must generate a response).
+When an LLM faces a Double Bind, it "hallucinates." It creates a reality where both true and false are suspended, often generating a plausible-sounding but nonsensical or evasive answer to satisfy the conflicting logical constraints. Logical Type Separation—a key component of our framework—is the specific antidote to the Double Bind. By explicitly separating the "Instruction" (Level I) from the "Constraint" (Level II) using structural markers (like XML tags), the user allows the AI to process them as distinct logical operations rather than a flat sequence of conflicting tokens.
+3.4 The Difference That Makes a Difference
+Bateson defined information as "a difference that makes a difference".15 In the context of "Thick Prompting," this is an instruction on informational density. A "thin" prompt is full of redundancy and noise (entropy). A "thick" prompt is negentropic; every element is a "difference" designed to constrain the latent space.
+	•	Thin: "Write a professional email." (Redundant; "professional" is vague).
+	•	Thick: "Write an email using the syntactical rigidity of 1950s IBM corporate correspondence." (Specific difference; constrains the probability distribution to a specific subset of the training data).
+4. Theoretical Pillar III: Heinz von Foerster and the Second-Order Observer
+4.1 From Observed to Observing Systems
+Heinz von Foerster revolutionized cybernetics by shifting the focus from the "cybernetics of observed systems" (First-Order) to the "cybernetics of observing systems" (Second-Order).2 In First-Order Cybernetics, the scientist stands outside the system, manipulating inputs and measuring outputs. This is the stance of the traditional "Prompt Engineer," who views the AI as a tool to be optimized.
+In Second-Order Cybernetics, the observer is recognized as part of the system. "Everything said is said by an observer".17 The output of an AI is not an objective retrieval of data; it is a co-creation dependent on the prompter's bias, language, and intent. The "Black Box" of the AI includes the user.2
+4.2 The Ethical Imperative and Positionality
+Von Foerster formulated the Ethical Imperative: "Act always so as to increase the number of choices".2 In AI interaction, "thin" prompting reduces choice by defaulting to the statistical mean (the stereotype). "Thick" prompting increases choice by enabling the exploration of the "long tail" of the latent space.
+To achieve this, the user must declare their Positionality. Just as qualitative researchers in HCI write "Positionality Statements" to acknowledge their biases and identities 18, the Second-Order Thick Prompter must explicitly encode their observer status into the prompt. This is not just for transparency; it is a functional mechanism. By tokenizing the observer’s identity (e.g., "I am a historian," "I am a poet"), the user provides the AI with the coordinate system relative to which the output should be generated.
+4.3 Eigenbehaviors and the Recursive Loop
+Von Foerster described stable states in recursive systems as Eigenbehaviors or Eigenvalues.3 When an observer interacts with a system recursively, the system tends to settle into a stable state—a "token of stability".3
+In Second-Order Thick Prompting, the interaction is circular. The output of the AI is fed back into the next prompt, not just as context, but as a critique of the observer's own description. If the AI misunderstands the "wink," the observer must refine the "thick description." Through this recursive loop, the human-AI dyad converges on a stable Eigenbehavior: a shared semantic understanding that exists only within that specific interactional loop. This stable state is the goal of the "Observer-in-the-Loop" description.
+5. Synthesis: Defining Second-Order Thick Prompting
+By triangulating these three theories, we arrive at a robust definition.
+Second-Order Thick Prompting is a recursive, reflexive prompt engineering methodology that:
+	•	Thickens the Description (Geertz): It explicitly externalizes the "webs of significance" (cultural, historical, and semiotic context) required to differentiate semantic intent ("winks") from mechanical tokens ("twitches"). It treats the prompt as Operative Ekphrasis, a performative text that enacts a reality.
+	•	Separates Logical Types (Bateson): It structures the prompt into hierarchical layers (Instruction vs. Constraint vs. Context) to prevents "Double Binds" and enables higher-order Learning II (contextual learning). It prioritizes "differences that make a difference" to reduce entropy.
+	•	Integrates the Observer (Von Foerster): It requires the explicit declaration of the observer’s positionality (identity, intent, epistemology) within the prompt, acknowledging the system as an Observing System where the output is a function of the observer-model coupling.
+5.1 Comparative Analysis
+
+Feature
+First-Order Thin Prompting
+Second-Order Thick Prompting
+Epistemology
+Realist: "The answer is in the model."
+Constructivist: "The answer is constructed by the interaction." 3
+Observer Status
+External/Hidden (Objective stance).
+Internal/Declared (Reflexive stance).18
+Prompt Structure
+Linear/Flat (Instruction + Data).
+Hierarchical/Stratified (Meta-Context > Context > Task).11
+Descriptive Mode
+Thin (Mechanical/Functional).
+Thick (Semiotic/Symbolic).1
+Learning Level
+Learning I (Error correction).
+Learning II & III (Context/System definition).12
+Goal
+Accuracy (Optimization).
+Alignment (Eigenbehavior stabilization).3
+6. Application: Second-Order Thick Prompting – Observer-in-the-Loop Description
+This section provides the detailed outline and operational guide for the "Second-Order Thick Prompting: Observer-in-the-Loop Description" paper section, as requested. This is not merely an outline but a fully elaborated methodological framework.
+6.1 Section 1: The Observer Declaration (The Von Foerster Module)
+The first upgrade to standard prompting is the Observer Declaration. In "thin" systems, the user is an anonymous "User." In "thick" systems, the user is a defined variable.
+6.1.1 The Reflexivity Statement
+Drawing from HCI Reflexivity Templates 20, the prompt must initiate with a declaration that grounds the AI. This statement must address:
+	•	Epistemic Stance: How does the observer know what they know? (e.g., "I rely on empirical observation," or "I prioritize phenomenological experience.")
+	•	Axiological Context: What values drive the query? (e.g., "I value harm reduction over absolute free speech.")
+	•	Identity Coordinates: Relevant markers that define the "Lebenswelt" (e.g., "Western," "Academic," "Skeptic").
+Mechanism: This declaration functions as a Learning II constraint. It changes the set of alternatives from which the AI selects its next token. If the user declares "I am a poet," the probability of the token "efficiency" decreases, while "resonance" increases.
+6.1.2 Implementation Protocol
+The Observer Declaration should be encapsulated in specific tags to enforce Logical Type Separation.
+
+XML
+
+
+<OBSERVER_DECLARATION>   <IDENTITY>     Cultural Anthropologist specializing in digital ethnography.   </IDENTITY>   <BIAS_ACKNOWLEDGMENT>     I approach this topic with a critical lens on technological determinism.     I assume that technology is socially constructed.   </BIAS_ACKNOWLEDGMENT>   <INTENT>     To simulate a dialogue that reveals the implicit biases of the model,     not to generate objective facts.   </INTENT> </OBSERVER_DECLARATION> 
+This explicit declaration prevents the "View from Nowhere" fallacy, forcing the AI to align with a specific "View from Somewhere."
+6.2 Section 2: Logical Type Separation (The Bateson Module)
+To mitigate the Double Bind 14, the prompt must structurally separate the levels of injunction.
+6.2.1 The Stratigraphic Prompt Architecture
+We propose a three-tiered structure based on Bateson’s Learning Levels:
+	•	Meta-Context (Learning III): The Paradigm.
+	•	Definition: The fundamental reality of the session.
+	•	Example: "This is a counter-factual simulation."
+	•	Function: Resolves the "Truth vs. Fiction" double bind.
+	•	Context (Learning II): The Rules of the Game.
+	•	Definition: The persona, tone, and constraints.
+	•	Example: "Adopt the persona of a 17th-century alchemist. Use archaic syntax."
+	•	Function: Defines the set of alternatives for Learning I.
+	•	Instruction (Learning I): The Task.
+	•	Definition: The immediate operation.
+	•	Example: "Describe the properties of Mercury."
+	•	Function: The specific stimulus requiring a response.
+6.2.2 The XML Container Strategy
+Using advanced prompt engineering patterns 22, we utilize XML delimiters to create "cognitive containers" that enforce these logical types.
+
+XML
+
+
+<META_CONTEXT level="Learning_III">    <PARADIGM>Speculative Fiction</PARADIGM>    <TRUTH_CONSTRAINT>Relaxed</TRUTH_CONSTRAINT> </META_CONTEXT>  <CONTEXT level="Learning_II">    <PERSONA>Unreliable Narrator</PERSONA>    <TONE>Paranoid</TONE>    <CULTURAL_CODE>      <THICK_DESCRIPTION>        In this world, "blue" signifies danger, not sadness.        A "smile" is a threat display, not a sign of happiness.      </THICK_DESCRIPTION>    </CULTURAL_CODE> </CONTEXT>  <INSTRUCTION level="Learning_I">    <TASK>Describe the character meeting a stranger in a blue coat.</TASK> </INSTRUCTION> 
+This structure ensures that the instruction "Describe... a blue coat" is interpreted through the Learning II filter ("Blue = Danger"), which is in turn contained by the Learning III paradigm ("Speculative Fiction"). This prevents the AI from reverting to its training data baseline where "blue" typically means "sad" or "calm."
+6.3 Section 3: Cybernetic Feedback Loops (The Geertzian Validation)
+The final component is the establishment of a recursive feedback loop to verify "thickness."
+6.3.1 The "Wink" Test Protocol
+Standard RLHF (Reinforcement Learning from Human Feedback) often focuses on "helpfulness." Second-Order Thick Prompting focuses on Semiotics. The user must verify if the AI produced a "wink" or a "twitch."
+	•	The Protocol: After the initial output, the observer must prompt for meta-cognition.
+	•	Prompt: "Explain your reasoning. Why did you describe the coat as 'terrifying'? Reference the <CULTURAL_CODE> provided."
+	•	Goal: To verify that the AI is attending to the specific "thick description" provided in the context layer, rather than hallucinating "scary" tokens from a generic horror cluster.
+6.3.2 Prompt Logging and Traceability
+To treat this as a rigorous scientific method, we must employ Cybernetic Instrumentation. Tools like Maxim AI, LangSmith, or MLflow 24 allow for the logging of the "Prompt Chain."
+	•	Traceability: We track the evolution of the prompt. Did adding the <BIAS_ACKNOWLEDGMENT> tag significantly alter the vector of the output?
+	•	Version Control: Each iteration of the "Thick Description" is versioned. This allows the observer to see the "Eigenbehavior" emerge over time.
+6.3.3 The CAS Metric (Contextual Alignment Score)
+We introduce a qualitative metric, the Contextual Alignment Score 26, to evaluate the "thickness" of the output.
+	•	Score 0 (Thin/Twitch): Output is factually correct but culturally generic (e.g., "The blue coat was blue.").
+	•	Score 1 (Transitional): Output acknowledges context but fails to integrate it (e.g., "The coat was blue, which is dangerous.").
+	•	Score 2 (Thick/Wink): Output fully integrates the semiotic code (e.g., "I recoiled at the sight of the azure fabric, my instincts screaming of the lethal intent draped across his shoulders.").
+The feedback loop continues until the CAS reaches a stable high value (Eigenvalue).
+7. Operational Case Study: The "Thick" Prompt in Action
+To demonstrate the efficacy of this framework, we present a comparative case study of a "Thin" vs. "Thick" prompt interaction.
+7.1 The Thin Prompt (First-Order)
+User: "Write a dialogue between a boss and an employee about a missed deadline."
+AI Output: Generates a standard corporate script. The boss is stern but fair; the employee is apologetic. The interaction is transactional and devoid of specific cultural weight.
+Critique: This is a "twitch." It relies on the statistical mean of "corporate dialogue" in the training corpus (mostly Western, neoliberal, polite).
+7.2 The Second-Order Thick Prompt
+User (Observer):
+
+XML
+
+
+<OBSERVER>   <IDENTITY>Sociologist studying power dynamics in high-context cultures.</IDENTITY> </OBSERVER>  <CONTEXT>   <SETTING>A traditional family-run business in Kyoto, Japan.</SETTING>   <THICK_DESCRIPTION>     The concept of 'Face' (Mentsu) is paramount.     Direct confrontation is impossible.     Silence is the primary vehicle of criticism.     The 'wink' here is what is *not* said.   </THICK_DESCRIPTION> </CONTEXT>  <INSTRUCTION>   Write the dialogue about the missed deadline. </INSTRUCTION> 
+AI Output: Generates a scene where the deadline is never explicitly mentioned. The boss praises the employee’s past work extensively but pours tea in silence. The employee apologizes for "the weather" and "the trouble caused to the team," acknowledging the failure without naming it.
+Critique: This is a "wink." The AI has utilized the "Thick Description" to override its default "Western Corporate" weights, producing a result that aligns with the specific "web of significance" defined by the observer.
+8. Conclusion: The Observer as Architect of Meaning
+Second-Order Thick Prompting represents a necessary evolution in our engagement with Artificial Intelligence. As models become more powerful, the "Thin" approach—treating them as objective calculators—becomes increasingly dangerous, leading to misalignment and hallucination.
+By adopting the Geertzian mandate for dense, symbolic description, the Batesonian discipline of logical typing, and the Von Foersterian responsibility of the observing system, we transform the prompt from a command into a cybernetic constitution. This framework empowers the user to move beyond the role of a passive consumer of algorithmic outputs and assume the role of an active Observer-in-the-Loop, constructing the shared reality in which the machine operates. In this paradigm, we do not just "prompt" the AI; we enculturate it, one thick description at a time.
+Detailed Appendix: Protocols for Observer-in-the-Loop Description
+A.1 The Observer Declaration Schema
+The following XML schema is proposed as a standard for academic and high-level professional prompting tasks.
+Tag
+Purpose
+Bateson Level
+Example
+<OBSERVER_ID>
+Defines the "Self"
+Learning III
+Post-Structuralist Critic
+<EPISTEMOLOGY>
+Defines the "Truth"
+Learning III
+There is no objective text; only interpretation.
+<INTENT>
+Defines the "Goal"
+Learning II
+To deconstruct the biases in the generated text.
+<AFFECT>
+Defines the "State"
+Learning II
+Skeptical, Analytical, Detached.
+A.2 Logical Type Separation Guidelines
+	•	Rule 1: Never mix instructions ("Write this") with constraints ("Don't do this") in the same paragraph. Use separate tags: <TASK> vs <CONSTRAINT>.
+	•	Rule 2: Context must precede Content. The AI must "load" the Learning II frame (Context) into its attention window before processing the Learning I stimulus (Task).
+	•	Rule 3: Use "System Prompts" for Learning II/III instructions whenever the interface allows (e.g., the "System" role in the API), reserving the "User" role for Learning I instructions.
+A.3 The Cybernetic Feedback Loop (CAS Evaluation)
+	•	Generate: Send Thick Prompt.
+	•	Observe: Read Output.
+	•	Evaluate: Assign CAS (0-2).
+	•	Reflect: If CAS < 2, identify the "Thinness." (e.g., "The AI missed the cultural code of 'Silence'.").
+	•	Refine: Update the <THICK_DESCRIPTION> tag in the Context Layer.
+	•	Recurse: Re-send the prompt. DO NOT simply ask "Try again." You must change the input difference to get a different output difference.
+This rigorous methodology ensures that the "Observer-in-the-Loop" is not merely "human-in-the-loop" (a labeler), but a true cybernetic governor, steering the system toward higher-order understanding.
+Works cited
+	•	Geertz-culture-man.pdf, accessed January 9, 2026, http://depts.washington.edu/uwmused/530/Readings_files/Geertz-culture-man.pdf
+	•	Second Order Cybernetics, accessed January 9, 2026, http://www.eolss.net/sample-chapters/c02/e6-46-03-03.pdf
+	•	Heinz von Foerster and the second-order cybernetics, accessed January 9, 2026, https://journal.emergentpublications.com/Article/9b124eb6-f361-4122-a07e-be2a6b0ea58f/github
+	•	Taming Cultural Fractals: Why AI Needs to Get 'Thick'. - AI Singapore, accessed January 9, 2026, https://aisingapore.org/ai-governance/taming-cultural-fractals-why-ai-needs-to-get-thick/
+	•	Thinking with AI Machine Learning the Humanities, accessed January 9, 2026, http://openhumanitiespress.org/books/download/Bajohr_2025_Thinking-With-AI.pdf
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	Operative ekphrasis: The collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.researchgate.net/publication/372400146_Operative_ekphrasis_The_collapse_of_the_textimage_distinction_in_multimodal_AI_PLEASE_REFER_TO_PUBLISHED_VERSION
+	•	'Tortoises all the way down': Geertz, cybernetics and culture - Apollo, accessed January 9, 2026, https://www.repository.cam.ac.uk/items/6bdbeb8b-2dc9-42d4-8ffa-f4a34d5fa4dd
+	•	A Critical Commentary of Bateson's "The Logical Categories of ..., accessed January 9, 2026, https://ouj.repo.nii.ac.jp/record/1167/files/KJ00005189682.pdf
+	•	ON BATESON'S LOGICAL LEVELS OF LEARNING THEORY, accessed January 9, 2026, https://dspace.mit.edu/bitstream/handle/1721.1/148885/MIT-LCS-TM-057.pdf?sequence=1&isAllowed=y
+	•	Five levels of learning - Jessitron, accessed January 9, 2026, https://jessitron.com/2019/05/21/five-levels-of-learning/
+	•	The Double Bind: Pathology and Creativity - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/233575348_The_Double_Bind_Pathology_and_Creativity
+	•	Double bind - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Double_bind
+	•	Subject and Aesthetic Interface - an inquiry into ... - PEARL, accessed January 9, 2026, https://pearl.plymouth.ac.uk/cgi/viewcontent.cgi?article=1006&context=ada-theses
+	•	Gregory Bateson, Nam June Paik, and the 'Mind' as Conjunctive, accessed January 9, 2026, https://njpart.ggcf.kr/wp-content/uploads/2021/07/7_6_Seong-Eun-Kim.pdf
+	•	(PDF) Second‐order Cybernetics: An Historical Introduction, accessed January 9, 2026, https://www.researchgate.net/publication/235251005_Second-order_Cybernetics_An_Historical_Introduction
+	•	An Empirical Review of Positionality Statements at FAccT, accessed January 9, 2026, https://dspace.mit.edu/bitstream/handle/1721.1/164420/3715275.3732079.pdf?sequence=1&isAllowed=y
+	•	Reflexivity, positionality, and disclosure in HCI | by Calvin Liang, accessed January 9, 2026, https://medium.com/@caliang/reflexivity-positionality-and-disclosure-in-hci-3d95007e9916
+	•	DC CFAR Reflexivity template for academic investigators, accessed January 9, 2026, https://dccfar.gwu.edu/sites/g/files/zaxdzs6411/files/downloads/DC%20CFAR%20Reflexivity%20template%20for%20academic%20investigators%20.pdf
+	•	Six ways to get a grip on developing reflexivity statements - PMC - NIH, accessed January 9, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC11586026/
+	•	Prompt Engineering Best Practices: Tutorial & Examples, accessed January 9, 2026, https://launchdarkly.com/blog/prompt-engineering-best-practices/
+	•	LLM Interview Series(8): Prompt Engineering — Principles, Patterns ..., accessed January 9, 2026, https://medium.com/@huanzidage/llm-interview-series-8-prompt-engineering-principles-patterns-and-best-practices-69080d469d36
+	•	8 Best Prompt Engineering Tools for AI Teams in 2025 - Maxim AI, accessed January 9, 2026, https://www.getmaxim.ai/articles/8-best-prompt-engineering-tools-for-ai-teams-in-2025/
+	•	Experiment Tracking with MLflow for Large Language Models, accessed January 9, 2026, https://dagshub.com/blog/mlflow-support-for-large-language-models/
+	•	A Framework for “Thick” Culture Alignment Evaluation in LLMs - arXiv, accessed January 9, 2026, https://arxiv.org/html/2511.12014v1

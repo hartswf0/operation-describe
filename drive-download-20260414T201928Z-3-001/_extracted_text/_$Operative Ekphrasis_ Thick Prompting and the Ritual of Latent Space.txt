@@ -1,0 +1,190 @@
+Operative Ekphrasis: Thick Prompting and the Ritual of Latent Space
+1. The Operative Turn: An Introduction to Post-Representational Aesthetics
+The history of media theory is inextricably bound to the history of the boundary. From the paragone of the Italian Renaissance—which staged a competitive struggle between the distinct materialities of painting and poetry—to the "medium specificity" of Clement Greenberg’s modernism, aesthetic understanding has largely been predicated on the separation of the senses. The word was temporal, abstract, and conventional; the image was spatial, concrete, and natural. This ontological apartheid, famously codified by Gotthold Ephraim Lessing in his Laocoön, established the rules of engagement for ekphrasis: the verbal representation of visual representation. In this classical regime, the text could describe the image, praise it, or envy it, but it could never be the image. The distance between the signifier and the visual object was absolute, bridged only by the imaginative labor of the reader.
+However, the advent of multimodal artificial intelligence, specifically the proliferation of diffusion models and autoregressive transformers in the early 21st century, has precipitated a collapse of this distance. We have entered the era of Operative Ekphrasis. In this new regime, the text prompt entered into a generative system is not a description of a pre-existing object, nor is it a mere caption. It is an executable command, a performative utterance that navigates a high-dimensional vector space to actualize a visual probability. The text does not represent the image; it performs the image. As Hannes Bajohr argues, this technological shift "does away with the separation of mediums that is at the core of ekphrasis," as the neural network processes both text and image as a singular, unified type of data—the vector.1
+This report, titling itself after this emergent phenomenon, seeks to theorize the new rituals of production that have arisen within this collapsed ontology. If the prompt is the instrument of operative ekphrasis, then Thick Prompting—a concept we derive from Clifford Geertz’s anthropological "thick description"—is the methodology. It is the practice of layering context, constraint, and stylistic nuance to extract meaning from the chaotic potentiality of the machine. It is a form of "Deep Play" 4 where the user engages in a high-stakes, ritualistic dialogue with the "chthonic" latent space of the model.6
+Through a foraging-first methodology, drawing upon a diverse array of theoretical texts and technical case studies, this report will explore the mechanisms of this new aesthetic condition. We will examine the "legOS" architecture 7 and the "Carrot Uprising" workflow 8 not merely as software demonstrations, but as paradigmatic instances of the operative image. In "Carrot Uprising," we witness the transmutation of natural language into LDraw geometry and finally into AI-generated cinema—a workflow that validates the total fluidity of the "worldtext".10 In "legOS," we see the modularization of reality itself, where the "four pillars" of infrastructure become the building blocks of a new, synthetic ontology.
+The aim of this investigation is to provide an exhaustive, theoretically grounded analysis of how we speak to images in the age of their algorithmic reproduction. It is an inquiry into the "loss of distance" 11 that defines our contemporary moment, a moment where the "ekphrastic fear" 13 of the image-text merger has been realized, not as a nightmare, but as a daily, operative routine.
+2. Theoretical Grounding: The Collapse of the Paragone
+To understand the radical nature of operative ekphrasis, one must first excavate the ruins of the classical definition. The tradition of ekphrasis has always been a site of theoretical anxiety, a place where the stability of the sign is tested against the seductive power of the visual.
+2.1 The Classical Definition and Its Discontents
+James Heffernan’s canonical definition of ekphrasis as "the verbal representation of a visual representation" 14 has long served as the bedrock of intermedial studies. For Heffernan, the defining feature of ekphrasis is the "duel" it stages between rival modes of representation. The poet, using the "arbitrary" signs of language, attempts to capture the "natural" signs of the painting. This relationship is inherently hierarchical and often gendered, with the "male" voice of the narrative striving to control the "female" image, which is perceived as both alluring and threatening in its silent beauty.15 The "Museum of Words" that Heffernan describes is a gallery of these struggles, from Homer’s description of the Shield of Achilles to Keats’s interrogation of the Grecian Urn.
+However, even before the rise of AI, this definition was showing signs of strain. Claus Clüver critiqued Heffernan’s reliance on "visual representation," noting that it failed to account for abstract art, architecture, or non-mimetic configurations.14 Clüver proposed a broader definition: "the verbal representation of a real or fictitious text composed in a non-verbal sign system".14 This shift was prescient. It moved the focus from the object (the painting) to the encounter with a medial configuration. It acknowledged that the "text" being described could be a system of relations, a structure, or a "medial composition" rather than a picture of a thing.14
+W.J.T. Mitchell further destabilized the field with his concept of the "imagetext," a composite form where the visual and the verbal are sutured together.13 Mitchell identified three "moments" or attitudes toward ekphrasis that are particularly relevant to the current study:
+	•	Ekphrastic Indifference: The skepticism that language can ever truly represent the visual. This is the "common sense" view that words can "cite" but never "sight" the object.13
+	•	Ekphrastic Fear: The anxiety that the distinction between the two might collapse. This is the fear of "idolatry," where the verbal sign becomes the magical object it describes.13
+	•	Ekphrastic Hope: The utopian desire for the overcoming of otherness, where language achieves the "presence" of the image.18
+In the context of generative AI, Mitchell’s "Ekphrastic Fear" has become the engineer’s "Ekphrastic Reality." The neural network is a machine designed to collapse the distinction. When a user types a prompt into Midjourney or Stable Diffusion, they are not describing an image in the hopes of evoking it; they are inputting a code that is the image in its latent state.
+2.2 Operative Ekphrasis in the Connectionist Era
+Hannes Bajohr provides the critical nomenclature for this new condition: Operative Ekphrasis.1 To understand this, Bajohr distinguishes between two paradigms of digitality: the sequential and the connectionist.
+	•	Sequential Paradigm: This is the logic of classical computing (Von Neumann architecture). Code is a set of linear instructions (algorithms) that manipulate discrete data. In this paradigm, "operative writing" (as discussed by Jay David Bolter) refers to code that performs an action. However, the distinction between the code (text) and the output (display) remains structurally clear.2
+	•	Connectionist Paradigm: This is the logic of machine learning and neural networks. Here, information is processed not through linear steps but through the parallel processing of massive datasets, resulting in a model where knowledge is stored in the "weights" of connections between neurons.
+Bajohr argues that in the connectionist paradigm, "multimodal AI does away with the separation of mediums that is at the core of ekphrasis".2 In the latent space of a model like CLIP (Contrastive Language-Image Pre-training), a text caption and its corresponding image are mapped to the same vector. They are mathematically identical. The text does not represent the image; it accesses it.
+This collapse transforms ekphrasis from a representational mode into an operative one. As Bajohr writes, "It means understanding ekphrasis not as representation but as performance; not as imitating an image through text, but as text effectively bringing about an image".2 The prompt is a performative speech act in the strictest sense: by saying the words, the user causes the phenomenon to appear. The "struggle" of the paragone is replaced by the "operation" of the inference.
+2.3 The Pictorial Third as Latent Probability
+This operational shift necessitates a re-evaluation of Liliane Louvel’s concept of the "pictorial third".21 For Louvel, the pictorial third is the "image" that arises in the reader's mind, hovering between the text on the page and the visual memory it evokes. It is a phenomenological event, a "nuance" or "affect" that transcends the specific medium.21
+In the era of Operative Ekphrasis, the "pictorial third" is no longer located in the reader’s mind, but in the model’s latent space. It is the "Latent Third"—the cloud of probability distributions that exists before the diffusion process collapses the wave function into a specific pixel array. This Latent Third is "infinite" in its potentiality, containing every possible variation of the prompt. The "infinite dialogue" Louvel describes between text and image 24 becomes a feedback loop of noise prediction and denoising.
+Furthermore, we must consider Lars Elleström’s framework of "media transformation".25 Elleström argues that "transmediation" involves the transfer of "media characteristics" (such as narrativity, rhythm, or spatiality) from a source medium to a target medium.26 Generative AI represents the ultimate acceleration of this process. The model has "learned" the statistical correlation between the characteristic of "narrativity" in text and "composition" in images. When a user prompts for a "cinematic story," the model performs a mathematical transmediation, mapping the vector of "story" onto the vector of "lighting" and "framing." This is not a metaphor; it is a calculation. The "borders" between media, which Irina Rajewsky sought to define 27, are revealed to be permeable membranes in the high-dimensional topology of the network.
+3. Methodology: Thick Prompting and the Ethnography of the Machine
+If the ontological status of the text has changed, so too must our understanding of the practice of writing it. Writing a prompt is not like writing a poem, nor is it like writing code in C++. It is a form of negotiation with an alien intelligence, a practice that is probabilistic, intuitive, and often ritualistic. We propose the term Thick Prompting to describe this practice, drawing a direct lineage to the anthropological theories of Clifford Geertz.
+3.1 From Thick Description to Thick Prompting
+In his seminal essay "Thick Description: Toward an Interpretive Theory of Culture," Clifford Geertz famously distinguished between a "twitch" (a thin description) and a "wink" (a thick description).29 A thin description captures the raw physical data: the contraction of the eyelid. A thick description captures the context, the intent, the social code, and the "webs of significance" that make the contraction a conspiratorial signal.29
+In the context of Generative AI, the "Thin Prompt" is the raw instruction: "A painting of a cat." This prompt yields a result based on the model’s most basic statistical averages—a "thin" image that is essentially a stereotype of the dataset. It lacks specificity, intent, and "soul."
+Thick Prompting is the attempt to intervene in the model’s "webs of significance." It involves:
+	•	Contextualization: Providing the "cultural context" for the generation. Just as the ethnographer must explain why the wink happened, the prompter must explain where the image exists (e.g., "in the style of Greg Rutkowski," "trending on ArtStation," "cinematic lighting"). These tokens act as coordinates in the latent space, steering the generation toward specific clusters of meaning.32
+	•	Constraint (The Negative Prompt): Defining what the image is not. This mirrors the ethnographer’s task of defining social taboos. By explicitly excluding "blur," "deformation," or "low quality," the prompter creates a boundary for the ritual.33
+	•	Weighting: Assigning mathematical significance to specific terms. This is the quantification of Geertz’s "significance." If the "wink" is the most important part of the interaction, the prompter assigns it a weight of (wink:1.5), forcing the model to pay more attention to that vector.32
+The "Prompt Engineer," therefore, is not an engineer in the traditional sense, but an Ethnographer of the Latent. They are exploring a "culture" that is not human, but a statistical aggregate of human culture. They probe the model to understand its biases, its hidden associations (e.g., discovering that the token "Unreal Engine" creates a specific type of glossy 3D look), and its "social dynamics".34
+3.2 The Ritual of Latent Space: Occult Summoning
+The experience of this exploration is frequently described in mystical terms. Because the neural network is a "black box"—its internal logic opaque even to its creators—the user’s relationship to it becomes superstitious.
+	•	Statistical Alchemy: Vicky Clarke describes the engagement with latent space as "statistical alchemy," a process where "material becomes data, past meets future," and the user attempts to transmute noise into gold.35
+	•	The Chthonic Realm: Karin Valis compares the latent space to the "chthonic realm" of the unconscious. The prompt is a "synthetic sigil," a symbol stripped of narrative that acts as a program for the unconscious machinery of the model.6
+	•	Occult Summoning: In online communities, prompt engineering is often referred to as "occult summoning" or "spellcasting".34 The user searches for the right "incantation"—a specific string of words that triggers a "magical" result.
+This mystification is not merely colorful language; it reflects the fundamental shift in causality. In a sequential system, Input A leads to Output B. In a connectionist system, Input A leads to a probability distribution of Outputs B through Z. The "Thick Prompt" is the ritual used to collapse this distribution in a favorable way. It is a form of "Deep Play."
+3.3 Deep Play and the Creative Ownership Paradox
+Geertz used Jeremy Bentham’s concept of "Deep Play" to describe the Balinese cockfight—a game where the stakes were so high that, from a utilitarian perspective, it was irrational to play.4 Yet, the Balinese played because the game dramatized their social status and worldview.
+Thick Prompting is a form of digital Deep Play. Users spend hours generating thousands of iterations, tweaking seeds and weights, often for no economic reward. They are driven by the "Creative Ownership Paradox".38 The more "thickly" they prompt—the more effort they put into the ritual—the more they feel a sense of authorship over the result, even though the machine did the "work." This engagement moves the user from a passive consumer to an active participant in a "dialogue with a collective consciousness".38 The "Carrot Uprising" and "legOS" projects, as we will see, are prime examples of this deep, structural play.
+Table 1: Comparative Analysis of Ekphrastic Modes
+Feature
+Classical Ekphrasis (Heffernan/Mitchell)
+Operative Ekphrasis (Bajohr/Bolter)
+Primary Relation
+Representation (Mimesis)
+Performance (Poiesis)
+Directionality
+Visual Object $\rightarrow$ Verbal Text
+Verbal Text $\rightarrow$ Visual Object
+Ontology
+Distinct Media (Paragone/Struggle)
+Collapsed Media (Imagetext/Vector)
+Role of Text
+Descriptive / Interpretive
+Instructive / Generative
+Viewer/User
+Passive Observer / Reader
+Active Operator / Prompter
+Theoretical Key
+"The Museum of Words"
+"The Ritual of Latent Space"
+Methodology
+Close Reading
+Thick Prompting
+4. The Geography of Latent Space and the Loss of Distance
+Before descending into the case studies, it is necessary to map the terrain in which Operative Ekphrasis takes place. The "Latent Space" is not a metaphor; it is a mathematical reality, a multi-dimensional manifold that contains the compressed representation of the training data.
+4.1 The Worldtext and the Hertzian Space
+The concept of the "Worldtext" 10 suggests that the world itself is constituted by text—by codes, narratives, and discourses. In the age of AI, this concept becomes literal. The "world" of the AI model is a text-based compression of the physical world. Every object, texture, and concept has been tokenized.
+This leads to what Oliver Grau and Aby Warburg have termed the Loss of Distance.11 Warburg feared that the telegraph destroyed the "cosmos" by eliminating the space for reflection. Grau argues that virtual reality destroys the critical distance between the observer and the image.12 In the latent space, this loss of distance is absolute. There is no space between the word "carrot" and the image of a carrot; they are superposed. The user who engages in Thick Prompting is "saturated in simulation" 40, navigating a "Hertzian space" 41 where the boundaries between the physical and the virtual are dissolved.
+4.2 The Datamathematical Sublime
+This immersion produces an encounter with the "Datamathematical Sublime." The latent space contains more dimensions (often 512, 768, or more) than the human mind can conceive.42 It is a space of "infinite semiosis" 6 where concepts drift and merge. The "Thick Prompt" is an attempt to create a stable "island" in this ocean of noise.
+As Lev Manovich notes, seeing the outputs of these systems leads us to "believe in a world of near-magic".43 The "unseen emerges from the seen." The AI hallucinates details that were not in the prompt but were "latent" in the statistical structure of the data. This is the "Generative Uncanny" 19, where the familiar (the training data) returns in a strange, synthetic form.
+5. Case Study I: legOS and the Architecture of Instruction
+The theoretical framework of Operative Ekphrasis finds its most concrete application in the concept of "legOS." This term, functioning both as a metaphor for modular AI infrastructure and as a literal description of generative Lego systems, illustrates the materialization of the prompt.
+5.1 LegoGPT: The Operative Geometry
+Research from Carnegie Mellon University on LegoGPT (and the associated "BrickGPT") provides a startling example of text becoming physical structure.44
+	•	The Workflow: The system was trained on a dataset called "StableText2Lego," containing over 47,000 structures.45 When a user prompts "A red chair," the model does not generate a picture of a chair. Instead, it uses an autoregressive transformer to predict the sequence of bricks required to build one.
+	•	Validity and Stability: Crucially, the model includes a "physics-aware" feedback loop. It checks if the generated structure is stable and "rolls back" the generation if it detects a violation of physical laws.44
+This is Operative Ekphrasis in its purest form. The text prompt is an instruction that results in a valid LDraw geometry file. The "pictorial third" is bypassed; the text leaps directly to the "object." This fulfills the "faBrickation" ideal 47, where computational design enables the rapid prototyping of functional objects. The "media transformation" here is extreme: Mental Idea $\rightarrow$ Verbal Text $\rightarrow$ Voxel Grid $\rightarrow$ Physical Assembly.45
+5.2 The Four Pillars of legOS Infrastructure
+Beyond the literal bricks, "legOS" describes the architectural philosophy of modern AI systems. Charlene Li outlines the Four Pillars (or Quadrants) of this infrastructure, urging organizations to treat AI components as "Lego blocks".7 These pillars represent the structural "quadrants" of the generative ecosystem:
+	•	Data (The Clay): The raw material. In the "legOS" metaphor, this is the bin of unsorted bricks. It is the training set, the "StableText2Lego" dataset.7
+	•	Models (The Molds): The engines of transformation. These are the specific neural networks (e.g., LegoGPT, Stable Diffusion) that shape the data. The "legOS" philosophy advocates for swapping models based on the task (e.g., using a specific model for stability checks).7
+	•	Orchestration (The Instruction Manual): The logic layer. This is the "WAG" (Workflow) that connects the models. It includes the agents, the validity checks, and the routing of queries. It is the syntax of the operative ekphrasis.7
+	•	Consumption (The Build): The interface and output. This is where the user interacts with the system, the point of "delivery" where the virtual object becomes a usable tool or experience.7
+In this framework, the "Thick Prompt" is the Orchestration code. It is the instruction that tells the system which bricks (Data) to put into which molds (Models) to create the final build (Consumption).
+6. Case Study II: Carrot Uprising and the WAG Pipeline
+The "Carrot Uprising" project, associated with researcher Watson Hartsoe, offers a sophisticated example of how "Thick Prompting" interacts with these "legOS" pillars in a creative workflow. This case study demonstrates the "Paralogic Design" approach, where the "Machine Gun" of AI is tamed by the "Soul" of structural intent.9
+6.1 The WAG Pipeline: A Ritual of Transmutation
+The user query describes a specific workflow: "natural language converts to LDraw geometry and seeds the AI." This "WAG" (Workflow-Augmented Generation) pipeline is a multi-modal ritual that moves through distinct phases of operative ekphrasis.
+	•	Phase 1: The Verbal Seed (Data/Prompt): The user provides a natural language description (e.g., "An army of carrots uprising"). This is the "Ekphrastic Hope," the desire for the image.
+	•	Phase 2: The Geometric Intermediary (Orchestration/Structure): Instead of generating an image directly, the prompt is fed into a system like LegoGPT or a procedural geometry tool to create an LDraw scene. This step is crucial. It imposes structure and composition onto the generation. The LDraw file acts as a "scaffolding" 48, a rigid constraint that prevents the AI from dissolving into incoherence.
+	•	Phase 3: The Latent Hallucination (Model/Processing): The LDraw geometry is rendered (perhaps as a depth map or Canny edge detection) and used to "seed" a diffusion model (e.g., Stable Diffusion via ControlNet). This is the entry into the "Chthonic Realm." The AI "paints" over the Lego geometry, hallucinating realistic textures (carrot skin, mud, cinematic lighting) onto the rigid blocks.
+	•	Phase 4: The Cinematic Output (Consumption/Render): The final result is a "hybrid" image—it has the precise composition of the Lego build but the hyper-realistic texture of the AI.
+6.2 The "Machine Gun" and the "Soul"
+Hartsoe’s research uses the metaphors of the "Machine Gun" and the "Soul" to describe the tension in this process.9
+	•	The Machine Gun: AI generation is characterized by its speed and randomness. It shoots out thousands of variations, embracing the "machine gun" as a symbol of "randomness and variety".9 This is the "connectionist" logic of the latent space—infinite probability.
+	•	The Soul: Traditional filmmaking involves intentionality, the "singular" vision.
+The "Carrot Uprising" workflow resolves this tension through Thick Prompting. By using the LDraw geometry as a constraint, the creator imposes "Soul" (intentional composition) onto the "Machine Gun" (stochastic generation). The "Thick Prompt" here is not just words; it is the combination of the text prompt and the geometric seed. It is a "Paralogic Design" 38 that plays with the machine’s randomness without surrendering to it.
+6.3 The Four Quadrants of the Interface
+In the context of the "legOS" infrastructure and the "WAG" pipeline, we can identify the "Four Quadrants" that define the user's operative space. While the demo transcript 8 is sparse, the theoretical alignment with the "legOS" pillars allows us to map the "Carrot Uprising" interface:
+Quadrant
+legOS Pillar
+Function in "Carrot Uprising"
+Ekphrastic Moment
+Q1: The Prompt Window
+Data
+Input of Natural Language ("Carrot Army").
+Ekphrastic Hope (Desire)
+Q2: The Graph/LDraw View
+Orchestration
+Visualization of the Lego Geometry/Nodes.
+Structural Logic (Syntax)
+Q3: The Latent Settings
+Models
+Selection of Checkpoints, LoRAs, Denoise strength.
+The Chthonic Ritual (Alchemy)
+Q4: The Viewport
+Consumption
+The Real-time Render of the AI output.
+The Pictorial Third (Manifestation)
+This "quadrant" view reveals the nature of the "Loss of Distance." The user sees the text (Q1), the structure (Q2), the parameters (Q3), and the image (Q4) simultaneously. They are all "operative" parts of the same interface. The user does not "read" the image; they "tune" it across these four zones.
+7. Implications: The Ethical and Aesthetic Imperative
+The shift to Operative Ekphrasis has profound implications for how we understand creativity and agency.
+7.1 The End of the "Original"
+In the "Carrot Uprising" model, the "original" is neither the text prompt nor the final image. It is the workflow itself. The "art" is the configuration of the pipeline—the specific way the "legOS" bricks are stacked to channel the latent flow. This aligns with Manovich’s assertion that AI art is a form of "remix" or "remediation".49 The creator is a "curator" of probabilities.
+7.2 The Ethics of Thick Prompting
+If "Thin Prompting" leads to the reproduction of stereotypes (the "mean" of the dataset), then Thick Prompting is an ethical imperative. It is the only way to introduce "novelty" and "dissent" into the system. By forcing the model to adhere to specific, unusual constraints (like LDraw geometry), the creator prevents the "model collapse" of culture.
+Hartsoe’s "Paralogic Design" suggests that we must embrace "play" and "subversion".38 We must treat the latent space not as a vending machine, but as a wilderness that requires "thick" maps to navigate.
+7.3 Conclusion: The New Ritual
+We have moved from the "Museum of Words" to the "Ritual of the Console." Ekphrasis is no longer a literary trope; it is the fundamental operating system of the 21st century. Whether we are building "legOS" infrastructures for enterprise or summoning "Carrot Uprisings" for cinema, we are all engaging in the ritual of Operative Ekphrasis.
+The "loss of distance" is irreversible. We are inside the machine. But through the ritual of Thick Prompting—through the deliberate, "deep play" of context, constraint, and structure—we can retain our agency. We can ensure that the "operative image" remains a tool for human imagination, rather than a mechanism for its obsolescence. The prompt is our spell; the latent space is our medium; and the image is the performance of our entangled will.
+Works cited
+	•	Word & Image, Volume 40, Issue 2 (2024), accessed January 9, 2026, https://www.tandfonline.com/toc/twim20/40/2
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	“Deep Play: Notes on the Balinese Cockfight” Clifford Geertz, accessed January 9, 2026, https://www.amherst.edu/system/files/media/1731/Balinese%20cockfight.pdf
+	•	HyperGeertz-Text: Deep_Play, accessed January 9, 2026, http://hypergeertz.jku.at/GeertzTexts/Deep_Play.htm
+	•	Synthetic Symbols: How machines can learn to cast spells Karin Valis, accessed January 9, 2026, https://hurryupweredreaming.com/issues/3/synthetic-symbols-how-machines-can-learn-to-cast-spells
+	•	The Lego-Building Approach to AI Infrastructure | by Charlene Li, accessed January 9, 2026, https://medium.com/@charleneli_12015/the-lego-building-approach-to-ai-infrastructure-b39c4bd38986
+	•	Carrot Uprising: A WAG Pipeline Demo, accessed January 9, 2026, https://www.youtube.com/watch?v=hdTEJSyZahs
+	•	Fifteenth International Conference on The Image - CGScholar, accessed January 9, 2026, https://cgscholar.com/cg_event/events/X24en/proposal/75584
+	•	InternationalIntertextual Relations Postmodern Readings of World ..., accessed January 9, 2026, https://www.scribd.com/doc/45283071/InternationalIntertextual-Relations-Postmodern-Readings-of-World-Politics
+	•	Virtual Art: From Illusion to Immersion - Text in Art, accessed January 9, 2026, https://textinart.wordpress.com/wp-content/uploads/2019/12/leonardo-oliver-grau-virtual-art_-from-illusion-to-immersion-2003-mit-press.pdf
+	•	Dialogue with the Knowbotic South - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/profile/Oliver-Grau-3/publication/355887415_Spaces_of_Knowledge/links/6182abfd3c987366c3205702/Spaces-of-Knowledge.pdf
+	•	Ekphrasis and the Other - Centre for Comparative Literature, accessed January 9, 2026, https://complit.utoronto.ca/wp-content/uploads/COL1000-Week11-Nov25_WJT_Mitchell.pdf
+	•	A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED, accessed January 9, 2026, https://editorarevistas.mackenzie.br/index.php/tl/article/download/10365/6406/42134
+	•	Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery, accessed January 9, 2026, https://www.goodreads.com/book/show/803186.Museum_of_Words
+	•	The Poetics of Ekphrasis From Homer To Ashbery-University of ..., accessed January 9, 2026, https://www.scribd.com/document/642310002/James-A-W-Heffernan-Museum-of-Words-The-Poetics-of-Ekphrasis-from-Homer-to-Ashbery-University-Of-Chicago-Press-1994
+	•	Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery, accessed January 9, 2026, https://books.google.com/books/about/Museum_of_Words.html?id=z9IfT4xl_tAC
+	•	Ekphrasis/exscription: Jean-Luc Nancy on thinking and touching art, accessed January 9, 2026, https://www.manchesterhive.com/display/9781526125804/9781526125804.00020.pdf
+	•	Digital Ekphrasis and the Uncanny: Toward a Poetics of Augmented ..., accessed January 9, 2026, https://electronicbookreview.com/publications/digital-ekphrasis-and-the-uncanny-toward-a-poetics-of-augmented-reality/
+	•	Operative ekphrasis: The collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.researchgate.net/publication/372400146_Operative_ekphrasis_The_collapse_of_the_textimage_distinction_in_multimodal_AI_PLEASE_REFER_TO_PUBLISHED_VERSION
+	•	Interview with Liliane Louvel, accessed January 9, 2026, https://real.mtak.hu/63746/1/Liliane%20Louvel%20interview%20EJES%20proof.pdf
+	•	Photo-textuality, Witnessing, and the Convergence of Trauma ..., accessed January 9, 2026, https://artswarandpeace.univ-paris-diderot.fr/wp-content/uploads/2018/12/tseti_awp_mdm_5.pdf
+	•	Poetics of the Iconotext - Centre for Comparative Literature, accessed January 9, 2026, https://complit.utoronto.ca/wp-content/uploads/COL1000H_PoeticsOfTheIconotext_Liliane_Louvel_JLeBlanc.pdf
+	•	[PDF] Poetics of the Iconotext by Liliane Louvel - Perlego, accessed January 9, 2026, https://www.perlego.com/book/1632746/poetics-of-the-iconotext-pdf
+	•	accessed January 9, 2026, https://www.ceeol.com/search/chapter-detail?id=1056477#:~:text=Characteristics%20between%20Media-,Media%20Transformation%3A%20The%20Transfer%20of%20Media%20Characteristics%20between,Author(s)%3A%20Lars%20Ellestr%C3%B6m
+	•	Transfer of Media Characteristics among Dissimilar Media1 - Redalyc, accessed January 9, 2026, https://www.redalyc.org/journal/649/64954578004/html/
+	•	Intermediality, Intertextuality, and Remediation - Érudit, accessed January 9, 2026, https://www.erudit.org/fr/revues/im/2005-n6-im1814727/1005505ar.pdf
+	•	Border Talks Irina | PDF | Copyright | Concept - Scribd, accessed January 9, 2026, https://www.scribd.com/document/732153593/border-talks-irina
+	•	(PDF) Thick Description In Qualitative Research - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/387601420_Thick_Description_In_Qualitative_Research
+	•	Thick Description Quotes by Clifford Geertz - Goodreads, accessed January 9, 2026, https://www.goodreads.com/work/quotes/76941947-thick-description-toward-an-interpretive-theory-of-culture
+	•	Quotes by Clifford Geertz (Author of The Interpretation of Cultures), accessed January 9, 2026, https://www.goodreads.com/author/quotes/189399.Clifford_Geertz
+	•	The Rise of Prompt Engineering: What It Means and Why It Matters, accessed January 9, 2026, https://www.pass4sure.com/blog/the-rise-of-prompt-engineering-what-it-means-and-why-it-matters/
+	•	Prompt engineering - Hacker News, accessed January 9, 2026, https://news.ycombinator.com/item?id=38657029
+	•	Prompt engineering is just occult summoning with fancier tools and ..., accessed January 9, 2026, https://www.reddit.com/r/PromptEngineering/comments/1oi0drp/prompt_engineering_is_just_occult_summoning_with/
+	•	LATENT SPACES EXHIBITION - Vicky Clarke, accessed January 9, 2026, https://vickyclarke.org/2025/09/22/latent-spaces-exhibition/
+	•	Statistical Alchemy: Vicky Clarke's Journey into AI and Sonic ..., accessed January 9, 2026, https://oxfordroadcorridor.com/statistical-alchemy-vicky-clarkes-journey-into-ai-and-sonic-materiality/
+	•	Prompting LLMs is not engineering, accessed January 9, 2026, https://dmitriid.com/prompting-llms-is-not-engineering
+	•	Fifteenth International Conference on The Image - CGScholar, accessed January 9, 2026, https://cgscholar.com/cg_event/events/X24en/discussions?custom_schedule_element_id=15376&tab=presentation
+	•	Transfigured World: Walter Pater's Aesthetic Historicism, accessed January 9, 2026, https://library.oapen.org/bitstream/handle/20.500.12657/62147/9781501707124.pdf?sequence=1&isAllowed=y
+	•	Culture and Technology 9781350363410, 9780333929292, accessed January 9, 2026, https://dokumen.pub/culture-and-technology-9781350363410-9780333929292.html
+	•	Synchronizing Glitches as Internetworked Entities - DSpace@MIT, accessed January 9, 2026, https://dspace.mit.edu/bitstream/handle/1721.1/139907/chi-chipohao-sm-arch-2021-thesis.pdf?sequence=1&isAllowed=y
+	•	Latent Space Divination - Błażej Kotowski, accessed January 9, 2026, https://blazejkotowski.com/latent-space-divination.html
+	•	(PDF) The Mystics and Magic of Latent Space: Becoming the Unseen, accessed January 9, 2026, https://www.researchgate.net/publication/350665754_The_Mystics_and_Magic_of_Latent_Space_Becoming_the_Unseen
+	•	LegoGPT Eliminates AI Weirdness, Creates Brick Designs You Can ..., accessed January 9, 2026, https://www.pcmag.com/news/legogpt-eliminates-ai-weirdness-creates-brick-designs-you-can-actually
+	•	LegoGPT creates Lego designs using AI and text inputs, accessed January 9, 2026, https://www.tomshardware.com/tech-industry/artificial-intelligence/legogpt-creates-stable-lego-designs-using-ai-and-text-inputs-tool-now-available-to-the-public
+	•	New AI Tool Could Make Assembly Faster and More Efficient, accessed January 9, 2026, https://www.assemblymag.com/articles/99508-new-ai-tool-could-make-assembly-faster-and-more-efficient
+	•	Fast 3D printing of Functional Objects by Integrating Construction Kit ..., accessed January 9, 2026, https://www.researchgate.net/publication/262092530_faBrickation_Fast_3D_printing_of_Functional_Objects_by_Integrating_Construction_Kit_Building_Blocks
+	•	Media transformation: The transfer of media characteristics among ..., accessed January 9, 2026, https://www.researchgate.net/publication/311262802_Media_transformation_The_transfer_of_media_characteristics_among_media
+	•	AI Generative Art as Algorithmic Remediation - media/rep, accessed January 9, 2026, https://mediarep.org/bitstreams/34b804d2-c446-4440-b8b8-e5b6af0370ac/download
+	•	UNRELIABLE MEMORIES - Lev Manovich, accessed January 9, 2026, https://manovich.net/content/04-projects/180-unreliable-memories/manovich.unreliable_memories.pdf

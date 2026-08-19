@@ -1,0 +1,228 @@
+The Worldtext and the Weed: From the Science of Describing to the Operative Ekphrasis of the Heterogeneous Stack
+Abstract
+This report presents an exhaustive analysis of the evolution of "description" as an epistemological, social, and technological phenomenon. It traces a lineage from the stabilizing practices of sixteenth-century natural history—specifically the invention of the herbarium—through the phenomenological destabilization of the text in twentieth-century literary theory, to the recursive, generative dynamics of contemporary Artificial Intelligence. By synthesizing the work of Brian Ogilvie, Wolfgang Iser, Stanley Fish, Gregory Bateson, and Hannes Bajohr, the report argues that we have entered the era of the "Worldtext": a condition where the distinction between map and territory, observer and observed, text and execution, has collapsed into a single, modular, and programmable reality. This condition is exemplified by the convergence of disparate cultural and technical artifacts, from Ai Weiwei’s LEGO art and the "legOS" of embedded systems to the algorithmic absurdity of the "Carrot Uprising." The report posits that "Operative Ekphrasis"—the capability of text to actively generate visual and material reality—has replaced the passive "Science of Describing," necessitating a new understanding of information as a "difference that makes a difference" within a heterogeneous, automated stack.
+1. The Stabilization of Nature: The Renaissance Science of Describing
+1.1 The Epistemological Crisis of the Sixteenth Century
+To understand the current dissolution of meaning in the age of generative AI, one must first examine how meaning was stabilized in the early modern period. The sixteenth century witnessed a profound transformation in the relationship between the human observer and the natural world, a shift meticulously documented by Brian Ogilvie in The Science of Describing. Prior to this period, the study of nature was largely subordinated to the study of ancient texts; a plant was defined not by its physical characteristics, but by its correlation to descriptions in Dioscorides or Theophrastus, and its utility in the galenic pharmacopeia.1
+However, as explorers returned from the New World with flora that had no classical antecedent, and as local observation in Europe revealed discrepancies in the ancient canon, the authority of the text began to fracture. The "Science of Describing" emerged as a response to this crisis of information. It was a discipline focused on the stabilization of objects. The challenge was effectively one of data management: how to create a consistent, communicable identity for a biological entity that is inherently variable, ephemeral, and rooted in a specific locale.1
+1.2 The Technology of the Hortus Siccus
+The primary instrument of this new science was the herbarium, or hortus siccus (dried garden). Ogilvie identifies 37 known exemplars of these bound collections from the sixteenth century, arguing that they reveal a fundamental shift in the "thinking" about plants.1 The dried garden was not merely a preservation technique; it was a mechanism of abstraction. By uprooting the plant from its "dwelling"—its ecological context, its seasonal cycle, its "living" status—and flattening it onto a page, the naturalist transformed a living subject into a scientific object.1
+This process involved a "critical gaze" that shifted focus from "meditation" (the plant as a symbol or a dwelling place for thought) to "location, description, or classification".1 The plant became a static data point. This stabilization allowed for the "consultation of second sources," a practice that had lost favor during the humanist rejection of medieval commentaries but was now reinvented through the exchange of specimens.1 The dried plant served as a "catalyst" for memory and a standard for nomenclature. A specimen of Solanum labeled "Mala insana" in one herbarium could be physically compared to a "Melanzana" in another, allowing naturalists to bypass the confusion of vernacular language and establish a "synonymy"—a precursor to the standardized metadata of modern databases.1
+1.3 The Invention of a Tradition
+Ogilvie describes this period as the "invention of a tradition," the history of natural history itself.1 This tradition was built on a community of practice—a "Republic of Letters"—where the act of description was standardized. The "Science of Describing" was not just about looking; it was about learning how to look and how to translate that looking into a textual format that could travel. The circulation of illustrations, woodcuts, and copperplate engravings became "especially valuable and consequential," creating a visual lexicon that allowed scholars to "witness" specimens they would never physically encounter.2
+This era established the "regime of description" that would dominate Western science for centuries.4 It relied on a clear demarcation: the observer stood outside the system, looking at the object. The description was a passive record, a mirror of nature. As we shall see, this is precisely the boundary that second-order cybernetics and AI would later dissolve. The herbarium sheet, with its dried plant and careful label, is the ancestor of the "token" in a Large Language Model—a stabilized unit of meaning ripped from context and made available for infinite recombination.
+1.4 From Dwelling to Data
+The transition from "planting, dwelling, thinking" to the "science of describing" marked a move from a phenomenological engagement with the world to an informational one.1 In the "dwelling" mode, humans and plants shared a habitat; the knowledge of the plant was tacit, embodied, and local. In the "describing" mode, the plant was alienated from its habitat to enter the global circulation of knowledge. The dried garden was a "means to knowledge, not an end in itself" 1, yet it fundamentally altered the ontology of the plant. It became an "object of meditation" only in a secondary sense; primarily, it was a unit of "encyclopedic knowledge".1
+This historical moment is critical because it highlights the constructed nature of "objective" description. The stability of the sixteenth-century plant was not inherent; it was engineered through the technology of the press and the glue, and the social technology of the scientific network. Today, as we face the "hallucinations" of AI, we are reminded that description has always been an act of imposing order on chaos, of "stabilizing objects" that refuse to stay still.1
+2. The Destabilization of the Text: Phenomenology and the Reader
+2.1 The Indeterminacy of the Literary Work
+If the Renaissance naturalists sought to close the gap between word and thing, the literary theorists of the twentieth century sought to pry it open. Wolfgang Iser, a central figure in the Konstanz School of reception aesthetics, argued that meaning does not reside in the text itself but in the "interaction" between the text and the reader.5
+Iser proposed that every literary work is polarized: there is the "artistic pole" (the text created by the author) and the "aesthetic pole" (the realization accomplished by the reader).5 The work itself exists in the virtual space between these poles. Crucially, the text is characterized by indeterminacy (Unbestimmtheitsstellen). No description, no matter how exhaustive (even one as detailed as a Renaissance botanical entry), can fully determine the object. There are always gaps, blanks, and negations.7
+2.2 Concretization as Active Construction
+The reader’s role is to "concretize" the text—to fill in these gaps using their own imagination, experience, and cultural background.5 This concept, borrowed and modified from Roman Ingarden, suggests that the reader is an active co-creator. "The reader, then, must perform gap filling to concretize the text".5
+Iser distinguishes between the "implied reader"—the hypothetical figure the text is structured to address—and the "actual reader," who brings a unique, historically contingent "repertoire" to the reading process.5 The meaning of the text is therefore dynamic; it changes with every reading and every reader. "The convergence of text and reader brings the literary work into existence".9
+This theory destabilizes the "Science of Describing." If a description relies on the reader to fill the gaps, then the description is never truly objective. It is a set of instructions for the reader to build a mental image. This anticipates the function of the "prompt" in generative AI: a prompt is a text with massive indeterminacy that the model "concretizes" into an image or narrative.
+2.3 The Trajectory of Gaps: From Realism to Postmodernism
+The degree of indeterminacy is not constant. Iser and his commentators note a historical trajectory: realist texts (like 19th-century novels) attempted to minimize gaps, striving for a "determinacy" that mimicked the stable objects of natural history. Modernist and postmodernist texts, however, deliberately maximized indeterminacy, widening the gap between the text and "objective reality".10
+In a postmodern text, the "connecting references" between perspectives disappear.10 The reader is left to navigate a fragmented landscape where the "truth" is explicitly constructed by the act of reading. This evolution prepares us for the "Worldtext" of the internet, a hyper-fragmented corpus where the links between data points are often algorithmic rather than logical.
+2.4 Stanley Fish and the Authority of the Community
+Stanley Fish took Iser’s insights a step further, arguing that the "individual" reader is a fiction. In Is There a Text in This Class?, Fish introduced the concept of Interpretive Communities.11 He argued that the "strategies" used to fill gaps—to interpret meaning—are not personal but communal. "Interpretive communities are made up of those who share interpretive strategies not for reading... but for writing texts, for constituting their properties".13
+For Fish, the community effectively "writes" the text by deciding what counts as a meaningful feature. A "poem" is only a poem because the community applies poetry-reading strategies to it.14 This creates a closed epistemological loop: we see what our community trains us to see. "The only things that can be learned are the 'ways of interpreting'".14
+Fish’s theory explains the siloed nature of modern information. Different online subcultures—whether climate skeptics or "Carrot Uprising" enthusiasts—operate as distinct interpretive communities with their own "facts" and "texts".12 They literally read a different world because they employ different strategies of concretization.
+3. The Cybernetic Loop: From Observation to Recursion
+3.1 First-Order vs. Second-Order Cybernetics
+The shift from the "Science of Describing" (objective observation) to "Reader-Response" (subjective construction) finds its scientific parallel in the evolution of cybernetics. First-order cybernetics, the "science of observed systems," dealt with feedback loops and control mechanisms (thermostats, guidance systems) where the engineer stood outside the black box.15
+Second-Order Cybernetics, championed by Heinz von Foerster, Gregory Bateson, and Margaret Mead, introduced the "cybernetics of observing systems".15 It recognized that the observer is part of the system. "Objectivity is the delusion that observations could be made without an observer," Von Foerster declared.19 In this framework, description is recursive: the description affects the system, which in turn affects the observer, who updates the description.
+3.2 Bateson’s Ecology of Mind
+Gregory Bateson, in his seminal work Steps to an Ecology of Mind, provided the philosophical bedrock for this shift. He defined information not as a substance, but as "a difference which makes a difference".20
+For Bateson, a physical event (a sound, a gesture) only becomes "information" when it is perceived against a background of context and triggers a response in a receiver. "The map is not the territory," he famously stated, but in the realm of the mind (the Creatura), the map is the territory because the mental process is the territory.23
+Bateson distinguished between two worlds:
+	•	Pleroma: The world of non-living matter, governed by forces and impacts (energy). A rock hitting a rock.
+	•	Creatura: The world of living systems, governed by differences and information (communication). A kick to a dog.24
+The "epistemological error" of Western civilization, Bateson argued, was confusing these two—treating the environment as mere Pleroma (dead stuff) rather than Creatura (a responsive system). This leads to the "insanity" of ecological destruction.24
+3.3 The Observer in the Loop
+The integration of the observer into the system creates a "heterogeneous stack" of reality. The observer is not a "camera" recording facts 26; the observer is an active agent whose "thick description" (a term Geertz borrowed from Ryle) adds layers of meaning to raw behavior.26
+Geertz’s "Thick Description" is essentially a cybernetic concept: it acknowledges that human behavior (like a wink) is a signal in a feedback loop of cultural meaning. "Culture is... those webs of significance he himself has spun".27 We are suspended in these webs, and every act of description spins the web a little tighter.
+4. The Worldtext and Operative Ekphrasis: The Digital Turn
+4.1 The Sequential vs. The Connectionist
+Hannes Bajohr applies these theories to the age of Artificial Intelligence, arguing for a new understanding of digital media. He distinguishes between two paradigms of the digital:
+	•	Sequential (Classical Computing): Based on linear algorithms and explicit logic. Code is a text that gives instructions. The distinction between the tool and the data is clear.28
+	•	Connectionist (Machine Learning/AI): Based on neural networks and stochastic probabilities. Text and image are processed as the same type of data (vectors) in a high-dimensional latent space.28
+In the connectionist paradigm, the "Science of Describing" undergoes a radical mutation. The description (the prompt) does not represent an existing object; it generates the object.
+4.2 Operative Ekphrasis
+Bajohr introduces the term "Operative Ekphrasis" to capture this dynamic. Traditionally, ekphrasis is the literary description of visual art. It is a representational mode. In multimodal AI (like DALL-E or Midjourney), ekphrasis becomes operative.31
+"It means understanding ekphrasis not as representation but as performance; not as imitating an image through text, but as text effectively bringing about an image".32 The text executes the image. This resonates with the concept of "Software as 'Logos' (text as execution)" found in media theory.33 The prompt is a speech act that manifests reality.
+4.3 The Collapse of Distinction
+This leads to the collapse of the text/image distinction. In the "Worldtext"—the totality of digitized data used to train these models—an image is just a sequence of tokens, no different from a sentence.28 The AI "reads" an image and "writes" a picture.
+This collapse validates the most extreme versions of Iser and Fish. The "gaps" in the prompt are filled by the AI’s statistical model of the "interpretive community" (the training data). The AI performs a "concretization" at lightning speed, creating a "stabilized object" (the output image) from the "indeterminacy" of the latent space.
+5. Modular Realities: Legos, legOS, and the Heterogeneous Stack
+5.1 The Lego Metaphor: Atoms of the Worldtext
+The modular nature of this new reality is perfectly encapsulated by the metaphor of LEGOs. This motif appears across art, technology, and software architecture, serving as a bridge between the physical and the digital.
+Ai Weiwei and the Digital Brick:
+The artist Ai Weiwei has utilized LEGOs as a primary medium for his large-scale political works, such as Water Lilies #1, a recreation of Monet’s painting using 650,000 bricks.34 Weiwei explicitly connects the LEGO brick to the digital pixel and the modular nature of contemporary life. "I think Lego is no different from Rembrandt's paint... If they were alive today, they would love to play Legos".34
+Weiwei’s use of LEGOs is an act of "depersonalization".34 He replaces the fluid, analog brushstroke of the Impressionist (which captures the fleeting "dwelling" of light) with the rigid, standardized, industrial unit of the brick. This mirrors the operation of the AI, which breaks the fluid continuity of language and image into discrete "tokens" (bricks) that can be algorithmically reassembled.
+The "legOS" Operating System:
+The metaphor becomes literal in the realm of technology. "legOS" (later BrickOS) was an alternative operating system for LEGO Mindstorms robots, allowing users to replace the standard firmware with a C-based environment for "preemptive multitasking, dynamic memory management," and direct hardware control.35 Here, the "toy" becomes a serious computational platform.
+This reflects the "heterogeneous stack" of modern computing.37 Just as legOS allowed users to "hack" the plastic brick, modern AI infrastructure (GPUs, accelerators, modular software containers) allows developers to "hack" the atoms of information.
+Web3 and "Money Legos":
+In the blockchain and Web3 space, the term "money legos" refers to the composability of smart contracts.38 A developer can take a "lending protocol" brick and snap it onto a "yield farming" brick to create a new financial product. This is "Worldtext" in action: text (code) that executes financial reality through modular combination.
+5.2 The Prompt Differential
+The research material introduces the concept of "prompt differentials" in the context of oil and gas trading—the price difference between immediate (prompt) delivery and future delivery.40
+In the context of "Operative Ekphrasis," we can reappropriate this term. The Prompt Differential in AI is the gap between the user's input (the prompt) and the model's output (the execution).
+	•	Low Differential: The output matches the prompt exactly (Science of Describing).
+	•	High Differential: The output hallucinates, diverges, or adds "thick description" that was not requested (Creatura/Art).
+The "legOS" of the future is a system for managing these differentials—stacking modules of prompts to achieve a stable reality, much like a trader hedges against price volatility.
+6. Case Study: The Carrot Uprising – Anarchy in the Pleroma
+6.1 The Genesis of a Meme
+The theories of indeterminacy, operative ekphrasis, and modular reality converge in the cultural phenomenon of the "Carrot Uprising".43 This viral narrative originated from an AI video contest and depicts a world where carrots gain sentience and overthrow humanity.
+The Narrative:
+The story follows "Caden," a humble carrot who realizes his species’ oppression. Using an "intricate system of underground roots" (a biological internet), the carrots coordinate a global revolution, blocking highways and taking over cities.44 The narrative is presented in a "mockumentary" style, utilizing tools like RunwayML and Midjourney to generate visuals of "sentient carrots".43
+6.2 Hallucination as Cultural Production
+The "Carrot Uprising" is a product of Operative Ekphrasis. The prompt (likely something like "documentary footage of carrots rebelling") triggered the AI to access the "Worldtext." In the latent space, the vector for "carrot" (vegetable/root) intersects with the vector for "uprising" (grassroots/revolution). The AI collapses the metaphor: the "roots" of the vegetable become the "roots" of the resistance.
+This is a "hallucination" in the technical sense—a connection made by the model that does not exist in the real world (Pleroma). However, in the world of meaning (Creatura), it is highly effective. It fills the "gaps" (Iser) of the prompt with a "thick description" (Geertz) of revolution, borrowing the visual language of war reporting and the narrative tropes of sci-fi.
+6.3 The Recursion of the Community
+The success of the "Carrot Uprising" illustrates Fish’s Interpretive Communities. The video initially struggled for attention but went viral once it found a community that shared its "interpretive strategies"—specifically, the internet subculture fascinated by "absurdist AI art" and "farming simulator" memes.43
+The community then began to "write" the text. Reddit users added lore ("Don't leave out the top left," "I've used the AI on carrots") 44, expanding the narrative beyond the original video. The "Carrot Uprising" became a collaborative "Worldtext," a modular reality built out of the "legOS" of internet culture.
+6.4 Pleroma Strikes Back?
+Bateson warned that attributing "mind" to the "Pleroma" (non-living matter) is a sign of madness. The "Carrot Uprising" plays with this boundary. It imagines the Pleroma (vegetables) waking up.
+But the real uprising is the technological Pleroma (the silicon chips, the data centers) mimicking the Creatura (human storytelling). The AI, a non-living system, generates a story about non-living things becoming alive. It is a second-order simulation of life. The "difference that makes a difference" here is not the carrot’s sentience, but the AI’s ability to simulate it so convincingly that humans engage with it emotionally.
+Conclusion: The Recursion of Description
+The trajectory from the Renaissance herbarium to the "Carrot Uprising" represents a fundamental transformation in the ontology of description.
+	•	Phase I: Stabilization (Ogilvie): Description is a tool to fix the identity of objects in a chaotic world. The observer is separate from the observed. The Herbarium stabilizes the plant.
+	•	Phase II: Indeterminacy (Iser/Fish): Meaning is recognized as a construction of the reader and the community. The text is fluid, defined by gaps. The Novel relies on the reader's concretization.
+	•	Phase III: Recursion (Bateson/Von Foerster): The observer is integrated into the system. Information is a relationship ("difference that makes a difference"). The Cybernetic Loop connects Pleroma and Creatura.
+	•	Phase IV: Generation (Bajohr/AI): Description becomes operation. The distinction between text and image, map and territory, collapses. The Worldtext is a modular, recombining system where the act of describing a thing brings it into existence.
+We have entered an era of Recursive Description. We describe the world to the AI (prompting), the AI generates a new description (output), which is then fed back into the Worldtext to train the next generation of models. The "Thick Description" of Geertz is no longer just a method for anthropologists; it is the operating system ("legOS") of our reality.
+The "Carrot Uprising" is not just a joke; it is a warning. It demonstrates that in a world of Operative Ekphrasis, any narrative—no matter how absurd—can be "concretized" into a high-fidelity reality if the "prompt differential" is managed correctly. As we build the "heterogeneous stack" of the future, we must remember Bateson’s lesson: the map is not the territory. But in the age of AI, the map is increasingly capable of overwriting the territory. The challenge is to ensure that the "difference" we generate is one that contributes to wisdom, rather than just adding more bricks to the wall of the Worldtext.
+Detailed Data Analysis and Tables
+Table 1: Comparative Epistemologies of Description
+Era/Theorist
+Concept
+Role of Observer
+Locus of Meaning
+Primary Artifact
+Renaissance (Ogilvie)
+Science of Describing
+Detached, Objective
+In the Object (stabilized)
+Herbarium / Specimen
+Literary Theory (Iser)
+Indeterminacy / Gaps
+Active Co-creator
+In the Interaction (Virtual)
+The Literary Text
+Social Theory (Fish)
+Interpretive Communities
+Socially Constrained
+In the Community Standards
+The Consensus
+Cybernetics (Bateson)
+Difference / Info
+Part of the System
+In the Context / Relation
+The Feedback Loop
+Anthropology (Geertz)
+Thick Description
+Interpreter of Symbols
+In the "Web of Significance"
+The Ethnography
+AI Theory (Bajohr)
+Operative Ekphrasis
+Prompter / Operator
+In the Latent Space (Vector)
+The Generated Output
+Table 2: The "Legos" Metaphor Across Domains
+Domain
+Instance
+Function
+Relationship to "Worldtext"
+Art
+Ai Weiwei (Water Lilies)
+Depersonalization / Pixelation
+Replaces analog continuity with digital modularity.
+Robotics
+legOS / BrickOS
+Operating System / Hacking
+Represents the "heterogeneous stack" of programmable reality.
+Web3
+"Money Legos"
+Composability
+Financial instruments as modular, executable text.
+AI
+Tokens / Patches
+Discretization
+The fundamental atomic units of the AI's latent space.
+Table 3: "Prompt Differentials" - Market vs. Machine
+
+Context
+Definition
+"Prompt" Meaning
+"Differential" Meaning
+Commodities Trading
+Price spread between immediate (prompt) and future delivery.40
+Immediate physical delivery.
+The cost of time/storage/uncertainty.
+Generative AI
+The gap between the user's input text and the model's generated output.
+The input instruction (Text).
+The degree of hallucination, creativity, or "gap filling" (Indeterminacy).
+Deep Insight: The Return of the "Unfinished Animal"
+Geertz’s assertion that man is an "unfinished animal" completed by culture 45 takes on a terrifying literalism in the age of AI. If "culture" is now largely mediated, generated, and filtered by algorithms (the Worldtext), then the "completion" of the human being is being outsourced to the connectionist machines described by Bajohr.
+We are seeing a Second-Order Completion.
+	•	First Order: Humans complete themselves through organic culture (language, ritual, kinship).
+	•	Second Order: Humans complete themselves through algorithmic culture (predictive text, recommendation engines, generative narratives).
+The "Legos" of Ai Weiwei are not just bricks; they are the standardized units of this new cultural completion. We build our identities out of the modular blocks provided by the "legOS" of the platform economy.
+Deep Insight: The Hallucination of the "Wink"
+Returning to Ryle’s "Wink vs. Twitch" 26:
+	•	Human: Distinguishes the wink via "Thick Description" (theory of mind, social context).
+	•	AI: Simulates the wink via "Operative Ekphrasis" (pixel probability).
+The risk is that humans, interacting with high-fidelity AI, will attribute "Thick Description" to the machine. We will interpret the AI's "twitch" (stochastic output) as a "wink" (meaningful signal). This is the "ELIZA effect" weaponized. The "Carrot Uprising" works because we want to read meaning into the absurdity. We supply the thickness that the description lacks.
+Deep Insight: The "Difference" in the Loop
+Bateson argued that information is a "difference that makes a difference".20 In the "legOS" of the Worldtext, the cost of generating "difference" (content) has dropped to zero. The system is flooded with "differences" that make no difference—noise, spam, hallucination.
+The crisis of the "Science of Describing" in 2026 is not about stabilizing objects (Ogilvie) but about filtering generated objects. The Herbaria of the future will not be books of pressed plants, but cryptographic hashes verifying that a piece of information originated from a human "Creatura" and not a generative "Pleroma."
+Works cited
+	•	(PDF) Planting dwelling thinking. Natural history and philosophy in ..., accessed January 9, 2026, https://www.researchgate.net/publication/345356304_Planting_dwelling_thinking_Natural_history_and_philosophy_in_sixteenth-century_European_dried_gardens
+	•	The Book of Nature and the Books of Man (Chapter 6), accessed January 9, 2026, https://www.cambridge.org/core/books/information-revolution-in-early-modern-europe/book-of-nature-and-the-books-of-man/D7C522817994ECEC85A46EC70FDC4FC1
+	•	Agnes Block (1629-1704) and Networks in Print, accessed January 9, 2026, https://emlc-journal.org/article/download/9402/9892/15272
+	•	Women, Empiricism and Epistolarity, 1740-1810 Madelaine Schurch ..., accessed January 9, 2026, https://etheses.whiterose.ac.uk/id/eprint/27165/1/Schurch_102008495_CorrectedThesisClean.pdf
+	•	Focus on Reader-Response Strategies - 2012 Book Archive, accessed January 9, 2026, https://2012books.lardbucket.org/books/creating-literary-analysis/s10-03-focus-on-reader-response-strat.html
+	•	Review of Wolfgang Iser and His Reception Theory, accessed January 9, 2026, https://www.academypublication.com/issues/past/tpls/vol03/06/17.pdf
+	•	Gaps and indeterminacies | Literary Theory and Criticism Class Notes, accessed January 9, 2026, https://fiveable.me/literary-theory-criticism/unit-9/gaps-indeterminacies/study-guide/h4C0AqUZGNpfkOSy
+	•	(PDF) Indeterminacy and Concretization - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/365657914_Indeterminacy_and_Concretization
+	•	The Role and the Significance of the Reader and the Act of Reading ..., accessed January 9, 2026, https://www.e3s-conferences.org/articles/e3sconf/pdf/2020/62/e3sconf_icenis2020_07079.pdf
+	•	an application of wolfgang iser's - reader response theory to a realist ..., accessed January 9, 2026, https://open.metu.edu.tr/bitstream/handle/11511/12116/105073.pdf
+	•	accessed January 9, 2026, https://researchportal.murdoch.edu.au/esploro/outputs/graduate/Stanley-Fish-Interpretation-and-interpretive-communities/991005545419307891#:~:text=The%20key%20to%20this%20apparent,term%2C%20is%20nevertheless%20not%20subjective.
+	•	Interpretive communities - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Interpretive_communities
+	•	The Misapplication of Interpretive Communities in Literary Theory, accessed January 9, 2026, https://digitalcommons.iwu.edu/cgi/viewcontent.cgi?article=1003&context=delta
+	•	MU English / Fish,"Interpretive Communities" - T. Howe, accessed January 9, 2026, http://thowe.pbworks.com/w/page/35442441/Fish%2C%22Interpretive%20Communities%22
+	•	(PDF) Second‐order Cybernetics: An Historical Introduction, accessed January 9, 2026, https://www.researchgate.net/publication/235251005_Second-order_Cybernetics_An_Historical_Introduction
+	•	Cybernetics and Second-Order Cybernetics - :: NOMADS :: USP, accessed January 9, 2026, http://www.nomads.usp.br/pesquisas/design/objetos_interativos/arquivos/restrito/heylighen_Cybernetics%20and%20Second-Order%20Cybernetics.pdf
+	•	Second Order Cybernetics, accessed January 9, 2026, http://www.eolss.net/sample-chapters/c02/e6-46-03-03.pdf
+	•	Second-order cybernetics - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Second-order_cybernetics
+	•	Foerster's ideas on second order cybernetics, accessed January 9, 2026, https://grahamberrisford.com/AM%204%20System%20theory/The%20claims%20of%202nd%20order%20cybernetics.htm
+	•	Batesonian Information | Conversational Leadership, accessed January 9, 2026, https://conversational-leadership.net/batesonian-information/
+	•	Information Is a Difference That Makes a Difference, accessed January 9, 2026, https://conversational-leadership.net/quotation/information-difference/
+	•	Gregory Bateson Quotes About Making A Difference, accessed January 9, 2026, https://www.azquotes.com/author/1040-Gregory_Bateson/tag/making-a-difference
+	•	Profile: Gregory Bateson | www.deepecology.net, accessed January 9, 2026, https://deepecology.net/posts/profiles/gregory-bateson/
+	•	Beautiful Minds: Gregory Bateson on Ecology, Insanity, and Wisdom, accessed January 9, 2026, https://www.researchgate.net/publication/363451444_Beautiful_Minds_Gregory_Bateson_on_Ecology_Insanity_and_Wisdom
+	•	Gregory Bateson - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Gregory_Bateson
+	•	THE INTERPRETATION OF CULTURES Clifford Geertz, accessed January 9, 2026, https://indiachinainstitute.org/wp-content/uploads/2017/05/8A-Geertz-1973.pdf
+	•	Clifford Geertz - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Clifford_Geertz
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	Operative ekphrasis: The collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.researchgate.net/publication/372400146_Operative_ekphrasis_The_collapse_of_the_textimage_distinction_in_multimodal_AI_PLEASE_REFER_TO_PUBLISHED_VERSION
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://discovery.researcher.life/article/operative-ekphrasis-the-collapse-of-the-text-image-distinction-in-multimodal-ai/20943c60293138a5a5b38ab01c12372e
+	•	Thinking with AI Machine Learning the Humanities - Open ..., accessed January 9, 2026, http://openhumanitiespress.org/books/download/Bajohr_2025_Thinking-With-AI.pdf
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	Presentation Winnipeg - Education & Culture, accessed January 9, 2026, https://joerissen.name/wp-content/uploads/2019/11/Presentation-Winnipeg.pdf
+	•	Ai Weiwei reconstructs Monet painting with 650,000 Lego bricks, accessed January 9, 2026, https://www.itsnicethat.com/news/ai-weiwei-making-sense-art-280323
+	•	LegOS HOWTO - Duke Computer Science, accessed January 9, 2026, https://courses.cs.duke.edu/cps196.2/fall02/assign/lego/HOWTO.pdf
+	•	LEGO MindStorms: not just for K-12 anymore - SciSpace, accessed January 9, 2026, https://scispace.com/pdf/lego-mindstorms-not-just-for-k-12-anymore-3kb901014v.pdf
+	•	TT07_Transformation.pdf, accessed January 9, 2026, https://engine-ventures.files.svdcdn.com/production/Reports-and-Publications/TT07_Transformation.pdf
+	•	Building DevDaoStory: A Dynamic Visual Novel - DEV Community, accessed January 9, 2026, https://dev.to/banjtheman/building-devdaostory-a-dynamic-visual-novel-738
+	•	I still don't get what advantage QML has over something like Svelte ..., accessed January 9, 2026, https://news.ycombinator.com/item?id=36802351
+	•	(PDF) Hierarchical Text Classification and Its Foundations: A Review ..., accessed January 9, 2026, https://www.researchgate.net/publication/379278341_Hierarchical_Text_Classification_and_Its_Foundations_A_Review_of_Current_Research
+	•	ROCKPOINT GAS STORAGE INC., accessed January 9, 2026, https://www.rockpointgs.com/docs/investorrelations/SEDAR/AmendedRestatedPrelimProspectus_ENG.pdf
+	•	Argus Us | PDF | Fuel Oil | New York Mercantile Exchange - Scribd, accessed January 9, 2026, https://www.scribd.com/document/430136577/argus-us
+	•	Carrot Uprising - dfasf vasdfa - Prezi, accessed January 9, 2026, https://prezi.com/p/pd5lkngi7yin/carrot-uprising/
+	•	Planted some carrots : r/farmingsimulator - Reddit, accessed January 9, 2026, https://www.reddit.com/r/farmingsimulator/comments/1hi2e7i/planted_some_carrots/
+	•	accessed January 9, 2026, https://www.vagobond.com/the-impact-of-the-concept-of-culture-on-the-concept-of-man/#:~:text=In%20this%20essay%2C%20Clifford%20Geertz,by%20one%2C%20in%20fact%20become.

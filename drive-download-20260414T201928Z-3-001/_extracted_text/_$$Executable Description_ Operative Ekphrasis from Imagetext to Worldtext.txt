@@ -1,0 +1,177 @@
+Executable Description: Operative Ekphrasis from Imagetext to Worldtext
+1. Introduction: The Dissolution of the Paragone and the Rise of the Executable
+The history of aesthetic theory, particularly regarding the relationship between literature and the visual arts, has been dominated by the concept of the paragone—a competitive struggle for dominance between rival systems of representation. For centuries, this struggle was encapsulated in the practice of ekphrasis. Traditionally defined by James Heffernan as "the verbal representation of visual representation," ekphrasis was understood as a rhetorical battlefield where the "male" voice of the text attempted to master, describe, and silence the "female" image.1 This dynamic was framed by W.J.T. Mitchell as oscillating between "ekphrastic hope"—the desire to overcome the otherness of the image—and "ekphrastic fear"—the anxiety that the visual might displace or contaminate the verbal.2
+However, the emergence of multimodal Artificial Intelligence and "connectionist" digital architectures has fundamentally destabilized this classical dialectic. We are currently witnessing a seismic ontological shift from descriptive ekphrasis—writing about the world or art—to operative ekphrasis—writing the world into existence. This report validates and exhaustively explores the hypothesis that "operative ekphrasis" represents the collapse of the text/image distinction. In the era of Generative AI, the text is no longer a passive descriptor but an active, executable instruction set.
+Drawing on Hannes Bajohr’s seminal concept of "operative ekphrasis" 3, the anthropological framework of "thick description" by Clifford Geertz 5, and the technical realization of "Worldtext" through systems like LegoGPT and LDraw 6, this analysis posits that the boundary between imagetext (the description of an image) and worldtext (the code that builds the object) has dissolved. The prompt is not a caption; it is a command.
+If, as Claus Clüver argues, modern ekphrasis "verbalizes a viewer's encounter with a visual configuration" 8, the generative prompt verbalizes a creator's encounter with a latent visual potentiality. This report traces the trajectory of this shift through three primary lenses: the theoretical collapse of the signifier in neural networks, the emergence of "Worldtext" in physical assembly AI, and the necessity of "Thick Prompting" to bridge the semantic gap between statistical probability and cultural meaning. It argues that we have moved from the "Museum of Words"—Heffernan's metaphor for the static accumulation of descriptions—to the "Factory of Worlds," where language functions as a physical API for reality itself.
+2. Theoretical Framework: The Neural Collapse of Word and Image
+To understand the mechanics of operative ekphrasis, one must first dissect the technological substrate that enables it. The transition is not merely stylistic but structural, rooted in the difference between sequential and connectionist computing paradigms.
+2.1 From Sequential to Connectionist Paradigms
+Hannes Bajohr provides the critical taxonomy for this shift, distinguishing between two modes of the digital condition that dictate how text and image interact.4
+The Sequential Paradigm (Classic Computing)
+In the sequential paradigm, or symbolic AI, text and image remain distinct, bounded data types. While a digital image is technically composed of code, that code functions representationally. An image file (JPEG or PNG) is encoded alphanumerically, but the code describes the pixel values in a linear, deterministic manner. The relationship remains one of "representation" and "reference."
+	•	Structure: Linear, algorithmic, explicit logic.
+	•	Media Relation: Distinct borders. The text "points to" the image.
+	•	Ekphrastic Mode: Traditional/Digital Ekphrasis (Descriptive).
+In this model, when a critic writes about a digital image, they are still engaging in Heffernan’s "verbal representation of visual representation." The gap between the signifier (the word) and the signified (the image) remains intact, maintained by the file format boundaries.
+The Connectionist Paradigm (Neural Networks)
+The connectionist paradigm, exemplified by stochastic machine learning and neural networks (e.g., Transformers, Diffusion Models), fundamentally alters this topology. In a model like CLIP (Contrastive Language-Image Pre-training) or Stable Diffusion, both text and image are converted into vectors—mathematical values in a shared, high-dimensional latent space.4
+	•	Structure: Parallel, distributed, probabilistic.
+	•	Media Relation: Collapsed. Text and image are merely different entry points into the same mathematical manifold.
+	•	Ekphrastic Mode: Operative Ekphrasis (Generative).
+As Bajohr argues, "the text/image distinction collapses" within this architecture.10 The machine does not "read" a text and then "draw" a picture in the anthropomorphic sense of translation. Instead, it navigates a shared mathematical space where the vector for the word "cat" and the visual feature vectors of a cat are proximate. This dissolution of "media borders," a concept framed by Elleström to understand multimodal signals [ellestrom_media_2010], means that the "ekphrastic fear" of the image displacing the word is rendered moot; they have become the same substance.
+2.2 The Performativity of the Prompt
+Traditional ekphrasis is representational; operative ekphrasis is performative. In the digital humanities, code has long been understood as "speech that does things"—an application of J.L. Austin’s speech act theory to software. However, operative ekphrasis extends this performativity from the functional to the aesthetic and ontological realms.
+When a user inputs a prompt into a text-to-image model, they are engaging in what Jansson describes as a "multisensory event" and "activity".9 This is not a passive description but an active, kinetic intervention. Lindhe argues that in digital interfaces, a "visual sense is born in the fingertips," linking the tactile nature of typing or touching the interface directly to the ekphrastic experience [lindhe_visual_2013].
+The prompt acts as a switch or a vector steering mechanism. It navigates the latent space to retrieve and assemble visual information. Bajohr defines this as "text effectively bringing about an image... as an operation of manipulating symbolic information".9 This shifts the "ekphrastic hope" from the desire to describe the image to the power to instantiate it. The prompt is an executable description; it is an operative force.
+Feature
+Traditional Ekphrasis
+Digital Ekphrasis
+Operative Ekphrasis
+Directionality
+Image $\rightarrow$ Text (Descriptive)
+Interaction $\rightarrow$ Image (Evocative)
+Text $\rightarrow$ Image (Generative)
+Ontology
+Distinct Media (Rival Systems)
+Interface-Mediated
+Collapsed Media (Shared Latent Space)
+Function
+Representation / Interpretation
+Navigation / Rewriting
+Operation / Instantiation
+Agency
+The Observer/Writer
+The User/Participant
+The Prompter + Neural Network
+Key Theorist
+Heffernan, Mitchell
+Lindhe, Jansson, Brosch
+Bajohr, Manovich
+2.3 The Return of Semantics via "Artificial Semantics"
+A critical paradox emerges in this connectionist environment. While the machine processes data syntactically—as mathematical vectors without intrinsic understanding of meaning—the output is consumed semantically by humans. Bajohr notes that "semantics nevertheless returns to the digital".9 The machine does not know what a "sunset" is in a phenomenological sense, but it knows the vector coordinates that correspond to human-labeled images of sunsets.
+This "artificial semantics" relies on what Louvel calls the "pictorial third"—a blend generated by the interaction of word and image in the viewer's mind/body that transcends the receiving device [louvel_types_2018]. In operative ekphrasis, this "third" is no longer just a mental construct but a generated artifact. The danger, as highlighted by Critical AI Studies, is that the machine treats data as "objective, and neutral representations of the world".4 It reproduces the "thin descriptions" inherent in its training data without the "thick" cultural context, a problem that requires the intervention of "Thick Prompting" (discussed in Section 6).
+3. The Rhetorical Turn: From Enargeia to Interface
+The shift to operative ekphrasis is not just a technological novelty; it represents a return to and transformation of ancient rhetorical traditions. Webb contrasts modern "writing about art" with the ancient rhetorical definition of ekphrasis as enargeia—speech that "turns listeners into spectators" through vividness and impact [webb_ekphrasis_2016].
+3.1 Enargeia Reborn as Instantiation
+In the ancient world, the goal of the orator was to make the audience see the subject through the sheer force of language. In the age of AI, this rhetorical force is literalized. The "listener" (the AI model) is not just turned into a spectator; it is turned into a manufacturer. The "vividness" of the description (the specificity of the prompt) directly correlates to the fidelity of the generated image.
+Hawhee contends for a "rhetorical turn" in ekphrasis, viewing it as an embodied, sensory performance designed to affect an audience [hawhee_rhetorics_2011]. In operative ekphrasis, the "performance" is the drafting of the prompt, and the "effect" is the materialization of the pixel or the voxel. The user performs the role of the orator, but their speech acts are binding commands to the latent space.
+3.2 The Tactile Interface of Creation
+This rhetorical performance is mediated by the body. Lindhe’s concept of the "visual sense born in the fingertips" [lindhe_visual_2013] suggests that the haptic act of typing is inseparable from the visual result. In "rewriting the artwork," as Brosch suggests [brosch_ekphrasis_2018-1], the user engages in a participatory practice that questions traditional scopic regimes (who is allowed to see/create).
+The keyboard becomes the chisel. The interface is not a window (as in the Renaissance perspective) but a command line. This tactile engagement aligns with Jansson’s view of digital ekphrasis as a "multisensory event" [jansson_ekphrasis_2018]. The feedback loop is immediate: Type "Red Cube" $\rightarrow$ See Red Cube. This immediacy collapses the temporal distance that characterized traditional ekphrasis, where the poem might be written centuries after the sculpture it describes. In operative ekphrasis, the description and the object are co-temporal.
+4. From Imagetext to Worldtext: The Case of LDraw and LegoGPT
+The transition from describing images to executing reality reaches its apotheosis when the output is not a 2D raster image, but a 3D structural instruction set. This is the shift from Imagetext (text describing an image) to Worldtext (text describing physical geometry). The research material highlights the domain of LEGO and the LDraw standard as the primary locus of this shift.7
+4.1 LDraw as the Lingua Franca of Worldtext
+To understand Worldtext, we must look at the "text" that underpins physical assembly. LDraw is an open standard for LEGO CAD programs that defines 3D parts and assemblies using plain text commands.7 Unlike a pixel-based image which is a "dumb" grid of colors, an LDraw file is a semantic list of parts, coordinates, and orientations.
+An LDraw line might look like this: 1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat.
+	•	1: Line type (Part).
+	•	4: Color code (Red).
+	•	x y z: Coordinates.
+	•	matrix: Rotation matrix.
+	•	3001.dat: Part ID (2x4 Brick).
+This text file is the object. It is a set of instructions that, when executed by a renderer or a robotic arm, creates the physical form. Recent research into "LegoGPT" and similar "Text-to-CAD" systems demonstrates that Large Language Models (LLMs) can be trained to "speak" LDraw.6
+This allows "operative ekphrasis" to transcend the screen. A prompt such as "A red spaceship with landing gear" is not merely rendered as a picture of a spaceship; it is generated as a sequence of assembly steps—a "physically realizable assembly instruction".7 This validates the concept of Worldtext: text that functions as a "physical API".7 The LDraw format acts as an intermediate representation (IR) that bridges the gap between the semantic intent of natural language and the rigid constraints of manufacturing.
+4.2 The LegoGPT Methodology: A Recursive Generation
+The methodology behind LegoGPT illustrates the complexity of "Worldtext" generation. It is not a simple translation but a recursive, physics-aware process that mimics the "thick" constraints of the real world.
+	•	Voxelization: The text prompt is first converted into a coarse 3D shape (voxel grid) using ShapeNetCore meshes.6 This provides a spatial scaffolding.
+	•	Autoregressive Token Prediction: The model predicts the next brick (token) in the sequence, similar to how ChatGPT predicts the next word. It utilizes the "bag of bricks" concept.7
+	•	Physics-Aware Rollback: Crucially, the system checks for stability and gravity. If a generated brick would fall or is floating, the system "rolls back" to the previous state and regenerates.6
+	•	Instruction Generation: The final output is not just the model, but the instructions to build it.
+This process mirrors the "rhetorical turn" in ekphrasis described by Hawhee, where the text is an "embodied, sensory performance" [hawhee_rhetorics_2011]. Here, the performance is the literal assembly of the object. The AI is performing a "validity check" on its own ekphrasis, ensuring that the description is not just poetic, but physically viable. The "text" has to obey gravity.
+4.3 The "Bag of Bricks" vs. "Bag of Words"
+A profound insight from the research is the analogy between the "bag of words" model in NLP and the "bag of bricks" in generative assembly.7 In traditional NLP, meaning is derived from the statistical distribution of words. In Operative Ekphrasis applied to Worldtext, meaning is derived from the spatial distribution of standardized components.
+LEGO bricks, with their "standardized geometry, tolerances, and global availability," offer a "uniquely well-bounded medium" for exploring this collapse of text and world.7 Because the vocabulary of bricks is discrete (like the vocabulary of words), LLMs can manipulate physical reality with the same fluency they manipulate language. The "Worldtext" allows the user to act as an architect, using language to manipulate the "atomic units" of the physical world. This fulfills Rajewsky's positioning of ekphrasis as a subcategory of intermedial reference [rajewsky_intermedialitat_2002], but pushes it further: the reference becomes the source code for the referenced media.
+5. Thick Prompting: The Hermeneutics of Operative Ekphrasis
+While Operative Ekphrasis grants the power to generate, it suffers from a crisis of meaning. Neural networks, by nature, rely on "thin descriptions"—numerical representations that strip human activity of its cultural context.12 To counter this, a new practice of Thick Prompting is required.
+5.1 The Geertzian Gap: Twitches vs. Winks
+Clifford Geertz famously distinguished between a "twitch" (a physiological contraction) and a "wink" (a culturally coded signal of conspiracy or jest).5 This distinction is the difference between "thin" and "thick" description.
+	•	Thin Description: Factual, observational, statistical. (e.g., "The eye closed and opened." / "The pixel is red.")
+	•	Thick Description: Interpretive, contextual, intentional. (e.g., "He winked to signal the joke." / "The red indicates danger.")
+Current Generative AI operates primarily on thin description. It learns statistical correlations between pixel patterns or word tokens. It can generate a "wink" (the image of an eye closing) but it does not intrinsically understand the social contract of the wink. This leads to "hallucinations" or cultural misalignment, where the AI generates surface-level artifacts without the underlying "deep cultural context".5
+In the context of LDraw/Lego, a "thin" generation might look like a car but lack structural integrity (floating bricks) or functional logic (doors that cannot open). The "physics-aware rollback" mentioned in the LegoGPT research 6 is a crude attempt to inject "thickness" (physical laws) into the "thin" generation process.
+5.2 Thick Prompting as Cultural Translation
+Research indicates that "prompt engineering" is not merely technical optimization but a form of "cultural translation".14 The prompt engineer must explicate the implicit context that the machine lacks. This requires "anchoring" the output in cultural cues and intentions.5
+"Thick Prompting" involves:
+	•	Contextual Anchoring: Explicitly stating the cultural or physical constraints. Not just "build a house," but "build a structurally sound mid-century modern house using available 1980s Lego sets, reflecting the aesthetic of suburban Americana."
+	•	Interpretive Pluralism: Accounting for multiple meanings and avoiding the "flattening" of culture into stereotypes.12
+	•	Demonstration via Few-Shot Learning: Providing examples (counterfactuals or correct demonstrations) to guide the model’s reasoning depth.13
+The "visual sense in the fingertips" [lindhe_visual_2013] takes on a literal meaning here. The user must manipulate the text with high precision—adjusting adjectives, specifying styles, and invoking references—to sculpt the latent space. The "thickness" of the prompt determines the "thickness" of the output. A "thin" prompt ("make a lego movie") yields a generic, hallucinated result.16 A "thick" prompt, rich in "operative" instructions (referencing specific LDraw parts, camera angles, lighting conditions, and narrative intent), forces the model to engage with the "deep structure" of the request.
+5.3 Cultural Alignment and the "Pictorial Third"
+The "artificial semantics" of the AI relies on the "pictorial third" [louvel_types_2018], the blend of word and image in the viewer's mind. Thick Prompting attempts to align the AI's "pictorial third" with the user's cultural reality.
+Research on "Thick Evaluation" of LLMs 13 suggests that models must be tested not on binary accuracy (Right/Wrong) but on the justification of their decisions. Similarly, in Operative Ekphrasis, the quality of the generated "Worldtext" is determined by its adherence to the "thick" constraints of the real world—gravity, connectivity, and cultural relevance.
+The "Smart Brick" evolution in Lego (adding sensors/tech) 17 further complicates this. The "Worldtext" must now describe not just geometry, but behavior and interaction. A thick prompt for a "Smart Brick" assembly must encode the logic of the sensors, effectively merging architectural ekphrasis with software engineering.
+6. Counterfactual Evaluation: Validating the Worldtext
+How do we know if the "Operative Ekphrasis" is successful? How do we distinguish a "wink" from a "twitch" in AI generation? The answer lies in Counterfactual Evaluation.15
+6.1 The "What If" as a Metric of Understanding
+Counterfactuals are minimally edited inputs that yield different predictions. In the context of "Worldtext," counterfactual evaluation serves as the rigorous stress-test of the generated object. It asks the question: "Does the model understand the causal relationship between the text and the world?"
+	•	Textual Counterfactuals: If we change the prompt from "A happy dog" to "A sad dog," does the image change in a "thick" way (posture, eyes, lighting) or a "thin" way (just a frown pasted on)?.18
+	•	Structural Counterfactuals: In LegoGPT, if we remove a specific support pillar in the LDraw code, does the system recognize the assembly is now "unstable"?.6
+Research shows that LLMs struggle with generating high-quality counterfactuals in zero-shot settings.15 They often make superficial changes rather than structural ones. However, methods like ZEROCF and FITCF 15 use feature importance to guide the generation of counterfactuals, ensuring that the changes are meaningful.
+6.2 The Unbiased Evaluation Policy
+For Operative Ekphrasis to be reliable, we must implement a "Counterfactual Evaluation Policy".20 This involves systematically "letting through" a fraction of transactions (or generations) that would otherwise be blocked, to see what would have happened.
+In the context of generating "Worldtext," this means the AI must occasionally generate "illegal" or "unstable" structures to learn the boundaries of physics. By exploring the counterfactual ("What if I put a heavy brick on a thin plate?"), the model learns the "thick" rules of the physical world, moving beyond mere visual imitation to structural understanding. This prevents the "Schopenhauerian" problem where the AI merely chases the "carrot" of the objective function without understanding the "stick" of physical reality.21
+6.3 Addressing Bias and "Thin" Assumptions
+Counterfactual evaluation is also essential for addressing bias. Research by Brosch notes that digital ekphrasis can "question scopic regimes" [brosch_ekphrasis_2018-1]. However, AI models often reinforce existing biases (thin descriptions). A counterfactual approach asks: "If I change the prompt from 'Doctor' to 'Nurse', does the gender of the generated figure change?".19
+Validating operative ekphrasis requires ensuring that the "Worldtext" is not just physically stable but culturally "fair." The "Fair Equality of Chances" framework 19 suggests that the AI must be tested against "morally arbitrary factors." In the Lego context, this might mean ensuring that "Worldtext" instructions do not default to Western-centric architectural styles unless explicitly prompted, or that the "minifigures" populated in a scene reflect diversity.
+7. The Materiality of the Digital: Sustainability and the "Black Box"
+The transition to Worldtext brings the digital back to the material, and with it, the ethical implications of materiality.
+7.1 The Sustainability of the Virtual Brick
+The research highlights the tension between the infinite reproducibility of the digital and the finite resources of the physical. The "Lego sustainability" case 22 reveals that even the "atomic unit" of our Worldtext—the brick—is embedded in a "thick" context of petroleum economics and carbon footprints.
+An AI generating Lego models operates in a "thin" layer where bricks are infinite. However, the realization of that Worldtext involves "Scope 3 supply chain emissions".22 A truly "Thick" Operative Ekphrasis would need to account for the material cost of the generated object. A "physics-aware" rollback is not enough; we need an "ecology-aware" rollback. If the AI designs a structure that requires rare, petroleum-heavy parts, should it suggest a "green" alternative?
+7.2 The Black Box Problem
+As we rely more on neural networks to perform this operative ekphrasis, we face the "Black Box" problem.18 The "connectionist" architecture collapses the text and image so thoroughly that we lose the "chain of thought." We see the output, but we do not see the reasoning.
+This contrasts with the "auditability" and "ownership" demanded by enterprise AI adoption.23 If a company uses AI to generate "Worldtext" for manufacturing, they need to know why the AI chose a specific joint or material. "Thick Description" must therefore be applied to the AI's internal process (Explainable AI or XAI) as much as its output. We need the "wink" explained.
+8. Conclusion: The Factory of Worlds
+The research comprehensively validates the concept of Operative Ekphrasis as a distinct and transformative mode of word-image relation. By analyzing the theoretical contributions of Bajohr alongside the technical realities of "LegoGPT" and the anthropological necessity of "Thick Description," we arrive at a unified theory of Executable Description.
+In this new paradigm, the text is no longer a mirror held up to the world, nor a rival to the image. It is the operative code of the world itself. The prompt is the "Worldtext" that commands the latent space to organize itself into recognizable, and increasingly buildable, configurations.
+8.1 Summary of Findings
+
+Dimension
+Insight from Research
+Implication for Ekphrasis
+Ontology
+Text/Image collapse in Neural Networks (Bajohr) 3
+Ekphrasis becomes generative, not descriptive.
+Technique
+LDraw as Worldtext / Physical API 7
+Text can describe and execute physical geometry.
+Semantics
+Thick vs. Thin Description (Geertz) 5
+Prompts must encode cultural/physical intent to avoid hallucination.
+Validation
+Counterfactual Evaluation / Physics Rollback 6
+Truth is tested by simulation and stability, not just visual resemblance.
+Rhetoric
+Enargeia as Instantiation (Webb/Hawhee) [webb_ekphrasis_2016]
+The user is an orator whose speech creates reality.
+8.2 The Future of the Paragone
+The "paragone" is over, or rather, it has been sublimated. The struggle is no longer between the word and the image, but between the Thin (the statistical probability of the token) and the Thick (the cultural and physical intent of the user).
+The "ekphrastic hope" of overcoming the otherness of the image is realized, not by describing the image better, but by consuming it into the shared latent space of the code. The word has not just mastered the image; it has become the image.
+As we move forward, the "Museum of Words" described by Heffernan is being renovated into a "Factory of Worlds." In this factory, the poet and the engineer are one and the same. They speak "Worldtext," and the machine answers with reality. The challenge that remains is to ensure that this factory produces not just "insulating" mugs or "floating" bricks, but objects that are "thick" with meaning, structurally sound, and culturally aligned. We must ensure that the "operative ekphrasis" of the machine is tethered to the "thick description" of human meaning, lest we populate our world with "twitches" masquerading as "winks."
+The executable description is here. The question is no longer "What does the image say?" but "What does the text build?"
+3
+Works cited
+	•	Museum of Words : The Poetics of Ekphrasis from Homer to Ashbery, accessed January 9, 2026, https://www.tgjonesonline.co.uk/product/james-a-w-heffernan/museum-of-words-the-poetics-of-ekphrasis-from-homer-to-ashbery/532450
+	•	The Dissolution of the Text-Image Distinction in Multimodal AI, accessed January 9, 2026, https://german.uic.edu/events/operative-ekphrasis-the-dissolution-of-the-text-image-distinction-in-multimodal-ai/
+	•	Thinking with AI Machine Learning the Humanities - Open ..., accessed January 9, 2026, http://openhumanitiespress.org/books/download/Bajohr_2025_Thinking-With-AI.pdf
+	•	Operative ekphrasis: The collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.researchgate.net/publication/372400146_Operative_ekphrasis_The_collapse_of_the_textimage_distinction_in_multimodal_AI_PLEASE_REFER_TO_PUBLISHED_VERSION
+	•	Taming Cultural Fractals: Why AI Needs to Get 'Thick'. - AI Singapore, accessed January 9, 2026, https://aisingapore.org/ai-governance/taming-cultural-fractals-why-ai-needs-to-get-thick/
+	•	LegoGPT creates Lego designs using AI and text inputs, accessed January 9, 2026, https://www.tomshardware.com/tech-industry/artificial-intelligence/legogpt-creates-stable-lego-designs-using-ai-and-text-inputs-tool-now-available-to-the-public
+	•	Generative AI for Physical Assembly and Scalable Instructions - arXiv, accessed January 9, 2026, https://www.arxiv.org/pdf/2512.15743
+	•	18.02.06: Mindfulness and Poetry - University of Delaware, accessed January 9, 2026, https://www1.udel.edu/artsci/DTI/units/2018/02/Units/18.02.06.pdf
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	Learning to Create 3D Content: Geometry, Appearance, and Physics, accessed January 9, 2026, https://www.ri.cmu.edu/app/uploads/2025/08/kangled_phd_robotics_2025.pdf
+	•	Meaning Is Not A Metric: Using LLMs to make cultural ... - OpenReview, accessed January 9, 2026, https://openreview.net/pdf?id=kJfpS7lCVT
+	•	A Framework for “Thick” Culture Alignment Evaluation in LLMs - arXiv, accessed January 9, 2026, https://arxiv.org/html/2511.12014v1
+	•	Prompt Engineering in Higher Education: - IGI Global, accessed January 9, 2026, https://www.igi-global.com/ViewTitle.aspx?TitleId=398531&isxn=9798337388052
+	•	FITCF: A Framework for Automatic Feature Importance-guided ..., accessed January 9, 2026, https://aclanthology.org/2025.findings-acl.64.pdf
+	•	Building Crazy Legos With AI - YouTube, accessed January 9, 2026, https://www.youtube.com/shorts/jdqkQ0V5Ejg
+	•	CES 2026: Lego's Smart Brick adds sound and light to your builds—but it's not AI, accessed January 9, 2026, https://timesofindia.indiatimes.com/technology/tech-news/ces-2026-legos-smart-brick-adds-sound-and-light-to-your-buildsbut-its-not-ai/articleshow/126371206.cms
+	•	LLMs for Generating and Evaluating Counterfactuals - arXiv, accessed January 9, 2026, https://arxiv.org/html/2405.00722v2
+	•	Reducing Sentiment Bias in Language Models via Counterfactual ..., accessed January 9, 2026, https://www.researchgate.net/publication/347234154_Reducing_Sentiment_Bias_in_Language_Models_via_Counterfactual_Evaluation
+	•	Counterfactual Evaluation Policy for Machine Learning Models, accessed January 9, 2026, https://medium.com/data-science/counterfactual-evaluation-policy-for-machine-learning-models-f58acba19647
+	•	Best of H+ Magazine - Volume 1: 2008 – 2010 - Ben Goertzel, accessed January 9, 2026, https://goertzel.org/BestOfH+MagazineVolume1.pdf
+	•	Lego's sustainability shift draws questions, doubts - Trellis Group, accessed January 9, 2026, https://trellis.net/article/legos-sustainability-shift-draws-questions-doubts/
+	•	Why Enterprise AI Breaks: Ownership & Compliance Matter, accessed January 9, 2026, https://openteams.com/enterprise-ai-failures-ownership-modularity/
+	•	AI-driven visual monitoring of industrial assembly tasks - arXiv, accessed January 9, 2026, https://arxiv.org/html/2506.15285v1

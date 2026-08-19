@@ -1,0 +1,174 @@
+The Science of Describing: Epistemic Infrastructures from Renaissance Natural History to the Latent Spaces of Artificial Intelligence
+Introduction: The Crisis of the Particular
+The history of science is often narrated as a sequence of theoretical revolutions—the Copernican shift, the Newtonian synthesis, the Darwinian selection. However, beneath the tectonic movements of theory lies the bedrock of practice: the mundane, laborious, and often invisible work of observing, recording, and describing the world. In his seminal analysis The Science of Describing, historian Brian Ogilvie argues that the discipline of natural history was not merely "recovered" from antiquity during the Renaissance but was actively "invented" through a fundamental transformation in the relationship between words and things.1 This invention was driven by an epistemic crisis. The Renaissance scholar was confronted with a "flux" of sensory particulars—a flood of new plants from the Americas, the East Indies, and the local European wilderness—that shattered the closed taxonomic systems of the classical authorities.
+To manage this chaotic influx, sixteenth-century naturalists forged a new "science of describing." This was not a passive recording of nature but an active construction of "technologies of observation" and "epistemic infrastructures." They built botanical gardens to spatialise comparison, invented the herbarium to freeze ephemeral specimens in time, and developed rigorous protocols of text-image coupling to stabilize the identity of species across linguistic borders.2 Crucially, they established networks of "vicarious experience," where the description served as a trusted proxy for direct witness, allowing a community of scholars to collaboratively map the natural world without every individual needing to see every specimen.1
+Today, we stand at the precipice of a parallel epistemic crisis. The emergence of Generative Artificial Intelligence and Large Language Models (LLMs) has unleashed a new kind of flux. We are no longer overwhelmed by the biological diversity of the New World, but by the probabilistic diversity of the Latent Space—a high-dimensional terrain of potentiality where truth, fiction, hallucination, and insight coexist in a state of quantum superposition. The modern practitioner—the "prompt engineer"—faces the same challenge as the Renaissance naturalist: how to stabilize this chaotic archive? How to use text to isolate specific, reliable "species" of output from the wilderness of probability?
+This report provides an exhaustive analysis of the Renaissance "science of describing," dissecting the shift from authority to autopsy, the instrumentalization of specimens, and the mechanics of naming. It then deploys this historical framework to construct a "thick prompting" argument for Artificial Intelligence. We posit that prompt engineering is not a mere technical hack but a neo-Renaissance descriptive science. By viewing the prompt as a "diagnostic phrase" and the few-shot example as a "digital herbarium specimen," we illustrate how "thick prompting"—the layering of context, constraint, and example—acts as a technology of observation that stabilizes the probabilistic archive of the AI.
+Part I: The Renaissance Invention of Natural History
+1. The Shift from Authority to Autopsy
+The intellectual culture of the late fifteenth century was grounded in the text. For the scholastic natural philosopher, knowledge was primarily philological. To understand a plant—say, the mandrake or the rose—was to understand what the ancients had written about it. The trinity of authority—Aristotle for animals, Theophrastus for plant theory, and Dioscorides for materia medica—constituted the boundary of the known world.5 In this regime, the physical object was often secondary to its textual description; if a specimen in the field disagreed with Pliny, the specimen was likely viewed as a "degenerated" form rather than the text being in error.
+The Philological Trap and the Rupture of Experience
+The initial movement of Renaissance humanism was to purify these texts. Scholars like Niccolò Leoniceno devoted their lives to correcting the translation errors that had accrued over a millennium of copying.3 However, this "humanist invention" of natural history contained the seeds of its own transcendence. As naturalists scrutinized the texts of Dioscorides with greater rigor, they began to realize a fundamental geographical dissonance: the flora of the Mediterranean (where the ancients wrote) was not the flora of the Rhineland, the Swiss Alps, or the English countryside.7
+This realization precipitated the shift from authority to autopsy. Derived from the Greek autopsia—"seeing for oneself"—autopsy became the rallying cry of a new generation of naturalists.8 It was no longer sufficient to quote Galen; one had to witness the structure of the body or the plant with one's own eyes. This was a move from the library to the field, from the "lampblack" of the study to the "rich, black earth" of the garden.2
+The Dissection of Truth
+Nowhere was this shift more visceral than in the anatomy theaters and dissection rooms of Renaissance Europe. For centuries, anatomy had been taught ex cathedra: a professor read from Galen while a lowly barber-surgeon cut the cadaver. The text was the truth; the body was merely an illustration. Andreas Vesalius and his contemporaries inverted this hierarchy. By performing the dissection himself, Vesalius transformed the body into the primary text. The "autopsy" became a method of verification that superseded the ancient canon.10
+This anatomical "seeing" was not a passive gaze. It was a trained, "specialized observation" that required the naturalist to distinguish between the essential form of the organ and the accidental variations of the specific cadaver.12 This distinction—between the ideal type and the individual specimen—would become central to the descriptive enterprise in botany as well.
+Vicarious Experience and the Community of Trust
+Brian Ogilvie identifies a critical paradox in this new empirical science: while it privileged "seeing for oneself," no single naturalist could see everything. The world was too vast, the species too numerous, and travel too dangerous.1 To encompass the globe, natural history had to become a communal enterprise.
+This necessitated the invention of "Vicarious Experience".1 If a naturalist in Bologna could not travel to Peru to see a cactus, he had to rely on the description provided by a correspondent in Seville. For this substitution to work—for the text to replace the act of witnessing—the description had to be rigorous, standardized, and trustworthy.
+The "science of describing" was thus a social technology as much as an intellectual one. It involved the creation of a "Republic of Letters" where trust was the currency. A description by Conrad Gessner or Carolus Clusius was accepted as truth not just because of their status, but because they adhered to shared protocols of observation.13 The description had to be "thick" enough to convey the sensory reality of the object—its smell, the texture of its leaves, the precise shade of its flower—so that the reader could "virtually" witness it. This aligned with the religious and cultural practices of the time, where "seeing" (even vicariously, as in a pilgrimage) was a transformative act.4 The detailed description was a "paper pilgrimage," allowing the reader to traverse the complexity of God's creation without leaving their study.
+2. Specimens as Instruments: The Epistemic Infrastructure
+The requirement for accurate description drove the creation of physical infrastructures designed to stabilize the observation of nature. The "wild" plant was too variable, too ephemeral, and too context-dependent to serve as a reliable scientific object. It had to be tamed, collected, and preserved.
+The Botanical Garden: The Theater of Comparison
+The foundation of the Orto Botanico di Padova in 1545 marked the institutionalization of the "science of describing".15 These gardens were not merely aesthetic landscapes; they were research instruments, often referred to as "theaters of nature."
+	•	Decontextualization as Epistemic Tool: By removing plants from their ecological niches (the "folk" context) and arranging them in geometric beds, the botanical garden stripped away the "noise" of the environment.2 A plant was no longer defined by where it grew (e.g., "the herb that grows by the river"), but by its morphological characteristics.
+	•	The Architecture of Comparison: The garden allowed for the physical juxtaposition of species that would never meet in nature. A tulip from Turkey could be planted next to a lily from France. This proximity allowed the naturalist to practice "differential diagnosis"—observing the minute differences in leaf attachment or stamen count that distinguished one species from another.3
+	•	The Pedagogical Autopsy: For the medical students at Padua, the garden was the site of the ostensio—the demonstration. The professor would point to the living specimen, grounding the lecture in the material reality of the plant. This reinforced the shift from text to object; the garden was the text.18
+The Herbarium: The "Winter Garden" and the Freeze-Frame
+If the botanical garden conquered space, the herbarium (or hortus siccus, "dried garden") conquered time. Attributed to Luca Ghini and popularized by his students (including Aldrovandi), the technique of pressing and drying plants between sheets of paper was a revolutionary "technology of observation".19
+	•	Stabilizing the Ephemeral: Living plants are transient; they flower, wither, and die. The herbarium specimen froze the plant in a state of permanent visibility. This allowed for the creation of a "winter garden" where study could continue year-round.19 It transformed the plant into a document.
+	•	The Mobile Specimen: Unlike a living plant in a heavy pot, a dried specimen was lightweight and flat. It could be enclosed in a letter and mailed across the Alps. This mobility was the lifeblood of the Respublica Botanica. It allowed naturalists to exchange not just descriptions, but the "thing itself." A disputed identification could be settled by mailing the specimen to an expert, extending the reach of "autopsy" across the continent.20
+	•	Loss and Compensation: However, Ogilvie notes that this technology came with a cost. The herbarium specimen lost its color, its smell, and its three-dimensional form.2 It was a "pale supplement" to the living plant. This deficiency actually drove the development of "thick description." Because the specimen was imperfect, the accompanying text had to be all the more vivid, compensating for the sensory data lost in the preservation process. The description had to "resurrect" the dried plant in the mind of the reader.
+The Cabinet of Curiosities: The Total Archive
+Beyond plants, the "science of describing" extended to the Kunstkammer or Cabinet of Curiosities. Collectors like Ulysse Aldrovandi amassed thousands of specimens—animal, vegetable, and mineral—attempting to create a microcosm of the entire world.20
+These collections were the first "databases" of natural history. Aldrovandi’s museum was described as a "paper machine" because the physical objects were inextricably linked to a massive archive of written descriptions and commissioned images. The specimen in the drawer was useless without the catalogue entry that named it, described its provenance, and linked it to classical authorities. This "dual archive" of object and data is the direct ancestor of the modern museum and the digital dataset.20
+3. Text–Image Coupling: The Visual Technology of Truth
+In the "science of describing," the image was not merely an illustration; it was a primary instrument of knowledge. In the manuscript era, images were often degraded through repeated copying, becoming stylized icons rather than accurate representations. The Renaissance, empowered by the printing press and the woodcut, revolutionized scientific visualization.
+Leonhart Fuchs and the "Epistemic Technology" of the Image
+Leonhart Fuchs’s De historia stirpium (1542) stands as the manifesto of this visual turn. Fuchs explicitly prioritized the image, stating in his dedication that "a picture expresses things more surely and fixes them more deeply in the mind than the bare words of the text".7
+	•	The Collaborative Algorithm: Fuchs did not work alone. He orchestrated a specialized team, a "human algorithm" for producing truth. He employed Albrecht Meyer to draw the plant from life (capturing the form), Heinrich Füllmaurer to transfer the drawing to the woodblock (preserving the line), and Veit Rudolf Speckle to cut the block (fixing the image for reproduction).7 By publishing their portraits in the book, Fuchs acknowledged that the "science of describing" was a collective technical achievement.
+	•	Idealization vs. Particularity: A crucial nuance in Renaissance observation was the tension between the specific and the ideal. Fuchs instructed his artists not to depict the random defects of the individual plant—a bug-eaten leaf or a wilted stem—but to portray the ideal type of the species.21 The image was a synthesis of multiple observations, a visual theory of what the plant "ought" to be. This contrasts with the herbarium specimen, which was undeniably specific and imperfect. The printed image thus served as the "standard," while the specimen served as the "proof."
+	•	Technical Constraint as Feature: The woodcuts were designed with thin, clear lines and minimal shading.7 This was a deliberate "interface design." Fuchs intended the books to be hand-colored by the owner. The printed lines provided the rigorous structural data (morphology), while the user added the variable sensory data (color). This interactive coupling of text, print, and user-added color made the book a dynamic tool for learning.
+The Image as Lingua Franca
+The coupling of text and image solved the problem of synonymy and translation. A naturalist in England might struggle with the Latin description of a German plant, but the woodcut provided an instant, non-verbal "autopsy." The image allowed for "rapid pattern matching," anchoring the text and preventing the drift of meaning that plagued purely textual descriptions.24
+4. Naming, Comparison, and the Management of Information
+As the "science of describing" succeeded, it generated a new problem: information overload. The number of known plants exploded from the 500 of Dioscorides to over 6,000 by the time of Caspar Bauhin.3 The old names were insufficient, and new names were proliferating chaotically.
+The Synonymy Problem and the "Diagnostic Phrase"
+The crisis of naming was a crisis of correlation. Was the Helleborus described by Gessner the same as the Veratrum described by Fuchs? Without a standardized nomenclature (which Linnaeus would not invent for another century), naturalists relied on Synonymy—the grueling intellectual labor of comparing descriptions to determine if they referred to the same object.26
+	•	The Name as Description: Pre-Linnaean names were "phrase names" (e.g., Plantago latifolia sinuata). These were "diagnostic phrases." The name was not an arbitrary label; it was a compressed description that functioned as a differential diagnosis.5 The name was the code that distinguished the plant from its neighbors. As species counts grew, these names became longer—"thick descriptions" acting as identifiers.
+	•	The Pinax as Database: Caspar Bauhin’s Pinax Theatri Botanici (1623) was the culmination of this sorting effort. It was a massive index, a "lookup table" that correlated thousands of names from different authors to distinct species. The Pinax was the "search engine" of the Renaissance, allowing a naturalist to navigate the chaotic sea of synonyms and find the stable reference point.26
+Conrad Gessner’s "Paper Machine"
+To manage this "big data" of the sixteenth century, Conrad Gessner invented a physical technology of information management: the Zettelkasten or "slip box" method.28
+	•	Cut-and-Paste Epistemology: Gessner physically cut pages from books, letters, and his own notes into slips (zettel). These slips could be arranged, rearranged, and grouped by topic or species. This "mobile" information allowed Gessner to break the linear tyranny of the bound book.21
+	•	Dynamic Knowledge: The slip method allowed for the continuous integration of new data. When a new description arrived in a letter, it was cut out and filed in the appropriate "box," updating the "database" in real-time. This "paper machine" was the underlying infrastructure that made the massive encyclopedias of the Renaissance possible. It was the "backend" of the science of describing.31
+Part II: Thick Prompting as a Neo-Renaissance Descriptive Science
+The challenges faced by Renaissance naturalists—stabilizing truth in a flux of sensory data, managing information overload, establishing valid vicarious experiences, and constructing epistemic trust—map with startling precision to the challenges of Generative AI. We are witnessing the rebirth of the "Science of Describing," not applied to biological nature, but to the probabilistic nature of the Latent Space.
+By reusing Ogilvie’s conceptual frame, we can construct a "thick prompting" argument that reframes Prompt Engineering from a trivial "hack" into a rigorous discipline of Knowledge Engineering.
+1. The Analogy: Latent Space as the New World
+	•	The Flux: The Renaissance naturalist faced the "flux" of the biological world—infinite variation, confusing look-alikes, and "monsters." The AI practitioner faces the "flux" of the Latent Space—the high-dimensional vector space of the Large Language Model.33 This space contains a near-infinite number of potential token sequences: some are profound truths, some are coherent fictions, and some are "hallucinations" (the digital basilisks).
+	•	The Task: The goal of the naturalist was to stabilize a "species" out of the biological flux. The goal of the prompt engineer is to stabilize a specific Behavior/Output out of the probabilistic flux.
+	•	The Method: Both disciplines rely on "Description" as the primary instrument of control.
+2. Thick Prompting: The "Diagnostic Phrase" of the Digital Age
+In pre-Linnaean botany, a simple name (Plantago) was insufficient to identify a specific plant; one needed a "thick" diagnostic phrase (Plantago major latifolia...) to distinguish it from similar species. In AI, a "thin prompt" ("Write a poem") is insufficient to navigate the latent space; it retrieves a generic, "hallucinated," or median response.
+Thick Prompting is the application of the "diagnostic phrase" to AI. It is the practice of layering context, constraints, personas, and format specifications to carve out a precise "species" of output.34
+From Zero-Shot Authority to Chain-of-Thought Autopsy
+	•	The Authority Model (Zero-Shot): Asking an LLM a question and accepting the answer is equivalent to the medieval scholar accepting Pliny’s text. It relies on the "authority" of the model’s training data. This is prone to error (hallucination) just as Pliny was prone to myth.35
+	•	The Autopsy Model (Chain-of-Thought): Renaissance naturalists demanded "autopsy"—seeing the internal structure. Chain-of-Thought (CoT) prompting is the digital equivalent.35 By instructing the model to "think step-by-step," the engineer forces the model to reveal its internal "anatomy" of reasoning. We do not trust the answer; we witness the derivation. This creates a "vicarious experience" of the model’s logic, allowing the human to verify the process just as the Paduan student verified the dissection.
+3. Specimens as Instruments: Few-Shot Prompting and the Digital Herbarium
+The most direct mapping of the Renaissance "herbarium" to AI is the technique of Few-Shot Prompting (or In-Context Learning).35
+	•	The Few-Shot Example as Specimen: In a few-shot prompt, the engineer provides a set of examples (Input: A -> Output: B). These examples are digital specimens. They are "dried," stabilized fragments of ground truth injected into the context window.
+	•	Anchoring the Flux: Just as a herbarium sheet served as the physical reference that anchored a plant name, the few-shot example anchors the model’s pattern matching. It says to the model: "Do not hallucinate a new format; align your output with this specimen." The more "type specimens" (high-quality examples) provided, the more stable the output becomes.38
+	•	The Context Window as Cabinet: The Context Window (the limited memory of the model) is the Cabinet of Curiosities or the Botanical Garden.40 It is a finite, valuable real estate where these "specimens" must be carefully curated. "Thick prompting" involves the gardening of this window—weeding out irrelevant tokens and arranging the examples to maximize their epistemic impact.
+4. Text–Image Coupling: Multimodal Description
+Fuchs argued that text alone was insufficient; truth required the image. We see this return in Multimodal AI (e.g., GPT-4V, Gemini).
+	•	Visual Grounding: Providing an image in a prompt (e.g., a screenshot of a chart) acts as a "Fuchsian" stabilizer.7 The text describes the intent, but the image provides the "autopsy" data that words cannot capture.
+	•	Generative Description: Conversely, in image generation (Midjourney), the text prompt is a pure exercise in the "science of describing." The user must describe lighting, texture, and composition with the precision of a Renaissance naturalist describing a tulip. A "thick prompt" in Midjourney is a "diagnostic phrase" that filters out millions of "wrong" images to find the one "correct" visualization.42
+5. Epistemic Infrastructure: RAG as the New Pinax
+The Renaissance had the library, the slip-box, and the synonymy index (Pinax); AI has Retrieval Augmented Generation (RAG).33
+	•	RAG as the "Stabilized Archive": An LLM by itself is a naturalist without a library, relying on memory (which is fallible). RAG connects the LLM to a curated external database (Vector Store). This database is the Pinax—the index of stable truths.26
+	•	Knowledge Engineering: The work of building a RAG system—chunking documents, creating embeddings, cleaning data—is the modern equivalent of Conrad Gessner’s "cut-and-paste" slip work.44 It is the invisible, "tedious" labor that makes the system intelligent. The prompt engineer, like Gessner, is a "Knowledge Engineer," architecting the retrieval mechanisms that allow the model to access the "paper machine" of the enterprise.34
+	•	The Footnote as Vicarious Experience: A RAG system that provides citations (footnotes) is recreating the "network of trust" of the Respublica Botanica. The user accepts the AI’s answer because they can "click through" to the source document—a digital form of "seeing for oneself".46
+Table 1: Conceptual Map – The Renaissance Science of Describing vs. AI Prompt Engineering
+Renaissance Concept
+Renaissance Function
+AI "Thick Prompting" Concept
+AI Function
+The Object
+The Biological Species (Plant)
+The Generated Output
+The unit of analysis/creation.
+The Crisis
+Flux of Nature; Infinite Variation.
+Flux of Latent Space; Probabilistic Noise.
+Managing chaos and hallucination.
+The Method
+Autopsy (Seeing for oneself).
+Chain-of-Thought (CoT)
+Forcing the model to show steps/reasoning.
+The Instrument
+Herbarium Specimen (Dried/Fixed).
+Few-Shot Example (In-Context).
+Anchoring the definition with ground truth.
+The Space
+Botanical Garden / Cabinet.
+Context Window.
+Finite space for curating examples/data.
+The Identifier
+Diagnostic Phrase (Thick Name).
+Thick Prompt (Detailed Instruction).
+Isolating the specific from the generic.
+The Archive
+Pinax / Paper Machine (Slips).
+RAG / Vector Database.
+External memory/knowledge base.
+The Goal
+Vicarious Experience (Trust).
+Grounded Generation (Reliability).
+Creating trust in the absence of direct access.
+Conclusion: The "Pleasant and Useful" Labor of the Prompt
+Hieronymus Bock justified the arduous labor of natural history as being both "pleasant and useful".2 The same applies to the emerging discipline of "Thick Prompting." It is often dismissed as "prompt hacking" or a temporary skill, but history suggests otherwise. The "Science of Describing" did not disappear after the Renaissance; it evolved into the rigorous disciplines of taxonomy, biology, and library science.
+We are currently in the "natural history phase" of AI. We are exploring the "New World" of latent capabilities, discovering "species" of reasoning (like CoT) and "monsters" (jailbreaks). The prompt engineer is the Gessner, the Fuchs, and the Bauhin of this era. By adopting the "technologies of observation"—the specimen (few-shot), the autopsy (CoT), and the archive (RAG)—we can transform the raw, hallucinatory wilderness of the model into a "pleasant and useful" garden of knowledge.
+The "Science of Describing" teaches us that precision in language is not a luxury; it is the infrastructure of truth. In an age of probabilistic text, the ability to describe the desired output with "thick," rigorous constraints is the only thing standing between us and the chaos of the flux.
+Citations
+1
+Works cited
+	•	HUNTIA - Hunt Institute for Botanical Documentation, accessed January 9, 2026, https://www.huntbotanical.org/admin/uploads/05hibd-huntia-13-2-pp155-180.pdf
+	•	The Science of Describing: Natural History in Renaissance Europe ..., accessed January 9, 2026, https://dokumen.pub/the-science-of-describing-natural-history-in-renaissance-europe-9780226620862.html
+	•	The Many Books of Nature: How Renaissance naturalists created ..., accessed January 9, 2026, http://people.umass.edu/ogilvie/papers/hss2000.pdf
+	•	Full article: Knowing like a pilgrim, accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/09518967.2023.2264128
+	•	The Science of Describing: Natural History in Renaissance Europe, accessed January 9, 2026, https://www.researchgate.net/publication/37694838_The_Science_of_Describing_Natural_History_in_Renaissance_Europe
+	•	The Natural-Historical Description as Epistemic Genre? in - Brill, accessed January 9, 2026, https://brill.com/display/book/edcoll/9789004375703/BP000010.xml
+	•	Fuch's Great Herbal - University of Glasgow, accessed January 9, 2026, https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/month/oct2002.html
+	•	The Medical Autopsy: Past, Present, and Dubious Future - PMC - NIH, accessed January 9, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC6188261/
+	•	The History of Anatomy - from the beginnings to the 20th century, accessed January 9, 2026, https://bodyworlds.com/about/history-of-anatomy/
+	•	Anatomy: art and science, accessed January 9, 2026, https://www.sciencemuseum.org.uk/objects-and-stories/medicine/anatomy-art-and-science
+	•	The rich heritage of anatomical texts during Renaissance and ... - NIH, accessed January 9, 2026, https://pmc.ncbi.nlm.nih.gov/articles/PMC6952681/
+	•	(PDF) Natural history in Sidereus Nuncius - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/263409162_Natural_history_in_Sidereus_Nuncius
+	•	The Science of Describing - BiblioVault, accessed January 9, 2026, https://www.bibliovault.org/BV.landing.epl?ISBN=9780226620862
+	•	Brian W. Ogilvie. The Science of Describing: Natural History in ..., accessed January 9, 2026, https://www.journals.uchicago.edu/doi/10.1086/597695
+	•	Padua Botanical garden - Orto Botanico di Padova, accessed January 9, 2026, https://ortobotanico1545.it/en/
+	•	Orto botanico di Padova - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Orto_botanico_di_Padova
+	•	The Botanical Garden of Padua - Abano Terme, accessed January 9, 2026, https://www.abano.it/en/Territory/botanical-garden-padua.aspx
+	•	The Botanical Garden (Orto Botanico), Padua 824, accessed January 9, 2026, https://whc.unesco.org/document/154376
+	•	(PDF) The Apocalyptic Herbarium - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/355877308_The_Apocalyptic_Herbarium
+	•	Enlightened orders (II) - Worlds of Natural History, accessed January 9, 2026, https://www.cambridge.org/core/books/worlds-of-natural-history/enlightened-orders/0373758E874C452A68FD62A06A7347A7
+	•	C onrad G essner 's E pistolae M ed ic in a le s - UCL Discovery, accessed January 9, 2026, https://discovery.ucl.ac.uk/1445225/1/U592543.pdf
+	•	(PDF) Botanical memory: five centuries of floristic changes revealed ..., accessed January 9, 2026, https://www.researchgate.net/publication/375487247_Botanical_memory_five_centuries_of_floristic_changes_revealed_by_a_Renaissance_herbarium_Ulisse_Aldrovandi_1551-1586
+	•	De historia stirpium commentarii insignes - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/De_historia_stirpium_commentarii_insignes
+	•	Errant Images | 21: Inquiries into Art, History, and the Visual, accessed January 9, 2026, https://journals.ub.uni-heidelberg.de/index.php/xxi/article/view/76229/101357
+	•	De historia stirpium hi-res stock photography and images - Alamy, accessed January 9, 2026, https://www.alamy.com/stock-photo/de-historia-stirpium.html
+	•	(PDF) Networked names: synonyms in eighteenth-century botany, accessed January 9, 2026, https://www.researchgate.net/publication/336616030_Networked_names_synonyms_in_eighteenth-century_botany
+	•	The Linnaean revolution – A history of the Natural System, accessed January 9, 2026, https://www.diva-portal.org/smash/get/diva2:2023936/FULLTEXT01.pdf
+	•	What is the Zettelkasten Method and How Can It Help You Organize ..., accessed January 9, 2026, https://www.remio.ai/post/what-is-the-zettelkasten-method-and-how-can-it-help-you-organize-ideas
+	•	'Note-Taking and the Organization of Knowledge', accessed January 9, 2026, https://dspace.stir.ac.uk/bitstream/1893/32103/1/Vine%20Note-Taking%20and%20the%20Organization%20of%20Knowledge.pdf
+	•	If you need a new website, ask a 16th century Swiss naturalist, accessed January 9, 2026, https://www.andrewladd.com/blog/if-you-need-a-new-website-ask-a-16th-century-swiss-naturalist/
+	•	Facilitas inveniendi: the alphabetical index as a knowledge ..., accessed January 9, 2026, https://www.liverpooluniversitypress.co.uk/doi/pdf/10.3828/indexer.2007.29
+	•	The Long Reign of the Index Card and Card Catalog - Peter Krapp, accessed January 9, 2026, http://www.krapp.org/pdf/paperslips.pdf
+	•	Architecting Artificial Intelligence as a Complex Adaptive System in ..., accessed January 9, 2026, https://medium.com/@mail.madhavan.v/architecting-artificial-intelligence-as-a-complex-adaptive-system-in-the-enterprise-a71edd241aab
+	•	Knowledge Engineering: The Foundation for Enterprise AI - Medium, accessed January 9, 2026, https://medium.com/@prakrutimonali/knowledge-engineering-the-foundation-for-enterprise-ai-f1e530b4f7d6
+	•	Prompting is all you need: LLMs for systematic review screening, accessed January 9, 2026, https://www.medrxiv.org/content/10.1101/2024.06.01.24308323v1.full-text
+	•	(PDF) Comprehensive testing of large language models for ..., accessed January 9, 2026, https://www.researchgate.net/publication/390351125_Comprehensive_testing_of_large_language_models_for_extraction_of_structured_data_in_pathology
+	•	Session 3 Prompt Engineering For Generative AI | PDF - Scribd, accessed January 9, 2026, https://www.scribd.com/document/856185362/Session-3-Prompt-Engineering-for-Generative-AI
+	•	Small Language Models Can Use Nuanced Reasoning For Health ..., accessed January 9, 2026, https://arxiv.org/html/2512.06502v1
+	•	arXiv:2411.08870v1 [cs.CL] 13 Nov 2024, accessed January 9, 2026, https://arxiv.org/pdf/2411.08870?
+	•	Semantic Components in Large Language Models: A Philosophical ..., accessed January 9, 2026, https://dspace.cuni.cz/bitstream/handle/20.500.11956/204871/140137150.pdf?sequence=1&isAllowed=y
+	•	W iki H int : A Human-Annotated Dataset for Hint Ranking and ..., accessed January 9, 2026, https://www.researchgate.net/publication/393658272_W_iki_H_int_A_Human-Annotated_Dataset_for_Hint_Ranking_and_Generation
+	•	Thesis under joint-supervision (tesi in cotutela / thèse en co-tutelle ..., accessed January 9, 2026, https://iris.unito.it/retrieve/4ad25da3-8f96-4f39-9703-47f3c1926967/Automatic%20poetics_MONTI_PhD%20Thesis%20%5B29.pdf
+	•	Global Epistemic Threats: Risks and Mitigations - Emergent Mind, accessed January 9, 2026, https://www.emergentmind.com/topics/global-epistemic-threats-gets
+	•	Harnessing Generative AI in Enterprises: The Dual Power of ..., accessed January 9, 2026, https://www.architectureandgovernance.com/uncategorized/harnessing-generative-ai-in-enterprises-the-dual-power-of-knowledge-and-prompt-engineering/
+	•	Knowledge Prompting: How Knowledge Engineers Use Generative AI, accessed January 9, 2026, https://kclpure.kcl.ac.uk/portal/en/publications/knowledge-prompting-how-knowledge-engineers-use-generative-ai/
+	•	An epistemic solution to do away with our illusion of AI objectivity, accessed January 9, 2026, https://blogs.lse.ac.uk/businessreview/2025/04/15/an-epistemic-solution-to-do-away-with-our-illusion-of-ai-objectivity/
+	•	De Historia Stirpium Commentarii Insignes (1542), accessed January 9, 2026, https://www.huh.harvard.edu/book/de-historia-stirpium-commentarii-insignes-1542
+	•	Top 370 ACS Synthetic Biology papers published in 2023 - SciSpace, accessed January 9, 2026, https://scispace.com/journals/acs-synthetic-biology-1ighf781/2023
+	•	The Shifting Science of Botanical Nomenclature — I - Plant Talk, accessed January 9, 2026, https://www.nybg.org/blogs/plant-talk/2013/06/science/the-shifting-science-of-botanical-nomenclature-i/
+	•	Rewriting Renaissance ornithology: Jean Baptiste Faultrier's “Traitté ..., accessed January 9, 2026, https://www.euppublishing.com/doi/10.3366/E0260954108000417

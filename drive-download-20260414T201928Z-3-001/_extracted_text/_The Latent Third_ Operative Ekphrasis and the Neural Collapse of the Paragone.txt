@@ -1,0 +1,219 @@
+The Latent Third: Operative Ekphrasis and the Neural Collapse of the Paragone
+1. Introduction: The Crisis of the Representational Paradigm
+The history of Western aesthetics has been fundamentally shaped by the paragone—the competitive and often agonistic struggle for dominance between the sister arts of poetry and painting. Since the Renaissance, and crystallized in the modern theoretical apparatus of the twentieth century, the relationship between word and image has been framed as a binary opposition, a "struggle for mastery" where text attempts to silence the image or the image attempts to exceed the grasp of language.1 This adversarial model, championed by scholars such as W.J.T. Mitchell and James Heffernan, defines ekphrasis in a strictly representational mode: "the verbal representation of a visual representation".3 Under this definition, the ontology of the image and the ontology of the text are distinct and immutable; the tragedy and the beauty of ekphrasis lie in the asymptotic attempt of language to become what it is not—to achieve a "mute poetry" or a "speaking picture" that ultimately fails to close the semiotic gap.
+However, the emergence of multimodal artificial intelligence—specifically stochastic machine learning models capable of generating images from text prompts (such as DALL-E, Midjourney, and Stable Diffusion)—has precipitated a catastrophic crisis in this theoretical lineage. We are currently witnessing a shift in the media-technical substrate that renders the "modern" definition of ekphrasis obsolete. As Hannes Bajohr argues in his seminal work on "operative ekphrasis," the introduction of modern AI necessitates a fundamental division of the digital realm into a "sequential" part (classic algorithms) and a "connectionist" part (artificial neural networks).5 In the connectionist paradigm, the "classical opposition between text and image, on which the concept of ekphrasis is based, dissolves".5 Within the high-dimensional vector space of a neural network, an image and its caption are not distinct ontologies fighting for supremacy; they are mathematical neighbors, encoded as the same type of data.
+This report stages a theoretical intervention that is "latent" in the bibliography of contemporary media studies, triangulating the recent work of Hannes Bajohr, Liliane Louvel, Ruth Webb, Patrick Wright, and Irina Rajewsky. It argues that we are witnessing the birth of Operative Ekphrasis—a mode where text does not merely represent an image but performs its generation.6 This shift forces a re-evaluation of the "modern" definition of ekphrasis (Heffernan/Spitzer) in favor of the "ancient" definition (Webb/Goldhill), which emphasized enargeia (vividness) and the power of language to bring absent things before the eyes.8 Furthermore, to understand the human experience of this machine operation, we must turn to Liliane Louvel’s concept of the "pictorial third"—the image that arises in the reader's mind, hovering between the text and the memory.10 In the age of AI, the "pictorial third" finds its uncanny double in the "Latent Third": the statistical probability space where the machine dreams.
+The following analysis is exhaustive in its scope, dissecting the technical, phenomenological, and rhetorical dimensions of this shift. We will examine the collapse of the text/image distinction in vector space, the return of rhetorical enargeia as a computational function, the phenomenology of the "third" image in both human and machine cognition, and the procedural poetics that prefigured this moment. By synthesizing these diverse strands of scholarship, this report aims to provide a unified theory of text-image relations for the age of generative media.
+2. The Technical Substrate: From Sequential to Connectionist Ekphrasis
+To understand why traditional theories of ekphrasis fail to account for generative AI, one must first accept the material reality of the computational substrate. The digital is not a monolith. The failure of much contemporary digital humanities scholarship lies in treating "the computer" as a singular entity. As Bajohr rigorously categorizes, we must distinguish between the "sequential" paradigm of classic computing and the "connectionist" paradigm of contemporary machine learning.5 This distinction is not merely technical; it is the philosophical ground upon which the new ekphrasis is built.
+2.1 The Sequential Paradigm: Code as Representation
+The sequential paradigm, rooted in the Von Neumann architecture and the Turing machine, operates on discrete, logical steps. In this mode, code is a set of instructions that manipulates symbols according to explicit rules. When a "classical" computer program displays an image, it does so by calling a file—a JPEG or PNG—that is distinct from the code calling it. There is a rigid separation between the instruction (text) and the asset (image).
+In this paradigm, the distinction between text and image is preserved. The code refers to the image file, or perhaps mathematically constructs it through explicit geometry (as in vector graphics or the work of early computer artists like Frieder Nake), but the visual and the textual remain ontologically distinct entities within the system’s logic. This aligns with what Bajohr terms "sequential" digital ekphrasis, where "code is performative" in the sense that it executes a command to display a visual, but the "classic opposition between text and image" remains intact.5
+Bajohr illustrates this with the example of "analog" visual poetry, such as the work of German concrete poet Franz Mon. Mon’s work, specifically his cycle "non tot" published in 1964, consists of typewritten lines shaped like a diamond or a sail.6 The lines repeat the words "non" and "tot," growing progressively more compressed toward the center of the page. Here, text and image are fused on the page, but they are fused by mechanical work—the typewriter striking the paper. There is no algorithm mediating the relationship; it is a static, material fusion.
+In the transition to "sequential" digital works, such as those by Jorg Piringer or Meerhoff, the text on the screen is produced by a second text: the code.5 As Bajohr notes, "In Meerhoff's piece, there are now two texts—the one on the page and the one that actually produces that text, the code".5 This is a "textual performance in a computational sense," but it remains bound by the logic of representation. The code represents the instructions for drawing the text. The gap between the signifier (code) and the signified (visual output) is bridged by a compiler, but the two sides of the bridge are distinct territories.
+2.2 The Connectionist Paradigm: The Vector Collapse
+The connectionist paradigm, exemplified by artificial neural networks (ANNs) and Large Language Models (LLMs) integrated with diffusion models (e.g., CLIP embeddings), operates fundamentally differently. Here, the system does not "store" images or text in discrete drawers. Instead, it learns a high-dimensional statistical representation of data. This is the realm of "Thinking With AI," where the humanities must grapple with the "black box" of stochastic processing.12
+In a multimodal model like CLIP (Contrastive Language-Image Pre-training), images and texts are fed into the network during training. The network learns to encode both modalities into vectors—strings of floating-point numbers indicating position in a multi-dimensional "latent space." The crucial innovation is that the network is penalized if the vector for an image and the vector for its caption are far apart, and rewarded if they are close together. Over billions of iterations, the "text space" and the "image space" are warped until they overlap.
+Bajohr’s central insight is that this technical reality "ultimately tends toward a collapse of the text/image distinction in the technical system".5 The neural network does not "see" an image or "read" a text; it processes "one type of data"—the vector.5
+This collapse has profound implications for media theory. If ekphrasis is defined as the "verbal representation of a visual representation" (Heffernan) 3, it relies on the difference between the verbal and the visual. If that difference is erased at the substrate level, does ekphrasis cease to exist? Bajohr argues the opposite: it evolves into Operative Ekphrasis.
+"Only in the context of multimodal AI, unlike in analogue or sequential paradigms, ekphrasis goes beyond the separation of or transition between text and image, but rather transcends this difference".5
+In Operative Ekphrasis, the text (the prompt) is not a description of a pre-existing image. It is the operator that navigates the latent space to retrieve or synthesize the image. It is "truly 'words painting a picture'—but as an operation of manipulating symbolic information rather than figurative representation".5
+2.3 The Return of Semantics to the Digital
+A critical corollary to the connectionist shift is the "return of semantics" to the digital.5 In classical (sequential) computing, the machine understands only syntax—the grammatical rules of code. It does not "know" what a variable represents; it only knows how to process it according to the logic gates. The computer does not know that var cat = "image.jpg" has anything to do with a feline animal; it only knows it is a string variable.
+In the connectionist paradigm, however, the spatial relationships between vectors encode meaning (semantics). The famous example of vector arithmetic—King - Man + Woman = Queen—demonstrates that the system has captured the semantic relationship of gender and royalty as spatial directions in the latent space. Bajohr notes that "semantics nevertheless returns to the digital, which hitherto has been seen only as a matter of syntax".5
+This "artificial semantics" means that the machine is not just blindly executing code; it is navigating a terrain of meaning that humans and machines share, albeit asymmetrically. The "operative ekphrasis" is the navigation tool for this semantic terrain. When a user inputs a prompt, they are not writing code in the traditional sense; they are inputting semantic coordinates. The machine takes these coordinates and traverses the latent space to find the visual manifestation of that meaning.
+This return of semantics challenges the post-structuralist and media-archaeological view (e.g., Kittler) that "there is no software" or that the machine is purely a syntactic signal processor. In the age of AI, the machine is a semantic engine. It "understands" the relationship between the word "blue" and the pixel values $(0, 0, 255)$ not because of a rigid rule, but because it has seen billions of examples of blue things. This probabilistic understanding allows for the "hallucination" of new images that have never existed but are semantically coherent with the prompt.
+2.4 The Dissolution of the Medium
+Bajohr draws two radical conclusions from this analysis: "first, that the classical opposition between text and image, on which the concept of ekphrasis is based, dissolves in multimodal AI; and second, that semantics nevertheless returns to the digital".5 This suggests that the very category of "medium" (as in "the medium of painting" vs. "the medium of poetry") is becoming fluid. In the latent space, there are no media; there is only information density.
+This fluidity is what allows for the seamless translation between modalities. We can now have "text-to-image," "image-to-text" (captioning), "text-to-video," and even "brain-to-image" (reconstructing visual stimuli from fMRI data). All of these are variations of the same operative principle: navigating the latent space. The "paragone"—the struggle for dominance—is rendered moot because the combatants have merged into a single fluid entity.
+3. The Phenomenology of the Third: Louvel and the Latent Space
+If Bajohr gives us the mechanism (collapse of distinction) and the technical specification of the new media object, we must turn to the work of Liliane Louvel to understand the phenomenology of this experience. How does the human subject interact with this collapsed space? Louvel’s work on the "pictorial third" provides the necessary framework for understanding the "ghost in the machine."
+3.1 The Pictorial Third: Between Text and Image
+Liliane Louvel’s major contribution to intermedial studies is the concept of the "Pictorial Third" (Le Tiers pictural). Challenging the binary models of word and image, she argues that the interaction between the two produces a third entity:
+"It eventually gives rise to the 'pictorial third', an in-between composite picture resulting from the phenomenological experience of the reading event".11
+This "third" is neither the text on the page nor the physical image (if one exists). It is the "image developed out of the ekphrasis that hovers in between the two other images".15 It is an "affective" image, appearing on the "inner screen" of the reader.15
+Louvel emphasizes the role of the body and affect in this process. The "pictorial third" is not just an intellectual processing of symbols; it is a "reading event" that "gives the body and the affects back their full role".10 When we read a vivid description, our body reacts—we might feel a chill, a sense of vertigo, or a flash of color. This physiological response is the proof of the "third's" existence.
+Louvel illustrates this with a close reading of Aleksandar Hemon’s The Lazarus Project.11 The book is described as an "iconotext," a work where text and image are inextricably linked. It is "swaddled in black paper shrouds," with "smudgy" photographs printed on black pages like an album. Louvel points to a specific "pathos-image" on page 52, showing the deceased Lazarus Averbuch seated in a chair, held by a policeman. This image acts as an instance of the "pictorial third"—an in-between state that is neither purely text nor purely image. It "interposes itself between what I am reading and what I see in my mind's eye," creating a "double exposure" of heterogeneous times (the novel's time vs. the reader's experience).11
+3.2 The Latent Third: The Machine’s Phenomenology?
+How does Louvel’s human-centric phenomenology map onto Bajohr’s connectionist machine? We must posit a structural homology between the human "mind's eye" and the machine's "latent space."
+	•	The Human Reader (Louvel):
+	•	Input: Ekphrastic Text.
+	•	Process: Reading/Imagining/Memory Retrieval.
+	•	Substrate: Memory/Affect/Body.
+	•	Output: The Pictorial Third (Mental Image).
+	•	The Generative AI (Bajohr/Connectionist):
+	•	Input: Text Prompt.
+	•	Process: Diffusion/Vector Navigation/Denoising.
+	•	Substrate: Training Data/Weights/Latent Space.
+	•	Output: The Generated Image (Latent Third realized).
+The "Latent Space" of the AI is the machine’s version of the "Pictorial Third." It is the "in-between" where the text and the image mix and merge. It is a probabilistic cloud of all possible images that could exist given the constraints of the prompt. Just as Louvel’s "pictorial third" hovers between the text and the reader’s memory, the "latent third" hovers between the prompt and the training data.
+However, a crucial difference remains: Affect. Louvel insists that the pictorial third is "apprehended in terms of effect or affect not only as a concept".14 The machine has no body, no affect. It has "artificial semantics" 5, but does it have "artificial affect"?
+The "latent paper" argues that the Latent Third is the site where human affect (in the prompter) meets machine statistics. The prompter experiences the "desire" for the image—the "maieutic" or "affective" function of ekphrasis, as Louvel categorizes.17 The machine executes the "operative" function. The resulting image is a hybrid artifact: an "operative iconotext" that carries the "ghost" of the human desire that summoned it.
+3.3 The Irenic vs. The Agonistic
+Louvel explicitly challenges the "agonistic" view of the paragone—the idea that word and image are in a struggle for mastery. Instead, she proposes an "irenic" (peaceful) view of "transaction" or "dialogue".10 She sees the word/image relationship "in terms of a transaction, or better, a dialogue between the two media".15
+Bajohr’s technical analysis provides the material validation for Louvel’s theoretical preference. In the connectionist system, there is no "struggle" because there is no difference. The text and the image are collaborators in the same vector space. The "paragone" is impossible in a non-dualistic system. Thus, AI validates Louvel’s theoretical stance: the future of word-image relations is not war (Heffernan/Mitchell), but fusion (Louvel/Bajohr).
+This fusion is further exemplified in the work of W.G. Sebald, another key author for Louvel.5 In Sebald’s The Rings of Saturn, the text typically precedes the image, yet the image represents a former diegetic time. This creates a "reversal where the text 'illustrates' the photograph," leading to a feeling of aporia and "double perception".11 The compact pages with few paragraphs and no inverted commas provide a "grey background" for photographs, causing a "suspension in the reader's experience" where images are "read" and texts are "seen." This "suspension" is the analogue experience of the "collapse" that Bajohr identifies in the digital realm. Sebald’s "grey background" is the literary precursor to the "latent noise" of the diffusion model.
+3.4 Typologies of Ekphrasis in the Neural Age
+Louvel identifies various functions of ekphrasis which can be productively mapped onto the operations of AI 16:
+Louvel's Function
+Traditional Definition
+AI / Operative Equivalent
+Narrativizing
+Turning the static image into a story ("And then...").
+Video Generation: Turning a static prompt/image into a temporal sequence (e.g., Sora).
+Maieutic
+"Midwifery"—helping the image be born, revealing its meaning.
+Prompting: Coaxing the image out of the latent space; the user as "midwife" to the machine.
+Hermeneutic
+Interpreting the image.
+Image-to-Text (Captioning): The AI interpreting the visual vector back into semantic tokens.
+Affective
+Focusing on the emotional impact/body.
+Style Transfer: Applying the "mood" or "affect" of one image to another (e.g., "in the style of Van Gogh").
+This table demonstrates that Louvel’s typology provides the precise vocabulary needed to describe what we are doing when we prompt. We are not "coding"; we are engaging in "maieutic ekphrasis"—acting as midwives to the machine’s generative capabilities.
+4. The Rhetorical Turn: From Representation to Enargeia
+The concept of "operative ekphrasis"—where text causes the image to appear—may seem radically new, born of the GPU cluster and the transformer architecture. However, a close reading of Ruth Webb’s scholarship on ancient rhetoric suggests that AI may be returning us to the original meaning of ekphrasis, long before the modern fixation on the "art object."
+4.1 The Modern Misunderstanding: The Museum Gaze
+The definition of ekphrasis most cited in 20th-century literature is "the poetic description of a pictorial or sculptural work of art" (Leo Spitzer) or "verbal representation of visual representation" (James Heffernan).3 This definition is a product of the "museum age," where the encounter with art is the primary scene of aesthetic experience. It is static, contemplative, and representational. It assumes a "struggle for mastery" where the poet tries to make the silent painting speak.1
+This model fits the "sequential" paradigm well: the text (poem) stands outside the image (painting), pointing at it, describing it, but never becoming it. It establishes a hierarchy and a distance that the AI collapses.
+4.2 The Ancient Definition: Enargeia and Presence
+Ruth Webb, Simon Goldhill, and others have demonstrated that in antiquity, ekphrasis had a much broader and more dynamic meaning. It was defined not by its subject matter (art), but by its effect: Enargeia (vividness).8
+"Ekphrasis was considered to be a mode of speaking capable of bringing absent things before the listener's inner eye through the use of enargeia... producing evidentia (evidence) via lively, precise, and detailed verbal description".8
+For the ancients, ekphrasis was a speech act that made present that which was absent. It was not about describing a painting on a wall; it was about conjuring a battlefield, a storm, or a shield so vividly that the listener felt they were seeing it. It was a "mode of speaking capable of bringing absent things before the listener's inner eye".20
+Webb notes that ancient rhetoricians considered any kind of description that was "enargetic" to be an ekphrasis—be it plain and blunt enumeration or the most meticulously detailed depiction of objects or persons. The goal was to "turn listeners into spectators".20 The listener’s emotions were central; the description was designed to trigger an emotional-affective reaction, not just an intellectual recognition.8
+4.3 The Prompt as Digital Enargeia
+The prompt in a generative AI system ("A futuristic city in the style of cyberpunk, neon lights, rain...") functions exactly as enargeia.
+	•	Absence to Presence: The image does not exist before the prompt. The text summons it from the latent space. The prompt is a speech act that instantiates reality.
+	•	Vividness: The more "enargetic" (detailed, specific, vivid) the prompt, the more successful the generation. Prompt engineering is essentially the modern practice of rhetorical enargeia—learning which adjectives and descriptors create the most vivid "inner vision" in the machine.
+	•	Performance: The text performs the visualization. As Webb notes, ancient ekphrasis was "performative ritualised practice of how mental seeing can be produced".21
+As the research suggests, "digital ekphrasis with its emphasis on enargeia... conveys an aesthetic of tactility; digitalis=finger".19 The ancient definition emphasized "immediacy and the impact on the listener".19 In the AI context, the "listener" is the neural network, and the "impact" is the render. The "finger" (digitalis) of the user touches the keyboard, which touches the latent space, which touches the pixel.
+The "latent paper" here posits that Operative Ekphrasis is the technological realization of rhetorical Enargeia. The "modern" definition (text describing art) was a historical detour. The trajectory of ekphrasis is circular:
+	•	Antiquity: Text generates mental images (Enargeia).
+	•	Modernity: Text describes physical images (Representation).
+	•	AI Age: Text generates digital images (Operative Ekphrasis).
+This aligns with the observation that "ancient ekphrasis... makes it clear again and again that Achilles's Shield is not merely a static visual object but 'a living thing'".22 Generative media returns the "living" quality to the image-text relation; the image is mutable, regenerative, and fluid, responsive to the "speech" of the prompt.
+5. Procedural Poetics: The Human Algorithm and Oulipo
+Before the machine could dream, humans developed algorithms to dream like machines. The work of Patrick Wright on the ekphrasis of abstract painting, particularly through Oulipo (Ouvroir de littérature potentielle) techniques, provides the missing link between human creativity and algorithmic generation.23
+5.1 The Problem of Abstraction
+Traditional ekphrasis (Homer, Keats) relies on figures. Describing the Shield of Achilles is relatively straightforward because it depicts scenes (weddings, wars, vineyards). Describing a Rothko, a Pollock, or a purely abstract image is notoriously difficult. There are no "nouns" to grab onto; the "figure/ground distinction is vague or non-existent".23
+Wright addresses this by proposing a shift in the ekphrastic mode. He acknowledges that "poets responding to such artworks often move swiftly away from its surface" to discuss biography or context, avoiding the image itself.23 To stay with the image, Wright turns to procedural techniques.
+5.2 Oulipo as Pre-Digital Connectionism
+The Oulipo group (Perec, Queneau, Calvino) used "constraints" to generate literature. This is strictly "sequential" in Bajohr’s terms (following rules), but its goal was to bypass the conscious, representational ego—much like a generative model bypasses the conscious intent of a painter.
+Wright draws on Georges Perec and art historian Giovanni Morelli. What they have in common is "a concern for how attention is directed and how to cultivate methods that enable an even or free-floating perception, where all elements of the image are given equal weight".23 This "even or free-floating perception" mirrors the "attention mechanism" in transformer models (the architecture underlying modern AI). The AI attends to all parts of the input data, assigning weights based on statistical relevance rather than narrative hierarchy.
+Wright employs "pedagogic approaches" and "procedural and Oulipo techniques" to demonstrate an "innovative mode of ekphrasis".23 One such technique might be the "N+7" method (replacing every noun with the seventh noun following it in the dictionary), which generates surreal, abstract text that parallels the surreal, abstract nature of the painting.
+5.3 Unknowing as a Creative Device
+Crucially, Wright argues that "unknowing can be a creative device".23 He suggests an approach that "begins with a stance of humility and openness... looking at the artwork without imposing preconceived ideas or laying stress on certain signifiers."
+This "unknowing" is the human analogue to the machine’s "latent noise." The diffusion model begins with pure noise—pure "unknowing"—and gradually hallucinates structure. Wright’s Oulipian poet begins with a procedure that disrupts their "knowing" (their semantic habits) to allow new structures to emerge from the abstract image.
+Wright also notes a shift "from understanding ekphrasis as an act of representation to one of re-presentation, or the production of a new work of art".23 This is the cultural logic that prepares us for AI. We are no longer interested in the "truth" of the original image (Does the poem accurately describe the painting?). We are interested in the productivity of the encounter (What new image does this text generate?).
+Wright’s work demonstrates that "Operative Ekphrasis" is not solely a property of silicon. It is a stance toward creation that treats the source material (whether an abstract painting or a dataset) as a latent space of possibilities to be navigated through procedural constraints (prompts).
+6. Latent Themes: Intermedial References, Blindness, and Ecology
+Expanding the scope of the "latent paper," we must integrate the insights of Irina Rajewsky regarding intermediality, and the thematic clusters of "blindness" and "ecology" that appear in the citations but require synthesis.
+6.1 Intermedial Reference vs. Media Combination
+Irina Rajewsky’s typology of intermediality is essential for precise classification.26 She distinguishes between:
+	•	Media Combination: The physical presence of two media (e.g., a comic book, a film).
+	•	Medial Transposition: The adaptation of a work from one medium to another (e.g., novel to film).
+	•	Intermedial Reference: A work in one medium referring to another medium using its own means (e.g., a musical structure in a novel, a description of a painting in a poem).
+In the context of AI, we see a fascinating collapse of these categories. An AI-generated image from a prompt is arguably a "Medial Transposition" (text to image). However, the process of prompting is an "Intermedial Reference"—the text refers to the visual system.
+Rajewsky’s concept is applied in the analysis of children's literature, specifically the story Mimi and Liza, where a blind girl and a seeing girl interact. The ekphrases in this book function as "intermedial references" that "bring fantasy to life".26 They are "notional ekphrasis"—descriptions of images that do not exist. This mirrors the AI prompt, which is always a "notional ekphrasis" until the moment the image is generated.
+The Georgian folk tale "Master and Pupil," analyzed as an instance of oral storytelling 28, offers another metaphor. The tale involves "transformations" where the pupil changes form (fish, animal, flower) to escape or compete. Rajewsky views these transformations as "intermedial references"—the body enacting different media states. This "shapeshifting" is the perfect metaphor for the AI model, which can shapeshift from text to image to code to audio, driven by the underlying "intermedial reference" of the vector.
+6.2 Blindness and the Black Box
+A recurring theme in the snippets is blindness.
+	•	Jose Saramago’s Blindness: Characters describe paintings they can no longer see.29
+	•	Mimi and Liza: A blind girl’s imagination is visualized.26
+	•	"Sight, Touch, and Imagination in Byzantium": Investigating how sight is a metaphor for mediating the divine.30
+This focus on blindness is not accidental. It serves as a potent metaphor for the "Black Box" of AI. The neural network is "blind" in the human sense—it has no eyes, no retina. It "sees" through mathematical correlations. Yet, it produces images.
+Similarly, the prompter is "blind" to the latent space. We cannot see the high-dimensional vector cloud; we can only grope at it with words ("touching" it with the "digitalis" of the prompt).
+The ekphrasis of the blind character in Saramago—describing a painting from memory to illuminate the darkness—is the existential condition of the AI user. We are describing images we have not yet seen, into a darkness (the latent space) that we hope will illuminate them. This "blind ekphrasis" is the human condition in the age of the algorithm.
+6.3 Eco-Ekphrasis and the Environment
+Finally, the bibliography points toward Eco-Ekphrasis. Snippets mention Richard Powers’s The Overstory and Bewilderment, and the concept of "eco-ekphrasis" as introduced by Gabriele Rippl.18
+"Eco-ekphrasis" designates verbal evocations of artworks dedicated to ecological topics, inviting a non-anthropocentric view.
+In The Overstory, cinematic ekphrasis (describing time-lapse photography of trees) is used to "entwine human lives with the more-than-human temporality of tree growth".18 This connects to the AI discussion in two ways:
+	•	Non-Anthropocentric Creativity: AI art, like the "more-than-human" intelligence of trees, challenges the notion that only humans can create. It forces us to recognize a "distributed authorship" across a network (as Bajohr notes 31).
+	•	The Material Cost: The training of these models consumes vast amounts of energy. The "digital" is not immaterial. There is a "material vitality" to the hardware.22 A comprehensive theory of "Operative Ekphrasis" must eventually reckon with its ecological footprint—the energy required to perform the "operation."
+7. Synthesis: The Latent Paper
+The "Latent Paper" that emerges from these citations can be titled: "From Representation to Operation: The Neural Turn in Ekphrastic Theory."
+7.1 The Four Theses of the Latent Paper
+Thesis 1: The End of the Paragone.
+The "struggle for mastery" (Heffernan/Mitchell) assumes distinct media ontologies. Multimodal AI (Bajohr’s connectionism) collapses these ontologies into a unified data type. Therefore, the "paragone" is historically specific to the "sequential" or "analog" eras and is obsolete in the "connectionist" era. The relationship is now Irenic (Louvel)—a transaction within a shared semantic space.
+Thesis 2: The Return of Enargeia.
+The function of text in AI generation is not description but instantiation. This recuperates the ancient rhetorical definition of ekphrasis (Webb) as enargeia—the power to make visible. The "prompt" is the modern rhetor’s tool for summoning presence. The user is "touching" the image into existence (digitalis).
+Thesis 3: The Latent Third.
+Louvel’s "Pictorial Third" describes the phenomenological image in the human mind. The AI’s "Latent Space" describes the mathematical image in the machine. The interaction of these two—the human "inner screen" guiding the machine’s "latent navigation"—constitutes the new aesthetic experience. We are no longer readers or viewers; we are operators of latency. This operation is a form of "blind ekphrasis" (Saramago), navigating a black box we cannot see.
+Thesis 4: Intermedial Reference as Generation.
+Irina Rajewsky defines "intermedial reference" as one medium imitating another. In AI, this imitation becomes generation. The text does not just refer to a painting; it becomes the painting. Ekphrasis is no longer a "reference" but a "compiler." This echoes Wright’s Oulipian shift from "representation" to "re-presentation."
+7.2 Conclusion: The Future of the Image
+The "latent paper" concludes that we must stop analyzing AI art through the lens of "authorship" or "originality" (concepts tied to the sequential/representational paradigm) and start analyzing it through Operative Ekphrasis.
+The question is not "Did the machine copy the artist?" (a representational question).
+The question is "How did the text perform the latent space?" (an operative question).
+As Bajohr suggests, "humanistic concepts must... include humanistic concepts as an object of inquiry and potential revision in light of the questions raised by Critical AI Studies".6 Ekphrasis is the first such concept to require a total overhaul. It is no longer a minor literary genre; it is the dominant operating system of 21st-century culture. We are all ekphrastic poets now, speaking into the void of the latent space, waiting for the image to answer.
+8. Quantitative Appendix: The Citation Topology
+The following table maps the theoretical relationships established in this report.
+Theorist
+Key Concept
+Relation to AI (Latent Insight)
+Type of Ekphrasis
+Hannes Bajohr
+Operative Ekphrasis
+Describes the mechanism (Vector Collapse)
+Generative / Operative
+Liliane Louvel
+Pictorial Third
+Describes the phenomenology (Latent Space)
+Maieutic / Affective
+Ruth Webb
+Enargeia
+Describes the rhetorical function (Vividness)
+Rhetorical / Performative
+Patrick Wright
+Unknowing / Oulipo
+Describes the human analogue (Procedural)
+Procedural / Abstract
+Irina Rajewsky
+Intermedial Reference
+Describes the structural typology
+Intermedial
+James Heffernan
+Representation
+Describes the obsolete model (Struggle)
+Representational / Agonistic
+Jose Saramago
+Blind Ekphrasis
+Metaphor for the black box user experience
+Blind / Mnemonical
+Gabriele Rippl
+Eco-Ekphrasis
+Connecting the material cost to the visual output
+Ecological
+This topology confirms that the "Latent Paper" is not a rejection of the past but a reconfiguration of it. The "ancient" and the "digital" are aligned against the "modern." The "operative" and the "phenomenological" are aligned against the "representational." The future of media studies lies in exploring this latent third, where the word paints the picture, and the picture reads the word.
+Works cited
+	•	Ekphrasis and Art Criticism in the Twentieth Century, accessed January 9, 2026, https://utoronto.scholaris.ca/bitstreams/e9885828-aa2f-40eb-85e0-a1330a723c2e/download
+	•	Photography Memory Ekphrasis Coombes Combined.pdf, accessed January 9, 2026, https://researchonline.rca.ac.uk/1280/1/Photography%20Memory%20Ekphrasis%20Coombes%20Combined.pdf
+	•	Pictorial as readable: ekphrasis in a literary work and reader's p, accessed January 9, 2026, https://www.researchgate.net/publication/362060285_Pictorial_as_readable_ekphrasis_in_a_literary_work_and_reader's_p
+	•	THE ROUTLEDGE COMPANION TO LITERATURE AND ART, accessed January 9, 2026, https://library.oapen.org/bitstream/handle/20.500.12657/89970/9781003273356_10.4324_9781003273356-13.pdf?sequence=1&isAllowed=y
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	The Dissolution of the Text-Image Distinction in Multimodal AI, accessed January 9, 2026, https://german.uic.edu/events/operative-ekphrasis-the-dissolution-of-the-text-image-distinction-in-multimodal-ai/
+	•	Ekphrasis | Oxford Research Encyclopedia of Literature, accessed January 9, 2026, https://oxfordre.com/literature/display/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1057?p=emailASMiZTuyC7VVc&d=/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1057
+	•	Ekphrasis | Oxford Research Encyclopedia of Literature, accessed January 9, 2026, https://oxfordre.com/literature/display/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1057?p=emailAkH4F8WEqGXpk&d=/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1057
+	•	Liliane Louvel, The Pictorial Third: An Essay into Intermedial ..., accessed January 9, 2026, https://journals.openedition.org/ejas/14820
+	•	A reading event The Pictorial Third - OpenEdition Journals, accessed January 9, 2026, https://journals.openedition.org/sillagescritiques/5015
+	•	Thinking with AI Machine Learning the Humanities, accessed January 9, 2026, http://openhumanitiespress.org/books/download/Bajohr_2025_Thinking-With-AI.pdf
+	•	Operative ekphrasis: The collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.researchgate.net/publication/372400146_Operative_ekphrasis_The_collapse_of_the_textimage_distinction_in_multimodal_AI_PLEASE_REFER_TO_PUBLISHED_VERSION
+	•	The Pictorial Third: An Essay into Intermedial Criticism, accessed January 9, 2026, https://api.pageplace.de/preview/DT0400.9780429941641_A35221472/preview-9780429941641_A35221472.pdf
+	•	Interview with Liliane Louvel, accessed January 9, 2026, https://real.mtak.hu/63746/1/Liliane%20Louvel%20interview%20EJES%20proof.pdf
+	•	Types of Ekphrasis | Request PDF - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/325504339_Types_of_Ekphrasis
+	•	Liliane LOUVEL | Université de Poitiers - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/profile/Liliane-Louvel
+	•	Eco-Ekphrasis in Richard Powers's The Overstory and Bewilderment, accessed January 9, 2026, https://ekphrasisjournal.ro/docs/R1/33e8.pdf
+	•	A Visual Sense is Born in the Fingertips: Towards a Digital Ekphrasis, accessed January 9, 2026, https://dhq-static.digitalhumanities.org/pdf/000161.pdf
+	•	Ekphrasis, Imagination and Persuasion in Ancient Rhetorical Theory ..., accessed January 9, 2026, https://www.routledge.com/Ekphrasis-Imagination-and-Persuasion-in-Ancient-Rhetorical-Theory-and-Practice/Webb/p/book/9781138247819
+	•	The trajectory of ancient ekphrasis* - Edice E, accessed January 9, 2026, https://edicee.ucl.cas.cz/images/data/sborniky/2014/opaj/6.pdf
+	•	Bringing Together New Materialisms and Ekphrastic Studies - DSpace, accessed January 9, 2026, https://dspace.ut.ee/bitstreams/2558cdfb-d031-40a5-a67b-512e36b994ff/download
+	•	The Ekphrasis of Abstract Paintings through Oulipo and Other ..., accessed January 9, 2026, https://www.nawe.co.uk/Private/139452/Live/attachment1/WIP%2010%2008.pdf
+	•	08 The Ekphrasis of Abstract Paintings through Oulipo and Other ..., accessed January 9, 2026, https://www.nawe.co.uk/DB/wip-editions/articles/08-the-ekphrasis-of-abstract-paintings-through-oulipo-and-other-critical-techniques.html
+	•	The ekphrastic encounter in contemporary British poetry and ..., accessed January 9, 2026, https://www.researchgate.net/publication/290785721_The_ekphrastic_encounter_in_contemporary_British_poetry_and_elsewhere
+	•	& Liza - Ars Aeterna, accessed January 9, 2026, https://arsaeterna.ukf.sk/index.php/arsaeterna/article/download/93/93/367
+	•	(Inter)mediality and the Study of Literature Werner Wolf, accessed January 9, 2026, https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1789&context=clcweb
+	•	A Literary Perspective on Intermediality - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/273011987_Intermediality_Intertextuality_and_Remediation_A_Literary_Perspective_on_Intermediality
+	•	Intermedial ecocriticism in Blindness by Saramago, accessed January 9, 2026, https://seer.unisc.br/index.php/signo/article/view/18803/11316
+	•	Medium and Mediation (Chapter 9) - Sight, Touch, and Imagination ..., accessed January 9, 2026, https://www.cambridge.org/core/books/sight-touch-and-imagination-in-byzantium/medium-and-mediation/4FDE826FBB01DFBC6B259E839CF75A04
+	•	Writing at a Distance: Notes on Authorship and Artificial Intelligence, accessed January 9, 2026, https://hannesbajohr.de/en/wp-content/uploads/sites/2/2023/06/Bajohr-Writing-at-a-Distance.pdf

@@ -1,0 +1,244 @@
+Operative Ekphrasis: Thick Prompting and the Ritual of Latent Space
+1. Introduction: The Twitch in the Machine
+The advent of multimodal Artificial Intelligence—specifically large language models (LLMs) and diffusion-based text-to-image synthesis systems—has precipitated a crisis in the ontology of the image and the authority of the word. We stand at a precipice where the historical "Museum of Words," once a repository of static descriptions, has been transformed into a dynamic engine of creation. This report, titled "Operative Ekphrasis: Thick Prompting and the Ritual of Latent Space," interrogates this crisis by situating the mechanics of AI prompting within the deep historical lineage of ekphrasis: the verbal representation of visual representation.
+In the current discourse, the "prompt" is often misunderstood as a mere search query or a caption—a functional string of text designed to retrieve information. This reductionist view fails to account for the performative and generative nature of the prompt in a connectionist system. When a user inputs a string of text into a model like Stable Diffusion or Midjourney, they are not describing an object that already exists; they are summoning it from the mathematical potentiality of latent space. They are engaging in a specific rhetorical tradition that dates back to Homer’s description of the Shield of Achilles, yet with a radically new operational power.
+To understand this shift, we must synthesize the theoretical frameworks of classical ekphrasis—championed by James Heffernan, W.J.T. Mitchell, and Claus Clüver—with the digital theories of Hannes Bajohr and Cecilia Lindhé. Furthermore, to grapple with the "black box" nature of these models, we must borrow from the anthropological "thick description" of Clifford Geertz and the aerodynamic principles of "thick control surfaces."
+The central thesis of this report is twofold. First, that the AI prompt represents a shift from representational ekphrasis (describing the world) to operative ekphrasis (processing the world). Second, that effective interaction with these systems requires "Thick Prompting"—a ritualistic layering of semantic context that functions like a thick control surface on an aircraft wing, preventing the "semantic separation" or hallucination of the model’s output. We argue that the difference between a generic AI generation and a controlled, specific output is the difference between a "twitch" and a "wink"—a distinction rooted not in the pixel data, but in the thickness of the semiotic web that produced it.
+2. The Museum of Words: A Genealogy of Representation
+To understand the novelty of the algorithmic image, we must first exhume the history of the "Museum of Words"—the tradition of poets and critics who have attempted to capture the visual world in language.1 The history of ekphrasis is not merely a history of description; it is a history of a power struggle between two rival sign systems.
+2.1 Heffernan’s Paragone: The Struggle for Mastery
+For decades, the standard definition of ekphrasis in literary criticism has been that of James A.W. Heffernan: "the verbal representation of a visual representation".2 In his seminal work Museum of Words (1993), Heffernan argues that ekphrasis is not just a description; it is a mode of literature that "explicitly represents representation itself".3
+Heffernan’s definition is crucial because it establishes a hierarchy—a paragone or contest—between the rival modes of representation. He writes that ekphrasis "stages a battle for mastery between the image and the word".2 This battle is ambivalent. The poet is fascinated by the silent power of the image but simultaneously seeks to circumscribe that power with the "authority of the word".2
+Heffernan notes that this contest is often powerfully gendered. The "male" voice of the poet attempts to fix, control, and narrate the "female" silence of the image.4 He cites Ovid’s Metamorphoses and the rape of Philomela, or Browning’s My Last Duchess, where the Duke controls the image of his deceased wife by controlling who is allowed to view the painting.2
+In the pre-digital era, this struggle was metaphorical. The poet could never "conquer" the painting; they could only describe it. The painting remained silent, indifferent to the text. However, in the era of Generative AI, Heffernan’s paragone becomes literal and operational. The "male" text (the code, the prompt) literally dominates the "female" image (the raw pixel data), forcing it into existence. The prompt doesn't just represent the visual; it subjugates the visual potential of the machine to the specificity of the word.
+2.2 Clüver’s Expansion: The Encounter and the Abstract
+James Heffernan’s definition, while influential, faces a limit when applied to abstract art or non-representational media. As Claus Clüver points out, Heffernan's reliance on "visual representation" (meaning objects that represent the phenomenal world) fails when applied to the abstract works of Piet Mondrian or Josef Albers.3 If a painting does not represent a "thing," can a poem about it be ekphrastic?
+Clüver, responding to these limitations, proposed a broader definition: "Ekphrasis is the verbal representation of a real or fictitious text composed in a non-verbal sign system".3 This shift is subtle but profound. By moving from "visual representation" to "non-verbal sign system," Clüver opens the door to architecture, abstract art, and, crucially for our purposes, code.
+Clüver argues that contemporary ekphrasis often verbalizes a "viewer's encounter" with a configuration rather than describing the object itself.3 This "encounter" is central to the user experience of AI. The prompter does not describe an image that exists; they describe their desired encounter with an image that is about to be born. The prompt is a trace of an anticipated event.
+Furthermore, Clüver’s inclusion of "fictitious texts" 3 is prophetic for AI. When we prompt for "a lost painting by Vermeer," we are engaging in the ekphrasis of a fictitious text. The AI then makes this fiction hyper-real. The machine validates Clüver's thesis: the object need not exist for the ekphrasis to be valid; the ekphrasis creates the validity of the object.
+2.3 Mitchell’s Triad: Indifference, Hope, and Fear
+W.J.T. Mitchell’s Picture Theory (1994) provides the psychological framework for understanding our reaction to this new power. Mitchell outlines three distinct phases of the ekphrastic stance, which map remarkably well onto the history of AI development.5
+
+Phase
+Definition
+AI Parallel
+Ekphrastic Indifference
+The common-sense view that words and images are fundamentally different and cannot bridge the gap. "Words can 'cite,' but never 'sight' their objects".5
+The pre-GAN era of computing, where text and image were distinct file types (TXT vs JPG) with no generative crossover.
+Ekphrastic Hope
+The utopian desire that language could "make us see." This is the phase of "radio magic," where we imagine the visual purely through the auditory or textual.5
+The "Golden Age" of Prompting (2022-2023). The belief that with the "perfect prompt," we can conjure any reality. The belief in the perfect translatability of imagination into data.
+Ekphrastic Fear
+The moment of resistance. This occurs when we realize that "the difference between the verbal and visual representation might collapse".5
+The current crisis (2024-Present). The fear of "Deepfakes," the panic over copyright, and the realization that the image has lost its indexical truth.
+We are currently living through a period of acute Ekphrastic Fear. The panic over AI art—that it will replace human creativity, that it creates "deepfakes," that it blurs truth and fiction—is a manifestation of the fear that the barrier between word and image has finally, irrevocably dissolved. The "paragonal" struggle Heffernan described has ended in the total victory of the Code, leading to an anxiety that the image has lost its autonomy. If any text can become an image, the image loses its "otherness"; it becomes merely a different formatting of text.
+Mitchell describes this fear as the realization that the "mute image be endowed with a voice" or that the "poetic language might be 'stilled,' made iconic".5 In the era of "multimodal" models, where text and image are interchangeable tokens in a transformer, this stillness is the reality of the architecture.
+2.4 Louvel’s Pictorial Third
+French theorist Liliane Louvel adds another layer with her concept of the "Pictorial Third" (Le Tiers pictural). Louvel argues that the interaction between text and image produces a "reading event" or a "double exposure" that gives rise to a third entity—neither purely verbal nor purely visual.7
+In traditional literature, this "third" is an affect or an image in the "mind's eye" of the reader.9 In AI, the "Pictorial Third" is materialized. The latent space of the model is the Pictorial Third—a high-dimensional mathematical space where text and image exist as interchangeable vectors. When a prompt (text) intersects with the model (visual potential), the resulting generation is the "Pictorial Third" made manifest. It is an "iconotext" 10 in the most literal sense: an image born of text, retaining the "genetic markers" of the linguistic symbols that summoned it.
+Louvel analyzes The Lazarus Project as a prime example of the "Pictorial Third," where text and photograph create a "double fiction" or "double exposure".8 The image of Lazarus Averbuch hovers ghostlike above the book. In AI prompting, every generation is a "Lazarus Project"—a resurrection of visual data from the dead archive of the training set, reanimated by the living text of the prompt.
+3. The Digital Shift: From Representation to Operation
+The classical theories of ekphrasis assumed a gap between the word and the image. Digital technology closes this gap. As Hannes Bajohr argues, in the realm of multimodal AI, the distinction between text and image collapses entirely.12
+3.1 Digital Ekphrasis and Tactility
+Before reaching the "collapse" of AI, we must acknowledge the "Digital Ekphrasis" proposed by Cecilia Lindhé. Lindhé argues that digital media re-inscribes the body into the ekphrastic act. She emphasizes "tactility," "immediacy," and "interactivity".14 Unlike the static description of a Grecian Urn, digital ekphrasis (in video games, hypertext, or VR) involves a "multisensory event".15
+Lindhé’s concept of "digitalis" (finger) 14 is crucial. The user of an AI tool is not a passive observer; they are a manipulator. They type, they click, they drag sliders. The generation of the image is a tactile interaction with the interface. This connects to the "operative" nature of the prompt. We do not just "read" the result; we "handle" the text to mold the result. The screen becomes a membrane through which the "visual sense is born in the fingertips".14
+This tactility is evident in the "Luma Dream Machine" workflow 17, where users drag images, set keyframes, and manipulate the timeline. It is no longer just writing; it is sculpting with time and light via the interface of the text.
+3.2 Hannes Bajohr and Operative Ekphrasis
+Hannes Bajohr provides the definitive update to ekphrasis for the machine learning age. He introduces the concept of Operative Ekphrasis to describe the text-image relationship in computational systems.13
+Bajohr distinguishes between two digital paradigms:
+	•	Sequential Paradigm (Classical Computing): Based on the Von Neumann architecture. Code is a set of step-by-step instructions (algorithms) that produce a result. Here, text (code) and image (display) are linked by explicit translation, but they remain distinct ontological categories.12 A script tells the computer to draw a line.
+	•	Connectionist Paradigm (Neural Networks/AI): Based on stochastic machine learning (e.g., CLIP, Transformers). Here, text and image are encoded as the same type of data—high-dimensional vectors. The model does not "translate" text to image; it moves through a continuous space where text-vectors and image-vectors share the same coordinates.12
+In the connectionist paradigm, the distinction between word and image dissolves. "Artificial neural networks both encode images and text as the same type of information," Bajohr writes.12 Therefore, ekphrasis is no longer representation (standing in for the object); it is operation (processing the object).
+Operative Ekphrasis is the understanding of the prompt not as a description of an external image, but as a performative instruction that navigates the vector space to "transcend the difference" between media.12 When we write a prompt, we are performing an operation on the latent space. The text is the tool. It acts directly on the substrate of the image.
+Bajohr uses the example of visual poetry to illustrate this shift. He contrasts the analog visual poetry of Franz Mon with the digital, code-generated poetry of Jasmin Meerhoff.12 Meerhoff’s work, such as They Lay (which resembles flames or a "carrot uprising"), is generated by code. The code is the text that performs the image. In AI, this performance is stochastic—it is probabilistic rather than deterministic—but it remains operative.
+3.3 The Collapse of the Paragone
+If Heffernan’s ekphrasis was a battle (paragone) for supremacy, Bajohr’s operative ekphrasis is a "collapse." There is no longer a struggle because there are no longer two distinct parties. The text is the image in potential form; the image is the text in instantiated form.
+This collapse validates Mitchell’s "Ekphrastic Fear"—the fear that the image will lose its unique status. However, it also fulfills "Ekphrastic Hope." The "radio magic" Mitchell described 5 is now real: we speak (or type), and the image appears. The impossibility of ekphrasis—that words can cite but never sight—has been technologically overcome. The word does sight the object, because the object is made of words (vectors).
+4. Thick Prompting: The Semiotics of Control
+If the prompt is an operation, how do we control it? The "Black Box" of the neural network is notoriously difficult to steer. A simple prompt often yields generic or hallucinatory results—a phenomenon we might call "semantic drift." This brings us to the core methodology of this report: Thick Prompting.
+To define this, we must synthesize Clifford Geertz’s cultural anthropology with the engineering of aerodynamic control surfaces.
+4.1 Geertz: The Wink and the Twitch
+In The Interpretation of Cultures, Clifford Geertz famously uses Gilbert Ryle’s example of the "wink" to explain "Thick Description".22
+	•	The Twitch: A rapid contraction of the eyelid. A physical event. It has no meaning beyond the physiological.
+	•	The Wink: The same physical contraction, but performed:
+	•	Deliberately
+	•	To a particular person
+	•	To impart a particular message (e.g., conspiracy, ridicule)
+	•	According to a socially established code.24
+A "Thin Description" records the twitch. It sees the physical movement but misses the meaning. A "Thick Description" interprets the wink, placing it within a "web of significance".22
+Applying this to AI Prompting:
+	•	The Twitch (Thin Prompt): Inputting the word "dog." The model recognizes the token "dog" and retrieves a statistical average of all dogs in its dataset. It is a "physical" contraction of the neural weights. It lacks intent, nuance, or specificity. The output is generic, "hallucinated" in the sense of being a statistical mean rather than a specific signifier.
+	•	The Wink (Thick Prompt): Inputting "a loyal golden retriever waiting by a rusted gate in the rain, cinematic lighting, shot on 35mm, melancholic atmosphere."
+This "Thick Prompt" provides the contextual codes necessary for the model to understand the meaning of the image, not just the object. It distinguishes the "wink" (a specific, emotional scene) from the "twitch" (a generic dog).
+Geertz argues that culture is a "semiotic" context.25 AI models, trained on billions of human artifacts (images and text), have internalized a simulation of this culture. They "know" (statistically) what "melancholic" looks like. They "know" the social code of "cinematic lighting." Thick Prompting is the act of activating these specific cultural codes to guide the generation. It forces the model to engage with the "web of significance" rather than just the raw statistical distribution.
+4.2 The Control Surface Analogy
+Why do we need such "thickness" in the prompt? Why isn't a single word enough? To answer this, we turn to the aerodynamics of control surfaces.
+Snippet 26 discusses "Thick Control Surfaces" in aviation.
+	•	The Problem: On a wing, airflow can separate from the surface, creating turbulence and a loss of control (stall). This is especially true with thin, sharp edges where the air "trips." "The turbulent boundary layer produces more drag, but more importantly, it is prone to causing airflow separation leading to an earlier and more severe stall".26
+	•	The Solution: Thicker control surfaces keep the airflow attached (laminar flow) for longer, preventing separation and allowing for more precise, linear control. They prevent the "stagnant" or "turbulent" air from disrupting the pilot's intent.
+The Metaphor for AI:
+	•	Semantic Flow: The "airflow" is the model's inference process—the path from text to image (diffusion).
+	•	Separation/Stall: This is "Model Hallucination" or "Semantic Drift." If the prompt is too "thin" (lacking context), the model's inference "separates" from the user's intent. The model reverts to the mean (generic output) or hallucinates random details to fill the void. The "control response" becomes erratic.
+	•	Thick Prompting as Control Surface: By adding "thickness" (context, style, constraints, negative prompts), we maintain "semantic attachment." We keep the model's inference locked onto our specific intent. A thick prompt provides a robust surface for the "semantic airflow" to cling to, ensuring a smooth, linear response from the system.
+Just as a pilot needs a thick aileron to execute a precise maneuver without stalling, the prompt engineer needs a thick prompt to execute a precise aesthetic maneuver without the model drifting into the uncanny valley or generic clip-art.
+4.3 The "Feat Tax" of the Heavy Bolter
+We can further illustrate this "cost" of control using the gaming analogy of the "Heavy Bolter" from Warhammer 40,000: Rogue Trader.27
+Players note that the Heavy Bolter requires a "feat tax"—you have to invest in specific skills (talents like "Wildfire," "Steady Superiority") to make it effective. Without these feats, it is cumbersome and inefficient ("why do heavy bolters do less damage on a hit than standard ones?!").27 However, with the right setup ("proper set up... deleting everything instantly"), it becomes the most powerful weapon in the game.
+Thick Prompting is the "feat tax" of AI art.
+To wield the heavy power of the model (the Heavy Bolter), one cannot just "point and shoot" (thin prompt). One must invest in the "feats" of vocabulary, art history knowledge, and technical syntax (the thick prompt). The "Heavy Bolter stans" 27 who master these feats can generate masterpiece images effortlessly. Those who don't see the appeal (use thin prompts) find the weapon useless or erratic.
+The "Heavy Bolter" is an instrument of Operative Ekphrasis. It requires a specific ritual of operation (the feat tax) to function. The "wielding" of the prompt is not passive; it is an active, strategic investment in the system's mechanics.
+5. Case Studies in Operative Ekphrasis
+To fully understand the spectrum of Operative Ekphrasis, we must examine specific file formats and workflows that span the transition from the Sequential to the Connectionist paradigm.
+5.1 Case Study 1: LDraw and the Proto-Operative
+The LDraw file format (for LEGO models) represents the "Sequential Paradigm" of Operative Ekphrasis.30
+An LDraw file (.ldr) is a plain text file. It contains lines like:
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat
+This text describes a LEGO brick (part 3001) at a specific coordinate (0,0,0) with a specific rotation matrix and color (16).
+	•	Is this ekphrasis? Yes. It is a verbal (numerical/textual) representation of a visual object.
+	•	Is it operative? Yes. The text is the instruction for the rendering engine to create the visual representation.
+However, LDraw is "Thin Description" in the Geertzian sense. It is explicit and denotative. A "1" is always a "1." There is no ambiguity, no latent space to navigate. The "web of significance" is strictly defined by the LDraw specification.31 It creates a "Twitch"—a mechanical reproduction of the instruction.
+Contrast this with the AI prompt "A lego brick." The AI does not receive coordinates. It receives a concept. It must "hallucinate" the brick based on the statistical probability of what a brick looks like. LDraw is the "Sequential" ancestor of the prompt, proving that the text-to-image operation has a deep technical lineage.
+5.2 Case Study 2: BrickGPT and WorldText
+The BrickGPT project at Carnegie Mellon University 33 bridges the gap between the Connectionist prompt and the Sequential reality.
+BrickGPT uses an LLM to interpret a text prompt (e.g., "a sofa") and generate a physical, stable LEGO structure. It translates the "Thick Description" of the user ("sofa") into the "Thin Description" of the brick coordinates (voxels).
+This is a profound moment for Operative Ekphrasis. The text is no longer just generating an image (pixels); it is generating instructions for the physical world (atoms). We might call this "WorldText" or "LegOS"—an operating system where the text acts as a compiler for physical reality. "The word becomes flesh" (or plastic).
+The researchers note that if the structure is unstable, the model "rolls back" and retries.33 This is the "Control Surface" in action. The physics engine provides the "thickness" of constraint, preventing the model from hallucinating an impossible object.
+5.3 Case Study 3: LumaLabs and Temporal Ekphrasis
+The ritual becomes even more complex when we move from static images to video. LumaLabs' Dream Machine 17 represents the frontier of Temporal Operative Ekphrasis.
+In the Luma workflow:
+	•	Text-to-Image: The user generates a "First Frame" using a thick prompt. This is the "Anchor."
+	•	Image-to-Video: The user inputs this image plus a new text prompt to describe the motion ("a gentle breeze," "camera pans right").
+	•	Keyframing: The user may provide a "Last Frame" to guide the trajectory.37
+Here, the "Thick Prompt" is not just descriptive but kinematic. It describes time and physics.
+	•	"Camera zoom"
+	•	"Motion speed"
+	•	"Frame interpolation" 35
+Luma's "Ray3" model introduces "Reasoning" and "Chain of Thought" to the generation process.37 The model "thinks in concepts and visuals, understands intent, evaluates itself, and iterates".37 This is the mechanization of Louvel's "Pictorial Third." The model is internally engaging in a dialogue between text and image before the user even sees the result.
+The "Modify Video" feature 37 allows for "consistent characters" and "wardrobe swaps." This is Iterative Ekphrasis. The user is not just summoning an image; they are curating a persistent reality. The "Thickness" of the prompt now includes temporal consistency—the hardest "airflow" to maintain without separation.
+6. The Ritual of Latent Space
+The practice of Thick Prompting reveals that AI art is not a "creation" in the romantic sense, but a ritual. It is a navigation of the "Latent Space"—the high-dimensional void where all possible images exist in potentiality.
+6.1 The Prompt as Incantation
+Mitchell speaks of "radio magic".5 AI is "text magic." The prompt serves as an incantation. Like a magical spell, it requires:
+	•	Precision: One wrong word can change the output entirely (the "butterfly effect" of latent space).
+	•	Order: The syntax (subject, medium, style, resolution) matters.
+	•	Repetition: Users often run the same prompt multiple times (batch generation) to find the "lucky" seed.
+This ritualistic aspect connects to the "performative" nature of Operative Ekphrasis. The user is performing a linguistic dance with the machine. We are "feeding" the machine words to appease the "wild sign".38
+6.2 The Uncanny and the Ghost in the Machine
+Mitchell warns of the "uncanny" nature of images that "look back" at us.38 In AI video, this uncanniness is heightened. The "lives and loves of images" 38 that Mitchell discussed—the idea that images "want" something—seems literal in AI. The model wants to complete the pattern.
+When we use a Thick Prompt, we are negotiating with this desire. We are feeding the "wild sign" enough semantic meat to keep it satisfied and controlled. If we feed it too little (thin prompt), the "wild sign" explodes into "nonsense, madness, randomness".38
+The "Ghost" in the machine is the latent space itself—the aggregate memory of human visual culture. Thick Prompting is the séance by which we summon specific ghosts rather than a chaotic poltergeist.
+7. Conclusion: The Wink of the Machine
+In The Interpretation of Cultures, Geertz writes that the analysis of culture is "not an experimental science in search of law but an interpretive one in search of meaning".39
+AI prompting has often been treated as an experimental science—a search for the "magic words" or the "law" of the algorithm. This report argues that it must be treated as an interpretive art.
+The AI model is a "semiotic engine." It is a machine built to simulate the "winks" of human culture. But it can only twitch. It requires the Operative Ekphrasis of the human operator—the Thick Prompt—to turn that twitch into a wink.
+We are not merely "generating art." We are engaging in a high-stakes ritual of Operative Ekphrasis, where we use the "thick control surfaces" of language to navigate the turbulent, infinite potential of the "Pictorial Third." We are the pilots of the latent space, and our words are the wings.
+To refuse this depth—to rely on "thin" prompting—is to surrender to the "Ekphrastic Fear," to let the machine's hallucinations dictate our visual reality. To embrace Thick Prompting is to embrace "Ekphrastic Hope"—the possibility that language, when wielded with sufficient thickness, context, and care, can indeed "make us see."
+8. Tables and Structured Analysis
+Table 1: The Evolution of Ekphrasis
+Era
+Theorist
+Definition of Ekphrasis
+Key Concept
+Relation to Image
+Classical/Modern
+James Heffernan
+"Verbal representation of visual representation"
+Paragone (Struggle for dominance)
+Representation / Description
+Post-Modern
+Claus Clüver
+"Verbal representation of a text in non-verbal sign system"
+The Encounter / Medial Configuration
+Transposition / Intersemiotic
+Digital
+Cecilia Lindhé
+"Digital Ekphrasis"
+Tactility / Multisensory / Body
+Interaction / Event
+Computational
+Hannes Bajohr
+"Operative Ekphrasis"
+Collapse of Text/Image Distinction
+Operation / Performance
+Table 2: Thick vs. Thin in AI Prompting (Geertzian Analysis)
+Concept
+Geertz's Analogy
+AI Analogy
+Mechanism
+Outcome
+Thin Description
+The Twitch (involuntary muscle contraction)
+The Thin Prompt (e.g., "a dog")
+Statistical retrieval of mean/average weights.
+Generic / Hallucinatory. The "Twitch" of the latent space.
+Thick Description
+The Wink (conspiratorial social signal)
+The Thick Prompt (context, style, mood, reference)
+Activation of specific cultural/aesthetic vectors.
+Intentional / Specific. The "Wink" of specific style.
+Thickness
+"Web of Significance"
+"Thick Control Surface"
+Preventing "Semantic Separation" (Stall).
+Laminar Semantic Flow. Control over the black box.
+Table 3: The LumaLabs Workflow as Temporal Operative Ekphrasis
+Step
+Action
+Ekphrastic Mode
+Theoretical Function
+1. Text-to-Image
+Prompting the First Frame
+Static Operative
+Summoning the Pictorial Third from latent space.
+2. Image-to-Video
+Adding Motion Prompt
+Kinematic Operative
+"Envoicing" the mute image (Mitchell). Adding the dimension of time.
+3. Keyframing
+Setting Start/End Frames
+Teleological Control
+Defining the narrative arc. Constraining the "wild sign" (Mitchell).
+4. Iteration
+"Modify Video" / "Reasoning"
+Reflective/Recursive
+The cybernetic loop. The model "thinks" (Ray3) about the ekphrasis.
+Works cited
+	•	Museum of words : the poetics of ekphrasis from Homer to Ashbery, accessed January 9, 2026, https://archive.org/details/museumofwordspoe0000heff
+	•	Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery, accessed January 9, 2026, https://www.goodreads.com/book/show/803186.Museum_of_Words
+	•	A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED, accessed January 9, 2026, https://editorarevistas.mackenzie.br/index.php/tl/article/download/10365/6406/42134
+	•	The Poetics of Ekphrasis From Homer To Ashbery-University of ..., accessed January 9, 2026, https://www.scribd.com/document/642310002/James-A-W-Heffernan-Museum-of-Words-The-Poetics-of-Ekphrasis-from-Homer-to-Ashbery-University-Of-Chicago-Press-1994
+	•	Ekphrasis and the Other - Centre for Comparative Literature, accessed January 9, 2026, https://complit.utoronto.ca/wp-content/uploads/COL1000-Week11-Nov25_WJT_Mitchell.pdf
+	•	Surpassing the Ekphrastic Experience in Modernist Poetry, accessed January 9, 2026, https://ijels.com/upload_document/issue_files/11-IJELS-FEB-2019-48-Surpassingthe.pdf
+	•	Liliane Louvel, The Pictorial Third: An Essay into Intermedial ..., accessed January 9, 2026, https://journals.openedition.org/ejas/14820
+	•	A reading event The Pictorial Third - OpenEdition Journals, accessed January 9, 2026, https://journals.openedition.org/sillagescritiques/5015
+	•	Interview with Liliane Louvel, accessed January 9, 2026, https://real.mtak.hu/63746/1/Liliane%20Louvel%20interview%20EJES%20proof.pdf
+	•	Typologies of the Iconotext - Journal of Literary Theory, accessed January 9, 2026, https://jltonline.de/reviews/2013/eilitta-typologies-iconotext.en.pdf
+	•	Poetics of the Iconotext - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/286415620_Poetics_of_the_Iconotext
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	Operative ekphrasis: The collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.researchgate.net/publication/372400146_Operative_ekphrasis_The_collapse_of_the_textimage_distinction_in_multimodal_AI_PLEASE_REFER_TO_PUBLISHED_VERSION
+	•	"A visual sense is born in the fingertips" : towards a digital ekphrasis, accessed January 9, 2026, https://scispace.com/pdf/a-visual-sense-is-born-in-the-fingertips-towards-a-digital-197r320fty.pdf
+	•	Ekphrasis and Digital Media - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/325504524_Ekphrasis_and_Digital_Media
+	•	"A visual sense is born in the fingertips" : towards a digital ekphrasis, accessed January 9, 2026, https://umu.diva-portal.org/smash/record.jsf?faces-redirect=true&language=sv&searchType=SIMPLE&query=&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A601253&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all
+	•	Luma Image to Video API Node ComfyUI Official Example, accessed January 9, 2026, https://docs.comfy.org/tutorials/partner-nodes/luma/luma-image-to-video
+	•	Using Image to Video in Dream Machine by Luma AI - YouTube, accessed January 9, 2026, https://www.youtube.com/watch?v=eKgKzE_P14Y
+	•	accessed January 9, 2026, https://www.researchgate.net/figure/A-DALLAE-generated-image-for-the-prompt-An-astronaut-riding-a-horse-in-photorealistic_fig7_380812173#:~:text=In%20aesthetics%20and%20media%20theory,to%20procedural%20translation%20%5B49%5D%20.
+	•	Thinking with AI Machine Learning the Humanities, accessed January 9, 2026, http://openhumanitiespress.org/books/download/Bajohr_2025_Thinking-With-AI.pdf
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	accessed January 9, 2026, https://mylitjourney.wordpress.com/2019/09/13/clifford-geertzs-thick-description/#:~:text=To%20understand%20the%20twitch%20as,meant%20where%20the%20action%20emerged.
+	•	THE INTERPRETATION OF CULTURES Clifford Geertz, accessed January 9, 2026, https://cdn.angkordatabase.asia/libs/docs/clifford-geertz-the-interpretation-of-cultures.pdf
+	•	Wink or Twitch: The Case for Ethnography in Communications, accessed January 9, 2026, https://www.neboagency.com/blog/wink-or-twitch-the-case-for-ethnography-in-communications/
+	•	Clifford Geertz: Thick Description: Toward an Interpretive Theory of ..., accessed January 9, 2026, https://archive.icann.org/en/ombudsman/clifford-geertz.htm
+	•	Thicker Control Surfaces and Vortex Generators Explained, accessed January 9, 2026, https://www.modelaviation.com/thicker-control-surfaces
+	•	I don't see the appeal of the Heavy Bolter : r/RogueTraderCRPG, accessed January 9, 2026, https://www.reddit.com/r/RogueTraderCRPG/comments/1fzyrvw/i_dont_see_the_appeal_of_the_heavy_bolter/
+	•	This Heavy Bolter Build SHREDS Siege Mode Bosses in Patch 8.0, accessed January 9, 2026, https://www.youtube.com/watch?v=0UpcPkHqRTM
+	•	Building A More Accurate Bolter - YouTube, accessed January 9, 2026, https://www.youtube.com/watch?v=yPPMlRW0Ku0
+	•	LDraw - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/LDraw
+	•	LDraw File Format Specification, accessed January 9, 2026, https://www.ldraw.org/article/218.html
+	•	LDraw.org Official Parts Library Specifications, accessed January 9, 2026, https://www.ldraw.org/article/512.html
+	•	The AI Tool That Could Make Manufacturing Faster and More Efficient, accessed January 9, 2026, https://www.cmu.edu/news/stories/archives/2025/august/the-ai-tool-that-could-make-manufacturing-faster-and-more-efficient-by-using-lego-bricks
+	•	LEGOGPT: Stable & Buildable LEGO from Text - YouTube, accessed January 9, 2026, https://www.youtube.com/watch?v=FRVyH0LNnWA
+	•	Free Luma AI Video Generator: What It Is & How to Use It - Dreamina, accessed January 9, 2026, https://dreamina.capcut.com/resource/luma-ai-video-generator
+	•	AI Video Generator from Image | Transform Photos to Video - Luma AI, accessed January 9, 2026, https://lumalabs.ai/create/ai-video-generator-from-image
+	•	AI Video Generation with Ray3 & Dream Machine - Luma AI, accessed January 9, 2026, https://lumalabs.ai/ray
+	•	What do pictures want? Interview with WJT Mitchell, accessed January 9, 2026, https://www.visual-studies.com/interviews/mitchell.html
+	•	Clifford Geertz's “Thick Description” - A Travelogue of Literary Arts, accessed January 9, 2026, https://mylitjourney.wordpress.com/2019/09/13/clifford-geertzs-thick-description/

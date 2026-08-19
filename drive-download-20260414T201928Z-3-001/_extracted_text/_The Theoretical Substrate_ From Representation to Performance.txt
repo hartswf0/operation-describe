@@ -1,0 +1,260 @@
+GOT v1: Generative Olog Toolkit – Comprehensive Research Report
+1. Executive Summary: The Ontological Architecture of GOT v1
+The Generative Olog Toolkit (GOT v1) represents a paradigm shift in the operationalization of multimodal Artificial Intelligence. It is a theoretical and practical framework designed to navigate the collapsed boundary between text and image in the age of connectionist machine learning. As the distinctions between "code," "text," and "image" dissolve within the high-dimensional latent spaces of neural networks, traditional methods of interaction—simple prompt engineering—have proven insufficient for systematic, verifiable creative work. GOT v1 addresses this by introducing a structured ontology based on Inception Prompts, Differential Operators ($\Delta$, $\Delta\Delta$), and Viscosity Controls, all aimed at generating coherent "prompt-families" rather than isolated outputs.
+The primary goal of GOT v1 is to measure the "difference that makes a difference"—a concept borrowed from Gregory Bateson—within the generative process. To do this, the toolkit synthesizes two disparate fields: the humanities-driven theory of Operative Ekphrasis (Bajohr, Heffernan, Mitchell) and the computer science discipline of World Models (Ha, Schmidhuber, LeCun). By treating the generative model not as a black box but as a "World Model" that simulates reality through latent dynamics, GOT v1 provides a methodology for steering these simulations with precision.
+This report provides an exhaustive analysis of the toolkit’s components. It explores the theoretical "substrate" of Operative Ekphrasis, arguing that AI generation is a performance rather than a representation. It defines the "Inception Prompt" through the dual lenses of Wittgenstein’s "Logical Picture" and Geertz’s "Thick Description," proposing a dialectic approach to prompt design. It operationalizes "Viscosity" as the resistance of the model to hallucination, grounded in the physics of latent space. Finally, it establishes explicit metrics ($\Delta$, $\Delta\Delta$) for evaluating the semantic and ontological drift of generated families, transforming the "folk art" of prompting into a rigorous science of semantic navigation.
+2. The Theoretical Substrate: From Representation to Performance
+2.1 The Collapse of the Text/Image Distinction
+To understand the necessity of GOT v1, one must first engage with the fundamental rupture in digital ontology identified by Hannes Bajohr: the shift from the sequential to the connectionist paradigm.1 This shift is the bedrock upon which the Generative Olog Toolkit is built.
+In the Sequential Paradigm—the era of classic computing defined by Turing machines and von Neumann architecture—the digital realm was rigorously divided.3 Code operated linearly, executing instructions step-by-step. In this environment, "text" and "image" were ontologically distinct data types. A text file (.txt) and an image file (.jpg) were handled by different codecs, stored in different formats, and processed by different algorithms. The relationship between them was external and syntactic; a script might point to an image file, but the code itself did not "know" the image. As Bajohr notes, in sequential computing, the distinction between text and image is maintained by the very architecture of the system.1
+The Connectionist Paradigm—the era of Artificial Neural Networks (ANNs) and stochastic machine learning—dissolves this distinction. In models like CLIP, DALL-E, or Stable Diffusion, both text and image are encoded as vectors in a shared high-dimensional space.2 The neural network does not "see" pixels or "read" letters; it processes a unified stream of information where a specific vector coordinate can manifest as a word or a visual pattern. Bajohr argues that this leads to a "collapse of the text/image distinction in the technical system".3
+This collapse is the enabling condition for Operative Ekphrasis. In the connectionist system, text is no longer just a label for an image; it is the genetic code that produces the image. The Inception Prompt in GOT v1 is an operative text—it "performs" the image. This transcends the traditional boundary of media, creating a singular "multimodal" data type where semantic meaning is the primary variable.1
+2.2 Defining Operative Ekphrasis
+The term "ekphrasis" has a long and contested history, which GOT v1 reclaims and re-engineers for the AI age.
+2.2.1 The Traditional View: The Museum of Words
+Traditionally, literary studies have defined ekphrasis as "the verbal representation of visual representation".4 James Heffernan, in his seminal Museum of Words, codified this definition, positioning ekphrasis as a literary mode where a poet describes a work of art (e.g., Keats’s "Ode on a Grecian Urn" or Auden’s "Musée des Beaux Arts").6
+This traditional relationship is often characterized as paragonal—a struggle for dominance between the word and the image.4 The poet attempts to capture the frozen silence of the painting in the temporal flow of language, often resulting in a tension between the "male" verbal narrative and the "female" visual stasis. W.J.T. Mitchell expanded on this by identifying three phases of ekphrastic engagement:
+	•	Ekphrastic Indifference: The belief that text and image are separate and cannot bridge the gap.7
+	•	Ekphrastic Hope: The utopian desire for language to "make us see," to achieve a perfect synthesis of word and image.7
+	•	Ekphrastic Fear: The anxiety that the distinction might collapse entirely, leading to a "dangerous promiscuity" between the media, where the image overwhelms the word or the word obliterates the image.7
+2.2.2 The Operative Turn
+GOT v1 posits that Generative AI is the realization of Ekphrastic Fear. The distinction has collapsed. The "promiscuity" is now the default state of the system.
+Operative Ekphrasis, as defined by Bajohr, moves beyond "representation" to "performance".1 In a generative system, the text does not describe an existing image; it brings an image into existence. The code/prompt is a performative speech act. When a user inputs "A cyberpunk city in the rain," the system does not look up a picture of a city; it calculates one based on the semantic coordinates of the text.
+This shift requires a new critical toolkit. We can no longer analyze the "fidelity" of the description to the object, because the object does not exist until the description is processed. Instead, we must analyze the Operation: the transformation of symbolic input into visual output. GOT v1 is designed to measure the efficiency, creativity, and stability of this operation.
+2.3 The Return of Enargeia and Ancient Rhetoric
+To fully grasp the power of the Inception Prompt, we must look back to the origins of ekphrasis in ancient rhetoric. Ruth Webb’s research highlights that for the ancients, ekphrasis was not about "art" but about Enargeia—vividness.10
+In the rhetorical schools of the Roman Empire, ekphrasis was a technique to "bring the subject matter vividly before the eyes" of the listener.12 It was a tool of persuasion. The goal was to turn the listener into a spectator.
+GOT v1 recognizes the AI model as the ultimate "Ideal Listener" of ancient rhetoric. It is a machine designed solely to convert text into Enargeia. The AI takes the "thinnest" description and renders it with "thick" visual reality.
+	•	Ancient Ekphrasis: A human orator uses words to stimulate the visual imagination of a human listener.
+	•	Operative Ekphrasis (GOT v1): A human prompter uses words to stimulate the "visual imagination" (latent generation) of a neural network.
+The metric of success in both cases is the same: does the listener/machine "see" what I see? Does the output match the internal visualization? This alignment is what GOT v1 seeks to control through Viscosity.
+3. The Ontology of the Inception Prompt
+3.1 Defining the Inception Prompt
+In the GOT v1 framework, a prompt is not a simple query. It is an Inception Prompt—a semantic seed designed to propagate a lineage of images. It is the root node of a "Generative Olog" (Ontology Log).
+An Inception Prompt ($P_0$) differs from a standard prompt in its Recursive Potential. It is constructed to be "open" enough to generate a diverse family of outputs ("clade") while being "closed" enough to maintain a distinct ontological identity.
+
+
+$$P_0 \rightarrow \{O_1, O_2, O_3,... O_n\}$$
+
+Where the set $\{O\}$ constitutes a "Prompt-Family."
+This concept draws on the biological metaphor of Cladistics. Just as a single genetic mutation can spawn a new species, a single Inception Prompt spawns a new visual aesthetic. The goal of GOT v1 is to map the "phylogenetic tree" of these generations, tracking how meaning evolves from the parent prompt to its descendants.
+3.2 The Philosophical Dialectic: Wittgenstein vs. Geertz
+Constructing effective Inception Prompts requires navigating the tension between structure and context. GOT v1 operationalizes this tension by contrasting two philosophical theories of meaning: Ludwig Wittgenstein’s "Logical Picture" and Clifford Geertz’s "Thick Description."
+3.2.1 The Logical Picture (High Viscosity)
+In his Tractatus Logico-Philosophicus, Wittgenstein proposes a "picture theory" of language.14 He argues that a proposition is a "logical picture" of a state of affairs. Words have meaning only insofar as they correspond 1:1 with atomic facts in the world. "The cat is on the mat" is true if and only if there is a cat, a mat, and a spatial relationship of "on-ness."
+In GOT v1, a Wittgensteinian Prompt is a strict, structural instruction. It aims for High Viscosity (see Section 5).
+	•	Characteristics: Explicit, denotative, atomic.
+	•	Example: "A red sphere, radius 5cm, resting on a white cube, ambient occlusion, ray-traced shadows."
+	•	Goal: Simulation, accuracy, fidelity. To minimize the "Ekphrastic Gap" ($\Delta$).
+3.2.2 The Thick Description (Low Viscosity)
+Clifford Geertz, in The Interpretation of Cultures, coined the term "Thick Description" to explain ethnographic practice.16 A "thin description" is observing a physical movement (e.g., an eyelid closing). A "thick description" interprets the meaning of that movement within a complex web of cultural significance (e.g., a conspiratorial wink).
+In GOT v1, a Geertzian Prompt is a contextual, connotative instruction. It aims for Low Viscosity.
+	•	Characteristics: Implicit, associative, atmospheric, "Vibe-based."
+	•	Example: "The feeling of 19th-century industrial ennui, a conspiratorial wink in a crowded room, the heavy atmosphere of a Dostoevsky novel."
+	•	Goal: Interpretation, creativity, hallucination. To maximize the "Enargeia" through semantic density.
+3.3 Case Study: Visual Poetry as Operative Ekphrasis
+The distinction between these prompt types is vividly illustrated in the comparison between analog and digital visual poetry.1
+Franz Mon’s non/tot (1964): This is analog visual poetry. The text is typed on a page. The "image" is the arrangement of the letters. The meaning is fixed on the paper. It is a "Logical Picture" in the sense that the spatial arrangement is rigid and explicit.
+Jasmin Meerhoff’s They Lay (2022): This is digital visual poetry generated by code. Here, there are two texts: the Source Code (the Inception Prompt) and the Screen Output (the Generation).
+	•	The Source Code is the operative text. It does not describe the poem; it performs it.
+	•	Bajohr notes that Meerhoff’s work exemplifies Operative Ekphrasis because the code manipulates "symbolic information" to produce a "constellation-image".1
+	•	The "meaning" of the poem is not just in the visible letters, but in the algorithm that generates them. The Inception Prompt here is a set of rules (viscosity controls) that govern the behavior of the text-as-image.
+GOT v1 treats all AI generation as a form of Meerhoff’s poetry. The user writes the code (Prompt), and the machine performs the "constellation" (Image).
+4. Differential Operators: Measuring the "Difference that Makes a Difference"
+4.1 The Bateson Principle
+The core metric of GOT v1 is based on Gregory Bateson’s definition of information: "a difference that makes a difference." In a latent space containing infinite variations, most differences are noise. A slightly different shade of blue is a difference, but does it matter?
+GOT v1 introduces Differential Operators to distinguish between Noise (meaningless variation) and Signal (ontological variation).
+4.2 The First Operator: Delta ($\Delta$)
+Definition: $\Delta$ represents the First-Order Difference or the Ekphrastic Gap. It measures the divergence between the Input Intent ($P$) and the Output Reality ($O$).
+
+$$\Delta = D(P, O)$$
+4.2.1 Quantitative Metrics for $\Delta$
+To satisfy the requirement for "explicit, testable metrics," GOT v1 integrates standard computer vision metrics alongside semantic analysis:
+	•	CLIP Score / Semantic Consistency: Using a Vision-Language Model (like CLIP), we calculate the cosine similarity between the text embedding of the prompt and the image embedding of the output.
+	•	High Score (Low $\Delta$): The image accurately reflects the prompt (Wittgensteinian success).
+	•	Low Score (High $\Delta$): The image has drifted or hallucinated (Geertzian interpretation or failure).
+	•	Structural Similarity Index (SSIM) 18: Used when comparing two generated images ($O_A, O_B$) from the same prompt family.
+	•	Measures frame-wise similarity in luminance, contrast, and structure.
+	•	Used to detect "Mode Collapse" (where the AI generates the same image repeatedly, $\Delta \approx 0$).
+	•	Fréchet Video Distance (FVD) 18: For video generation. Measures the distance between the distribution of generated videos and real-world videos.
+	•	A proxy for "Realism." High FVD implies the "World Model" of the AI is out of sync with the physical world.
+4.2.2 The Semiotics of $\Delta$
+Culturally, $\Delta$ measures the resolution of the Paragone.
+	•	High Positive $\Delta$: The image has added information not in the prompt ("Surplus Enargeia"). This is often desirable in creative workflows.
+	•	High Negative $\Delta$: The image has failed to render key prompt elements (Omission).
+4.3 The Second Operator: Delta-Delta ($\Delta\Delta$)
+Definition: $\Delta\Delta$ represents the Second-Order Difference or Ontological Acceleration. It measures the rate of change of $\Delta$ across a generative family or iteration steps.
+
+$$\Delta\Delta = \frac{d\Delta}{dt} \quad \text{or} \quad \Delta(O_n, O_{n+1}) - \Delta(O_{n-1}, O_n)$$
+4.3.1 Evolutionary Velocity
+$\Delta\Delta$ is the critical metric for "Prompt-Family" planning. It tells the user if the generative process is converging or diverging.
+	•	Convergence ($\Delta\Delta < 0$): The family is stabilizing. The AI has found a "canonical" representation of the Inception Prompt. Variations are becoming purely cosmetic. The "Olog" is solidifying.
+	•	Divergence ($\Delta\Delta > 0$): The family is mutating. Each generation is more different from the last. The system is in a chaotic or "exploratory" phase.
+4.3.2 Identifying "Breakthroughs"
+GOT v1 uses $\Delta\Delta$ triggers to flag Breakthrough Generations. A sudden spike in $\Delta\Delta$ (a "Difference that makes a difference") usually indicates that the model has accessed a new region of latent space.
+	•	Example: A prompt for "Cats" yields standard cats for 10 iterations. Suddenly, iteration 11 produces a "Cat-Cloud hybrid." This is a high $\Delta\Delta$ event. The Olog has expanded.
+4.4 Table 1: Summary of GOT v1 Differential Operators
+Operator
+Name
+Measurement Target
+Theoretical Basis
+Primary Metric
+$\Delta$
+Delta
+Distance between Prompt and Output ($P \leftrightarrow O$)
+Paragone (Heffernan)
+CLIP Score / Cosine Sim
+$\Delta_{sib}$
+Sibling Delta
+Distance between two outputs ($O_A \leftrightarrow O_B$)
+Variance / Noise
+SSIM / LPIPS
+$\Delta\Delta$
+Delta-Delta
+Acceleration of change over iterations
+Information Theory (Bateson)
+Rate of Change of $\Delta$
+$\Phi$
+Physics Error
+Deviation from World Model laws
+Latent Dynamics (LeCun)
+Sampson Error / Epipolar
+5. Viscosity Controls: World Models and Latent Physics
+5.1 Defining Viscosity in the Latent Fluid
+If the latent space is a "fluid" medium of semantic potential, Viscosity ($V$) is the parameter that controls its resistance to flow.
+	•	High Viscosity: The medium is thick. It resists the "push" of the prompt. It adheres strictly to internal priors (gravity, logic, object permanence). It favors the "Likely."
+	•	Low Viscosity: The medium is thin. It yields easily to the prompt. It allows for rapid, fluid transformations. It favors the "Possible" or the "Impossible."
+5.2 The Science of World Models
+The technical implementation of Viscosity in GOT v1 is grounded in the computer science concept of World Models (WMs), as pioneered by David Ha, Jürgen Schmidhuber, and Yann LeCun.18
+5.2.1 The Internal Simulator
+A World Model is an internal representation of the environment that allows an AI agent to simulate the consequences of its actions.18
+	•	Mechanism: The agent observes a state ($S_t$), proposes an action ($A_t$), and the World Model predicts the next state ($S_{t+1}$) and the reward ($R_{t+1}$).20
+	•	Architecture: Modern WMs use architectures like JEPA (Joint-Embedding Predictive Architecture) or Dreamer (Latent Dynamics Model).18 These models do not predict pixels; they predict latent states.
+5.2.2 Physics Alignment and "Sim-to-Real"
+In robotics and autonomous driving, the World Model must be High Viscosity. It must obey the laws of physics. If the internal simulator predicts a car can fly, the agent will crash in the real world.
+	•	Metrics: To enforce High Viscosity, metrics like Sampson Error (Epipolar Geometry consistency) are used to ensure 3D consistency across frames.18
+	•	Sim-to-Real: This is the process of transferring a policy learned in the "World Model" to the "Real World".18 GOT v1 views this as the ultimate validation of a Wittgensteinian Prompt.
+5.3 The "Dreamer" Mode: Viscosity as Art
+However, Ha and Schmidhuber also describe the Dreamer agent, which learns by "dreaming" in its world model.21 In dreams, the strict constraints of reality can be relaxed.
+In GOT v1, Low Viscosity enables Poetic Ekphrasis. By lowering the Viscosity parameter (conceptually similar to "Temperature" in LLMs), we allow the World Model to "hallucinate."
+	•	Hallucination as Feature: As discussed by Bajohr and others, all AI output is technically hallucination.22 "True" output is just hallucination that aligns with training data.
+	•	Creative Hallucination: Low Viscosity allows the model to generate "Counterfactual" or "Surreal" realities. This is the domain of Abstract Expressionism and Visual Poetry.23
+5.4 Operationalizing Viscosity Controls
+GOT v1 proposes a dynamic Viscosity Slider for the prompter:
+	•	V = 1.0 (The Simulator):
+	•	Logic: Strict adherence to World Model physics.
+	•	Use Case: Architectural visualization, product design, "Logical Pictures."
+	•	Philosopher: Wittgenstein.
+	•	Metric: High Physics Consistency (Low Sampson Error).
+	•	V = 0.5 (The Narrator):
+	•	Logic: Narrative consistency but allowed stylistic drift.
+	•	Use Case: Storytelling, cinema, character design.
+	•	Philosopher: Heffernan (Narrative Ekphrasis).
+	•	V = 0.0 (The Dreamer):
+	•	Logic: Pure semantic flow. Physics is optional.
+	•	Use Case: Abstract art, "Thick Description," exploring the latent subconscious.
+	•	Philosopher: Geertz / Bateson.
+	•	Metric: High Divergence, High Semantic Novelty.
+6. Case Studies: The GOT Framework in Action
+6.1 The Shield of Achilles: The Primal World Model
+The Shield of Achilles (Iliad, Book 18) serves as the archetypal case study for GOT v1.6 It demonstrates the theoretical limit of Operative Ekphrasis.
+	•	The Inception Prompt: Homer’s text is a "Thick Description" of a shield. It describes a cosmos: earth, sky, sea, sun, moon, cities at war and peace, vineyards, dancers.24
+	•	The Impossible Object: A static bronze object cannot physically contain moving figures or narrative time. In the "Sequential" world of matter, the Shield is an impossibility. It is a "World Model" compressed into a flat surface.24
+	•	AI Realization: In the "Connectionist" world of GOT v1, the Shield is a valid object. A Video Generation Model (like Sora) driven by Homer’s text can realize the Shield. The "Ekphrastic Hope" (that the image should move and speak) is fulfilled.7
+	•	Viscosity Analysis: To generate the Shield, one would need Variable Viscosity. The "Bronze" requires High Viscosity (materiality), but the "Dancers" require Low Viscosity (dream-logic motion within metal).
+6.2 The Paragone of the Prompt
+The "Paragone" (contest) between word and image is central to the user experience of GOT v1.
+	•	Traditional Paragone: Da Vinci argued painting was superior to poetry because it showed everything at once (Space). Poets argued poetry was superior because it could describe time and the invisible (Time/Soul).4
+	•	GOT Paragone: The contest is now between the User's Prompt (Intent) and the Model's Latent Space (Resistance).
+	•	Ekphrastic Fear: When Viscosity is too low, the Model wins. The image overwhelms the prompt with hallucinations.7
+	•	Ekphrastic Indifference: When Viscosity is too high, the Prompt wins, but the image is lifeless.7
+	•	Success: Operative Ekphrasis is the "Draw".27 The fold where word and image become indistinguishable.
+6.3 Mon vs. Meerhoff: The Evolution of Textual Performance
+Comparing Franz Mon (non/tot) and Jasmin Meerhoff (They Lay) illustrates the shift from Analog to Operative Ekphrasis.1
+	•	Mon (Analog): The typewriter is a machine, but the text is static. The "performance" happened once, by the typist.
+	•	Meerhoff (Digital): The code is a "performing text." It is an Inception Prompt that executes a visual procedure. The "constellation" of letters is dynamic.
+	•	GOT v1 Insight: This proves Bajohr’s point that code is a "second text".1 GOT v1 is a toolkit for writing this second text with the intent of producing specific ontological families.
+7. Metrics and Evaluation: The GOT v1 Dashboard
+To satisfy the user requirement for "explicit, testable metrics," GOT v1 proposes a standardized evaluation dashboard for Generative Ologs. This dashboard moves beyond subjective aesthetic judgment to objective ontological measurement.
+7.1 Table 2: The GOT v1 Evaluation Matrix
+Metric Category
+Specific Measure
+Function
+Ideal Range
+Theoretical Anchor
+Fidelity
+CLIP Score
+Measures $\Delta$ (Text-Image Alignment).
+$> 0.30$
+Wittgenstein (Logical Picture)
+Coherence
+SSIM / FVD
+Measures $\Delta_{sib}$ (Internal Family Consistency).
+$> 0.70$ (Sim) / $< 0.40$ (Art)
+Ha/Schmidhuber (World Models)
+Novelty
+Cluster Distance
+Measures $\Delta\Delta$ (Distance from Training Cluster).
+High for Creativity
+Bateson (Difference)
+Physics
+Sampson Error
+Measures 3D/Geometric Consistency.
+$< 1.0$ px
+LeCun (JEPA/Sim-to-Real)
+Vividness
+Enargeia Index
+Composite of Saliency & Semantics.
+Variable
+Webb (Rhetoric)
+7.2 The Enargeia Index
+The Enargeia Index is a novel composite metric proposed by GOT v1. It combines Visual Saliency Maps (what parts of the image draw the eye) with Semantic Relevance.
+	•	It answers the ancient rhetorical question: "Does this bring the object before the eyes?".10
+	•	It penalizes "clutter" (meaningless detail) and rewards "focus" (meaningful detail).
+7.3 Testing for Hallucination (H-Factor)
+The H-Factor measures the deviation of the generated object from the "ground truth" of the World Model.20
+	•	In a "Simulator" context, H-Factor is an error rate.
+	•	In a "Dreamer" context, H-Factor is a creativity score. GOT v1 allows the user to invert the H-Factor based on the goal: "Hallucination is not a bug, it's a feature of the connectionist imagination".22
+8. Conclusion: Toward Post-Artificiality
+8.1 The Dissolution of the Human/Machine Divide
+The ultimate implication of GOT v1 is the move toward Post-Artificiality.28 As the distinction between human-written text and machine-generated image collapses, so too does the distinction between "natural" and "artificial" creativity.
+	•	Pre-Artificial: Human creates art manually.
+	•	Artificial: Machine creates art simulating human.
+	•	Post-Artificial: The origin is irrelevant. The focus is on the Operation. Does the Inception Prompt successfully generate the Olog?
+8.2 The Humanist in the Loop
+Far from making the human obsolete, GOT v1 places the human in the critical role of Ontologist. The machine has the "Museum of Words" (Latent Space) and the "World Model" (Physics Engine), but it lacks the Intent.
+	•	The human provides the "Thick Description."
+	•	The human adjusts the "Viscosity."
+	•	The human measures the "Delta."
+8.3 Final Synthesis
+The Generative Olog Toolkit (GOT v1) is a theoretical framework for "Thinking with AI".2 It transforms the chaotic flood of generative imagery into a structured, navigable ontology. By applying the rigor of Differential Operators and the nuance of Viscosity Controls, users can master the Operative Ekphrasis of the connectionist age. We are no longer just describing the world; we are prompting it into existence, measuring every difference that makes a difference along the way.
+Works cited
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	Operative ekphrasis: The collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.researchgate.net/publication/372400146_Operative_ekphrasis_The_collapse_of_the_textimage_distinction_in_multimodal_AI_PLEASE_REFER_TO_PUBLISHED_VERSION
+	•	Miniatures of reality - Massey Research Online, accessed January 9, 2026, https://mro.massey.ac.nz/bitstreams/d6b74b86-4848-44e0-8377-16188792970e/download
+	•	A NEW LOOK AT AN OLD TOPIC: EKPHRASIS REVISITED, accessed January 9, 2026, https://editorarevistas.mackenzie.br/index.php/tl/article/download/10365/6406/42134
+	•	Of Human Suffering: The Essay and Ekphrasis (Chapter 40), accessed January 9, 2026, https://resolve.cambridge.org/core/books/cambridge-history-of-the-british-essay/of-human-suffering-the-essay-and-ekphrasis/BF9217EBA894757808BEFCB701BBEF18
+	•	Ekphrasis and the Other - Centre for Comparative Literature, accessed January 9, 2026, https://complit.utoronto.ca/wp-content/uploads/COL1000-Week11-Nov25_WJT_Mitchell.pdf
+	•	Surpassing the Ekphrastic Experience in Modernist Poetry, accessed January 9, 2026, https://ijels.com/upload_document/issue_files/11-IJELS-FEB-2019-48-Surpassingthe.pdf
+	•	A Short History of Ekphrasis and its Demanding Audience, accessed January 9, 2026, http://themetropolitancomplex.com/wp/wp-content/uploads/GRONLUND.pdf
+	•	Ekphrasis | Oxford Research Encyclopedia of Literature, accessed January 9, 2026, https://oxfordre.com/literature/display/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1057?p=emailAKgLd8rOQkEvo&d=/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1057
+	•	Ekphrasis, Imagination and Persuasion in Ancient Rhetorical Theory ..., accessed January 9, 2026, https://www.routledge.com/Ekphrasis-Imagination-and-Persuasion-in-Ancient-Rhetorical-Theory-and-Practice/Webb/p/book/9781138247819
+	•	Ekphrasis, Imagination and Persuasion in Ancient Rhetorical Theory ..., accessed January 9, 2026, https://bmcr.brynmawr.edu/2009/2009.10.03/
+	•	Ekphrasis, Imagination and Persuasion in Ancient Rhetorical Theory ..., accessed January 9, 2026, https://www.perlego.com/book/1635285/ekphrasis-imagination-and-persuasion-in-ancient-rhetorical-theory-and-practice-pdf
+	•	Why Privacy Doesn't Mean What Lawyers Think, accessed January 9, 2026, https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=1736&context=wlufac
+	•	"“You Keep Using That Word”: Why Privacy Doesn't Mean What ..., accessed January 9, 2026, https://digitalcommons.osgoode.yorku.ca/ohlj/vol59/iss2/1/
+	•	Grounded Interpretation in NLP Through an Ethnographic Lens, accessed January 9, 2026, https://summit.sfu.ca/_flysystem/fedora/2023-09/etd22680.pdf
+	•	Speech, Memory, and Meaning Intertextuality in Everyday Language, accessed January 9, 2026, https://coehuman.uodiyala.edu.iq/uploads/Coehuman%20library%20pdf/English%20library%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%A7%D9%86%D9%83%D9%84%D9%8A%D8%B2%D9%8A/linguistics/Speech,_Memory,_and_Meaning_Intertextuality_in_Everyday_Language.pdf
+	•	World Models: The Next Leap Beyond LLMs | by Graison Thomas, accessed January 9, 2026, https://medium.com/@graison/world-models-the-next-leap-beyond-llms-012504a9c1e7
+	•	PERSPECTIVE: The Vast World Beyond Large Language Models, accessed January 9, 2026, https://www.hstoday.us/featured/the-vast-world-beyond-large-language-models/
+	•	World Model in Artificial Intelligence: The Key to Achieving AGI, accessed January 9, 2026, https://deepfa.ir/en/blog/world-model-ai-agi-future
+	•	What Are World Models? The AI Architecture That Learns to Dream, accessed January 9, 2026, https://rewire.it/blog/what-are-world-models-ai-path-to-understanding-reality/
+	•	A Questionnaire on Art and Machine Learning - UCSB MAT, accessed January 9, 2026, https://www.mat.ucsb.edu/~g.legrady/academic/courses/24f255/october189.pdf
+	•	(PDF) AI-Generated Abstract Expressionism Inspiring Creativity ..., accessed January 9, 2026, https://www.researchgate.net/publication/387751849_AI-Generated_Abstract_Expressionism_Inspiring_Creativity_Through_Ismail_A_MAgeed's_Internal_Monolgues_in_Poetic_Form
+	•	Hector in the Alabaster Chamber: Ekphrasis and its Discontents, accessed January 9, 2026, https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/EB2A16075270954B66B92F690DE9CE77/9781800103641c5_p155-190_CBO.pdf/hector-in-the-alabaster-chamber-ekphrasis-and-its-discontents.pdf
+	•	Space, Narrative, and Historical Imagination in Livy's Ab Urbe Condita, accessed January 9, 2026, https://brill.com/downloadpdf/display/title/72459.pdf
+	•	your encounter with ekphrasis - ojs tnkul, accessed January 9, 2026, https://ojs.tnkul.pl/index.php/rh/article/download/5514/5318/
+	•	Blurring the boundaries – ekphrasis as a fold - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/320178332_Blurring_the_boundaries_-_ekphrasis_as_a_fold
+	•	Your search: "author:Bajohr, Hannes" - eScholarship.org, accessed January 9, 2026, https://escholarship.org/search/?q=author%3ABajohr%2C%20Hannes
+	•	Thinking with AI Machine Learning the Humanities, accessed January 9, 2026, http://openhumanitiespress.org/books/download/Bajohr_2025_Thinking-With-AI.pdf

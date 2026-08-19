@@ -1,0 +1,71 @@
+Imagetext → Worldtext: Prompting as Executable Description
+Subtitle: Operative Ekphrasis as a Practice Theory for Multimodal Generation
+Authors: Watson Hartsoe, Jay David Bolter
+Abstract
+This paper argues that prompting in multimodal generative AI is best understood as operative ekphrasis: description designed to produce, not only to depict. We connect a humanities lineage of ekphrasis, imagetext, and thick description to a contemporary interface practice in which small changes in framing can yield large changes in output. To make this legible across media studies, HCI, and AI engineering, we propose a simple comparative method based on prompt differentials: $\Delta$ (change in output under a one-variable prompt tweak) and $\Delta\Delta$ (change in the change across near-neighbor tweaks). We define pragmatic metrics—salience, option space, obligation, reversibility, legibility, anchoring, style lock, and execution—and show how they support analysis without hype. The result is a practice theory of prompting that treats description as an instrument with traces, constraints, and refusal rules, and that clarifies how “words to worlds” alters authorship, accountability, and the role of interpretive craft.
+1. Introduction
+Generative AI turns description into an interface action that produces artifacts. While often framed as a radical novelty, this operational force extends a long lineage of ekphrasis—the rhetorical tradition of bringing a subject before the eyes of a listener through crafted description.1 What distinguishes the current moment is the scale, speed, and sensitivity of multimodal models, which amplify small framing changes into large, often unpredictable output differences.2 We call this practice operative ekphrasis—a term adapted from Hannes Bajohr to describe text that does not merely represent an image but effectively brings it about through the manipulation of symbolic information.34
+To study this without mythologizing the technology, we propose a method grounded in material constraints rather than metaphor. By treating the prompt as a "worldtext"—an executable description—we can measure its effects through controlled perturbations. Our method compares prompts using Prompt Differentials: $\Delta$ (the first-order change in output) and $\Delta\Delta$ (the sensitivity of that change to context). Using a small set of practice-facing metrics, we demonstrate how description functions as an intervention in the latent space of the model.
+2. Background: Ekphrasis, Imagetext, Thick Description
+Ekphrasis names a craft tradition in which description is staged as an event with intended effects. Historically, this rhetorical exercise was defined by enargeia, the capability of language to create a vivid presence in the mind of the audience.1 In the context of generative AI, this "audience" becomes the model, and the "vivid presence" becomes a rendered artifact.
+Imagetext scholarship further illuminates this dynamic by showing that word and image have long been co-constitutive rather than cleanly separable. W.J.T. Mitchell’s concept of the "imagetext" highlights the composite nature of representation, where the verbal and visual are sutured together.5 In multimodal models, this theoretical suture becomes technical fact: the "connectionist paradigm" of neural networks processes text and image as compatible vectors within the same mathematical space, collapsing the distinction between the two mediums.34
+To navigate this collapsed space, we rely on Clifford Geertz’s notion of "thick description." Geertz distinguished between a "thin description" (a factual account of a physical twitch) and a "thick description" (the interpretation of that movement as a conspiratorial wink).67 In prompting, thick description is the disciplined practice of specifying context, roles, and stakes to differentiate a "hallucination" (a statistical twitch) from an "aligned generation" (a meaningful wink).8 These lineages allow us to treat prompting not as a private trick or "prompt engineering" folklore, but as a cultural technique with a workable vocabulary and standards of accountability.
+3. Concept: Operative Ekphrasis
+Operative ekphrasis is description engineered to cause specific kinds of outputs under platform constraints. Unlike traditional ekphrasis, which is representational (describing an object that exists), operative ekphrasis is performative (producing an object that does not yet exist).4
+A prompt is never "just text"; it includes an implied role structure, norms, evidence expectations, and an output form. When a user inputs a prompt, the model converts this "executable description" into a distribution over potential artifacts.9 This process makes outputs highly sensitive to local perturbations—a phenomenon measured in NLP as "prompt sensitivity," where minor variations (like synonyms or spacing) can drastically alter the resulting content.102
+Because outputs are contingent on these hidden sensitivities, operative ekphrasis requires traces, counterexamples, and refusal rules to remain accountable. It reframes prompt craft as specification under uncertainty. We are not replacing authorship; we are engaging in a form of "artificial semantics" where we steer the machine's statistical intuition through precise descriptive constraints.4
+4. Method: Prompt Differentials ($\Delta$, $\Delta\Delta$) and Metrics
+We compare prompts by changing one variable at a time and observing stable shifts in outputs. This method relies on two differentials:
+	•	$\Delta$ (Delta): Measures the first-order change in output under a micro-tweak (e.g., changing "austere" to "simple"). This corresponds to "prompt sensitivity" in technical literature.2
+	•	$\Delta\Delta$ (Gamma): Compares changes in the change itself to detect framing sensitivity. For example, does adding an "academic" frame make the model more or less sensitive to a subsequent change in tone?
+We evaluate these differentials using a compact set of pragmatic metrics that track what the prompt makes easier or harder to do:
+	•	Salience: What features does the prompt force into the foreground?
+	•	Option Space: How widely does the prompt permit the model to diverge? (High option space = high entropy/creativity; Low option space = strict adherence).
+	•	Obligation: What does the prompt require the model to include (e.g., citations, specific formats)?
+	•	Reversibility: Can the output be easily undone or re-interpreted, or does the prompt lock the model into a specific path (e.g., a "jailbreak" or toxic output)? 11
+	•	Legibility: How clear is the causal link between the prompt's instruction and the artifact's features?
+	•	Anchoring: How well does the prompt resist drift (hallucination) through "thick" context? 2
+This method does not guarantee "truth," but it guarantees readable comparisons, exposing exactly where interpretation enters the loop.
+5. Case: Thick Prompting as Workflow
+We present a workflow case in which prompts evolve through constraints, tests, and revisions. We analyze a "paper seed" drafting task to demonstrate the $\Delta$/$\Delta\Delta$ method.
+Baseline Prompt ($P_{base}$):
+	•	Frame: Role="Auditor", Norms="Scientific".
+	•	Constraint: "State thesis in 1 sentence. No metaphor."
+	•	Output Observation: The model produces a dry, factual summary.
+First-Order Tweak ($\Delta$):
+	•	Tweak: Change Role to "Judge" (Metric: Legibility).
+	•	Observed $\Delta$: The output shifts from descriptive ("The paper argues...") to evaluative ("The paper successfully argues..."). The shift in role forces a shift in epistemic stance.
+Second-Order Tweak ($\Delta\Delta$):
+	•	Tweak A: Add "Require trace artifacts" (Metric: Anchoring).
+	•	Tweak B: Add "Forbid adjectives" (Metric: Style Lock).
+	•	Observed $\Delta\Delta$: When Tweak A is present, Tweak B has a diminished effect. The requirement for concrete evidence (traces) "anchors" the text so strongly that the style constraint (no adjectives) becomes secondary. The "thickness" of the evidence requirement stabilizes the output against stylistic fluctuations.
+Counterexample (Failure Mode):
+	•	Prompt: "Write a paper about the vibe of the image." (Thin Description).
+	•	Result: The model "hallucinates" metaphors and vague associations ("The image feels like a whisper...").
+	•	Analysis: Without the "thick" constraints of role, obligation, and evidence, the model defaults to high-probability clichés. This failure demonstrates that "vibe" is a high-sensitivity, low-anchoring variable.
+This case demonstrates that norms and roles embedded in prompts actively shape what counts as an acceptable output, confirming that prompt engineering is a practice of constraint management.4
+6. Implications for Media Studies, HCI, and AI Engineering
+A practice theory of operative ekphrasis translates into distinct stakes for different fields:
+	•	For Media Studies: Prompting is a contemporary site of textual action where description organizes agency. It is not just about "reading" generated images but analyzing the "worldtext" that wrote them. The prompt is the interface where the "pictorial turn" (Mitchell) meets the "generative turn".12
+	•	For HCI: Prompts are interface objects. Their properties—legibility, reversibility, and obligation—can be designed and evaluated like any other UI element. The "double logic of remediation" (Bolter & Grusin) applies here: the prompt interface is hypermediated (we stare at the text box) to produce an immediate output (the image/text).1314
+	•	For AI Engineering: Prompt craft is specification work. The use of $\Delta$ and $\Delta\Delta$ offers a rigorous alternative to "vibe-checking" outputs. It aligns with "causal tracing" methods that seek to identify which model layers are responsible for specific behaviors.1516
+Across all fields, accountability shifts from the correctness of a single output to the governance of frames. We move from asking "Is this image true?" to "What constraints produced this image?"
+7. Conclusion
+Operative ekphrasis names the operational turn of description in multimodal generation. By applying the comparative method of $\Delta$ and $\Delta\Delta$, we provide a disciplined way to study prompt effects without turning craft into mystique. Thick prompting is revealed not as verbosity, but as a workflow of constraint management—a "thick description" that stabilizes the volatile "twitch" of the latent space into the meaningful "wink" of a specific artifact. The method is modest: it supports comparison, not final interpretation. Yet, its payoff is a clearer, shared language for studying and designing the description that acts.
+Works cited
+	•	Chapter 1 Toward a Definition of Ekphrasis in Literature and Film - Brill, accessed January 9, 2026, https://brill.com/downloadpdf/book/9789401206273/B9789401206273-s002.xml
+	•	POSIX: A Prompt Sensitivity Index For Large Language Models, accessed January 9, 2026, https://aclanthology.org/2024.findings-emnlp.852.pdf
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	Ekphrasis and the Other - Centre for Comparative Literature, accessed January 9, 2026, https://complit.utoronto.ca/wp-content/uploads/COL1000-Week11-Nov25_WJT_Mitchell.pdf
+	•	Thick description - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Thick_description
+	•	Thick Description: - Toward an Interpretive Theory of Culture 1973, accessed January 9, 2026, https://people.ucsc.edu/~ktellez/geertz1973.pdf
+	•	(PDF) Thick Description In Qualitative Research - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/publication/387601420_Thick_Description_In_Qualitative_Research
+	•	Operative Ekphrasis and the Reduction of Fashion Through ..., accessed January 9, 2026, https://www.researchgate.net/publication/396119864_Possible_Fashion_Images_Operative_Ekphrasis_and_the_Reduction_of_Fashion_Through_Multimodal_AI
+	•	[PDF] Benchmarking Prompt Sensitivity in Large Language Models, accessed January 9, 2026, https://www.semanticscholar.org/paper/Benchmarking-Prompt-Sensitivity-in-Large-Language-Razavi-Soltangheis/949695f4ec69ee9267f7a7dba06e3e45ba9c898a
+	•	Remediation - DSS EDIT, accessed January 9, 2026, https://dss-edit.com/plu/Bolter-Grusin_Remediation.pdf
+	•	W. J. T. MITCHELL'S CORE IDEAS ON IMAGE AND TEXT, accessed January 9, 2026, https://journal.ugm.ac.id/wisdom/article/download/100432/41405
+	•	Remediation: Understanding New Media by Jay David Bolter, accessed January 9, 2026, https://www.goodreads.com/book/show/126280.Remediation
+	•	Jay David Bolter and Richard Grusin, Remediation Understanding ..., accessed January 9, 2026, https://www.scribd.com/document/539659524/Jay-David-Bolter-and-Richard-Grusin-Remediation-Understanding-New-Media
+	•	Causal Tracing of Object Representations in Large Vision Language ..., accessed January 9, 2026, https://arxiv.org/html/2511.05923v3
+	•	LLM Tracing: The Foundation of Reliable AI Applications - Comet, accessed January 9, 2026, https://www.comet.com/site/blog/llm-tracing/

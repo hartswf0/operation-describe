@@ -1,0 +1,87 @@
+Operative Ekphrasis: "Thick Prompting" and the Ritual of the Latent Space
+Authors: Watson Hartsoe & Jay David Bolter
+Abstract
+Generative AI fundamentally alters the rhetorical tradition of ekphrasis, shifting it from a representational mode ("words describing images") to a performative one ("words executing images"). Drawing on Hannes Bajohr’s concept of "Operative Ekphrasis" and W. J. T. Mitchell’s theory of the "imagetext," this paper argues that the latent space of diffusion models collapses the ancient distinction between signifier and signified. We propose the framework of "Thick Prompting"—adapting Clifford Geertz’s anthropological "thick description"—to analyze prompt engineering not as technical optimization, but as a ritualistic, incantatory practice. Through an analysis of the "Carrot Uprising" project (a workflow utilizing LDraw, POML, and iterative feedback loops), we demonstrate how heterogeneous prompts function as "worldtexts" that probe the probabilistic density of the model. Ultimately, we posit that Generative AI constitutes both the vindication and the vitiation of the ekphrastic tradition: it fulfills the magical ambition to make the image speak, but in doing so, dissolves the aesthetic distance that defined the genre.
+Keywords: Operative Ekphrasis, Thick Prompting, Latent Space, W. J. T. Mitchell, Generative AI, Digital Ritual.
+I. Introduction: The Silent Shield and the Speaking Machine
+The history of Western aesthetics is often framed as a paragone, a contest between the verbal and the visual. At the center of this contest lies the "primal scene" of ekphrasis: the Shield of Achilles in Book 18 of Homer's Iliad. In this foundational text, the god Hephaestus forges a shield of such complexity—depicting dancing youths, ploughed fields, and the cosmos itself—that it seems to move and sound.1 Traditionally, the shield is classified as "notional ekphrasis": a vivid description of an object that never existed in physical reality, but only in the "museum of words" created by the poet.
+James Heffernan argues that the poet’s task in ekphrasis is to force the silent, static image to speak, "giving voice to a mute art object".3 For millennia, this voice was metaphorical; the image remained silent, requiring the poet's language to lend it temporality and narrative. The "gap" between the word and the image was the engine of the art form.3
+Generative AI changes the ontology of this act. When a user prompts a model with "Shield of Achilles," the text does not describe the shield; it manufactures it. The prompt is no longer a representation of a visual object, but the executable code that brings it into being.4 This paper argues that Generative AI represents a transition from Representational Ekphrasis (literary) to Operative Ekphrasis (algorithmic). To understand this shift, we require a new methodological framework we call "Thick Prompting."
+II. Theoretical Framework: Hope, Fear, and Magic
+The Magical Verdict
+The rhetorical power of ekphrasis has historically been viewed through the lens of "dangerous magic." The relationship between the poet and the image-maker mirrors the relationship between the prompt engineer and the latent space:
+	•	Theurgy (Hollander): The poet acts as a god building a cosmos. In the context of AI, this is the "architect" who uses prompts to instantiate entire worlds.
+	•	Alchemy (Krieger): The futile attempt to turn "word-lead" into "image-gold." Krieger argued that the "ekphrastic principle" was an illusion of the natural sign. Generative AI, however, arguably operationalizes this alchemy, successfully transmuting the semantic (text) into the optic (pixel).
+	•	Goetia (Mitchell): A form of demonology—calling up spirits or idols. Mitchell warns of the "ekphrastic fear" that the image might actually "come alive" and displace the word.3
+Mitchell’s Prediction and the Imagetext
+W. J. T. Mitchell’s concept of the "imagetext" (or image-text) anticipates the mechanics of diffusion models. Mitchell described the imagetext as a "sutured, synthetic form" where the estrangement of the image/text division is overcome.3 He outlined three phases of fascination:
+	•	Ekphrastic Indifference: The belief that words and images are fundamentally incompatible.
+	•	Ekphrastic Hope: The utopian desire for the gap to vanish, for language to "make us see."
+	•	Ekphrastic Fear: The terror that if the gap vanishes, the "otherness" of the image will be lost, leading to idolatry.3
+We argue that the Latent Space of a model like Stable Diffusion or CLIP is the literal, mathematical realization of Mitchell’s "Imagetext." It is a high-dimensional vector space where the distinction between the text encoder and the image decoder collapses.5 In this space, the "hope" of perfect translation is achieved, but the "fear" of the image's loss of autonomy is also realized.
+III. Operative Ekphrasis: The Performance of Compiling
+Defining the Term
+Hannes Bajohr (2024) coins the term "Operative Ekphrasis" to describe this new regime. He argues that in the digital realm, ekphrastic relationships are "performative rather than representational".6
+"Operative Ekphrasis is not imitating an image through text, but text effectively bringing about an image." 6
+In this mode, the text functions as a compiler. Just as code compiles into software, the prompt compiles into visual media. This is a manipulation of symbolic information (operation) rather than a figurative description.6
+Beyond the Image: The Worldtext
+This operation is rapidly evolving from generating static 2D images to generating 3D environments. We are moving from the "Imagetext" to the "Worldtext".7 In Buddhist tantric linguistics, the "worldtext" implies that the letters of language are the fundamental constituents of reality.7 In the era of Spatial Intelligence and Large World Models (like those developed by World Labs), this becomes technically true: the text prompt generates a consistent, physically simulated 3D world.8 We are no longer prompting for a "picture of a shield," but for the shield itself as a 3D asset with physics and geometry.
+IV. Methodology: "Thick Prompting" as Ritual
+The Geertzian Turn
+To analyze the human element of this loop, we pivot to anthropology. Clifford Geertz distinguished between a "twitch" (a physical contraction) and a "wink" (a socially coded signal). "Thick Description" is the methodology that allows us to understand the context, intent, and ritual behind the wink.10
+We propose "Thick Prompting":
+	•	A "Thin Prompt" is a raw search query (e.g., "carrot"). It suffers from regression to the mean and low control; it is merely a "twitch" in the latent space.
+	•	"Thick Prompting" is layered, context-rich, and iterative. It handles the "viscosity" of the model—its tendency to stick to training data stereotypes.4
+The Ritual
+Prompting is not a search query; it is a dialogue or incantation. The user creates a "dense literary object" to force the model out of its default probabilities. This involves a ritualistic exchange of "negative prompts," "style modifiers," and parameter tuning.4 The prompter acts as a ritual specialist, navigating the "statistical unconscious" of the internet.11
+V. Case Study: The Carrot Uprising
+To illustrate Operative Ekphrasis and Thick Prompting, we analyze the "Carrot Uprising" project (Hartsoe). This project treats the humble carrot not just as a visual subject, but as an architectural unit in a generative workflow.
+The Artifact
+The project imagines a civilization or structure built from the organic morphology of Daucus carota.12 The goal was to translate the biological properties of the root (tapering, orange cortex, green umbels) into a "legOS" system of modular construction.12
+The Workflow (legOS)
+The project utilized a "legOS" (modular AI) workflow 14, treating different models as interchangeable blocks:
+	•	Geometric Code (LDraw): The prompt did not ask for a pixel image, but for an LDraw file structure.15 The prompt forced the LLM to write valid LDraw syntax (e.g., 1 4 0 0 0 1 0 0 0 1 3001.dat), transforming the text directly into geometric primitives rather than raster graphics.
+	•	Orchestration (POML): These assets were organized using POML (Prompt Orchestration Markup Language) [20]. POML acts as the "worldtext" container, defining the spatial relationships between the generated "carrot-bricks" and the environment.
+	•	Intermedial Compiling: The LDraw/POML code was "compiled" into a visual representation using a renderer, which was then fed into an image-to-video model (LumaLabs Ray3).17
+	•	The Residue: The final output is not just the video, but the residue of the operation—the chain of text, code, and geometry that produced it.
+Analysis
+This case study demonstrates Operative Ekphrasis in action. The prompt was a set of executable instructions (LDraw/POML) that "brought about" the image.6 It also demonstrates Thick Prompting: a simple prompt ("make a lego carrot") would have resulted in a generic hallucination. The "thick" prompt required knowledge of file headers, part numbers, and coordinate systems, functioning as a ritual invocation of the model's technical knowledge base.
+VI. Conclusion: Vindication and Vitiation
+Generative AI presents a paradox for the history of ekphrasis.
+Vindication: AI fulfills the "Ekphrastic Hope".3 The "alchemy" works; the word creates the world. The "Theurgy" is real; the poet commands the latent space to build a cosmos. The "worldtext" of the prompt effectively generates the reality of the image.
+Vitiation: By succeeding, AI spoils the game. The aesthetic pleasure of traditional ekphrasis relied on the impossibility of the task—the "gap" between the silent image and the speaking word.3 When the machine speaks immediately, that gap dissolves. The "museum of words" becomes a database of "styles".4
+The Blunt Sword: We conclude with the metaphor of the "blunt sword." If traditional ekphrasis was a sharp blade trying to cut through the silence of the image, AI is a "blunt sword that cuts through the Gordian knot of the natural sign." It solves the problem by brute force (computation). The future of media studies lies in analyzing the performance of the prompt—the ritual of the "Thick Prompt"—rather than just the generated image. We are left with the "residue" of the operation, and it is there that the new poetry resides.
+Selected Bibliography
+	•	Bajohr, Hannes. (2024). "Operative Ekphrasis: The Collapse of the Text/Image Distinction in Multimodal AI." Word & Image, 40(2): 77–90. 5
+	•	Geertz, Clifford. (1973). The Interpretation of Cultures. Basic Books. 10
+	•	Heffernan, James. (1993). Museum of Words: The Poetics of Ekphrasis from Homer to Ashbery. University of Chicago Press. 18
+	•	Hollander, John. (1988). "The Poetics of Ekphrasis." Word & Image, 4(1): 209-219.
+	•	Krieger, Murray. (1992). Ekphrasis: The Illusion of the Natural Sign. Johns Hopkins University Press.
+	•	Meyer, Roland. (2023). "The New Value of the Archive: AI Image Generation and the Visual Economy of ‘Style’." Image, 37(1). 4
+	•	Mitchell, W. J. T. (1994). "Ekphrasis and the Other." Picture Theory. University of Chicago Press. 3
+	•	Verdicchio, Mario. (2024). "Ekphrasis and Prompt Engineering." Studi Di Estetica, LII(IV): 59–78. 19
+Works cited
+	•	Metal Maidens, Achilles' Shield, and Pandora: The Beginnings of ..., accessed January 9, 2026, http://worldmasterpieces1ltu.pbworks.com/w/file/fetch/94790435/130.1.francis.pdf
+	•	The shield of Achilles in Graeco-Roman word and image, accessed January 9, 2026, https://www.researchgate.net/publication/271821366_Ekphrasis_at_the_forge_and_the_forging_of_ekphrasis_The_shield_of_Achilles_in_Graeco-Roman_word_and_image
+	•	Ekphrasis and the Other - Centre for Comparative Literature, accessed January 9, 2026, https://complit.utoronto.ca/wp-content/uploads/COL1000-Week11-Nov25_WJT_Mitchell.pdf
+	•	The New Value of the Archive. AI Image Generation ... - ResearchGate, accessed January 9, 2026, https://www.researchgate.net/profile/Roland-Meyer-4/publication/371619139_The_New_Value_of_the_Archive_AI_Image_Generation_and_the_Visual_Economy_of_'Style'/links/648c5874b9ed6874a5b33992/The-New-Value-of-the-Archive-AI-Image-Generation-and-the-Visual-Economy-of-Style.pdf
+	•	the collapse of the text/image distinction in multimodal AI, accessed January 9, 2026, https://www.researchgate.net/publication/380812173_Operative_ekphrasis_the_collapse_of_the_textimage_distinction_in_multimodal_AI
+	•	Operative ekphrasis: the collapse of the text/image distinction in ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/02666286.2024.2330335
+	•	Language in the Buddhist Tantra of Japan: Indic Roots of Mantra ..., accessed January 9, 2026, https://dokumen.pub/language-in-the-buddhist-tantra-of-japan-indic-roots-of-mantra-9781350037267-9781350038110-9781350037274.html
+	•	World Labs, accessed January 9, 2026, https://www.worldlabs.ai/
+	•	Spatial Intelligence: Unlocking 3D Understanding in AI - Medium, accessed January 9, 2026, https://medium.com/second-level-thinking/emerging-technology-spatial-intelligence-unlocking-3d-understanding-in-ai-d29e1c37d7c9
+	•	Wink or Twitch: The Case for Ethnography in Communications, accessed January 9, 2026, https://www.neboagency.com/blog/wink-or-twitch-the-case-for-ethnography-in-communications/
+	•	Images from Images: Generative AI and the Reconfiguration of the ..., accessed January 9, 2026, https://www.tandfonline.com/doi/full/10.1080/17514517.2025.2522517
+	•	Carrot - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Carrot
+	•	Lego - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/Lego
+	•	The Lego-Building Approach to AI Infrastructure | by Charlene Li, accessed January 9, 2026, https://medium.com/@charleneli_12015/the-lego-building-approach-to-ai-infrastructure-b39c4bd38986
+	•	LDraw - Wikipedia, accessed January 9, 2026, https://en.wikipedia.org/wiki/LDraw
+	•	LDraw File Format Specification, accessed January 9, 2026, https://www.ldraw.org/article/218.html
+	•	Подкаст на Вайбе - بودكاست - Apple Podcasts, accessed January 9, 2026, https://podcasts.apple.com/ae/podcast/%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82-%D0%BD%D0%B0-%D0%B2%D0%B0%D0%B9%D0%B1%D0%B5/id1692938137?l=ar
+	•	Of Human Suffering: The Essay and Ekphrasis (Chapter 40) - The ..., accessed January 9, 2026, https://resolve.cambridge.org/core/books/cambridge-history-of-the-british-essay/of-human-suffering-the-essay-and-ekphrasis/BF9217EBA894757808BEFCB701BBEF18
+	•	Ekphrasis and prompt engineering. - Studi di estetica, accessed January 9, 2026, https://journals.mimesisedizioni.it/index.php/studi-di-estetica/article/download/1048/1477/
+	•	Microsoft POML : Programming Language for Prompting - Medium, accessed January 9, 2026, https://medium.com/data-science-in-your-pocket/microsoft-poml-programming-language-for-prompting-adfc846387a4
+
+
+
+
